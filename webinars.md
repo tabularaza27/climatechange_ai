@@ -2,7 +2,7 @@
 layout: default
 title: 'Tackling Climate Change with Machine Learning'
 description: 'Webinars - Climate Change AI'
-og_image_url: 'https://www.climatechange.ai/images/webinar_equity_02-2021.jpg'
+og_image_url: 'https://www.climatechange.ai/images/webinar_equity_02-2021.png'
 og_image_type: 'image/png'
 og_image_width: 1063
 og_image_height: 555
@@ -14,7 +14,7 @@ og_image_height: 555
 
 <section class='webinar card'>
   <div class='webinar-header-image'>
-    <img src='/images/webinar_equity_02-2021.jpg' alt='February 11, 2021 Webinar'>
+    <img src='/images/webinar_equity_02-2021.png' alt='February 11, 2021 Webinar'>
   </div>
 
   <h3 class='webinar-title'>Webinar: Equitable Climate Mitigation</h3>
@@ -27,7 +27,7 @@ og_image_height: 555
 
     <br><br>
 
-    <a href="https://www.linkedin.com/mwlite/in/castellanossergio" target="_blank">Sergio Castellanos</a> is a Berkeley Energy & Climate Institute – Tecnológico de Monterrey (BECI–ITESM) Energy Fellow working at the Renewable and Appropriate Energy Lab with Prof. Dan Kammen. His research focuses on expanding an optimization model –SWITCH– to Mexico to determine the optimal investments in new generation and transmission assets. Through his research, he also analyzes the manufacturing capacity of photovoltaic solar technologies in Mexico. Previously, in his Ph.D. studies (Mechanical Engineering ’15, MIT) he characterized the electrical impact of structural defects in silicon-based solar cells. He enjoys reading, exploring new hobbies, and learning more about the intersection of technology, business, and policy in renewable energy.
+    <a href="https://www.linkedin.com/mwlite/in/castellanossergio" target="_blank">Sergio Castellanos</a> is an Assistant Professor in Civil, Architectural and Environmental Engineering at the University of Texas at Austin. A pillar of Sergio's research is to evaluate the distributional justice aspects of clean technologies deployment –such as solar PV and electric vehicles–, and elucidate areas for effective policy interventions. Sergio completed his B.Sc. in Mechanical Engineering at the Instituto Tecnológico de Hermosillo in México and at the University of Arizona. He then completed his M.Sc. and Ph.D. at MIT working with Prof. Tonio Buonassisi in the Photovoltaics Research Laboratory, studying defects in solar cells and their impact on electrical conversion efficiency. During his studies at MIT, he took a summer off and worked in Mexico's Secretaría de Energía (Energy Secretariat). As a postdoc (and later as a Professional Researcher) at UC Berkeley, he began studying energy systems and equitable renewable energy integration mechanisms in collaboration with Prof. Dan Kammen, and Dr. Carl Blumstein.
 
     <br><br>
 
