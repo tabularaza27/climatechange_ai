@@ -2,7 +2,7 @@
 layout: default
 title: 'Tackling Climate Change with Machine Learning'
 description: 'Webinars - Climate Change AI'
-og_image_url: 'https://www.climatechange.ai/images/webinar_energy_11-2020.png'
+og_image_url: 'https://www.climatechange.ai/images/webinar_equity_02-2021.jpg'
 og_image_type: 'image/png'
 og_image_width: 1063
 og_image_height: 555
@@ -12,7 +12,32 @@ og_image_height: 555
 
 ## Upcoming
 
-Check back here soon for more webinars!
+<section class='webinar card'>
+  <div class='webinar-header-image'>
+    <img src='/images/webinar_equity_02-2021.jpg' alt='February 11, 2021 Webinar'>
+  </div>
+
+  <h3 class='webinar-title'>Webinar: Equitable Climate Mitigation</h3>
+  <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div>
+
+  <details>
+    <summary>Details: (click to expand)</summary>
+
+    Climate change mitigation requires substantial investment, technology development and political effort. However, this large-scale task cannot be accomplished without considering important ethical and social considerations. Climate change mitigation should be accomplished in such a way that historically marginalized and vulnerable groups across the world have equitable access to mitigation technologies, financial incentives, and social rewards. How can this goal be achieved? Is data science and AI useful for this purpose? In this webinar, we will learn from the panelists in industry and academia and will aim to identify challenges and opportunities for AI in this field.
+
+    <a href="https://www.linkedin.com/mwlite/in/castellanossergio" target="_blank">Sergio Castellanos</a> is a Berkeley Energy & Climate Institute – Tecnológico de Monterrey (BECI–ITESM) Energy Fellow working at the Renewable and Appropriate Energy Lab with Prof. Dan Kammen. His research focuses on expanding an optimization model –SWITCH– to Mexico to determine the optimal investments in new generation and transmission assets. Through his research, he also analyzes the manufacturing capacity of photovoltaic solar technologies in Mexico. Previously, in his Ph.D. studies (Mechanical Engineering ’15, MIT) he characterized the electrical impact of structural defects in silicon-based solar cells. He enjoys reading, exploring new hobbies, and learning more about the intersection of technology, business, and policy in renewable energy.
+
+    <a href="https://www.linkedin.com/mwlite/in/donnel-baird-blocpower" target="_blank">Donnel Baird</a> is the founder of BlocPower, a clean tech startup based in New York City. BlocPower develops portfolios of clean energy retrofit opportunities in underserved communities, and connects those opportunities to investors seeking social, environmental, and financial returns. BlocPower creates jobs for qualified local low- income workers, energy savings for community institutions, reduces carbon emissions, and provides returns to investors. BlocPower is backed by Kapor Capital, Andreessen Horowitz, Eric and Wendy Schmidt, the American Family Institute for social and environmental impact, and Salesforce. Baird is a graduate of Duke University and Columbia Business School, where he was a recipient of the Board of Overseers Fellowship and a recipient of investment from the Lang Fund for Entrepreneurial Initiatives. He spent four years as a political and community organizer, and more than two years managing a national initiative to leverage American Reinvestment and Recovery Act energy efficiency investments in underserved communities. Baird lives in his native borough of Brooklyn with his wife and son.
+     
+    <a href="https://www.linkedin.com/mwlite/in/yuchen-doris-han" target="_blank">Doris Han</a> is the lead engineer at BlocPower. She focuses on developing smart energy solutions for buildings and work cross functionally between building science, product and data team. She is leading the design and development of engineering software that serve clean energy project at scale at BlocPower. Doris Han holds a master’s degree in mechanical engineering from Columbia University. Check out more on Linkedin.
+  </details>
+
+  <div class='webinar-info'>
+    <b>When:</b> Fri, February 12, 2021 from 10:30-11:30am Eastern Time<br>
+    <b>Speakers:</b> Sergio Castellanos (UT Austin), Donnel Baird (BlocPower), Doris Han (BlocPower)<br>
+    <a class='button is-link' href='https://www.eventbrite.com/e/webinar-equitable-climate-mitigation-registration-139538412147' target='_blank'>Register via Eventbrite (Free)</a>
+  </div>
+</section>
 
 ## Past
 
