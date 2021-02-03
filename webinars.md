@@ -35,7 +35,7 @@ og_image_height: 555
 
     <br><br>
      
-    <a href="https://www.linkedin.com/mwlite/in/yuchen-doris-han" target="_blank">Doris Han</a> is the lead engineer at BlocPower. She focuses on developing smart energy solutions for buildings and work cross functionally between building science, product and data team. She is leading the design and development of engineering software that serve clean energy project at scale at BlocPower. Doris Han holds a master’s degree in mechanical engineering from Columbia University. Check out more on Linkedin.
+    <a href="https://www.linkedin.com/mwlite/in/yuchen-doris-han" target="_blank">Doris Han</a> is the lead engineer at BlocPower. She focuses on developing smart energy solutions for buildings and work cross functionally between building science, product and data team. She is leading the design and development of engineering software that serve clean energy project at scale at BlocPower. Doris Han holds a master’s degree in mechanical engineering from Columbia University.
   </details>
 
   <div class='webinar-info'>
