@@ -1,6 +1,6 @@
 # Climate Change AI Happy Hour Series
 
-## Next event: Wednesday 3 February @ 12:30-1:30 Eastern Time/6:30pm CET (sign up link below)
+## Next event: Wednesday 17 February @ 5:00pm-6:00pm Eastern Time/11:00pm CET (sign up link below)
 
 Join us on the first and third Wednesday each month for our regular virtual happy hour events. 
 
