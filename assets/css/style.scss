@@ -501,12 +501,6 @@ td {
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .index__news {
-    padding: 0 1rem;
-  }
-}
-
 .carousel {
   display: none;
 
@@ -516,16 +510,29 @@ td {
 }
 
 .carousel__item {
-  min-height: 10rem !important;
+  min-height: 15rem !important;
   position: relative;
+}
+
+.slick-active {
+  border-left: 1px solid #ccc;
+  margin-left: -1px;
 }
 
 .carousel__background, .carousel__link {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  height: 50%;
   left: 0;
-  right: 0;
+  width: 100%;
+}
+
+.carousel__background {
+  top: 0;
+}
+
+.carousel__link {
+  top: 50%;
+  font-size: 0.9em;
 }
 
 .carousel__background {
@@ -534,14 +541,15 @@ td {
   background-position-x: 50%;
 }
 
+.slick-list {
+  outline: 1px solid #ccc;
+}
+
 .carousel__link {
   padding: 1rem;
   display: inline-block;
-  color: white;
-  text-shadow: 1px 1px 10px black;
-  background: rgba(0,0,0,0.57);
+  color: rgb(96, 108, 113);
 }
-
 
 .carousel .slick-prev:before,
 .carousel .slick-next:before {
@@ -553,6 +561,22 @@ td {
   height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel__link {
+    font-size: 1em;
+  }
+
+  .carousel__item {
+    min-height: 12rem !important;
+  }
+}
 
 .slick-slider
 {
