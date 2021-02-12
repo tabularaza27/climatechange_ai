@@ -17,7 +17,7 @@ og_image_height: 555
     <img src='/images/webinar_equity_02-2021.png' alt='February 11, 2021 Webinar'>
   </div>
 
-  <h3 class='webinar-title'>Equitable Climate Mitigation</h3>
+  <h3 class='webinar-title no-anchor-padding'>Equitable Climate Mitigation</h3>
   <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div>
 
   <details>
@@ -49,7 +49,7 @@ og_image_height: 555
   <div class='webinar-header-image'>
     <img src='/images/CCAI_social_share_image.png' alt='March 19, 2021 Webinar'>
   </div>
-  <h3 class='webinar-title'>The Social Cost of Carbon</h3>
+  <h3 class='webinar-title no-anchor-padding'>The Social Cost of Carbon</h3>
   <!-- <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div> -->
 
   <details>
