@@ -17,7 +17,7 @@ og_image_height: 555
     <img src='/images/webinar_equity_02-2021.png' alt='February 11, 2021 Webinar'>
   </div>
 
-  <h3 class='webinar-title'>Webinar: Equitable Climate Mitigation</h3>
+  <h3 class='webinar-title'>Equitable Climate Mitigation</h3>
   <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div>
 
   <details>
@@ -39,9 +39,26 @@ og_image_height: 555
   </details>
 
   <div class='webinar-info'>
-    <b>When:</b> Fri, February 12, 2021 from 10:30-11:30am Eastern Time<br>
+    <b>When:</b> Fri, February 12, 2021 from 10:30-11:30am Eastern Time (3:30-4:30pm UTC)<br>
     <b>Speakers:</b> Sergio Castellanos (UT Austin), Donnel Baird (BlocPower), Doris Han (BlocPower)<br>
     <a class='button is-link' href='https://www.eventbrite.com/e/webinar-equitable-climate-mitigation-registration-139538412147' target='_blank'>Register via Eventbrite (Free)</a>
+  </div>
+</section>
+
+<section class='webinar card'>
+  <h3 class='webinar-title'>The Social Cost of Carbon</h3>
+  <!-- <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div> -->
+
+  <details>
+    <summary>Details: (click to expand)</summary>
+
+    Dr. Tamma Carleton will present recent global work by the <a href="http://www.impactlab.org/" target="_blank">Climate Impact Lab</a> to quantify the Social Cost of Carbon (SCC). Dr. Carleton will also discuss her recent working paper (co-written with Prof Michael Greenstone) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3764255">“Updating the United States Government’s Social Cost of Carbon.”</a> Stay tuned for more info.
+  </details>
+
+  <div class='webinar-info'>
+    <b>When:</b> Fri, March 19, 2021 from 2-3pm Eastern Time (6-7pm UTC)<br>
+    <b>Speakers:</b> Tamma Carleton (University of Chicago)<br>
+    <a class='button is-link' href='https://www.eventbrite.com/e/webinar-the-social-cost-of-carbon-registration-141428240675' target='_blank'>Register via Eventbrite (Free)</a>
   </div>
 </section>
 
