@@ -46,6 +46,9 @@ og_image_height: 555
 </section>
 
 <section class='webinar card'>
+  <div class='webinar-header-image'>
+    <img src='/images/CCAI_social_share_image.png' alt='March 19, 2021 Webinar'>
+  </div>
   <h3 class='webinar-title'>The Social Cost of Carbon</h3>
   <!-- <div class='webinar-subtitle'>How can we address climate change while addressing social inequalities? Could AI help?</div> -->
 
