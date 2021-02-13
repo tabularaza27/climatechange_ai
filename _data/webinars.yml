@@ -18,6 +18,7 @@
   subtitle: How can we address climate change while addressing social inequalities? Could AI help?
   speakers: Sergio Castellanos (UT Austin), Donnel Baird (BlocPower), Doris Han (BlocPower)
   registration_link: "https://www.eventbrite.com/e/webinar-equitable-climate-mitigation-registration-139538412147"
+  recording_link: "https://youtu.be/irr7bgJZ-Us"
   registration_text: Register via Eventbrite (Free)
   date: 2021-02-12
   time: "from 10:30-11:30am Eastern Time (3:30-4:30pm UTC)"
@@ -36,7 +37,7 @@
     <br><br>
 
     <a href="https://www.linkedin.com/mwlite/in/castellanossergio"
-    target="_blank">Sergio Castellanos</a> is an Assistant Professor in
+    target="_blank"><b>Sergio Castellanos</b></a> is an Assistant Professor in
     Civil, Architectural and Environmental Engineering at the University of
     Texas at Austin. A pillar of Sergio's research is to evaluate the
     distributional justice aspects of clean technologies deployment –such as
@@ -55,7 +56,7 @@
     <br><br>
 
     <a href="https://www.linkedin.com/mwlite/in/donnel-baird-blocpower"
-    target="_blank">Donnel Baird</a> is the founder of BlocPower, a clean tech
+    target="_blank"><b>Donnel Baird</b></a> is the founder of BlocPower, a clean tech
     startup based in New York City. BlocPower develops portfolios of clean
     energy retrofit opportunities in underserved communities, and connects
     those opportunities to investors seeking social, environmental, and
@@ -75,16 +76,21 @@
     <br><br>
 
     <a href="https://www.linkedin.com/mwlite/in/yuchen-doris-han"
-    target="_blank">Doris Han</a> is the lead engineer at BlocPower. She
+    target="_blank"><b>Doris Han</b></a> is the lead engineer at BlocPower. She
     focuses on developing smart energy solutions for buildings and work cross
     functionally between building science, product and data team. She is
     leading the design and development of engineering software that serve
     clean energy project at scale at BlocPower. Doris Han holds a master’s
     degree in mechanical engineering from Columbia University.
 
-- title: "Panel Discussion: Climate Change, Machine Learning, and the Power Grid"
+- title: "Climate Change, Machine Learning, and the Power Grid"
+  image: /images/webinar_energy_11-2020.png
+  speakers: Kyri Baker (CU Boulder), Eric Hsieh (AutoGrid), Antoine Marot (RTE), Kaitlyn Albertoli & Vik Chaudhry (Buzz Solutions)
+  registration_link: "https://ein1123event.eventbrite.com/"
   recording_link: "https://www.youtube.com/watch?v=HfAZ0G96xY4&ab_channel=ClimateChangeAI"
+  registration_text: Register via Eventbrite (Free)
   date: 2020-11-23
+  time: "from noon-1:30pm Eastern Time"
   details: |-
     <i>
       Co-hosted with the
