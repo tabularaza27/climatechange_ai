@@ -78,7 +78,7 @@ $(document).ready(() => {
       let s = `<tr><td>${date.toLocaleString(DateTime.DATE_FULL)}</td><td>`;
 
       if (w.recording_link) {
-        s += `<a href="${s.recording_link}" target="_blank">${w.title}</a>`;
+        s += `<a href="${w.recording_link}" target="_blank">${w.title}</a>`;
       } else {
         s += `<span>${w.title}</span>`;
       }
