@@ -1,0 +1,102 @@
+---
+layout: default
+title: 'Tackling Climate Change with Machine Learning'
+description: 'Webinars - Climate Change AI'
+og_image_url: 'https://www.climatechange.ai/images/webinar_equity_02-2021.png'
+og_image_type: 'image/png'
+og_image_width: 1063
+og_image_height: 555
+---
+
+<h1 id='webinars'>Webinars</h1>
+
+<h2 id='upcoming'>Upcoming</h2>
+
+<h2 id='past'>Past</h2>
+
+<table class='webinar-table'>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Webinar</th>
+    </tr>
+  </thead>
+
+  <tbody id='past-webinars'>
+  </tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.23.0/build/global/luxon.min.js"></script>
+<script type='text/javascript'>
+$(document).ready(() => {
+  const webinars = {{ site.data.webinars | sort: "date" | reverse | jsonify }};
+  const DateTime = luxon.DateTime;
+  const today = DateTime.local().startOf('day');
+
+  let anyUpcoming = false;
+
+  webinars.forEach(w => {
+    const date = DateTime.fromISO(w.date);
+    const dateStr = date.toLocaleString(DateTime.DATE_HUGE);
+
+    if (date >= today) {
+      anyUpcoming = true;
+
+      let s = "<section class='webinar card'>";
+
+      if (w.image) {
+        s += `<div class='webinar-header-image'>
+          <img src='${w.image}' alt='${dateStr} Webinar'>
+        </div>`;
+      }
+
+      s += `<h3 class='webinar-title no-anchor-padding'>${w.title}</h3>`;
+
+      if (w.subtitle) {
+        s += `<div class='webinar-subtitle'>${w.subtitle}</div>`;
+      }
+
+      if (w.details) {
+        s += `<details>
+          <summary>Details: (click to expand)</summary>
+          ${w.details}
+        </details>`;
+      }
+
+      s += `<div class='webinar-info'>
+        <b>When:</b> ${dateStr} ${w.time}<br>
+        <b>Speakers:</b> ${w.speakers}<br>
+        <a class='button is-link' href='${w.registration_link}' target='_blank'>
+          ${w.registration_text}
+        </a>
+      </div>`;
+
+      s += "</section>";
+
+      $('#upcoming').after(s);
+    } else {
+      let s = `<tr><td>${date.toLocaleString(DateTime.DATE_FULL)}</td><td>`;
+
+      if (w.recording_link) {
+        s += `<a href="${w.recording_link}" target="_blank">${w.title}</a>`;
+      } else {
+        s += `<span>${w.title}</span>`;
+      }
+
+      if (w.details) {
+        s += `<details>
+          <summary>Details: (click to expand)</summary>
+          ${w.details}
+        </details>`;
+      }
+
+      $('#past-webinars').append(s);
+    }
+
+  });
+
+  if (!anyUpcoming) {
+    $('#upcoming').after("<span>No webinars currently scheduled&hellip; check back later!</span>");
+  }
+});
+</script>
