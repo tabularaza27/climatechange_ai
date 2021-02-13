@@ -83,7 +83,7 @@ $(document).ready(() => {
       $events.prepend(`<div class='carousel__item'>
         <div class='carousel__background' style='background-image: url("${image}")'></div>
         <a class='carousel__link' href='/webinars'>
-          Attend our next webinar on ${nextUpcoming.date.toLocaleString({ month: 'long', day: 'numeric' })}
+          Attend our next webinar on ${nextUpcoming.date.toLocaleString({ month: 'long', day: 'numeric' })}: "${nextUpcoming.title}"
         </a>
       </div>`);
     }
@@ -94,7 +94,7 @@ $(document).ready(() => {
       $content.prepend(`<div class='carousel__item'>
         <div class='carousel__background' style='background-image: url("${image}")'></div>
         <a class='carousel__link' href='${lastRecorded.recording_link}' target='_blank'>
-          View our last webinar: ${lastRecorded.title}
+          View our recent webinar: \"${lastRecorded.title}\"
         </a>
       </div>`);
     }
