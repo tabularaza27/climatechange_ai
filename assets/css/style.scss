@@ -519,6 +519,10 @@ td {
   margin-left: -1px;
 }
 
+.slick-initialized .slick-cloned:last-child {
+  margin-left: -1px;
+}
+
 .carousel__background, .carousel__link {
   position: absolute;
   height: 50%;
