@@ -5,12 +5,12 @@
     - title: Check out the CCAI community events calendar
       image: /images/core_team_zoom.png
       url: /community-events
+    - title: CCAI Chairs speak at Heinrich Böll Foundation
+      image: https://eu.boell.org/sites/default/files/2020-12/CCAI%20cover%20web.png
+      url: https://calendar.boell.de/en/event/how-artificial-intelligence-could-help-mitigate-climate-change
     - title: David Rolnick featured on ASP Flashpoint
       image: /images/people/davidrolnick_400x400.jpg
       url: https://www.americansecurityproject.org/climate-and-ai-with-dr-david-rolnick/
-    - title: Lynn Kaack and David Dao featured on ETH Zürich podcast
-      image: /images/lynn-davidd.jpg
-      url: https://ethz.ch/en/news-and-events/eth-news/news/2020/05/podcast-ai-climate-change.html
 - title: 'Featured content'
   entries:
     - title: View interactive summaries of our climate + ML paper
