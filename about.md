@@ -65,7 +65,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Konstantin Klemmer <em>(Committee Chair)</em>
 - Ján Drgoňa <em>(Forum)</em>
 - Jesse Dunietz <em>(Media Relations)</em>
-- Wei-Wei Lin <em>(Website)</em>
+- Wei-Wei Lin <em>(Website & Design)</em>
 - Andrew Ross <em>(Website)</em>
 - Katherine Stapleton <em>(Strategic Outreach)</em>
 - Kasia Tokarska <em>(Newsletter)</em>
