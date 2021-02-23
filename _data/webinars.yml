@@ -1,17 +1,19 @@
 - title: The Social Cost of Carbon
-  speakers: Tamma Carleton (University of Chicago)
+  speakers: Tamma Carleton (University of California, Santa Barbara)
   registration_link: "https://www.eventbrite.com/e/webinar-the-social-cost-of-carbon-registration-141428240675"
+  #recording_link: "https://youtu.be/..."
   registration_text: Register via Eventbrite (Free)
   date: 2021-03-19
   time: from 2-3pm Eastern Time (6-7pm UTC)
   details: |-
-    Dr. Tamma Carleton will present recent global work by the <a
-    href="http://www.impactlab.org/" target="_blank">Climate Impact Lab</a> to
-    quantify the Social Cost of Carbon (SCC). Dr. Carleton will also discuss
-    her recent working paper (co-written with Prof Michael Greenstone) <a
-    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3764255">“Updating
-    the United States Government’s Social Cost of Carbon.”</a> Stay tuned for
-    more info.
+    Tackling climate change is costly, but letting greenhouse gas emissions grow unchecked is even more expensive. 
+    The Social Cost of Carbon, or “SCC”, allows us to assess this tradeoff by measuring the monetized damages 
+    associated with the release of one ton of CO2. The SCC plays a central role in determining the nature and 
+    stringency of climate policy both in the US and abroad, but existing estimates rely on extremely outdated 
+    scientific evidence. In this webinar, we will discuss what is needed to bring the SCC back to the scientific
+    frontier, focusing on the importance of big data and data science tools in a modern SCC framework.
+
+    <br><br>
 
 - title: Equitable Climate Mitigation
   image: /images/webinar_equity_02-2021.png
