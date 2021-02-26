@@ -86,7 +86,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
 - Priya L. Donti <em>(Power Sector)</em>
 - Lynn H. Kaack <em>(Public Sector)</em>
-- Kelly Kochanski <em>(Climate and Earth Sciences)</em>
+- Kasia Tokarska <em>(Climate and Earth Sciences)</em>
 - Raphaela Kotsch <em>(Economics & Markets)</em>
 - Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
 - Kelton Minor <em>(Computational Social Sciences)</em>
@@ -95,6 +95,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 
 ## Former Core Team Members
 - Natasha Jaques
+- Kelly Kochanski
 - Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
