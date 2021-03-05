@@ -17,3 +17,16 @@ The mission of the selected hub will be to advance the responsible development a
 **How:** Expressions of interest should be submitted to <AI4DAfrica@idrc.ca>. More details on submission format and content are available on the [AI4D website](https://ai4d.ai/calls/climate-action-hub/){:target="_blank"}.
 
 <a href='https://ai4d.ai/calls/climate-action-hub/' class='button is-link' target='_blank'>Read More</a>
+
+<div class='idrc-logo-wrapper'>
+  <img src='/images/idrc_logo-wordmark.png'>
+</div>
+
+<style type='text/css'>
+  .idrc-logo-wrapper img {
+    width: 24rem;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+</style>
