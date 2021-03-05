@@ -2,7 +2,7 @@
 
 ## Seeking Partners in Africa to Build an Innovation Research Network on AI for Climate Action
 
-We are pleased to announce a call ([EN](https://ai4d.ai/calls/climate-action-hub/), [FR](https://ai4d.ai/fr/calls/climate-action-hub/)) for expressions of interest to develop a research hub in Africa focusing on artificial intelligence for climate action.
+We are pleased to announce a call ([EN](https://ai4d.ai/calls/climate-action-hub/){:target="_blank"}, [FR](https://ai4d.ai/fr/calls/climate-action-hub/){:target="_blank"}) for expressions of interest to develop a research hub in Africa focusing on artificial intelligence for climate action.
 
 The new grant initiative—part of the four-year Artificial Intelligence for Development in Africa (AI4D Africa) program—is a collaboration between Canada’s International Development Research Centre (IDRC), the Swedish International Development Agency (Sida), and Climate Change AI.
 
@@ -14,6 +14,6 @@ The mission of the selected hub will be to advance the responsible development a
 
 **When:** Submissions must be received by April 05, 2021 23:59 (EDT).
 
-**How:** Expressions of interest should be submitted to <AI4DAfrica@idrc.ca>. More details on submission format and content are available on the [AI4D website](https://ai4d.ai/calls/climate-action-hub/).
+**How:** Expressions of interest should be submitted to <AI4DAfrica@idrc.ca>. More details on submission format and content are available on the [AI4D website](https://ai4d.ai/calls/climate-action-hub/){:target="_blank"}.
 
-<a href='https://ai4d.ai/calls/climate-action-hub/' class='button is-link'>Read More</a>
+<a href='https://ai4d.ai/calls/climate-action-hub/' class='button is-link' target='_blank'>Read More</a>
