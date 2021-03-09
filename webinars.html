@@ -44,17 +44,18 @@ $(document).ready(() => {
 
       let s = "<section class='webinar card'>";
 
+      s += `<p>${date.toLocaleString(DateTime.DATE_FULL)}</p> <h3 class='webinar-title no-anchor-padding'>${w.title}</h3>`;
+
+      if (w.subtitle) {
+        s += `<div class='webinar-subtitle'>${w.subtitle}</div>`;
+      }
+
       if (w.image) {
         s += `<div class='webinar-header-image'>
           <img src='${w.image}' alt='${dateStr} Webinar'>
         </div>`;
       }
 
-      s += `<h3 class='webinar-title no-anchor-padding'>${w.title}</h3>`;
-
-      if (w.subtitle) {
-        s += `<div class='webinar-subtitle'>${w.subtitle}</div>`;
-      }
 
       if (w.details) {
         s += `<details>
