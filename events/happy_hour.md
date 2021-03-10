@@ -8,10 +8,11 @@ The events aim to provide an informal space for people to network and engage in 
 
 
 ### First Wednesday
-**Time:** 12:30pm - 1:30pm ET / 4:30pm - 5:30pm GMT<br>
-**Sign up:** <https://www.eventbrite.co.uk/e/ccai-happy-hour-1230pm-eastern-time-tickets-137660146203> 
+**Time:** 12:30pm - 1:30pm EST / 4:30pm - 5:30pm GMT<br>
+**Sign up:** <https://www.eventbrite.co.uk/e/ccai-happy-hour-1230pm-est-tickets-145568492279> 
+
 
 
 ### Third Wednesday
-**Time:** 5pm - 6pm ET / 9pm-10pm GMT<br>
+**Time:** 5pm - 6pm EST / 9pm-10pm GMT<br>
 **Sign up:** <https://www.eventbrite.co.uk/e/ccai-happy-hour-5pm-eastern-time-tickets-135579733633>
