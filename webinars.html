@@ -62,8 +62,7 @@ $(document).ready(() => {
         </div>`;
       }
 
-
-if (w.registration_link){
+   if (w.registration_link) {
       s += `<div class='webinar-info'>
         <b>When:</b> ${dateStr} ${w.time}<br>
         <b>Speakers:</b> ${w.speakers}<br>
@@ -71,9 +70,10 @@ if (w.registration_link){
           ${w.registration_text}
         </a>
       </div>`;
-
-      s += "</section>";
      }
+     
+  s += "</section>";
+     
 
       $('#upcoming').after(s);
     } else {
