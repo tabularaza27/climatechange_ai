@@ -44,10 +44,16 @@ $(document).ready(() => {
 
       let s = "<section class='webinar card'>";
 
-      s += `<h3 class='webinar-title no-anchor-padding'>${w.title}</h3>`;
+      s += `<p>(${dateStr})</p><h3 class='webinar-title no-anchor-padding'>${w.title}</h3>`;
 
       if (w.subtitle) {
         s += `<div class='webinar-subtitle'>${w.subtitle}</div>`;
+      }
+      if (w.details) {
+        s += `<details>
+          <summary>Details: (click to expand)</summary>
+          ${w.details}
+        </details>`;
       }
 
       if (w.image) {
@@ -57,13 +63,7 @@ $(document).ready(() => {
       }
 
 
-      if (w.details) {
-        s += `<details>
-          <summary>Details: (click to expand)</summary>
-          ${w.details}
-        </details>`;
-      }
-
+if (w.registration_link){
       s += `<div class='webinar-info'>
         <b>When:</b> ${dateStr} ${w.time}<br>
         <b>Speakers:</b> ${w.speakers}<br>
@@ -73,6 +73,7 @@ $(document).ready(() => {
       </div>`;
 
       s += "</section>";
+     }
 
       $('#upcoming').after(s);
     } else {
