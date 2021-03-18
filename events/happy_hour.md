@@ -1,6 +1,6 @@
 # Climate Change AI Happy Hour Series
 
-## Next event: Wednesday 17 March @ 5pm-6pm Eastern Time/9-10pm GMT (sign up link below)
+## Next event: Wednesday 7 April @ 12:30pm EST/5:30pm GMT (sign up link below)
 
 Join us on the **first and third Wednesday of each month** for our regular virtual happy hour events. 
 
@@ -15,4 +15,5 @@ The events aim to provide an informal space for people to network and engage in 
 
 ### Third Wednesday
 **Time:** 5pm - 6pm EST / 9pm-10pm GMT<br>
-**Sign up:** <https://www.eventbrite.co.uk/e/ccai-happy-hour-5pm-eastern-time-tickets-135579733633>
+**Sign up:** <https://www.eventbrite.co.uk/preview?eid=147007071107>
+
