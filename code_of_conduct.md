@@ -1,3 +1,9 @@
+---
+layout: default
+title: 'Climate Change AI'
+description: 'Community Guidelines & Code of Conduct'
+---
+
 # Community Guidelines
 
 The CCAI community guidelines outline operational standards and expected behaviour throughout all CCAI activities. CCAI values the ideals of open exchange of ideas, the freedom of thought and expression, and respectful science based debate. This requires a community and an environment that recognizes and respects the inherent dignity and worth of every person.
