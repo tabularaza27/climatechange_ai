@@ -28,7 +28,7 @@ No use of images, activities, or other materials that are of a sexual, racial, o
 
 If you have concerns related to your participation or interaction at a CCAI activity, observe someone else’s difficulties, or have any other concerns you wish to share, you can make a report: 
 
-* At any time[^1]:
+* At any time¹:
 	By email to reporting@climatechange.ai (monitored by core team members). If you do not want a specific core team member to access your report, please do not provide details in your initial email and instead request that we reach out directly to you (you may specify a subset of core team members you are comfortable replying directly to you). For anonymous emails, you may use a temporary email service such as [Dropmail](https://dropmail.me/en/).
 * During an event:
 	In-person to organizers, or any CCAI-affiliated event volunteer. They will then direct you to the designated responder(s) for that event. 
@@ -69,4 +69,6 @@ We welcome feedback in any form on these community guidelines; If you would like
 
 This community guidelines policy was written by adapting the wording and structure from other policies and codes of conduct, first and foremost by [WiML](https://wimlworkshop.org/conduct/) but also by [Geek Feminism Wiki](https://geekfeminism.wikia.org/wiki/Conference_anti-harassment/Policy), [NeurIPS](https://nips.cc/public/CodeOfConduct), [ACM](https://www.acm.org/about-acm/policy-against-harassment), [Montreal AI Symposium](https://montrealaisymposium.wordpress.com/code-of-conduct/), [Deep Learning Indaba](https://deeplearningindaba.com/mentorship/code-of-ethics-and-conduct/), and [CodePath](https://codepath.org/conduct/volunteer).
 
-[^1]: For CCAI core team members, please contact one of the ombudspeople, Lauren or Andrew.
+___
+
+¹ For CCAI core team members, please contact one of the ombudspeople, Lauren or Andrew.
