@@ -69,7 +69,7 @@ If action is taken, an appeal may be made by submitting a written statement arti
 
 ## Regular Review 
 
-We welcome feedback in any form on these community guidelines; If you would like to reach out, please write an email to [mailto:info@climatechange.ai](info@climatechange.ai) or [mailto:reporting@climatechange.ai](info@climatechange.ai).
+We welcome feedback in any form on these community guidelines; If you would like to reach out, please write an email to [info@climatechange.ai](mailto:info@climatechange.ai) or [reporting@climatechange.ai](mailto:info@climatechange.ai).
 
 ## Acknowledgments
 
