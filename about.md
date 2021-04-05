@@ -54,7 +54,6 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
 - Ebude Antem Yolande Ebong <em>(Wiki)</em>
 - Lauren Kuntz <em>(Course)</em>
-- Alexandre Lacoste
 - Tegan Maharaj
 - Ankur Mahesh <em>(Tutorials)</em>
 - Geneviève Patterson <em>(Course)</em>
@@ -96,6 +95,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Former Core Team Members
 - Natasha Jaques
 - Kelly Kochanski
+- Alexandre Lacoste
 - Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
