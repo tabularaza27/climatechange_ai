@@ -14,6 +14,6 @@ The events aim to provide an informal space for people to network and engage in 
 
 
 ### Third Wednesday
-**Time:** 5pm - 6pm ET / 10pm-11pm GMT+1 <br>
+**Time:** 5pm - 6pm ET / 10pm - 11pm GMT+1 <br>
 **Sign up:** <https://www.eventbrite.co.uk/e/ccai-happy-hour-5pm-est-tickets-147007071107?ref=estw>
 
