@@ -1,18 +1,18 @@
-- title: Machine Learning Applications in Agriculture and Reforestation
+#- title: Machine Learning Applications in Agriculture and Reforestation
   #speakers: Speaker Name (Affiliation)
   #image: /images/webinar_social_cost_of_carbon_03-2021.png
   #subtitle: 
   #registration_link: "https://www.eventbrite.com/e/webinar-machine-learning-applications-in-agriculture-and-reforestation-registration-145128704863"
   #recording_link: "https://youtu.be/..."
   #registration_text: Register via Eventbrite (Free)
-  date: 2021-04-23
-  time: from 2-3pm Eastern Time (6-7pm UTC)
-  details: |-
-    Agriculture is the most important resource of food production for human beings and accounts for more than 26% of the global workforce.
-    As the world population continues to grow and the agricultural workforce declines the demand for more efficient agricultural and ecological monitoring
-    techniques is on the upswing. This webinar will shed light on the uses of machine learning in agriculture.
+ # date: 2021-04-23
+ # time: from 2-3pm Eastern Time (6-7pm UTC)
+ # details: |-
+ #   Agriculture is the most important resource of food production for human beings and accounts for more than 26% of the global workforce.
+ #   As the world population continues to grow and the agricultural workforce declines the demand for more efficient agricultural and ecological monitoring
+ #   techniques is on the upswing. This webinar will shed light on the uses of machine learning in agriculture.
 
-    <br><br>
+   # <br><br>
 
 
 - title: The Social Cost of Carbon
