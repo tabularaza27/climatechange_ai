@@ -54,7 +54,6 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
 - Ebude Antem Yolande Ebong <em>(Wiki)</em>
 - Lauren Kuntz <em>(Course)</em>
-- Alexandre Lacoste
 - Tegan Maharaj
 - Ankur Mahesh <em>(Tutorials)</em>
 - Geneviève Patterson <em>(Course)</em>
@@ -86,7 +85,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
 - Priya L. Donti <em>(Power Sector)</em>
 - Lynn H. Kaack <em>(Public Sector)</em>
-- Raphaela Kotsch <em>(Economics & Markets)</em>
+- Raphaela Kotsch <em>(Economics and Markets)</em>
 - Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
 - Kelton Minor <em>(Computational Social Sciences)</em>
 - David Rolnick <em>(Tech Industry and ML Academia)</em>
@@ -96,6 +95,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Former Core Team Members
 - Natasha Jaques
 - Kelly Kochanski
+- Alexandre Lacoste
 - Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
