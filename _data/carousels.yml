@@ -1,5 +1,8 @@
 - title: 'News and events'
   entries:
+    - title: "Submit to our ICML 2021 workshop! Informational webinars Apr 23, 27"
+      url: /events/icml2021
+      image: /images/icml2021_fb_poster.png
     - title: "Seeking orgs to lead $1M Hub in Africa on AI for Climate Action"
       url: /calls
       image: /images/idrc_logo-wordmark.png
