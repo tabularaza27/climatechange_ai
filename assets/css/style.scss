@@ -378,11 +378,13 @@ details {
 @media screen and (min-width: 1024px) {
   h1, h2, h3 {
     scroll-margin-top: var(--navbar-height-normal);
+    scroll-snap-margin-top: var(--navbar-height-normal);
   }
 }
 @media screen and (max-width: 1023px) {
   h1, h2, h3 {
     scroll-margin-top: var(--navbar-height-mobile);
+    scroll-snap-margin-top: var(--navbar-height-mobile);
   }
 }
 
