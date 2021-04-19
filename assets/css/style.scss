@@ -25,6 +25,11 @@ $dark: black;
 @import "bulma-scss/form/_all";
 @import "chosen";
 
+:root {
+  --navbar-height-normal: 80px;
+  --navbar-height-mobile: 64px;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -37,7 +42,7 @@ $dark: black;
 }
 
 body {
-  padding-top: 5rem;
+  padding-top: var(--navbar-height-normal);
 }
 
 .navbar-brand {
@@ -66,15 +71,15 @@ body {
 
 @media screen and (max-width: 1023px) {
  .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
-   max-height: calc(100vh - 68px - 2rem);
+   max-height: calc(100vh - var(--navbar-height-mobile) - 2rem);
  }
 
- .navbar-brand h1 {
-   font-size: 1.5rem;
+ .navbar-brand img {
+   max-height: 3rem;
  }
 
  body {
-   padding-top: calc(5rem - 12px);
+   padding-top: var(--navbar-height-mobile);
  }
 }
 
@@ -371,23 +376,13 @@ details {
 
 // Ensure that anchor links don't skip the headers
 @media screen and (min-width: 1024px) {
-  h1:not(.no-anchor-padding)::before,
-  h2:not(.no-anchor-padding)::before,
-  h3:not(.no-anchor-padding)::before {
-    content: "";
-    display: block;
-    height: 80px; /* fixed header height*/
-    margin: -80px 0 0; /* negative fixed header height */
+  h1, h2, h3 {
+    scroll-margin-top: var(--navbar-height-normal);
   }
 }
 @media screen and (max-width: 1023px) {
-  h1:not(.no-anchor-padding)::before,
-  h2:not(.no-anchor-padding)::before,
-  h3:not(.no-anchor-padding)::before {
-    content: "";
-    display: block;
-    height: 68px; /* fixed header height*/
-    margin: -68px 0 0; /* negative fixed header height */
+  h1, h2, h3 {
+    scroll-margin-top: var(--navbar-height-mobile);
   }
 }
 
