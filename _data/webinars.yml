@@ -1,18 +1,16 @@
-- title: Machine Learning Applications in Agriculture and Forestry under a Climate Change Perspective
+- title: Applied Machine Learning for Agriculture and Forestry Management in Changing Climate
   speakers: Dr. Emily Lines (University of Cambridge), Jigar Doshi (Wadhwani AI)
-  image: /images/webinar_ml_applications_griculture_and_forestry_21_05_06.png
-  #subtitle: 
-  registration_link: "https://www.eventbrite.com/e/ml-applications-in-agriculture-forestry-under-climate-change-perspective-registration-145128704863"
+  image: /images/webinar_applied_ml_for_AFOLU_05_06_2021.png
+  subtitle: How can machine learning contribute to more efficient agriculture and forest conservation?
+  registration_link: "https://climatechangeaiwebinar.eventbrite.com"
   #recording_link: "https://youtu.be/..."
   registration_text: Register via Eventbrite (Free)
   date: 2021-05-06
   time: from 2-3pm Eastern Time (6-7pm UTC)
   details: |-
    Agriculture, Forestry and Other Land-Use (AFOLU) play a key role in climate change, contributing as much as 25% of global greenhouse gas emissions. 
-   In this context, agriculture needs to become more efficient and adaptable to changes in weather patterns, impact of pests, water scarcity, etc. 
-   This webinar will discuss specific applications of a machine learning (ML) to this adaptation process. In the same way, ML has significant potential 
-   in the field of ecological monitoring and conservation. In particular, we will discuss the application of ML to forest monitoring and management with 
-   a focus on climate change mitigation and adaptation. 
+   In this context, agriculture needs to become more efficient and adaptable to changes in weather patterns, the impacts of pests, water scarcity, etc. 
+   This webinar will discuss specific applications of a machine learning to this climate-relevant adaptation, mitigation, ecological monitoring and conservation.
 
     <br><br>
 
