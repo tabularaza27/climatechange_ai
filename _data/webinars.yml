@@ -1,17 +1,21 @@
-#- title: Machine Learning Applications in Agriculture and Reforestation
-  #speakers: Speaker Name (Affiliation)
-  #image: /images/webinar_social_cost_of_carbon_03-2021.png
+- title: Machine Learning Applications in Agriculture and Forestry under a Climate Change Perspective
+  speakers: Dr. Emily Lines (University of Cambridge), Jigar Doshi (Wadhwani AI)
+  image: /images/webinar_ml_applications_griculture_and_forestry_21_05_06.png
   #subtitle: 
-  #registration_link: "https://www.eventbrite.com/e/webinar-machine-learning-applications-in-agriculture-and-reforestation-registration-145128704863"
+  registration_link: "https://www.eventbrite.com/e/ml-applications-in-agriculture-forestry-under-climate-change-perspective-registration-145128704863"
   #recording_link: "https://youtu.be/..."
-  #registration_text: Register via Eventbrite (Free)
-  #date: 2021-04-23
-  #time: from 2-3pm Eastern Time (6-7pm UTC)
-  #details: |-
-  #  Agriculture is the most important resource of food production for human beings and accounts for more than 26% of the global workforce.
-   # As the world population continues to grow and the agricultural workforce declines the demand for more efficient agricultural and ecological monitoring
-    #techniques is on the upswing. In addition, there is an increasing rate we lose millions of hectares and This webinar will shed light on the uses of machine learning in agriculture and reforestation.
- #   <br><br>
+  registration_text: Register via Eventbrite (Free)
+  date: 2021-05-06
+  time: from 2-3pm Eastern Time (6-7pm UTC)
+  details: |-
+   Agriculture, Forestry and Other Land-Use (AFOLU) play a key role in climate change, contributing as much as 25% of global greenhouse gas emissions. 
+   In this context, agriculture needs to become more efficient and adaptable to changes in weather patterns, impact of pests, water scarcity, etc. 
+   This webinar will discuss specific applications of a machine learning (ML) to this adaptation process. In the same way, ML has significant potential 
+   in the field of ecological monitoring and conservation. In particular, we will discuss the application of ML to forest monitoring and management with 
+   a focus on climate change mitigation and adaptation. 
+
+    <br><br>
+
 - title: Coastal Adaptation to Sea Level Rise
   speakers: TBA
   image: /images/CCAI_social_share_image.png
