@@ -1,4 +1,4 @@
-- title: Applied Machine Learning for Agriculture and Forestry Management in Changing Climate
+- title: Applied Machine Learning for Agriculture and Forest Management in Changing Climate
   speakers: Dr. Emily Lines (University of Cambridge), Jigar Doshi (Wadhwani AI)
   image: /images/webinar_applied_ml_for_AFOLU_05_06_2021.png
   subtitle: How can machine learning contribute to more efficient agriculture and forest conservation?
@@ -18,8 +18,7 @@
 - title: Coastal Adaptation to Sea Level Rise
   speakers: TBA
   image: /images/CCAI_social_share_image.png
-  #subtitle: 
-  registration_link: "https://www.eventbrite.com/e/webinar-societal-adaptation-registration-149980801615"
+  registration_link: "https://www.climatechange.ai/register/webinar"
   #recording_link: "https://youtu.be/..."
   registration_text: Register via Eventbrite (Free)
   date: 2021-05-21
