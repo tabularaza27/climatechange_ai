@@ -536,6 +536,15 @@ td {
   font-size: 0.9em;
 }
 
+.carousel__link-text {
+  max-height: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 .carousel__background {
   background-size: cover;
   background-position-y: 50%;
