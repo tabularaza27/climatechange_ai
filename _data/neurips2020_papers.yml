@@ -2079,6 +2079,7 @@
   prev_paper_id: 53
   next_paper_id: 55
   slides_path: "/papers/neurips2020/54/slides.pdf"
+  paper_path: "/papers/neurips2020/54/paper.pdf"
 - paper_title: 'Short-term PV output prediction using convolutional neural network:
     learning from an imbalanced sky images dataset via sampling and data augmentation'
   abstract: Integrating photovoltaics (PV) into electricity grids is one of the major
