@@ -13,20 +13,46 @@
    In this context, the first part of the webinar will discuss applications of machine learning to climate-relevant ecological monitoring and conservation of forests.
    The second part of the webinar will discuss the role of machine learning to increase agricultural resilience in a changing climate.
 
-    <br><br>
 
 - title: Coastal Adaptation to Sea Level Rise
-  speakers: TBA
-  image: /images/CCAI_social_share_image.png
+  subtitle: Can social media data provide a tool for socially sensing tidal flooding?
+            Can machine learning help countries better understand which coastal
+            communities will be most impacted by sea level rise? 
+  speakers: Dr. Scott Kulp, Dr. Frances Moore 
+  image: /images/webinar_sea_level_rise.png
   registration_link: "https://www.climatechange.ai/register/webinar-sea-level-rise"
   #recording_link: "https://youtu.be/..."
   registration_text: Register via Eventbrite (Free)
   date: 2021-05-21
-  time: from 2-3pm Eastern Time (6-7pm UTC)
+  time: from 2-3:30pm Eastern Time (6-7:30pm UTC)
   details: |-
-    More details coming soon.
-
+    Dr. Scott Kulp
+    <br>
+    Understanding where and how many people are living on land threatened by rising sea levels 
+    is crucial for coastal planning and assessing the benefits of climate mitigation. At the 
+    heart of such an analysis is the digital elevation model (DEM) -- a map of land elevation 
+    that allows us to determine which areas may be below the future high tide line. However, 
+    while high-precision DEMs are available in a few countries, most regions use 
+    lower-quality satellite-derived data that see trees and buildings as hills and mountains, 
+    causing vulnerability assessments to greatly underestimate the threats. In this webinar, 
+    we will discuss how an artificial neural network was used to predict and remove the 
+    errors present in the global DEM, revealing that the global coastline may be 3x more
+    vulnerable to sea level rise and flooding than previously thought.
     <br><br>
+
+    Dr. Frances Moore
+    <br>
+    Climate change is likely to significantly increase flooding in coastal areas due to 
+    a combination of higher sea levels and more intense rainfall events. Nuisance tidal
+    flooding is already causing disruption in coastal communities throughout the US,
+    and yet the frequency and intensity of these events is poorly measured- coastal tide 
+    gauges are relatively sparse and flood thresholds are not well standardized across
+    gauges. Social-media data inherently contains data on both the extent, frequency,
+    and social disruption of flood events, making it a useful complement of traditional
+    gauge data. We show that data from Twitter suggests tidal flooding is occurring more
+    frequently in many areas along the Atlantic and Gulf coasts than would be inferred 
+    from tide gauges.
+
 
 - title: The Social Cost of Carbon
   speakers: Tamma Carleton (University of California, Santa Barbara)
