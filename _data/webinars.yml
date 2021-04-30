@@ -18,7 +18,7 @@
   subtitle: Can social media data provide a tool for socially sensing tidal flooding?
             Can machine learning help countries better understand which coastal
             communities will be most impacted by sea level rise? 
-  speakers: Dr. Scott Kulp, Dr. Frances Moore 
+  speakers: Dr. Frances Moore, Dr. Scott Kulp
   image: /images/webinar_sea_level_rise.png
   registration_link: "https://www.climatechange.ai/register/webinar-sea-level-rise"
   #recording_link: "https://youtu.be/..."
@@ -26,20 +26,6 @@
   date: 2021-05-21
   time: from 2-3:30pm Eastern Time (6-7:30pm UTC)
   details: |-
-    Dr. Scott Kulp
-    <br>
-    Understanding where and how many people are living on land threatened by rising sea levels 
-    is crucial for coastal planning and assessing the benefits of climate mitigation. At the 
-    heart of such an analysis is the digital elevation model (DEM) -- a map of land elevation 
-    that allows us to determine which areas may be below the future high tide line. However, 
-    while high-precision DEMs are available in a few countries, most regions use 
-    lower-quality satellite-derived data that see trees and buildings as hills and mountains, 
-    causing vulnerability assessments to greatly underestimate the threats. In this webinar, 
-    we will discuss how an artificial neural network was used to predict and remove the 
-    errors present in the global DEM, revealing that the global coastline may be 3x more
-    vulnerable to sea level rise and flooding than previously thought.
-    <br><br>
-
     Dr. Frances Moore
     <br>
     Climate change is likely to significantly increase flooding in coastal areas due to 
@@ -52,6 +38,21 @@
     gauge data. We show that data from Twitter suggests tidal flooding is occurring more
     frequently in many areas along the Atlantic and Gulf coasts than would be inferred 
     from tide gauges.
+
+    <br><br>
+
+    Dr. Scott Kulp
+    <br>
+    Understanding where and how many people are living on land threatened by rising sea levels 
+    is crucial for coastal planning and assessing the benefits of climate mitigation. At the 
+    heart of such an analysis is the digital elevation model (DEM) -- a map of land elevation 
+    that allows us to determine which areas may be below the future high tide line. However, 
+    while high-precision DEMs are available in a few countries, most regions use 
+    lower-quality satellite-derived data that see trees and buildings as hills and mountains, 
+    causing vulnerability assessments to greatly underestimate the threats. In this webinar, 
+    we will discuss how an artificial neural network was used to predict and remove the 
+    errors present in the global DEM, revealing that the global coastline may be 3x more
+    vulnerable to sea level rise and flooding than previously thought.
 
 
 - title: The Social Cost of Carbon
