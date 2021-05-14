@@ -95,10 +95,10 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Natasha Jaques
 - Kelly Kochanski
 - Alexandre Lacoste
+- Wei-Wei Lin
 - Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
-- Wei-Wei Lin
 
 # Press
 
