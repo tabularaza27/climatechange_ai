@@ -52,7 +52,6 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Content Committee
 - Sasha Luccioni <em>(Committee Co-chair)</em>
 - Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
-- Ebude Antem Yolande Ebong <em>(Wiki)</em>
 - Lauren Kuntz <em>(Course)</em>
 - Tegan Maharaj
 - Ankur Mahesh <em>(Tutorials)</em>
@@ -93,6 +92,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Kasia Tokarska <em>(Climate and Earth Sciences)</em>
 
 ## Former Core Team Members
+- Ebude Antem Yolande Ebong
 - Natasha Jaques
 - Kelly Kochanski
 - Alexandre Lacoste
