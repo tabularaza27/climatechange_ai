@@ -83,6 +83,10 @@
       image_url: images/people/keltonminor_400x400.jpg
       name: Kelton Minor
       affiliation: UCPH, UC Berkeley
+    - website_url: https://www.sites.google.com/view/peetak
+      image_url: images/people/peetakmitra_400x400.jpg
+      name: Peetak P. Mitra
+      affiliation: University of Massachusetts
     - website_url: https://www.microsoft.com/en-us/research/people/juoviedo/
       image_url: images/people/felipeoviedo_400x400.jpg
       name: Felipe Oviedo
