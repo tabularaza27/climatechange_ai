@@ -53,7 +53,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Sasha Luccioni <em>(Committee Co-chair)</em>
 - Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
 - Lauren Kuntz <em>(Course)</em>
-- Tegan Maharaj
+- Tegan Maharaj <em>(Peer Review and Publishing)</em>
 - Ankur Mahesh <em>(Tutorials)</em>
 - Geneviève Patterson <em>(Course)</em>
 - Isabelle Tingzon <em>(Tutorials)</em>
