@@ -62,14 +62,21 @@ $(document).ready(() => {
         </div>`;
       }
 
-   if (w.registration_link) {
+   
+  if (w.registration_link) {
       s += `<div class='webinar-info'>
         <b>When:</b> ${dateStr} ${w.time}<br>
         <b>Speakers:</b> ${w.speakers}<br>
-        <a class='button is-link' href='${w.registration_link}' target='_blank'>
+	 <a class='button is-link' href='${w.registration_link}' target='_blank'>
           ${w.registration_text}
         </a>
       </div>`;
+
+  //If embedding the registration_link within the webinars page is preferred 
+    /**<div style="width:100%; height:80vh;"><iframe src='${w.registration_link}' width="100%" height="100%">
+       </iframe>
+        </div>**/
+ 
      }
      
   s += "</section>";
