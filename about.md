@@ -106,10 +106,28 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Releases
 * Nov. 11, 2019: <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
-## Selected coverage
-* "Not Cool: A Climate Podcast" by the Future of Life Institute: <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">Part 1</a> and <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">Part 2</a>
-* Eye on A.I. podcast: <a href="https://www.eye-on.ai/podcast-024" target="_blank">"Climate Change and AI"</a>
-* National Geographic: <a href="https://www.nationalgeographic.com/environment/2019/07/artificial-intelligence-climate-change/" target="_blank">"How artificial intelligence can tackle climate change"</a>
-* The Verge: <a href="https://www.theverge.com/2019/6/25/18744034/ai-artificial-intelligence-ml-climate-change-fight-tackle" target="_blank">"Here’s how AI can help fight climate change according to the field’s top thinkers"</a>
-* MIT Technology Review: <a href="https://www.technologyreview.com/s/613838/ai-climate-change-machine-learning/" target="_blank">"Here are 10 ways AI could help fight climate change"</a>
+## Selected Coverage
 
+### Articles
+
+* <a href="https://www.technologyreview.com/2019/06/20/134864/ai-climate-change-machine-learning/" target="_blank">Here are 10 ways AI could help fight climate change</a> (MIT Technology Review): An overview of a selection of applications described in our paper, “Tackling Climate Change with Machine Learning.”
+
+* <a href="https://docs.google.com/document/d/1TVuHgVkXtr2_gryO12cmHwemRe1GIwMqYtgBoFgyipk/edit#heading=h.ki3ua9ovql3n" target="_blank">To what extent can artificial intelligence help tackle climate change today?</a> (The Rising): A discussion of AI applications in electricity systems and climate policy, of privacy and equity considerations, and of deployment bottlenecks.
+
+* <a href="https://www.plattform-lernende-systeme.de/interview-lynn-kaack.html" target="_blank">Lynn Kaack: An der Schnittstelle von Klimaschutz und Künstlicher Intelligenz</a> (Plattform Lernende Systeme, in German): An interview for the German Federal Ministry of Education and Research, which covers interdisciplinary research, policy analysis, and practical barriers in the area of AI and climate change.
+
+### Talks
+
+* <a href="https://www.youtube.com/watch?v=NRNKuhd0rR4" target="_blank">Tackling Climate Change with Machine Learning</a> (McGill AI Learnathon, 1 hour): An overview of themes and applications from our paper, "Tackling Climate Change with Machine Learning."
+
+* <a href="https://www.youtube.com/watch?v=HEw3xhTMnp0&ab_channel=Heinrich-B%C3%B6ll-StiftungEuropeanUnion" target="_blank">Artificial Intelligence and Climate Change: Opportunities, considerations, and policy levers to align AI with climate change goals</a> (Heinrich Böll Stiftung, 1 hour): A discussion of AI’s multifaceted relationship with climate change — through positive applications, negative applications, and energy use — and how policy choices can help to align the use of AI with climate change goals.
+
+* <a href="https://www.couchlessons.com/videos" target="_blank">Couch Lesson: AI + Climate Change</a> (Goethe Institute, 30 min): Talk and panel discussion on the broader topic of AI and climate change. Relevant talk starts at 19:30, Q&A starts at 49:00.
+
+### Podcasts
+
+* <a href="https://www.capeandislands.org/show/living-lab-radio-on-cai/2019-11-17/artificial-intelligence-can-help-fight-climate-change#stream/0" target="_blank">Artificial Intelligence Can Help Fight Climate Change</a> (Living Lab Radio on NPR, 12 min): An overview of applications highlighted in our paper, "Tackling Climate Change with Machine Learning."
+
+* <a href="https://www.greentechmedia.com/articles/read/beyond-forecasting-artificial-intelligence-is-a-powerful-decarbonization-tool" target="_blank">Beyond Forecasting: Artificial Intelligence Is a Powerful Decarbonization Tool</a> (The Interchange, 50 min): An overview of applications and themes at the intersection of climate change and machine learning, as well as some discussion of CCAI’s early activities.
+
+* <a href="https://www.koerber-stiftung.de/themen/technik-braucht-gesellschaft/podcast-futurechangers" target="_blank">Future Changers – Der Podcast für nachhaltige Innovation, 2. Staffel: Klima und KI</a> (Körber Stiftung, 30 min, in German): A podcast series dedicated to climate change and AI, with episodes 1 and 3 featuring CCAI members giving a general overview of the topic as well as diving specifically into applications of AI for nature-based solutions.
