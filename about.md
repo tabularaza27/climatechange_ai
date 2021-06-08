@@ -11,10 +11,17 @@ Climate Change AI (CCAI) is an organization composed of volunteers from academia
 To catalyze impactful work at the intersection of climate change and machine learning.
 
 ### Our Goals
-* To build a community of diverse stakeholders.
-* To guide impactful work through educational resources and programs.
-* To fill gaps in essential infrastructure such as funding, tools, and datasets. 
-* To advance discourse and advise relevant players.
+* **Community:** To build a community of diverse stakeholders.
+* **Education:** To guide impactful work through educational resources and programs.
+* **Infrastructure:** To fill gaps in essential infrastructure such as funding, tools, and datasets. 
+* **Discourse:** To advance discourse and advise relevant players.
+
+### Our Guiding Principles
+* **On climate change:** Climate change is a pressing issue with major implications for societal well-being, particularly for the world’s most disadvantaged populations. Addressing climate change requires rapid, sustained, equitable, and scientifically informed efforts in both mitigation and adaptation, in conjunction with relevant stakeholders.
+* **On machine learning:** Machine learning is a powerful tool with wide applicability in many technological and societal applications (both positive and negative), and should be practiced in a manner consistent with its strengths, weaknesses, and limitations, as well as with climate change goals (considering both its applications and its emissions footprint).
+* **On machine learning for climate change:** Machine learning can play an impactful role in many broader strategies for reducing and responding to climate change. At the same time, machine learning is not a silver bullet, and should serve to supplement (rather than divert attention from) other impactful actions to address climate change.
+* **On diversity, inclusion, and equity:** Diversity, inclusion, and equity are central to the advancement of society in general, and moreover fundamental to progress in addressing climate change. Where possible, it is important that work in climate change and machine learning attempt to address the structural inequities that exist in today’s society.
+
 
 
 # People
