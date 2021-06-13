@@ -15,23 +15,24 @@
    strategies that can both reduce the carbon footprint of cities and improve the quality of life of their residents. 
    
    <br><br>
-   
-   Dr. Jason Cao, Professor, Humphrey School of Public Affairs at the University of Minnesota <br>
-   Tao Tao, PhD Candidate, Humphrey School of Public Affairs at the University of Minnesota<br>
+   <a href="https://www.hhh.umn.edu/directory/jason-cao" target="_blank">Dr. Jason Cao</a>, Professor, Humphrey School of Public Affairs at the University of Minnesota <br>
+   <a href="https://www.hhh.umn.edu/doctor-philosophy-phd-public-affairs/phd-students/tao-tao" target="_blank">Tao Tao</a>, PhD Candidate, Humphrey School of Public Affairs at the University of Minnesota<br>
    Dr. Mafalda Silva, INEGI, Portugal
 
-- title: Coastal Adaptation to Sea Level Rise
+- title: Coastal Adaptation to Sea Level Rise 
   subtitle: Can social media data provide a tool for socially sensing tidal flooding?
             Can machine learning help countries better understand which coastal
             communities will be most impacted by sea level rise? 
-  speakers: Dr. Frances Moore, Dr. Scott Kulp
+  speakers: Dr. Frances Moore, and Dr. Scott Kulp
   image: /images/webinar_sea_level_rise.png
-  #registration_link: "https://www.climatechange.ai/register/webinar-sea-level-rise"
   recording_link: "https://youtu.be/7JQOhdRi9kM"
   registration_text: Register via Eventbrite (Free)
   date: 2021-05-21
   time: from 2-3:30pm Eastern Time (6-7:30pm UTC)
   details: |-
+    In this webinar, we hosted <a href="https://desp.ucdavis.edu/people/frances-c-moore" target="_blank"><b>Dr. Frances Moore</b></a> (University of California Davis), 
+    and <a href="https://desp.ucdavis.edu/people/frances-c-moorehttps://www.climatecentral.org/what-we-do/people/scott-kulp" target="_blank"><b>Dr. Scott Kulp</b></a> (Climate Central). 
+    <br><br>
     Dr. Frances Moore
     <br>
     Climate change is likely to significantly increase flooding in coastal areas due to 
@@ -61,12 +62,12 @@
     vulnerable to sea level rise and flooding than previously thought.
 
 - title: Applied Machine Learning for Agriculture and Forest Management in Changing Climate
-  speakers: Dr. Emily Lines (University of Cambridge), Jigar Doshi (Wadhwani AI)
+  speakers: Dr. Emily Lines (University of Cambridge) and Jigar Doshi (Wadhwani AI)
   image: /images/webinar_applied_ml_for_AFOLU_05_06_2021.png
   subtitle: How can machine learning contribute to more efficient agriculture and forest conservation?
   registration_link: "https://www.climatechange.ai/register/webinar"
   recording_link: "https://youtu.be/4gwwfgUmxxA"
-  registration_text: Register via Eventbrite (Free)
+  registration_text: Register via Eventbrite (Free)   
   date: 2021-05-06
   time: from 2-3:30pm Eastern Time (6-7:30pm UTC)
   details: |-
@@ -74,6 +75,8 @@
    Agriculture and forestry need to become more efficient and adaptable to changes in weather patterns, the impacts of pests, water scarcity, etc. 
    In this context, the first part of the webinar will discuss applications of machine learning to climate-relevant ecological monitoring and conservation of forests.
    The second part of the webinar will discuss the role of machine learning to increase agricultural resilience in a changing climate.
+   <br><br>
+   In this webinar, we hosted <a href="https://www.geog.cam.ac.uk/people/lines/" target="_blank"><b>Dr. Emily Lines</b></a> (University of Cambridge) and <a href="https://www.linkedin.com/in/jigarkdoshi" target="_blank"><b>Jigar Doshi</b></a> (Wadhwani AI).
 
 - title: The Social Cost of Carbon
   speakers: Tamma Carleton (University of California, Santa Barbara)
