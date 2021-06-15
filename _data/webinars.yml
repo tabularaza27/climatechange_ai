@@ -1,3 +1,22 @@
+- title: Machine learning in climate finance
+  #subtitle: 
+  speakers: TBD
+  image: /images/webinar_july_14_21.png
+  registration_link: "https://www.climatechange.ai/register/ccai_webinar"
+  #recording_link: "https://youtu.be/...."
+  registration_text: Register via Eventbrite (Free)
+  date: 2021-07-14
+  time: from 9-10:30am Eastern Time (3-4:30pm UTC)
+  details: |-
+   One of the most significant, and perhaps most misunderstood, risks that financial institutions face today relates to climate change. 
+   It is more important than ever that these institutions lead in understanding and responding to these risks—and seizing the opportunities—to
+   build a stronger, more resilient, and sustainable global economy. Addressing this need requires innovative thinking, analytics, and a new 
+   business mindset. In this webinar, we will discuss key business issues related to the impact of climate change on financial institutions, 
+   application of traditional quant and advanced AI/ML techniques in addressing these issues, and challenges and considerations in implementing such techniques.
+
+   
+   <br><br>
+
 - title: Spatial planning of low-carbon cities with machine learning
   #subtitle: 
   speakers: Dr. Jason Cao, Tao Tao, Dr. Mafalda Silva
