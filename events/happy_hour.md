@@ -1,6 +1,6 @@
 # Climate Change AI Happy Hour Series
 
-## Next event: Wednesday 16 June @ 5pm ET/10pm GMT+1 (sign up link below)
+## Next event: Wednesday 7 July @ 12:30pm ET/5:30pm GMT+1 (sign up link below)
 
 Join us on the **first and third Wednesday of each month** for our regular virtual happy hour events. 
 
