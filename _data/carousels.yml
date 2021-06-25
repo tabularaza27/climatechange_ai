@@ -26,6 +26,8 @@
       url: /events/icml2021
       image: /images/icml2021_fb_poster.png
       start_showing_on: 2021-07-24
+    - title: Explore and contribute to the Climate Change AI Wiki
+      url: https://wiki.climatechange.ai
     - title: View interactive summaries of our climate + ML paper
       image: /images/summaries_teaser.png
       url: /summaries
