@@ -14,7 +14,7 @@ redirect_from:
 # Frequently Asked Questions
 
 ### I want to learn more about climate change and machine learning. Where can I start?
-We encourage you to check out our <a href="{{ site.paper_url }}" target="_blank">paper</a>, which provides a detailed guide of ways machine learning can be used to tackle climate change, as well as the accompanying [resources](/resources) and [tutorials](/tutorials) on our website, and our <a href="https://wiki.climatechange.ai" target="_blank">wiki page</a>. We also encourage you to explore routes such as setting up a reading group at your institution or via our <a href="{{ site.forum_url }}" target="_blank">discussion forum</a>.
+We encourage you to check out our <a href="{{ site.paper_url }}" target="_blank">paper</a>, which provides a detailed guide of ways machine learning can be used to tackle climate change, as well as the accompanying [resources](/resources) and [tutorials](/tutorials) on our website, and our <a href="https://wiki.climatechange.ai" target="_blank">wiki</a>. We also encourage you to explore routes such as setting up a reading group at your institution or via our <a href="{{ site.forum_url }}" target="_blank">discussion forum</a>.
 
 ### I’ve read the paper and checked out the resources. What should I do next?
 We encourage you to join the conversations on our <a href="{{ site.forum_url }}" target="_blank">discussion forum</a> and social media channels, sign up for our [newsletter](/newsletter), submit to one of our [workshops](/events), or attend one of our [events](/events) in order to find collaborators. You might also consider organizing or attending informal meetups through our <a href="{{ site.forum_url }}" target="_blank">discussion forum</a> to meet others working in this area.
