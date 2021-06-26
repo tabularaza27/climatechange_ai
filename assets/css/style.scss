@@ -165,16 +165,26 @@ a.person__item:hover {
   .person__title {
     text-decoration: none;
   }
+
+  .person__role {
+    text-decoration: none;
+  }
 }
 
 .person__affil {
   font-size: small;
+  font-style: italic;
 }
 
 .person__title {
   font-size: 0.9rem;
   margin-top: 5px;
   font-weight: 600;
+}
+
+.person__role {
+   margin-top: 5px;
+   font-size: 15px;
 }
 
 .person__item {

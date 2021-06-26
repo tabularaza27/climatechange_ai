@@ -40,6 +40,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 </div>
 <div class="person__name">{{p.name}}</div>
 <div class="person__affil">{{p.affiliation}}</div>
+<div class="person__role">{{p.roles | join: ";<br>"}}</div>
 {% if p.website_url %}
 </a>
 {% else %}
@@ -48,55 +49,6 @@ To catalyze impactful work at the intersection of climate change and machine lea
 {% endfor %}
 </div>
 {% endfor %}
-
-# Organizational Structure
-
-## CCAI Chairs
-- Priya L. Donti
-- Lynn H. Kaack
-- David Rolnick
-
-## Content Committee
-- Nikola Milojevic-Dupont <em>(Committee Chair)</em>
-- Lauren Kuntz <em>(Course)</em>
-- Sasha Luccioni
-- Tegan Maharaj <em>(Peer Review and Publishing)</em>
-- Ankur Mahesh <em>(Tutorials)</em>
-- Geneviève Patterson <em>(Course)</em>
-- Isabelle Tingzon <em>(Tutorials)</em>
-- Marcus Voss <em>(Wiki)</em>
-
-## Communications Committee
-- Konstantin Klemmer <em>(Committee Chair)</em>
-- Ján Drgoňa <em>(Forum)</em>
-- Jesse Dunietz <em>(Media Relations)</em>
-- Peetak Mitra <em>(Newsletter)</em>
-- Andrew Ross <em>(Website)</em>
-- Katherine Stapleton <em>(Strategic Outreach)</em>
-- Kasia Tokarska
-
-## Programs Committee
-- Evan D. Sherwin <em>(Committee Chair)</em>
-- Hari Prasanna Das <em>(Summer School)</em>
-- Jessica Fan <em>(Industry Events)</em>
-- Meareg Hailemariam <em>(Webinar)</em>
-- Jeremy Irvin <em>(Summer School)</em>
-- John Kieffer <em>(Community Events)</em>
-- Konstantin Klemmer
-- Felipe Oviedo <em>(Webinar)</em>
-- Maria João Sousa <em>(Summer School)</em>
-- Yumna Yusuf <em>(Happy Hours)</em>
-
-## Community Leads
-- David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
-- Priya L. Donti <em>(Power Sector)</em>
-- Lynn H. Kaack <em>(Public Sector)</em>
-- Raphaela Kotsch <em>(Economics and Markets)</em>
-- Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
-- Kelton Minor <em>(Computational Social Sciences)</em>
-- David Rolnick <em>(Biodiversity)</em>
-- Katherine Stapleton <em>(International Organizations)</em>
-- Kasia Tokarska <em>(Climate and Earth Sciences)</em>
 
 ## Former Core Team Members
 - Ebude Antem Yolande Ebong
