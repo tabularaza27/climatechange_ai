@@ -4,9 +4,7 @@ title: Climate Change AI - Newsletters
 description: Archive of Climate Change AI newsletters
 ---
 
-# Newsletter
-
-## Sign Up
+## Newsletter Signup
 
 {% include newsletter_signup_form.html %}
 
