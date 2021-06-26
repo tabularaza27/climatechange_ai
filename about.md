@@ -40,7 +40,9 @@ To catalyze impactful work at the intersection of climate change and machine lea
 </div>
 <div class="person__name">{{p.name}}</div>
 <div class="person__affil">{{p.affiliation}}</div>
+{% if p.roles %}
 <div class="person__role">{{p.roles | join: ";<br>"}}</div>
+{% endif %}
 {% if p.website_url %}
 </a>
 {% else %}
