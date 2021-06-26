@@ -94,7 +94,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Raphaela Kotsch <em>(Economics and Markets)</em>
 - Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
 - Kelton Minor <em>(Computational Social Sciences)</em>
-- David Rolnick <em>(Tech Industry and ML Academia)</em>
+- David Rolnick <em>(Biodiversity)</em>
 - Katherine Stapleton <em>(International Organizations)</em>
 - Kasia Tokarska <em>(Climate and Earth Sciences)</em>
 
