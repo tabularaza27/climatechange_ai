@@ -14,12 +14,12 @@
     - title: Check out the CCAI community events calendar
       image: /images/core_team_zoom.png
       url: /community-events
+    - title: Priya Donti and Lynn Kaack featured on The Interchange
+      image: /images/interchange.jpg
+      url: https://www.greentechmedia.com/articles/read/how-a.i-will-revolutionize-climate-tech
     - title: CCAI Chairs speak at Heinrich Böll Foundation
       image: https://eu.boell.org/sites/default/files/2020-12/CCAI%20cover%20web.png
       url: https://calendar.boell.de/en/event/how-artificial-intelligence-could-help-mitigate-climate-change
-    - title: David Rolnick featured on ASP Flashpoint
-      image: /images/people/davidrolnick_400x400.jpg
-      url: https://www.americansecurityproject.org/climate-and-ai-with-dr-david-rolnick/
 - title: 'Featured content'
   entries:
     - title: "Browse papers and talks from ICML 2021"
@@ -31,14 +31,15 @@
     - title: View interactive summaries of our climate + ML paper
       image: /images/summaries_teaser.png
       url: /summaries
-    - title: Watch tutorials on climate change or machine learning
-      url: /tutorials
-    - title: Contribute to our wishlist of critical datasets
-      image: /images/wishlist_img.jpg
-      url: https://docs.google.com/document/d/1E1vhuGNiUWUbij8WxqNbTfytxfyaS9LnaBEdx58KQQc/edit
     - title: Browse papers and talks from NeurIPS 2020
       image: /images/NeurIPS2020_preview_copy4.png
       url: /events/neurips2020
       stop_showing_on: 2021-07-24
+    - title: Watch tutorials on climate change or machine learning
+      url: /tutorials
+      image: /images/cc_downstream_impacts_crop.png
+    - title: Contribute to our wishlist of critical datasets
+      image: /images/wishlist_img.jpg
+      url: https://docs.google.com/document/d/1E1vhuGNiUWUbij8WxqNbTfytxfyaS9LnaBEdx58KQQc/edit
     - title: Join the conversation on our discussion forum
       url: https://forum.climatechange.ai/
