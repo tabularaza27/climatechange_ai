@@ -57,9 +57,9 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - David Rolnick
 
 ## Content Committee
-- Sasha Luccioni <em>(Committee Co-chair)</em>
-- Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
+- Nikola Milojevic-Dupont <em>(Committee Chair)</em>
 - Lauren Kuntz <em>(Course)</em>
+- Sasha Luccioni
 - Tegan Maharaj <em>(Peer Review and Publishing)</em>
 - Ankur Mahesh <em>(Tutorials)</em>
 - Geneviève Patterson <em>(Course)</em>

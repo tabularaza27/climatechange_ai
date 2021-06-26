@@ -18,10 +18,6 @@
       image_url: images/people/konstantin_400x400.jpg
       name: Konstantin Klemmer
       affiliation: University of Warwick
-    - website_url: https://www.sashaluccioni.com/
-      image_url: images/people/sashaluccioni_400x400.jpg
-      name: Sasha Luccioni
-      affiliation: Mila, U. de Montréal
     - website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
       image_url: images/people/nikolamilojevicdupont_400x400.jpg
       name: Nikola Milojevic-Dupont
@@ -68,6 +64,10 @@
       image_url: images/people/lauren_400x400.jpg
       name: Lauren Kuntz
       affiliation: Gaiascope, Inc.
+    - website_url: https://www.sashaluccioni.com/
+      image_url: images/people/sashaluccioni_400x400.jpg
+      name: Sasha Luccioni
+      affiliation: Mila, U. de Montréal
     - website_url: http://www.teganmaharaj.com
       image_url: images/people/teganmaharaj_400x400.jpg
       name: Tegan Maharaj
