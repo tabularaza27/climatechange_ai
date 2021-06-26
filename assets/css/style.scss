@@ -461,6 +461,20 @@ td {
   }
 }
 
+.tutorial {
+  padding: 1rem;
+}
+
+.tutorial-table {
+  td:first-child {
+    white-space: nowrap;
+  }
+
+  td:last-child {
+    width: 100%;
+  }
+}
+
 .remote-workshop-table {
   td.fill-utc, td.fill-local {
     white-space: nowrap;

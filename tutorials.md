@@ -8,7 +8,7 @@ description: Tutorials on climate change and machine learning
 
 Check out our tutorials on climate change and machine learning below!
 
-<section class='webinar card'>
+<section class='tutorial card'>
 
 <h2>Climate Change 101 (<a href="https://www.youtube.com/watch?v=KB4vUk1-yNQ&ab_channel=ClimateChangeAI" target="_blank">direct link</a>) </h2>
 
@@ -18,7 +18,7 @@ Check out our tutorials on climate change and machine learning below!
 
 </section>
 
-<section class='webinar card'>
+<section class='tutorial card'>
 
 <h2>Machine Learning 101 (<a href="https://www.youtube.com/watch?v=mc9QG2R-rf4&ab_channel=ClimateChangeAI" target="_blank">direct link</a>) </h2>
 
