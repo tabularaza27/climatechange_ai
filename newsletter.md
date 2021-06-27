@@ -10,7 +10,7 @@ description: Archive of Climate Change AI newsletters
 
 ## Archive
 
-See our archive of past newsletters below. If the list isn't appearing below, you can also view the archive <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>here</a>.
+Links to our past newsletters are below. If the list isn't appearing, you can also view the archive <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>here</a>.
 
 <!-- <iframe src="https://us3.campaign-archive.com/?u=a5463f28627a77a4b2a79e7d0&id=ef22a3426e" style="border: 0; width: 100%; height: 5in"> Your browser doesn't support iFrames. </iframe> -->
 
