@@ -8,11 +8,9 @@ og_image_width: 1063
 og_image_height: 555
 ---
 
-<h1 id='webinars'>Webinars</h1>
+<h2 id='upcoming'>Upcoming Webinars</h2>
 
-<h2 id='upcoming'>Upcoming</h2>
-
-<h2 id='past'>Past</h2>
+<h2 id='past'>Past Webinars</h2>
 
 <table class='webinar-table'>
   <thead>
@@ -38,13 +36,14 @@ $(document).ready(() => {
   webinars.forEach(w => {
     const date = DateTime.fromISO(w.date);
     const dateStr = date.toLocaleString(DateTime.DATE_HUGE);
+    const dateStrTitle = date.toLocaleString(DateTime.DATE_FULL);
 
     if (date >= today) {
       anyUpcoming = true;
 
       let s = "<section class='webinar card'>";
 
-      s += `<p>(${dateStr})</p><h3 class='webinar-title'>${w.title}</h3>`;
+      s += `<h3 class='webinar-title'>${dateStrTitle}: ${w.title}</h3>`;
 
       if (w.subtitle) {
         s += `<div class='webinar-subtitle'>${w.subtitle}</div>`;
@@ -57,7 +56,7 @@ $(document).ready(() => {
       }
 
       if (w.image) {
-        s += `<div class='webinar-header-image'>
+        s += `<div class='webinar-header-image' style="width: 75%">
           <img src='${w.image}' alt='${dateStr} Webinar'>
         </div>`;
       }

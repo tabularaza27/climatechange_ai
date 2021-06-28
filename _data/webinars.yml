@@ -14,8 +14,13 @@
    business mindset. In this webinar, we will discuss key business issues related to the impact of climate change on financial institutions, 
    application of traditional quant and advanced AI/ML techniques in addressing these issues, and challenges and considerations in implementing such techniques.
 
-   
    <br><br>
+
+   <b>Moderator:</b> Arpit Narain is the global head of financial solutions at MathWorks. He is responsible for the worldwide expansion of Quant Modeling and Artificial Intelligence / Machine Learning based financial solutions business across Sustainability / ESG, Climate-related risk, Trusted AI, Financial Risk & Compliance, Model Risk, Trading, and Investment Management.
+
+   <br><br>
+
+   <i>Final speaker lineup will be announced in July.</i>
 
 - title: Spatial planning of low-carbon cities with machine learning
   #subtitle: 
@@ -34,10 +39,13 @@
    strategies that can both reduce the carbon footprint of cities and improve the quality of life of their residents. 
    
    <br><br>
-   <a href="https://www.hhh.umn.edu/directory/jason-cao" target="_blank">Dr. Jason Cao</a>, Professor, Humphrey School of Public Affairs at the University of Minnesota <br>
-   <a href="https://www.hhh.umn.edu/doctor-philosophy-phd-public-affairs/phd-students/tao-tao" target="_blank">Tao Tao</a>, PhD Candidate, Humphrey School of Public Affairs at the University of Minnesota<br>
-   Dr. Mafalda Silva, INEGI, Portugal
-
+   <b>Speakers:</b>
+   <ul>
+   <li><a href="https://www.hhh.umn.edu/directory/jason-cao" target="_blank"><b>Dr. Jason Cao</b></a> (Humphrey School of Public Affairs at the University of Minnesota)</li>
+   <li><a href="https://www.hhh.umn.edu/doctor-philosophy-phd-public-affairs/phd-students/tao-tao" target="_blank"><b>Tao Tao</b></a> (Humphrey School of Public Affairs at the University of Minnesota)</li>
+   <li><b>Dr. Mafalda Silva</b> (INEGI, Portugal)</li>
+   </ul>
+   
 - title: Coastal Adaptation to Sea Level Rise 
   subtitle: Can social media data provide a tool for socially sensing tidal flooding?
             Can machine learning help countries better understand which coastal
@@ -49,10 +57,11 @@
   date: 2021-05-21
   time: from 2-3:30pm Eastern Time (6-7:30pm UTC)
   details: |-
-    In this webinar, we hosted <a href="https://desp.ucdavis.edu/people/frances-c-moore" target="_blank"><b>Dr. Frances Moore</b></a> (University of California Davis), 
-    and <a href="https://www.climatecentral.org/what-we-do/people/scott-kulp" target="_blank"><b>Dr. Scott Kulp</b></a> (Climate Central). 
+    In this webinar, we hosted <a href="https://desp.ucdavis.edu/people/frances-c-moore" target="_blank"><b>Dr. Frances Moore</b></a> (University of California Davis) 
+    and <a href="https://www.climatecentral.org/what-we-do/people/scott-kulp" target="_blank"><b>Dr. Scott Kulp</b></a> (Climate Central)
+    to discuss their work using big data and machine learning to better understand the impacts of sea level rise.
     <br><br>
-    Dr. Frances Moore
+    Dr. Frances Moore:
     <br>
     Climate change is likely to significantly increase flooding in coastal areas due to 
     a combination of higher sea levels and more intense rainfall events. Nuisance tidal
@@ -67,7 +76,7 @@
 
     <br><br>
 
-    Dr. Scott Kulp
+    Dr. Scott Kulp:
     <br>
     Understanding where and how many people are living on land threatened by rising sea levels 
     is crucial for coastal planning and assessing the benefits of climate mitigation. At the 
@@ -95,7 +104,11 @@
    In this context, the first part of the webinar will discuss applications of machine learning to climate-relevant ecological monitoring and conservation of forests.
    The second part of the webinar will discuss the role of machine learning to increase agricultural resilience in a changing climate.
    <br><br>
-   In this webinar, we hosted <a href="https://www.geog.cam.ac.uk/people/lines/" target="_blank"><b>Dr. Emily Lines</b></a> (University of Cambridge) and <a href="https://www.linkedin.com/in/jigarkdoshi" target="_blank"><b>Jigar Doshi</b></a> (Wadhwani AI).
+   <b>Speakers:</b>
+   <ul>
+   <li><a href="https://www.geog.cam.ac.uk/people/lines/" target="_blank"><b>Dr. Emily Lines</b></a> (University of Cambridge)</li>
+   <li><a href="https://www.linkedin.com/in/jigarkdoshi" target="_blank"><b>Jigar Doshi</b></a> (Wadhwani AI)</li>
+   </ul>
 
 - title: The Social Cost of Carbon
   speakers: Tamma Carleton (University of California, Santa Barbara)
@@ -307,7 +320,7 @@
 
     <br><br>
 
-    <b>Speaker:</b> Jessica Eastling is an Associate at Better Ventures
+    <a href="https://www.linkedin.com/in/jessicaraeeastling/"><b>Jessica Eastling</b></a> is an Associate at Better Ventures
     who has first-hand experience working across non-profits,
     foundations, and social enterprises, exposing her to a wide range of
     impact models. Prior to Better Ventures, Jessica worked with Zola
