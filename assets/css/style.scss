@@ -30,6 +30,10 @@ $dark: black;
   --navbar-height-mobile: 64px;
 }
 
+.main-content {
+  max-width: 100%;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
