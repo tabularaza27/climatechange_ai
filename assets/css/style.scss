@@ -461,6 +461,20 @@ td {
   }
 }
 
+.tutorial {
+  padding: 1rem;
+}
+
+.tutorial-table {
+  td:first-child {
+    white-space: nowrap;
+  }
+
+  td:last-child {
+    width: 100%;
+  }
+}
+
 .remote-workshop-table {
   td.fill-utc, td.fill-local {
     white-space: nowrap;
@@ -711,4 +725,19 @@ td {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.youtube-embed-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.youtube-embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
