@@ -6,118 +6,188 @@
       image_url: images/people/priyadonti_400x400.jpg
       name: Priya L. Donti
       affiliation: Carnegie Mellon
+      roles:
+        - CCAI Chair
+        - Power & Energy Lead
     - website_url: https://epg.ethz.ch/people/senior-researchers/dr--lynn-kaack.html
       image_url: images/people/lynnkaack_400x400.jpg
       name: Lynn H. Kaack
       affiliation: ETH Zürich
+      roles:
+        - CCAI Chair
+        - Public Sector Lead
     - website_url: http://www.davidrolnick.com
       image_url: images/people/davidrolnick_400x400.jpg
       name: David Rolnick
       affiliation: McGill, Mila
+      roles:
+        - CCAI Chair
+        - Biodiversity Lead
     - website_url: https://konstantinklemmer.github.io
       image_url: images/people/konstantin_400x400.jpg
       name: Konstantin Klemmer
       affiliation: University of Warwick
+      roles:
+        - Communications Chair
     - website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
       image_url: images/people/nikolamilojevicdupont_400x400.jpg
       name: Nikola Milojevic-Dupont
       affiliation: MCC Berlin, TU Berlin
+      roles:
+        - Content Chair
+        - Buildings & Transportation Lead
     - website_url: https://www.evansherwin.com/
       image_url: images/people/evansherwin_400x400.jpg
       name: Evan D. Sherwin
       affiliation: Stanford University
+      roles:
+        - Programs Chair
     - website_url: https://daviddao.org/
       image_url: images/people/daviddao_400x400.jpg
       name: David Dao
       affiliation: ETH Zürich
+      roles:
+        - Agriculture & Forestry Lead
+        # - Agriculture, Forestry, and Other Land Use Lead
+        # - AFOLU Lead
     - website_url: http://hariprasanna.com/
       image_url: images/people/hariprasannadas_400x400.jpg
       name: Hari Prasanna Das
       affiliation: UC Berkeley
+      roles:
+        - Summer School
     - website_url: https://drgona.github.io/
       image_url: images/people/jandrgona_400x400.jpg
       name: Ján Drgoňa
       affiliation: Pacific Northwest National Laboratory
+      roles:
+        # - Forum
+        - Community Platforms
     - website_url: https://jessedunietz.com/
       image_url: images/people/jessedunietz_400x400.JPG
       name: Jesse Dunietz
       affiliation: Elemental Cognition
+      roles:
+        - Media Relations
     - image_url: images/people/jessicafan_400x400.jpg
       name: Jessica Fan
       affiliation: QuantumBlack, McKinsey
+      roles:
+        - Industry Events
     - website_url: https://www.linkedin.com/in/meareg-a-hailemariam/
       image_url: images/people/meareghailemariam_400x400.jpg
       name: Meareg Hailemariam
       affiliation: Dakar American University of Science and Technology
+      roles:
+        - Webinars
     - website_url: https://jirvin16.github.io/
       image_url: images/people/jeremyirvin_400x400.jpg
       name: Jeremy Irvin
       affiliation: Stanford University
+      roles:
+        - Summer School
     - image_url: images/people/johnkieffer_400x400.jpg
       name: John Kieffer
       affiliation: University of Pittsburgh
+      roles:
+        - Community Events
     - website_url: https://www.rkotsch.com
       image_url: images/people/raphaelakotsch_400x400.jpg
       name: Raphaela Kotsch
       affiliation: University of Zurich, ZHAW
+      roles:
+        - Economics & Markets Lead
     - website_url: https://www.gaia-scope.com/
       image_url: images/people/lauren_400x400.jpg
       name: Lauren Kuntz
       affiliation: Gaiascope, Inc.
+      roles:
+        - Course
     - website_url: https://www.sashaluccioni.com/
       image_url: images/people/sashaluccioni_400x400.jpg
       name: Sasha Luccioni
       affiliation: Mila, U. de Montréal
+      roles:
+        - Content Committee
     - website_url: http://www.teganmaharaj.com
       image_url: images/people/teganmaharaj_400x400.jpg
       name: Tegan Maharaj
       affiliation: Mila, Polytechnique Montréal
+      roles:
+        - Peer Review & Publishing
     - image_url: images/people/ankurmahesh_400x400.jpg
       name: Ankur Mahesh
       affiliation: LBNL, UC Berkeley
+      roles:
+        - Tutorials
     - website_url: https://www.linkedin.com/in/kelton-minor-86a0b5106/
       image_url: images/people/keltonminor_400x400.jpg
       name: Kelton Minor
       affiliation: UCPH, UC Berkeley
+      roles:
+        - Computational Social Sciences Lead
     - website_url: https://www.sites.google.com/view/peetak
       image_url: images/people/peetakmitra_400x400.jpg
       name: Peetak P. Mitra
       affiliation: University of Massachusetts
+      roles:
+        - Newsletter
     - website_url: https://www.microsoft.com/en-us/research/people/juoviedo/
       image_url: images/people/felipeoviedo_400x400.jpg
       name: Felipe Oviedo
       affiliation: Microsoft AI for Good, MIT
+      roles:
+        - Webinars
     - website_url: https://genp.github.io
       image_url: images/people/genevievepatterson_400x400.jpg
       name: Geneviève Patterson
       affiliation: VSCO
+      roles:
+        - Course
     - website_url: https://asross.github.io/
       image_url: images/people/andrew_ross_400x400.jpg
       name: Andrew Slavin Ross
       affiliation: Harvard University
+      roles:
+        - Website
     - website_url: https://www.linkedin.com/in/mariajoaosousa/
       image_url: images/people/mariajoaosousa_400x400.jpg
       name: Maria João Sousa
       affiliation: IST, ULisboa
+      roles:
+        - Summer School
     - website_url: https://sites.google.com/view/katherinestapleton
       image_url: images/people/katherinestapleton_400x400.jpg
       name: Katherine Stapleton
-      affiliation: World Bank & Oxford University
+      affiliation: World Bank, Oxford University
+      roles:
+        - International Organizations Lead
+        # - Strategic Outreach
+        - Communications Committee
     - website_url: https://www.linkedin.com/in/isabelletingzon/
       image_url: images/people/isabelletingzon_400x400.jpg
       name: Isabelle Tingzon
       affiliation: Thinking Machines Data Science
+      roles:
+        - Tutorials
     - website_url: https://www.kasiatokarska.com/
       image_url: images/people/kasiatokarska_400x400.jpg
       name: Kasia Tokarska
       affiliation: ETH Zürich
+      roles:
+        - Climate & Earth Sciences Lead
+        - Communications Committee
     - website_url: https://marcusvoss.com/
       image_url: images/people/marcusvoss_400x400.jpg
       name: Marcus Voss
       affiliation: TU Berlin
+      roles:
+        - Wiki
     - image_url: images/people/yumna_400x400.jpg
       name: Yumna Yusuf
       affiliation: Climate policy, COP26
+      roles:
+        - Happy Hours
 
 - group: 'Advisors'
   anchor: 'advisors'
