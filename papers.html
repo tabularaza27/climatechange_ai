@@ -6,7 +6,7 @@ description: Tackling Climate Change with Machine Learning
 
 <h1>Climate Change AI Workshop Papers</h1>
 
-<p>On this page, we show accepted works from all our past workshops on "Tackling Climate Change with Machine Learning."</p>
+<p>On this page, we show accepted works from all our <a href='/events#past-events'>past workshops</a> on "Tackling Climate Change with Machine Learning."</p>
 
 <div id='search-wrapper'>
   <div class='columns'>
@@ -93,7 +93,7 @@ description: Tackling Climate Change with Machine Learning
 
             <td class='paper-areas'>
               {% for area in p.subject_areas %}
-                <a href='javascript:void(0)' class='tag is-light'>{{ area }}</a>
+                <a href='javascript:void(0)' class='paper-area tag is-light'>{{ area }}</a>
               {% endfor %}
             </td>
           </tr>
@@ -104,7 +104,13 @@ description: Tackling Climate Change with Machine Learning
 </table>
 
 <style>
+  .main-content {
+    /* Allow table to span full width of page */
+    max-width: none !important;
+  }
+
   .dataTables_filter {
+    /* Hide the built-in searchbar */
     display: none;
   }
 
@@ -165,13 +171,12 @@ $(document).ready(() => {
     const $venues = $('#venues');
     const $search = $('#text-search');
 
-    const areas = Array.from(new Set(Array.from($('table .tag')).map(t => t.innerText))).sort();
+    const areas = Array.from(new Set(Array.from($('.paper-area')).map(t => t.innerText))).sort();
 
     for (let area of areas) {
       $areas.append(`<option value='${area}'>${area}</option>`);
     }
 
-    $('.main-content').css('max-width', 'none');
     $('select[multiple]').chosen({
       width: '100%'
     });

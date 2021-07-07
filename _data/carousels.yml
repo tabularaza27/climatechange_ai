@@ -28,10 +28,13 @@
       image: /images/icml2021_fb_poster.png
       start_showing_on: 2021-07-24
     - title: Explore and contribute to the Climate Change AI Wiki
+      image: /images/wiki_teaser.png
       url: https://wiki.climatechange.ai
     - title: View interactive summaries of our climate + ML paper
       image: /images/summaries_teaser.png
       url: /summaries
+    - title: Browse all accepted papers from our workshop series
+      url: /papers
     - title: Browse papers and talks from NeurIPS 2020
       image: /images/NeurIPS2020_preview_copy4.png
       url: /events/neurips2020
