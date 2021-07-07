@@ -42,6 +42,8 @@
   slides_path: "/papers/iclr2020/1/slides.pdf"
   subject_areas:
   - Buildings
+  condensed_subject_areas:
+  - Buildings and cities
 - paper_title: Deep Reinforcement Learning based Renewable Energy Error Compensable
     Forecasting
   abstract: Recently, renewable energy is rapidly integrated into the power grid to
@@ -76,6 +78,9 @@
   slides_path: "/papers/iclr2020/2/slides.pdf"
   subject_areas:
   - Power generation and grids
+  - Data presentation and management
+  condensed_subject_areas:
+  - Power and energy
   - Data presentation and management
 - paper_title: Missing-insensitive Short-term Load Forecasting Leveraging Autoencoder
     and LSTM
@@ -115,6 +120,9 @@
   subject_areas:
   - Power generation and grids
   - Data presentation and management
+  condensed_subject_areas:
+  - Power and energy
+  - Data presentation and management
 - paper_title: A Machine Learning Pipeline to Predict Vegetation Health
   abstract: Agricultural droughts can exacerbate poverty and lead to famine. Timely
     distribution of disaster relief funds is essential to help minimise the impact
@@ -149,6 +157,9 @@
   slides_path: "/papers/iclr2020/4/slides.pdf"
   subject_areas:
   - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
   - Extreme weather events
 - paper_title: Understanding the dynamics of climate-crucial food choice behaviours
     using Distributional Semantics
@@ -185,7 +196,10 @@
   slides_path: "/papers/iclr2020/5/slides.pdf"
   subject_areas:
   - Societal adaptation
-  - 'Climate change and diet '
+  - Climate change and diet
+  condensed_subject_areas:
+  - Societal adaptation
+  - Climate change and diet
 - paper_title: 'SolarNet: A Deep Learning Framework to Map Solar Plants In China From
     Satellite Imagery'
   abstract: Renewable energy such as solar power is critical to fight the ever more
@@ -221,6 +235,9 @@
   slides_path: "/papers/iclr2020/6/slides.pdf"
   subject_areas:
   - Power generation and grids
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Power and energy
   - Ecosystems and natural resources
 - paper_title: Embedding Hard Physical Constraints in Convolutional Neural Networks
     for 3D Turbulence
@@ -258,6 +275,9 @@
   paper_path: "/papers/iclr2020/7/paper.pdf"
   slides_path: "/papers/iclr2020/7/slides.pdf"
   subject_areas:
+  - Climate and earth science
+  - Extreme weather events
+  condensed_subject_areas:
   - Climate and earth science
   - Extreme weather events
 - paper_title: 'DETECTION OF HOUSING AND AGRICULTURE AREAS ON DRY-RIVERBEDS FOR THE
@@ -305,6 +325,11 @@
   - Climate and earth science
   - Industry
   - Urban studies
+  condensed_subject_areas:
+  - Buildings and cities
+  - Agriculture, forestry and other land use
+  - Climate and earth science
+  - Industry
 - paper_title: Non-linear interlinkages and key objectives amongst the Paris Agreement
     and the Sustainable Development Goals
   abstract: "The United Nations' ambitions to combat climate change and prosper human
@@ -348,6 +373,10 @@
   - Policy
   - Data presentation and management
   - Societal adaptation
+  condensed_subject_areas:
+  - Policy
+  - Data presentation and management
+  - Societal adaptation
 - paper_title: A CONTINUAL LEARNING APPROACH FOR LOCAL LEVEL ENVIRONMENTAL MONITORING
     IN LOW-RESOURCE SETTINGS
   abstract: 'An increasingly important dimension in the quest for mitigation and monitoring
@@ -385,6 +414,11 @@
   subject_areas:
   - Agriculture, forestry and other land use
   - Disaster management and relief
+  - Ecosystems and natural resources
+  - Societal adaptation
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Disaster prediction, management, and relief
   - Ecosystems and natural resources
   - Societal adaptation
 - paper_title: 'WeatherBench: A benchmark dataset for data-driven weather forecasting'
@@ -432,6 +466,9 @@
   - Climate and earth science
   - Extreme weather events
   award: Best Paper Award
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - paper_title: Modeling Cloud Reflectance Fields using Conditional Generative Adversarial
     Networks
   abstract: We introduce a conditional Generative Adversarial Network (cGAN) approach
@@ -464,6 +501,8 @@
   paper_path: "/papers/iclr2020/12/paper.pdf"
   slides_path: "/papers/iclr2020/12/slides.pdf"
   subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
   - Climate and earth science
 - paper_title: 'SMArtCast: Predicting soil moisture interpolations into the future
     using Earth observation data in a deep learning framework'
@@ -505,6 +544,10 @@
   - Agriculture, forestry and other land use
   - Ecosystems and natural resources
   - Extreme weather events
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Extreme weather events
 - paper_title: Prediction of Bayesian Intervals for Tropical Storms
   abstract: 'Building on recent research for prediction of hurricane trajectories
     using recurrent neural networks (RNNs), we have developed improved methods and
@@ -541,6 +584,9 @@
   subject_areas:
   - Extreme weather events
   - Climate and earth science
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - paper_title: 'MobilityNet: Towards a Public Dataset for Multi-modal Mobility Research'
   abstract: |-
     Influencing transportation demand can significantly reduce CO2 emissions. Individual user mobility models are key to influencing demand at the personal and structural levels. Constructing such models is a challenging task that depends on a number of interdependent steps. Progress on this task is hamstrung by the lack of high quality public datasets.
@@ -572,6 +618,9 @@
   subject_areas:
   - Transportation
   - Urban studies
+  condensed_subject_areas:
+  - Transportation
+  - Buildings and cities
 - paper_title: Wavelet-Powered Neural Networks for Turbulence
   abstract: 'One of the fundamental driving phenomena for climate effects is fluid
     turbulence in geophysical flows. Modeling these flows and explaining its associated
@@ -615,6 +664,9 @@
   subject_areas:
   - Climate and earth science
   - Data presentation and management
+  condensed_subject_areas:
+  - Climate and earth science
+  - Data presentation and management
 - paper_title: 'Benchmarks for Grid Flexibility Prediction: Enabling Progress and
     Machine Learning Applications'
   abstract: Decarbonizing the grid is recognized worldwide as one of the objectives
@@ -646,6 +698,9 @@
   slides_path: "/papers/iclr2020/17/slides.pdf"
   subject_areas:
   - Power generation and grids
+  - Data presentation and management
+  condensed_subject_areas:
+  - Power and energy
   - Data presentation and management
 - paper_title: Machine Learning Approaches to Safeguarding Continuous Water Supply
     in the Arid and Semi-arid Lands of Northern Kenya
@@ -688,6 +743,10 @@
   - Climate and earth science
   - Data presentation and management
   - Societal adaptation
+  condensed_subject_areas:
+  - Climate and earth science
+  - Data presentation and management
+  - Societal adaptation
 - paper_title: Accelerated  Data Discovery for Scalable Climate Action
   abstract: According to the Intergovernmental Panel on Climate Change (IPCC), the
     planet must decarbonize by 50% by 2030 in order to keep global warming below 1.5C.
@@ -720,6 +779,12 @@
   paper_path: "/papers/iclr2020/19/paper.pdf"
   slides_path: "/papers/iclr2020/19/slides.pdf"
   subject_areas:
+  - Data presentation and management
+  - Climate and earth science
+  - Climate finance
+  - Industry
+  - Policy
+  condensed_subject_areas:
   - Data presentation and management
   - Climate and earth science
   - Climate finance
@@ -766,6 +831,8 @@
   slides_path: "/papers/iclr2020/20/slides.pdf"
   subject_areas:
   - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
 - paper_title: Hurricane Nowcasting with Irregular Time-step using Neural-ODE and
     Video Prediction
   abstract: Fast and accurate prediction of extreme climate events is critical especially
@@ -803,6 +870,9 @@
   subject_areas:
   - Extreme weather events
   - Disaster management and relief
+  condensed_subject_areas:
+  - Extreme weather events
+  - Disaster prediction, management, and relief
 - paper_title: Indigenous Knowledge Aware Drought Monitoring, Forecasting and Prediction
     Using Deep Learning Techniques
   abstract: 'The general objective of this proposed research work is to design deep
@@ -842,6 +912,9 @@
   subject_areas:
   - Disaster management and relief
   - Extreme weather events
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - paper_title: 'TrueBranch: Metric Learning-based Verification of Forest Conservation
     Projects'
   abstract: |-
@@ -876,6 +949,11 @@
   - Climate finance
   - Ecosystems and natural resources
   award: Best Proposal Award
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
+  - Climate finance
+  - Ecosystems and natural resources
 - paper_title: Advancing Renewable Electricity Consumption With Reinforcement Learning
   abstract: As the share of renewable energy sources in the present electric energy
     mix rises, their intermittence proves to be the biggest challenge to carbon free
@@ -906,6 +984,10 @@
   slides_path: "/papers/iclr2020/24/slides.pdf"
   subject_areas:
   - Power generation and grids
+  - Data presentation and management
+  - Industry
+  condensed_subject_areas:
+  - Power and energy
   - Data presentation and management
   - Industry
 - paper_title: 'Xingu: Explaining critical geospatial predictions in weak supervision
@@ -946,6 +1028,9 @@
   subject_areas:
   - Climate finance
   - Data presentation and management
+  condensed_subject_areas:
+  - Climate finance
+  - Data presentation and management
 - paper_title: Towards a unified standards for smart infrastructure datasets
   abstract: Development of smart devices and smart home appliances allowed us to harness
     more data about energy patterns inside households, overtime this amount will increase.
@@ -977,6 +1062,9 @@
   subject_areas:
   - Buildings
   - Power generation and grids
+  condensed_subject_areas:
+  - Buildings and cities
+  - Power and energy
 - paper_title: MACHINE   LEARNING   APPLICATIONS   THAT CAN HELP PASTORAL COMMUNITIES
     IN NORTHERN  KENYA  AND  ELSEWHERE  ADAPT TO CLIMATE CHANGE
   abstract: I propose the use of Machine Learning techniques such as Active Learning(AL)
@@ -1009,6 +1097,8 @@
   slides_path: "/papers/iclr2020/27/slides.pdf"
   subject_areas:
   - Societal adaptation
+  condensed_subject_areas:
+  - Societal adaptation
 - paper_title: 'Nutrient demand, Risk and Climate change: Evidence from historical
     rice yield trials in India'
   abstract: 'We use data from historical agronomic fertilizer trials to identify the
@@ -1039,6 +1129,9 @@
   rocketchat_channel: https://iclr.rocket.chat/channel/climatechange_poster_28
   slides_path: "/papers/iclr2020/28/slides.pdf"
   subject_areas:
+  - Agriculture, forestry and other land use
+  - Policy
+  condensed_subject_areas:
   - Agriculture, forestry and other land use
   - Policy
 - paper_title: USING MACHINE LEARNING TO ANALYZE CLIMATE CHANGE TECHNOLOGY TRANSFER
@@ -1078,6 +1171,10 @@
   paper_path: "/papers/iclr2020/29/paper.pdf"
   slides_path: "/papers/iclr2020/29/slides.pdf"
   subject_areas:
+  - Climate finance
+  - Data presentation and management
+  - Societal adaptation
+  condensed_subject_areas:
   - Climate finance
   - Data presentation and management
   - Societal adaptation
@@ -1125,6 +1222,10 @@
   paper_path: "/papers/iclr2020/30/paper.pdf"
   slides_path: "/papers/iclr2020/30/slides.pdf"
   subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture, forestry and other land use
+  - Climate and earth science
+  condensed_subject_areas:
   - Ecosystems and natural resources
   - Agriculture, forestry and other land use
   - Climate and earth science

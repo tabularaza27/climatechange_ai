@@ -19,6 +19,9 @@
   subject_areas:
   - Ecosystems and natural resources
   - Data presentation and management
+  condensed_subject_areas:
+  - Ecosystems and natural resources
+  - Data presentation and management
 - id: 2
   paper_title: Modelling GxE with historical weather information improves genomic
     prediction in new environments
@@ -51,6 +54,8 @@
   secondary_subject_areas: ''
   subject_areas:
   - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
 - id: 3
   paper_title: Machine Learning empowered Occupancy Sensing for Smart Buildings
   abstract: Over half of the global electricity consumption is attributed to buildings,
@@ -74,6 +79,9 @@
   secondary_subject_areas: Data presentation and management
   subject_areas:
   - Smart buildings and cities
+  - Data presentation and management
+  condensed_subject_areas:
+  - Buildings and cities
   - Data presentation and management
 - id: 4
   paper_title: 'Focus and track: pixel-wise spatio-temporal hurricane tracking'
@@ -102,6 +110,9 @@
   subject_areas:
   - Climate modeling
   - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 5
   paper_title: Recovering the parameters underlying the Lorenz-96 chaotic dynamics
   abstract: Climate projections suffer from uncertain equilibrium climate sensitivity.
@@ -127,6 +138,9 @@
   subject_areas:
   - Climate modeling
   - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 6
   paper_title: Using Bayesian Optimization to Improve Solar Panel Performance by Developing
     Antireflective, Superomniphobic Glass
@@ -151,6 +165,8 @@
   secondary_subject_areas: ''
   subject_areas:
   - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 7
   paper_title: A quantum mechanical approach for data assimilation in climate dynamics
   abstract: A framework for data assimilation in climate dynamics is presented, combining
@@ -178,6 +194,9 @@
   subject_areas:
   - Data assimilation
   - Climate modeling
+  condensed_subject_areas:
+  - Data assimilation
+  - Climate and earth science
 - id: 8
   paper_title: Data-driven Chance Constrained Programming based Electric Vehicle Penetration
     Analysis
@@ -204,6 +223,9 @@
   subject_areas:
   - Data presentation and management
   - Power generation and grids
+  condensed_subject_areas:
+  - Data presentation and management
+  - Power and energy
 - id: 9
   paper_title: Machine Learning for AC Optimal Power Flow
   abstract: |-
@@ -225,6 +247,9 @@
   - Power generation and grids
   - Industrial optimization
   award: Honorable Mention
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 10
   paper_title: Targeted Meta-Learning for Critical Incident Detection in Weather Data
   abstract: Due to imbalanced or heavy-tailed  nature of weather- and climate-related
@@ -256,6 +281,9 @@
   subject_areas:
   - Extreme weather events
   - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 11
   paper_title: 'ClimateNet: Bringing the power of Deep Learning to weather and climate
     sciences via open datasets and architectures'
@@ -286,6 +314,9 @@
   subject_areas:
   - Extreme weather events
   - Data presentation and management
+  condensed_subject_areas:
+  - Extreme weather events
+  - Data presentation and management
 - id: 12
   paper_title: Improving Subseasonal Forecasting in the Western U.S. with Machine
     Learning
@@ -313,6 +344,9 @@
   subject_areas:
   - Extreme weather events
   - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 13
   paper_title: Unsupervised Temporal Clustering to Monitor the Performance of Alternative
     Fueling Infrastructure
@@ -332,6 +366,9 @@
   primary_subject_area: Transportation
   secondary_subject_areas: Societal adaptation
   subject_areas:
+  - Transportation
+  - Societal adaptation
+  condensed_subject_areas:
   - Transportation
   - Societal adaptation
 - id: 14
@@ -363,6 +400,10 @@
   subject_areas:
   - Extreme weather events
   - Climate modeling
+  - Data presentation and management
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
   - Data presentation and management
 - id: 15
   paper_title: Mapping land use and land cover changes faster and at scale with deep
@@ -404,6 +445,10 @@
   - Agriculture, forestry and other land use
   - Ecosystems and natural resources
   - Smart buildings and cities
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Buildings and cities
 - id: 16
   paper_title: Achieving Conservation of Energy in Neural Network Emulators for Climate
     Modeling
@@ -430,6 +475,9 @@
   subject_areas:
   - Climate modeling
   - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 17
   paper_title: The Impact of Feature Causality on Normal Behaviour Models for SCADA-based
     Wind Turbine Fault Detection
@@ -452,6 +500,9 @@
   subject_areas:
   - Power generation and grids
   - Industrial optimization
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 18
   paper_title: Predicting CO2 Plume Migration using Deep Neural Networks
   abstract: Carbon capture and sequestration (CCS) is an essential climate change
@@ -473,6 +524,8 @@
   primary_subject_area: Carbon capture and sequestration
   secondary_subject_areas: ''
   subject_areas:
+  - Carbon capture and sequestration
+  condensed_subject_areas:
   - Carbon capture and sequestration
 - id: 19
   paper_title: Truck Traffic Monitoring with Satellite Images
@@ -496,6 +549,9 @@
   primary_subject_area: Transportation
   secondary_subject_areas: Data presentation and management
   subject_areas:
+  - Transportation
+  - Data presentation and management
+  condensed_subject_areas:
   - Transportation
   - Data presentation and management
 - id: 20
@@ -531,6 +587,10 @@
   - Climate modeling
   - Disaster management and relief
   - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - id: 21
   paper_title: Detecting anthropogenic cloud perturbations with deep learning
   abstract: One of the most pressing questions in climate science is that of the effect
@@ -562,6 +622,9 @@
   - Remote sensing
   - Climate modeling
   award: Best Paper Award
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
 - id: 22
   paper_title: 'Data-driven surrogate models for climate modeling: application of
     echo state networks, RNN-LSTM and ANN to the multi-scale Lorenz system as a test
@@ -598,6 +661,9 @@
   subject_areas:
   - Climate modeling
   - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 23
   paper_title: Learning Radiative Transfer Models for Climate Change Applications
     in Imaging Spectroscopy
@@ -626,6 +692,9 @@
   subject_areas:
   - Remote Sensing
   - Climate modeling
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
 - id: 24
   paper_title: Planetary Scale Monitoring of Urban Growth in High Flood Risk Areas
   abstract: Climate  change  is  increasing  the  incidence of flooding. Many areas
@@ -649,6 +718,9 @@
   subject_areas:
   - Extreme weather events
   - Disaster management and relief
+  condensed_subject_areas:
+  - Extreme weather events
+  - Disaster prediction, management, and relief
 - id: 25
   paper_title: Efficient Multi-temporal and In-season Crop Mapping with Landsat Analysis
     Ready Data via Long Short-term Memory Networks
@@ -676,6 +748,8 @@
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: ''
   subject_areas:
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
   - Agriculture, forestry and other land use
 - id: 26
   paper_title: Autopilot of Cement Plants for Reduction of Fuel Consumption and Emissions
@@ -707,6 +781,8 @@
   secondary_subject_areas: ''
   subject_areas:
   - Industrial optimization
+  condensed_subject_areas:
+  - Industry
 - id: 27
   paper_title: Towards a Sustainable Food Supply Chain Powered by Artificial Intelligence
   abstract: About 30-40% of food produced worldwide is wasted. This puts a severe
@@ -735,6 +811,9 @@
   - Industrial optimization
   - Agriculture, forestry and other land use
   award: Honorable Mention
+  condensed_subject_areas:
+  - Industry
+  - Agriculture, forestry and other land use
 - id: 28
   paper_title: 'PVNet: A LRCN Architecture for Spatio-Temporal Photovoltaic Power
     Forecasting from Numerical Weather Prediction'
@@ -760,6 +839,8 @@
   secondary_subject_areas: ''
   subject_areas:
   - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 29
   paper_title: Finding Ship-tracks Using Satellite Data to Enable Studies of Climate
     and Trade Related Issues
@@ -791,6 +872,9 @@
   subject_areas:
   - Transportation
   - Climate modeling
+  condensed_subject_areas:
+  - Transportation
+  - Climate and earth science
 - id: 30
   paper_title: Using Smart Meter Data to Forecast Grid Scale Electricity Demand
   abstract: Highly accurate electricity demand forecasts represent a major opportunity
@@ -810,6 +894,10 @@
   secondary_subject_areas: Data presentation and management; Extreme weather events
   subject_areas:
   - Power generation and grids
+  - Data presentation and management
+  - Extreme weather events
+  condensed_subject_areas:
+  - Power and energy
   - Data presentation and management
   - Extreme weather events
 - id: 31
@@ -833,6 +921,9 @@
   primary_subject_area: Ecosystems and natural resources
   secondary_subject_areas: Agriculture, forestry and other land use
   subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
   - Ecosystems and natural resources
   - Agriculture, forestry and other land use
 - id: 32
@@ -863,6 +954,10 @@
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: Ecosystems and natural resources; Extreme weather events
   subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Extreme weather events
+  condensed_subject_areas:
   - Agriculture, forestry and other land use
   - Ecosystems and natural resources
   - Extreme weather events
@@ -903,6 +998,9 @@
   - Geoengineering
   - Climate modeling
   award: Honorable Mention
+  condensed_subject_areas:
+  - Geoengineering
+  - Climate and earth science
 - id: 34
   paper_title: Using Natural Language Processing to Analyze Financial Climate Disclosures
   abstract: According to U.S. financial legislation, companies traded on the stock
@@ -925,6 +1023,8 @@
   primary_subject_area: Climate finance
   secondary_subject_areas: ''
   subject_areas:
+  - Climate finance
+  condensed_subject_areas:
   - Climate finance
 - id: 35
   paper_title: 'Machine Learning-based Maintenance for Renewable Energy: The Case
@@ -957,6 +1057,8 @@
   secondary_subject_areas: ''
   subject_areas:
   - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 36
   paper_title: 'GainForest: Scaling Climate Finance for Forest Conservation using
     Interpretable Machine Learning on Satellite Imagery'
@@ -977,6 +1079,9 @@
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: Climate finance
   subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate finance
+  condensed_subject_areas:
   - Agriculture, forestry and other land use
   - Climate finance
 - id: 37
@@ -1002,6 +1107,9 @@
   secondary_subject_areas: Extreme weather events
   subject_areas:
   - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
   - Extreme weather events
 - id: 38
   paper_title: Predicting Marine Heatwaves using Global Climate Models with Cluster
@@ -1033,6 +1141,9 @@
   subject_areas:
   - Extreme weather events
   - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 39
   paper_title: ML-driven search for zero-emissions ammonia production materials
   abstract: Ammonia (NH3) production is an industrial process that consumes between
@@ -1072,6 +1183,10 @@
   - Industrial optimization
   - Agriculture, forestry and other land use
   - Transportation
+  condensed_subject_areas:
+  - Industry
+  - Agriculture, forestry and other land use
+  - Transportation
 - id: 40
   paper_title: Low-carbon urban planning with machine learning
   abstract: Widespread climate action is urgently needed, but current solutions do
@@ -1097,6 +1212,9 @@
   secondary_subject_areas: Transportation
   subject_areas:
   - Smart buildings and cities
+  - Transportation
+  condensed_subject_areas:
+  - Buildings and cities
   - Transportation
 - id: 41
   paper_title: The Grid Resilience & Intelligence Platform (GRIP)
@@ -1128,6 +1246,9 @@
   subject_areas:
   - Power generation and grids
   - Extreme weather events
+  condensed_subject_areas:
+  - Power and energy
+  - Extreme weather events
 - id: 42
   paper_title: Meta-Optimization of Optimal Power Flow
   abstract: The planning and operation of electricity grids is carried out by solving
@@ -1150,6 +1271,9 @@
   subject_areas:
   - Power generation and grids
   - Industrial optimization
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 43
   paper_title: Learning representations to predict landslide occurrences and detect
     illegal mining across multiple domains
@@ -1172,6 +1296,9 @@
   secondary_subject_areas: Agriculture, forestry and other land use
   subject_areas:
   - Disaster management and relief
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
   - Agriculture, forestry and other land use
 - id: 44
   paper_title: Harness the Power of Artificial intelligence and -Omics to Identify
@@ -1211,6 +1338,11 @@
     management; Ecosystems and natural resources
   subject_areas:
   - Climate modeling
+  - Carbon capture and sequestration
+  - Data presentation and management
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Climate and earth science
   - Carbon capture and sequestration
   - Data presentation and management
   - Ecosystems and natural resources
