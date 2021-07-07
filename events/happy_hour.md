@@ -1,6 +1,6 @@
 # Climate Change AI Happy Hour Series
 
-## Next event: Wed 7 July @ 12:30pm ET/5:30pm GMT+1<br>(signup link below)
+## Next event: Wed 21 July @ 5pm ET/10pm GMT+1<br>(signup link below)
 
 <img src="/images/happy_hour_banner_cropped.jpg" alt="Banner for CCAI happy hour">
 
