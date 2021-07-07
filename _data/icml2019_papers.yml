@@ -18,6 +18,9 @@
   cmt_id: 35
   primary_subject_area: Ecosystems and natural resources
   secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Ecosystems and natural resources
+  - Data presentation and management
 - id: 2
   paper_title: Modelling GxE with historical weather information improves genomic
     prediction in new environments
@@ -50,6 +53,8 @@
   cmt_id: 12
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: ''
+  subject_areas:
+  - Agriculture, forestry and other land use
 - id: 3
   paper_title: Machine Learning empowered Occupancy Sensing for Smart Buildings
   abstract: Over half of the global electricity consumption is attributed to buildings,
@@ -73,6 +78,9 @@
   cmt_id: 45
   primary_subject_area: Smart buildings and cities
   secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Smart buildings and cities
+  - Data presentation and management
 - id: 4
   paper_title: 'Focus and track: pixel-wise spatio-temporal hurricane tracking'
   abstract: We tackle extreme climate event tracking problem. It has unique challenges
@@ -99,6 +107,9 @@
   cmt_id: 9
   primary_subject_area: Climate modeling
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
 - id: 5
   paper_title: Recovering the parameters underlying the Lorenz-96 chaotic dynamics
   abstract: Climate projections suffer from uncertain equilibrium climate sensitivity.
@@ -123,6 +134,9 @@
   cmt_id: 70
   primary_subject_area: Climate modeling
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
 - id: 6
   paper_title: Using Bayesian Optimization to Improve Solar Panel Performance by Developing
     Antireflective, Superomniphobic Glass
@@ -147,6 +161,8 @@
   cmt_id: 11
   primary_subject_area: Power generation and grids
   secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
 - id: 7
   paper_title: A quantum mechanical approach for data assimilation in climate dynamics
   abstract: A framework for data assimilation in climate dynamics is presented, combining
@@ -173,6 +189,9 @@
   cmt_id: 30
   primary_subject_area: Data assimilation
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Data assimilation
+  - Climate modeling
 - id: 8
   paper_title: Data-driven Chance Constrained Programming based Electric Vehicle Penetration
     Analysis
@@ -198,6 +217,9 @@
   cmt_id: 76
   primary_subject_area: Data presentation and management
   secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Data presentation and management
+  - Power generation and grids
 - id: 9
   paper_title: Machine Learning for AC Optimal Power Flow
   abstract: |-
@@ -217,6 +239,9 @@
   cmt_id: 54
   primary_subject_area: Power generation and grids
   secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
 - id: 10
   paper_title: Targeted Meta-Learning for Critical Incident Detection in Weather Data
   abstract: Due to imbalanced or heavy-tailed  nature of weather- and climate-related
@@ -247,6 +272,9 @@
   cmt_id: 26
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
 - id: 11
   paper_title: 'ClimateNet: Bringing the power of Deep Learning to weather and climate
     sciences via open datasets and architectures'
@@ -276,6 +304,9 @@
   cmt_id: 38
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Extreme weather events
+  - Data presentation and management
 - id: 12
   paper_title: Improving Subseasonal Forecasting in the Western U.S. with Machine
     Learning
@@ -302,6 +333,9 @@
   cmt_id: 4
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
 - id: 13
   paper_title: Unsupervised Temporal Clustering to Monitor the Performance of Alternative
     Fueling Infrastructure
@@ -322,6 +356,9 @@
   cmt_id: 3
   primary_subject_area: Transportation
   secondary_subject_areas: Societal adaptation
+  subject_areas:
+  - Transportation
+  - Societal adaptation
 - id: 14
   paper_title: A Flexible Pipeline for Prediction of Tropical Cyclone Paths
   abstract: Hurricanes and, more generally, tropical cyclones (TCs) are rare, complex
@@ -350,6 +387,10 @@
   cmt_id: 19
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Climate modeling; Data presentation and management
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
+  - Data presentation and management
 - id: 15
   paper_title: Mapping land use and land cover changes faster and at scale with deep
     learning on the cloud
@@ -388,6 +429,10 @@
   cmt_id: 81
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: Ecosystems and natural resources; Smart buildings and cities
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Smart buildings and cities
 - id: 16
   paper_title: Achieving Conservation of Energy in Neural Network Emulators for Climate
     Modeling
@@ -413,6 +458,9 @@
   cmt_id: 53
   primary_subject_area: Climate modeling
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
 - id: 17
   paper_title: The Impact of Feature Causality on Normal Behaviour Models for SCADA-based
     Wind Turbine Fault Detection
@@ -434,6 +482,9 @@
   cmt_id: 39
   primary_subject_area: Power generation and grids
   secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
 - id: 18
   paper_title: Predicting CO2 Plume Migration using Deep Neural Networks
   abstract: Carbon capture and sequestration (CCS) is an essential climate change
@@ -456,6 +507,8 @@
   cmt_id: 56
   primary_subject_area: Carbon capture and sequestration
   secondary_subject_areas: ''
+  subject_areas:
+  - Carbon capture and sequestration
 - id: 19
   paper_title: Truck Traffic Monitoring with Satellite Images
   abstract: The road freight sector is responsible for a large and growing share of
@@ -479,6 +532,9 @@
   cmt_id: 37
   primary_subject_area: Transportation
   secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Transportation
+  - Data presentation and management
 - id: 20
   paper_title: Evaluating aleatoric and epistemic uncertainties of time series deep
     learning models for soil moisture predictions
@@ -510,6 +566,10 @@
   cmt_id: 71
   primary_subject_area: Climate modeling
   secondary_subject_areas: Disaster management and relief; Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Disaster management and relief
+  - Extreme weather events
 - id: 21
   paper_title: Detecting anthropogenic cloud perturbations with deep learning
   abstract: One of the most pressing questions in climate science is that of the effect
@@ -539,6 +599,9 @@
   cmt_id: 42
   primary_subject_area: Remote sensing
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Remote sensing
+  - Climate modeling
 - id: 22
   paper_title: 'Data-driven surrogate models for climate modeling: application of
     echo state networks, RNN-LSTM and ANN to the multi-scale Lorenz system as a test
@@ -574,6 +637,9 @@
   cmt_id: 49
   primary_subject_area: Climate modeling
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
 - id: 23
   paper_title: Learning Radiative Transfer Models for Climate Change Applications
     in Imaging Spectroscopy
@@ -601,6 +667,9 @@
   cmt_id: 58
   primary_subject_area: Remote Sensing
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Remote Sensing
+  - Climate modeling
 - id: 24
   paper_title: Planetary Scale Monitoring of Urban Growth in High Flood Risk Areas
   abstract: Climate  change  is  increasing  the  incidence of flooding. Many areas
@@ -623,6 +692,9 @@
   cmt_id: 65
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Disaster management and relief
+  subject_areas:
+  - Extreme weather events
+  - Disaster management and relief
 - id: 25
   paper_title: Efficient Multi-temporal and In-season Crop Mapping with Landsat Analysis
     Ready Data via Long Short-term Memory Networks
@@ -651,6 +723,8 @@
   cmt_id: 62
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: ''
+  subject_areas:
+  - Agriculture, forestry and other land use
 - id: 26
   paper_title: Autopilot of Cement Plants for Reduction of Fuel Consumption and Emissions
   abstract: The cement manufacturing industry is an essential component of the global
@@ -681,6 +755,8 @@
   cmt_id: 78
   primary_subject_area: Industrial optimization
   secondary_subject_areas: ''
+  subject_areas:
+  - Industrial optimization
 - id: 27
   paper_title: Towards a Sustainable Food Supply Chain Powered by Artificial Intelligence
   abstract: About 30-40% of food produced worldwide is wasted. This puts a severe
@@ -707,6 +783,9 @@
   cmt_id: 82
   primary_subject_area: Industrial optimization
   secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Industrial optimization
+  - Agriculture, forestry and other land use
 - id: 28
   paper_title: 'PVNet: A LRCN Architecture for Spatio-Temporal Photovoltaic Power
     Forecasting from Numerical Weather Prediction'
@@ -732,6 +811,8 @@
   cmt_id: 69
   primary_subject_area: Power generation and grids
   secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
 - id: 29
   paper_title: Finding Ship-tracks Using Satellite Data to Enable Studies of Climate
     and Trade Related Issues
@@ -762,6 +843,9 @@
   cmt_id: 14
   primary_subject_area: Transportation
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Transportation
+  - Climate modeling
 - id: 30
   paper_title: Using Smart Meter Data to Forecast Grid Scale Electricity Demand
   abstract: Highly accurate electricity demand forecasts represent a major opportunity
@@ -781,6 +865,10 @@
   cmt_id: 41
   primary_subject_area: Power generation and grids
   secondary_subject_areas: Data presentation and management; Extreme weather events
+  subject_areas:
+  - Power generation and grids
+  - Data presentation and management
+  - Extreme weather events
 - id: 31
   paper_title: Deep Learning for Wildlife Conservation and Restoration Efforts
   abstract: Climate change and environmental degradation are causing species extinction
@@ -803,6 +891,9 @@
   cmt_id: 48
   primary_subject_area: Ecosystems and natural resources
   secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture, forestry and other land use
 - id: 32
   paper_title: Reinforcement Learning for Sustainable Agriculture
   abstract: The growing population and the changing climate will push modern agriculture
@@ -832,6 +923,10 @@
   cmt_id: 40
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: Ecosystems and natural resources; Extreme weather events
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Extreme weather events
 - id: 33
   paper_title: Stratospheric Aerosol Injection as a Deep Reinforcement Learning Problem
   abstract: As global greenhouse gas emissions continue to rise, the use of geoengineering
@@ -867,6 +962,9 @@
   cmt_id: 46
   primary_subject_area: Geoengineering
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Geoengineering
+  - Climate modeling
 - id: 34
   paper_title: Using Natural Language Processing to Analyze Financial Climate Disclosures
   abstract: According to U.S. financial legislation, companies traded on the stock
@@ -890,6 +988,8 @@
   cmt_id: 55
   primary_subject_area: Climate finance
   secondary_subject_areas: ''
+  subject_areas:
+  - Climate finance
 - id: 35
   paper_title: 'Machine Learning-based Maintenance for Renewable Energy: The Case
     of Power Plants in Morocco'
@@ -921,6 +1021,8 @@
   cmt_id: 32
   primary_subject_area: Power generation and grids
   secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
 - id: 36
   paper_title: 'GainForest: Scaling Climate Finance for Forest Conservation using
     Interpretable Machine Learning on Satellite Imagery'
@@ -942,6 +1044,9 @@
   cmt_id: 73
   primary_subject_area: Agriculture, forestry and other land use
   secondary_subject_areas: Climate finance
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate finance
 - id: 37
   paper_title: Machine Intelligence for Floods and the Built Environment Under Climate
     Change
@@ -965,6 +1070,9 @@
   cmt_id: 57
   primary_subject_area: Disaster management and relief
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Disaster management and relief
+  - Extreme weather events
 - id: 38
   paper_title: Predicting Marine Heatwaves using Global Climate Models with Cluster
     Based Long Short-Term Memory
@@ -994,6 +1102,9 @@
   cmt_id: 2
   primary_subject_area: Extreme weather events
   secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
 - id: 39
   paper_title: ML-driven search for zero-emissions ammonia production materials
   abstract: Ammonia (NH3) production is an industrial process that consumes between
@@ -1031,6 +1142,10 @@
   cmt_id: 15
   primary_subject_area: Industrial optimization
   secondary_subject_areas: Agriculture, forestry and other land use; Transportation
+  subject_areas:
+  - Industrial optimization
+  - Agriculture, forestry and other land use
+  - Transportation
 - id: 40
   paper_title: Low-carbon urban planning with machine learning
   abstract: Widespread climate action is urgently needed, but current solutions do
@@ -1056,6 +1171,9 @@
   cmt_id: 29
   primary_subject_area: Smart buildings and cities
   secondary_subject_areas: Transportation
+  subject_areas:
+  - Smart buildings and cities
+  - Transportation
 - id: 41
   paper_title: The Grid Resilience & Intelligence Platform (GRIP)
   abstract: Extreme weather events pose an enormous and increasing threat to the nation’s
@@ -1085,6 +1203,9 @@
   cmt_id: 47
   primary_subject_area: Power generation and grids
   secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Power generation and grids
+  - Extreme weather events
 - id: 42
   paper_title: Meta-Optimization of Optimal Power Flow
   abstract: The planning and operation of electricity grids is carried out by solving
@@ -1106,6 +1227,9 @@
   cmt_id: 43
   primary_subject_area: Power generation and grids
   secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
 - id: 43
   paper_title: Learning representations to predict landslide occurrences and detect
     illegal mining across multiple domains
@@ -1128,6 +1252,9 @@
   cmt_id: 59
   primary_subject_area: Disaster management and relief
   secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Disaster management and relief
+  - Agriculture, forestry and other land use
 - id: 44
   paper_title: Harness the Power of Artificial intelligence and -Omics to Identify
     Soil Microbial Functions in Climate Change Projection
@@ -1166,3 +1293,8 @@
   primary_subject_area: Climate modeling
   secondary_subject_areas: Carbon capture and sequestration; Data presentation and
     management; Ecosystems and natural resources
+  subject_areas:
+  - Climate modeling
+  - Carbon capture and sequestration
+  - Data presentation and management
+  - Ecosystems and natural resources
