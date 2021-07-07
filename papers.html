@@ -1,0 +1,195 @@
+---
+layout: default
+title: Climate Change AI Workshop Papers
+description: Tackling Climate Change with Machine Learning
+---
+
+<style>
+  .tag {
+    display: inline-block;
+    line-height: 2;
+    cursor: pointer;
+  }
+
+  .tag:hover {
+    text-decoration: underline;
+  }
+
+  .dataTables_filter {
+    display: none;
+  }
+
+  .paper-areas {
+    max-width: 400px;
+  }
+</style>
+
+<div id='search-wrapper' class='columns'>
+  <div class='column'>
+    <div class='field'>
+      <label class='label'>Text Search</label>
+      <div class='control'>
+        <input class='input is-small' id='text-search' placeholder='Enter search terms...'/>
+      </div>
+    </div>
+  </div>
+  <div class='column'>
+    <div class='field'>
+      <label class='label'>Venue</label>
+      <div class='control is-expanded'>
+        <div class='select is-small is-fullwidth'>
+          <select id='venues'>
+            <option value=''>All Venues</option>
+            {% for w in site.data.workshops %}
+              <option value='{{w.short_name}}'>{{w.short_name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='column'>
+    <div class='field'>
+      <label class='label'>Subject Areas</label>
+      <div class='control'>
+        <div class='select is-multiple'>
+          <select multiple id='subject-areas'>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<table class='paper-table'>
+  <thead>
+    <tr>
+      <th>Venue</th>
+      <!--<th>Track</th>-->
+      <th>Title</th>
+      <!--<th>Authors</th>-->
+      <th>Subject Areas</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% assign workshops = site.data.workshops | reverse %}
+    {% for w in workshops %}
+      {% if w.papers %}
+        {% for p in site.data[w.papers] %}
+          <tr>
+            <td class='paper-venue'>{{w.short_name}}</td>
+            <td class='paper-title'>
+              <a href="/papers/{{w.slug}}/{{p.id}}">{{p.paper_title}}</a> ({{p.q1_track}} Track)
+
+              {% if p.award %}
+                <span class='tag best-paper'>{{ p.award }}</span>
+              {% elsif p.is_best_paper %}
+                <span class='tag best-paper'>Best Paper Award</span>
+              {% elsif p.is_best_proposal %}
+                <span class='tag best-paper'>Best Proposal Award</span>
+              {% elsif p.is_honorable_mention %}
+                <span class='tag best-paper'>Honorable Mention</span>
+              {% endif %}
+            </td>
+            <!--<td>{{p.authors}}</td>-->
+            <td class='paper-areas'>
+              {% for area in p.subject_areas %}
+                <span class='tag'>{{ area }}</span>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<script src='https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.jsdelivr.net/mark.js/8.6.0/jquery.mark.min.js'></script>
+<script src='https://cdn.datatables.net/1.10.25/js/dataTables.bulma.min.js'></script>
+<link rel='stylesheet' type='text/css' href="https://cdn.datatables.net/1.10.25/css/dataTables.bulma.min.css"/>
+
+<script src="/assets/js/chosen.jquery.js"></script>
+<script>
+$(document).ready(() => {
+    const $table = $('.paper-table');
+    const $areas = $('#subject-areas');
+    const $venues = $('#venues');
+    const $search = $('#text-search');
+
+    const areas = Array.from(new Set(Array.from($('table .tag')).map(t => t.innerText))).sort();
+
+    for (let area of areas) {
+      $areas.append(`<option value='${area}'>${area}</option>`);
+    }
+
+    $('.chosen-container').css('width', '100%');
+    $('.main-content').css('max-width', 'none');
+    $('select[multiple]').chosen();
+
+    const fieldNames = Array.from($table.find('th')).map(th => $(th).text());
+
+    $.fn.dataTable.ext.search.push((_, data, __) => {
+      const rowAreas = data[fieldNames.indexOf('Subject Areas')];
+      const rowVenue = data[fieldNames.indexOf('Venue')];
+      if ($areas.val().some(a => !rowAreas.includes(a))) {
+        return false;
+      } else if ($venues.val() && $venues.val() != rowVenue) {
+        return false;
+      } else {
+        return true;
+      }
+    });
+
+    const table = $table.DataTable({
+      columns: [
+        { orderable: true },
+        { orderable: true },
+        { orderable: false },
+      ],
+      paging: false,
+      order: [],
+      scrollX: true,
+      drawCallback: () => { // After redrawing the table, apply highlighting
+        const $dt = $('.dataTable');
+        $dt.unmark(); // Reset highlighting
+
+        // Highlight free text search
+        if ($search.val().length)
+          $dt.mark($search.val());
+
+        // Highlight selected topics
+        for (let area of $areas.val())
+          $dt.find('.paper-areas').markRegExp(new RegExp(area));
+
+        if ($venues.val().length)
+          $dt.find('.paper-venue').markRegExp(new RegExp($venues.val()));
+      }
+    });
+
+    $(document).on('click', 'table .tag', (ev) => {
+      // Toggle whether topic is being filtered
+      const area = ev.currentTarget.innerText;
+      const currentVals = $areas.val();
+
+      if (currentVals.includes(area)) {
+        $areas.val(currentVals.filter(el => el != area));
+      } else {
+        $areas.val(currentVals.concat([area]));
+      }
+
+      // Let event listeners know about the change
+      $areas.trigger("change").trigger("chosen:updated");
+    });
+
+    $search.on('keyup keydown change search', () => {
+      table.search($search.val()).draw();
+    });
+
+    // Redraw the table when the topic filters change
+    $('select').on('change', () => {
+      table.draw();
+    });
+});
+</script>
