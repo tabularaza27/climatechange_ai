@@ -8,52 +8,58 @@ description: Tackling Climate Change with Machine Learning
 
 <p>On this page, we show accepted works from all our past workshops on "Tackling Climate Change with Machine Learning."</p>
 
-<div id='search-wrapper' class='columns'>
-  <div class='column'>
-    <div class='field'>
-      <label class='label'>Venue</label>
-      <div class='control is-expanded'>
-        <div class='select is-fullwidth'>
-          <select id='venues'>
-            <option value=''>All Venues</option>
-            {% for w in site.data.workshops %}
-              {% if w.papers %}
-                <option value='{{w.short_name}}'>{{w.short_name}}</option>
-              {% endif %}
-            {% endfor %}
+<div id='search-wrapper'>
+  <div class='columns'>
+    <div class='column is-narrow'>
+      <div class='field'>
+        <label class='label'>Venue</label>
+        <div class='control is-expanded'>
+          <div class='select is-fullwidth'>
+            <select id='venues'>
+              <option value=''>All Venues</option>
+              {% for w in site.data.workshops %}
+                {% if w.papers %}
+                  <option value='{{w.short_name}}'>{{w.short_name}}</option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Text Search</label>
+        <div class='control'>
+          <input class='input is-small' id='text-search' placeholder='Enter search terms...' type='search'/>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Subject Areas</label>
+        <div class='control'>
+          <select multiple id='subject-areas'>
           </select>
         </div>
       </div>
     </div>
-  </div>
-  <div class='column'>
-    <div class='field'>
-      <label class='label'>Text Search</label>
-      <div class='control'>
-        <input class='input is-small' id='text-search' placeholder='Enter search terms...' type='search'/>
-      </div>
-    </div>
-  </div>
-  <div class='column'>
-    <div class='field'>
-      <label class='label'>Subject Areas</label>
-      <div class='control'>
-        <div class='select is-multiple'>
-          <select multiple id='subject-areas'>
-          </select>
+    <div class='column is-narrow'>
+      <div class='field'>
+        <label class='label' for='award'>Award?</label>
+        <div class='control'>
+          <input type='checkbox' id='award' name='award'>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<table class='paper-table'>
+<table class='paper-table' style='width: calc(100% - 1px);'>
   <thead>
     <tr>
       <th>Venue</th>
-      <!--<th>Track</th>-->
       <th>Title</th>
-      <!--<th>Authors</th>-->
       <th>Subject Areas</th>
     </tr>
   </thead>
@@ -64,9 +70,16 @@ description: Tackling Climate Change with Machine Learning
       {% if w.papers %}
         {% for p in site.data[w.papers] %}
           <tr>
-            <td class='paper-venue'>{{w.short_name}}</td>
+            <td class='paper-venue'>
+              {{w.short_name}}
+            </td>
+
             <td class='paper-title'>
-              <a href="/papers/{{w.slug}}/{{p.id}}">{{p.paper_title}}</a> ({{p.q1_track}} Track)
+              <a href="/papers/{{w.slug}}/{{p.id}}">
+                {{p.paper_title}}
+              </a>
+
+              ({{p.q1_track}} Track)
 
               {% if p.award %}
                 <span class='tag best-paper'>{{ p.award }}</span>
@@ -77,10 +90,10 @@ description: Tackling Climate Change with Machine Learning
                 {{p.abstract}}
               </details>
             </td>
-            <!--<td>{{p.authors}}</td>-->
+
             <td class='paper-areas'>
               {% for area in p.subject_areas %}
-                <span class='tag'>{{ area }}</span>
+                <a href='javascript:void(0)' class='tag is-light'>{{ area }}</a>
               {% endfor %}
             </td>
           </tr>
@@ -91,26 +104,27 @@ description: Tackling Climate Change with Machine Learning
 </table>
 
 <style>
-  .dataTable .tag {
-    display: inline-block;
-    line-height: 2;
-    cursor: pointer;
-  }
-
-  .dataTable .tag:hover {
-    text-decoration: underline;
-  }
-
   .dataTables_filter {
     display: none;
   }
 
-  .paper-areas {
-    max-width: 400px;
+  .paper-title {
+    width: 100%;
+  }
+
+  .paper-areas .tag {
+    margin-bottom: 2px;
+    display: inline-block;
+    line-height: 2;
   }
 
   #text-search {
     width: calc(100% - 1rem);
+  }
+
+  #search-wrapper {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
 
   @media screen and (min-width: 651px) {
@@ -121,7 +135,6 @@ description: Tackling Climate Change with Machine Learning
       width: 100%;
       z-index: 1;
       top: var(--navbar-height-normal);
-      margin-bottom: -5px;
     }
   }
 
@@ -148,6 +161,7 @@ window.workshopNames = workshops.map(w => w.short_name);
 $(document).ready(() => {
     const $table = $('.paper-table');
     const $areas = $('#subject-areas');
+    const $award = $('#award');
     const $venues = $('#venues');
     const $search = $('#text-search');
 
@@ -157,12 +171,17 @@ $(document).ready(() => {
       $areas.append(`<option value='${area}'>${area}</option>`);
     }
 
-    $('.chosen-container').css('width', 'calc(100% - 1rem)');
-    $('.chosen-container').css('max-width', '100%');
     $('.main-content').css('max-width', 'none');
-    $('select[multiple]').chosen();
+    $('select[multiple]').chosen({
+      width: '100%'
+    });
 
     const fieldNames = Array.from($table.find('th')).map(th => $(th).text());
+    const tableRows = Array.from($table.find('tbody tr'));
+    const awardIdxs = {};
+    for (let i = 0; i < tableRows.length; i++)
+      if ($(tableRows[i]).find('.best-paper').length)
+        awardIdxs[i] = true;
 
     $.fn.dataTable.ext.type.detect.unshift(d => workshopNames.includes(d) ?  'workshop' : null);
     
@@ -170,12 +189,14 @@ $(document).ready(() => {
         return workshopNames.indexOf(d);
     };
 
-    $.fn.dataTable.ext.search.push((_, data, __) => {
+    $.fn.dataTable.ext.search.push((_, data, idx) => {
       const rowAreas = data[fieldNames.indexOf('Subject Areas')];
       const rowVenue = data[fieldNames.indexOf('Venue')];
       if ($areas.val().some(a => !rowAreas.includes(a))) {
         return false;
       } else if ($venues.val() && $venues.val() != rowVenue) {
+        return false;
+      } else if ($award.is(':checked') && !awardIdxs[idx]) {
         return false;
       } else {
         return true;
@@ -224,11 +245,18 @@ $(document).ready(() => {
     });
 
     $search.on('keyup keydown change search', () => {
-      table.search($search.val()).draw();
+      if (window.searchTimeout) {
+        clearTimeout(window.searchTimeout);
+      }
+      window.searchTimeout = setTimeout(() => table.search($search.val()).draw(), 100);
+    });
+
+    $award.on('change', () => {
+      table.draw();
     });
 
     // Redraw the table when the topic filters change
-    $('select').on('change', () => {
+    $('#search-wrapper select').on('change', () => {
       table.draw();
     });
 });
