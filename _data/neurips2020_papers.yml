@@ -46,6 +46,9 @@
   id: 1
   next_paper_id: 2
   slides_path: "/papers/neurips2020/1/slides.pdf"
+  subject_areas:
+  - Transportation
+  - Classification, regression, and supervised learning
 - paper_title: Is Africa leapfrogging to renewables or heading for carbon lock-in?
     A machine-learning-based approach to predicting success of power-generation projects
   abstract: 'Several extant energy-planning studies, comprising wide-ranging assumptions
@@ -87,6 +90,11 @@
   prev_paper_id: 1
   next_paper_id: 3
   slides_path: "/papers/neurips2020/2/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Climate finance
+  - Classification, regression, and supervised learning
+  - Interpretable ML
 - paper_title: 'pymgrid: An Open-Source Python Microgrid Simulator for Applied Artificial
     Intelligence Research'
   abstract: Microgrids – self-contained electrical grids that are capable of disconnecting
@@ -126,6 +134,9 @@
   next_paper_id: 4
   paper_path: "/papers/neurips2020/3/paper.pdf"
   slides_path: "/papers/neurips2020/3/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Reinforcement learning and control
 - paper_title: Towards Optimal District Heating Temperature Control in China with
     Deep Reinforcement Learning
   abstract: Achieving efficiency gains in Chinese district heating networks, thereby
@@ -157,6 +168,9 @@
   next_paper_id: 5
   paper_path: "/papers/neurips2020/4/paper.pdf"
   slides_path: "/papers/neurips2020/4/slides.pdf"
+  subject_areas:
+  - Buildings and cities
+  - Reinforcement learning and control
 - paper_title: Deep Reinforcement Learning in Electricity Generation Investment for
     the Minimization of Long-Term Carbon Emissions and Electricity Costs
   abstract: "A change from a high-carbon emitting electricity power system to one
@@ -198,6 +212,9 @@
   next_paper_id: 6
   paper_path: "/papers/neurips2020/5/paper.pdf"
   slides_path: "/papers/neurips2020/5/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Reinforcement learning and control
 - paper_title: Short-Term Solar Irradiance Forecasting Using Calibrated Probabilistic
     Models
   abstract: Advancing probabilistic solar forecasting methods is essential to supporting
@@ -240,6 +257,11 @@
   next_paper_id: 7
   paper_path: "/papers/neurips2020/6/paper.pdf"
   slides_path: "/papers/neurips2020/6/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Climate and earth science
+  - Causal and Bayesian methods
+  - Uncertainty quantification and robustness
 - paper_title: Deep Learning for Climate Model Output Statistics
   abstract: Climate models are an important tool for the assessment of prospective
     climate change effects but they suffer from systematic and representation errors,
@@ -273,12 +295,15 @@
   - 13:00-14:00 UTC
   - 16:00-17:00 UTC
   is_spotlight: true
-  award: "Best ML Innovation"
+  award: Best ML Innovation
   id: 7
   prev_paper_id: 6
   next_paper_id: 8
   paper_path: "/papers/neurips2020/7/paper.pdf"
   slides_path: "/papers/neurips2020/7/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Classification, regression, and supervised learning
 - paper_title: A Temporally Consistent Image-based Sun Tracking Algorithm for Solar
     Energy Forecasting Applications
   abstract: Improving irradiance forecasting is critical to further increase the share
@@ -319,6 +344,11 @@
   next_paper_id: 9
   paper_path: "/papers/neurips2020/8/paper.pdf"
   slides_path: "/papers/neurips2020/8/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  - Time-series analysis
 - paper_title: Characterization of Industrial Smoke Plumes from Remote Sensing Data
   abstract: |-
     The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth’s climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA’s Sentinel-2 satellites. Using a modified ResNet-50, we can detect smoke plumes of different sizes with an accuracy of 94.3%. The model correctly ignores natural clouds and focuses on those imaging channels that are related to the spectral absorption from aerosols and water vapor, enabling the localization of smoke. We exploit this localization ability and train a U-Net segmentation model on a labeled sub-sample of our data, resulting in an Intersection-over-Union (IoU) metric of 0.608 and an overall accuracy for the detection of any smoke plume of 94.0%; on average, our model can reproduce the area covered by smoke in an image to within 5.6%. The performance of our model is mostly limited by occasional confusion with surface objects, the inability to identify semi-transparent smoke, and human limitations to properly identify smoke based on RGB-only images. Nevertheless, our results enable us to reliably detect and qualitatively estimate the level of smoke activity in order to monitor activity in industrial plants across the globe. Our data set and
@@ -347,6 +377,9 @@
   next_paper_id: 10
   paper_path: "/papers/neurips2020/9/paper.pdf"
   slides_path: "/papers/neurips2020/9/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Industry
 - paper_title: Learning the distribution of extreme precipitation from atmospheric
     general circulation model variables
   abstract: Precipitation extremes are projected to become more frequent and severe
@@ -381,6 +414,9 @@
   prev_paper_id: 9
   next_paper_id: 11
   slides_path: "/papers/neurips2020/10/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Hybrid physical models
 - paper_title: Towards Tracking the Emissions of Every Power Plant on the Planet
   abstract: Greenhouse gases emitted from fossil-fuel-burning power plants are a major
     contributor to climate change. Current methods to track emissions from individual
@@ -421,12 +457,16 @@
   - 16:00-17:00 UTC
   - 20:00-21:00 UTC
   is_spotlight: true
-  award: "Best Pathway to Impact"
+  award: Best Pathway to Impact
   id: 11
   prev_paper_id: 10
   next_paper_id: 12
   paper_path: "/papers/neurips2020/11/paper.pdf"
   slides_path: "/papers/neurips2020/11/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
 - paper_title: Spatio-Temporal Learning for Feature Extraction inTime-Series Images
   abstract: 'Earth observation programs have provided highly useful information in
     global climate change research over the past few decades and greatly promoted
@@ -460,6 +500,9 @@
   next_paper_id: 13
   paper_path: "/papers/neurips2020/12/paper.pdf"
   slides_path: "/papers/neurips2020/12/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Ecosystems and natural resources
 - paper_title: Meta-modeling strategy for data-driven forecasting
   abstract: Accurately forecasting the weather is a key requirement for climate change
     mitigation. Data-driven methods offer the ability to make more accurate forecasts,
@@ -491,6 +534,10 @@
   next_paper_id: 14
   paper_path: "/papers/neurips2020/13/paper.pdf"
   slides_path: "/papers/neurips2020/13/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Interpretable ML
+  - Time-series analysis
 - paper_title: Short-term prediction of photovoltaic power generation using Gaussian
     process regression
   abstract: Photovoltaic (PV) power is affected by weather conditions, making the
@@ -528,6 +575,9 @@
   next_paper_id: 15
   paper_path: "/papers/neurips2020/14/paper.pdf"
   slides_path: "/papers/neurips2020/14/slides.pdf"
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Causal and Bayesian methods
 - paper_title: 'Formatting the Landscape: Spatial conditional GAN for varying population
     in satellite imagery'
   abstract: 'Climate change is expected to reshuffle the settlement landscape: forcing
@@ -569,6 +619,12 @@
   next_paper_id: 16
   paper_path: "/papers/neurips2020/15/paper.pdf"
   slides_path: "/papers/neurips2020/15/slides.pdf"
+  subject_areas:
+  - Generative modeling
+  - Behavioral and social science
+  - Buildings and cities
+  - Societal adaptation
+  - Computer vision and remote sensing
 - paper_title: 'Storing Energy with Organic Molecules: Towards a Metric for Improving
     Molecular Performance for Redox Flow Batteries'
   abstract: Energy storage is an important tool in the decarbonization of energy systems,
@@ -602,6 +658,10 @@
   prev_paper_id: 15
   next_paper_id: 17
   slides_path: "/papers/neurips2020/16/slides.pdf"
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Other
+  - Meta- and transfer learning
 - paper_title: Predicting Landsat Reflectance with Deep Generative Fusion
   abstract: Public satellite missions are commonly bound to a trade-off between spatial
     and temporal resolution as no single sensor provides fine-grained acquisitions
@@ -636,6 +696,11 @@
   next_paper_id: 18
   paper_path: "/papers/neurips2020/17/paper.pdf"
   slides_path: "/papers/neurips2020/17/slides.pdf"
+  subject_areas:
+  - Generative modeling
+  - Agriculture
+  - Forestry and other land use
+  - Computer vision and remote sensing
 - paper_title: Quantitative Assessment of Drought Impacts Using XGBoost based on the
     Drought Impact Reporter
   abstract: Under climate change, the increasing frequency, intensity, and spatial
@@ -678,6 +743,9 @@
   next_paper_id: 19
   paper_path: "/papers/neurips2020/18/paper.pdf"
   slides_path: "/papers/neurips2020/18/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Interpretable ML
 - paper_title: Estimating Forest Ground Vegetation Cover From Nadir Photographs Using
     Deep Convolutional Neural Networks
   abstract: Forest fires, such as those on the US west coast in September 2020, are
@@ -711,6 +779,9 @@
   next_paper_id: 20
   paper_path: "/papers/neurips2020/19/paper.pdf"
   slides_path: "/papers/neurips2020/19/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Classification, regression, and supervised learning
 - paper_title: A Machine Learning Approach to Methane Emissions Mitigation in the
     Oil and Gas Industry
   abstract: Reducing methane emissions from the oil and gas sector is a key component
@@ -751,12 +822,15 @@
   - 16:00-17:00 UTC
   - 20:00-21:00 UTC
   is_spotlight: true
-  award: "Overall Best Paper"
+  award: Overall Best Paper
   id: 20
   prev_paper_id: 19
   next_paper_id: 21
   paper_path: "/papers/neurips2020/20/paper.pdf"
   slides_path: "/papers/neurips2020/20/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Classification, regression, and supervised learning
 - paper_title: Monitoring the Impact of Wildfires on Tree Species with Deep Learning
   abstract: 'One of the impacts of climate change is the difficulty of tree regrowth
     after wildfires over areas that traditionally were covered by certain tree species.
@@ -791,6 +865,10 @@
   next_paper_id: 22
   paper_path: "/papers/neurips2020/21/paper.pdf"
   slides_path: "/papers/neurips2020/21/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Disaster prediction, management, and relief
+  - Computer vision and remote sensing
 - paper_title: 'ForestNet: Classifying Drivers of Deforestation in Indonesia using
     Deep Learning on Satellite Imagery'
   abstract: Characterizing the processes leading to deforestation is critical to the
@@ -834,6 +912,9 @@
   next_paper_id: 23
   paper_path: "/papers/neurips2020/22/paper.pdf"
   slides_path: "/papers/neurips2020/22/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Computer vision and remote sensing
 - paper_title: Mangrove Ecosystem Detection using Mixed-Resolution Imagery with a
     Hybrid-Convolutional Neural Network
   abstract: 'Mangrove forests are rich in biodiversity and are a large contributor
@@ -879,6 +960,12 @@
   next_paper_id: 24
   paper_path: "/papers/neurips2020/23/paper.pdf"
   slides_path: "/papers/neurips2020/23/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Carbon capture and sequestration
+  - Ecosystems and natural resources
+  - Forestry and other land use
+  - Classification, regression, and supervised learning
 - paper_title: Context-Aware Urban Energy Efficiency Optimization Using Hybrid Physical
     Models
   abstract: Buildings produce more U.S. greenhouse gas emissions through electricity
@@ -912,6 +999,9 @@
   next_paper_id: 25
   paper_path: "/papers/neurips2020/24/paper.pdf"
   slides_path: "/papers/neurips2020/24/slides.pdf"
+  subject_areas:
+  - Hybrid physical models
+  - Buildings and cities
 - paper_title: Deep learning architectures for inference of AC-OPF solutions
   abstract: We present a systematic comparison between neural network (NN) architectures
     for inference of AC-OPF solutions. Using fully connected NNs as a baseline we
@@ -942,6 +1032,9 @@
   next_paper_id: 26
   paper_path: "/papers/neurips2020/25/paper.pdf"
   slides_path: "/papers/neurips2020/25/slides.pdf"
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Power and energy
 - paper_title: Predicting the Solar Potential of Rooftops using Image Segmentation
     and Structured Data
   abstract: 'Estimating the amount of electricity that can be produced by rooftop
@@ -984,6 +1077,11 @@
   next_paper_id: 27
   paper_path: "/papers/neurips2020/26/paper.pdf"
   slides_path: "/papers/neurips2020/26/slides.pdf"
+  subject_areas:
+  - Buildings and cities
+  - Power and energy
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
 - paper_title: Revealing the Oil Majors' Adaptive Capacity to the Energy Transition
     with Deep Multi-Agent Reinforcement Learning
   abstract: A low-carbon energy transition is transpiring to combat climate change,
@@ -1025,6 +1123,11 @@
   next_paper_id: 28
   paper_path: "/papers/neurips2020/27/paper.pdf"
   slides_path: "/papers/neurips2020/27/slides.pdf"
+  subject_areas:
+  - Industry
+  - Climate finance
+  - Reinforcement learning and control
+  - Uncertainty quantification and robustness
 - paper_title: Quantifying the presence of air pollutants over a road network in high
     spatio-temporal resolution
   abstract: 'Monitoring air pollution plays a key role when trying to reduce its impact
@@ -1059,6 +1162,9 @@
   next_paper_id: 29
   paper_path: "/papers/neurips2020/28/paper.pdf"
   slides_path: "/papers/neurips2020/28/slides.pdf"
+  subject_areas:
+  - Transportation
+  - Data mining
 - paper_title: Annual and in-season mapping of cropland at field scale with sparse
     labels
   abstract: Spatial information about where crops are being grown, known as cropland
@@ -1099,6 +1205,9 @@
   next_paper_id: 30
   paper_path: "/papers/neurips2020/29/paper.pdf"
   slides_path: "/papers/neurips2020/29/slides.pdf"
+  subject_areas:
+  - Agriculture
+  - Computer vision and remote sensing
 - paper_title: 'NightVision: Generating Nighttime Satellite Imagery from Infra-Red
     Observations'
   abstract: The recent explosion in applications of machine learning to satellite
@@ -1141,6 +1250,10 @@
   next_paper_id: 31
   paper_path: "/papers/neurips2020/30/paper.pdf"
   slides_path: "/papers/neurips2020/30/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
+  - Generative modeling
 - paper_title: Analyzing Sustainability Reports Using Natural Language Processing
   abstract: Climate change is a far-reaching, global phenomenon that will impact many
     aspects of our society, including the global stock market. In recent years, companies
@@ -1175,6 +1288,9 @@
   next_paper_id: 32
   paper_path: "/papers/neurips2020/31/paper.pdf"
   slides_path: "/papers/neurips2020/31/slides.pdf"
+  subject_areas:
+  - Climate finance
+  - Natural language processing
 - paper_title: Automated Identification of Oil Field Features using CNNs
   abstract: 'Oil and gas production sites have been identified as a major source of
     anthropogenic methane emissions. Emissions studies utilize counts of equipment
@@ -1212,6 +1328,9 @@
   next_paper_id: 33
   paper_path: "/papers/neurips2020/32/paper.pdf"
   slides_path: "/papers/neurips2020/32/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Computer vision and remote sensing
 - paper_title: Using attention to model long-term dependencies in occupancy behavior
   abstract: Over the past years, more and more models have been published that aim
     to capture relationships in human residential behavior. Most of these models are
@@ -1258,6 +1377,13 @@
   next_paper_id: 34
   paper_path: "/papers/neurips2020/33/paper.pdf"
   slides_path: "/papers/neurips2020/33/slides.pdf"
+  subject_areas:
+  - Behavioral and social science
+  - Buildings and cities
+  - Power and energy
+  - Transportation
+  - Natural language processing
+  - Time-series analysis
 - paper_title: 'Street to Cloud: Improving Flood Maps With Crowdsourcing and Semantic
     Segmentation'
   abstract: 'To address the mounting destruction caused by floods in climate-vulnerable
@@ -1290,6 +1416,9 @@
   next_paper_id: 35
   paper_path: "/papers/neurips2020/34/paper.pdf"
   slides_path: "/papers/neurips2020/34/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Computer vision and remote sensing
 - paper_title: Accurate river level predictions using a Wavenet-like model
   abstract: " The effects of climate change on river levels are noticeable through
     a higher occurrence of floods with disastrous social and economic impacts. As
@@ -1327,6 +1456,10 @@
   next_paper_id: 36
   paper_path: "/papers/neurips2020/35/paper.pdf"
   slides_path: "/papers/neurips2020/35/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Other
+  - Classification, regression, and supervised learning
 - paper_title: Movement Tracks for the Automatic Detection of Fish Behavior in Videos
   abstract: Global warming is predicted to profoundly impact ocean ecosystems. Fish
     behavior is an important indicator of changes in such marine environments. Thus,
@@ -1365,6 +1498,12 @@
   next_paper_id: 37
   paper_path: "/papers/neurips2020/36/paper.pdf"
   slides_path: "/papers/neurips2020/36/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Ecosystems and natural resources
+  - Other
+  - Classification, regression, and supervised learning
+  - Time-series analysis
 - paper_title: 'Counting Cows: Tracking Illegal Cattle Ranching From High-Resolution
     Satellite Imagery'
   abstract: Cattle farming is responsible for 8.8\% of greenhouse gas emissions worldwide.
@@ -1405,6 +1544,12 @@
   next_paper_id: 38
   paper_path: "/papers/neurips2020/37/paper.pdf"
   slides_path: "/papers/neurips2020/37/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Agriculture
+  - Climate and earth science
+  - Ecosystems and natural resources
+  - Forestry and other land use
 - paper_title: 'RainBench: Enabling Data-Driven Precipitation Forecasting on a Global
     Scale'
   abstract: Climate change is expected to aggravate extreme precipitation events,
@@ -1452,6 +1597,9 @@
   next_paper_id: 39
   paper_path: "/papers/neurips2020/38/paper.pdf"
   slides_path: "/papers/neurips2020/38/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Classification, regression, and supervised learning
 - paper_title: 'Machine learning for advanced solar cell production: adversarial denoising,
     sub-pixel alignment and the digital twin'
   abstract: 'Photovoltaic is a main pillar to achieve the transition towards a renewable
@@ -1491,6 +1639,12 @@
   next_paper_id: 40
   paper_path: "/papers/neurips2020/39/paper.pdf"
   slides_path: "/papers/neurips2020/39/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Industry
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  - Unsupervised and semi-supervised learning
 - paper_title: Climate Change Driven Crop Yield Failures
   abstract: 'The effect of extreme temperatures, precipitation and variations in other
     meteorological factors affect crop yields, and hence climate change jeopardizes
@@ -1518,6 +1672,9 @@
   prev_paper_id: 39
   next_paper_id: 41
   slides_path: "/papers/neurips2020/40/slides.pdf"
+  subject_areas:
+  - Agriculture
+  - Spatial deep learning
 - paper_title: Physics-constrained Deep Recurrent Neural Models of Building Thermal
     Dynamics
   abstract: |-
@@ -1546,6 +1703,9 @@
   next_paper_id: 42
   paper_path: "/papers/neurips2020/41/paper.pdf"
   slides_path: "/papers/neurips2020/41/slides.pdf"
+  subject_areas:
+  - Hybrid physical models
+  - Buildings and cities
 - paper_title: 'Narratives and Needs: Analyzing Experiences of Cyclone Amphan Using
     Twitter Discourse'
   abstract: People often turn to social media to comment upon and share information
@@ -1582,6 +1742,11 @@
   next_paper_id: 43
   paper_path: "/papers/neurips2020/42/paper.pdf"
   slides_path: "/papers/neurips2020/42/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Natural language processing
+  - Other
+  - Unsupervised and semi-supervised learning
 - paper_title: 'FlowDB: A new large scale river flow, flash flood, and precipitation
     dataset'
   abstract: " Flooding results in 8 billion dollars of damage annually in the US and
@@ -1615,6 +1780,10 @@
   next_paper_id: 44
   paper_path: "/papers/neurips2020/43/paper.pdf"
   slides_path: "/papers/neurips2020/43/slides.pdf"
+  subject_areas:
+  - Time-series analysis
+  - Climate and earth science
+  - Data mining
 - paper_title: Can Federated Learning Save The Planet ?
   abstract: Despite impressive results, deep learning-based technologies also raise
     severe privacy and environmental concerns induced by the training procedure often
@@ -1657,6 +1826,9 @@
   next_paper_id: 45
   paper_path: "/papers/neurips2020/44/paper.pdf"
   slides_path: "/papers/neurips2020/44/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Federated Learning
 - paper_title: 'FireSRnet: Geoscience-driven super-resolution of future fire risk
     from climate change'
   abstract: With fires becoming increasingly frequent and severe across the globe
@@ -1697,6 +1869,10 @@
   next_paper_id: 46
   paper_path: "/papers/neurips2020/45/paper.pdf"
   slides_path: "/papers/neurips2020/45/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
+  - Societal adaptation
 - paper_title: 'An Enriched Automated PV Registry: Combining Image Recognition and
     3D Building Data'
   abstract: While photovoltaic (PV) systems are installed at an unprecedented rate,
@@ -1737,6 +1913,11 @@
   next_paper_id: 47
   paper_path: "/papers/neurips2020/46/paper.pdf"
   slides_path: "/papers/neurips2020/46/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Buildings and cities
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
 - paper_title: 'Satellite imagery analysis for Land Use, Land Use Change and Forestry:
     A pilot study in Kigali, Rwanda'
   abstract: Estimating greenhouse gases from the Agriculture, Forestry and Other land
@@ -1774,6 +1955,9 @@
   prev_paper_id: 46
   next_paper_id: 48
   slides_path: "/papers/neurips2020/47/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Classification, regression, and supervised learning
 - paper_title: 'EarthNet2021: A novel large-scale dataset and challenge for forecasting
     localized climate impacts'
   abstract: Climate change is global, yet its concrete impacts can strongly vary between
@@ -1835,6 +2019,16 @@
   next_paper_id: 49
   paper_path: "/papers/neurips2020/48/paper.pdf"
   slides_path: "/papers/neurips2020/48/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Agriculture
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural resources
+  - Forestry and other land use
+  - Computer vision and remote sensing
+  - Data mining
+  - Generative modeling
+  - Hybrid physical models
 - paper_title: 'DeepWaste: Applying Deep Learning to Waste Classification for a Sustainable
     Planet'
   abstract: 'Accurate waste disposal, at the point of disposal, is crucial to fighting
@@ -1869,6 +2063,9 @@
   next_paper_id: 50
   paper_path: "/papers/neurips2020/49/paper.pdf"
   slides_path: "/papers/neurips2020/49/slides.pdf"
+  subject_areas:
+  - Other
+  - Classification, regression, and supervised learning
 - paper_title: 'Machine Learning Climate Model Dynamics: Offline versus Online Performance'
   abstract: Climate models are complicated software systems that approximate atmospheric
     and oceanic fluid mechanics at a coarse spatial resolution. Typical climate forecasts
@@ -1909,6 +2106,9 @@
   next_paper_id: 51
   paper_path: "/papers/neurips2020/50/paper.pdf"
   slides_path: "/papers/neurips2020/50/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Hybrid physical models
 - paper_title: 'OGNet: Towards a Global Oil and Gas Infrastructure Database using
     Deep Learning on Remotely Sensed Imagery'
   abstract: At least a quarter of the warming that the Earth is experiencing today
@@ -1956,6 +2156,9 @@
   next_paper_id: 52
   paper_path: "/papers/neurips2020/51/paper.pdf"
   slides_path: "/papers/neurips2020/51/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Computer vision and remote sensing
 - paper_title: 'VConstruct: Filling Gaps in Chl-a Data Using a Variational Autoencoder'
   abstract: |-
     Remote sensing of Chlorophyll-a is vital in monitoring climate change. Chlorphylla measurements give us an idea of the algae concentrations in the ocean, which
@@ -1993,6 +2196,11 @@
   next_paper_id: 53
   paper_path: "/papers/neurips2020/52/paper.pdf"
   slides_path: "/papers/neurips2020/52/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
+  - Ecosystems and natural resources
+  - Generative modeling
 - paper_title: A Comparison of Data-Driven Models for Predicting Stream Water Temperature
   abstract: 'Changes to the Earth''s climate are expected to negatively impact water
     resources in the future. It is important to have  accurate modelling of river
@@ -2039,6 +2247,11 @@
   next_paper_id: 54
   paper_path: "/papers/neurips2020/53/paper.pdf"
   slides_path: "/papers/neurips2020/53/slides.pdf"
+  subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
+  - Classification, regression, and supervised learning
+  - Time-series analysis
 - paper_title: Automated Salmonid Counting in Sonar Data
   abstract: The prosperity of salmonids is crucial for several ecological and economic
     functions. Accurately counting spawning salmonids during their seasonal migration
@@ -2080,6 +2293,14 @@
   next_paper_id: 55
   slides_path: "/papers/neurips2020/54/slides.pdf"
   paper_path: "/papers/neurips2020/54/paper.pdf"
+  subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture
+  - Climate and earth science
+  - Forestry and other land use
+  - Industry
+  - Computer vision and remote sensing
+  - Time-series analysis
 - paper_title: 'Short-term PV output prediction using convolutional neural network:
     learning from an imbalanced sky images dataset via sampling and data augmentation'
   abstract: Integrating photovoltaics (PV) into electricity grids is one of the major
@@ -2117,6 +2338,10 @@
   prev_paper_id: 54
   next_paper_id: 56
   slides_path: "/papers/neurips2020/55/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate and earth science
+  - Classification, regression, and supervised learning
 - paper_title: 'OfficeLearn: An OpenAI Gym Environment for Building Level Energy Demand
     Response'
   abstract: 'Energy Demand Response (DR) will play a crucial role in balancing renewable
@@ -2148,13 +2373,18 @@
   slideslive_speaker: Lucas Spangher
   cmt_id: 122
   poster_sessions:
-  - 20:00-21:00 UTC 
+  - 20:00-21:00 UTC
   is_spotlight: false
   id: 56
   prev_paper_id: 55
   next_paper_id: 57
   paper_path: "/papers/neurips2020/56/paper.pdf"
   slides_path: "/papers/neurips2020/56/slides.pdf"
+  subject_areas:
+  - Buildings and cities
+  - Power and energy
+  - Reinforcement learning and control
+  - Time-series analysis
 - paper_title: Machine Learning for Glacier Monitoring in the Hindu Kush Himalaya
   abstract: Glacier mapping is key to ecological monitoring in the Hindu Kush Himalaya
     region. Climate change poses a risk to individuals whose livelihoods depend on
@@ -2194,6 +2424,9 @@
   next_paper_id: 58
   paper_path: "/papers/neurips2020/57/paper.pdf"
   slides_path: "/papers/neurips2020/57/slides.pdf"
+  subject_areas:
+  - Ecosystems and natural resources
+  - Computer vision and remote sensing
 - paper_title: Data-driven modeling of cooling demand in a commercial building
   abstract: Heating, ventilation, and air conditioning (HVAC) systems account for
     30% of the total energy consumption in buildings. Design and implementation of
@@ -2229,6 +2462,10 @@
   prev_paper_id: 57
   next_paper_id: 59
   slides_path: "/papers/neurips2020/58/slides.pdf"
+  subject_areas:
+  - Buildings and cities
+  - Power and energy
+  - Hybrid physical models
 - paper_title: 'Investigating two super-resolution methods for downscaling precipitation:
     ESRGAN and CAR'
   abstract: 'In an effort to provide optimal inputs to downstream modeling systems
@@ -2264,6 +2501,9 @@
   next_paper_id: 60
   paper_path: "/papers/neurips2020/59/paper.pdf"
   slides_path: "/papers/neurips2020/59/slides.pdf"
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Ecosystems and natural resources
 - paper_title: 'Emerging Trends of Sustainability Reporting in the ICT Industry: Insights
     from Discriminative Topic Mining'
   abstract: The Information and Communication Technologies (ICT) industry has a considerable
@@ -2302,6 +2542,12 @@
   next_paper_id: 61
   paper_path: "/papers/neurips2020/60/paper.pdf"
   slides_path: "/papers/neurips2020/60/slides.pdf"
+  subject_areas:
+  - Industry
+  - Policy
+  - Data mining
+  - Natural language processing
+  - Unsupervised and semi-supervised learning
 - paper_title: Loosely Conditioned Emulation of Global Climate Models With Generative
     Adversarial Networks
   abstract: 'Climate models encapsulate our best understanding of the Earth system,
@@ -2352,6 +2598,9 @@
   next_paper_id: 62
   paper_path: "/papers/neurips2020/61/paper.pdf"
   slides_path: "/papers/neurips2020/61/slides.pdf"
+  subject_areas:
+  - Generative modeling
+  - Climate and earth science
 - paper_title: 'The Peruvian Amazon Forestry Dataset: A Leaf Image Classification
     Corpus'
   abstract: This paper introduces the Peruvian Amazon Forestry Dataset, which includes
@@ -2387,6 +2636,9 @@
   prev_paper_id: 61
   next_paper_id: 63
   slides_path: "/papers/neurips2020/62/slides.pdf"
+  subject_areas:
+  - Forestry and other land use
+  - Meta- and transfer learning
 - paper_title: Spatiotemporal Features Improve Fine-Grained Butterfly Image Classification
   abstract: 'Understanding the changing distributions of butterflies gives insight
     into the impacts of climate change across ecosystems and is a prerequisite for
@@ -2424,6 +2676,10 @@
   next_paper_id: 64
   paper_path: "/papers/neurips2020/63/paper.pdf"
   slides_path: "/papers/neurips2020/63/slides.pdf"
+  subject_areas:
+  - Ecosystems and natural resources
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
 - paper_title: High-resolution global irrigation prediction with Sentinel-2 30m data
   abstract: An accurate and precise understanding of global irrigation usage is crucial
     for a variety of climate science efforts. Irrigation is highly energy-intensive,
@@ -2465,6 +2721,9 @@
   next_paper_id: 65
   paper_path: "/papers/neurips2020/64/paper.pdf"
   slides_path: "/papers/neurips2020/64/slides.pdf"
+  subject_areas:
+  - Agriculture
+  - Unsupervised and semi-supervised learning
 - paper_title: Do Occupants in a Building exhibit patterns in Energy Consumption?
     Analyzing Clusters in Energy Social Games
   abstract: Energy use in buildings account for approximately half of global electricity
@@ -2505,6 +2764,9 @@
   next_paper_id: 66
   paper_path: "/papers/neurips2020/65/paper.pdf"
   slides_path: "/papers/neurips2020/65/slides.pdf"
+  subject_areas:
+  - Buildings and cities
+  - Other
 - paper_title: 'In-N-Out: Pre-Training and Self-Training using Auxiliary Information
     for Out-of-Distribution Robustness'
   abstract: |-
@@ -2550,6 +2812,12 @@
   next_paper_id: 67
   paper_path: "/papers/neurips2020/66/paper.pdf"
   slides_path: "/papers/neurips2020/66/slides.pdf"
+  subject_areas:
+  - Meta- and transfer learning
+  - Agriculture
+  - Forestry and other land use
+  - Computer vision and remote sensing
+  - Unsupervised and semi-supervised learning
 - paper_title: 'Climate-FEVER: A Dataset for Verification of Real-World Climate Claims'
   abstract: 'Our goal is to introduce \textsc{climate-fever}, a new publicly available
     dataset for verification of climate change-related claims. By providing a dataset
@@ -2584,6 +2852,11 @@
   next_paper_id: 68
   paper_path: "/papers/neurips2020/67/paper.pdf"
   slides_path: "/papers/neurips2020/67/slides.pdf"
+  subject_areas:
+  - Natural language processing
+  - Behavioral and social science
+  - Climate finance
+  - Other
 - paper_title: Understanding global fire regimes using Artificial Intelligence
   abstract: Improved understanding of fire activity and its influencing factors will
     impact the way we interact and coexist with not only the fire itself but also
@@ -2625,6 +2898,9 @@
   next_paper_id: 69
   paper_path: "/papers/neurips2020/68/paper.pdf"
   slides_path: "/papers/neurips2020/68/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Disaster prediction, management, and relief
 - paper_title: 'ClimaText: A Dataset for Climate Change Topic Detection'
   abstract: |-
     Climate change communication in the mass media and other textual sources may affect and shape public perception. Extracting climate change information from these sources is an important task, e.g., for filtering content and e-discovery, sentiment analysis, automatic summarization, question-answering, and fact-checking. However, automating this process is a challenge, as climate change is a complex, fast-moving, and often ambiguous topic with scarce resources for popular text-based AI tasks. In this paper, we introduce \textsc{ClimaText}, a dataset for sentence-based climate change topic detection, which we make publicly available. We explore different approaches to identify the climate change topic in various text sources. We find that popular keyword-based models are not adequate for such a complex and evolving task. Context-based algorithms like BERT~\cite{devlin2018bert} can detect, in addition to many trivial cases, a variety of complex and implicit topic patterns. Nevertheless, our analysis reveals a great potential for improvement in several directions, such as, e.g., capturing the discussion on indirect effects of climate change. Hence,
@@ -2650,6 +2926,10 @@
   next_paper_id: 70
   paper_path: "/papers/neurips2020/69/paper.pdf"
   slides_path: "/papers/neurips2020/69/slides.pdf"
+  subject_areas:
+  - Natural language processing
+  - Behavioral and social science
+  - Other
 - paper_title: Towards Data-Driven Physics-Informed Global Precipitation Forecasting
     from Satellite Imagery
   abstract: "Under the effects of global warming, extreme events such as floods and
@@ -2699,6 +2979,13 @@
   next_paper_id: 71
   paper_path: "/papers/neurips2020/70/paper.pdf"
   slides_path: "/papers/neurips2020/70/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Agriculture
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural resources
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
 - paper_title: A Generative Adversarial Gated Recurrent Network for Power Disaggregation
     & Consumption Awareness
   abstract: " Separating the household aggregated power signal into its additive sub-components
@@ -2737,6 +3024,9 @@
   next_paper_id: 72
   paper_path: "/papers/neurips2020/71/paper.pdf"
   slides_path: "/papers/neurips2020/71/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Generative modeling
 - paper_title: 'Deep Fire Topology: Understanding the role of landscape spatial patterns
     in wildfire susceptibility'
   abstract: Increasing wildfire activity across the globe has become an urgent issue
@@ -2775,6 +3065,10 @@
   next_paper_id: 73
   paper_path: "/papers/neurips2020/72/paper.pdf"
   slides_path: "/papers/neurips2020/72/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Disaster prediction, management, and relief
+  - Forestry and other land use
 - paper_title: Interpretability in Convolutional Neural Networks for Building Damage
     Classification in Satellite Imagery
   abstract: Natural disasters ravage the world's cities, valleys, and shores on a
@@ -2812,6 +3106,10 @@
   next_paper_id: 74
   paper_path: "/papers/neurips2020/73/paper.pdf"
   slides_path: "/papers/neurips2020/73/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Buildings and cities
+  - Interpretable ML
 - paper_title: Long-Range Seasonal Forecasting of 2m-Temperature with Machine Learning
   abstract: A significant challenge in seasonal climate prediction is whether a prediction
     can beat climatology. We hereby present results from two data-driven models -
@@ -2848,6 +3146,9 @@
   next_paper_id: 75
   paper_path: "/papers/neurips2020/74/paper.pdf"
   slides_path: "/papers/neurips2020/74/slides.pdf"
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Climate and earth science
 - paper_title: 'Explaining Complex Energy Systems: A Challenge'
   abstract: Designing future low-carbon, sector-coupled energy systems is a complex
     task. The work is therefore often supported by software tools that model and optimize
@@ -2882,6 +3183,10 @@
   prev_paper_id: 74
   next_paper_id: 76
   slides_path: "/papers/neurips2020/75/slides.pdf"
+  subject_areas:
+  - Interpretable ML
+  - Climate finance
+  - Power and energy
 - paper_title: 'The Human Effect Requires Affect: Addressing Social-Psychological
     Factors of Climate Change with Machine Learning'
   abstract: Machine learning has the potential to aid in mitigating the human effects
@@ -2920,6 +3225,10 @@
   next_paper_id: 77
   paper_path: "/papers/neurips2020/76/paper.pdf"
   slides_path: "/papers/neurips2020/76/slides.pdf"
+  subject_areas:
+  - Behavioral and social science
+  - Societal adaptation
+  - Causal and Bayesian methods
 - paper_title: 'A Way Toward Low-Carbon Shipping: Improving Port Operations Planning
     using Machine Learning'
   abstract: Despite being the most carbon-efficient way of transportation, shipping
@@ -2955,6 +3264,8 @@
   next_paper_id: 78
   paper_path: "/papers/neurips2020/77/paper.pdf"
   slides_path: "/papers/neurips2020/77/slides.pdf"
+  subject_areas:
+  - Transportation
 - paper_title: Privacy Preserving Demand Forecasting to Encourage Consumer Acceptance
     of Smart Energy Meters
   abstract: In this proposal paper we highlight the need for privacy preserving energy
@@ -2990,6 +3301,12 @@
   next_paper_id: 79
   paper_path: "/papers/neurips2020/78/paper.pdf"
   slides_path: "/papers/neurips2020/78/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Buildings and cities
+  - Societal adaptation
+  - Classification, regression, and supervised learning
+  - Time-series analysis
 - paper_title: Leveraging Machine learning for  Sustainable and Self-sufficient Energy
     Communities
   abstract: Community Energies (CEs) are the next-generation energy management techniques
@@ -3026,6 +3343,9 @@
   next_paper_id: 80
   paper_path: "/papers/neurips2020/79/paper.pdf"
   slides_path: "/papers/neurips2020/79/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Energy
 - paper_title: 'Structural Forecasting for Tropical Cyclone Intensity Prediction:
     Providing Insight with Deep Learning'
   abstract: 'Tropical cyclone (TC) intensity forecasts are ultimately issued by human
@@ -3059,6 +3379,9 @@
   next_paper_id: 81
   paper_path: "/papers/neurips2020/80/paper.pdf"
   slides_path: "/papers/neurips2020/80/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Interpretable ML
 - paper_title: Hyperspectral Remote Sensing of Aquatic Microbes to Support Water Resource
     Management
   abstract: Harmful algal blooms in drinking water supply and at recreational sites
@@ -3097,6 +3420,9 @@
   next_paper_id: 82
   paper_path: "/papers/neurips2020/81/paper.pdf"
   slides_path: "/papers/neurips2020/81/slides.pdf"
+  subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
 - paper_title: 'Wildfire Smoke and Air Quality: How Machine Learning Can Guide Forest
     Management'
   abstract: Prescribed burns are currently the most effective method of reducing the
@@ -3130,6 +3456,11 @@
   next_paper_id: 83
   paper_path: "/papers/neurips2020/82/paper.pdf"
   slides_path: "/papers/neurips2020/82/slides.pdf"
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Forestry and other land use
+  - Interpretable ML
+  - Unsupervised and semi-supervised learning
 - paper_title: 'HECT: High-Dimensional Ensemble Consistency Testing for Climate Models'
   abstract: Climate models play a crucial role in understanding the effect of environmental
     and man-made changes on climate to help mitigate climate risks and inform governmental
@@ -3168,6 +3499,10 @@
   next_paper_id: 84
   paper_path: "/papers/neurips2020/83/paper.pdf"
   slides_path: "/papers/neurips2020/83/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Classification, regression, and supervised learning
+  - Uncertainty quantification and robustness
 - paper_title: 'Towards DeepSentinel: An extensible corpus of labelled Sentinel-1
     and -2 imagery and a proposed general purpose sensor-fusion semantic embedding
     model'
@@ -3205,6 +3540,9 @@
   next_paper_id: 85
   paper_path: "/papers/neurips2020/84/paper.pdf"
   slides_path: "/papers/neurips2020/84/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Forestry and other land use
 - paper_title: Monitoring Shorelines via High-Resolution Satellite Imagery and Deep
     Learning
   abstract: Twentieth-century has seen an overall sea-level rise of 0.5m [7, 11] and
@@ -3238,6 +3576,8 @@
   next_paper_id: 86
   paper_path: "/papers/neurips2020/85/paper.pdf"
   slides_path: "/papers/neurips2020/85/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
 - paper_title: Graph Neural Networks for Improved El Niño Forecasting
   abstract: |-
     Deep learning-based models have recently outperformed state-of-the-art seasonal forecasting models, such as for predicting El Ni\~no-Southern Oscillation (ENSO). However, current deep learning models are based on convolutional neural networks which are difficult to interpret and can fail to model large-scale atmospheric patterns called teleconnections. Hence, we propose the application of spatiotemporal Graph Neural Networks (GNN) to forecast ENSO at long lead times, finer granularity and improved predictive skill than current state-of-the-art methods.
@@ -3272,6 +3612,13 @@
   next_paper_id: 87
   paper_path: "/papers/neurips2020/86/paper.pdf"
   slides_path: "/papers/neurips2020/86/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Agriculture
+  - Disaster prediction, management, and relief
+  - Classification, regression, and supervised learning
+  - Interpretable ML
+  - Time-series analysis
 - paper_title: Residue Density Segmentation for Monitoring and Optimizing Tillage
     Practices
   abstract: '"No-till" and cover cropping are often identified as the leading simple,
@@ -3309,6 +3656,10 @@
   next_paper_id: 88
   paper_path: "/papers/neurips2020/87/paper.pdf"
   slides_path: "/papers/neurips2020/87/slides.pdf"
+  subject_areas:
+  - Agriculture
+  - Carbon capture and sequestration
+  - Computer vision and remote sensing
 - paper_title: Machine Learning Informed Policy for Environmental Justice in Atlanta
     with Climate Justice Implications
   abstract: Environmental hazards are not evenly distributed between the privileged
@@ -3349,6 +3700,12 @@
   prev_paper_id: 87
   next_paper_id: 89
   slides_path: "/papers/neurips2020/88/slides.pdf"
+  subject_areas:
+  - Policy
+  - Behavioral and social science
+  - Climate justice
+  - Classification, regression, and supervised learning
+  - Unsupervised and semi-supervised learning
 - paper_title: A Multi-source, End-to-End Solution for Tracking Climate Change Adaptation
     in Agriculture
   abstract: The impact of climate change on tropical agri-food systems will depend
@@ -3390,6 +3747,13 @@
   next_paper_id: 90
   paper_path: "/papers/neurips2020/89/paper.pdf"
   slides_path: "/papers/neurips2020/89/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Agriculture
+  - Climate finance
+  - Policy
+  - Classification, regression, and supervised learning
+  - Time-series analysis
 - paper_title: Expert-in-the-loop Systems Towards Safety-critical Machine Learning
     Technology in Wildfire Intelligence
   abstract: With the advent of climate change, wildfires are becoming more frequent
@@ -3433,6 +3797,17 @@
   next_paper_id: 91
   paper_path: "/papers/neurips2020/90/paper.pdf"
   slides_path: "/papers/neurips2020/90/slides.pdf"
+  subject_areas:
+  - Computer vision and remote sensing
+  - Carbon capture and sequestration
+  - Disaster prediction, management, and relief
+  - Forestry and other land use
+  - Classification, regression, and supervised learning
+  - Interpretable ML
+  - Meta- and transfer learning
+  - Natural language processing
+  - Uncertainty quantification and robustness
+  - Unsupervised and semi-supervised learning
 - paper_title: 'ACED: Accelerated Computational Electrochemical systems Discovery'
   abstract: Large-scale electrification is vital to addressing the climate crisis,
     but many engineering challenges remain to fully electrifying both the chemical
@@ -3479,6 +3854,15 @@
   next_paper_id: 92
   paper_path: "/papers/neurips2020/91/paper.pdf"
   slides_path: "/papers/neurips2020/91/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Agriculture
+  - Transportation
+  - Active learning
+  - Classification, regression, and supervised learning
+  - Hybrid physical models
+  - Interpretable ML
+  - Uncertainty quantification and robustness
 - paper_title: Forecasting Marginal Emissions Factors in PJM
   abstract: Many climate change applications rely on accurate forecasts of power grid
     emissions, but many forecasting methods can be expensive, sensitive to input errors,
@@ -3508,6 +3892,10 @@
   next_paper_id: 93
   paper_path: "/papers/neurips2020/92/paper.pdf"
   slides_path: "/papers/neurips2020/92/slides.pdf"
+  subject_areas:
+  - Power and energy
+  - Hybrid physical models
+  - Time-series analysis
 - paper_title: Artificial Intelligence, Machine Learning and Modeling for Understanding
     the Oceans and Climate Change
   abstract: |-
@@ -3549,6 +3937,16 @@
   next_paper_id: 94
   paper_path: "/papers/neurips2020/93/paper.pdf"
   slides_path: "/papers/neurips2020/93/slides.pdf"
+  subject_areas:
+  - Interpretable ML
+  - Carbon capture and sequestration
+  - Ecosystems and natural resources
+  - Active learning
+  - Causal and Bayesian methods
+  - Computer vision and remote sensing
+  - Hybrid physical models
+  - Meta- and transfer learning
+  - Time-series analysis
 - paper_title: Machine Learning towards a Global Parameterisation of Atmospheric New
     Particle Formation and Growth
   abstract: "  New particle formation (NPF) and growth in the atmosphere affects climate,
@@ -3586,3 +3984,6 @@
   prev_paper_id: 93
   paper_path: "/papers/neurips2020/94/paper.pdf"
   slides_path: "/papers/neurips2020/94/slides.pdf"
+  subject_areas:
+  - Climate and earth science
+  - Classification, regression, and supervised learning
