@@ -17,7 +17,9 @@ description: Tackling Climate Change with Machine Learning
           <select id='venues'>
             <option value=''>All Venues</option>
             {% for w in site.data.workshops %}
-              <option value='{{w.short_name}}'>{{w.short_name}}</option>
+              {% if w.papers %}
+                <option value='{{w.short_name}}'>{{w.short_name}}</option>
+              {% endif %}
             {% endfor %}
           </select>
         </div>
