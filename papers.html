@@ -4,40 +4,16 @@ title: Climate Change AI Workshop Papers
 description: Tackling Climate Change with Machine Learning
 ---
 
-<style>
-  .tag {
-    display: inline-block;
-    line-height: 2;
-    cursor: pointer;
-  }
+<h1>Climate Change AI Workshop Papers</h1>
 
-  .tag:hover {
-    text-decoration: underline;
-  }
-
-  .dataTables_filter {
-    display: none;
-  }
-
-  .paper-areas {
-    max-width: 400px;
-  }
-</style>
+<p>On this page, we show accepted works from all our past workshops on "Tackling Climate Change with Machine Learning."</p>
 
 <div id='search-wrapper' class='columns'>
   <div class='column'>
     <div class='field'>
-      <label class='label'>Text Search</label>
-      <div class='control'>
-        <input class='input is-small' id='text-search' placeholder='Enter search terms...'/>
-      </div>
-    </div>
-  </div>
-  <div class='column'>
-    <div class='field'>
       <label class='label'>Venue</label>
       <div class='control is-expanded'>
-        <div class='select is-small is-fullwidth'>
+        <div class='select is-fullwidth'>
           <select id='venues'>
             <option value=''>All Venues</option>
             {% for w in site.data.workshops %}
@@ -45,6 +21,14 @@ description: Tackling Climate Change with Machine Learning
             {% endfor %}
           </select>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class='column'>
+    <div class='field'>
+      <label class='label'>Text Search</label>
+      <div class='control'>
+        <input class='input is-small' id='text-search' placeholder='Enter search terms...' type='search'/>
       </div>
     </div>
   </div>
@@ -105,12 +89,60 @@ description: Tackling Climate Change with Machine Learning
   </tbody>
 </table>
 
+<style>
+  .dataTable .tag {
+    display: inline-block;
+    line-height: 2;
+    cursor: pointer;
+  }
+
+  .dataTable .tag:hover {
+    text-decoration: underline;
+  }
+
+  .dataTables_filter {
+    display: none;
+  }
+
+  .paper-areas {
+    max-width: 400px;
+  }
+
+  #text-search {
+    width: calc(100% - 1rem);
+  }
+
+  @media screen and (min-width: 651px) {
+    #search-wrapper {
+      position: -webkit-sticky;
+      position: sticky;
+      background: white;
+      width: 100%;
+      z-index: 1;
+      top: var(--navbar-height-normal);
+      margin-bottom: -5px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    #search-wrapper {
+      top: var(--navbar-height-mobile);
+    }
+  }
+</style>
+
 <script src='https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js'></script>
 <script src='https://cdn.jsdelivr.net/mark.js/8.6.0/jquery.mark.min.js'></script>
 <script src='https://cdn.datatables.net/1.10.25/js/dataTables.bulma.min.js'></script>
 <link rel='stylesheet' type='text/css' href="https://cdn.datatables.net/1.10.25/css/dataTables.bulma.min.css"/>
 
 <script src="/assets/js/chosen.jquery.js"></script>
+
+<script>
+window.workshops = {{ site.data.workshops | jsonify }};
+window.workshopNames = workshops.map(w => w.short_name);
+</script>
+
 <script>
 $(document).ready(() => {
     const $table = $('.paper-table');
@@ -124,11 +156,18 @@ $(document).ready(() => {
       $areas.append(`<option value='${area}'>${area}</option>`);
     }
 
-    $('.chosen-container').css('width', '100%');
+    $('.chosen-container').css('width', 'calc(100% - 1rem)');
+    $('.chosen-container').css('max-width', '100%');
     $('.main-content').css('max-width', 'none');
     $('select[multiple]').chosen();
 
     const fieldNames = Array.from($table.find('th')).map(th => $(th).text());
+
+    $.fn.dataTable.ext.type.detect.unshift(d => workshopNames.includes(d) ?  'workshop' : null);
+    
+    $.fn.dataTable.ext.type.order['workshop-pre'] = (d) => {
+        return workshopNames.indexOf(d);
+    };
 
     $.fn.dataTable.ext.search.push((_, data, __) => {
       const rowAreas = data[fieldNames.indexOf('Subject Areas')];
