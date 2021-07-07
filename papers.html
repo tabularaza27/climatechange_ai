@@ -71,6 +71,11 @@ description: Tackling Climate Change with Machine Learning
               {% if p.award %}
                 <span class='tag best-paper'>{{ p.award }}</span>
               {% endif %}
+
+              <details>
+                <summary>Abstract: (click to expand)</summary>
+                {{p.abstract}}
+              </details>
             </td>
             <!--<td>{{p.authors}}</td>-->
             <td class='paper-areas'>
