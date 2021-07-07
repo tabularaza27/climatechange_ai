@@ -422,7 +422,6 @@
   zoom_id: 86227916905
   session: Session2
   slideslive_id: '38926222'
-  is_best_paper: 1
   id: 11
   prev_paper_id: 10
   next_paper_id: 12
@@ -432,6 +431,7 @@
   subject_areas:
   - Climate and earth science
   - Extreme weather events
+  award: Best Paper Award
 - paper_title: Modeling Cloud Reflectance Fields using Conditional Generative Adversarial
     Networks
   abstract: We introduce a conditional Generative Adversarial Network (cGAN) approach
@@ -867,7 +867,6 @@
   id: 23
   prev_paper_id: 22
   next_paper_id: 24
-  is_best_proposal: 1
   rocketchat_channel: https://iclr.rocket.chat/channel/climatechange_poster_23
   paper_path: "/papers/iclr2020/23/paper.pdf"
   slides_path: "/papers/iclr2020/23/slides.pdf"
@@ -876,6 +875,7 @@
   - Carbon capture and sequestration
   - Climate finance
   - Ecosystems and natural resources
+  award: Best Proposal Award
 - paper_title: Advancing Renewable Electricity Consumption With Reinforcement Learning
   abstract: As the share of renewable energy sources in the present electric energy
     mix rises, their intermittence proves to be the biggest challenge to carbon free

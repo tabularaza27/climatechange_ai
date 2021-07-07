@@ -13,8 +13,6 @@
     potentially save hundreds of megatons of CO2 -equivalent.'
   authors: Frederik Diehl (fortiss)
   paper_path: "/papers/neurips2019/1/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   next_paper_id: 2
   cmt_id: 2
@@ -37,8 +35,6 @@
   authors: Bill Cai (Massachusetts Institute of Technology); Xiaojiang Li (Temple
     University); Carlo Ratti (Massachusetts Institute of Technology )
   paper_path: "/papers/neurips2019/2/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 1
   next_paper_id: 3
@@ -69,8 +65,6 @@
     Hochreiter (LIT AI Lab, Institute for Machine Learning, Johannes Kepler University
     Linz, Austria)
   paper_path: "/papers/neurips2019/3/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 2
   next_paper_id: 4
@@ -96,8 +90,6 @@
     Choo (Korea University); Mr Prabhat (Lawrence Berkeley National Laboratory); Yunsung
     Lee (Korea University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 3
   next_paper_id: 5
@@ -126,8 +118,6 @@
     U.); Eva Zhang (Stanford University); Will Deaderick (Stanford University); Jabs
     Aljubran (Stanford University)
   paper_path: "/papers/neurips2019/5/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 4
   next_paper_id: 6
@@ -150,8 +140,6 @@
   authors: Martin Gauch (University of Waterloo); Juliane Mai (University of Waterloo);
     Shervan Gharari (University of Saskatchewan); Jimmy Lin (University of Waterloo)
   paper_path: "/papers/neurips2019/6/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 5
   next_paper_id: 7
@@ -181,8 +169,6 @@
   authors: Sharon Zhou (Stanford University); Sasha Luccioni (Mila); Gautier Cosne
     (Mila); Michael Bernstein (Stanford University); Yoshua Bengio (Mila)
   paper_path: "/papers/neurips2019/7/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 6
   next_paper_id: 8
@@ -210,8 +196,6 @@
   authors: Kadan Lottick (Haverford College); Silvia Susai (Haverford College); Sorelle
     Friedler (Haverford College); Jonathan Wilson (Haverford College)
   paper_path: "/papers/neurips2019/8/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 7
   next_paper_id: 9
@@ -238,8 +222,6 @@
     to sustainable energy sources and help combat climate change.
   authors: Joyjit Chatterjee (University of Hull); Nina Dethlefs (University of Hull)
   paper_path: "/papers/neurips2019/9/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 8
   next_paper_id: 10
@@ -266,8 +248,6 @@
   authors: Christian Schön (Saarland Informatics Campus); Jens Dittrich (Saarland
     University)
   paper_path: "/papers/neurips2019/10/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 9
   next_paper_id: 11
@@ -297,8 +277,6 @@
     Strange (University of Oxford); Matt Kusner (University College London); Duncan
     Watson-Parris (University of Oxford)
   paper_path: 
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922389'
   q1_track: Papers
@@ -310,6 +288,7 @@
   subject_areas:
   - Climate and earth science
   - Data presentation and management
+  award: Best Paper Award
 - id: 12
   paper_title: Targeting Buildings for Energy Retrofit Using Recurrent Neural Networks
     with Multivariate Time Series
@@ -325,8 +304,6 @@
     prediction of building envelope thermal properties.'
   authors: Gaby Baasch (University of Victoria)
   paper_path: "/papers/neurips2019/12/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 11
   next_paper_id: 13
@@ -352,8 +329,6 @@
     regression method to improve prediction of vertical ocean temperature.
   authors: Gautier Cosne (Mila); Pierre Tandeo (IMT-Atlantique); Guillaume Maze (Ifremer)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 12
   next_paper_id: 14
@@ -379,8 +354,6 @@
     on which to base the training of more complex algorithms.
   authors: Dara Farrell (Graduate of University of Washington)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 13
   next_paper_id: 15
@@ -419,8 +392,6 @@
   authors: Kira Goldner (Columbia University); Nicole Immorlica (Microsoft Research);
     Brendan Lucier (Microsoft Research New England)
   paper_path: "/papers/neurips2019/15/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 14
   next_paper_id: 16
@@ -443,8 +414,6 @@
   authors: Letif Mones (Invenia Labs); Alex Robson (Invenia Labs); Mahdi Jamei (Invenia
     Labs); Cozmin Ududec (Invenia Labs)
   paper_path: "/papers/neurips2019/16/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 15
   next_paper_id: 17
@@ -475,8 +444,6 @@
     Andi Peng (Microsoft); Dan Morris (Microsoft); Bistra Dilkina (University of Southern
     California); Nebojsa Jojic (Microsoft Research)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 16
   next_paper_id: 18
@@ -501,8 +468,6 @@
     (EPFL); Lucas Maystre (Spotify); Matthias Grossglauser (École Polytechnique Fédérale
     de Lausanne (EPFL)); Patrick Thiran (EPFL)
   paper_path: "/papers/neurips2019/18/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 17
   next_paper_id: 19
@@ -529,8 +494,6 @@
     Aummul Baneen Manasawala (UC Berkeley); Tanya Veeravalli (UC Berkeley); Huihan
     Liu (UC Berkeley ); Costas J. Spanos (University of California at Berkeley)
   paper_path: "/papers/neurips2019/19/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 18
   next_paper_id: 20
@@ -561,8 +524,6 @@
     and climate change.
   authors: Yimeng Min (Mila); Surya Karthik Mukkavilli (Mila); Yoshua Bengio (Mila)
   paper_path: "/papers/neurips2019/20/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 19
   next_paper_id: 21
@@ -588,8 +549,6 @@
   authors: Alexandra Puchko (Western Washington University); Brian Hutchinson (Western
     Washington University); Robert Link (Joint Global Change Research Institute)
   paper_path: "/papers/neurips2019/21/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 20
   next_paper_id: 22
@@ -614,8 +573,6 @@
   authors: Sasha Luccioni (Mila); Victor Schmidt (Mila); Alexandre Lacoste (Element
     AI); Thomas Dandres (Polytechnique Montreal)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 21
   next_paper_id: 23
@@ -642,8 +599,6 @@
     Ali Sadeghian (University of Florida); Ethan White (University of Florida); Daisy
     Zhe Wang (Univeresity of Florida)
   paper_path: "/papers/neurips2019/23/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922411'
   q1_track: Papers
@@ -655,6 +610,7 @@
   subject_areas:
   - Agriculture, forestry and other land use
   - Climate and earth science
+  award: Honorable Mention
 - id: 24
   paper_title: A Global Census of Solar Facilities Using Deep Learning and Remote
     Sensing
@@ -673,8 +629,6 @@
     Friedrich (World Resource Institute); Sam Skillman (Descartes Labs); Cameron Hepburn
     (University of Oxford)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922408'
   q1_track: Papers
@@ -686,6 +640,7 @@
   subject_areas:
   - Power generation and grids
   - Data presentation and management
+  award: Honorable Mention
 - id: 25
   paper_title: Machine Learning for Precipitation Nowcasting from Radar Images
   abstract: 'High-resolution nowcasting is an essential tool needed for effective
@@ -700,8 +655,6 @@
   authors: Shreya Agrawal (Google); Luke Barrington (Google); Carla Bromberg (Google);
     John Burge (Google); Cenk Gazen (Google); Jason Hickey (Google)
   paper_path: "/papers/neurips2019/25/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 24
   next_paper_id: 26
@@ -728,8 +681,6 @@
   authors: Kiwan Maeng (Carnegie Mellon University); Iskender Kushan (Microsoft);
     Brandon Lucia (Carnegie Mellon University); Ashish Kapoor (Microsoft)
   paper_path: "/papers/neurips2019/26/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922410'
   q1_track: Papers
@@ -759,8 +710,6 @@
     Jiao (Vanderbilt University); Rajesh Sankaran (Argonne National Lab); Charles
     Catlett (Argonne National Lab); Daniel Work (Vanderbilt University)
   paper_path: "/papers/neurips2019/27/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 26
   next_paper_id: 28
@@ -786,8 +735,6 @@
   authors: Zhengcheng Wang (Tsinghua University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University); Ram Rajagopal (Stanford University)
   paper_path: "/papers/neurips2019/28/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 27
   next_paper_id: 29
@@ -821,8 +768,6 @@
     high accuracy and fast processing speed, significant mitigation efficiency.
   authors: Jingfan Wang (Stanford University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 28
   next_paper_id: 30
@@ -858,8 +803,6 @@
     Nicolas Eckert (Irstea); Anna Karas (Meteo France); Cécile Coléou (Meteo France);
     Claire Monteleoni (University of Colorado Boulder)
   paper_path: "/papers/neurips2019/30/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922417'
   q1_track: Papers
@@ -886,8 +829,6 @@
   authors: Qinghu Tang (Tsinghua University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University); Ram Rajagopal (Stanford University)
   paper_path: "/papers/neurips2019/31/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922392'
   q1_track: Papers
@@ -911,8 +852,6 @@
     of devices.
   authors: Armi Tiihonen (Massachusetts Institute of Technology)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 31
   next_paper_id: 33
@@ -938,8 +877,6 @@
   authors: Jon Donadee (LLNL); Jacob Pettit (LLNL); Ruben Glatt (LLNL); Brenden Petersen
     (Lawrence Livermore National Laboratory)
   paper_path: "/papers/neurips2019/33/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922416'
   q1_track: Papers
@@ -973,8 +910,6 @@
   authors: Jan Drgona (Pacific Northwest National Laboratory); Lieve Helsen (KU Leuven);
     Draguna Vrabie (PNNL)
   paper_path: "/papers/neurips2019/34/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922407'
   q1_track: Papers
@@ -1001,8 +936,6 @@
     optimal points under various techno-economic assumptions.'
   authors: Felipe Oviedo (MIT) and Zekun Ren (MIT)
   paper_path: 
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922390'
   q1_track: Papers
@@ -1014,6 +947,7 @@
   subject_areas:
   - Power generation and grids
   - Industry
+  award: Best Paper Award
 - id: 36
   paper_title: Helping Reduce Environmental Impact of Aviation with Machine Learning
   abstract: Commercial aviation is one of the biggest contributors towards climate
@@ -1027,8 +961,6 @@
     technical details.
   authors: Ashish Kapoor (Microsoft)
   paper_path: "/papers/neurips2019/36/paper.pdf"
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922395'
   q1_track: Papers
@@ -1040,6 +972,7 @@
   subject_areas:
   - Transportation
   - Aviation
+  award: Best Paper Award
 - id: 37
   paper_title: Machine Learning for Generalizable Prediction of Flood Susceptibility
   abstract: Flooding is a destructive and dangerous hazard and climate change appears
@@ -1061,8 +994,6 @@
     University); Andrew Annex (Johns Hopkins University); Diane O'Donoghue (kx); Piotr
     Bilinski (University of Warsaw)
   paper_path: "/papers/neurips2019/37/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 36
   next_paper_id: 38
@@ -1090,8 +1021,6 @@
     Environmental Sciences ); Kaan Ersahin (ASL Environmental Sciences ); Todd Mudge
     (ASL Environmental Sciences ); Stephane Gauthier (Fisheries and Oceans Canada)
   paper_path: "/papers/neurips2019/38/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 37
   next_paper_id: 39
@@ -1125,8 +1054,6 @@
   authors: Ashray Manepalli (terrafuse); Adrian Albert (terrafuse, inc.); Alan Rhoades
     (Lawrence Berkeley National Lab); Daniel Feldman (Lawrence Berkeley National Lab)
   paper_path: "/papers/neurips2019/39/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922409'
   q1_track: Papers
@@ -1138,6 +1065,7 @@
   subject_areas:
   - Ecosystems and natural resources
   - Climate and earth science
+  award: Honorable Mention
 - id: 40
   paper_title: Forecasting El Niño with Convolutional and Recurrent Neural Networks
   abstract: The El Niño Southern Oscillation (ENSO) is the dominant mode of variability
@@ -1158,8 +1086,6 @@
     Ankur Mahesh (ClimateAi); Maximilian Evans (ClimateAi); Garima Jain (ClimateAi); Mattias Castillo (ClimateAi); Aranildo Lima (ClimateAi); Brent Lunghino (ClimateAi); Himanshu Gupta (ClimateAi); Carlos Gaitan (ClimateAi); Jarrett Hunt (ClimateAi); Omeed Tavasoli (ClimateAi); Patrick Brown (ClimateAi, San Jose State University); V. Balaji (Geophysical Fluid
     Dynamics Laboratory)
   paper_path: "/papers/neurips2019/40/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 39
   next_paper_id: 41
@@ -1189,8 +1115,6 @@
     of California Berkeley); Jenna Horrall (James Madison University); Ghaleb Abdulla
     (Lawrence Livermore National Laboratory)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 40
   next_paper_id: 42
@@ -1219,8 +1143,6 @@
   authors: Shamindra Shrotriya (Carnegie Mellon University); Niccolo Dalmasso (Carnegie
     Mellon University); Alex Reinhart (Carnegie Mellon University)
   paper_path: "/papers/neurips2019/42/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922369'
   q1_track: Proposals
@@ -1244,8 +1166,6 @@
     (UT); Josep Penuelas (UAB); Boris Rewald (RootEcology); Andreas Richter (University
     of Vienna); Michael Bahn (University of Innsbruck)
   paper_path: "/papers/neurips2019/43/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 42
   next_paper_id: 44
@@ -1279,8 +1199,6 @@
   authors: Björn Lütjens (MIT); Lucas Liebenwein (Massachusetts Institute of Technology);
     Katharina Kramer (Massachusetts Institute of Technology)
   paper_path: "/papers/neurips2019/44/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 43
   next_paper_id: 45
@@ -1302,8 +1220,6 @@
   authors: Renzhi Jing (Princeton University); Ning Lin (Princeton University); Yinda
     Zhang (Google LLC)
   paper_path: "/papers/neurips2019/45/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 44
   next_paper_id: 46
@@ -1336,8 +1252,6 @@
     John Fisher (MIT); Adam Soule (Woods Hole Oceanographic Institution); Anna Michel
     (Woods Hole Oceanographic Institution)
   paper_path: "/papers/neurips2019/46/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 45
   next_paper_id: 47
@@ -1365,8 +1279,6 @@
     measurements and machine learning to help address this need.
   authors: Jeremy Freeman
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 46
   next_paper_id: 48
@@ -1398,8 +1310,6 @@
     of regional resilience studies.
   authors: Muge Komurcu (MIT); Zikri Bayraktar (IEEE)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 47
   next_paper_id: 49
@@ -1424,8 +1334,6 @@
   authors: Juan Gómez-Romero (Universidad de Granada); Miguel Molina-Solana (Imperial
     College London)
   paper_path: "/papers/neurips2019/49/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 48
   next_paper_id: 50
@@ -1444,8 +1352,6 @@
   authors: Olya (Olga) Irzak (Frost Methane Labs); Amber Leigh Thomas (Stanford);
     Stephanie Schneider (Stanford); Catalin Voss (Stanford University)
   paper_path: "/papers/neurips2019/50/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 49
   next_paper_id: 51
@@ -1467,8 +1373,6 @@
     interfaces, allowing non-technical users to create visual labeling functions.
   authors: David Dao (ETH); Johannes Rausch (ETH Zurich); Ce Zhang (ETH)
   paper_path: "/papers/neurips2019/51/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 50
   next_paper_id: 52
@@ -1495,8 +1399,6 @@
     processing in climate models.
   authors: Kara Lamb (Cooperative Institute for Research in the Environmental Sciences)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 51
   cmt_id: 113

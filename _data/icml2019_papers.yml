@@ -11,8 +11,6 @@
   authors: Sandeep Manjanna (McGill University); Herke van Hoof (University of Amsterdam);
     Gregory Dudek (McGill University)
   paper_path: "/papers/icml2019/1/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   next_paper_id: 2
   cmt_id: 35
@@ -45,8 +43,6 @@
   authors: Jussi Gillberg (Aalto University); Pekka Marttinen (Aalto University);
     Hiroshi Mamitsuka (Kyoto University); Samuel Kaski (Aalto University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 1
   next_paper_id: 3
@@ -70,8 +66,6 @@
     (Nanyang Technological University); Yuxun Zhou (UC Berkeley); Costas Spanos  (UC
     Berkeley)
   paper_path: "/papers/icml2019/3/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 2
   next_paper_id: 4
@@ -99,8 +93,6 @@
     Hyojin Kim (LLNL); Joonseok Lee (Google Research); Jaegul Choo (Korea University);
     Mr Prabhat (Lawrence Berkeley National Laboratory)
   paper_path: "/papers/icml2019/4/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 3
   next_paper_id: 5
@@ -126,8 +118,6 @@
   authors: Soukayna Mouatadid (University of Toronto); Pierre Gentine (Columbia University);
     Wei Yu (University of Toronto); Steve Easterbrook (University of Toronto)
   paper_path: "/papers/icml2019/5/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 4
   next_paper_id: 6
@@ -153,8 +143,6 @@
   authors: Sajad Haghanifar (University of Pittsburgh); Bolong Cheng (SigOpt); Mike
     Mccourt (SigOpt); Paul Leu (University of Pittsburgh)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 5
   next_paper_id: 7
@@ -181,8 +169,6 @@
     University); Joanna Slawinska (University of Wisconsin-Milwaukee); Abbas Ourmazd
     (University of Wisconsin-Milwaukee)
   paper_path: "/papers/icml2019/7/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 6
   next_paper_id: 8
@@ -209,8 +195,6 @@
   authors: Di Wu (McGill); Tracy Cui (Google NYC); Doina Precup (McGill University);
     Benoit Boulet (McGill)
   paper_path: "/papers/icml2019/8/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 7
   next_paper_id: 9
@@ -229,8 +213,6 @@
   authors: Neel Guha (Carnegie Mellon University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University)
   paper_path: "/papers/icml2019/9/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38917844'
   q1_track: Research
@@ -242,6 +224,7 @@
   subject_areas:
   - Power generation and grids
   - Industrial optimization
+  award: Honorable Mention
 - id: 10
   paper_title: Targeted Meta-Learning for Critical Incident Detection in Weather Data
   abstract: Due to imbalanced or heavy-tailed  nature of weather- and climate-related
@@ -262,8 +245,6 @@
     (Pennsylvania State University); Mehrdad Mahdavi (Penn State); James Z Wang (The
     Pennsylvania State University)
   paper_path: "/papers/icml2019/10/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917859'
   q1_track: Research
@@ -296,8 +277,6 @@
     (Lawrence Berkeley National Laboratory); Mr Prabhat (Lawrence Berkeley National
     Laboratory)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 10
   next_paper_id: 12
@@ -325,8 +304,6 @@
   authors: Paulo Orenstein (Stanford); Jessica Hwang (Stanford); Judah Cohen (AER);
     Karl Pfeiffer (AER); Lester Mackey (Microsoft Research New England)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 11
   next_paper_id: 13
@@ -348,8 +325,6 @@
     other regions and fuels.
   authors: Kalai Ramea (PARC)
   paper_path: "/papers/icml2019/13/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 12
   next_paper_id: 14
@@ -379,8 +354,6 @@
     University); Benjamin LeRoy (Carnegie Mellon University); Chad Schafer (Carnegie
     Mellon University)
   paper_path: "/papers/icml2019/14/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 13
   next_paper_id: 15
@@ -421,8 +394,6 @@
   authors: Zhuangfang Yi (Development Seed); Drew Bollinger (Development Seed); Devis
     Peressutti (Sinergise)
   paper_path: "/papers/icml2019/15/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 14
   next_paper_id: 16
@@ -450,8 +421,6 @@
   authors: Tom G Beucler (Columbia University & UCI); Stephan Rasp (Ludwig-Maximilian
     University of Munich); Michael Pritchard (UCI); Pierre Gentine (Columbia University)
   paper_path: "/papers/icml2019/16/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 15
   next_paper_id: 17
@@ -474,8 +443,6 @@
     of faults as a classification problem is also presented.
   authors: Telmo Felgueira (IST)
   paper_path: "/papers/icml2019/17/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 16
   next_paper_id: 18
@@ -499,8 +466,6 @@
     of CCS deployment.
   authors: Gege Wen (Stanford University)
   paper_path: "/papers/icml2019/18/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 17
   next_paper_id: 19
@@ -522,8 +487,6 @@
   authors: Lynn Kaack (ETH Zurich); George H Chen (Carnegie Mellon University); Granger
     Morgan (Carnegie Mellon University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917841'
   q1_track: Research
@@ -556,8 +519,6 @@
     or hydrologic modeling.
   authors: Chaopeng Shen (Pennsylvania State University)
   paper_path: http://arxiv.org/abs/1906.04595
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917857'
   q1_track: Research
@@ -589,8 +550,6 @@
     of Oxford); Dino Sejdinovic (University of Oxford); Philip Stier (University of
     Oxford)
   paper_path: "/papers/icml2019/21/paper.pdf"
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917855'
   q1_track: Research
@@ -602,6 +561,7 @@
   subject_areas:
   - Remote sensing
   - Climate modeling
+  award: Best Paper Award
 - id: 22
   paper_title: 'Data-driven surrogate models for climate modeling: application of
     echo state networks, RNN-LSTM and ANN to the multi-scale Lorenz system as a test
@@ -629,8 +589,6 @@
     Devika  Subramanian (Rice University); Krishna Palem (Rice University); Charles
     Jiang (Rice University); Adam  Subel (Rice University)
   paper_path: "/papers/icml2019/22/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 21
   next_paper_id: 23
@@ -659,8 +617,6 @@
     JPL/Caltech), David R Thompson (NASA JPL/Caltech), Vijay Natraj (NASA JPL/Caltech),
     Mario Parente (UMass Amherst)
   paper_path: "/papers/icml2019/23/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 22
   next_paper_id: 24
@@ -682,8 +638,6 @@
   authors: Christian F Clough (Planet); Ramesh Nair (Planet); Gopal Erinjippurath
     (Planet); Matt George (Planet); Jesus Martinez Manso (Planet)
   paper_path: "/papers/icml2019/24/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917845'
   q1_track: Research
@@ -715,8 +669,6 @@
     Xu (Zhejiang University); Haifeng Li (Central South University); Jingfeng Huang
     (Zhejiang University); Tao Lin (Zhejiang University)
   paper_path: "/papers/icml2019/25/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 24
   next_paper_id: 26
@@ -747,8 +699,6 @@
     Inc); Ritvik Joshi (Petuum Inc); Dian Li (Petuum Inc); Roberto Linares (Petuum
     Inc); Hongbao Zhang (Petuum Inc)
   paper_path: "/papers/icml2019/26/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 25
   next_paper_id: 27
@@ -773,8 +723,6 @@
     research community.
   authors: Volodymyr Kuleshov (Stanford University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   q1_track: Deployed
   prev_paper_id: 26
@@ -786,6 +734,7 @@
   subject_areas:
   - Industrial optimization
   - Agriculture, forestry and other land use
+  award: Honorable Mention
 - id: 28
   paper_title: 'PVNet: A LRCN Architecture for Spatio-Temporal Photovoltaic Power
     Forecasting from Numerical Weather Prediction'
@@ -803,8 +752,6 @@
     to the persistence model and state-of-the-art methods.
   authors: Johan Mathe (Frog Labs)
   paper_path: "/papers/icml2019/28/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 27
   next_paper_id: 29
@@ -835,8 +782,6 @@
     useful for applications such as coastal air pollution and trade.
   authors: Tianle Yuan (NASA)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 28
   next_paper_id: 30
@@ -857,8 +802,6 @@
     (ERCOT).
   authors: Abraham Stanway (Amperon Holdings, Inc); Ydo Wexler (Amperon)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 29
   next_paper_id: 31
@@ -881,8 +824,6 @@
     wetland restoration in Massachusetts.
   authors: Clement Duhart (MIT Media Lab)
   paper_path: "/papers/icml2019/31/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917860'
   q1_track: Deployed
@@ -913,8 +854,6 @@
   authors: Jonathan Binas (Mila, Montreal); Leonie Luginbuehl (Department of Plant
     Sciences, University of Cambridge); Yoshua Bengio (Mila)
   paper_path: "/papers/icml2019/32/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   q1_track: Ideas
   slideslive_id: '38917846'
@@ -953,8 +892,6 @@
   paper_path: "/papers/icml2019/33/paper.pdf"
   slideslive_id: '38917846'
   slideslive_time: 303s
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   q1_track: Ideas
   prev_paper_id: 32
@@ -965,6 +902,7 @@
   subject_areas:
   - Geoengineering
   - Climate modeling
+  award: Honorable Mention
 - id: 34
   paper_title: Using Natural Language Processing to Analyze Financial Climate Disclosures
   abstract: According to U.S. financial legislation, companies traded on the stock
@@ -977,8 +915,6 @@
     evolution of these risks over time.
   authors: Sasha Luccioni (Mila); Hector Palacios (Element AI)
   paper_path: "/papers/icml2019/34/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917846'
   slideslive_time: 130s
@@ -1013,8 +949,6 @@
   authors: Kris Sankaran (Montreal Institute for Learning Algorithms); Zouheir Malki
     (Polytechnique Montréal); Loubna Benabou (UQAR); Hicham Bouzekri (MASEN)
   paper_path: "/papers/icml2019/35/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 34
   next_paper_id: 36
@@ -1036,8 +970,6 @@
     Cang (UC Berkeley); Reuven Gonzales (OasisLabs); Ming-Da Liu Zhang (ETHZ); Nick
     Pawlowski (Imperial College London); Clement Fung (University of British Columbia)
   paper_path: "/papers/icml2019/36/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 35
   next_paper_id: 37
@@ -1062,8 +994,6 @@
     Infrastructure Networks (CLIN).
   authors: Kate Duffy (Northeastern University); Auroop Ganguly (Northeastern University)
   paper_path: "/papers/icml2019/37/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 36
   next_paper_id: 38
@@ -1094,8 +1024,6 @@
     Nathan Mannheimer (Tableau Software); Sarah Battersby (Tableau Software); LuAnne  Thompson
     (University of Washington)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 37
   next_paper_id: 39
@@ -1131,8 +1059,6 @@
     machine-learning approaches to fix this are discussed.
   authors: Kevin McCloskey (Google)
   paper_path: "/papers/icml2019/39/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917846'
   slideslive_time: 8m50s
@@ -1160,8 +1086,6 @@
     and Climate Change (MCC)); Felix Creutzig (Mercator Research Institute on Global
     Commons and Climate Change (MCC))
   paper_path: "/papers/icml2019/40/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   q1_track: Ideas
   slideslive_id: '38917846'
@@ -1195,8 +1119,6 @@
     grid events.
   authors: Ashley Pilipiszyn (Stanford University)
   paper_path: "/papers/icml2019/41/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 40
   next_paper_id: 42
@@ -1219,8 +1141,6 @@
     Labs); Lyndon White (Invenia Labs); James Requeima (Invenia Labs); Cozmin Ududec
     (Invenia Labs)
   paper_path: "/papers/icml2019/42/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 41
   next_paper_id: 43
@@ -1244,8 +1164,6 @@
   authors: Aneesh Rangnekar (Rochester Institute of Technology); Matthew J Hoffman
     (Rochester Institute of Technology)
   paper_path: "/papers/icml2019/43/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 42
   next_paper_id: 44
@@ -1285,8 +1203,6 @@
   authors: Yang Song (Oak Ridge National Lab); Dali  Wang (Oak Ridge National Lab);
     Melanie Mayes (Oak Ridge National Lab)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 43
   cmt_id: 68
