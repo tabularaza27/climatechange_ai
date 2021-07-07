@@ -48,12 +48,6 @@ layout: default
   {% endif %}
   {% if p.award %}
     <span class='badge'>{{ p.award }}</span>
-  {% elsif p.is_best_paper %}
-    <span class='badge'>Best Paper Award</span>
-  {% elsif p.is_best_proposal %}
-    <span class='badge'>Best Proposal Award</span>
-  {% elsif p.is_honorable_mention %}
-    <span class='badge'>Honorable Mention</span>
   {% elsif p.status == "Accept (spotlight)" %}
     <span class='badge lighter'>Spotlight</span>
   {% elsif p.is_spotlight %}

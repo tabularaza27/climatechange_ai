@@ -1,0 +1,268 @@
+---
+layout: default
+title: Climate Change AI Workshop Papers
+description: Tackling Climate Change with Machine Learning
+---
+
+<h1>Climate Change AI Workshop Papers</h1>
+
+<p>On this page, we show accepted works from all our <a href='/events#past-events'>past workshops</a> on "Tackling Climate Change with Machine Learning."</p>
+
+<div id='search-wrapper'>
+  <div class='columns'>
+    <div class='column is-narrow'>
+      <div class='field'>
+        <label class='label'>Venue</label>
+        <div class='control is-expanded'>
+          <div class='select is-fullwidth'>
+            <select id='venues'>
+              <option value=''>All Venues</option>
+              {% for w in site.data.workshops %}
+                {% if w.papers %}
+                  <option value='{{w.short_name}}'>{{w.short_name}}</option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Text Search</label>
+        <div class='control'>
+          <input class='input is-small' id='text-search' placeholder='Enter search terms...' type='search'/>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Subject Areas</label>
+        <div class='control'>
+          <select multiple id='subject-areas'>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class='column is-narrow'>
+      <div class='field'>
+        <label class='label' for='award'>Award?</label>
+        <div class='control'>
+          <input type='checkbox' id='award' name='award'>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<table class='paper-table' style='width: calc(100% - 1px);'>
+  <thead>
+    <tr>
+      <th>Venue</th>
+      <th>Title</th>
+      <th>Subject Areas</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% assign workshops = site.data.workshops | reverse %}
+    {% for w in workshops %}
+      {% if w.papers %}
+        {% for p in site.data[w.papers] %}
+          <tr>
+            <td class='paper-venue'>
+              {{w.short_name}}
+            </td>
+
+            <td class='paper-title'>
+              <a href="/papers/{{w.slug}}/{{p.id}}">
+                {{p.paper_title}}
+              </a>
+
+              ({{p.q1_track}} Track)
+
+              {% if p.award %}
+                <span class='tag best-paper'>{{ p.award }}</span>
+              {% endif %}
+
+              <details>
+                <summary>Abstract: (click to expand)</summary>
+                {{p.abstract}}
+              </details>
+            </td>
+
+            <td class='paper-areas'>
+              {% for area in p.condensed_subject_areas %}
+                <a href='javascript:void(0)' class='paper-area tag is-light'>{{ area }}</a>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<style>
+  .main-content {
+    /* Allow table to span full width of page */
+    max-width: none !important;
+  }
+
+  .dataTables_filter {
+    /* Hide the built-in searchbar */
+    display: none;
+  }
+
+  .paper-title {
+    width: 100%;
+  }
+
+  .paper-areas .tag {
+    margin-bottom: 2px;
+    display: inline-block;
+    line-height: 2;
+  }
+
+  #text-search {
+    width: calc(100% - 1rem);
+  }
+
+  #search-wrapper {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 651px) {
+    #search-wrapper {
+      position: -webkit-sticky;
+      position: sticky;
+      background: white;
+      width: 100%;
+      z-index: 1;
+      top: var(--navbar-height-normal);
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    #search-wrapper {
+      top: var(--navbar-height-mobile);
+    }
+  }
+</style>
+
+<script src='https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.jsdelivr.net/mark.js/8.6.0/jquery.mark.min.js'></script>
+<script src='https://cdn.datatables.net/1.10.25/js/dataTables.bulma.min.js'></script>
+<link rel='stylesheet' type='text/css' href="https://cdn.datatables.net/1.10.25/css/dataTables.bulma.min.css"/>
+
+<script src="/assets/js/chosen.jquery.js"></script>
+
+<script>
+window.workshops = {{ site.data.workshops | jsonify }};
+window.workshopNames = workshops.map(w => w.short_name);
+</script>
+
+<script>
+$(document).ready(() => {
+    const $table = $('.paper-table');
+    const $areas = $('#subject-areas');
+    const $award = $('#award');
+    const $venues = $('#venues');
+    const $search = $('#text-search');
+
+    const areas = Array.from(new Set(Array.from($('.paper-area')).map(t => t.innerText))).sort();
+
+    for (let area of areas) {
+      $areas.append(`<option value='${area}'>${area}</option>`);
+    }
+
+    $('select[multiple]').chosen({
+      width: '100%'
+    });
+
+    const fieldNames = Array.from($table.find('th')).map(th => $(th).text());
+    const tableRows = Array.from($table.find('tbody tr'));
+    const awardIdxs = {};
+    for (let i = 0; i < tableRows.length; i++)
+      if ($(tableRows[i]).find('.best-paper').length)
+        awardIdxs[i] = true;
+
+    $.fn.dataTable.ext.type.detect.unshift(d => workshopNames.includes(d) ?  'workshop' : null);
+    
+    $.fn.dataTable.ext.type.order['workshop-pre'] = (d) => {
+        return workshopNames.indexOf(d);
+    };
+
+    $.fn.dataTable.ext.search.push((_, data, idx) => {
+      const rowAreas = data[fieldNames.indexOf('Subject Areas')];
+      const rowVenue = data[fieldNames.indexOf('Venue')];
+      if ($areas.val().some(a => !rowAreas.includes(a))) {
+        return false;
+      } else if ($venues.val() && $venues.val() != rowVenue) {
+        return false;
+      } else if ($award.is(':checked') && !awardIdxs[idx]) {
+        return false;
+      } else {
+        return true;
+      }
+    });
+
+    const table = $table.DataTable({
+      columns: [
+        { orderable: true },
+        { orderable: true },
+        { orderable: false },
+      ],
+      paging: false,
+      order: [],
+      scrollX: true,
+      drawCallback: () => { // After redrawing the table, apply highlighting
+        const $dt = $('.dataTable');
+        $dt.unmark(); // Reset highlighting
+
+        // Highlight free text search
+        if ($search.val().length)
+          $dt.mark($search.val());
+
+        // Highlight selected topics
+        for (let area of $areas.val())
+          $dt.find('.paper-areas').markRegExp(new RegExp(area));
+
+        if ($venues.val().length)
+          $dt.find('.paper-venue').markRegExp(new RegExp($venues.val()));
+      }
+    });
+
+    $(document).on('click', 'table .tag', (ev) => {
+      // Toggle whether topic is being filtered
+      const area = ev.currentTarget.innerText;
+      const currentVals = $areas.val();
+
+      if (currentVals.includes(area)) {
+        $areas.val(currentVals.filter(el => el != area));
+      } else {
+        $areas.val(currentVals.concat([area]));
+      }
+
+      // Let event listeners know about the change
+      $areas.trigger("change").trigger("chosen:updated");
+    });
+
+    $search.on('keyup keydown change search', () => {
+      if (window.searchTimeout) {
+        clearTimeout(window.searchTimeout);
+      }
+      window.searchTimeout = setTimeout(() => table.search($search.val()).draw(), 100);
+    });
+
+    $award.on('change', () => {
+      table.draw();
+    });
+
+    // Redraw the table when the topic filters change
+    $('#search-wrapper select').on('change', () => {
+      table.draw();
+    });
+});
+</script>

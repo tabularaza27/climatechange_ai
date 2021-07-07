@@ -1,0 +1,15 @@
+---
+- slug: icml2019
+  papers: icml2019_papers
+  short_name: ICML 2019
+- slug: neurips2019
+  papers: neurips2019_papers
+  short_name: NeurIPS 2019
+- slug: iclr2020
+  papers: iclr2020_papers
+  short_name: ICLR 2020
+- slug: neurips2020
+  papers: neurips2020_papers
+  short_name: NeurIPS 2020
+- slug: icml2021
+  short_name: ICML 2021

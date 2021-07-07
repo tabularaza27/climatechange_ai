@@ -13,10 +13,15 @@
     potentially save hundreds of megatons of CO2 -equivalent.'
   authors: Frederik Diehl (fortiss)
   paper_path: "/papers/neurips2019/1/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   next_paper_id: 2
+  cmt_id: 2
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 2
   paper_title: Quantifying Urban Canopy Cover with Deep Convolutional Neural Networks
   abstract: Urban canopy cover is important to mitigate the impact of climate change.
@@ -32,11 +37,18 @@
   authors: Bill Cai (Massachusetts Institute of Technology); Xiaojiang Li (Temple
     University); Carlo Ratti (Massachusetts Institute of Technology )
   paper_path: "/papers/neurips2019/2/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 1
   next_paper_id: 3
+  cmt_id: 4
+  primary_subject_area: Urban studies
+  secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Urban studies
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Buildings and cities
+  - Agriculture, forestry and other land use
 - id: 3
   paper_title: Using LSTMs for climate change assessment studies on droughts and floods
   abstract: Climate change affects occurrences of floods and droughts worldwide.  However,
@@ -58,11 +70,17 @@
     Hochreiter (LIT AI Lab, Institute for Machine Learning, Johannes Kepler University
     Linz, Austria)
   paper_path: "/papers/neurips2019/3/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 2
   next_paper_id: 4
+  cmt_id: 5
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Hydrology
+  subject_areas:
+  - Climate and earth science
+  - Hydrology
+  condensed_subject_areas:
+  - Climate and earth science
 - id: 4
   paper_title: Learning to Focus and Track Hurricanes
   abstract: This paper tackles the task of extreme climate event tracking. We propose
@@ -79,11 +97,18 @@
     Choo (Korea University); Mr Prabhat (Lawrence Berkeley National Laboratory); Yunsung
     Lee (Korea University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 3
   next_paper_id: 5
+  cmt_id: 13
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Extreme weather events
+  - Climate and earth science
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 5
   paper_title: 'DeepWind: Weakly Supervised Localization of Wind Turbines in Satellite
     Imagery'
@@ -103,11 +128,16 @@
     U.); Eva Zhang (Stanford University); Will Deaderick (Stanford University); Jabs
     Aljubran (Stanford University)
   paper_path: "/papers/neurips2019/5/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 4
   next_paper_id: 6
+  cmt_id: 15
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 6
   paper_title: Streamflow Prediction with Limited Spatially-Distributed Input Data
   abstract: Climate change causes more frequent and extreme weather phenomena across
@@ -122,11 +152,20 @@
   authors: Martin Gauch (University of Waterloo); Juliane Mai (University of Waterloo);
     Shervan Gharari (University of Saskatchewan); Jimmy Lin (University of Waterloo)
   paper_path: "/papers/neurips2019/6/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 5
   next_paper_id: 7
+  cmt_id: 16
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Disaster management and relief; Extreme weather events
+  subject_areas:
+  - Climate and earth science
+  - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - id: 7
   paper_title: Establishing an Evaluation Metric to Quantify Climate Change Image
     Realism
@@ -146,11 +185,18 @@
   authors: Sharon Zhou (Stanford University); Sasha Luccioni (Mila); Gautier Cosne
     (Mila); Michael Bernstein (Stanford University); Yoshua Bengio (Mila)
   paper_path: "/papers/neurips2019/7/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 6
   next_paper_id: 8
+  cmt_id: 18
+  primary_subject_area: Data presentation and management
+  secondary_subject_areas: Societal adaptation
+  subject_areas:
+  - Data presentation and management
+  - Societal adaptation
+  condensed_subject_areas:
+  - Data presentation and management
+  - Societal adaptation
 - id: 8
   paper_title: 'Energy Usage Reports: Environmental awareness as part of algorithmic
     accountability'
@@ -169,11 +215,18 @@
   authors: Kadan Lottick (Haverford College); Silvia Susai (Haverford College); Sorelle
     Friedler (Haverford College); Jonathan Wilson (Haverford College)
   paper_path: "/papers/neurips2019/8/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 7
   next_paper_id: 9
+  cmt_id: 21
+  primary_subject_area: Energy usage and CO2 emissions measurement and reporting
+  secondary_subject_areas: Environmental impacts of computing
+  subject_areas:
+  - Energy usage and CO2 emissions measurement and reporting
+  - Environmental impacts of computing
+  condensed_subject_areas:
+  - Energy usage and CO2 emissions measurement and reporting
+  - Environmental impacts of computing
 - id: 9
   paper_title: Natural Language Generation for Operations and Maintenance in Wind
     Turbines
@@ -191,11 +244,18 @@
     to sustainable energy sources and help combat climate change.
   authors: Joyjit Chatterjee (University of Hull); Nina Dethlefs (University of Hull)
   paper_path: "/papers/neurips2019/9/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 8
   next_paper_id: 10
+  cmt_id: 22
+  primary_subject_area: Wind energy
+  secondary_subject_areas: Ecosystems and natural resources
+  subject_areas:
+  - Wind energy
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Power and energy
+  - Ecosystems and natural resources
 - id: 10
   paper_title: Make Thunderbolts Less Frightening — Predicting Extreme Weather Using
     Deep Learning
@@ -213,11 +273,18 @@
   authors: Christian Schön (Saarland Informatics Campus); Jens Dittrich (Saarland
     University)
   paper_path: "/papers/neurips2019/10/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 9
   next_paper_id: 11
+  cmt_id: 30
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Extreme weather events
+  - Climate and earth science
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 11
   paper_title: 'Cumulo: A Dataset for Learning Cloud Classes'
   abstract: One of the greatest sources of uncertainty in future climate projections
@@ -238,13 +305,21 @@
     Strange (University of Oxford); Matt Kusner (University College London); Duncan
     Watson-Parris (University of Oxford)
   paper_path: 
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922389'
   q1_track: Papers
   prev_paper_id: 10
   next_paper_id: 12
+  cmt_id: 31
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Climate and earth science
+  - Data presentation and management
+  award: Best Paper Award
+  condensed_subject_areas:
+  - Climate and earth science
+  - Data presentation and management
 - id: 12
   paper_title: Targeting Buildings for Energy Retrofit Using Recurrent Neural Networks
     with Multivariate Time Series
@@ -260,11 +335,16 @@
     prediction of building envelope thermal properties.'
   authors: Gaby Baasch (University of Victoria)
   paper_path: "/papers/neurips2019/12/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 11
   next_paper_id: 13
+  cmt_id: 32
+  primary_subject_area: Buildings
+  secondary_subject_areas: ''
+  subject_areas:
+  - Buildings
+  condensed_subject_areas:
+  - Buildings and cities
 - id: 13
   paper_title: Coupling Oceanic Observation Systems to Study Mesoscale Ocean Dynamics
   abstract: Understanding local currents in the North Atlantic region of the ocean
@@ -282,11 +362,18 @@
     regression method to improve prediction of vertical ocean temperature.
   authors: Gautier Cosne (Mila); Pierre Tandeo (IMT-Atlantique); Guillaume Maze (Ifremer)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 12
   next_paper_id: 14
+  cmt_id: 36
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Climate and earth science
+  - Data presentation and management
+  condensed_subject_areas:
+  - Climate and earth science
+  - Data presentation and management
 - id: 14
   paper_title: Background noise trends and the detection of calving events in a glacial
     fjord
@@ -303,11 +390,16 @@
     on which to base the training of more complex algorithms.
   authors: Dara Farrell (Graduate of University of Washington)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 13
   next_paper_id: 15
+  cmt_id: 40
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
+  - Climate and earth science
 - id: 15
   paper_title: Reducing Inefficiency in Carbon Auctions with Imperfect Competition
   abstract: 'We study auctions for carbon licenses, a policy tool used to control
@@ -338,11 +430,16 @@
   authors: Kira Goldner (Columbia University); Nicole Immorlica (Microsoft Research);
     Brendan Lucier (Microsoft Research New England)
   paper_path: "/papers/neurips2019/15/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 14
   next_paper_id: 16
+  cmt_id: 43
+  primary_subject_area: Carbon capture and sequestration
+  secondary_subject_areas: ''
+  subject_areas:
+  - Carbon capture and sequestration
+  condensed_subject_areas:
+  - Carbon capture and sequestration
 - id: 16
   paper_title: Reduction of the Optimal Power Flow Problem through Meta-Optimization
   abstract: We introduce a method for solving Optimal Power Flow (OPF) using meta-optimization,
@@ -357,11 +454,18 @@
   authors: Letif Mones (Invenia Labs); Alex Robson (Invenia Labs); Mahdi Jamei (Invenia
     Labs); Cozmin Ududec (Invenia Labs)
   paper_path: "/papers/neurips2019/16/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 15
   next_paper_id: 17
+  cmt_id: 44
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Optimization
+  subject_areas:
+  - Power generation and grids
+  - Optimization
+  condensed_subject_areas:
+  - Power and energy
+  - Optimization
 - id: 17
   paper_title: Human-Machine Collaboration for Fast Land Cover Mapping
   abstract: We propose incorporating human labelers in a model fine-tuning system
@@ -383,11 +487,18 @@
     Andi Peng (Microsoft); Dan Morris (Microsoft); Bistra Dilkina (University of Southern
     California); Nebojsa Jojic (Microsoft Research)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 16
   next_paper_id: 18
+  cmt_id: 45
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Ecosystems and natural resources
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
 - id: 18
   paper_title: A User Study of Perceived Carbon Footprint
   abstract: We propose a statistical model to understand people’s perception of their
@@ -403,11 +514,16 @@
     (EPFL); Lucas Maystre (Spotify); Matthias Grossglauser (École Polytechnique Fédérale
     de Lausanne (EPFL)); Patrick Thiran (EPFL)
   paper_path: "/papers/neurips2019/18/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 17
   next_paper_id: 19
+  cmt_id: 47
+  primary_subject_area: Societal adaptation
+  secondary_subject_areas: ''
+  subject_areas:
+  - Societal adaptation
+  condensed_subject_areas:
+  - Societal adaptation
 - id: 19
   paper_title: Design, Benchmarking and Graphical Lasso based Explainability Analysis
     of an Energy Game-Theoretic Framework
@@ -426,11 +542,18 @@
     Aummul Baneen Manasawala (UC Berkeley); Tanya Veeravalli (UC Berkeley); Huihan
     Liu (UC Berkeley ); Costas J. Spanos (University of California at Berkeley)
   paper_path: "/papers/neurips2019/19/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 18
   next_paper_id: 20
+  cmt_id: 48
+  primary_subject_area: Buildings
+  secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Buildings
+  - Power generation and grids
+  condensed_subject_areas:
+  - Buildings and cities
+  - Power and energy
 - id: 20
   paper_title: Predicting ice flow using machine learning
   abstract: Though machine learning has achieved notable success in modeling sequential
@@ -452,11 +575,16 @@
     and climate change.
   authors: Yimeng Min (Mila); Surya Karthik Mukkavilli (Mila); Yoshua Bengio (Mila)
   paper_path: "/papers/neurips2019/20/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 19
   next_paper_id: 21
+  cmt_id: 50
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
+  - Climate and earth science
 - id: 21
   paper_title: 'DeepClimGAN: A High-Resolution Climate Data Generator'
   abstract: Earth system models (ESMs), which simulate the physics and chemistry of
@@ -474,11 +602,18 @@
   authors: Alexandra Puchko (Western Washington University); Brian Hutchinson (Western
     Washington University); Robert Link (Joint Global Change Research Institute)
   paper_path: "/papers/neurips2019/21/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 20
   next_paper_id: 22
+  cmt_id: 52
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate and earth science
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 22
   paper_title: Quantifying the Carbon Emissions of Machine Learning
   abstract: 'From an environmental standpoint, there are a few crucial aspects of
@@ -494,11 +629,18 @@
   authors: Sasha Luccioni (Mila); Victor Schmidt (Mila); Alexandre Lacoste (Element
     AI); Thomas Dandres (Polytechnique Montreal)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 21
   next_paper_id: 23
+  cmt_id: 55
+  primary_subject_area: Societal adaptation
+  secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Societal adaptation
+  - Power generation and grids
+  condensed_subject_areas:
+  - Societal adaptation
+  - Power and energy
 - id: 23
   paper_title: 'Measuring Impact of Climate Change on Tree Species: analysis of JSDM
     on FIA data'
@@ -516,13 +658,21 @@
     Ali Sadeghian (University of Florida); Ethan White (University of Florida); Daisy
     Zhe Wang (Univeresity of Florida)
   paper_path: "/papers/neurips2019/23/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922411'
   q1_track: Papers
   prev_paper_id: 22
   next_paper_id: 24
+  cmt_id: 56
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate and earth science
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate and earth science
 - id: 24
   paper_title: A Global Census of Solar Facilities Using Deep Learning and Remote
     Sensing
@@ -541,13 +691,21 @@
     Friedrich (World Resource Institute); Sam Skillman (Descartes Labs); Cameron Hepburn
     (University of Oxford)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922408'
   q1_track: Papers
   prev_paper_id: 23
   next_paper_id: 25
+  cmt_id: 64
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Power generation and grids
+  - Data presentation and management
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Power and energy
+  - Data presentation and management
 - id: 25
   paper_title: Machine Learning for Precipitation Nowcasting from Radar Images
   abstract: 'High-resolution nowcasting is an essential tool needed for effective
@@ -562,11 +720,18 @@
   authors: Shreya Agrawal (Google); Luke Barrington (Google); Carla Bromberg (Google);
     John Burge (Google); Cenk Gazen (Google); Jason Hickey (Google)
   paper_path: "/papers/neurips2019/25/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 24
   next_paper_id: 26
+  cmt_id: 65
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate and earth science
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 26
   paper_title: Enhancing Stratospheric Weather Analyses and Forecasts by Deploying
     Sensors from a Weather Balloon
@@ -584,13 +749,18 @@
   authors: Kiwan Maeng (Carnegie Mellon University); Iskender Kushan (Microsoft);
     Brandon Lucia (Carnegie Mellon University); Ashish Kapoor (Microsoft)
   paper_path: "/papers/neurips2019/26/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922410'
   q1_track: Papers
   prev_paper_id: 25
   next_paper_id: 27
+  cmt_id: 66
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
+  - Climate and earth science
 - id: 27
   paper_title: Automatic data cleaning via tensor factorization for large urban environmental
     sensor networks
@@ -610,11 +780,17 @@
     Jiao (Vanderbilt University); Rajesh Sankaran (Argonne National Lab); Charles
     Catlett (Argonne National Lab); Daniel Work (Vanderbilt University)
   paper_path: "/papers/neurips2019/27/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 26
   next_paper_id: 28
+  cmt_id: 68
+  primary_subject_area: Urban studies
+  secondary_subject_areas: Urban heat island mitigation
+  subject_areas:
+  - Urban studies
+  - Urban heat island mitigation
+  condensed_subject_areas:
+  - Buildings and cities
 - id: 28
   paper_title: Identify Solar Panels in Low Resolution Satellite Imagery with Siamese
     Architecture and Cross-Correlation
@@ -631,11 +807,16 @@
   authors: Zhengcheng Wang (Tsinghua University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University); Ram Rajagopal (Stanford University)
   paper_path: "/papers/neurips2019/28/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 27
   next_paper_id: 29
+  cmt_id: 73
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 29
   paper_title: 'VideoGasNet: Deep Learning for Natural Gas Methane Leak Classification
     Using An Infrared Camera'
@@ -661,11 +842,18 @@
     high accuracy and fast processing speed, significant mitigation efficiency.
   authors: Jingfan Wang (Stanford University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 28
   next_paper_id: 30
+  cmt_id: 82
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Ecosystems and natural resources
+  subject_areas:
+  - Climate and earth science
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Climate and earth science
+  - Ecosystems and natural resources
 - id: 30
   paper_title: Detecting Avalanche Deposits using Variational Autoencoder on Sentinel-1
     Satellite Imagery
@@ -692,13 +880,20 @@
     Nicolas Eckert (Irstea); Anna Karas (Meteo France); Cécile Coléou (Meteo France);
     Claire Monteleoni (University of Colorado Boulder)
   paper_path: "/papers/neurips2019/30/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922417'
   q1_track: Papers
   prev_paper_id: 29
   next_paper_id: 31
+  cmt_id: 83
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Extreme weather events
+  - Climate and earth science
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 31
   paper_title: Fine-Grained Distribution Grid Mapping Using Street View Imagery
   abstract: Fine-grained distribution grid mapping is essential for power system operation
@@ -714,13 +909,18 @@
   authors: Qinghu Tang (Tsinghua University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University); Ram Rajagopal (Stanford University)
   paper_path: "/papers/neurips2019/31/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922392'
   q1_track: Papers
   prev_paper_id: 30
   next_paper_id: 32
+  cmt_id: 87
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 32
   paper_title: Bayesian optimization with theory-based constraints accelerates search
     for stable photovoltaic perovskite materials
@@ -734,11 +934,16 @@
     of devices.
   authors: Armi Tiihonen (Massachusetts Institute of Technology)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 31
   next_paper_id: 33
+  cmt_id: 90
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 33
   paper_title: Increasing performance of electric vehicles in ride-hailing services
     using deep reinforcement learning
@@ -756,13 +961,20 @@
   authors: Jon Donadee (LLNL); Jacob Pettit (LLNL); Ruben Glatt (LLNL); Brenden Petersen
     (Lawrence Livermore National Laboratory)
   paper_path: "/papers/neurips2019/33/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922416'
   q1_track: Papers
   prev_paper_id: 32
   next_paper_id: 34
+  cmt_id: 91
+  primary_subject_area: Transportation
+  secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Transportation
+  - Power generation and grids
+  condensed_subject_areas:
+  - Transportation
+  - Power and energy
 - id: 34
   paper_title: Stripping off the implementation complexity of physics-based model
     predictive control for buildings via deep learning
@@ -785,13 +997,20 @@
   authors: Jan Drgona (Pacific Northwest National Laboratory); Lieve Helsen (KU Leuven);
     Draguna Vrabie (PNNL)
   paper_path: "/papers/neurips2019/34/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922407'
   q1_track: Papers
   prev_paper_id: 33
   next_paper_id: 35
+  cmt_id: 95
+  primary_subject_area: Buildings
+  secondary_subject_areas: learning based optimal control
+  subject_areas:
+  - Buildings
+  - learning based optimal control
+  condensed_subject_areas:
+  - Buildings and cities
+  - Reinforcement learning and control
 - id: 35
   paper_title: Machine learning identifies the most valuable synthesis conditions
     for next-generation photovoltaics
@@ -807,13 +1026,21 @@
     optimal points under various techno-economic assumptions.'
   authors: Felipe Oviedo (MIT) and Zekun Ren (MIT)
   paper_path: 
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922390'
   q1_track: Papers
   prev_paper_id: 34
   next_paper_id: 36
+  cmt_id: 98
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Industry
+  subject_areas:
+  - Power generation and grids
+  - Industry
+  award: Best Paper Award
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 36
   paper_title: Helping Reduce Environmental Impact of Aviation with Machine Learning
   abstract: Commercial aviation is one of the biggest contributors towards climate
@@ -827,13 +1054,21 @@
     technical details.
   authors: Ashish Kapoor (Microsoft)
   paper_path: "/papers/neurips2019/36/paper.pdf"
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922395'
   q1_track: Papers
   prev_paper_id: 35
   next_paper_id: 37
+  cmt_id: 99
+  primary_subject_area: Transportation
+  secondary_subject_areas: Aviation
+  subject_areas:
+  - Transportation
+  - Aviation
+  award: Best Paper Award
+  condensed_subject_areas:
+  - Transportation
+  - Aviation
 - id: 37
   paper_title: Machine Learning for Generalizable Prediction of Flood Susceptibility
   abstract: Flooding is a destructive and dangerous hazard and climate change appears
@@ -855,11 +1090,18 @@
     University); Andrew Annex (Johns Hopkins University); Diane O'Donoghue (kx); Piotr
     Bilinski (University of Warsaw)
   paper_path: "/papers/neurips2019/37/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 36
   next_paper_id: 38
+  cmt_id: 101
+  primary_subject_area: Disaster management and relief
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - id: 38
   paper_title: A Deep Learning-based Framework for the Detection of Schools of Herring
     in Echograms
@@ -878,11 +1120,18 @@
     Environmental Sciences ); Kaan Ersahin (ASL Environmental Sciences ); Todd Mudge
     (ASL Environmental Sciences ); Stephane Gauthier (Fisheries and Oceans Canada)
   paper_path: "/papers/neurips2019/38/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 37
   next_paper_id: 39
+  cmt_id: 102
+  primary_subject_area: Ecosystems and natural resources
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
+  condensed_subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
 - id: 39
   paper_title: Emulating Numeric Hydroclimate Models with Physics-Informed cGANs
   abstract: Process-based numerical simulations, including those for climate modeling
@@ -907,13 +1156,21 @@
   authors: Ashray Manepalli (terrafuse); Adrian Albert (terrafuse, inc.); Alan Rhoades
     (Lawrence Berkeley National Lab); Daniel Feldman (Lawrence Berkeley National Lab)
   paper_path: "/papers/neurips2019/39/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38922409'
   q1_track: Papers
   prev_paper_id: 38
   next_paper_id: 40
+  cmt_id: 107
+  primary_subject_area: Ecosystems and natural resources
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Ecosystems and natural resources
+  - Climate and earth science
 - id: 40
   paper_title: Forecasting El Niño with Convolutional and Recurrent Neural Networks
   abstract: The El Niño Southern Oscillation (ENSO) is the dominant mode of variability
@@ -934,11 +1191,18 @@
     Ankur Mahesh (ClimateAi); Maximilian Evans (ClimateAi); Garima Jain (ClimateAi); Mattias Castillo (ClimateAi); Aranildo Lima (ClimateAi); Brent Lunghino (ClimateAi); Himanshu Gupta (ClimateAi); Carlos Gaitan (ClimateAi); Jarrett Hunt (ClimateAi); Omeed Tavasoli (ClimateAi); Patrick Brown (ClimateAi, San Jose State University); V. Balaji (Geophysical Fluid
     Dynamics Laboratory)
   paper_path: "/papers/neurips2019/40/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Papers
   prev_paper_id: 39
   next_paper_id: 41
+  cmt_id: 119
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Forecasting
+  subject_areas:
+  - Climate and earth science
+  - Forecasting
+  condensed_subject_areas:
+  - Climate and earth science
+  - Forecasting
 - id: 41
   paper_title: Deep learning predictions of sand dune migration
   abstract: Climate change is making many desert regions warmer, drier, and sandier.
@@ -959,11 +1223,18 @@
     of California Berkeley); Jenna Horrall (James Madison University); Ghaleb Abdulla
     (Lawrence Livermore National Laboratory)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 40
   next_paper_id: 42
+  cmt_id: 11
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate and earth science
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 42
   paper_title: Predictive Inference of a Wildfire Risk Pipeline in the United States
   abstract: Wildfires are rare events that present severe threats to life and property.
@@ -983,13 +1254,23 @@
   authors: Shamindra Shrotriya (Carnegie Mellon University); Niccolo Dalmasso (Carnegie
     Mellon University); Alex Reinhart (Carnegie Mellon University)
   paper_path: "/papers/neurips2019/42/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38922369'
   q1_track: Proposals
   prev_paper_id: 41
   next_paper_id: 43
+  cmt_id: 24
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Data presentation and management; Disaster management and
+    relief
+  subject_areas:
+  - Extreme weather events
+  - Data presentation and management
+  - Disaster management and relief
+  condensed_subject_areas:
+  - Extreme weather events
+  - Data presentation and management
+  - Disaster prediction, management, and relief
 - id: 43
   paper_title: FutureArctic - beyond Computational Ecology
   abstract: This paper presents the Future Arctic initiative, a multi-disciplinary
@@ -1000,11 +1281,21 @@
     (UT); Josep Penuelas (UAB); Boris Rewald (RootEcology); Andreas Richter (University
     of Vienna); Michael Bahn (University of Innsbruck)
   paper_path: "/papers/neurips2019/43/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 42
   next_paper_id: 44
+  cmt_id: 27
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Data presentation and management; Ecosystems and natural
+    resources
+  subject_areas:
+  - Climate and earth science
+  - Data presentation and management
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Climate and earth science
+  - Data presentation and management
+  - Ecosystems and natural resources
 - id: 44
   paper_title: Machine Learning-based Estimation of Forest Carbon Stocks to increase
     Transparency of Forest Preservation Efforts
@@ -1027,11 +1318,18 @@
   authors: Björn Lütjens (MIT); Lucas Liebenwein (Massachusetts Institute of Technology);
     Katharina Kramer (Massachusetts Institute of Technology)
   paper_path: "/papers/neurips2019/44/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 43
   next_paper_id: 45
+  cmt_id: 69
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Carbon capture and sequestration
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
 - id: 45
   paper_title: 'DeepRI: End-to-end Prediction of Tropical Cyclone Rapid Intensification
     from Climate Data'
@@ -1044,11 +1342,18 @@
   authors: Renzhi Jing (Princeton University); Ning Lin (Princeton University); Yinda
     Zhang (Google LLC)
   paper_path: "/papers/neurips2019/45/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 44
   next_paper_id: 46
+  cmt_id: 78
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate and earth science
+  subject_areas:
+  - Extreme weather events
+  - Climate and earth science
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and earth science
 - id: 46
   paper_title: Autonomous Sensing and Scientific Machine Learning for Monitoring Greenhouse
     Gas Emissions
@@ -1072,11 +1377,18 @@
     John Fisher (MIT); Adam Soule (Woods Hole Oceanographic Institution); Anna Michel
     (Woods Hole Oceanographic Institution)
   paper_path: "/papers/neurips2019/46/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 45
   next_paper_id: 47
+  cmt_id: 79
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Ecosystems and natural resources
+  subject_areas:
+  - Climate and earth science
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Climate and earth science
+  - Ecosystems and natural resources
 - id: 47
   paper_title: Optimizing trees for carbon sequestration
   abstract: In the IPCC models of climate change mitigation, most scenarios ensuring
@@ -1095,11 +1407,18 @@
     measurements and machine learning to help address this need.
   authors: Jeremy Freeman
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 46
   next_paper_id: 48
+  cmt_id: 92
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Carbon capture and sequestration
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
 - id: 48
   paper_title: 'Toward Resilient Cities: Using Deep Learning to Downscale Climate
     Model Projections'
@@ -1122,11 +1441,18 @@
     of regional resilience studies.
   authors: Muge Komurcu (MIT); Zikri Bayraktar (IEEE)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 47
   next_paper_id: 49
+  cmt_id: 94
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate and earth science
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and earth science
+  - Extreme weather events
 - id: 49
   paper_title: Towards self-adaptive building energy control in smart grids
   abstract: Energy consumption in buildings greatly contributes to worldwide CO2 emissions
@@ -1142,11 +1468,18 @@
   authors: Juan Gómez-Romero (Universidad de Granada); Miguel Molina-Solana (Imperial
     College London)
   paper_path: "/papers/neurips2019/49/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 48
   next_paper_id: 50
+  cmt_id: 97
+  primary_subject_area: Buildings
+  secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Buildings
+  - Power generation and grids
+  condensed_subject_areas:
+  - Buildings and cities
+  - Power and energy
 - id: 50
   paper_title: Predicting Arctic Methane Seeps via Satellite Imagery
   abstract: The arctic has seen significant warming and releases of methane, a potent
@@ -1156,11 +1489,16 @@
   authors: Olya (Olga) Irzak (Frost Methane Labs); Amber Leigh Thomas (Stanford);
     Stephanie Schneider (Stanford); Catalin Voss (Stanford University)
   paper_path: "/papers/neurips2019/50/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 49
   next_paper_id: 51
+  cmt_id: 109
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
+  - Climate and earth science
 - id: 51
   paper_title: 'GeoLabels: Towards Efficient Ecosystem Monitoring using Data Programming
     on Geospatial Information'
@@ -1174,11 +1512,18 @@
     interfaces, allowing non-technical users to create visual labeling functions.
   authors: David Dao (ETH); Johannes Rausch (ETH Zurich); Ce Zhang (ETH)
   paper_path: "/papers/neurips2019/51/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 50
   next_paper_id: 52
+  cmt_id: 111
+  primary_subject_area: Data presentation and management
+  secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Data presentation and management
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Data presentation and management
+  - Agriculture, forestry and other land use
 - id: 52
   paper_title: A deep learning approach for classifying black carbon aerosol morphology
   abstract: Black carbon (BC) is a sub-micron aerosol sourced from incomplete combustion
@@ -1196,7 +1541,12 @@
     processing in climate models.
   authors: Kara Lamb (Cooperative Institute for Research in the Environmental Sciences)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Proposals
   prev_paper_id: 51
+  cmt_id: 113
+  primary_subject_area: Climate and earth science
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate and earth science
+  condensed_subject_areas:
+  - Climate and earth science
