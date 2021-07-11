@@ -2,11 +2,11 @@
   entries:
     - title: "Register for our ICML workshop on July 23!"
       url: /events/icml2021
-      image: /images/icml2021_fb_poster.png
+      image: /images/icml-2021-preview.png
       stop_showing_on: 2021-07-22
     - title: "Attend our ICML workshop on July 23!"
       url: /events/icml2021
-      image: /images/icml2021_fb_poster.png
+      image: /images/icml-2021-preview.png
       start_showing_on: 2021-07-22
       stop_showing_on: 2021-07-24
     - title: Attend a CCAI virtual happy hour (held fortnightly)
@@ -25,7 +25,7 @@
   entries:
     - title: "Browse papers and talks from ICML 2021"
       url: /events/icml2021
-      image: /images/icml2021_fb_poster.png
+      image: /images/icml-2021-preview.png
       start_showing_on: 2021-07-24
     - title: Explore and contribute to the Climate Change AI Wiki
       image: /images/wiki_teaser.png
