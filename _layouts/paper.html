@@ -6,9 +6,11 @@ layout: default
 
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
+    <li><a href="/papers">Workshop Papers</a></li>
+
     {% for w in site.data.workshops %}
       {% if page.workshop_key == w.papers %}
-        <li><a href="/events/{{w.slug}}">{{w.short_name}} Workshop</a></li>
+        <li><a href="/events/{{w.slug}}">{{w.short_name}}</a></li>
       {% endif %}
     {% endfor %}
 
