@@ -6,16 +6,14 @@ layout: default
 
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
-    {% if page.workshop_key == 'iclr2020_papers' %}
-      <li><a href="/events/iclr2020">ICLR 2020 Workshop</a></li>
-    {% elsif page.workshop_key == 'neurips2019_papers' %}
-      <li><a href="/events/neurips2019">NeurIPS 2019 Workshop</a></li>
-    {% elsif page.workshop_key == 'neurips2020_papers' %}
-      <li><a href="/events/neurips2020">NeurIPS 2020 Workshop</a></li>
-    {% elsif page.workshop_key == 'icml2019_papers' %}
-      <li><a href="/events/icml2019">ICML 2019 Workshop</a></li>
-    {% endif %}
+    {% for w in site.data.workshops %}
+      {% if page.workshop_key == w.papers %}
+        <li><a href="/events/{{w.slug}}">{{w.short_name}} Workshop</a></li>
+      {% endif %}
+    {% endfor %}
+
     <li class="is-active"><a href="#" aria-current="page">Paper #{{ p.id }}</a></li>
+
     <li class="next-prev">
       {% if p.prev_paper_id %}
         <a href="/papers/{{page.workshop_key | replace:'_papers',''}}/{{p.prev_paper_id}}">
