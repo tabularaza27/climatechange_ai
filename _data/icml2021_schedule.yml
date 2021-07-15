@@ -14,7 +14,7 @@
     minute: 15
 - desc: 'Solomon Assefa: Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing <i>(Invited Talk)</i>'
   more: |-
-    <p><strong>Speaker:</strong> Solomon Assefa, IBM Research</p>
+    <p><strong>Speaker:</strong> <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sassefa" target="_blank">Solomon Assefa</a>, IBM Research</p>
 
     <p><strong>Title:</strong> Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing</p>
 
@@ -43,7 +43,7 @@
     day: 23
     hour: 13
     minute: 0
-- desc: 3 Spotlights
+- desc: Spotlight Presentations
   utc1:
     year: 2021
     month: 7
@@ -56,7 +56,7 @@
     day: 23
     hour: 13
     minute: 30
-- desc: 'Discussion Panel: Designing Projects and Finding Collaborators in Climate Change and ML'
+- desc: 'Panel Discussion: Designing Projects and Finding Collaborators in Climate Change and ML'
   utc1:
     year: 2021
     month: 7
@@ -72,10 +72,10 @@
   more: |-
     Panelists:
       <ul>
-        <li>Pia Faustino, Thinking Machines Data Science</li>
-        <li>Costas J. Spanos, UC Berkeley</li>
-        <li>Rosana de Oliveira Gomes, Omdena</li>
-        <li>Andrew Zolli, Planet Labs</li>
+        <li><a href="https://www.linkedin.com/in/piafaustino/?originalSubdomain=ph" target="_blank">Pia Faustino</a>, Thinking Machines Data Science</li>
+        <li><a href="https://vcresearch.berkeley.edu/faculty/costas-j-spanos" target="_blank">Costas J. Spanos</a>, UC Berkeley</li>
+        <li><a href="https://www.linkedin.com/in/rosanaogomes/?originalSubdomain=de" target="_blank">Rosana de Oliveira Gomes</a>, Omdena</li>
+        <li><a href="http://andrewzolli.com/about-me/" target="_blank">Andrew Zolli</a>, Planet Labs</li>
       </ul>
 - desc: Poster Session 1
   utc1:
@@ -90,7 +90,7 @@
     day: 23
     hour: 15
     minute: 30
-- desc: 'Shakir Mohamed: Harnessing Machine Learning to Achieve Net Zero <i>(Invited Talk)</i>'
+- desc: '<a href="https://shakirm.com/" target="_blank">Shakir Mohamed</a>: Harnessing Machine Learning to Achieve Net Zero <i>(Invited Talk)</i>'
   more: |-
     <p><strong>Speaker:</strong> Shakir Mohamed, DeepMind</p>
 
@@ -111,7 +111,7 @@
     day: 23
     hour: 16
     minute: 15
-- desc: 5 Spotlights
+- desc: Spotlight Presentations
   utc1:
     year: 2021
     month: 7
@@ -124,7 +124,7 @@
     day: 23
     hour: 17
     minute: 15
-- desc: 'Discussion Panel: Monitoring and Mitigation of Emissions in Line with Paris Agreement Targets'
+- desc: 'Panel Discussion: Monitoring and Mitigation of Emissions in Line with Paris Agreement Targets'
   utc1:
     year: 2021
     month: 7
@@ -140,10 +140,10 @@
   more: |-
     Panelists:
       <ul>
-        <li>Gavin McCormick, Climate Trace/Watt Time</li>
+        <li><a href="https://www.watttime.org/author/gavin-mccormick/" target="_blank">Gavin McCormick</a>, Climate Trace/Watt Time</li>
         <li>Yumna Yusuf, UK Gov</li>
-        <li>Catherine Potvin, McGill University</li>
-        <li>Cathy Wu, MIT</li>
+        <li><a href="https://www.mcgill.ca/biology/catherine-potvin" target="_blank">Catherine Potvin</a>, McGill University</li>
+        <li><a href="https://idss.mit.edu/staff/cathy-wu/" target="_blank">Cathy Wu</a>, MIT</li>
       </ul>
 - desc: Poster Session 2
   utc1:
@@ -172,14 +172,14 @@
     hour: 20
     minute: 0
   more: |-
-    <p><strong>Speaker:</strong> Kate Marvel, NASA, Columbia University</p>
+    <p><strong>Speaker:</strong> <a href="https://ccsr.columbia.edu/people/kate-marvel" target="_blank">Kate Marvel</a>, NASA, Columbia University</p>
 
     <p><strong>Title:</strong> Using machine learning to understand present and future climate changes: an invitation</p>
 
     <p><strong>Abstract:</strong> In this talk, I'll briefly discuss the standard methods we use to understand the role of external influences like greenhouse gases and aerosols on climate trends and events.  Using the ongoing megadrought in the North American Southwest as an example, I'll show how we can disentangle the relative roles of these external "forcings" and natural climate variability.  I'll discuss some areas in which machine learning might be able to help scientists learn about climate modeling and observations.  I hope to start a conversation about the most appropriate role for these techniques.</p>
 
     <p><strong>Bio:</strong> Dr. Marvel uses climate models, observations, paleoclimate reconstructions, and basic theory to study climate change.  Her work has identified human influences on present-day cloud cover, rainfall patterns, and drought risk.  She is also interested in future climate changes, particularly climate feedback processes and the planet's sensitivity to increased carbon dioxide.  Dr. Marvel teaches in Columbia's MA in Climate and Society Program and writes the "Hot Planet" column for Scientific American.  Named one of "15 Women Who Will Save the World" by Time Magazine, she has been profiled by the New York Times and Rolling Stone, and her 2017 TED talk has been viewed over one million times.  Before becoming a climate scientist, she received a PhD in theoretical particle physics from Cambridge University, where she was a Gates scholar.</p>
-- desc: 5 Spotlights
+- desc: Spotlight Presentations
   utc1:
     year: 2021
     month: 7
@@ -206,7 +206,7 @@
     hour: 21
     minute: 45
   more: |-
-    <p><strong>Speaker:</strong> Draguna Vrabie, PNNL</p>
+    <p><strong>Speaker:</strong> <a href="https://www.pnnl.gov/people/draguna-l-vrabie" target="_blank">Draguna Vrabie</a>, PNNL</p>
 
     <p><strong>Title:</strong> Differentiable Predictive Control</p>
 
