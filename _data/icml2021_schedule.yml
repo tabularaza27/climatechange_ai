@@ -1,0 +1,254 @@
+---
+- desc: Opening Remarks
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 15
+- desc: 'Solomon Assefa: Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing <i>(Invited Talk)</i>'
+  more: |-
+    <p><strong>Speaker:</strong> <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sassefa" target="_blank">Solomon Assefa</a>, IBM Research</p>
+
+    <p><strong>Title:</strong> Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing</p>
+
+    <p><strong>Abstract:</strong> Climate change mitigation and adaptation requires a global response across industries, and the call for action is being amplified by regulatory, investor, and consumer pressure. Over 20% of the world’s largest companies have set long term net-zero and climate resiliency targets. For example, energy and utility companies are planning to make a low-carbon transition and develop climate resilient infrastructure and integrate renewables. Companies spanning various industries want to manage physical asset risk, managing emission hotspots across their supply chain, and demonstrate regulatory compliance.</p>
+
+    <p>Furthermore, the financial sector is looking to identify, quantify, monitor risks in their investment portfolio and drive capital management. Hence, enterprises across various industries will need innovative technologies to help them reduce their emissions while building operational resiliency to the impacts of climate change.</p>
+
+    <p>This talk will explore how recent advances in AI, quantum computing, and cloud platforms could be applied towards addressing the aforementioned industry use cases, thereby enabling climate change mitigation and adaptation.</p>
+
+    <p><strong>Bio:</strong> Dr. Solomon Assefa is a Vice President at IBM Research. He heads research strategy, execution, commercialization, and partnerships for Impact Science, which includes Future of Climate, Future of Work, and Future of Health. Under his leadership, researchers from IBM’s global labs are applying and advancing disruptive technologies that will transform industries and benefit society. These technologies include AI, cloud, quantum computing, and accelerated discovery. He is also directing the worldwide effort focused on developing core technologies and partnerships for climate change mitigation and adaptation. He directs scientists from IBM’s global labs who are innovating in areas such as sustainable hybrid cloud, AI-enabled material discovery for carbon capture, carbon footprint optimization, AI-driven climate risk and impact modelling to enable resiliency.</p>
+
+    <p>Dr. Assefa is also responsible for IBM’s research labs in Kenya and South Africa, and heads IBM’s research strategy and partnership across Middle East and Africa. He is responsible for fostering local innovation ecosystems by forming new models for partnership with government, industry, academia, non-profits, and start-up companies. The labs are localizing these technologies and developing scalable (lab to market) solutions for emerging markets in areas such as financial services, telcos, healthcare, supply chain, energy and utilities, agriculture, and public sector.</p>
+
+    <p>As a Research Scientist, Dr. Assefa has worked on IBM’s nanophotonics technology with responsibilities spanning research, development, and technology transfer. He has also worked on field switched and spin torque MRAM technologies.</p>
+
+    <p>Dr. Assefa has co-authored over 150 publications in peer-reviewed journals and conference proceedings, has over 50 patents, and has appeared as a guest speaker at numerous conferences worldwide. He received a B.S. in Physics (2001), a B.S. in EECS (2001), a M.S. in EECS (2001) and a Ph.D. (2004) all from the Massachusetts Institute of Technology (MIT).</p>
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 0
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 30
+- desc: 'Panel Discussion: Designing Projects and Finding Collaborators in Climate Change and ML'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 14
+    minute: 30
+  more: |-
+    Panelists:
+      <ul>
+        <li><a href="https://www.linkedin.com/in/piafaustino/?originalSubdomain=ph" target="_blank">Pia Faustino</a>, Thinking Machines Data Science</li>
+        <li><a href="https://vcresearch.berkeley.edu/faculty/costas-j-spanos" target="_blank">Costas J. Spanos</a>, UC Berkeley</li>
+        <li><a href="https://www.linkedin.com/in/rosanaogomes/?originalSubdomain=de" target="_blank">Rosana de Oliveira Gomes</a>, Omdena</li>
+        <li><a href="http://andrewzolli.com/about-me/" target="_blank">Andrew Zolli</a>, Planet Labs</li>
+      </ul>
+- desc: Poster Session 1
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 14
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 15
+    minute: 30
+- desc: '<a href="https://shakirm.com/" target="_blank">Shakir Mohamed</a>: Harnessing Machine Learning to Achieve Net Zero <i>(Invited Talk)</i>'
+  more: |-
+    <p><strong>Speaker:</strong> Shakir Mohamed, DeepMind</p>
+
+    <p><strong>Title:</strong> Harnessing Machine Learning to Achieve Net Zero</p>
+
+    <p><strong>Abstract:</strong> Achieving net zero as rapidly as possible is an existential grand challenge where machine learning researchers can make unique contributions. These contributions are technical in nature, but they are also in areas of policy, responsible innovation, and social change. I'd like to explore a view on these topics using work from the Royal Society report on digital technology for the planet, decolonial AI, and machine learning for environmental science. Our discussion will interweave the role of data in achieving net zero, the growing interest in digital twins, making better predictions of environmental variables, and deeper considerations of inequality and harms that arise from the coupling of climate change and technology. With this I hope to leave space for our later community discussion on methods and priorities for how we as machine learning researchers can make our contributions to achieving net zero emissions.</p>
+
+    <p><strong>Bio:</strong> Dr Shakir Mohamed works on technical and sociotechnical questions in machine learning research, aspiring to make contributions to machine learning principles, applied problems in healthcare and environment, and ethics and diversity. Shakir is a research scientist and lead at DeepMind in London, an Associate Fellow at the Leverhulme Centre for the Future of Intelligence, and a Honorary Professor of University College London. Shakir is also a founder and trustee of the Deep Learning Indaba, a grassroots organisation aiming to build pan-African capacity and leadership in AI. Shakir was the General Chair for the 2021 International conference on Learning Representations, and a member of the Royal Society's Diversity Committee.</p>
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 15
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 16
+    minute: 15
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 16
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 17
+    minute: 15
+- desc: 'Panel Discussion: Monitoring and Mitigation of Emissions in Line with Paris Agreement Targets'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 17
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 18
+    minute: 15
+  more: |-
+    Panelists:
+      <ul>
+        <li><a href="https://www.watttime.org/author/gavin-mccormick/" target="_blank">Gavin McCormick</a>, Climate Trace/Watt Time</li>
+        <li>Yumna Yusuf, UK Gov</li>
+        <li><a href="https://www.mcgill.ca/biology/catherine-potvin" target="_blank">Catherine Potvin</a>, McGill University</li>
+        <li><a href="https://idss.mit.edu/staff/cathy-wu/" target="_blank">Cathy Wu</a>, MIT</li>
+      </ul>
+- desc: Poster Session 2
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 18
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 19
+    minute: 15
+- desc: 'Kate Marvel: Using Machine Learning to Understand Present and Future Climate Changes: an Invitation <i>(Invited Talk)</i>'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 19
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 20
+    minute: 0
+  more: |-
+    <p><strong>Speaker:</strong> <a href="https://ccsr.columbia.edu/people/kate-marvel" target="_blank">Kate Marvel</a>, NASA, Columbia University</p>
+
+    <p><strong>Title:</strong> Using machine learning to understand present and future climate changes: an invitation</p>
+
+    <p><strong>Abstract:</strong> In this talk, I'll briefly discuss the standard methods we use to understand the role of external influences like greenhouse gases and aerosols on climate trends and events.  Using the ongoing megadrought in the North American Southwest as an example, I'll show how we can disentangle the relative roles of these external "forcings" and natural climate variability.  I'll discuss some areas in which machine learning might be able to help scientists learn about climate modeling and observations.  I hope to start a conversation about the most appropriate role for these techniques.</p>
+
+    <p><strong>Bio:</strong> Dr. Marvel uses climate models, observations, paleoclimate reconstructions, and basic theory to study climate change.  Her work has identified human influences on present-day cloud cover, rainfall patterns, and drought risk.  She is also interested in future climate changes, particularly climate feedback processes and the planet's sensitivity to increased carbon dioxide.  Dr. Marvel teaches in Columbia's MA in Climate and Society Program and writes the "Hot Planet" column for Scientific American.  Named one of "15 Women Who Will Save the World" by Time Magazine, she has been profiled by the New York Times and Rolling Stone, and her 2017 TED talk has been viewed over one million times.  Before becoming a climate scientist, she received a PhD in theoretical particle physics from Cambridge University, where she was a Gates scholar.</p>
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 20
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 0
+- desc: 'Draguna Vrabie: Differentiable Predictive Control <i>(Invited Talk)</i>'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 45
+  more: |-
+    <p><strong>Speaker:</strong> <a href="https://www.pnnl.gov/people/draguna-l-vrabie" target="_blank">Draguna Vrabie</a>, PNNL</p>
+
+    <p><strong>Title:</strong> Differentiable Predictive Control</p>
+
+    <p><strong>Abstract:</strong> Current control technology practice in energy industries implements rule-based controls based on engineering insights. Deep learning control technology can cost-effectively displace current control technology and contribute to climate change mitigation and adaptation. First, I introduce our recent work on modeling dynamic systems with deep learning representations that embed domain knowledge. Next, I will introduce differentiable predictive control (DPC), a data-driven approach that uses physics-informed deep learning representations to synthesize predictive control policies. DPC presents an approximate data-driven solution approach to the explicit Model Predictive Control. Unlike imitation learning approaches, DPC provides neural control policies for time-varying references while satisfying state and input constraints. I illustrate the methodology with application examples of energy-efficient buildings. I conclude with a broader set of control-related problems that machine learning can solve.</p>
+
+    <p><strong>Bio:</strong> Draguna Vrabie is a chief data scientist in the Data Sciences and Machine Intelligence Group at Pacific Northwest National Laboratory. She serves as Team Lead for the Autonomous Learning and Reasoning Team. At the intersection of control system theory and machine learning, her work is on the design of adaptive decision and control systems. Her current focus is on deep learning methodologies and algorithms for high-performance cyber-physical systems. Before joining PNNL in 2015, she was a senior scientist at United Technologies Research Center, East Hartford, Connecticut.  Vrabie holds a doctorate in electrical engineering from the University of Texas at Arlington and an ME and BE in automatic control and computer engineering from Gheorghe Asachi Technical University, Iaşi, Romania.</p>
+- desc: Closing remarks and awards
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 45
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 22
+    minute: 0
+- desc: Poster Session 3
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 22
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 23
+    minute: 0
+- desc: Gather.town networking
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 23
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 24
+    minute: 0

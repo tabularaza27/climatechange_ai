@@ -45,88 +45,7 @@ The main workshop took place digitally on December 11, and the side event took p
 
 The main workshop day (Dec. 11) featured 94 posters and spotlight pesentations, along with 12 invited speakers and panelists highlighting pathways to impact in the public and private sectors, and poster sessions via Gather.town.
 
-<table class='remote-workshop-table'>
-  <thead>
-  <tr>
-  <th>Time (UTC)</th>
-  <!--<th>Time (<span class='fill-local-tz'>Local</span>)</th>-->
-  <th>Event</th>
-  </tr>
-  </thead>
-
-  <tbody>
-  {% for r in site.data.neurips2020_schedule %}
-  <tr class='range-row' data-d1='{{ r.utc1 | jsonify }}' data-d2='{{ r.utc2 | jsonify }}'>
-
-  {% if r.subrows %}
-  <td class='fill-utc' rowspan="{{ r.subrows.size | plus: 1 }}"> </td>
-  <!--<td class='fill-local' rowspan="{{ r.subrows.size | plus: 1 }}"> </td>-->
-  {% else %}
-  <td class='fill-utc'> </td>
-  <!--<td class='fill-local'> </td>-->
-  {% endif %}
-
-  <td>
-  {% if r.url %}
-  <a href="{{ r.url }}" target="_blank">{{r.desc | strip_newlines | strip }}</a>
-  {% else %}
-  {{r.desc | strip_newlines | strip }}
-  {% endif %}
-  {% if r.more.size > 0 %}
-
-  <details>
-  <summary>Details: (click to expand)</summary>
-
-  {% if r.more contains "replace_with_papers_in_session" %}
-
-    {% assign session = r.more | split: "|" | last %}
-    {% assign tracks = "Papers Proposals" | split: " " %}
-
-    <p>Posters presented in this slot are listed below.</p>
-
-    {% for track in tracks %}
-      <p>{{track}} track:</p>
-      <ul>
-        {% for p in site.data.neurips2020_papers %}
-          {% if p.q1_track == track and p.poster_sessions contains session %}
-            <li><a href='/papers/neurips2020/{{p.id}}' target='_blank'>({{p.id}}) {{p.paper_title}}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    {% endfor %}
-
-  {% else %}
-
-    {{ r.more | strip_newlines | strip }}
-
-  {% endif %}
-  </details>
-
-  {% endif %}
-  </td>
-  </tr>
-
-  {% if r.subrows %}
-  {% for rr in r.subrows %}
-  <tr class='remote-workshop-table-subrow'>
-  <td>
-    {% if rr.paper_id %}
-    {% assign idx = rr.paper_id | minus: 1 %}
-    {% assign p = site.data.neurips2020_papers[idx] %}
-    <a href="/papers/neurips2020/{{ p.id }}" target="_blank">
-      ({{p.id}}) {{p.slideslive_speaker}}, "{{p.paper_title}}"
-    </a>
-    {% else %}
-    {{rr.row_text}}
-    {% endif %}
-  </td>
-  </tr>
-  {% endfor %}
-  {% endif %}
-
-  {% endfor %}
-  </tbody>
-</table>
+{% include workshop_schedule_table.html workshop="neurips2020" %}
 
 <h3 id="side-event">
   Side Event
@@ -169,45 +88,6 @@ Our side event on "Monitoring the Climate Crisis with AI, Satellites and Drones"
   {% endfor %}
   </tbody>
 </table>
-
-
-<script src="https://cdn.jsdelivr.net/npm/luxon@1.23.0/build/global/luxon.min.js"></script>
-<script>
-$(document).ready(function() {
-  const DateTime = luxon.DateTime;
-  const tz = DateTime.local().zoneName;
-  const tzShort = DateTime.local().toFormat("ZZZZ");
-
-  function parseDate(s) {
-    const d = JSON.parse(s);
-    return DateTime.utc(d.year, d.month, d.day, d.hour, d.minute, 0, 0);
-  }
-
-  function formatRange(t1, t2, zone) {
-    const h1 = t1.setZone(zone).toFormat("H:mm");
-    const h2 = t2.setZone(zone).toFormat("H:mm");
-    return `${h1} - ${h2}`;
-  }
-
-  //for (let el of Array.from(document.getElementsByClassName('fill-local-tz'))) {
-  //  el.innerText = tzShort;
-  //}
-
-  for (let tr of Array.from(document.getElementsByClassName('range-row'))) {
-    const t1 = parseDate(tr.getAttribute("data-d1"));
-    const t2 = parseDate(tr.getAttribute("data-d2"));
-    tr.querySelector('.fill-utc').innerText = formatRange(t1, t2, 'utc');
-    //tr.querySelector('.fill-local').innerText = formatRange(t1, t2, tz);
-  }
-
-  $('details').each((i, el) => {
-    el.innerHTML = el.innerHTML.replace(
-      /\(slides:([^\)]+)\)/g,
-      "<a href='$1' target='_blank' class='tag is-info'>slides</a>"
-    );
-  });
-});
-</script>
 
 ## Accepted Works
 
