@@ -2,15 +2,21 @@
 - slug: icml2019
   papers: icml2019_papers
   short_name: ICML 2019
+  completed: true
 - slug: neurips2019
   papers: neurips2019_papers
   short_name: NeurIPS 2019
+  completed: true
 - slug: iclr2020
   papers: iclr2020_papers
   short_name: ICLR 2020
+  completed: true
 - slug: neurips2020
   papers: neurips2020_papers
+  schedule: neurips2020_schedule
   short_name: NeurIPS 2020
+  completed: true
 - slug: icml2021
   short_name: ICML 2021
   papers: icml2021_papers
+  schedule: icml2021_schedule
