@@ -1,0 +1,196 @@
+---
+- desc: Opening remarks
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 15
+- desc: 'Keynote 1: Solomon Assefa'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 12
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 0
+- desc: 3 Spotlights
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 30
+- desc: 'Discussion Panel: Scoping projects and collaborations'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 13
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 14
+    minute: 30
+- desc: Poster Session 1
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 14
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 15
+    minute: 30
+- desc: 'Keynote 2: Shakir Mohamed'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 15
+    minute: 30
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 16
+    minute: 15
+- desc: 5 Spotlights
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 16
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 17
+    minute: 15
+- desc: 'Discussion panel: Mitigation and Paris Agreement'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 17
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 18
+    minute: 15
+- desc: Poster Session 2
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 18
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 19
+    minute: 15
+- desc: 'Keynote 3: Kate Marvel'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 19
+    minute: 15
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 20
+    minute: 0
+- desc: 5 Spotlights
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 20
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 0
+- desc: 'Keynote 4: Draguna Vrabie'
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 45
+- desc: Closing remarks and awards
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 21
+    minute: 45
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 22
+    minute: 0
+- desc: Poster Session 3
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 22
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 23
+    minute: 0
+- desc: Gather.town networking
+  utc1:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 23
+    minute: 0
+  utc2:
+    year: 2021
+    month: 7
+    day: 23
+    hour: 24
+    minute: 0
