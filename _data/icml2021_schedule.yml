@@ -116,6 +116,12 @@
     hour: 16
     minute: 15
 - desc: Spotlight Presentations
+  subrows:
+        - paper_id: 28
+        - paper_id: 76
+        - paper_id: 42
+        - paper_id: 44
+        - paper_id: 63
   utc1:
     year: 2021
     month: 7
@@ -184,6 +190,12 @@
 
     <p><strong>Bio:</strong> Dr. Marvel uses climate models, observations, paleoclimate reconstructions, and basic theory to study climate change.  Her work has identified human influences on present-day cloud cover, rainfall patterns, and drought risk.  She is also interested in future climate changes, particularly climate feedback processes and the planet's sensitivity to increased carbon dioxide.  Dr. Marvel teaches in Columbia's MA in Climate and Society Program and writes the "Hot Planet" column for Scientific American.  Named one of "15 Women Who Will Save the World" by Time Magazine, she has been profiled by the New York Times and Rolling Stone, and her 2017 TED talk has been viewed over one million times.  Before becoming a climate scientist, she received a PhD in theoretical particle physics from Cambridge University, where she was a Gates scholar.</p>
 - desc: Spotlight Presentations
+  subrows:
+        - paper_id: 81
+        - paper_id: 83
+        - paper_id: 13
+        - paper_id: 79
+        - paper_id: 53
   utc1:
     year: 2021
     month: 7
