@@ -44,6 +44,10 @@
     hour: 13
     minute: 0
 - desc: Spotlight Presentations
+  subrows:
+      - paper_id: 11
+      - paper_id: 75
+      - paper_id: 51
   utc1:
     year: 2021
     month: 7
