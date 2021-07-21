@@ -177,6 +177,12 @@ $(document).ready(() => {
       $areas.append(`<option value='${area}'>${area}</option>`);
     }
 
+    const q = new URLSearchParams(location.search);
+    if (q.get('search')) $search.val(q.get('search'));
+    if (q.get('venues')) $venues.val(q.get('venues'));
+    if (q.get('award')) $award.prop('checked', true);
+    if (q.getAll('areas').length) $areas.val(q.getAll('areas'));
+
     $('select[multiple]').chosen({
       width: '100%'
     });
@@ -221,16 +227,37 @@ $(document).ready(() => {
         const $dt = $('.dataTable');
         $dt.unmark(); // Reset highlighting
 
+        const q = new URLSearchParams(location.search);
+
         // Highlight free text search
-        if ($search.val().length)
+        if ($search.val().length) {
           $dt.mark($search.val());
+          q.set('search', $search.val());
+        } else {
+          q.delete('search');
+        }
 
         // Highlight selected topics
-        for (let area of $areas.val())
+        q.delete('areas');
+        for (let area of $areas.val()) {
           $dt.find('.paper-areas').markRegExp(new RegExp(area));
+          q.append('areas', area);
+        }
 
-        if ($venues.val().length)
+        if ($venues.val().length) {
           $dt.find('.paper-venue').markRegExp(new RegExp($venues.val()));
+          q.set('venues', $venues.val());
+        } else {
+          q.delete('venues');
+        }
+
+        if ($award.is(':checked')) {
+          q.set('award', 1);
+        } else {
+          q.delete('award');
+        }
+
+        history.replaceState({}, '', `${location.pathname}?${q}`);
       }
     });
 
@@ -264,5 +291,9 @@ $(document).ready(() => {
     $('#search-wrapper select').on('change', () => {
       table.draw();
     });
+
+    if ($search.val()) {
+      table.search($search.val()).draw();
+    }
 });
 </script>
