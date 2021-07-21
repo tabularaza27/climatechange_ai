@@ -18,7 +18,7 @@ cmt_to_sl_id = {}
 cmt_to_speaker = {}
 
 CSV.read(sl_link_file, headers: true).each do |row|
-  if row['Video Status'] == 'finished'
+  if %w(finished checked).include?(row['Video Status'])
     cmt_id = row['Paper ID'].to_i
     cmt_to_sl_id[cmt_id] = row['SlidesLive Link'].strip.split("/").last
     cmt_to_speaker[cmt_id] = row['Author'].strip
