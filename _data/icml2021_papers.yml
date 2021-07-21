@@ -2014,6 +2014,8 @@
   id: 45
   prev_paper_id: 44
   next_paper_id: 46
+  paper_path: "/papers/icml2021/45/paper.pdf"
+  slides_path: "/papers/icml2021/45/slides.pdf"
   condensed_subject_areas:
   - Natural language processing
   - Policy
