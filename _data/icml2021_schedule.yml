@@ -94,7 +94,7 @@
     day: 23
     hour: 15
     minute: 30
-  more: replace_with_papers_in_session|10:30-11:30 ET = 14:30-15:30 UTC
+  more: replace_with_papers_in_session|14:30-15:30 UTC
 - desc: '<a href="https://shakirm.com/" target="_blank">Shakir Mohamed</a>: Harnessing Machine Learning to Achieve Net Zero <i>(Invited Talk)</i>'
   more: |-
     <p><strong>Speaker:</strong> Shakir Mohamed, DeepMind</p>
@@ -169,7 +169,7 @@
     day: 23
     hour: 19
     minute: 15
-  more: replace_with_papers_in_session|14:15-15:15 ET = 18:15-19:15 UTC
+  more: replace_with_papers_in_session|18:15-19:15 UTC
 - desc: '<a href="https://ccsr.columbia.edu/people/kate-marvel" target="_blank">Kate Marvel</a>: Using Machine Learning to Understand Present and Future Climate Changes: an Invitation <i>(Invited Talk)</i>'
   utc1:
     year: 2021
@@ -257,7 +257,7 @@
     day: 23
     hour: 23
     minute: 0
-  more: replace_with_papers_in_session|18:00-19:00 ET = 22:00-23:00 UTC
+  more: replace_with_papers_in_session|22:00-23:00 UTC
 - desc: Gather.town networking
   utc1:
     year: 2021
