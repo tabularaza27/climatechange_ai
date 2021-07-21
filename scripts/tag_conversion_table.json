@@ -1,11 +1,14 @@
 {
   "Buildings": "Buildings and cities",
+  "Buildings and Cities": "Buildings and cities",
+  "Behavioral and Social Science": "Behavioral and social science",
   "Urban studies": "Buildings and cities",
   "Smart buildings and cities": "Buildings and cities",
   "Urban heat island mitigation": "Buildings and cities",
   "Remote Sensing": "Computer vision and remote sensing",
   "Remote sensing": "Computer vision and remote sensing",
-  "Climate modeling": "Climate and earth science",
+  "Climate modeling": "Climate and Earth science",
+  "Climate and earth science": "Climate and Earth science",
   "learning based optimal control": "Reinforcement learning and control",
   "Agriculture": "Agriculture, forestry and other land use",
   "Forestry and other land use": "Agriculture, forestry and other land use",
@@ -13,6 +16,7 @@
   "Energy": "Power and energy",
   "Power generation and grids": "Power and energy",
   "Disaster management and relief": "Disaster prediction, management, and relief",
-  "Hydrology": "Climate and earth science",
-  "Industrial optimization": "Industry"
+  "Hydrology": "Climate and Earth science",
+  "Industrial optimization": "Industry",
+  "knowledge engineering": "Knowledge engineering"
 }

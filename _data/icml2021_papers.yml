@@ -28,10 +28,16 @@
     transfer learning
   author_names: Yuan, Tianle*
   author_emails: tianle.yuan@nasa.gov*
-  authors: Tianle Yuan (NASA)
+  authors: Tianle Yuan (University of Maryland, NASA); Hua Song (NASA, SSAI); Chenxi
+    Wang (University of Maryland, NASA); Kerry Meyer (NASA); Siobhan Light (University
+    of Maryland); Sophia von Hippel (University of Arizona); Steven Platnick (NASA);
+    Lazaros Oreopoulos (NASA); Robert Wood (University of Washington); Hans Mohrmann
+    (University of Washington)
   cmt_id: 6
   slideslive_id: '38960333'
   slideslive_speaker: Tianle Yuan
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -66,10 +72,15 @@
     Erica
   author_emails: mccloskey@google.com*; geraedts@google.com; cvanarsdale@google.com;
     ebrand@google.com
-  authors: Kevin McCloskey (Google); Scott Geraedts (Google); Brendan Jackman (Google); Vincent R. Meijer (Laboratory for Aviation and the Environment, Massachusetts Institute of Technology); Erica Brand (Google); Dave Fork (Google); John C. Platt (Google); Carl Elkin (Google); Christopher Van Arsdale (Google)
+  authors: Kevin McCloskey (Google); Scott Geraedts (Google); Brendan Jackman (Google);
+    Vincent R. Meijer (Laboratory for Aviation and the Environment, Massachusetts
+    Institute of Technology); Erica Brand (Google); Dave Fork (Google); John C. Platt
+    (Google); Carl Elkin (Google); Christopher Van Arsdale (Google)
   cmt_id: 9
   slideslive_id: '38960334'
   slideslive_speaker: Kevin McCloskey
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -110,6 +121,8 @@
   cmt_id: 10
   slideslive_id: '38960335'
   slideslive_speaker: Mahdi Maktabdar Oghaz
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -124,7 +137,7 @@
   slides_path: "/papers/icml2021/3/slides.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration
-  - Buildings and Cities
+  - Buildings and cities
   - Climate and Earth science
   - Agriculture, forestry and other land use
   - Computer vision and remote sensing
@@ -160,6 +173,8 @@
   cmt_id: 14
   slideslive_id: '38960336'
   slideslive_speaker: You Han
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate finance
@@ -207,6 +222,8 @@
   cmt_id: 16
   slideslive_id: '38960340'
   slideslive_speaker: Ankush Chakrabarty
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and Cities
@@ -217,7 +234,7 @@
   paper_path: "/papers/icml2021/5/paper.pdf"
   slides_path: "/papers/icml2021/5/slides.pdf"
   condensed_subject_areas:
-  - Buildings and Cities
+  - Buildings and cities
   - Bayesian optimization
 - paper_title: Seasonal Sea Ice Presence Forecasting of Hudson Bay using Seq2Seq Learning
   abstract: Accurate and timely forecasts of sea ice conditions are crucial for safe
@@ -244,6 +261,8 @@
   authors: Nazanin Asadi (University of Waterloo); K Andrea Scott (University of Waterloo);
     Philippe Lamontagne (National Research Council Canada)
   cmt_id: 18
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -293,6 +312,8 @@
   cmt_id: 19
   slideslive_id: '38960354'
   slideslive_speaker: Xikun Hu
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -335,6 +356,8 @@
     Bolivia Vega (Stanford University); Laura Froute (Stanford University); Anthony
     Kovscek (Stanford University)
   cmt_id: 25
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Generative modeling
@@ -379,6 +402,8 @@
   authors: Muhammad Umar (Anglia Ruskin University); Lakshmi Babu Saheer (Anglia Ruskin
     University); Javad Zarrin (Anglia Ruskin University)
   cmt_id: 27
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Forestry and other land use
@@ -443,6 +468,8 @@
     (University of Sannio); Pierre-Philippe Mathieu (European Space Agency); Rachel
     Lowe (London School of Hygiene & Tropical Medicine)
   cmt_id: 29
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Societal adaptation
@@ -488,6 +515,8 @@
   cmt_id: 31
   slideslive_id: '38960274'
   slideslive_speaker: Wenting Li
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy
@@ -542,6 +571,8 @@
   cmt_id: 33
   slideslive_id: '38960307'
   slideslive_speaker: Shreya Bali
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -599,6 +630,8 @@
   cmt_id: 35
   slideslive_id: '38960275'
   slideslive_speaker: Maike Sonnewald
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Climate and Earth science
@@ -650,6 +683,8 @@
     (University of California San Diego); Curt Schurgers (University of California
     San Diego)
   cmt_id: 37
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural resources
@@ -687,6 +722,8 @@
   cmt_id: 38
   slideslive_id: '38960318'
   slideslive_speaker: Gang Huang
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -720,6 +757,8 @@
     Oxford); Philip Stier (University of Oxford); Athanasios Nenes (EPFL); Dino Sejdinovic
     (University of Oxford)
   cmt_id: 40
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -761,6 +800,8 @@
   cmt_id: 41
   slideslive_id: '38960320'
   slideslive_speaker: Tobias Finn
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -802,6 +843,8 @@
   cmt_id: 42
   slideslive_id: '38960321'
   slideslive_speaker: Wanjun Huang
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -847,6 +890,8 @@
   cmt_id: 45
   slideslive_id: '38960324'
   slideslive_speaker: Michael Mommert
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -892,6 +937,8 @@
   cmt_id: 46
   slideslive_id: '38960287'
   slideslive_speaker: Marcel Arpogaus
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -909,7 +956,7 @@
   slides_path: "/papers/icml2021/20/slides.pdf"
   condensed_subject_areas:
   - Power and energy
-  - Buildings and Cities
+  - Buildings and cities
   - Industry
   - Classification, regression, and supervised learning
   - Generative modeling
@@ -939,6 +986,8 @@
   cmt_id: 47
   slideslive_id: '38960325'
   slideslive_speaker: Patrick De Mars
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -988,6 +1037,8 @@
   cmt_id: 48
   slideslive_id: '38960288'
   slideslive_speaker: Christoph D Minixhofer
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1028,6 +1079,8 @@
   cmt_id: 51
   slideslive_id: '38960290'
   slideslive_speaker: Linus M. Scheibenreif
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1073,6 +1126,8 @@
   cmt_id: 52
   slideslive_id: '38960347'
   slideslive_speaker: Paula Harder
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -1109,6 +1164,8 @@
   authors: David Friederich (University of Bern); Lynn Kaack (ETH Zurich); Sasha Luccioni
     (Mila); Bjarne Steffen (ETH Zurich)
   cmt_id: 56
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate finance
@@ -1152,6 +1209,8 @@
   cmt_id: 57
   slideslive_id: '38960339'
   slideslive_speaker: Yuchen Wang
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -1188,6 +1247,8 @@
   cmt_id: 59
   slideslive_id: '38960331'
   slideslive_speaker: Lissy Langer
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and Cities
@@ -1197,7 +1258,7 @@
   next_paper_id: 28
   slides_path: "/papers/icml2021/27/slides.pdf"
   condensed_subject_areas:
-  - Buildings and Cities
+  - Buildings and cities
   - "Reinforcement learning and control\t "
 - paper_title: 'Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach'
   abstract: |-
@@ -1217,6 +1278,8 @@
   cmt_id: 61
   slideslive_id: '38960276'
   slideslive_speaker: Wenqi Cui
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy
@@ -1251,6 +1314,8 @@
   authors: Miguel Fuentes (University of Massachusetts, Amherst); Benjamin Van Doren
     (Cornell University); Daniel Sheldon (University of Massachusetts, Amherst)
   cmt_id: 66
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural resources
@@ -1283,6 +1348,8 @@
   cmt_id: 69
   slideslive_id: '38960327'
   slideslive_speaker: Yongli Zhu
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1325,6 +1392,8 @@
   cmt_id: 72
   slideslive_id: '38960326'
   slideslive_speaker: Eduardo Rocha Rodrigues
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -1372,6 +1441,8 @@
   cmt_id: 73
   slideslive_id: '38960306'
   slideslive_speaker: Beichen Zhang
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1410,6 +1481,8 @@
   cmt_id: 74
   slideslive_id: '38960305'
   slideslive_speaker: Shaohui Liu
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -1448,6 +1521,8 @@
   cmt_id: 78
   slideslive_id: '38960304'
   slideslive_speaker: Gherardo Varando
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -1497,6 +1572,8 @@
   cmt_id: 83
   slideslive_id: '38960302'
   slideslive_speaker: Flávio Cação
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Natural language processing
@@ -1532,6 +1609,8 @@
   cmt_id: 85
   slideslive_id: '38960301'
   slideslive_speaker: Miguel Paredes Quinones
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -1570,6 +1649,8 @@
   authors: Tashnim Chowdhury (University of Maryland Baltimore County); Maryam Rahnemoonfar
     (University of Maryland Baltimore County)
   cmt_id: 86
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1582,7 +1663,7 @@
   slides_path: "/papers/icml2021/37/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
-  - Buildings and Cities
+  - Buildings and cities
   - Computer vision and remote sensing
 - paper_title: Online LSTM Framework for Hurricane Trajectory Prediction
   abstract: Hurricanes are high-intensity tropical cyclones that can cause severe
@@ -1609,6 +1690,8 @@
   cmt_id: 88
   slideslive_id: '38960299'
   slideslive_speaker: Ding Wang
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1646,6 +1729,8 @@
   authors: Dario Augusto Borges Oliveira (IBM Research); Jorge Luis Guevara Diaz (IBM
     Research); Bianca Zadrozny (IBM Research); Campbell Watson (IBM Reserch)
   cmt_id: 93
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -1683,6 +1768,8 @@
     Nikolaos Doulamis (National Technical University of Athens); Anastasios Doulamis
     (Technical University of Crete)
   cmt_id: 96
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Forestry and other land use
@@ -1723,6 +1810,8 @@
   author_emails: matt@continuum.industries*
   authors: Matt Blythe (Continuum Industries)
   cmt_id: 98
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and Cities
@@ -1733,7 +1822,7 @@
   prev_paper_id: 40
   next_paper_id: 42
   condensed_subject_areas:
-  - Buildings and Cities
+  - Buildings and cities
   - Industry
   - Power and energy
   - Transportation
@@ -1770,6 +1859,8 @@
   cmt_id: 100
   slideslive_id: '38960280'
   slideslive_speaker: Soukayna Mouatadid
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Classification, regression, and supervised learning
@@ -1813,6 +1904,8 @@
     Anderson (UC Berkeley); Colorado Reed (UC Berkeley); Hossein Vahabi (University
     California Berkeley); Alberto Todeschini (UC Berkeley)
   cmt_id: 105
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Unsupervised and semi-supervised learning
@@ -1862,6 +1955,8 @@
   cmt_id: 107
   slideslive_id: '38960283'
   slideslive_speaker: Daniel Salles Civitarese
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1908,6 +2003,8 @@
   cmt_id: 111
   slideslive_id: '38960337'
   slideslive_speaker: Tom Corringham
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Natural language processing
@@ -1943,6 +2040,8 @@
   cmt_id: 112
   slideslive_id: '38960341'
   slideslive_speaker: Levente Klein
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -1985,6 +2084,8 @@
   cmt_id: 113
   slideslive_id: '38960342'
   slideslive_speaker: Jorge Luis Guevara Diaz
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Generative modeling
@@ -2032,6 +2133,8 @@
   cmt_id: 116
   slideslive_id: '38960343'
   slideslive_speaker: Akansha Singh Bansal
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Unsupervised and semi-supervised learning
@@ -2074,6 +2177,8 @@
   cmt_id: 120
   slideslive_id: '38960345'
   slideslive_speaker: Debvrat Varshney
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -2116,6 +2221,8 @@
   cmt_id: 122
   slideslive_id: '38960346'
   slideslive_speaker: Sahara Ali
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -2158,6 +2265,8 @@
   cmt_id: 123
   slideslive_id: '38960284'
   slideslive_speaker: Chris Fletcher
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: true
   subject_areas:
   - Generative modeling
@@ -2202,6 +2311,8 @@
   authors: Argho Sarkar (University of Maryland, Baltimore County); Maryam Rahnemoonfar
     (University of Maryland Baltimore County)
   cmt_id: 124
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2250,6 +2361,8 @@
   cmt_id: 128
   slideslive_id: '38960285'
   slideslive_speaker: Akansha Singh
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy
@@ -2263,7 +2376,7 @@
   slides_path: "/papers/icml2021/53/slides.pdf"
   condensed_subject_areas:
   - Power and energy
-  - Buildings and Cities
+  - Buildings and cities
   - "Reinforcement learning and control\t "
   - Uncertainty quantification and robustness
 - paper_title: Sky Image Prediction Using Generative Adversarial Networks for Solar
@@ -2291,6 +2404,8 @@
   cmt_id: 130
   slideslive_id: '38960353'
   slideslive_speaker: Yuhao Nie
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Generative modeling
@@ -2337,6 +2452,8 @@
   cmt_id: 131
   slideslive_id: '38960352'
   slideslive_speaker: Robert Buechler
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -2381,6 +2498,8 @@
   cmt_id: 132
   slideslive_id: '38960355'
   slideslive_speaker: Reshmi Ghosh
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2416,6 +2535,8 @@
   cmt_id: 134
   slideslive_id: '38960361'
   slideslive_speaker: Daniel Tabas
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - "Reinforcement learning and control\t "
@@ -2456,6 +2577,8 @@
   cmt_id: 138
   slideslive_id: '38960359'
   slideslive_speaker: Daisuke Kawamoto
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -2486,6 +2609,8 @@
   authors: Anna Vaughan (Univeristy of Cambridge); Nic Lane (University of Cambridge);
     Michael Herzog (University of Cambridge)
   cmt_id: 140
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -2521,6 +2646,8 @@
   author_emails: graffc@uci.edu*
   authors: Casey A Graff (UC Irvine)
   cmt_id: 141
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -2556,6 +2683,8 @@
   authors: Muhammed  A Sit (The University of Iowa); Bongchul Seo (IIHR—Hydroscience
     & Engineering, The University of Iowa); Ibrahim  Demir (The University of Iowa)
   cmt_id: 142
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Data mining
@@ -2591,6 +2720,8 @@
   authors: Muhammed  A Sit (The University of Iowa); Bekir Demiray (The University
     of Iowa); Ibrahim  Demir (The University of Iowa)
   cmt_id: 143
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2638,6 +2769,8 @@
   cmt_id: 144
   slideslive_id: '38960286'
   slideslive_speaker: Jeff Wen
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Computer vision and remote sensing
@@ -2653,7 +2786,7 @@
   slides_path: "/papers/icml2021/63/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
-  - Behavioral and Social Science
+  - Behavioral and social science
   - Climate and Earth science
   - Disaster prediction, management, and relief
   - Societal adaptation
@@ -2684,6 +2817,8 @@
     (Technical University of Denmark (DTU)); Inon Peled (Technical University of Denmark
     (DTU)); Francisco Pereira (DTU)
   cmt_id: 147
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Transportation
@@ -2727,6 +2862,8 @@
   cmt_id: 17
   slideslive_id: '38960348'
   slideslive_speaker: Shweta Khushu
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Natural language processing
@@ -2738,7 +2875,7 @@
   slides_path: "/papers/icml2021/65/slides.pdf"
   condensed_subject_areas:
   - Natural language processing
-  - knowledge engineering
+  - Knowledge engineering
 - paper_title: Solar PV Maps for Estimation and Forecasting of Distributed Solar Generation
   abstract: Rapid uptake of distributed solar PV is starting to make the operation
     of grids and energy markets more challenging, and better methods are needed for
@@ -2769,6 +2906,8 @@
   cmt_id: 30
   slideslive_id: '38960298'
   slideslive_speaker: Julian De Hoog
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -2814,6 +2953,8 @@
   cmt_id: 34
   slideslive_id: '38960311'
   slideslive_speaker: Ling Zhang
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -2849,6 +2990,8 @@
   cmt_id: 36
   slideslive_id: '38960315'
   slideslive_speaker: Teodor S Vrecica
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -2879,6 +3022,8 @@
   author_emails: blonzecibad@gmail.com*
   authors: Bulonze Chibaderhe (FEMAC Asbl)
   cmt_id: 43
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - "Reinforcement learning and control\t "
@@ -2910,6 +3055,8 @@
   authors: Andrea Karlova (UCL); Cameron C.L. Underwood (University of Surrey); Ravi  Silva
     (University of Surrey)
   cmt_id: 44
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy
@@ -2958,6 +3105,8 @@
   cmt_id: 49
   slideslive_id: '38960289'
   slideslive_speaker: Mohammad Hajiesmaili
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2998,6 +3147,8 @@
     Agency (ESA)); Inne Vanderkelen (Vrije Universiteit Brussel); Wim Thiery (Vrije
     Universiteit Brussel)
   cmt_id: 60
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -3039,6 +3190,8 @@
   cmt_id: 63
   slideslive_id: '38960330'
   slideslive_speaker: Catherine Villeneuve
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural resources
@@ -3077,6 +3230,8 @@
     of Maryland); Kevin Liu (University of Maryland); Richard Nyiawung (University
     of Guelph); Hannah R Kerner (University of Maryland)
   cmt_id: 64
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -3122,6 +3277,8 @@
   cmt_id: 65
   slideslive_id: '38960277'
   slideslive_speaker: Vili Hätönen
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: true
   subject_areas:
   - Natural language processing
@@ -3135,7 +3292,7 @@
   slides_path: "/papers/icml2021/75/slides.pdf"
   condensed_subject_areas:
   - Natural language processing
-  - Behavioral and Social Science
+  - Behavioral and social science
   - Policy
   - Unsupervised and semi-supervised learning
 - paper_title: 'NeuralNERE: Neural Named Entity Relationship Extraction for End-to-End
@@ -3166,6 +3323,8 @@
   cmt_id: 68
   slideslive_id: '38960278'
   slideslive_speaker: Prakamya Mishra
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Natural language processing
@@ -3179,7 +3338,7 @@
   slides_path: "/papers/icml2021/76/slides.pdf"
   condensed_subject_areas:
   - Natural language processing
-  - Behavioral and Social Science
+  - Behavioral and social science
   - Policy
   - Unsupervised and semi-supervised learning
 - paper_title: A multi-task learning approach to enhance sustainable biomolecule production
@@ -3210,6 +3369,8 @@
   cmt_id: 79
   slideslive_id: '38960303'
   slideslive_speaker: Erin Wilson
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Other
@@ -3250,6 +3411,8 @@
   author_emails: siraput.trin@gmail.com*
   authors: Siraput Jongaramrungruang (Caltech)
   cmt_id: 91
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -3288,6 +3451,8 @@
   cmt_id: 92
   slideslive_id: '38960279'
   slideslive_speaker: Gyri Reiersen
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: true
   subject_areas:
   - Carbon capture and sequestration
@@ -3321,6 +3486,8 @@
   authors: Jeffrey J Nichol (University of New Mexico); Matthew Peterson (Sandia National
     Laboratories); George M Fricke (UNM); Kara Peterson (Sandia National Laboratories)
   cmt_id: 97
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -3367,6 +3534,8 @@
   cmt_id: 101
   slideslive_id: '38960281'
   slideslive_speaker: Manju Murugesu
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: true
   subject_areas:
   - Carbon capture and sequestration
@@ -3404,6 +3573,8 @@
   cmt_id: 103
   slideslive_id: '38960292'
   slideslive_speaker: Pierre Browne
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Time-series analysis
@@ -3445,6 +3616,8 @@
   cmt_id: 104
   slideslive_id: '38960282'
   slideslive_speaker: Mark Roth
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: true
   subject_areas:
   - Ecosystems and natural resources
@@ -3482,6 +3655,8 @@
   authors: Diana L Ortiz-Montalvo (NIST); Aaron Gilad Kusne (NIST); Austin McDannald
     (NIST); Daniel Siderius (NIST); Kamal Choudhary (NIST); Taner Yildirim (NIST)
   cmt_id: 118
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -3522,6 +3697,8 @@
   cmt_id: 129
   slideslive_id: '38960350'
   slideslive_speaker: Yuan Cai
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and Cities
@@ -3534,7 +3711,7 @@
   paper_path: "/papers/icml2021/85/paper.pdf"
   slides_path: "/papers/icml2021/85/slides.pdf"
   condensed_subject_areas:
-  - Buildings and Cities
+  - Buildings and cities
   - Power and energy
   - Classification, regression, and supervised learning
   - Time-series analysis
@@ -3564,6 +3741,8 @@
     (Mila, Université de Montréal, Facebook AI Research); Shady Moahmmed (University
     of Ottawa)
   cmt_id: 133
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate and Earth science
@@ -3601,6 +3780,8 @@
     Karin Bryan (University of Waikato); Sébastien Delaux (Meteorological Service
     of New Zealand)
   cmt_id: 139
+  poster_sessions:
+  - 14:15-15:15 ET = 18:15-19:15 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -3633,6 +3814,8 @@
   cmt_id: 146
   slideslive_id: '38960312'
   slideslive_speaker: John Lynch
+  poster_sessions:
+  - 18:00-19:00 ET = 22:00-23:00 UTC
   is_spotlight: false
   subject_areas:
   - Unsupervised and semi-supervised learning
@@ -3678,6 +3861,8 @@
   cmt_id: 148
   slideslive_id: '38960317'
   slideslive_speaker: Hasan Yilmaz
+  poster_sessions:
+  - 10:30-11:30 ET = 14:30-15:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy

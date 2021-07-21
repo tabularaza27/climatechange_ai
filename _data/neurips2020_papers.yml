@@ -281,7 +281,7 @@
   - Uncertainty quantification and robustness
   condensed_subject_areas:
   - Power and energy
-  - Climate and earth science
+  - Climate and Earth science
   - Causal and Bayesian methods
   - Uncertainty quantification and robustness
 - paper_title: Deep Learning for Climate Model Output Statistics
@@ -327,7 +327,7 @@
   - Climate and earth science
   - Classification, regression, and supervised learning
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning
 - paper_title: A Temporally Consistent Image-based Sun Tracking Algorithm for Solar
     Energy Forecasting Applications
@@ -451,7 +451,7 @@
   - Climate and earth science
   - Hybrid physical models
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Hybrid physical models
 - paper_title: Towards Tracking the Emissions of Every Power Plant on the Planet
   abstract: Greenhouse gases emitted from fossil-fuel-burning power plants are a major
@@ -582,7 +582,7 @@
   - Interpretable ML
   - Time-series analysis
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Interpretable ML
   - Time-series analysis
 - paper_title: Short-term prediction of photovoltaic power generation using Gaussian
@@ -1364,7 +1364,7 @@
   - Generative modeling
   condensed_subject_areas:
   - Computer vision and remote sensing
-  - Climate and earth science
+  - Climate and Earth science
   - Generative modeling
 - paper_title: Analyzing Sustainability Reports Using Natural Language Processing
   abstract: Climate change is a far-reaching, global phenomenon that will impact many
@@ -1447,7 +1447,7 @@
   - Climate and earth science
   - Computer vision and remote sensing
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Computer vision and remote sensing
 - paper_title: Using attention to model long-term dependencies in occupancy behavior
   abstract: Over the past years, more and more models have been published that aim
@@ -1691,7 +1691,7 @@
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Agriculture, forestry and other land use
-  - Climate and earth science
+  - Climate and Earth science
   - Ecosystems and natural resources
 - paper_title: 'RainBench: Enabling Data-Driven Precipitation Forecasting on a Global
     Scale'
@@ -1744,7 +1744,7 @@
   - Climate and earth science
   - Classification, regression, and supervised learning
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning
 - paper_title: 'Machine learning for advanced solar cell production: adversarial denoising,
     sub-pixel alignment and the digital twin'
@@ -1949,7 +1949,7 @@
   - Data mining
   condensed_subject_areas:
   - Time-series analysis
-  - Climate and earth science
+  - Climate and Earth science
   - Data mining
 - paper_title: Can Federated Learning Save The Planet ?
   abstract: Despite impressive results, deep learning-based technologies also raise
@@ -2045,7 +2045,7 @@
   - Societal adaptation
   condensed_subject_areas:
   - Computer vision and remote sensing
-  - Climate and earth science
+  - Climate and Earth science
   - Societal adaptation
 - paper_title: 'An Enriched Automated PV Registry: Combining Image Recognition and
     3D Building Data'
@@ -2212,7 +2212,7 @@
   - Generative modeling
   - Hybrid physical models
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Agriculture, forestry and other land use
   - Disaster prediction, management, and relief
   - Ecosystems and natural resources
@@ -2304,7 +2304,7 @@
   - Climate and earth science
   - Hybrid physical models
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Hybrid physical models
 - paper_title: 'OGNet: Towards a Global Oil and Gas Infrastructure Database using
     Deep Learning on Remotely Sensed Imagery'
@@ -2403,7 +2403,7 @@
   - Generative modeling
   condensed_subject_areas:
   - Computer vision and remote sensing
-  - Climate and earth science
+  - Climate and Earth science
   - Ecosystems and natural resources
   - Generative modeling
 - paper_title: A Comparison of Data-Driven Models for Predicting Stream Water Temperature
@@ -2459,7 +2459,7 @@
   - Time-series analysis
   condensed_subject_areas:
   - Ecosystems and natural resources
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning
   - Time-series analysis
 - paper_title: Automated Salmonid Counting in Sonar Data
@@ -2514,7 +2514,7 @@
   condensed_subject_areas:
   - Ecosystems and natural resources
   - Agriculture, forestry and other land use
-  - Climate and earth science
+  - Climate and Earth science
   - Industry
   - Computer vision and remote sensing
   - Time-series analysis
@@ -2561,7 +2561,7 @@
   - Classification, regression, and supervised learning
   condensed_subject_areas:
   - Computer vision and remote sensing
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning
 - paper_title: 'OfficeLearn: An OpenAI Gym Environment for Building Level Energy Demand
     Response'
@@ -2845,7 +2845,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Generative modeling
-  - Climate and earth science
+  - Climate and Earth science
 - paper_title: 'The Peruvian Amazon Forestry Dataset: A Leaf Image Classification
     Corpus'
   abstract: This paper introduces the Peruvian Amazon Forestry Dataset, which includes
@@ -3170,7 +3170,7 @@
   - Climate and earth science
   - Disaster prediction, management, and relief
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Disaster prediction, management, and relief
 - paper_title: 'ClimaText: A Dataset for Climate Change Topic Detection'
   abstract: |-
@@ -3262,7 +3262,7 @@
   - Classification, regression, and supervised learning
   - Computer vision and remote sensing
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Agriculture, forestry and other land use
   - Disaster prediction, management, and relief
   - Ecosystems and natural resources
@@ -3444,7 +3444,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Classification, regression, and supervised learning
-  - Climate and earth science
+  - Climate and Earth science
 - paper_title: 'Explaining Complex Energy Systems: A Challenge'
   abstract: Designing future low-carbon, sector-coupled energy systems is a complex
     task. The work is therefore often supported by software tools that model and optimize
@@ -3742,7 +3742,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Ecosystems and natural resources
-  - Climate and earth science
+  - Climate and Earth science
 - paper_title: 'Wildfire Smoke and Air Quality: How Machine Learning Can Guide Forest
     Management'
   abstract: Prescribed burns are currently the most effective method of reducing the
@@ -3829,7 +3829,7 @@
   - Classification, regression, and supervised learning
   - Uncertainty quantification and robustness
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning
   - Uncertainty quantification and robustness
 - paper_title: 'Towards DeepSentinel: An extensible corpus of labelled Sentinel-1
@@ -3954,7 +3954,7 @@
   - Interpretable ML
   - Time-series analysis
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Agriculture, forestry and other land use
   - Disaster prediction, management, and relief
   - Classification, regression, and supervised learning
@@ -4380,5 +4380,5 @@
   - Climate and earth science
   - Classification, regression, and supervised learning
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Classification, regression, and supervised learning

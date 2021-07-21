@@ -31,12 +31,12 @@ end
 #  cmt_to_speaker[row[0].to_i] = row[3].strip
 #end
 
-#sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
-#
-#cmt_ids_to_sessions = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
-#  sessions = row['Which poster session(s) will you present at?'].to_s.gsub(/\s\([^\)]+\)/, '').split(", ")
-#  h[row['CMT Paper ID'].to_i] = sessions
-#end
+sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
+
+cmt_to_session = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
+  sessions = row['Assigned Session'].to_s.strip
+  h[row['CMT Paper ID'].to_i] = sessions
+end
 
 papers = []
 export = Roo::Excel2003XML.new(submissions)
@@ -75,11 +75,15 @@ parsed.each do |p|
 
   paper_data['cmt_id'] = cmt_id
 
-  if sl_id = cmt_to_sl_id[paper_data['cmt_id']]
+  if sl_id = cmt_to_sl_id[cmt_id]
     paper_data['slideslive_id'] = sl_id
     paper_data['slideslive_speaker'] = cmt_to_speaker[cmt_id]
   else
     puts "couldn't find slideslive for #{p['Paper Title']}"
+  end
+
+  if sess = cmt_to_session[cmt_id]
+    paper_data['poster_sessions'] = [sess]
   end
 
   paper_data['is_spotlight'] = p['Status'].include?('Spotlight')

@@ -80,7 +80,7 @@
   - Climate and earth science
   - Hydrology
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
 - id: 4
   paper_title: Learning to Focus and Track Hurricanes
   abstract: This paper tackles the task of extreme climate event tracking. We propose
@@ -108,7 +108,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Extreme weather events
-  - Climate and earth science
+  - Climate and Earth science
 - id: 5
   paper_title: 'DeepWind: Weakly Supervised Localization of Wind Turbines in Satellite
     Imagery'
@@ -163,7 +163,7 @@
   - Disaster management and relief
   - Extreme weather events
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Disaster prediction, management, and relief
   - Extreme weather events
 - id: 7
@@ -284,7 +284,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Extreme weather events
-  - Climate and earth science
+  - Climate and Earth science
 - id: 11
   paper_title: 'Cumulo: A Dataset for Learning Cloud Classes'
   abstract: One of the greatest sources of uncertainty in future climate projections
@@ -318,7 +318,7 @@
   - Data presentation and management
   award: Best Paper Award
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Data presentation and management
 - id: 12
   paper_title: Targeting Buildings for Energy Retrofit Using Recurrent Neural Networks
@@ -372,7 +372,7 @@
   - Climate and earth science
   - Data presentation and management
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Data presentation and management
 - id: 14
   paper_title: Background noise trends and the detection of calving events in a glacial
@@ -399,7 +399,7 @@
   subject_areas:
   - Climate and earth science
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
 - id: 15
   paper_title: Reducing Inefficiency in Carbon Auctions with Imperfect Competition
   abstract: 'We study auctions for carbon licenses, a policy tool used to control
@@ -584,7 +584,7 @@
   subject_areas:
   - Climate and earth science
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
 - id: 21
   paper_title: 'DeepClimGAN: A High-Resolution Climate Data Generator'
   abstract: Earth system models (ESMs), which simulate the physics and chemistry of
@@ -612,7 +612,7 @@
   - Climate and earth science
   - Extreme weather events
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Extreme weather events
 - id: 22
   paper_title: Quantifying the Carbon Emissions of Machine Learning
@@ -672,7 +672,7 @@
   award: Honorable Mention
   condensed_subject_areas:
   - Agriculture, forestry and other land use
-  - Climate and earth science
+  - Climate and Earth science
 - id: 24
   paper_title: A Global Census of Solar Facilities Using Deep Learning and Remote
     Sensing
@@ -730,7 +730,7 @@
   - Climate and earth science
   - Extreme weather events
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Extreme weather events
 - id: 26
   paper_title: Enhancing Stratospheric Weather Analyses and Forecasts by Deploying
@@ -760,7 +760,7 @@
   subject_areas:
   - Climate and earth science
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
 - id: 27
   paper_title: Automatic data cleaning via tensor factorization for large urban environmental
     sensor networks
@@ -852,7 +852,7 @@
   - Climate and earth science
   - Ecosystems and natural resources
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Ecosystems and natural resources
 - id: 30
   paper_title: Detecting Avalanche Deposits using Variational Autoencoder on Sentinel-1
@@ -893,7 +893,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Extreme weather events
-  - Climate and earth science
+  - Climate and Earth science
 - id: 31
   paper_title: Fine-Grained Distribution Grid Mapping Using Street View Imagery
   abstract: Fine-grained distribution grid mapping is essential for power system operation
@@ -1131,7 +1131,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Ecosystems and natural resources
-  - Climate and earth science
+  - Climate and Earth science
 - id: 39
   paper_title: Emulating Numeric Hydroclimate Models with Physics-Informed cGANs
   abstract: Process-based numerical simulations, including those for climate modeling
@@ -1170,7 +1170,7 @@
   award: Honorable Mention
   condensed_subject_areas:
   - Ecosystems and natural resources
-  - Climate and earth science
+  - Climate and Earth science
 - id: 40
   paper_title: Forecasting El Niño with Convolutional and Recurrent Neural Networks
   abstract: The El Niño Southern Oscillation (ENSO) is the dominant mode of variability
@@ -1201,7 +1201,7 @@
   - Climate and earth science
   - Forecasting
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Forecasting
 - id: 41
   paper_title: Deep learning predictions of sand dune migration
@@ -1233,7 +1233,7 @@
   - Climate and earth science
   - Extreme weather events
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Extreme weather events
 - id: 42
   paper_title: Predictive Inference of a Wildfire Risk Pipeline in the United States
@@ -1293,7 +1293,7 @@
   - Data presentation and management
   - Ecosystems and natural resources
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Data presentation and management
   - Ecosystems and natural resources
 - id: 44
@@ -1353,7 +1353,7 @@
   - Climate and earth science
   condensed_subject_areas:
   - Extreme weather events
-  - Climate and earth science
+  - Climate and Earth science
 - id: 46
   paper_title: Autonomous Sensing and Scientific Machine Learning for Monitoring Greenhouse
     Gas Emissions
@@ -1387,7 +1387,7 @@
   - Climate and earth science
   - Ecosystems and natural resources
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Ecosystems and natural resources
 - id: 47
   paper_title: Optimizing trees for carbon sequestration
@@ -1451,7 +1451,7 @@
   - Climate and earth science
   - Extreme weather events
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
   - Extreme weather events
 - id: 49
   paper_title: Towards self-adaptive building energy control in smart grids
@@ -1498,7 +1498,7 @@
   subject_areas:
   - Climate and earth science
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
 - id: 51
   paper_title: 'GeoLabels: Towards Efficient Ecosystem Monitoring using Data Programming
     on Geospatial Information'
@@ -1549,4 +1549,4 @@
   subject_areas:
   - Climate and earth science
   condensed_subject_areas:
-  - Climate and earth science
+  - Climate and Earth science
