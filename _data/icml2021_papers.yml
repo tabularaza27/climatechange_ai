@@ -1872,7 +1872,7 @@
   slides_path: "/papers/icml2021/42/slides.pdf"
   condensed_subject_areas:
   - Classification, regression, and supervised learning
-- paper_title: Self-supervised Contrastive Learning for Irrigation Detectionin Satellite
+- paper_title: Self-supervised Contrastive Learning for Irrigation Detection in Satellite
     Imagery
   abstract: Climate  change  has  caused  reductions  in  river runoffs and aquifer
     recharge resulting in an increasingly unsustainable crop water demand from reduced
