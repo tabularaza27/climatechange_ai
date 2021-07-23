@@ -1,5 +1,9 @@
 ---
 - desc: Opening Remarks
+  more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> 
+    on the day of the workshop. Registered participants can also ask questions via the 
+    <a href="https://chat.icml.cc/channel/tackling-climate-change-with-machine-learning-16" target="_blank">ICML 2021 Rocket.Chat</a> (channel: #tackling-climate-change-with-machine-learning-16).
   utc1:
     year: 2021
     month: 7
@@ -14,6 +18,8 @@
     minute: 15
 - desc: '<a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sassefa" target="_blank">Solomon Assefa</a>: Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing <i>(Invited Talk)</i>'
   more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> on the day of the workshop.
+
     <p><strong>Speaker:</strong> Solomon Assefa, IBM Research</p>
 
     <p><strong>Title:</strong> Addressing Enterprise Decarbonization and Climate Resiliency Goals with Advances in AI, Cloud, and Quantum Computing</p>
@@ -44,6 +50,8 @@
     hour: 13
     minute: 0
 - desc: Spotlight Presentations
+  more: |-
+    Tune in for talks from selected poster presenters via the <a href="/icml2021_livestream" target="_blank">livestream</a>.
   subrows:
       - paper_id: 11
       - paper_id: 75
@@ -81,6 +89,10 @@
         <li><a href="https://www.linkedin.com/in/rosanaogomes/?originalSubdomain=de" target="_blank">Rosana de Oliveira Gomes</a>, Omdena</li>
         <li><a href="http://andrewzolli.com/about-me/" target="_blank">Andrew Zolli</a>, Planet Labs</li>
       </ul>
+
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> 
+    on the day of the workshop. Registered participants can also ask questions via the 
+    <a href="https://chat.icml.cc/channel/tackling-climate-change-with-machine-learning-16" target="_blank">ICML 2021 Rocket.Chat</a> (channel: #tackling-climate-change-with-machine-learning-16).
 - desc: "Poster Session 1 (<a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a>; registration required)"
   utc1:
     year: 2021
@@ -97,6 +109,8 @@
   more: replace_with_papers_in_session|14:30-15:30 UTC
 - desc: '<a href="https://shakirm.com/" target="_blank">Shakir Mohamed</a>: Harnessing Machine Learning to Achieve Net Zero <i>(Invited Talk)</i>'
   more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> on the day of the workshop.
+
     <p><strong>Speaker:</strong> Shakir Mohamed, DeepMind</p>
 
     <p><strong>Title:</strong> Harnessing Machine Learning to Achieve Net Zero</p>
@@ -117,6 +131,8 @@
     hour: 16
     minute: 15
 - desc: Spotlight Presentations
+  more: |-
+    Tune in for talks from selected poster presenters via the <a href="/icml2021_livestream" target="_blank">livestream</a>.
   subrows:
         - paper_id: 28
         - paper_id: 76
@@ -156,6 +172,10 @@
         <li><a href="https://www.mcgill.ca/biology/catherine-potvin" target="_blank">Catherine Potvin</a>, McGill University</li>
         <li><a href="https://idss.mit.edu/staff/cathy-wu/" target="_blank">Cathy Wu</a>, MIT</li>
       </ul>
+
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> 
+    on the day of the workshop. Registered participants can also ask questions via the 
+    <a href="https://chat.icml.cc/channel/tackling-climate-change-with-machine-learning-16" target="_blank">ICML 2021 Rocket.Chat</a> (channel: #tackling-climate-change-with-machine-learning-16).
 - desc: "Poster Session 2 (<a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a>; registration required)"
   utc1:
     year: 2021
@@ -184,6 +204,8 @@
     hour: 20
     minute: 0
   more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> on the day of the workshop.
+
     <p><strong>Speaker:</strong> Kate Marvel, NASA, Columbia University</p>
 
     <p><strong>Title:</strong> Using machine learning to understand present and future climate changes: an invitation</p>
@@ -192,6 +214,8 @@
 
     <p><strong>Bio:</strong> Dr. Marvel uses climate models, observations, paleoclimate reconstructions, and basic theory to study climate change.  Her work has identified human influences on present-day cloud cover, rainfall patterns, and drought risk.  She is also interested in future climate changes, particularly climate feedback processes and the planet's sensitivity to increased carbon dioxide.  Dr. Marvel teaches in Columbia's MA in Climate and Society Program and writes the "Hot Planet" column for Scientific American.  Named one of "15 Women Who Will Save the World" by Time Magazine, she has been profiled by the New York Times and Rolling Stone, and her 2017 TED talk has been viewed over one million times.  Before becoming a climate scientist, she received a PhD in theoretical particle physics from Cambridge University, where she was a Gates scholar.</p>
 - desc: Spotlight Presentations
+  more: |-
+    Tune in for talks from selected poster presenters via the <a href="/icml2021_livestream" target="_blank">livestream</a>.
   subrows:
         - paper_id: 81
         - paper_id: 83
@@ -224,6 +248,8 @@
     hour: 21
     minute: 45
   more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> on the day of the workshop.
+
     <p><strong>Speaker:</strong> Draguna Vrabie, PNNL</p>
 
     <p><strong>Title:</strong> Differentiable Predictive Control</p>
@@ -232,6 +258,8 @@
 
     <p><strong>Bio:</strong> Draguna Vrabie is a chief data scientist in the Data Sciences and Machine Intelligence Group at Pacific Northwest National Laboratory. She serves as Team Lead for the Autonomous Learning and Reasoning Team. At the intersection of control system theory and machine learning, her work is on the design of adaptive decision and control systems. Her current focus is on deep learning methodologies and algorithms for high-performance cyber-physical systems. Before joining PNNL in 2015, she was a senior scientist at United Technologies Research Center, East Hartford, Connecticut.  Vrabie holds a doctorate in electrical engineering from the University of Texas at Arlington and an ME and BE in automatic control and computer engineering from Gheorghe Asachi Technical University, Iaşi, Romania.</p>
 - desc: Closing remarks and awards
+  more: |-
+    Tune in via the <a href="/icml2021_livestream" target="_blank">livestream</a> on the day of the workshop.
   utc1:
     year: 2021
     month: 7
@@ -258,7 +286,7 @@
     hour: 23
     minute: 0
   more: replace_with_papers_in_session|22:00-23:00 UTC
-- desc: Gather.town networking
+- desc: "Gather.town networking (<a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a>; registration required)"
   utc1:
     year: 2021
     month: 7
