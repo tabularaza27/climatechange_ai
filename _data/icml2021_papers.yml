@@ -484,6 +484,7 @@
   - Climate Change and Health
 - paper_title: Physics-Informed Graph Neural Networks for Robust Fault Location in
     Power Grids
+  award: "Best Paper: ML Innovation"
   abstract: 'The reducing cost of renewable energy resources, such as solar photovoltaics
     (PV) and wind farms, is accelerating global energy transformation to mitigate
     climate change. However, a high level of intermittent renewable energy causes
@@ -2244,6 +2245,7 @@
   - Classification, regression, and supervised learning
   - Time-series analysis
 - paper_title: Toward efficient calibration of higher-resolution Earth System Models
+  award: "Best Paper: Pathway to Impact"
   abstract: 'Projections of future climate change to support decision-making require
     high spatial resolution, but this is computationally prohibitive with modern Earth
     system models (ESMs). A major challenge is the calibration (parameter tuning)
@@ -3594,6 +3596,7 @@
   - Power and energy
 - paper_title: On the Role of Spatial Clustering Algorithms in Building Species Distribution
     Models from Community Science Data
+  award: "Best Paper: Proposals"
   abstract: This paper discusses opportunities for developments in spatial clustering
     methods to help leverage broad scale community science data for building species
     distribution models (SDMs). SDMs are tools that inform the science and policy
