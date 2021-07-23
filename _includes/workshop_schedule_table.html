@@ -47,6 +47,14 @@
               {% if r.more contains "replace_with_papers_in_session" %}
                 {% assign session = r.more | split: "|" | last %}
                 {% assign tracks = "Papers Proposals" | split: " " %}
+                <p>Joining info (registration required):</p>
+                <ul>
+                <li>Main lobby (experiencing technical difficulties): <a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a></li>
+                <li>Posters 1-22: <a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a></li>
+                <li>Posters 23-44: <a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a></li>
+                <li>Posters 45-66: <a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a></li>
+                <li>Posters 67-89: <a href='https://tinyurl.com/CCAIICML2021-Poster-Session' target='_blank'>Join here</a></li>
+                </ul>
                 <p>Posters presented in this slot are listed below.</p>
                 {% for track in tracks %}
                   <p>{{track}} track:</p>
