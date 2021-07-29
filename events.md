@@ -10,7 +10,6 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 ## Upcoming Events
 
-* [ICML 2021](/events/icml2021) workshop -- July 23, 2021, virtual
 * [Webinars](/webinars) -- once a month, virtual
 * [Happy Hours](/events/happy_hour) -- every two weeks, virtual
 
@@ -18,6 +17,7 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 See also a [searchable list of workshop papers](/papers) from our past events.
 
+* [ICML 2021](/events/icml2021) workshop -- July 23, 2021, virtual
 * [NeurIPS 2020](/events/neurips2020) workshop -- December 11, 2020, virtual
 * [TEDx Countdown](/events/tedx) -- Oct 17, 2020, virtual
 * [ICLR 2020](/events/iclr2020) workshop -- April 26, 2020, virtual
