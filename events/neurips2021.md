@@ -13,7 +13,7 @@ og_image_height: 1424
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
   <a class='button' href='#informational-webinar'>Informational Webinar</a>
-  <a class='button' href='#call-for-submissions'><s>Call for Submissions</s></a>
+  <a class='button' href='#call-for-submissions'>Call for Submissions</a>
   <a class='button' href='#mentorship-program'>Mentorship Program</a>
   <a class='button' href='#organizers'>Organizers</a>
   <a class='button' href='#frequently-asked-questions'>FAQ</a>
@@ -51,9 +51,9 @@ This workshop is part of the International Conference on Machine Learning (ICML)
 
 We will be holding two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. (The content for both the webinars will be the same.)
 
-[Register here]() to attend the webinar on **Aug 10** from 10am-11am Eastern Time | 2pm-3pm UTC.
+[Register here](https://videoconf-colibri.zoom.us/j/87277731292) to attend the webinar on **Aug 10** from 10am-11am Eastern Time | 2pm-3pm UTC.
 
-[Register here]() to attend the webinar on **Aug 11** from 2pm-3pm Eastern Time | 6pm-7pm UTC.
+[Register here](https://videoconf-colibri.zoom.us/j/85650705922) to attend the webinar on **Aug 11** from 2pm-3pm Eastern Time | 6pm-7pm UTC.
 
 ## Organizers
 
