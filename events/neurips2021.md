@@ -13,7 +13,7 @@ og_image_height: 1424
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
   <a class='button' href='#informational-webinar'>Informational Webinar</a>
-  <a class='button' href='#call-for-submissions'>Call for Submissions</a>
+  <a class='button' href='#call-for-submissions'><s>Call for Submissions</s></a>
   <a class='button' href='#mentorship-program'>Mentorship Program</a>
   <a class='button' href='#organizers'>Organizers</a>
   <a class='button' href='#frequently-asked-questions'>FAQ</a>
@@ -36,14 +36,16 @@ This workshop is part of the International Conference on Machine Learning (ICML)
 <li>Date: Dec 13 or 14 (TBD)</li>
 <li>Location: Virtual</li>
 <li>[Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE</b></li>
-<li>Mentor-Mentee match notification: Aug 18, 23:59 AOE</li>
+<li>Application to be a mentee: https://cmt3.research.microsoft.com/CCAIMNeurIPS2021</li>
+<li>Application to be a mentor: https://forms.gle/49Lmr8Uk2iWWBNF99
 <li>Tutorials submission deadline: <b>Aug 15, 23:59 AOE</b></li>
-<li>Tutorials application form: <https://forms.gle/wMkXSVnqxamJ5s7g8></li>
-<li>Notification of accepted tutorials: Aug 22</li>
+<li>Tutorials application form: https://forms.gle/wMkXSVnqxamJ5s7g8</li>
+<li>Mentor-Mentee match notification: Aug 18, 23:59 AOE</li>
+<li>Notification of accepted tutorials: Aug 22, 23:59 AOE</li>
 <li>Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b></li>
-<li>Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021></li>
+<li>Paper/Proposal submission website: https://cmt3.research.microsoft.com/CCAINeurIPS2021</li>
 <li>Notification of accepted papers/proposals: Oct 23</li>
-<li>Contact: <climatechangeai.neurips2021@gmail.com></li>
+<li>Contact: climatechangeai.neurips2021@gmail.com</li>
 </ul>
 
 
