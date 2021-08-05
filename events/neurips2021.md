@@ -38,13 +38,13 @@ This workshop is part of the International Conference on Machine Learning (ICML)
 - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
 - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
 - Tutorial proposal submission deadline: <b>Aug 15, 23:59 AOE</b>
-- Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8></li>
-- Mentor-Mentee match notification: Aug 18, 23:59 AOE</li>
-- Notification of accepted tutorials: Aug 22, 23:59 AOE</li>
-- Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b></li>
-- Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021></li>
-- Notification of accepted papers/proposals: Oct 23</li>
-- Contact: <climatechangeai.neurips2021@gmail.com></li>
+- Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
+- Mentor-Mentee match notification: Aug 18, 23:59 AOE
+- Notification of accepted tutorials: Aug 22, 23:59 AOE
+- Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b>
+- Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
+- Notification of accepted papers/proposals: Oct 23
+- Contact: <climatechangeai.neurips2021@gmail.com>
 
 
 ## Informational Webinar
