@@ -36,16 +36,16 @@ This workshop is part of the International Conference on Machine Learning (ICML)
 <li>Date: Dec 6-14 (TBD)</li>
 <li>Location: Virtual</li>
 <li>[Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE</b></li>
-<li>Application to be a mentee: https://cmt3.research.microsoft.com/CCAIMNeurIPS2021</li>
-<li>Application to be a mentor: https://forms.gle/49Lmr8Uk2iWWBNF99
+<li>Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021></li>
+<li>Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
 <li>Tutorial proposal submission deadline: <b>Aug 15, 23:59 AOE</b></li>
-<li>Tutorial application form: https://forms.gle/wMkXSVnqxamJ5s7g8</li>
+<li>Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8></li>
 <li>Mentor-Mentee match notification: Aug 18, 23:59 AOE</li>
 <li>Notification of accepted tutorials: Aug 22, 23:59 AOE</li>
 <li>Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b></li>
-<li>Paper/Proposal submission website: https://cmt3.research.microsoft.com/CCAINeurIPS2021</li>
+<li>Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021></li>
 <li>Notification of accepted papers/proposals: Oct 23</li>
-<li>Contact: climatechangeai.neurips2021@gmail.com</li>
+<li>Contact: <climatechangeai.neurips2021@gmail.com></li>
 </ul>
 
 
