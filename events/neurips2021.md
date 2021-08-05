@@ -89,7 +89,7 @@ The workshop does not publish proceedings, and submissions are non-archival. Sub
 
 All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. We encourage, but do not require, use of the [NeurIPS style template](https://neurips.cc/Conferences/2021/PaperInformation/StyleFiles).
 
-All **tutorials** submissions must be through the [application form](https://forms.gle/wMkXSVnqxamJ5s7g8).
+All **tutorials** submissions must be through this [application form](https://forms.gle/wMkXSVnqxamJ5s7g8).
 
 Please see the [Tips for Submissions](#tips-for-submissions) and [FAQ](#frequently-asked-questions), and contact <climatechangeai.neurips2021@gmail.com> with questions.
 
