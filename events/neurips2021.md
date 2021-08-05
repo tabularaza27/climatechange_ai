@@ -28,22 +28,22 @@ This workshop is part of a series ([ICML 2021](https://www.climatechange.ai/even
 
 ### About NeurIPS
 
-This workshop is part of the International Conference on Machine Learning (ICML), one of the premier conferences on machine learning. To attend the workshop, register for the Workshops component of NeurIPS at https://neurips.cc/Register/view-registration (registration opens Sep 14). The workshop is open to the public; it is not necessary to submit to the workshop in order to attend.
+This workshop is part of the International Conference on Machine Learning (ICML), one of the premier conferences on machine learning. To attend the workshop, register for the Workshops component of NeurIPS at <https://neurips.cc/Register/view-registration> (registration opens Sep 14). The workshop is open to the public; it is not necessary to submit to the workshop in order to attend.
 
 ### About the Workshop
 
 - Date: Dec 6-14 (TBD)
 - Location: Virtual
 - [Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE</b>
-- Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
-- Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
+-- Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
+-- Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
+-- Mentor-Mentee match notification: Aug 18, 23:59 AOE
 - Tutorial proposal submission deadline: <b>Aug 15, 23:59 AOE</b>
-- Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
-- Mentor-Mentee match notification: Aug 18, 23:59 AOE
-- Notification of accepted tutorials: Aug 22, 23:59 AOE
+-- Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
+-- Notification of accepted tutorials: Aug 22, 23:59 AOE
 - Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b>
-- Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
-- Notification of accepted papers/proposals: Oct 23
+-- Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
+-- Notification of accepted papers/proposals: Oct 23
 - Contact: <climatechangeai.neurips2021@gmail.com>
 
 
