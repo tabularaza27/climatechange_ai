@@ -34,7 +34,7 @@ This workshop is part of the International Conference on Machine Learning (ICML)
 
 - Date: Dec 6-14 (TBD)
 - Location: Virtual
-- [Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE</b>
+- [Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE (Anywhere on Earth)</b>
 -- Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
 -- Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
 -- Mentor-Mentee match notification: Aug 18, 23:59 AOE
