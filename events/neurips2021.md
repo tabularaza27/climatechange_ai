@@ -41,7 +41,7 @@ This workshop is part of the conference on Neural Information Processing Systems
 - Tutorial proposal submission deadline: <b>Aug 15, 23:59 AOE</b>
   - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
   - Notification of accepted tutorials: Aug 22, 23:59 AOE
-- Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b>
+- Paper/Proposal submission deadline: <b>Sep 18, 07:00 AM UTC</b>
   - Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
   - Notification of accepted papers/proposals: Oct 23
 - Contact: <climatechangeai.neurips2021@gmail.com>
