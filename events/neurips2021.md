@@ -28,7 +28,7 @@ This workshop is part of a series ([ICML 2021](https://www.climatechange.ai/even
 
 ### About NeurIPS
 
-This workshop is part of the International Conference on Machine Learning (ICML), one of the premier conferences on machine learning. To attend the workshop, register for the Workshops component of NeurIPS at <https://neurips.cc/Register/view-registration> (registration opens Sep 14). The workshop is open to the public; it is not necessary to submit to the workshop in order to attend.
+This workshop is part of the conference on Neural Information Processing Systems (NeurIPS), one of the premier conferences on machine learning. To attend the workshop, register for the Workshops component of NeurIPS at <https://neurips.cc/Register/view-registration> (registration opens Sep 14). The workshop is open to the public; it is not necessary to submit to the workshop in order to attend.
 
 ### About the Workshop
 
