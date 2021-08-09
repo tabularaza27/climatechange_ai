@@ -9,10 +9,10 @@
       roles:
         - CCAI Chair
         - Power & Energy Lead
-    - website_url: https://epg.ethz.ch/people/senior-researchers/dr--lynn-kaack.html
+    - website_url: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/kaack
       image_url: images/people/lynnkaack_400x400.jpg
       name: Lynn H. Kaack
-      affiliation: ETH Zürich
+      affiliation: Hertie School
       roles:
         - CCAI Chair
         - Public Sector Lead
@@ -74,6 +74,12 @@
       affiliation: QuantumBlack, McKinsey
       roles:
         - Industry Events
+    - image_url: images/people/simonefobi_400x400.jpg
+      website_url: https://nsutezo.github.io
+      name: Simone Fobi
+      affiliation: Columbia University
+      roles:
+        - Data Lead
     - website_url: https://www.linkedin.com/in/meareg-a-hailemariam/
       image_url: images/people/meareghailemariam_400x400.jpg
       name: Meareg Hailemariam
@@ -129,7 +135,7 @@
     - website_url: https://www.sites.google.com/view/peetak
       image_url: images/people/peetakmitra_400x400.jpg
       name: Peetak P. Mitra
-      affiliation: University of Massachusetts
+      affiliation: Palo Alto Research Center
       roles:
         - Newsletter
     - website_url: https://www.microsoft.com/en-us/research/people/juoviedo/
