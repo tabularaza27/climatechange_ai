@@ -246,3 +246,11 @@
       image_url: images/people/craigsmith_400x400.jpg
       name: Craig Smith
       affiliation: Eye on AI
+    - name: Catherine Nakalembe
+      affiliation: University of Maryland
+      website_url: https://geog.umd.edu/facultyprofile/nakalembe/catherine
+      image_url: images/people/catherinenakalembe_400x400.jpg
+    - name: Claire Monteleoni
+      affiliation: CU Boulder
+      website_url: https://www.colorado.edu/faculty/claire-monteleoni/
+      image_url: images/people/clairemonteleoni_400x400.jpg
