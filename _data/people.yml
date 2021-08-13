@@ -198,6 +198,10 @@
 - group: 'Advisors'
   anchor: 'advisors'
   members:
+    - name: Inês Azevedo
+      website_url: https://ines.stanford.edu
+      image_url: images/people/inesazevedo_400x400.jpg
+      affiliation: Stanford University
     - website_url: https://mila.quebec/en/yoshua-bengio/
       image_url: images/people/yb_400x400.jpg
       name: Yoshua Bengio
@@ -210,34 +214,38 @@
       image_url: images/people/felixcreuzig_400x400.jpg
       name: Felix Creutzig
       affiliation: MCC Berlin, TU Berlin
-    - website_url: https://ai.google/research/people/JohnPlatt
-      image_url: images/people/johnplatt_400x400.jpg
-      name: John C. Platt
-      affiliation: Google AI
-    - website_url: https://deepmind.com/
-      image_url: images/people/Demis_Hassabis_400x400.jpg
-      name: Demis Hassabis
-      affiliation: DeepMind
-    - website_url: https://www.andrewng.org/
-      image_url: images/people/andrewng_400x400.jpg
-      name: Andrew Y. Ng
-      affiliation: Stanford University
     - website_url: https://www.cs.cornell.edu/gomes/
       image_url: images/people/carlagomes_400x400.jpg
       name: Carla Gomes
       affiliation: Cornell University
-    - website_url: http://koerding.com/
-      image_url: images/people/konradkording_400x400.jpg
-      name: Konrad P. Körding
-      affiliation: University of Pennsylvania
+    - website_url: https://deepmind.com/
+      image_url: images/people/Demis_Hassabis_400x400.jpg
+      name: Demis Hassabis
+      affiliation: DeepMind
     - name: Zico Kolter
       website_url: http://zicokolter.com/
       image_url: images/people/zicokolter_400x400.jpg
       affiliation: Carnegie Mellon
-    - name: Inês Azevedo
-      website_url: https://ines.stanford.edu
-      image_url: images/people/inesazevedo_400x400.jpg
+    - website_url: http://koerding.com/
+      image_url: images/people/konradkording_400x400.jpg
+      name: Konrad P. Körding
+      affiliation: University of Pennsylvania
+    - name: Claire Monteleoni
+      affiliation: CU Boulder
+      website_url: https://www.colorado.edu/faculty/claire-monteleoni/
+      image_url: images/people/clairemonteleoni_400x400.jpg
+    - name: Catherine Nakalembe
+      affiliation: University of Maryland
+      website_url: https://geog.umd.edu/facultyprofile/nakalembe/catherine
+      image_url: images/people/catherinenakalembe_400x400.jpg
+    - website_url: https://www.andrewng.org/
+      image_url: images/people/andrewng_400x400.jpg
+      name: Andrew Y. Ng
       affiliation: Stanford University
+    - website_url: https://ai.google/research/people/JohnPlatt
+      image_url: images/people/johnplatt_400x400.jpg
+      name: John C. Platt
+      affiliation: Google AI
     - name: Tobias Schmidt
       website_url: https://epg.ethz.ch/people/group-head/prof--dr--tobias-schmidt.html
       image_url: images/people/tobiasschmidt_400x400.jpg
@@ -246,11 +254,3 @@
       image_url: images/people/craigsmith_400x400.jpg
       name: Craig Smith
       affiliation: Eye on AI
-    - name: Catherine Nakalembe
-      affiliation: University of Maryland
-      website_url: https://geog.umd.edu/facultyprofile/nakalembe/catherine
-      image_url: images/people/catherinenakalembe_400x400.jpg
-    - name: Claire Monteleoni
-      affiliation: CU Boulder
-      website_url: https://www.colorado.edu/faculty/claire-monteleoni/
-      image_url: images/people/clairemonteleoni_400x400.jpg
