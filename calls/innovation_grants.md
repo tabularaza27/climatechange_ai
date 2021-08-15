@@ -62,7 +62,7 @@ We do not fund research activity that is under consideration of other grant prog
 | Award start date             | Jan 10, 2022 |
 |	Award end date               | Jan 10, 2023 |
 
-# Selection criteria
+## Selection criteria
 
 Proposals will be reviewed through a single-blind process by independent reviewers.
 
