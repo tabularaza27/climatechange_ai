@@ -34,10 +34,10 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 - Date: Dec 6-14 (TBD)
 - Location: Virtual
-- [Mentorship program](#mentorship-program) application deadline: <b>Aug 15, 23:59 AOE (Anywhere on Earth)</b>
+- [Mentorship program](#mentorship-program) application deadline: <b>Aug 16, 23:59 AOE (Anywhere on Earth)</b>
   - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
   - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
-  - Mentor-Mentee match notification: Aug 18, 23:59 AOE
+  - Mentor-Mentee match notification: Aug 19, 23:59 AOE
 - Tutorial proposal submission deadline: <b>Aug 15, 23:59 AOE</b>
   - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
   - Notification of accepted tutorials: Aug 22, 23:59 AOE
@@ -154,13 +154,13 @@ Examples of mentor-mentee interactions may include:
 
 Mentees are expected to initiate contact with their assigned mentor and put in the work and effort necessary to prepare a Paper or Proposal submission by Sep 18.
 
-We suggest that after the mentor-mentee matching is made, a first (physical or digital) meeting should take place within the first week (Aug 18-25) to discuss the Paper or Proposal and set expectations for the mentorship period. Subsequent interactions can take place either through meetings or via email discussions, following the expectations set during the initial meeting, culminating in a final version of a Paper or Proposal submitted via the CMT portal by Sep 18.
+We suggest that after the mentor-mentee matching is made, a first (physical or digital) meeting should take place within the first week (Aug 19-25) to discuss the Paper or Proposal and set expectations for the mentorship period. Subsequent interactions can take place either through meetings or via email discussions, following the expectations set during the initial meeting, culminating in a final version of a Paper or Proposal submitted via the CMT portal by Sep 18.
 
 Mentors and mentees must abide by the following Code of Conduct: <https://www.climatechange.ai/code_of_conduct>.
 
 ### Application
 
-Applications are due by **Aug 15**.
+Applications are due by **Aug 16**.
 - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
 - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
 
