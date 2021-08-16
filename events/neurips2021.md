@@ -49,10 +49,7 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 ## Informational Webinar
 
-We will be holding two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. (The content for both the webinars will be the same.)
-
-[Register here](https://columbiauniversity.zoom.us/meeting/register/tJMvceqvrjkiGdduuI_GBjO7gMD2hd0NlK4V) to attend the webinar on **Aug 10** from 10am-11am Eastern Time (2pm-3pm UTC).<br>
-[Register here](https://columbiauniversity.zoom.us/meeting/register/tJ0kdeihpjwrGdZ0CJbBLlQbiwesJJWjZxWi) to attend the webinar on **Aug 11** from 2pm-3pm Eastern Time (6pm-7pm UTC).<br>
+We recently conducted two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. The video recording of the Aug 11 webinar can be found [here](https://www.youtube.com/watch?v=jBPG2PCshSM).
 
 ## Organizers
 
