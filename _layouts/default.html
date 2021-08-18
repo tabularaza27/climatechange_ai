@@ -33,20 +33,22 @@
 
     {% if page.paper_index %}
       {% assign paper = site.data[page.workshop_key][page.paper_index] %}
-      {% assign authors = paper.author_names | remove: "*" | split: "; " %}
-      {% for w in site.data.workshops %}
-        {% if page.workshop_key == w.papers %}
-          {% assign workshop = w %}
-        {% endif %}
-      {% endfor %}
-      <meta property="citation_title" content="{{paper.paper_title}}">
-      {% for author in authors %}
-        <meta property="citation_author" content="{{author}}">
-      {% endfor %}
-      <meta property="citation_conference_title" content="{{workshop.conference_title}}">
-      <meta property="citation_publication_date" content="{{workshop.date}}">
-      <meta property="citation_pdf_url" content="https://www.climatechange.ai{{paper.paper_path}}">
-      <meta property="citation_publisher" content="Climate Change AI">
+      {% if paper.paper_path %}
+        {% assign authors = paper.author_names | remove: "*" | split: "; " %}
+        {% for w in site.data.workshops %}
+          {% if page.workshop_key == w.papers %}
+            {% assign workshop = w %}
+          {% endif %}
+        {% endfor %}
+        <meta property="citation_title" content="{{paper.paper_title}}">
+        {% for author in authors %}
+          <meta property="citation_author" content="{{author}}">
+        {% endfor %}
+        <meta property="citation_conference_title" content="{{workshop.conference_title}}">
+        <meta property="citation_publication_date" content="{{workshop.date}}">
+        <meta property="citation_pdf_url" content="https://www.climatechange.ai{{paper.paper_path}}">
+        <meta property="citation_publisher" content="Climate Change AI">
+      {% endif %}
     {% endif %}
 
     <meta property="og:type" content="website">
