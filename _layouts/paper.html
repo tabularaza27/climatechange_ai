@@ -78,11 +78,23 @@ layout: default
     $(document).ready(() => {
       const workshop = {{ workshop | jsonify }};
       const paper = {{ p | jsonify }};
-      const authors = paper.author_names.replace('*', '').split('; ');
+      let authors;
+      if (paper.author_names) {
+        authors = paper.author_names.replace('*', '').split('; ');
+      } else {
+        authors = paper.authors.replace('*', '').split('; ');
+        authors = authors.map(a => a.split(' (')[0]);
+        authors = authors.map(a => {
+          const parts = a.split(/\s+/);
+          const lastName = parts[parts.length-1];
+          const initNames = parts.slice(0,parts.length-1);
+          return `${lastName}, ${initNames.join(' ')}`;
+        });
+      }
       const year = workshop.date.split('/')[0];
 
       const firstAuthor = authors[0].split(', ')[0];
-      const firstWord = paper.paper_title.split(' ')[0];
+      const firstWord = paper.paper_title.split(' ')[0].replace(/[^\w]/g, '');
       const label = `${firstAuthor}${year}${firstWord}`.toLowerCase();
 
       let bibtex = `@inproceedings{${label},\n`;
