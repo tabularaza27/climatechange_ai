@@ -1,18 +1,7 @@
-# Call for Proposals: Climate Change AI Innovation Grants
+<h1>Call for Proposals:<br>Climate Change AI Innovation Grants</h1>
 
-Jump to:
-<ul id='jump-to-nav'>
-</ul>
-
-<script>
-$(document).ready(() => {
-  const $nav = $('#jump-to-nav');
-
-  $('#content h2').each((i, h2) => {
-    $nav.append(`<li><a href="#${h2.id}">${h2.innerText}</a></li>`);
-  });
-});
-</script>
+<div class='buttons' id='sticky-nav'>
+</div>
 
 ## Quick facts
 * **Grant amount:** Up to USD 150K per proposal, for projects of 1 year in duration. We will award USD 1.8M in grants across all projects.
@@ -187,3 +176,67 @@ A: Climate science is the study of the environmental processes that determine pa
 Q: What is meant by AI and ML?
 A: Artificial intelligence (AI) refers to any algorithm that allows a computer to perform
 a complex task — typically, tasks such as speech, perception, and reasoning that are associated with human intelligence. Machine learning (ML) is a sub-area of AI referring to techniques whose behaviors or outcomes depend on “learning”  —  corrections or changes made as a result of seeing examples or descriptions —  rather than being hard-coded in advance.
+
+<style>
+:root {
+  --sticky-nav-height: 59px;
+}
+
+@media screen and (min-width: 651px) {
+  #sticky-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #sticky-nav {
+    top: var(--navbar-height-normal);
+  }
+
+  h1, h2, h3 {
+    scroll-margin-top: calc(var(--navbar-height-normal) + var(--sticky-nav-height));
+    scroll-snap-margin-top: calc(var(--navbar-height-normal) + var(--sticky-nav-height));
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1023px) {
+  #sticky-nav {
+    top: var(--navbar-height-mobile);
+  }
+
+  h1, h2, h3 {
+    scroll-margin-top: calc(var(--navbar-height-mobile) + var(--sticky-nav-height));
+    scroll-snap-margin-top: calc(var(--navbar-height-mobile) + var(--sticky-nav-height));
+  }
+}
+</style>
+
+<script>
+$(document).ready(() => {
+  const $stickyNav = $('#sticky-nav');
+
+  $('#content h2').each((i, h2) => {
+    $stickyNav.append(`<a class='button' href="#${h2.id}">${h2.innerText}</a>`);
+  });
+
+  document.documentElement.style.setProperty('--sticky-nav-height', `${$stickyNav.outerHeight()}px`);
+
+  $(window).on("resize orientationchange", () => {
+    document.documentElement.style.setProperty('--sticky-nav-height', `${$stickyNav.outerHeight()}px`);
+  });
+
+  // Fix an issue where the sticky nav covers the <h> element when visiting the
+  // anchor link directly from a URL
+  if ($(location.hash).length) {
+    setTimeout(() => {
+      $(location.hash)[0].scrollIntoView();
+    }, 1);
+  }
+});
+</script>
