@@ -4,15 +4,17 @@ layout: default
 
 {% assign p = site.data[page.workshop_key][page.paper_index] %}
 
+{% for w in site.data.workshops %}
+  {% if page.workshop_key == w.papers %}
+    {% assign workshop = w %}
+  {% endif %}
+{% endfor %}
+
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     <li><a href="/papers">Workshop Papers</a></li>
 
-    {% for w in site.data.workshops %}
-      {% if page.workshop_key == w.papers %}
-        <li><a href="/events/{{w.slug}}">{{w.short_name}}</a></li>
-      {% endif %}
-    {% endfor %}
+      <li><a href="/events/{{workshop.slug}}">{{workshop.short_name}}</a></li>
 
     <li class="is-active"><a href="#" aria-current="page">Paper #{{ p.id }}</a></li>
 
@@ -69,6 +71,72 @@ layout: default
   {% if p.slideslive_id or p.youtube_id %}
     <a href='#recording' class='button'>Recorded Talk</a>
   {% endif %}
+
+  <a href='javascript:void(0)' class='button' id='cite-paper'>Cite</a>
+
+  <script>
+    $(document).ready(() => {
+      const workshop = {{ workshop | jsonify }};
+      const paper = {{ p | jsonify }};
+      let authors;
+      if (paper.author_names) {
+        authors = paper.author_names.replace('*', '').split('; ');
+      } else {
+        authors = paper.authors.replace('*', '').split('; ');
+        authors = authors.map(a => a.split(' (')[0]);
+        authors = authors.map(a => {
+          const parts = a.split(/\s+/);
+          const lastName = parts[parts.length-1];
+          const initNames = parts.slice(0,parts.length-1);
+          return `${lastName}, ${initNames.join(' ')}`;
+        });
+      }
+      const year = workshop.date.split('/')[0];
+
+      const firstAuthor = authors[0].split(', ')[0];
+      const firstWord = paper.paper_title.split(' ')[0].replace(/[^\w]/g, '');
+      const label = `${firstAuthor}${year}${firstWord}`.toLowerCase();
+
+      let bibtex = `@inproceedings{${label},\n`;
+      bibtex += `  title={${paper.paper_title}},\n`;
+      bibtex += `  author={${authors.join(' and ')}},\n`;
+      bibtex += `  journal={${workshop.conference_title}},\n`;
+      bibtex += `  url={${location.href}},\n`;
+      bibtex += `  year={${year}}\n`;
+      bibtex += "}";
+
+      $('#citation').html(bibtex);
+
+      $('#cite-paper').click(() => {
+        $('#citation-modal').addClass('is-active');
+
+        if (window.getSelection) {
+          var selection = window.getSelection();
+          var range = document.createRange();
+          range.selectNodeContents(document.getElementById('citation'));
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+
+        navigator.clipboard.writeText(bibtex);
+      });
+
+      $('.modal-background, .modal-close').click(() => {
+        $('#citation-modal').removeClass('is-active');
+      });
+    });
+  </script>
+</div>
+
+<div class='modal' id='citation-modal'>
+  <div class='modal-background'></div>
+  <div class='modal-content'>
+    <div class='box'>
+      <pre id='citation'>
+      </pre>
+    </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
 </div>
 
 <h3 id='abstract' class='abstract-header'>Abstract</h3>
