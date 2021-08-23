@@ -17,15 +17,15 @@ Artificial Intelligence (AI) and machine learning (ML) can help support climate 
 
 The relationship between AI and climate change is also nuanced, and can manifest in various ways that either contribute to or counteract climate action. Thus, the use of AI for climate action must be performed responsibly, and ideally with quantifiable impacts.
 
-With the support of the [Quadrature Climate Foundation](https://quadrature.ai/foundation/) and [Schmidt Futures](https://schmidtfutures.com/), a philanthropic initiative founded by Eric and Wendy Schmidt, we are excited to announce funding of USD 1.8M for projects at the intersection of AI and climate change. We are also grateful to [Future Earth International](https://futureearth.org/) for serving as the fiscal sponsor for this program.
+With the support of the [Quadrature Climate Foundation](https://quadrature.ai/foundation/){:target="_blank"} and [Schmidt Futures](https://schmidtfutures.com/){:target="_blank"}, a philanthropic initiative founded by Eric and Wendy Schmidt, we are excited to announce funding of USD 1.8M for projects at the intersection of AI and climate change. We are also grateful to [Future Earth International](https://futureearth.org/){:target="_blank"} for serving as the fiscal sponsor for this program.
 
 ## Grant information
 
 This program will allocate grants of up to USD 150K for conducting research projects of 1 year in duration. Research projects shall leverage AI or machine learning to address problems in climate change mitigation, adaptation, or climate science, or shall consider problems related to impact assessment and governance at the intersection of climate change and machine learning.
 
-Along with the project, the grantees must publish a documented dataset (or simulator), which was created by collating, labeling, and/or annotating existing data, and/or by collecting, simulating, or otherwise making available new data that can enable further research. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable).
+Along with the project, the grantees must publish a documented dataset (or simulator), which was created by collating, labeling, and/or annotating existing data, and/or by collecting, simulating, or otherwise making available new data that can enable further research. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/){:target="_blank"} (Findable, Accessible, Interoperable and Reusable).
 
-Projects are expected to result in a deployed project, scientific publications, or other public dissemination of results, and should include a carefully considered pathway to impactful deployment. All grant IP — e.g., the dataset/simulator produced and (if applicable) trained models or detailed descriptions of architectures and training procedures —  must be made publicly available under an open license.
+Grants are expected to result in a deployed project, scientific publications, or other public dissemination of results, and should include a carefully considered pathway to impactful deployment. All grant IP — e.g., the dataset/simulator produced and (if applicable) trained models or detailed descriptions of architectures and training procedures —  must be made publicly available under an open license.
 
 Relevant research includes but is not limited to the following topics:
 * ML to aid mitigation approaches in relevant sectors such as agriculture, buildings and cities, heavy industry and manufacturing, power and energy systems, transportation, or forestry and other land use
@@ -61,9 +61,9 @@ Proposals will be reviewed through a single-blind process by independent reviewe
 Projects will be evaluated on the following criteria:
 * **Climate relevance:** Projects should demonstrate a clear link to climate change mitigation and/or adaptation. Given the cross-cutting nature of climate change, this can include a wide range of topics with which climate change interacts and intersects, but the relationship to climate change should be made explicit.
 * **AI/ML relevance:** Projects should employ or address AI or ML in a way that is well-motivated and well-scoped for the problem setting. This includes both projects where AI or ML are a central component, as well as those where AI or ML are one among many components. Projects proposing the implementation of AI/ML techniques will not be penalized if other techniques or approaches are found to be better-suited as the project progresses; negative results are welcome if well-tested.
-* **Dataset:** The proposed dataset or simulator to be created should serve to enable further impactful work at the intersection of climate change and machine learning beyond the project being proposed. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable).
+* **Dataset:** The proposed dataset or simulator to be created should serve to enable further impactful work at the intersection of climate change and machine learning beyond the project being proposed. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/){:target="_blank"} (Findable, Accessible, Interoperable and Reusable).
 * **Pathway to impact:** Proposals should address how their work, if successful, can be deployed or implemented in practice to aid climate mitigation and/or adaptation. This can be addressed in the form of deployments planned as part of the project itself, or via a concrete plan for disseminating the work among relevant sectors or organizations.
-* **Ethics:**  Proposals should explicitly discuss ethical considerations and implications of their work. This includes discussion of relevant stakeholders and equity considerations of the problem addressed, as well as the scope and potential negative social or environmental impacts of the proposed solution, including how these risks will be avoided or mitigated in the project’s execution. (See, e.g., the [NeurIPS ethics guidelines](https://neurips.cc/public/EthicsGuidelines) for a discussion of ethical considerations pertinent to ML.)
+* **Ethics:**  Proposals should explicitly discuss ethical considerations and implications of their work. This includes discussion of relevant stakeholders and equity considerations of the problem addressed, as well as the scope and potential negative social or environmental impacts of the proposed solution, including how these risks will be avoided or mitigated in the project’s execution. (See, e.g., the [NeurIPS ethics guidelines](https://neurips.cc/public/EthicsGuidelines){:target="_blank"} for a discussion of ethical considerations pertinent to ML.)
 * **Feasibility:** The scope of the proposed project should be realistic with respect to the associated timeline and budget.
 * **Expertise of team:** The proposed team should have demonstrated expertise in areas of relevance to the development and execution of their project, notably the relevant area(s) of climate change mitigation and adaptation and in AI/ML. Interdisciplinarity and diversity within the proposed team will be viewed favorably.
 
@@ -88,7 +88,7 @@ All applications must be received by October 15, 2021 at 23:59 (Anywhere on Eart
 * **Timeline:** A timeline for key milestones of the project, aligned with the deliverables described above.
 * **Team:** A description of the relevant expertise of each team member and how it relates to the project.
 * **Pathway to Impact:** A plan for how the proposed work will have an impact on GHG emissions or societal resilience to climate change. This should be as specific as possible. It is not required that deployment take place within the duration of the project, but all projects should be scoped and developed in such a way as to facilitate impactful deployment in future. At a minimum, this section should address: how the authors plan to engage with end users/other relevant stakeholders during the project, which stakeholders will make use of this work, how exactly it will be useful for these stakeholders, and considerations that are necessary to facilitate impactful deployment (bearing in mind the potentially different incentives for various stakeholders involved).
-* **Dataset Plan:** All projects must propose a new dataset that will be created and made publicly available in compliance with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable). "Creation" of a dataset may include annotating data with labels, collecting completely new data, collating existing data from multiple sources, creating a data simulator (e.g. for reinforcement learning) that is well-grounded in reality, or open-sourcing existing data that was formerly private. This section of the Project Description should describe the dataset, what it will contribute (as compared to existing datasets), and what will be done to create the dataset. The description should also include a detailed plan for how the data will be documented, shared and preserved, in particular elaborating in detail how compliance with each of the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable) will be ensured. Note that teams will be required to use [datasheets](https://arxiv.org/abs/1803.09010) to document their created datasets.
+* **Dataset Plan:** All projects must propose a new dataset that will be created and made publicly available in compliance with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable). "Creation" of a dataset may include annotating data with labels, collecting completely new data, collating existing data from multiple sources, creating a data simulator (e.g. for reinforcement learning) that is well-grounded in reality, or open-sourcing existing data that was formerly private. This section of the Project Description should describe the dataset, what it will contribute (as compared to existing datasets), and what will be done to create the dataset. The description should also include a detailed plan for how the data will be documented, shared and preserved, in particular elaborating in detail how compliance with each of the [FAIR Data Principles](https://www.go-fair.org/fair-principles/){:target="_blank"} (Findable, Accessible, Interoperable and Reusable) will be ensured. Note that teams will be required to use [datasheets](https://arxiv.org/abs/1803.09010){:target="_blank"} to document their created datasets.
 * **Equity Considerations:** This section should describe equity-related considerations related to the project, and how the team will shape the project with these in mind. This discussion may include the nature of the research, composition of the team, and/or nature of the stakeholders outside the team who will be worked with. 
 * **Ethical Considerations:** A description of any broader ethical considerations associated with the development and deployment of the work, including but not limited to those connected to climate change. This section should include a description of potential societal impacts or side effects, as well as factors to bear in mind to mitigate negative effects, including important stakeholders to include.
 
@@ -104,20 +104,20 @@ Climate Change AI is a volunteer-driven organization that facilitates impactful 
 
 ### Eligibility
 
-_Q: I am not an AI or ML expert, can I apply?_<br>
+_Q: I am not an AI or ML expert; can I apply?_<br>
 A: Yes, as long as your project includes an aspect of AI/ML which addresses one of the areas described in “Purpose of this grant”. You may want to consider finding an AI or ML expert to collaborate with; our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful for this.
 
-_Q: I am not a climate expert, can I apply?_<br>
+_Q: I am not a climate expert; can I apply?_<br>
 A: Yes, as long as your project addresses a problem of climate change, with a pathway to impact clearly described. You may want to consider finding an  expert in the relevant climate-related domain to collaborate with; our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful for this.
 
-_Q: I’m a student, can I be the primary grantholder?_<br>
+_Q: I’m a student; can I be the primary grantholder?_<br>
 A: No, the principal investigator must be at the level of postdoctoral researcher or above.
 
 _Q: I’m from a non-OECD country but currently at an institution in an OECD country; can I apply?_<br>
 A: Yes, as the funds will be disbursed through your institution, not to you directly.
 
 _Q: I’m from an OECD country but currently at an institution in a non-OECD country; can I apply?_<br>
-A: At this time, you unfortunately cannot apply as a Principal Investigator; for logistical reasons, we are currently only able to disburse funds to institutions in OECD countries. However, you may participate as a co-Investigator in a grant proposal, provided the Principal Investigator meets the eligibility requirements. Our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful for finding collaborators.
+A: At this time, you unfortunately cannot apply as a Principal Investigator; for logistical reasons, we are currently only able to disburse funds to institutions in OECD countries. However, you may participate as a co-Investigator in a grant proposal, provided the Principal Investigator meets the eligibility requirements. Our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful in finding collaborators.
 
 _Q: I’ve been affiliated with Climate Change AI in the past, been a co-author with members of Climate Change AI, or otherwise involved with Climate Change AI. Can I apply?_<br>
 A: Yes, except under specific circumstances. Specifically, members of the Review Committee for this grant may not apply or receive funds in any way (however, reviewers may). Current members of the Climate Change AI Board of Directors cannot apply to this grant as a PI, and they may not receive funds towards their own salary. Other Climate Change AI affiliates are welcome to apply in any capacity.
@@ -128,7 +128,7 @@ A: The exact same research activity cannot be double funded. However, this grant
 ### Application and review process
 
 _Q: Can I send my application via email?_<br>
-A: No, all applications must be via [CMT](https://cmt3.research.microsoft.com/CCAIGrants2021).
+A: No, all applications must be via [CMT](https://cmt3.research.microsoft.com/CCAIGrants2021){:target="_blank"}.
 
 _Q: Do I need to use a particular software, like LaTeX or Word, to write the proposal?_<br>
 A: No, you may use any software to write the proposal, as long as it follows the requirements on length, font, line spacing, and margins.
@@ -144,7 +144,7 @@ A: Just give your best guess, with an explanation of the reasons for your uncert
 
 ### Budget
 
-_Q: My project would require a budget greater than the maximum allowed (150K USD). What should I do?_<br>
+_Q: My project would require a budget greater than the maximum allowed (USD 150K). What should I do?_<br>
 A: In order to distribute grants equitably and fund a larger number of projects, we will not allocate more than USD 150K to a single project. You should describe and apply to us for a USD 150K portion of your project, and apply for additional funding elsewhere. Make sure to describe this in your budget, including the additional funding sources you have secured or intend to apply to.
 
 _Q: My institution takes an overhead greater than 10% of the grant. Am I still eligible to apply?_<br>
@@ -170,13 +170,13 @@ A: No. You should include in your project description (and budget, if appropriat
 ### Terminology
 
 _Q: What is climate change mitigation?_<br>
-A: Climate change mitigation refers to the reduction of greenhouse gases in order to reduce the extent of climate change. As described by the [IPCC Working Group III](https://www.ipcc.ch/working-group/wg3/), this “is achieved by limiting or preventing greenhouse gas emissions and by enhancing activities that remove these gases from the atmosphere.” For examples of where AI and ML can help with climate change mitigation, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf) on “Tackling Climate Change with Machine Learning.”
+A: Climate change mitigation refers to the reduction of greenhouse gases in order to reduce the extent of climate change. As described by the [IPCC Working Group III](https://www.ipcc.ch/working-group/wg3/){:target="_blank"}, this “is achieved by limiting or preventing greenhouse gas emissions and by enhancing activities that remove these gases from the atmosphere.” For examples of where AI and ML can help with climate change mitigation, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf){:target="_blank"} on “Tackling Climate Change with Machine Learning.”
 
 _Q: What is climate change adaptation?_<br>
-A: Climate change adaptation refers to activities that aim to prepare for or build resilience to the conditions created by climate change. For more information, please see resources from the [IPCC Working Group II](https://www.ipcc.ch/working-group/wg2/). For examples of where AI and ML can help with climate change adaptation, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf) on “Tackling Climate Change with Machine Learning.”
+A: Climate change adaptation refers to activities that aim to prepare for or build resilience to the conditions created by climate change. For more information, please see resources from the [IPCC Working Group II](https://www.ipcc.ch/working-group/wg2/){:target="_blank"}. For examples of where AI and ML can help with climate change adaptation, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf){:target="_blank"} on “Tackling Climate Change with Machine Learning.”
 
 _Q: What is climate science?_<br>
-A: Climate science is the study of the environmental processes that determine past, present, and future climate. For more information, please see resources from the [IPCC Working Group I](https://www.ipcc.ch/working-group/wg1/). For examples of where AI and ML can help with climate science, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf) on “Tackling Climate Change with Machine Learning” as well as the proceedings of the Conference of Climate Informatics.
+A: Climate science is the study of the environmental processes that determine past, present, and future climate. For more information, please see resources from the [IPCC Working Group I](https://www.ipcc.ch/working-group/wg1/){:target="_blank"}. For examples of where AI and ML can help with climate science, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf){:target="_blank"} on “Tackling Climate Change with Machine Learning” as well as the proceedings of the Conference on [Climate Informatics](http://www.climateinformatics.org/){:target="_blank"}.
 
 Q: What is meant by AI and ML?
 A: Artificial intelligence (AI) refers to any algorithm that allows a computer to perform
@@ -186,6 +186,8 @@ a complex task — typically, tasks such as speech, perception, and reasoning th
 
 _Q: I have a question that isn’t answered here. What should I do?_<br>
 A: Please contact us at <grants@climatechange.ai>.
+
+## Sponsors
 
 ### Supported By
 
