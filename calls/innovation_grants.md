@@ -21,9 +21,9 @@ With the support of the [Quadrature Climate Foundation](https://quadrature.ai/fo
 
 ## Grant information
 
-This program will allocate grants of up to USD 150K for conducting research projects of 1 year in duration. Research projects shall leverage AI or machine learning to address problems in climate change mitigation, adaptation, or climate science.
+This program will allocate grants of up to USD 150K for conducting research projects of 1 year in duration. Research projects shall leverage AI or machine learning to address problems in climate change mitigation, adaptation, or climate science, or shall consider problems related to impact assessment and governance at the intersection of climate change and machine learning.
 
-Along with the project, the grantees must publish a documented dataset (or simulator), which was created by collating, labeling, and/or annotating existing data, and/or by collecting, simulating, or otherwise making available new data that can enable further work in the area of ML. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable).
+Along with the project, the grantees must publish a documented dataset (or simulator), which was created by collating, labeling, and/or annotating existing data, and/or by collecting, simulating, or otherwise making available new data that can enable further research. We require the dataset to comply with the [FAIR Data Principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable and Reusable).
 
 Projects are expected to result in a deployed project, scientific publications, or other public dissemination of results, and should include a carefully considered pathway to impactful deployment. All grant IP — e.g., the dataset/simulator produced and (if applicable) trained models or detailed descriptions of architectures and training procedures —  must be made publicly available under an open license.
 
@@ -47,7 +47,7 @@ We do not fund research activity that is currently funded by other grant program
 
 | Activity                     | Date         |
 |                          --- | ---          |
-| Call release date            | Aug 20, 2021 |
+| Call release date            | Aug 23, 2021 |
 | Informational webinars       | TBD          |
 | **Proposal submission deadline** | **Oct 15, 2021** |
 | Notification of results      | Dec 10, 2021 |
@@ -180,7 +180,7 @@ A: Climate science is the study of the environmental processes that determine pa
 
 Q: What is meant by AI and ML?
 A: Artificial intelligence (AI) refers to any algorithm that allows a computer to perform
-a complex task — typically, tasks such as speech, perception, and reasoning that are associated with human intelligence. Machine learning (ML) is a sub-area of AI referring to techniques whose behaviors or outcomes depend on “learning”  —  corrections or changes made as a result of seeing examples or descriptions —  rather than being hard-coded in advance.
+a complex task — typically, tasks such as speech, perception, and reasoning that are associated with human intelligence. Machine learning (ML) is a sub-area of AI referring to techniques whose behaviors or outcomes depend on “learning”  —  corrections or changes made as a result of seeing examples or descriptions —  rather than being hard-coded in advance. ML is used to describe a wide variety of techniques that range in their complexity, including, e.g., linear regression, decision trees, and deep neural networks.
 
 ### Other
 
