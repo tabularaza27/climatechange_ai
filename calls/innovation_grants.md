@@ -187,9 +187,21 @@ a complex task — typically, tasks such as speech, perception, and reasoning th
 _Q: I have a question that isn’t answered here. What should I do?_<br>
 A: Please contact us at <grants@climatechange.ai>.
 
+
+<div class='logo-wrapper'>
+  <img src='/images/innovation_grants_partners_logo.png'>
+</div>
+
 <style>
 :root {
   --sticky-nav-height: 59px;
+}
+
+.logo-wrapper img {
+    width: 24rem;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 @media screen and (min-width: 651px) {
