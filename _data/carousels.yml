@@ -12,6 +12,9 @@
     start_showing_on: 2021-09-18
     title: Register for our NeurIPS 2021 workshop
     url: /events/neurips2021
+  - image: /images/innovation-grants-poster-trunc.png
+    title: Announcing the CCAI Innovation Grants program; USD 1.8M in funding available
+    url: /calls/innovation_grants
   - image: /images/happy_hour_banner_cropped_400w.jpg
     title: Attend a CCAI virtual happy hour (held fortnightly)
     url: /events/happy_hour
