@@ -6,7 +6,7 @@
 ## Quick facts
 * **Grant amount:** Up to USD 150K per proposal, for projects of 12 months in duration. We will award a total of USD 1.8M in grants across all projects.
 * **Scope:** Research projects at the intersection of AI and climate change.
-* **Eligibility:** Principal Investigator must be a faculty member or postdoc at an accredited university or research institution in an OECD country. There are no eligibility restrictions on co-Investigators.
+* **Eligibility:** Principal Investigator must be a faculty member or postdoc at an accredited university or academic research institution in an OECD country. There are no eligibility restrictions on co-Investigators.
 * **Proposal submission deadline:** Oct 15, 2021 at 23:59 (Anywhere on Earth time, UTC-12)
 * **Submission site:** <https://cmt3.research.microsoft.com/CCAIGrants2021>
 * **Contact:** <grants@climatechange.ai>
@@ -37,7 +37,7 @@ Relevant research includes but is not limited to the following topics:
 
 ## Eligibility
 
-Each application must have a Principal Investigator (PI) who is a faculty member or postdoctoral researcher at an accredited university or research institution in an OECD country. There are no eligibility restrictions on co-Investigators, and multi-country and multi-sectoral collaborations are encouraged (e.g., including members outside OECD countries or from non-research institutions).
+Each application must have a Principal Investigator (PI) who is a faculty member or postdoctoral researcher at an accredited university or academic research institution in an OECD country. There are no eligibility restrictions on co-Investigators, and multi-country and multi-sectoral collaborations are encouraged (e.g., including members outside OECD countries or from non-research institutions).
 
 Current members of the Climate Change AI Board of Directors cannot apply to this grant as a PI, and they may not receive funds towards their own salary. Members of the Review Committee for this grant may not apply or receive funds in any way (however, reviewers may, and conflicts of interest will be appropriately managed during the review process).
 
@@ -92,7 +92,7 @@ All applications must be received by October 15, 2021 at 23:59 (Anywhere on Eart
 * **Equity Considerations:** This section should describe equity-related considerations related to the project, and how the team will shape the project with these in mind. This discussion may include the nature of the research, composition of the team, and/or nature of the stakeholders outside the team who will be worked with. 
 * **Ethical Considerations:** A description of any broader ethical considerations associated with the development and deployment of the work, including but not limited to those connected to climate change. This section should include a description of potential societal impacts or side effects, as well as factors to bear in mind to mitigate negative effects, including important stakeholders to include.
 
-<u>Budget and Budget Justification</u>. An itemized Budget (1 page) indicating the total amount requested and how these funds will be used if a grant is awarded, and a brief Budget Justification (1 page) of these amounts, submitted as one PDF file through CMT. Eligible expenses include salaries for Investigators, students, and other research staff; materials, equipment, software, and compute; and expenses associated with conferences and other project-related travel. The Budget should also indicate any institutional overhead, at a maximum rate of 10% of the total amount requested. If this project has other sources of funding, the Budget should make clear which research activities are proposed to be funded by the present grant, and which research activities are funded by other sources. Please note that funds will be contracted solely to the accredited university or research institution with which the Principal Investigator is affiliated; any further dissemination of funds to partner institutions must be managed by the lead institution.
+<u>Budget and Budget Justification</u>. An itemized Budget (1 page) indicating the total amount requested and how these funds will be used if a grant is awarded, and a brief Budget Justification (1 page) of these amounts, submitted as one PDF file through CMT. Eligible expenses include salaries for Investigators, students, and other research staff; materials, equipment, software, and compute; and expenses associated with conferences and other project-related travel. The Budget should also indicate any institutional overhead, at a maximum rate of 10% of the total amount requested. If this project has other sources of funding, the Budget should make clear which research activities are proposed to be funded by the present grant, and which research activities are funded by other sources. Please note that funds will be contracted solely to the accredited university or academic research institution with which the Principal Investigator is affiliated; any further dissemination of funds to partner institutions must be managed by the lead institution.
 
 <u>CVs of key personnel</u>. CVs for the Principal Investigator and all co-Investigators, as a single PDF file (no page limit).
 
@@ -124,6 +124,10 @@ A: Yes, except under specific circumstances. Specifically, members of the Review
 
 _Q: Am I eligible to apply for these funds if I have applied to other sources for the same research activity?_<br>
 A: The exact same research activity cannot be double funded. However, this grant may be used to fund a component of a project whose other components are under consideration or have received funding from other sources. This structure should be clearly described in your budget.
+
+_Q: Can I apply multiple times with different projects?_<br>
+A: Yes, you are welcome to apply multiple times. However, as mentioned above, we will seek to select a cohort of grantees "to represent multiple sectors of climate change mitigation and adaptation, as well as coverage across many geographic regions." This may in turn reduce the probability of multiple proposals from the same team being funded.
+
 
 ### Application and review process
 
