@@ -104,6 +104,9 @@ Climate Change AI is a volunteer-driven organization that facilitates impactful 
 
 ### Eligibility
 
+_Q: Does my institution qualify as an "accredited university or academic research institution" under the eligibility criteria of this grant?_<br>
+A: For the purposes of this grant, we consider any officially-recognized non-profit academic institution with faculty to be an "accredited university or academic research institution," and therefore eligible to be a lead institution on a proposal. If you’re unsure as to whether your institution qualifies under these criteria, feel free to email us at <grants@climatechange.ai>.
+
 _Q: I am not an AI or ML expert; can I apply?_<br>
 A: Yes, as long as your project includes an aspect of AI/ML which addresses one of the areas described in “Purpose of this grant”. You may want to consider finding an AI or ML expert to collaborate with; our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful for this.
 
