@@ -1,6 +1,6 @@
 ---
 title: Climate Change AI - Technology Review Press Release (Jun 30, 2021)
-description: MT Technology Review 35 Under 35 press release (Jun 30, 2021)
+description: MIT Technology Review 35 Under 35 press release (Jun 30, 2021)
 ---
 
 ## Two Climate Change AI Co-Founders Named Among MIT Technology Review’s “35 Innovators Under 35”

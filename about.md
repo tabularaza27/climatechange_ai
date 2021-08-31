@@ -65,6 +65,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 # Press
 
 ## Releases
+* CCAI Innovation Grants program (Aug. 20, 2021): <a href="/press_releases/2021-08-30/release.html" target="_blank">press release</a>
 * MIT Technology Review 35 Under 35 awards (Jun. 30, 2021): <a href="/press_releases/2021-06-30/release.html" target="_blank">press release</a>
 * CCAI paper (Nov. 11, 2019): <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
