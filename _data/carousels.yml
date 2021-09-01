@@ -46,7 +46,8 @@
   - image: /images/icml-2021-preview_400w.jpg
     title: Browse papers and talks from ICML 2021
     url: /events/icml2021
-  - title: Browse all accepted papers from our workshop series
+  - image: /images/paperlist_teaser_400w.jpg
+    title: Browse all accepted papers from our workshop series
     url: /papers
   - image: /images/summaries_teaser_400w.jpg
     title: View interactive summaries of our climate + ML paper
