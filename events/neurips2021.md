@@ -34,13 +34,13 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 - Date: Dec 13 or 14 (TBD)
 - Location: Virtual
-- [Mentorship program](#mentorship-program) application deadline: <b>Aug 16, 23:59 AOE (Anywhere on Earth)</b>
+- [Mentorship program](#mentorship-program) application deadline: <s>Aug 16, 23:59 AOE (Anywhere on Earth)</s>
   - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
   - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
-  - Mentor-Mentee match notification: Aug 19, 23:59 AOE
-- Tutorial proposal submission deadline: <b>Aug 23, 23:59 AOE</b>
+  - Mentor-Mentee match notification: <s>Aug 19, 23:59 AOE</s>
+- Tutorial proposal submission deadline: <s>Aug 23, 23:59 AOE</s>
   - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
-  - Notification of accepted tutorials: Aug 30, 23:59 AOE
+  - Notification of accepted tutorials: <s>Aug 30, 23:59 AOE</s>
 - Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b>
   - Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
   - Notification of accepted papers/proposals: Oct 23
@@ -84,7 +84,7 @@ All machine learning techniques are welcome, from kernel methods to deep learnin
 
 The workshop does not publish proceedings, and submissions are non-archival. Submission to this workshop does not preclude future publication. Previously published work may be submitted under certain circumstances (see the [FAQ](#frequently-asked-questions)).
 
-All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. We encourage, but do not require, use of the [NeurIPS style template](https://neurips.cc/Conferences/2021/PaperInformation/StyleFiles).
+All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. We encourage, but do not require, use of the [NeurIPS style template](http://climatechange.ai/files/TCCML_NeurIPS_2021_Style_File.zip) for this workshop.
 
 All **tutorials** submissions must be through this [application form](https://forms.gle/wMkXSVnqxamJ5s7g8).
 
