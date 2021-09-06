@@ -106,10 +106,8 @@ Works were submitted to one of two tracks: [Papers](#Papers) or [Proposals](#Pro
   <tr>
   <td>
   <a href="/papers/neurips2019/{{ p.id }}">({{ p.id }}) {{ p.paper_title }}</a>
-  {% if p.is_best_paper %}
-  <span class='tag best-paper'>Best Paper Award</span>
-  {% elsif p.is_honorable_mention %}
-  <span class='tag best-paper'>Honorable Mention</span>
+  {% if p.award %}
+  <span class='tag best-paper'>{{p.award}}</span>
   {% endif %}
   </td>
   <td>{{ p.authors }}</td>

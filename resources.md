@@ -3,6 +3,8 @@ title: Climate Change AI - Resources
 description: This page presents some readings, datasets, and tools for the areas outlined in our paper, "Tackling Climate Change with Machine Learning."
 redirect_from:
   - /readings-datasets
+redirect_to:
+  - https://wiki.climatechange.ai/
 ---
 
 # Resources

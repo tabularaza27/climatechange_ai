@@ -11,10 +11,17 @@
   authors: Sandeep Manjanna (McGill University); Herke van Hoof (University of Amsterdam);
     Gregory Dudek (McGill University)
   paper_path: "/papers/icml2019/1/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   next_paper_id: 2
+  cmt_id: 35
+  primary_subject_area: Ecosystems and natural resources
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Ecosystems and natural resources
+  - Data presentation and management
+  condensed_subject_areas:
+  - Ecosystems and natural resources
+  - Data presentation and management
 - id: 2
   paper_title: Modelling GxE with historical weather information improves genomic
     prediction in new environments
@@ -39,11 +46,16 @@
   authors: Jussi Gillberg (Aalto University); Pekka Marttinen (Aalto University);
     Hiroshi Mamitsuka (Kyoto University); Samuel Kaski (Aalto University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 1
   next_paper_id: 3
+  cmt_id: 12
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: ''
+  subject_areas:
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
 - id: 3
   paper_title: Machine Learning empowered Occupancy Sensing for Smart Buildings
   abstract: Over half of the global electricity consumption is attributed to buildings,
@@ -59,11 +71,18 @@
     (Nanyang Technological University); Yuxun Zhou (UC Berkeley); Costas Spanos  (UC
     Berkeley)
   paper_path: "/papers/icml2019/3/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 2
   next_paper_id: 4
+  cmt_id: 45
+  primary_subject_area: Smart buildings and cities
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Smart buildings and cities
+  - Data presentation and management
+  condensed_subject_areas:
+  - Buildings and cities
+  - Data presentation and management
 - id: 4
   paper_title: 'Focus and track: pixel-wise spatio-temporal hurricane tracking'
   abstract: We tackle extreme climate event tracking problem. It has unique challenges
@@ -82,11 +101,18 @@
     Hyojin Kim (LLNL); Joonseok Lee (Google Research); Jaegul Choo (Korea University);
     Mr Prabhat (Lawrence Berkeley National Laboratory)
   paper_path: "/papers/icml2019/4/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 3
   next_paper_id: 5
+  cmt_id: 9
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Extreme weather events
 - id: 5
   paper_title: Recovering the parameters underlying the Lorenz-96 chaotic dynamics
   abstract: Climate projections suffer from uncertain equilibrium climate sensitivity.
@@ -103,11 +129,18 @@
   authors: Soukayna Mouatadid (University of Toronto); Pierre Gentine (Columbia University);
     Wei Yu (University of Toronto); Steve Easterbrook (University of Toronto)
   paper_path: "/papers/icml2019/5/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 4
   next_paper_id: 6
+  cmt_id: 70
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Extreme weather events
 - id: 6
   paper_title: Using Bayesian Optimization to Improve Solar Panel Performance by Developing
     Antireflective, Superomniphobic Glass
@@ -124,11 +157,16 @@
   authors: Sajad Haghanifar (University of Pittsburgh); Bolong Cheng (SigOpt); Mike
     Mccourt (SigOpt); Paul Leu (University of Pittsburgh)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 5
   next_paper_id: 7
+  cmt_id: 11
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 7
   paper_title: A quantum mechanical approach for data assimilation in climate dynamics
   abstract: A framework for data assimilation in climate dynamics is presented, combining
@@ -147,11 +185,18 @@
     University); Joanna Slawinska (University of Wisconsin-Milwaukee); Abbas Ourmazd
     (University of Wisconsin-Milwaukee)
   paper_path: "/papers/icml2019/7/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 6
   next_paper_id: 8
+  cmt_id: 30
+  primary_subject_area: Data assimilation
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Data assimilation
+  - Climate modeling
+  condensed_subject_areas:
+  - Data assimilation
+  - Climate and Earth science
 - id: 8
   paper_title: Data-driven Chance Constrained Programming based Electric Vehicle Penetration
     Analysis
@@ -169,13 +214,20 @@
   authors: Di Wu (McGill); Tracy Cui (Google NYC); Doina Precup (McGill University);
     Benoit Boulet (McGill)
   paper_path: "/papers/icml2019/8/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 7
   next_paper_id: 9
+  cmt_id: 76
+  primary_subject_area: Data presentation and management
+  secondary_subject_areas: Power generation and grids
+  subject_areas:
+  - Data presentation and management
+  - Power generation and grids
+  condensed_subject_areas:
+  - Data presentation and management
+  - Power and energy
 - id: 9
-  paper_title: "Machine Learning for AC Optimal Power Flow"
+  paper_title: Machine Learning for AC Optimal Power Flow
   abstract: |-
     F(
 
@@ -183,16 +235,23 @@
   authors: Neel Guha (Carnegie Mellon University); Zhecheng Wang (Stanford University);
     Arun Majumdar (Stanford University)
   paper_path: "/papers/icml2019/9/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   slideslive_id: '38917844'
   q1_track: Research
   prev_paper_id: 8
   next_paper_id: 10
+  cmt_id: 54
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 10
-  paper_title: "Targeted Meta-Learning for Critical Incident Detection
-    in Weather Data"
+  paper_title: Targeted Meta-Learning for Critical Incident Detection in Weather Data
   abstract: Due to imbalanced or heavy-tailed  nature of weather- and climate-related
     datasets, the performance of standard deep learning models significantly deviates
     from their expected behavior on test data. Classical methods to address these  issues
@@ -211,13 +270,20 @@
     (Pennsylvania State University); Mehrdad Mahdavi (Penn State); James Z Wang (The
     Pennsylvania State University)
   paper_path: "/papers/icml2019/10/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917859'
   q1_track: Research
   prev_paper_id: 9
   next_paper_id: 11
+  cmt_id: 26
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and Earth science
 - id: 11
   paper_title: 'ClimateNet: Bringing the power of Deep Learning to weather and climate
     sciences via open datasets and architectures'
@@ -239,11 +305,18 @@
     (Lawrence Berkeley National Laboratory); Mr Prabhat (Lawrence Berkeley National
     Laboratory)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 10
   next_paper_id: 12
+  cmt_id: 38
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Extreme weather events
+  - Data presentation and management
+  condensed_subject_areas:
+  - Extreme weather events
+  - Data presentation and management
 - id: 12
   paper_title: Improving Subseasonal Forecasting in the Western U.S. with Machine
     Learning
@@ -262,11 +335,18 @@
   authors: Paulo Orenstein (Stanford); Jessica Hwang (Stanford); Judah Cohen (AER);
     Karl Pfeiffer (AER); Lester Mackey (Microsoft Research New England)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 11
   next_paper_id: 13
+  cmt_id: 4
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and Earth science
 - id: 13
   paper_title: Unsupervised Temporal Clustering to Monitor the Performance of Alternative
     Fueling Infrastructure
@@ -279,11 +359,18 @@
     other regions and fuels.
   authors: Kalai Ramea (PARC)
   paper_path: "/papers/icml2019/13/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 12
   next_paper_id: 14
+  cmt_id: 3
+  primary_subject_area: Transportation
+  secondary_subject_areas: Societal adaptation
+  subject_areas:
+  - Transportation
+  - Societal adaptation
+  condensed_subject_areas:
+  - Transportation
+  - Societal adaptation
 - id: 14
   paper_title: A Flexible Pipeline for Prediction of Tropical Cyclone Paths
   abstract: Hurricanes and, more generally, tropical cyclones (TCs) are rare, complex
@@ -304,11 +391,20 @@
     University); Benjamin LeRoy (Carnegie Mellon University); Chad Schafer (Carnegie
     Mellon University)
   paper_path: "/papers/icml2019/14/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 13
   next_paper_id: 15
+  cmt_id: 19
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate modeling; Data presentation and management
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
+  - Data presentation and management
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and Earth science
+  - Data presentation and management
 - id: 15
   paper_title: Mapping land use and land cover changes faster and at scale with deep
     learning on the cloud
@@ -339,11 +435,20 @@
   authors: Zhuangfang Yi (Development Seed); Drew Bollinger (Development Seed); Devis
     Peressutti (Sinergise)
   paper_path: "/papers/icml2019/15/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 14
   next_paper_id: 16
+  cmt_id: 81
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Ecosystems and natural resources; Smart buildings and cities
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Smart buildings and cities
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Buildings and cities
 - id: 16
   paper_title: Achieving Conservation of Energy in Neural Network Emulators for Climate
     Modeling
@@ -361,11 +466,18 @@
   authors: Tom G Beucler (Columbia University & UCI); Stephan Rasp (Ludwig-Maximilian
     University of Munich); Michael Pritchard (UCI); Pierre Gentine (Columbia University)
   paper_path: "/papers/icml2019/16/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 15
   next_paper_id: 17
+  cmt_id: 53
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Extreme weather events
 - id: 17
   paper_title: The Impact of Feature Causality on Normal Behaviour Models for SCADA-based
     Wind Turbine Fault Detection
@@ -379,11 +491,18 @@
     of faults as a classification problem is also presented.
   authors: Telmo Felgueira (IST)
   paper_path: "/papers/icml2019/17/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 16
   next_paper_id: 18
+  cmt_id: 39
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 18
   paper_title: Predicting CO2 Plume Migration using Deep Neural Networks
   abstract: Carbon capture and sequestration (CCS) is an essential climate change
@@ -398,13 +517,18 @@
     of CCS deployment.
   authors: Gege Wen (Stanford University)
   paper_path: "/papers/icml2019/18/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 17
   next_paper_id: 19
+  cmt_id: 56
+  primary_subject_area: Carbon capture and sequestration
+  secondary_subject_areas: ''
+  subject_areas:
+  - Carbon capture and sequestration
+  condensed_subject_areas:
+  - Carbon capture and sequestration
 - id: 19
-  paper_title: "Truck Traffic Monitoring with Satellite Images"
+  paper_title: Truck Traffic Monitoring with Satellite Images
   abstract: The road freight sector is responsible for a large and growing share of
     greenhouse gas emissions, but reliable data on the amount of freight that is moved
     on roads in many parts of the world are scarce.  Many low- and middle-income countries
@@ -416,16 +540,23 @@
   authors: Lynn Kaack (ETH Zurich); George H Chen (Carnegie Mellon University); Granger
     Morgan (Carnegie Mellon University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917841'
   q1_track: Research
   prev_paper_id: 18
   next_paper_id: 20
+  cmt_id: 37
+  primary_subject_area: Transportation
+  secondary_subject_areas: Data presentation and management
+  subject_areas:
+  - Transportation
+  - Data presentation and management
+  condensed_subject_areas:
+  - Transportation
+  - Data presentation and management
 - id: 20
-  paper_title: "Evaluating aleatoric and epistemic uncertainties
-    of time series deep learning models for soil moisture predictions"
+  paper_title: Evaluating aleatoric and epistemic uncertainties of time series deep
+    learning models for soil moisture predictions
   abstract: Soil moisture is an important variable that determines floods, vegetation
     health, agriculture productivity, and land surface feedbacks to the atmosphere,
     etc.. The recently available satellite-based observations give us a unique opportunity
@@ -444,16 +575,24 @@
     or hydrologic modeling.
   authors: Chaopeng Shen (Pennsylvania State University)
   paper_path: http://arxiv.org/abs/1906.04595
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917857'
   q1_track: Research
   prev_paper_id: 19
   next_paper_id: 21
+  cmt_id: 71
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Disaster management and relief; Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - id: 21
-  paper_title: "Detecting anthropogenic cloud perturbations with
-    deep learning"
+  paper_title: Detecting anthropogenic cloud perturbations with deep learning
   abstract: One of the most pressing questions in climate science is that of the effect
     of anthropogenic aerosol on the Earth's energy balance. Aerosols provide the `seeds'
     on which cloud droplets form, and changes in the amount of aerosol available to
@@ -471,13 +610,21 @@
     of Oxford); Dino Sejdinovic (University of Oxford); Philip Stier (University of
     Oxford)
   paper_path: "/papers/icml2019/21/paper.pdf"
-  is_best_paper: true
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917855'
   q1_track: Research
   prev_paper_id: 20
   next_paper_id: 22
+  cmt_id: 42
+  primary_subject_area: Remote sensing
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Remote sensing
+  - Climate modeling
+  award: Best Paper Award
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and Earth science
 - id: 22
   paper_title: 'Data-driven surrogate models for climate modeling: application of
     echo state networks, RNN-LSTM and ANN to the multi-scale Lorenz system as a test
@@ -505,11 +652,18 @@
     Devika  Subramanian (Rice University); Krishna Palem (Rice University); Charles
     Jiang (Rice University); Adam  Subel (Rice University)
   paper_path: "/papers/icml2019/22/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 21
   next_paper_id: 23
+  cmt_id: 49
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Climate modeling
+  - Extreme weather events
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Extreme weather events
 - id: 23
   paper_title: Learning Radiative Transfer Models for Climate Change Applications
     in Imaging Spectroscopy
@@ -529,14 +683,20 @@
     JPL/Caltech), David R Thompson (NASA JPL/Caltech), Vijay Natraj (NASA JPL/Caltech),
     Mario Parente (UMass Amherst)
   paper_path: "/papers/icml2019/23/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 22
   next_paper_id: 24
+  cmt_id: 58
+  primary_subject_area: Remote Sensing
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Remote Sensing
+  - Climate modeling
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and Earth science
 - id: 24
-  paper_title: "Planetary Scale Monitoring of Urban Growth in
-    High Flood Risk Areas"
+  paper_title: Planetary Scale Monitoring of Urban Growth in High Flood Risk Areas
   abstract: Climate  change  is  increasing  the  incidence of flooding. Many areas
     in the developing world are experiencing strong population growth but lack adequate
     urban planning. This represents a significant humanitarian risk. We explore the
@@ -547,13 +707,20 @@
   authors: Christian F Clough (Planet); Ramesh Nair (Planet); Gopal Erinjippurath
     (Planet); Matt George (Planet); Jesus Martinez Manso (Planet)
   paper_path: "/papers/icml2019/24/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917845'
   q1_track: Research
   prev_paper_id: 23
   next_paper_id: 25
+  cmt_id: 65
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Disaster management and relief
+  subject_areas:
+  - Extreme weather events
+  - Disaster management and relief
+  condensed_subject_areas:
+  - Extreme weather events
+  - Disaster prediction, management, and relief
 - id: 25
   paper_title: Efficient Multi-temporal and In-season Crop Mapping with Landsat Analysis
     Ready Data via Long Short-term Memory Networks
@@ -574,11 +741,16 @@
     Xu (Zhejiang University); Haifeng Li (Central South University); Jingfeng Huang
     (Zhejiang University); Tao Lin (Zhejiang University)
   paper_path: "/papers/icml2019/25/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Research
   prev_paper_id: 24
   next_paper_id: 26
+  cmt_id: 62
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: ''
+  subject_areas:
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
 - id: 26
   paper_title: Autopilot of Cement Plants for Reduction of Fuel Consumption and Emissions
   abstract: The cement manufacturing industry is an essential component of the global
@@ -601,14 +773,18 @@
     Inc); Ritvik Joshi (Petuum Inc); Dian Li (Petuum Inc); Roberto Linares (Petuum
     Inc); Hongbao Zhang (Petuum Inc)
   paper_path: "/papers/icml2019/26/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 25
   next_paper_id: 27
+  cmt_id: 78
+  primary_subject_area: Industrial optimization
+  secondary_subject_areas: ''
+  subject_areas:
+  - Industrial optimization
+  condensed_subject_areas:
+  - Industry
 - id: 27
-  paper_title: "Towards a Sustainable Food Supply Chain Powered
-    by Artificial Intelligence"
+  paper_title: Towards a Sustainable Food Supply Chain Powered by Artificial Intelligence
   abstract: About 30-40% of food produced worldwide is wasted. This puts a severe
     strain on the environment and represents a $165B loss to the US economy. This
     paper explores how artificial intelligence can be used to automate decisions across
@@ -623,13 +799,21 @@
     research community.
   authors: Volodymyr Kuleshov (Stanford University)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: true
   is_spotlight: true
   q1_track: Deployed
   prev_paper_id: 26
   next_paper_id: 28
   slideslive_id: '38917853'
+  cmt_id: 82
+  primary_subject_area: Industrial optimization
+  secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Industrial optimization
+  - Agriculture, forestry and other land use
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Industry
+  - Agriculture, forestry and other land use
 - id: 28
   paper_title: 'PVNet: A LRCN Architecture for Spatio-Temporal Photovoltaic Power
     Forecasting from Numerical Weather Prediction'
@@ -647,11 +831,16 @@
     to the persistence model and state-of-the-art methods.
   authors: Johan Mathe (Frog Labs)
   paper_path: "/papers/icml2019/28/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 27
   next_paper_id: 29
+  cmt_id: 69
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 29
   paper_title: Finding Ship-tracks Using Satellite Data to Enable Studies of Climate
     and Trade Related Issues
@@ -674,11 +863,18 @@
     useful for applications such as coastal air pollution and trade.
   authors: Tianle Yuan (NASA)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 28
   next_paper_id: 30
+  cmt_id: 14
+  primary_subject_area: Transportation
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Transportation
+  - Climate modeling
+  condensed_subject_areas:
+  - Transportation
+  - Climate and Earth science
 - id: 30
   paper_title: Using Smart Meter Data to Forecast Grid Scale Electricity Demand
   abstract: Highly accurate electricity demand forecasts represent a major opportunity
@@ -690,14 +886,22 @@
     (ERCOT).
   authors: Abraham Stanway (Amperon Holdings, Inc); Ydo Wexler (Amperon)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Deployed
   prev_paper_id: 29
   next_paper_id: 31
+  cmt_id: 41
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Data presentation and management; Extreme weather events
+  subject_areas:
+  - Power generation and grids
+  - Data presentation and management
+  - Extreme weather events
+  condensed_subject_areas:
+  - Power and energy
+  - Data presentation and management
+  - Extreme weather events
 - id: 31
-  paper_title: "Deep Learning for Wildlife Conservation and Restoration
-    Efforts"
+  paper_title: Deep Learning for Wildlife Conservation and Restoration Efforts
   abstract: Climate change and environmental degradation are causing species extinction
     worldwide. Automatic wildlife sensing is an urgent requirement to track biodiversity
     losses on Earth. Recent improvements in machine learning can accelerate the development
@@ -708,15 +912,22 @@
     wetland restoration in Massachusetts.
   authors: Clement Duhart (MIT Media Lab)
   paper_path: "/papers/icml2019/31/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917860'
   q1_track: Deployed
   prev_paper_id: 30
   next_paper_id: 32
+  cmt_id: 48
+  primary_subject_area: Ecosystems and natural resources
+  secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Ecosystems and natural resources
+  - Agriculture, forestry and other land use
 - id: 32
-  paper_title: "Reinforcement Learning for Sustainable Agriculture"
+  paper_title: Reinforcement Learning for Sustainable Agriculture
   abstract: The growing population and the changing climate will push modern agriculture
     to its limits in an increasing number of regions on earth. Establishing next-generation
     sustainable food supply systems will mean producing more food on less arable land,
@@ -734,16 +945,24 @@
   authors: Jonathan Binas (Mila, Montreal); Leonie Luginbuehl (Department of Plant
     Sciences, University of Cambridge); Yoshua Bengio (Mila)
   paper_path: "/papers/icml2019/32/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   q1_track: Ideas
   slideslive_id: '38917846'
   prev_paper_id: 31
   next_paper_id: 33
+  cmt_id: 40
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Ecosystems and natural resources; Extreme weather events
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Extreme weather events
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural resources
+  - Extreme weather events
 - id: 33
-  paper_title: "Stratospheric Aerosol Injection as a Deep Reinforcement
-    Learning Problem"
+  paper_title: Stratospheric Aerosol Injection as a Deep Reinforcement Learning Problem
   abstract: As global greenhouse gas emissions continue to rise, the use of geoengineering
     in order to artificially mitigate climate change effects is increasingly considered.
     Stratospheric aerosol injection (SAI), which reduces solar radiative forcing and
@@ -767,16 +986,23 @@
     of Oxford)
   paper_path: "/papers/icml2019/33/paper.pdf"
   slideslive_id: '38917846'
-  slideslive_time: '303s'
-  is_best_paper: false
-  is_honorable_mention: true
+  slideslive_time: 303s
   is_spotlight: true
   q1_track: Ideas
   prev_paper_id: 32
   next_paper_id: 34
+  cmt_id: 46
+  primary_subject_area: Geoengineering
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Geoengineering
+  - Climate modeling
+  award: Honorable Mention
+  condensed_subject_areas:
+  - Geoengineering
+  - Climate and Earth science
 - id: 34
-  paper_title: "Using Natural Language Processing to Analyze Financial
-    Climate Disclosures"
+  paper_title: Using Natural Language Processing to Analyze Financial Climate Disclosures
   abstract: According to U.S. financial legislation, companies traded on the stock
     market are obliged to regularly disclose risks and uncertainties that are likely
     to affect their operations or financial position. Since 2010, these disclosures
@@ -787,14 +1013,19 @@
     evolution of these risks over time.
   authors: Sasha Luccioni (Mila); Hector Palacios (Element AI)
   paper_path: "/papers/icml2019/34/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917846'
-  slideslive_time: '130s'
+  slideslive_time: 130s
   q1_track: Ideas
   prev_paper_id: 33
   next_paper_id: 35
+  cmt_id: 55
+  primary_subject_area: Climate finance
+  secondary_subject_areas: ''
+  subject_areas:
+  - Climate finance
+  condensed_subject_areas:
+  - Climate finance
 - id: 35
   paper_title: 'Machine Learning-based Maintenance for Renewable Energy: The Case
     of Power Plants in Morocco'
@@ -818,11 +1049,16 @@
   authors: Kris Sankaran (Montreal Institute for Learning Algorithms); Zouheir Malki
     (Polytechnique Montréal); Loubna Benabou (UQAR); Hicham Bouzekri (MASEN)
   paper_path: "/papers/icml2019/35/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 34
   next_paper_id: 36
+  cmt_id: 32
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: ''
+  subject_areas:
+  - Power generation and grids
+  condensed_subject_areas:
+  - Power and energy
 - id: 36
   paper_title: 'GainForest: Scaling Climate Finance for Forest Conservation using
     Interpretable Machine Learning on Satellite Imagery'
@@ -836,11 +1072,18 @@
     Cang (UC Berkeley); Reuven Gonzales (OasisLabs); Ming-Da Liu Zhang (ETHZ); Nick
     Pawlowski (Imperial College London); Clement Fung (University of British Columbia)
   paper_path: "/papers/icml2019/36/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 35
   next_paper_id: 37
+  cmt_id: 73
+  primary_subject_area: Agriculture, forestry and other land use
+  secondary_subject_areas: Climate finance
+  subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate finance
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Climate finance
 - id: 37
   paper_title: Machine Intelligence for Floods and the Built Environment Under Climate
     Change
@@ -856,11 +1099,18 @@
     Infrastructure Networks (CLIN).
   authors: Kate Duffy (Northeastern University); Auroop Ganguly (Northeastern University)
   paper_path: "/papers/icml2019/37/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 36
   next_paper_id: 38
+  cmt_id: 57
+  primary_subject_area: Disaster management and relief
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Disaster management and relief
+  - Extreme weather events
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Extreme weather events
 - id: 38
   paper_title: Predicting Marine Heatwaves using Global Climate Models with Cluster
     Based Long Short-Term Memory
@@ -882,14 +1132,20 @@
     Nathan Mannheimer (Tableau Software); Sarah Battersby (Tableau Software); LuAnne  Thompson
     (University of Washington)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 37
   next_paper_id: 39
+  cmt_id: 2
+  primary_subject_area: Extreme weather events
+  secondary_subject_areas: Climate modeling
+  subject_areas:
+  - Extreme weather events
+  - Climate modeling
+  condensed_subject_areas:
+  - Extreme weather events
+  - Climate and Earth science
 - id: 39
-  paper_title: "ML-driven search for zero-emissions ammonia production
-    materials"
+  paper_title: ML-driven search for zero-emissions ammonia production materials
   abstract: Ammonia (NH3) production is an industrial process that consumes between
     1-2% of global energy  annually  and  is  responsible  for  2-3%  of greenhouse
     gas emissions (Van der Ham et al.,2014).  Ammonia is primarily used for agricultural
@@ -914,16 +1170,25 @@
     machine-learning approaches to fix this are discussed.
   authors: Kevin McCloskey (Google)
   paper_path: "/papers/icml2019/39/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   slideslive_id: '38917846'
-  slideslive_time: '8m50s'
+  slideslive_time: 8m50s
   q1_track: Ideas
   prev_paper_id: 38
   next_paper_id: 40
+  cmt_id: 15
+  primary_subject_area: Industrial optimization
+  secondary_subject_areas: Agriculture, forestry and other land use; Transportation
+  subject_areas:
+  - Industrial optimization
+  - Agriculture, forestry and other land use
+  - Transportation
+  condensed_subject_areas:
+  - Industry
+  - Agriculture, forestry and other land use
+  - Transportation
 - id: 40
-  paper_title: "Low-carbon urban planning with machine learning"
+  paper_title: Low-carbon urban planning with machine learning
   abstract: Widespread climate action is urgently needed, but current solutions do
     not account enough for local differences. Here, we take the example of cities
     to point to the potential of machine learning (ML) for generating at scale high-resolution
@@ -936,14 +1201,21 @@
     and Climate Change (MCC)); Felix Creutzig (Mercator Research Institute on Global
     Commons and Climate Change (MCC))
   paper_path: "/papers/icml2019/40/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   is_spotlight: true
   q1_track: Ideas
   slideslive_id: '38917846'
-  slideslive_time: '11m58s'
+  slideslive_time: 11m58s
   prev_paper_id: 39
   next_paper_id: 41
+  cmt_id: 29
+  primary_subject_area: Smart buildings and cities
+  secondary_subject_areas: Transportation
+  subject_areas:
+  - Smart buildings and cities
+  - Transportation
+  condensed_subject_areas:
+  - Buildings and cities
+  - Transportation
 - id: 41
   paper_title: The Grid Resilience & Intelligence Platform (GRIP)
   abstract: Extreme weather events pose an enormous and increasing threat to the nation’s
@@ -965,11 +1237,18 @@
     grid events.
   authors: Ashley Pilipiszyn (Stanford University)
   paper_path: "/papers/icml2019/41/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 40
   next_paper_id: 42
+  cmt_id: 47
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Extreme weather events
+  subject_areas:
+  - Power generation and grids
+  - Extreme weather events
+  condensed_subject_areas:
+  - Power and energy
+  - Extreme weather events
 - id: 42
   paper_title: Meta-Optimization of Optimal Power Flow
   abstract: The planning and operation of electricity grids is carried out by solving
@@ -983,11 +1262,18 @@
     Labs); Lyndon White (Invenia Labs); James Requeima (Invenia Labs); Cozmin Ududec
     (Invenia Labs)
   paper_path: "/papers/icml2019/42/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 41
   next_paper_id: 43
+  cmt_id: 43
+  primary_subject_area: Power generation and grids
+  secondary_subject_areas: Industrial optimization
+  subject_areas:
+  - Power generation and grids
+  - Industrial optimization
+  condensed_subject_areas:
+  - Power and energy
+  - Industry
 - id: 43
   paper_title: Learning representations to predict landslide occurrences and detect
     illegal mining across multiple domains
@@ -1002,11 +1288,18 @@
   authors: Aneesh Rangnekar (Rochester Institute of Technology); Matthew J Hoffman
     (Rochester Institute of Technology)
   paper_path: "/papers/icml2019/43/paper.pdf"
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 42
   next_paper_id: 44
+  cmt_id: 59
+  primary_subject_area: Disaster management and relief
+  secondary_subject_areas: Agriculture, forestry and other land use
+  subject_areas:
+  - Disaster management and relief
+  - Agriculture, forestry and other land use
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Agriculture, forestry and other land use
 - id: 44
   paper_title: Harness the Power of Artificial intelligence and -Omics to Identify
     Soil Microbial Functions in Climate Change Projection
@@ -1037,7 +1330,19 @@
   authors: Yang Song (Oak Ridge National Lab); Dali  Wang (Oak Ridge National Lab);
     Melanie Mayes (Oak Ridge National Lab)
   paper_path: 
-  is_best_paper: false
-  is_honorable_mention: false
   q1_track: Ideas
   prev_paper_id: 43
+  cmt_id: 68
+  primary_subject_area: Climate modeling
+  secondary_subject_areas: Carbon capture and sequestration; Data presentation and
+    management; Ecosystems and natural resources
+  subject_areas:
+  - Climate modeling
+  - Carbon capture and sequestration
+  - Data presentation and management
+  - Ecosystems and natural resources
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Carbon capture and sequestration
+  - Data presentation and management
+  - Ecosystems and natural resources

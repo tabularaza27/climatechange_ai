@@ -4,15 +4,13 @@ title: Climate Change AI - Newsletters
 description: Archive of Climate Change AI newsletters
 ---
 
-# Newsletter
-
-## Sign Up
+## Newsletter Signup
 
 {% include newsletter_signup_form.html %}
 
 ## Archive
 
-See our <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>archive of past newsletters</a>.
+Links to our past newsletters are below. If the list isn't appearing, you can also view the archive <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>here</a>.
 
 <!-- <iframe src="https://us3.campaign-archive.com/?u=a5463f28627a77a4b2a79e7d0&id=ef22a3426e" style="border: 0; width: 100%; height: 5in"> Your browser doesn't support iFrames. </iframe> -->
 

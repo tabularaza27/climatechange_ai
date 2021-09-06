@@ -1,0 +1,33 @@
+---
+- slug: icml2019
+  date: 2019/06/14
+  papers: icml2019_papers
+  short_name: ICML 2019
+  completed: true
+  conference_title: "ICML 2019 Workshop on Climate Change: How Can AI Help?"
+- slug: neurips2019
+  date: 2019/12/14
+  papers: neurips2019_papers
+  short_name: NeurIPS 2019
+  completed: true
+  conference_title: "NeurIPS 2019 Workshop on Tackling Climate Change with Machine Learning"
+- slug: iclr2020
+  date: 2020/04/26
+  papers: iclr2020_papers
+  short_name: ICLR 2020
+  completed: true
+  conference_title: "ICLR 2020 Workshop on Tackling Climate Change with Machine Learning"
+- slug: neurips2020
+  date: 2020/12/11
+  papers: neurips2020_papers
+  schedule: neurips2020_schedule
+  short_name: NeurIPS 2020
+  completed: true
+  conference_title: "NeurIPS 2020 Workshop on Tackling Climate Change with Machine Learning"
+- slug: icml2021
+  date: 2021/07/23
+  short_name: ICML 2021
+  papers: icml2021_papers
+  schedule: icml2021_schedule
+  completed: true
+  conference_title: "ICML 2021 Workshop on Tackling Climate Change with Machine Learning"

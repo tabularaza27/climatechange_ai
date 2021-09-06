@@ -4,39 +4,16 @@ title: Climate Change AI
 description: Tackling Climate Change with Machine Learning
 ---
 
-<section>
-  <center><h1>Climate Change AI</h1></center>
-  <center><i>Catalyzing impactful work at the intersection of climate change and machine learning</i></center>
+<section style="margin-bottom:50px;">
+  <center><h2>Climate Change AI is a global initiative to catalyze impactful work at the intersection of climate change and machine learning.</h2></center>
 </section>
 
-{% for section in site.data.carousels %}
-  <section>
-    <h2>{{ section.title }}</h2>
-
-    <div class='carousel'>
-      {% for e in section.entries %}
-        {% assign image = e.image | default: "/images/full_light_earth_lowres.jpeg" %}
-
-        {% if e.url contains 'http' %}
-          {% assign target = '_blank' %}
-        {% else %}
-          {% assign target = '' %}
-        {% endif %}
-
-        <div class='carousel__item'>
-          <div class='carousel__background' style='background-image: url("{{ image }}")'></div>
-          <a class='carousel__link' href='{{ e.url }}' target='{{ target }}'>
-            {{ e.title }}
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-{% endfor %}
+<div id='carousels'>
+</div>
 
 <section>
-  <h2>Sign up for our newsletter</h2>
-
+  <h2 style='margin-bottom: 0em'>Sign up for our newsletter</h2>
+  <div style='margin-bottom: 1em'><i>A monthly round-up of events, opportunities, and readings at the intersection of climate change and machine learning. You can view past issues <a href='/newsletter#archive'>here</a>.</i></div>
   {% include newsletter_signup_email_only.html %}
 </section>
 
@@ -48,27 +25,111 @@ section {
   margin-bottom: 2rem;
 }
 </style>
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.23.0/build/global/luxon.min.js"></script>
 <script>
-$(document).ready(function(){
-   $('.carousel').slick({
-       slidesToShow: 4,
-       slidesToScroll: 4,
-       responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+$(document).ready(() => {
+    const webinars = {{ site.data.webinars | sort: "date" | reverse | jsonify }};
+    const carousels = {{ site.data.carousels | jsonify }};
+
+    const DateTime = luxon.DateTime;
+    const today = DateTime.local().startOf('day');
+
+    let nextUpcoming;
+    let lastRecorded;
+
+    for (let i = 0; i < webinars.length; i++) {
+        webinars[i].date = DateTime.fromISO(webinars[i].date);
+    }
+
+    for (let i = 0; i < webinars.length; i++) {
+        const w = webinars[i];
+
+        if (w.date >= today) {
+            if (!nextUpcoming || w.date < nextUpcoming.date) {
+              nextUpcoming = {
+                date: w.date,
+                image: w.image,
+                title: `Attend our webinar on ${w.date.toLocaleString({ month: 'long', day: 'numeric' })}: "${w.title}"`,
+                url: '/webinars'
+              };
+            }
+        } else if (w.recording_link) {
+            if (!lastRecorded || w.date > lastRecorded.date) {
+              lastRecorded = {
+                date: w.date,
+                image: w.image,
+                title: `View our recent webinar: "${w.title}"`,
+                url: w.recording_link
+              };
+            }
         }
-      ]
-   });
+    }
+
+    function carouselEntry(entry) {
+        const image = entry.image || '/images/logo_small_green.png';
+        const target = entry.url.startsWith('http') ? '_blank' : '';
+        return `
+          <div class='carousel__item'>
+            <div class='carousel__background' style='background-image: url("${image}")'></div>
+            <a class='carousel__link' href='${entry.url}' target='${target}'>
+              <div class='carousel__link-text'>${entry.title}</div>
+            </a>
+          </div>
+        `;
+    }
+
+    for (let carousel of carousels) {
+        const $carousel = $("<div class='carousel'></div>");
+
+        // Add webinars to carousels if present
+        if (nextUpcoming && carousel.title == "News and events")
+            $carousel.append(carouselEntry(nextUpcoming));
+        if (lastRecorded && carousel.title == "Featured content")
+            $carousel.append(carouselEntry(lastRecorded));
+
+        // Add explicitly provided carousel entries
+        for (let entry of carousel.entries) {
+            // But only if they aren't stale / unripe
+            if (entry.start_showing_on && today < DateTime.fromISO(entry.start_showing_on))
+                continue;
+            if (entry.stop_showing_on && today >= DateTime.fromISO(entry.stop_showing_on))
+                continue;
+            $carousel.append(carouselEntry(entry));
+        }
+
+        const $section = $('<section></section>');
+        $section.append(`<h2>${carousel.title}</h2>`);
+        $section.append($carousel);
+        $('#carousels').append($section);
+    }
+
+    $('.carousel').slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+              },
+            {
+                breakpoint: 624,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+              },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+              }
+          ]
+    });
 });
 </script>

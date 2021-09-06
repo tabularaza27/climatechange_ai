@@ -1,31 +1,58 @@
-- title: 'News and events'
-  entries:
-    - title: Attend a CCAI virtual happy hour (held fortnightly)
-      url: /events/happy_hour
-    - title: Attend our next webinar on Feb 11
-      image: /images/webinar_equity_02-2021.png
-      url: /webinars
-    - title: Check out the CCAI community events calendar
-      image: /images/core_team_zoom.png
-      url: /community-events
-    - title: David Rolnick featured on ASP Flashpoint
-      image: /images/people/davidrolnick_400x400.jpg
-      url: https://www.americansecurityproject.org/climate-and-ai-with-dr-david-rolnick/
-    - title: Lynn Kaack and David Dao featured on ETH Zürich podcast
-      image: /images/lynn-davidd.jpg
-      url: https://ethz.ch/en/news-and-events/eth-news/news/2020/05/podcast-ai-climate-change.html
-- title: 'Featured content'
-  entries:
-    - title: Check out an interactive summary of our paper on climate change and ML
-      image: /images/summaries_teaser.png
-      url: /summaries
-    - title: Watch our tutorials on climate change or machine learning
-      url: /tutorials
-    - title: Contribute to our wishlist of critical datasets
-      image: /images/wishlist_img.jpg
-      url: https://docs.google.com/document/d/1E1vhuGNiUWUbij8WxqNbTfytxfyaS9LnaBEdx58KQQc/edit
-    - title: Browse papers and recorded talks from our workshop at NeurIPS 2020
-      image: /images/NeurIPS2020_preview_copy4.png
-      url: /events/iclr2020
-    - title: Join the conversation on our discussion forum
-      url: https://forum.climatechange.ai/
+- entries:
+  - image: /images/neurips-logo-new.svg
+    stop_showing_on: 2021-08-15
+    title: Submit (9/18) or apply for mentorship (8/15) for our NeurIPS 2021 workshop
+    url: /events/neurips2021
+  - image: /images/neurips-logo-new.svg
+    start_showing_on: 2021-08-15
+    stop_showing_on: 2021-09-18
+    title: Submit (by Sep. 18) to our NeurIPS 2021 workshop
+    url: /events/neurips2021
+  - image: /images/neurips-logo-new.svg
+    start_showing_on: 2021-09-18
+    title: Register for our NeurIPS 2021 workshop
+    url: /events/neurips2021
+  - image: /images/innovation-grants-poster-trunc.png
+    title: Announcing the CCAI Innovation Grants program; USD 1.8M in funding available
+    url: /calls/innovation_grants
+  - image: /images/happy_hour_banner_cropped_400w.jpg
+    title: Attend a CCAI virtual happy hour (held fortnightly)
+    url: /events/happy_hour
+  - image: /images/core_team_zoom_400w.jpg
+    title: Check out the CCAI community events calendar
+    url: /community-events
+  - image: /images/interchange.jpg
+    title: Priya Donti and Lynn Kaack featured on The Interchange
+    url: https://www.greentechmedia.com/articles/read/how-a.i-will-revolutionize-climate-tech
+  - image: /images/ccai_heinrich_boll_foundation_400w.jpg
+    title: CCAI Chairs speak at Heinrich Böll Foundation
+    url: https://calendar.boell.de/en/event/how-artificial-intelligence-could-help-mitigate-climate-change
+  title: News and events
+- entries:
+  - image: /images/ccai-circle_400w.jpg
+    title: Join our CCAI Circle community
+    url: https://community.climatechange.ai
+  - image: /images/ccai-directory_400w.jpg
+    title: Sign up for our community directory
+    url: https://directory.climatechange.ai
+  - image: /images/wiki_teaser_400w.jpg
+    title: Explore and contribute to the Climate Change AI Wiki
+    url: https://wiki.climatechange.ai
+  - image: /images/wishlist_img.jpg
+    title: Contribute to our wishlist of critical datasets
+    url: https://docs.google.com/document/d/1E1vhuGNiUWUbij8WxqNbTfytxfyaS9LnaBEdx58KQQc/edit
+  title: Get involved
+- entries:
+  - image: /images/icml-2021-preview_400w.jpg
+    title: Browse papers and talks from ICML 2021
+    url: /events/icml2021
+  - image: /images/paperlist_teaser_400w.jpg
+    title: Browse all accepted papers from our workshop series
+    url: /papers
+  - image: /images/summaries_teaser_400w.jpg
+    title: View interactive summaries of our climate + ML paper
+    url: /summaries
+  - image: /images/cc_downstream_impacts_crop.png
+    title: Watch tutorials on climate change or machine learning
+    url: /tutorials
+  title: Featured content

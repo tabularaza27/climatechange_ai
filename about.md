@@ -11,10 +11,17 @@ Climate Change AI (CCAI) is an organization composed of volunteers from academia
 To catalyze impactful work at the intersection of climate change and machine learning.
 
 ### Our Goals
-* To build a community of diverse stakeholders.
-* To guide impactful work through educational resources and programs.
-* To fill gaps in essential infrastructure such as funding, tools, and datasets. 
-* To advance discourse and advise relevant players.
+* **Community:** To build a community of diverse stakeholders.
+* **Education:** To guide impactful work through educational resources and programs.
+* **Infrastructure:** To fill gaps in essential infrastructure such as funding, tools, and datasets.
+* **Discourse:** To advance discourse and advise relevant players.
+
+### Our Guiding Principles
+* **On climate change:** Climate change is a pressing issue with major implications for societal well-being, particularly for the world’s most disadvantaged populations. Addressing climate change requires rapid, sustained, equitable, and scientifically informed efforts in both mitigation and adaptation, in conjunction with relevant stakeholders.
+* **On machine learning:** Machine learning is a powerful tool with wide applicability in many technological and societal applications (both positive and negative), and should be practiced in a manner consistent with its strengths, weaknesses, and limitations, as well as with climate change goals (considering both its applications and its emissions footprint).
+* **On machine learning for climate change:** Machine learning can play an impactful role in many broader strategies for reducing and responding to climate change. At the same time, machine learning is not a silver bullet, and should serve to supplement (rather than divert attention from) other impactful actions to address climate change.
+* **On diversity, inclusion, and equity:** Diversity, inclusion, and equity are central to the advancement of society in general, and moreover fundamental to progress in addressing climate change. Where possible, it is important that work in climate change and machine learning attempt to address the structural inequities that exist in today’s society.
+
 
 
 # People
@@ -33,6 +40,9 @@ To catalyze impactful work at the intersection of climate change and machine lea
 </div>
 <div class="person__name">{{p.name}}</div>
 <div class="person__affil">{{p.affiliation}}</div>
+{% if p.roles %}
+<div class="person__role">{{p.roles | join: ";<br>"}}</div>
+{% endif %}
 {% if p.website_url %}
 </a>
 {% else %}
@@ -42,59 +52,12 @@ To catalyze impactful work at the intersection of climate change and machine lea
 </div>
 {% endfor %}
 
-# Organizational Structure
-
-## CCAI Chairs
-- Priya L. Donti
-- Lynn H. Kaack
-- David Rolnick
-
-## Content Committee
-- Sasha Luccioni <em>(Committee Co-chair)</em>
-- Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
-- Ebude Antem Yolande Ebong <em>(Wiki)</em>
-- Lauren Kuntz <em>(Course)</em>
-- Alexandre Lacoste
-- Tegan Maharaj
-- Ankur Mahesh <em>(Tutorials)</em>
-- Geneviève Patterson <em>(Course)</em>
-- Isabelle Tingzon <em>(Tutorials)</em>
-- Marcus Voss <em>(Wiki)</em>
-
-## Communications Committee
-- Konstantin Klemmer <em>(Committee Chair)</em>
-- Ján Drgoňa <em>(Forum)</em>
-- Jesse Dunietz <em>(Media Relations)</em>
-- Wei-Wei Lin <em>(Website)</em>
-- Andrew Ross <em>(Website)</em>
-- Katherine Stapleton <em>(Strategic Outreach)</em>
-- Kasia Tokarska <em>(Newsletter)</em>
-
-## Programs Committee
-- Evan D. Sherwin <em>(Committee Chair)</em>
-- Hari Prasanna Das <em>(Summer School)</em>
-- Jessica Fan <em>(Industry Events)</em>
-- Meareg Hailemariam <em>(Webinar)</em>
-- Jeremy Irvin <em>(Summer School)</em>
-- John Kieffer <em>(Community Events)</em>
-- Konstantin Klemmer
-- Felipe Oviedo <em>(Webinar)</em>
-- Maria João Sousa <em>(Summer School)</em>
-- Yumna Yusuf <em>(Happy Hours)</em>
-
-## Community Leads
-- David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
-- Priya L. Donti <em>(Power Sector)</em>
-- Lynn H. Kaack <em>(Public Sector)</em>
-- Kelly Kochanski <em>(Climate and Earth Sciences)</em>
-- Raphaela Kotsch <em>(Economics & Markets)</em>
-- Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
-- Kelton Minor <em>(Computational Social Sciences)</em>
-- David Rolnick <em>(Tech Industry and ML Academia)</em>
-- Katherine Stapleton <em>(International Organizations)</em>
-
 ## Former Core Team Members
+- Ebude Antem Yolande Ebong
 - Natasha Jaques
+- Kelly Kochanski
+- Alexandre Lacoste
+- Wei-Wei Lin
 - Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
@@ -102,12 +65,24 @@ To catalyze impactful work at the intersection of climate change and machine lea
 # Press
 
 ## Releases
-* Nov. 11, 2019: <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
+* CCAI Innovation Grants program (Aug. 20, 2021): <a href="/press_releases/2021-08-30/release.html" target="_blank">press release</a>
+* MIT Technology Review 35 Under 35 awards (Jun. 30, 2021): <a href="/press_releases/2021-06-30/release.html" target="_blank">press release</a>
+* CCAI paper (Nov. 11, 2019): <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
-## Selected coverage
-* "Not Cool: A Climate Podcast" by the Future of Life Institute: <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">Part 1</a> and <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">Part 2</a>
-* Eye on A.I. podcast: <a href="https://www.eye-on.ai/podcast-024" target="_blank">"Climate Change and AI"</a>
-* National Geographic: <a href="https://www.nationalgeographic.com/environment/2019/07/artificial-intelligence-climate-change/" target="_blank">"How artificial intelligence can tackle climate change"</a>
-* The Verge: <a href="https://www.theverge.com/2019/6/25/18744034/ai-artificial-intelligence-ml-climate-change-fight-tackle" target="_blank">"Here’s how AI can help fight climate change according to the field’s top thinkers"</a>
-* MIT Technology Review: <a href="https://www.technologyreview.com/s/613838/ai-climate-change-machine-learning/" target="_blank">"Here are 10 ways AI could help fight climate change"</a>
+## Selected articles
+* <b>The Economist Intelligence Unit:</b> <a href="https://eiuperspectives.economist.com/sustainability/green-intelligence-ai-could-boost-efforts-fight-climate-change" target="_blank">Green Intelligence - AI could boost efforts to fight climate change</a> (May 2021)
+* <b>Capgemini:</b> <a href="https://www.capgemini.com/research/climate-ai/" target="_blank">Climate AI: How artificial intelligence can power your climate action strategy</a> (Nov 2020)
+* <b>Forbes:</b> <a href="https://www.forbes.com/sites/jeffmcmahon/2020/04/27/is-fusion-really-closer-to-reality-yes-thanks-to-machine-learning/" target="_blank">Is Fusion Really Close To Reality? Yes, Thanks To Machine Learning</a> (Apr 2020)
+* <b>CleanTechnica:</b> <a href="https://cleantechnica.com/2020/01/20/machine-learning-experts-issue-call-to-arms-for-climate-focus/" target="_blank">Machine Learning Experts Issue Call To Arms For Climate Focus</a> (Jan 2020)
+* <b>National Geographic:</b> <a href="https://www.nationalgeographic.com/environment/2019/07/artificial-intelligence-climate-change/" target="_blank">How artificial intelligence can tackle climate change</a> (Jul 2019)
+* <b>The Verge:</b> <a href="https://www.theverge.com/2019/6/25/18744034/ai-artificial-intelligence-ml-climate-change-fight-tackle" target="_blank">Here’s how AI can help fight climate change according to the field’s top thinkers</a> (Jun 2019)
+* <b>MIT Technology Review:</b> <a href="https://www.technologyreview.com/s/613838/ai-climate-change-machine-learning/" target="_blank">Here are 10 ways AI could help fight climate change</a> (Jun 2019)
 
+## Selected podcasts and radio shows
+* <b>The Interchange:</b> <a href="https://www.greentechmedia.com/articles/read/how-a.i-will-revolutionize-climate-tech" target="_blank">How A.I. Will Revolutionize Climate Tech</a> (Jun 2021)
+* <b>Körber Stiftung:</b> <a href="https://www.koerber-stiftung.de/mediathek/der-zusammenhang-von-klima-und-ki-2182" target="_blank">Der Zusammenhang von Klima und KI</a> (Mar 2021, German)
+* <b>ASP Flashpoint:</b> <a href="https://www.americansecurityproject.org/climate-and-ai-with-dr-david-rolnick/" target="_blank">Climate and AI</a> (Aug 2020)
+* <b>Deutschlandfunk:</b> <a href="https://www.deutschlandfunk.de/umwelt-kuenstliche-intelligenz-gegen-den-klimawandel.684.de.html?dram:article_id=477738" target="_blank">Künstliche Intelligenz gegen den Klimawandel</a> (May 2020, German)
+* <b>The Interchange:</b> <a href="https://www.greentechmedia.com/articles/read/beyond-forecasting-artificial-intelligence-is-a-powerful-decarbonization-tool" target="_blank">Beyond Forecasting: Artificial Intelligence Is a Powerful Decarbonization Tool</a> (Feb 2020)
+* "Not Cool: A Climate Podcast" by the <b>Future of Life Institute:</b> <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">Part 1</a> and <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">Part 2</a> (Oct 2019)
+* <b>Eye on A.I. podcast:</b> <a href="https://www.eye-on.ai/podcast-024" target="_blank">Climate Change and AI</a> (Sep 2019)
