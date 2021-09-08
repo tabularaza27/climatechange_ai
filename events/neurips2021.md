@@ -84,7 +84,7 @@ All machine learning techniques are welcome, from kernel methods to deep learnin
 
 The workshop does not publish proceedings, and submissions are non-archival. Submission to this workshop does not preclude future publication. Previously published work may be submitted under certain circumstances (see the [FAQ](#frequently-asked-questions)).
 
-All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. Authors are required to use the workshop [style template](http://climatechange.ai/files/TCCML_NeurIPS_2021_Style_File.zip) (based on the NeurIPS style files).
+All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. Authors are required to use the workshop [style template](http://climatechange.ai/files/TCCML_NeurIPS_2021_Style_File.zip) (based on the NeurIPS style files), available for LaTeX and docx format.
 
 All **tutorials** submissions must be through this [application form](https://forms.gle/wMkXSVnqxamJ5s7g8).
 
@@ -196,9 +196,6 @@ Applications are due by **Aug 16**.
 
 **Q:** What if my submission is accepted but I can’t attend the workshop?<br>
 **A:** You may ask someone else to present your work in your stead.
-
-**Q:** Do I need to use LaTeX or the NeurIPS style files?<br>
-**A:** No, although we encourage it.
 
 **Q:** It’s hard for me to fit my submission on 3 or 4 pages.  What should I do?<br>
 **A:** Feel free to include appendices with additional material (these should be part of the same PDF file as the main submission).  Do not, however, put essential material in an appendix, as it will be read at the discretion of the reviewers.
