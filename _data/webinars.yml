@@ -1,3 +1,45 @@
+- title: Machine learning in international organizations working on climate change
+  #subtitle: 
+  speakers:  Lara Aleluia, Edward Anderson, Mercedeh Tariverdi
+  image: /images/webinar_sept.png
+  registration_link: "https://www.climatechange.ai/register/webinar"
+  #recording_link: "https://youtu.be/yNvm8tXB24M"
+  registration_text: Register via Eventbrite (Free)
+  date: 2021-09-22
+  time: from 11-12:00pm Eastern Time (3-4:00pm UTC)
+  details: |-
+   International organizations have an important role preparing and executing programs for climate change assessment, risk management and adaptation.
+   In this context, data science and machine learning play an important role by forecasting potential impacts of climate change at local level and informing
+   policies and interventions.  In this webinar, we will discuss the experience of three experts applying machine learning techniques to assess and manage the 
+   risks caused by climate change across the world.
+   <br><br>
+
+    <b>Invited Speakers:</b>
+
+    <br><br>
+
+
+    <b> Lara Aleluia </b> is a Scientist at EIEE. She holds a PhD in engineering sciences from the University of Luxembourg (2013). During her doctoral studies, 
+    she developed a reduced air quality    model for an integrated assessment of air pollution policy. She is particularly interested in climate change, integrated 
+    assessment approaches, environmental statistics, energy policy, environmental economics, and air pollution and its connections with meteorology and climate.
+
+
+    <br><br>
+
+     <b> Edward Anderson </b> is the Senior Technology and Resilience Specialist for the World Bank
+     based in Dar es Salaam, Tanzania. Edward participates in the EU’s Drones in Humanitarian Action Expert Working Group and holds Master’s degrees in both aerospace
+     engineering and international economics and international relations. His focus is on the nexus of urbanization and climate risks and leveraging emerging imaging 
+     and mobility technologies for greater resilience in African economies. 
+
+    <br><br>
+
+     <b> Mercedeh Tariverdi </b> is Principal Data Scientist at The World Bank focusing on Health System Resiliency &
+      Disaster Risk Management. She is passionate about designing real-time prediction algorithms and identifying risks to support day-to-day or
+      time-critical decision-making in unpredictable environments. Mercedeh developed multiple stochastic models for optimal resource management 
+      and real-time decision-making given inter-dependencies of multiple networks. 
+
+    <br><br>
+
 - title: Machine learning in climate finance
   #subtitle: 
   speakers:  Dr. Nataliya Tkachenko, David Carlin, Chinmay Adhvaryu
