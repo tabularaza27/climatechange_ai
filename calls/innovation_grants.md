@@ -113,6 +113,9 @@ A: US national labs and federally funded research and development centers (FFRDC
 _Q: I am from an eligible “accredited university or academic research institution” as defined above and hold a post-PhD research position at that institution, but am not technically considered either a postdoc or faculty member. Am I eligible to be a PI?_<br>
 A: Yes. Anyone at an eligible lead institution as defined above who holds a post-PhD research position of postdoctoral level or above, and is allowed by their institution to hold grants, is eligible to apply as a PI.
 
+_Q: What counts as an OECD country under the eligibility criteria of this grant?_<br>
+A: For the purposes of this grant, we consider any of the 38 OECD Member countries (as listed on the [OECD website](https://www.oecd.org/about/members-and-partners/){:target="_blank"}) to be an "OECD country."
+
 _Q: I am not an AI or ML expert; can I apply?_<br>
 A: Yes, as long as your project includes an aspect of AI/ML which addresses one of the areas described in “Purpose of this grant”. You may want to consider finding an AI or ML expert to collaborate with; our [workshops](/events), [online discussion platform](https://community.climatechange.ai), [happy hours](/events/happy_hour), and [community directory](https://directory.climatechange.ai/) could be helpful for this.
 
