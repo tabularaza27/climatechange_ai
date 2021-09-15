@@ -1,6 +1,6 @@
 # Climate Change AI Happy Hour Series
 
-## Next event: Wed 15 September @ 5pm - 6pm ET / 10pm - 11pm GMT+1 (signup link below)
+## Next event: Wed 6 October @ 12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1 (signup link below)
 
 <img src="/images/happy_hour_banner_cropped.jpg" alt="Banner for CCAI happy hour">
 
