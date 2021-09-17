@@ -84,7 +84,7 @@ All machine learning techniques are welcome, from kernel methods to deep learnin
 
 The workshop does not publish proceedings, and submissions are non-archival. Submission to this workshop does not preclude future publication. Previously published work may be submitted under certain circumstances (see the [FAQ](#frequently-asked-questions)).
 
-All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. Authors are required to use the workshop [style template](http://climatechange.ai/files/TCCML_NeurIPS_2021_Style_File.zip){:target="_blank"} (based on the NeurIPS style files), available for LaTeX and docx format.
+All **papers** and **proposals** submissions must be through the [submission website](https://cmt3.research.microsoft.com/CCAINeurIPS2021). Submissions will be reviewed double-blind; do your best to anonymize your submission, and do not include identifying information for authors in the PDF. Authors are required to use the workshop [style template](http://climatechange.ai/files/TCCML_NeurIPS_2021_Style_File.zip) (based on the NeurIPS style files), available for LaTeX and docx format.
 
 All **tutorials** submissions must be through this [application form](https://forms.gle/wMkXSVnqxamJ5s7g8).
 
