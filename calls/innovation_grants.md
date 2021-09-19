@@ -38,7 +38,7 @@ Relevant research includes but is not limited to the following topics:
 
 ## Eligibility
 
-Each application must have a Principal Investigator (PI) who is a faculty member or postdoctoral researcher at an accredited university or academic research institution in an OECD country. There are no eligibility restrictions on co-Investigators, and multi-country and multi-sectoral collaborations are encouraged (e.g., including members outside OECD countries or from non-research institutions).
+Each application must have a Principal Investigator (PI) who is a faculty member or postdoctoral researcher at an accredited university or academic research institution in an [OECD Member country](https://www.oecd.org/about/members-and-partners/){:target="_blank"}. There are no eligibility restrictions on co-Investigators, and multi-country and multi-sectoral collaborations are encouraged (e.g., including members outside OECD Member countries or from non-research institutions).
 
 Current members of the Climate Change AI Board of Directors cannot apply to this grant as a PI, and they may not receive funds towards their own salary. Members of the Review Committee for this grant may not apply or receive funds in any way (however, reviewers may, and conflicts of interest will be appropriately managed during the review process).
 
