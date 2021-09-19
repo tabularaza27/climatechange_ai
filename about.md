@@ -55,6 +55,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Former Core Team Members
 - Ebude Antem Yolande Ebong
 - Natasha Jaques
+- John Kieffer
 - Kelly Kochanski
 - Alexandre Lacoste
 - Wei-Wei Lin
