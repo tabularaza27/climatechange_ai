@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1>Blog Posts</h1>
+
+{% for post in site.posts %}
+<div class='post-preview'>
+    {% if post.image %}
+    {% assign image = post.image %}
+    {% else %}
+    {% assign image = '/images/logo_small_green.png' %}
+    {% endif %}
+
+    <div class='post-preview-image' style='background-image:url("{{image}}")'>
+    </div>   
+    <div class='post-preview-content'>
+      <h3><a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a></h3>
+      <a href="{{ post.url }}" class='post-preview-description'>{{ post.excerpt }}</a>
+      <div class='post-preview-author'>{{ post.author }}</div>
+      <div class='post-preview-meta'>
+        {{ post.date | date: "%B %d, %Y" }}
+      </div>
+    </div>
+</div>
+{% endfor %}
