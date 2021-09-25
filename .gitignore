@@ -3,3 +3,4 @@ _site
 raw_workshop_files
 .env
 core_team_info.csv
+*.sw[a-z]
