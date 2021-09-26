@@ -92,6 +92,12 @@
       affiliation: Stanford University
       roles:
         - Summer School
+    - website_url: https://www.linkedin.com/in/kai-jeggle-5344b6150
+      image_url: images/people/kaijeggle_400x400.jpg
+      name: Kai Jeggle
+      affiliation: ETH Zürich
+      roles:
+        - Community Manager
     - website_url: https://www.rkotsch.com
       image_url: images/people/raphaelakotsch_400x400.jpg
       name: Raphaela Kotsch
