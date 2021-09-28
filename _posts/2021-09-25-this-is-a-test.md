@@ -3,7 +3,8 @@ layout: post
 title:  "This is a test!"
 image: https://thiscatdoesnotexist.com
 author: Jon Tester
-tags: foo bar "baz bat"
+article_type: CCAI Perspective
+topical_tags: foo, baz, chicken
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et fringilla velit, vitae molestie mauris. Nam id augue non lacus luctus eleifend eget id ipsum. Ut sed tempus mauris. Etiam congue porta elit at tincidunt. Fusce placerat ex ac dictum scelerisque. Fusce non odio lacus. Integer quis nibh vel est pulvinar iaculis. In sollicitudin justo a suscipit interdum. Vivamus tincidunt nulla ipsum, vitae porttitor dolor tincidunt id.

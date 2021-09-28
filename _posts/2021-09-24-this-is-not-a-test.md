@@ -2,7 +2,8 @@
 layout: post
 title:  "This post is definitely not a test."
 author: Admiral Foobar
-tags: foo
+article_type: Research Summary
+topical_tags: foo, bar baz, bat
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et fringilla velit, vitae molestie mauris. Nam id augue non lacus luctus eleifend eget id ipsum. Ut sed tempus mauris. Etiam congue porta elit at tincidunt. Fusce placerat ex ac dictum scelerisque. Fusce non odio lacus. Integer quis nibh vel est pulvinar iaculis. In sollicitudin justo a suscipit interdum. Vivamus tincidunt nulla ipsum, vitae porttitor dolor tincidunt id.
