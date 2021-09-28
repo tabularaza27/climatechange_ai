@@ -6,11 +6,10 @@
 ## Quick facts
 * **Grant amount:** Up to USD 150K per proposal, for projects of 12 months in duration. We will award a total of USD 1.8M in grants across all projects.
 * **Scope:** Research projects at the intersection of AI and climate change.
-* **Eligibility:** Principal Investigator must be a faculty member or postdoc at an accredited university or academic research institution in an OECD country. There are no eligibility restrictions on co-Investigators.
+* **Eligibility:** Principal Investigator must be a faculty member or postdoc at an accredited university or academic research institution in an OECD Member country. There are no eligibility restrictions on co-Investigators.
 * **Proposal submission deadline:** Oct 15, 2021 at 23:59 (Anywhere on Earth time, UTC-12)
 * **Submission site:** <https://cmt3.research.microsoft.com/CCAIGrants2021>
 * **Contact:** <grants@climatechange.ai>
-* **Informational webinars:** Sept 23 at 7am ET/13:00 CET and Sept 27 at 2pm ET/ 20:00 CET. Register at <https://ccai_grants.eventbrite.com>{:target="_blank"}.
 
 ## The purpose of this grant
 
@@ -49,7 +48,7 @@ We do not fund research activity that is currently funded by other grant program
 | Activity                     | Date         |
 |                          --- | ---          |
 | Call release date            | Aug 23, 2021 |
-| Informational webinars (register <a href="https://ccai_grants.eventbrite.com" target="_blank">here</a>)      | Sept 23 & 27, 2021 |
+| Informational webinars (<a href="/files/innovation-grants-slides-2021.pdf">slides</a>)      | Sept 23 & 27, 2021 |
 | **Proposal submission deadline** | **Oct 15, 2021** |
 | Notification of results      | Dec 10, 2021 |
 | Award start date             | Jan 10, 2022 |
