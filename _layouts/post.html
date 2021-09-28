@@ -34,8 +34,34 @@ layout: default
 
 <hr/>
 
-<h1>{{page.title}}</h1>
+<style>
+.article-type {
+    float: right;
+    font-style: italic;
+}
+</style>
+
+<h1>
+    {{page.title}}
+
+    <small class='article-type'>
+        {% assign urltype = page.article_type | url_escape %}
+        <a href='/posts?type={{urltype}}'>
+            {{page.article_type}}
+        </a>
+    </small>
+</h1>
 
 {{ content }}
+
+{% if page.topical_tags %}
+    {% assign tags = page.topical_tags | split: ", " %}
+    <hr>
+    <div class='tag-holder'>
+        {% for tag in tags %}
+            <span class='tag'>{{tag}}</span>
+        {% endfor %}
+    </div>
+{% endif %}
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
