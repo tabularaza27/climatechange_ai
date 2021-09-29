@@ -34,34 +34,46 @@ layout: default
 
 <hr/>
 
-<style>
-.article-type {
-    float: right;
-    font-style: italic;
-}
-</style>
-
 <h1>
     {{page.title}}
-
-    <small class='article-type'>
-        {% assign urltype = page.article_type | url_escape %}
-        <a href='/posts?type={{urltype}}'>
-            {{page.article_type}}
-        </a>
-    </small>
 </h1>
 
-{{ content }}
+<div class='post-subheader clearfix'>
+    {% if page.author_image %}
+        <img class='post-author-image' src='{{page.author_image}}'/>
+    {% endif %}
 
-{% if page.topical_tags %}
-    {% assign tags = page.topical_tags | split: ", " %}
-    <hr>
-    <div class='tag-holder'>
-        {% for tag in tags %}
-            <span class='tag'>{{tag}}</span>
-        {% endfor %}
-    </div>
-{% endif %}
+    <span class='post-author'>
+        {{page.author}}
+    </span>
+
+    {% if page.topical_tags %}
+        {% assign tags = page.topical_tags | split: ", " %}
+        <div class='post-tags'>
+            {% assign urltype = page.article_type | url_escape %}
+            <a class='tag is-info' href='/posts?type={{urltype}}'>
+                {{page.article_type}}
+            </a>
+
+            {% for tag in tags %}
+              <a class='tag' href='/posts?tags={{tag}}'>{{tag}}</a>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+
+<br/>
+
+<style>
+ .post-author-image {
+     height: 3.5rem;
+     border-radius: 100%;
+     float: left;
+     margin-right: 10px;
+     border: 1px solid #ccc;
+ }
+</style>
+
+{{ content }}
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

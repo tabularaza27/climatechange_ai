@@ -2,6 +2,7 @@
 layout: post
 title:  "This post is definitely not a test."
 author: Admiral Foobar
+author_image: https://pbs.twimg.com/profile_images/23999002/ackbar_reasonably_small.gif
 article_type: Research Summary
 topical_tags: foo, bar baz, bat
 ---
