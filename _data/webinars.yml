@@ -8,8 +8,8 @@
   time: from 11-12:00pm Eastern Time (3-4:00pm UTC)
   details: |-
     <b>Invited Speakers:</b>
-    <br>
-    <a href="https://www.uv.es/gcamps/" target="_blank"><b> Gustau Camps-Valls </b></a> Professor Universitat deValència.
+    <br><>
+    <a href="https://www.uv.es/gcamps/" target="_blank"><b> Gustau Camps-Valls </b></a> Professor, Universitat deValència.
     <br><br>
     <b>Physics-aware ML for Earth sciences</b>
       <br>
@@ -41,7 +41,7 @@
   speakers:  Ashley Pople, Edward Anderson, Mersedeh Tariverdi
   image: /images/webinar_sept.png
   registration_link: "https://www.climatechange.ai/register/webinar"
-  recording_link: "https://youtu.be/usKY_vED5co"
+  #recording_link: "https://youtu.be/yNvm8tXB24M"
   registration_text: Register via Eventbrite (Free)
   date: 2021-09-22
   time: from 11-12:00pm Eastern Time (3-4:00pm UTC)
