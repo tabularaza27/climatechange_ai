@@ -1,6 +1,9 @@
-<h1>Climate Change AI Summer School</h1>
+<h1>Climate Change AI Summer School 2021</h1>
 
 <div class='buttons' id='sticky-nav'>
+  <a class='button' href='#about'>About</a>
+  <a class='button' href='#call-for-participation'>Call for Submissions</a>
+  <a class='button' href='#organizers'>Organizers</a>
 </div>
 
 ## Subsection 1
@@ -28,16 +31,16 @@ A: Yes. Anyone at an eligible lead institution as defined above who holds a post
 
 ### Supported By
 
-<div class='logo-wrapper'>
+<!-- <div class='logo-wrapper'>
   <img src='/images/innovation_grants_partners_logo.png'>
-</div>
+</div> -->
 
-### Fiscal Sponsor
+<!-- ### Fiscal Sponsor
 
 <div class='logo-wrapper'>
   <img src='/images/future_earth.png'>
 </div>
-
+ -->
 <style>
 :root {
   --sticky-nav-height: 59px;
