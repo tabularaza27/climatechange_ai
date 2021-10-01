@@ -1,4 +1,4 @@
-<h1>Climate Change AI Summer School 2021<br> <small>Weekdays from Aug 15-26 2022</small></h1>
+<h1>Climate Change AI Summer School 2022<br></h1>
 
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
@@ -10,7 +10,7 @@
 Climate Change AI is committed to provide educational resources and training programs to those interested in the intersection of climate change and machine learning. This summer school will offer lectures, hands-on tutorials, and a collaborative project designed for a multidisciplinary group of participants, aiming to encourage and accelerate the application of machine learning to address relevant climate change issues. The summer school is intended to strengthen multidisciplinary collaborations between different fields and foster networking in this space. 
 
 ## Dates and Application Information
-- Date: Aug 15-26, 2022
+- Date: Aug 15-26, 2022 (Weekdays only)
 - Location: Virtual
 - Deadline for Application to Participate: <b>Dec 1, 2021 23:59 AOE (Anywhere on Earth)</b>
 - Application Portal: <https://forms.gle/9eSETySjVvdzkfiM6>
