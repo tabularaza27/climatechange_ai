@@ -1,4 +1,4 @@
-<h1>Climate Change AI Summer School 2021<br> Weekdays from Aug 15-26 2022</h1>
+<h1>Climate Change AI Summer School 2021<br> <small>Weekdays from Aug 15-26 2022</small></h1>
 
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
