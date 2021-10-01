@@ -12,9 +12,9 @@ Climate Change AI is committed to provide educational resources and training pro
 ## Dates and Application Information
 - Date: Aug 15-26, 2022
 - Location: Virtual
-- Deadline for Application to Participate: <b>Dec 1, 2021 23:59 AOE</b>
+- Deadline for Application to Participate: <b>Dec 1, 2021 23:59 AOE (Anywhere on Earth)</b>
 - Application Portal: <https://forms.gle/9eSETySjVvdzkfiM6>
-- Notification of acceptance: Feb 1, 2022
+- Notification of acceptance: <b>Feb 1, 2022 23:59 AOE</b>
 - Contact: <summerschool@climatechange.ai>
 
 ## About
@@ -43,7 +43,7 @@ The curricular part of the course is organized in two tracks designed to better 
 The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project.
 
 ### Tracks 
-#### AI-Focused Track
+### AI-Focused Track
 This track is designed for participants who have expertise in a climate change related field but do not have a background in AI. 
 
 **Pre-requisites:** If you don’t have any background in AI/ML or Python, it would be beneficial for you to complete a free online course on introduction to ML/AI, and an introduction to Python and Jupyter Notebooks (from a provided list of free resources).
@@ -53,7 +53,7 @@ This track is designed for participants who have expertise in a climate change r
   - Hands-on tutorials including code-based exercises covering the application of machine learning methods to problems relevant to climate change using modern tools
   - A project where students can leverage their expertise in a climate change related field and collaborate with fellow summer school participants with AI expertise
 
-#### Climate-Focused Track
+### Climate-Focused Track
 This track is designed for students who have expertise in AI but may or may not have a background in a climate change related field. Students applying for this track should have a theoretical and practical understanding of AI and be able to formulate AI approaches  to  new problems.
  
 **Pre-requisites:** If you do not have any background in the drivers of climate change, it would be beneficial for you to complete a free online course introduction to climate change and climate modelling (from a provided list of free resources).
