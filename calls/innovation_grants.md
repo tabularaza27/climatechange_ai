@@ -194,9 +194,12 @@ A: Climate change adaptation refers to activities that aim to prepare for or bui
 _Q: What is climate science?_<br>
 A: Climate science is the study of the environmental processes that determine past, present, and future climate. For more information, please see resources from the [IPCC Working Group I](https://www.ipcc.ch/working-group/wg1/){:target="_blank"}. For examples of where AI and ML can help with climate science, please see Climate Change AI’s [report](https://arxiv.org/pdf/1906.05433.pdf){:target="_blank"} on “Tackling Climate Change with Machine Learning” as well as the proceedings of the Conference on [Climate Informatics](http://www.climateinformatics.org/){:target="_blank"}.
 
-Q: What is meant by AI and ML?
+_Q: What is meant by AI and ML?_<br>
 A: Artificial intelligence (AI) refers to any algorithm that allows a computer to perform
 a complex task — typically, tasks such as speech, perception, and reasoning that are associated with human intelligence. Machine learning (ML) is a sub-area of AI referring to techniques whose behaviors or outcomes depend on “learning”  —  corrections or changes made as a result of seeing examples or descriptions —  rather than being hard-coded in advance. ML is used to describe a wide variety of techniques that range in their complexity, including, e.g., linear regression, decision trees, and deep neural networks.
+
+_Q: The project evaluation criteria refer to "equity." What is meant by "equity" in this context?_<br>
+A: The word "equity" in this case refers to considerations of diversity, equity, and inclusion (rather than, e.g., the financial meaning of the term).
 
 ### Other
 
