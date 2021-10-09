@@ -158,6 +158,10 @@ A: No, the review process is single-blind (reviewers’ identities are hidden fr
 _Q: I’m uncertain about the start and end dates for my project, what should I do?_<br>
 A: Just give your best guess, with an explanation of the reasons for your uncertainty if you believe it would help in evaluating your proposal.
 
+_Q: By when do I need to publish my dataset?_<br>
+A: By the end of the year-long grant, there should be a well-defined plan for data release, with data released no later than one year after the completion of the grant.
+
+
 ### Budget
 
 _Q: My project would require a budget greater than the maximum allowed (USD 150K). What should I do?_<br>
@@ -165,6 +169,10 @@ A: In order to distribute grants equitably and fund a larger number of projects,
 
 _Q: My institution takes an overhead greater than 10% of the grant. Am I still eligible to apply?_<br>
 A: You are still eligible to apply, but you will need to obtain an exemption from your institution regarding overhead, as your institution will not be allowed to take more than 10% overhead.
+
+_Q: How is the 10% cap on overhead defined?_<br>
+A: The overhead should be at most 10% of the total amount requested, and this overhead amount should be internal to the total budget requested. For example, if the total budget proposed is $150K, then at least $135K must be direct project costs, and at most $15K can be overhead. 
+
 
 ### Scope and relevance
 
