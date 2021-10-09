@@ -13,7 +13,7 @@ As such, these community guidelines apply to all CCAI activities, including but 
 * External events organized by, hosted by, or run in collaboration with CCAI.
 * All communications, media items, and other public outreach published by or through CCAI channels, such as the CCAI website or social media.
 
-All CCAI volunteers as well as participants, speakers, mentors, mentees, panelists, area chairs, reviewers, sponsors, contractors, organizers, and participants at CCAI-affiliated activities as suggested above are expected to comply with this Code of Conduct (CoC).
+All CCAI affiliates (volunteers, employees, contractors, etc.) as well as participants, speakers, mentors, mentees, panelists, area chairs, reviewers, sponsors, contractors, organizers, and participants at CCAI-affiliated activities as suggested above are expected to comply with this Code of Conduct (CoC).
 
 ## Responsibilities & Expected Behavior
 
