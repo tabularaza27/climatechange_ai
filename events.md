@@ -10,6 +10,7 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 ## Upcoming Events
 
+* [NeurIPS 2021](/events/neurips2021) workshop -- December 14, 2021, virtual
 * [Webinars](/webinars) -- once a month, virtual
 * [Happy Hours](/events/happy_hour) -- every two weeks, virtual
 
