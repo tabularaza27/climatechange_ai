@@ -869,6 +869,14 @@ td {
     background: white;
 }
 
+.post-author-image {
+    height: 3.5rem;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: searchfield-cancel-button;
     display: block;

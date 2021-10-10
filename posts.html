@@ -58,6 +58,11 @@ layout: default
         <a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a>
       </h3>
       <a href="{{ post.url }}" class='post-preview-description'>{{ post.excerpt }}</a>
+
+      {% if post.author_image %}
+        <img class='post-author-image' style='margin-top: 4.5px' src='{{post.author_image}}'/>
+      {% endif %}
+
       <div class='post-preview-author'>{{ post.author }}</div>
       <div class='post-preview-meta'>
           <span class='post-preview-date'>{{ post.date | date: "%B %d, %Y" }}</span>
