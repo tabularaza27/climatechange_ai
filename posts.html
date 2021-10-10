@@ -37,7 +37,11 @@ layout: default
     </div>
   </div>
 </div>
+<div id='clear-filters-wrapper'>
+    <button class='button is-small' id='clear-filters'>Clear filters</button>
+</div>
 
+<div class='post-previews'>
 {% for post in site.posts %}
 <div class='post-preview' data-type='{{ post.article_type }}'>
     {% if post.image %}
@@ -65,19 +69,11 @@ layout: default
     </div>
 </div>
 {% endfor %}
+</div>
 
 <style>
-.post-preview.hidden {
-    display: none;
-}
-
-.post-preview .tag:hover {
-    text-decoration: underline;
-}
-
-.post-preview-article-type {
-    float: right;
-    font-style: italic;
+#clear-filters {
+    margin-top: 5px;
 }
 </style>
 
@@ -90,6 +86,7 @@ $(document).ready(() => {
 </script>
 
 <script src="/assets/js/chosen.jquery.js"></script>
+<script src='https://cdn.jsdelivr.net/mark.js/8.6.0/jquery.mark.min.js'></script>
 
 <script>
 $(document).ready(() => {
@@ -117,18 +114,19 @@ $(document).ready(() => {
     });
 
     function redraw() {
-        console.log('redrawing');
         const search = $search.val();
         const areas = $areas.val();
         const types = $types.val();
 
+        if (search.length || areas.length || types.length) {
+            $('#clear-filters').show();
+        } else {
+            $('#clear-filters').hide();
+        }
+
         Array.from($('.post-preview')).map(p => {
-            console.log(p);
-            console.log(search);
-            console.log(areas);
-            console.log(types);
             const pareas = Array.from($(p).find('.tag')).map(t => t.innerText);
-            if (search.length && !p.innerText.includes(search)) {
+            if (search.length && !p.innerText.toLowerCase().includes(search.toLowerCase())) {
                 $(p).addClass('hidden');
             } else if (areas.some(a => !pareas.includes(a))) {
                 $(p).addClass('hidden');
@@ -139,17 +137,23 @@ $(document).ready(() => {
             }
         });
 
+        const $posts = $('.post-previews');
+        $posts.unmark();
+
         const q = new URLSearchParams(location.search);
         if (search.length) {
             q.set('search', search);
+            $posts.mark(search);
         } else {
             q.delete('search');
         }
         q.delete('tags');
         for (let area of areas) {
+            $posts.find('.tag').markRegExp(new RegExp(area));
             q.append('tags', area);
         }
         if (types.length) {
+            $posts.find('.post-preview-article-type').markRegExp(new RegExp(types));
             q.set('type', types);
         } else {
             q.delete('type');
@@ -185,6 +189,13 @@ $(document).ready(() => {
 
     // Redraw the table when the topic filters change
     $('#search-wrapper select').on('change', redraw);
+
+    $('#clear-filters').click(() => {
+       $search.val('');
+       $types.val('');
+       $areas.val([]).trigger("chosen:updated");
+       redraw();
+    });
 
     redraw();
 });
