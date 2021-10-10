@@ -35,31 +35,27 @@ layout: default
 <hr/>
 
 <h1>
+    {% assign urltype = page.article_type | url_escape %}
+    <a class='post-preview-article-type' href='/posts?type={{urltype}}'><small>{{page.article_type}}</small></a>
+
     {{page.title}}
 </h1>
 
-<div class='post-subheader clearfix'>
-    {% if page.author_image %}
-        <img class='post-author-image' src='{{page.author_image}}'/>
-    {% endif %}
+{% assign post = page %}
 
-    <span class='post-author'>
-        {{page.author}}
-    </span>
+{% if post.author_image %}
+<img class='post-author-image' src='{{post.author_image}}'/>
+{% endif %}
 
-    {% if page.topical_tags %}
-        {% assign tags = page.topical_tags | split: ", " %}
-        <div class='post-tags'>
-            {% assign urltype = page.article_type | url_escape %}
-            <a class='tag is-info' href='/posts?type={{urltype}}'>
-                {{page.article_type}}
-            </a>
+<div class='post-preview-author'>{{ post.author }}</div>
+<div class='post-preview-meta'>
+  <span class='post-preview-date'>{{ post.date | date: "%B %d, %Y" }}</span>
 
-            {% for tag in tags %}
-              <a class='tag' href='/posts?tags={{tag}}'>{{tag}}</a>
-            {% endfor %}
-        </div>
-    {% endif %}
+  {% assign tags = post.topical_tags | split: ", " %}
+
+  {% for tag in tags %}
+     <a class='tag' href='/posts?tags={{tag}}'>{{tag}}</a>
+  {% endfor %}
 </div>
 
 <br/>
