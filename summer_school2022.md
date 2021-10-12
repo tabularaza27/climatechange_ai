@@ -21,23 +21,31 @@ The Climate Change AI summer school is designed to educate and prepare participa
 
 The first part of the summer school will consist of a mix of lectures and hands-on tutorials organized into two tracks, one focused on AI fundamentals and one focused on climate change. In both tracks, the program will provide an overview of machine learning applications in a broad range of climate change-related areas. This includes covering foundational machine learning methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. The second part of the summer school will consist of a collaborative project at the intersection of climate change and machine learning. Participants will work together in multidisciplinary groups under the supervision of a mentor to develop AI-based solutions for climate change problems.
 
-Areas of application include, but are not limited to, climate-relevant topics within:
-  - Agriculture 
+Areas of application include, but are not limited to, climate-relevant topics within: 
+  - Agriculture and food
   - Behavioral and social science
-  - Buildings and cities
+  - Buildings
   - Carbon capture and sequestration
+  - Cities and urban planning
   - Climate finance and economics
   - Climate justice
-  - Climate modeling
-  - Climate policy
-  - Disaster prediction, management, and relief
-  - Earth science and monitoring
-  - Ecosystems and natural systems
+  - Climate science and climate modeling
+  - Disaster management and relief
+  - Earth observations and monitoring
+  - Earth science
+  - Ecosystems and biodiversity
+  - Extreme weather
   - Forestry and other land use
+  - Health
   - Heavy industry and manufacturing
+  - Local and indigenous knowledge systems
+  - Materials science and discovery
+  - Oceans and marine systems
   - Power and energy systems
-  - Societal adaptation
-  - Transportation
+  - Public policy
+  - Societal adaptation and resilience
+  - Supply chains
+  - Transportation 
 
 ### Summer School Structure
 The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have a basic understanding of statistics and working knowledge of programming gained through formal courses or informal projects. The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language (for accepted participants who are not already familiar with Python, we will provide brief learning materials prior to the start of the course). 
