@@ -7,7 +7,7 @@
   <a class='button' href='#organizers'>Organizers</a>
 </div>
 
-Climate Change AI is committed to provide educational resources and training programs to those interested in the intersection of climate change and machine learning. This summer school will offer lectures, hands-on tutorials, and a collaborative project designed for a multidisciplinary group of participants, aiming to encourage and accelerate the application of machine learning to address relevant climate change issues. The summer school is intended to strengthen multidisciplinary collaborations between different fields and foster networking in this space. 
+The Climate Change AI summer school is designed to educate and prepare participants with a background in AI and/or a background in a climate-change related field to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space. 
 
 ## Dates and Application Information
 - Date: Aug 15-26, 2022 (Weekdays only)
@@ -19,7 +19,9 @@ Climate Change AI is committed to provide educational resources and training pro
 
 ## About
 
-The goal of the course is to provide a comprehensive overview of machine learning applications in a broad range of climate change-related fields. This includes covering  the foundational ML methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. Topics include, but are not limited to, the following areas:
+The first part of the summer school will consist of a mix of lectures and hands-on tutorials organized into two tracks, one focused on AI fundamentals and one focused on climate change. In both tracks, the program will provide an overview of machine learning applications in a broad range of climate change-related areas. This includes covering foundational machine learning methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. The second part of the summer school will consist of a collaborative project at the intersection of climate change and machine learning. Participants will work together in multidisciplinary groups under the supervision of a mentor to develop AI-based solutions for climate change problems.
+
+Areas of application include, but are not limited to, climate-relevant topics within:
   - Agriculture 
   - Behavioral and social science
   - Buildings and cities
@@ -36,47 +38,43 @@ The goal of the course is to provide a comprehensive overview of machine learnin
   - Power and energy systems
   - Societal adaptation
   - Transportation
-  - Course Structure
 
-The curricular part of the course is organized in two tracks designed to better provide an enriching and accessible learning experience to participants with different backgrounds. The course is structured for students and graduates of a university-level degree, preferably with a general understanding of statistics and working knowledge of programming gained through formal or informal courses. The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language. 
+### Summer School Structure
+The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have a basic understanding of statistics and working knowledge of programming gained through formal courses or informal projects. The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language (for accepted participants who are not already familiar with Python, we will provide brief learning materials prior to the start of the course). 
+The course is split into two parts. The first part of the course will consist of lectures and tutorials, and the second part of the course will consist of a group project.
 
-The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project.
-
-### Tracks 
+### Lectures and Tutorials 
+The lectures and tutorials are organized into two tracks (AI-Focused and Climate-Focused, described below) designed to better provide an enriching and accessible learning experience to participants with different backgrounds.
 ### AI-Focused Track
 This track is designed for participants who have expertise in a climate change related field but do not have a background in AI. 
 
-**Pre-requisites:** If you don’t have any background in AI/ML or Python, it would be beneficial for you to complete a free online course on introduction to ML/AI, and an introduction to Python and Jupyter Notebooks (from a provided list of free resources).
-
 **Content:**
-  - Introductory lectures on AI and its applications to climate change
+  - Introductory lectures on AI and its applications to climate-relevant topics
   - Hands-on tutorials including code-based exercises covering the application of machine learning methods to problems relevant to climate change using modern tools
-  - A project where students can leverage their expertise in a climate change related field and collaborate with fellow summer school participants with AI expertise
 
 ### Climate-Focused Track
-This track is designed for students who have expertise in AI but may or may not have a background in a climate change related field. Students applying for this track should have a theoretical and practical understanding of AI and be able to formulate AI approaches  to  new problems.
- 
-**Pre-requisites:** If you do not have any background in the drivers of climate change, it would be beneficial for you to complete a free online course introduction to climate change and climate modelling (from a provided list of free resources).
- 
+This track is designed for students who have expertise in AI but may or may not have a background in a climate change-related field. Students applying for this track should have theoretical and practical experience in AI and be able to formulate AI approaches  to  new problems.
+
 **Content:**
-   - Introductory lectures on climate change and relevant AI applications in this space
-   - Hands-on tutorials with practical examples covering various opportunities and challenges to address climate change with state-of-the-art AI tools
-   - A project where students can leverage their expertise in AI and collaborate with fellow summer school participants  with climate change expertise
+   - Introductory lectures on climate change mitigation, adaptation, and climate science, and relevant AI applications in this space
+   - Hands-on tutorials with practical examples covering various opportunities and challenges to address climate change with AI tools
+
+### Project 
+The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project, and help them identify next steps and “pathways to impact” for the work.
 
 
 ## Call for Participation
 
-We welcome applications from students, researchers, and practitioners in the public and private sector who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science. Applicants must be at least 18 years of age. 
+We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  Applicants must be at least 18 years of age. 
  
-Applications are due by: Dec 1 AOE (Anywhere on Earth). To apply you are required to submit your application through this form:
+Applications are due by: **Dec 1st, 2021 AOE (Anywhere on Earth)**. To apply, please submit your application through this form:
 https://forms.gle/9eSETySjVvdzkfiM6
 
-The form is editable until the submission deadline, but please note that applications that are missing required information such as a curriculum vitae will not be considered.
+The form is editable until the submission deadline. Please note that applications that are missing required information such as a curriculum vitae at the application deadline will not be considered.
 
-The cohort will be composed of applicants from multidisciplinary areas, to be selected on the basis of their background and experience as well as their motivation for joining the summer school.  Admission notifications will be sent out by the end of February. 
+The cohort will be composed of applicants from multidisciplinary areas, to be selected on the basis of their background and experience as well as their motivation for joining the summer school.  Admission notifications will be sent out during the week of Feb 21st, 2022. 
 
-The summer school is free to attend. Applicants who are accepted will be notified to confirm their attendance for the entire duration of the summer school.
-
+The summer school is free to attend. Applicants who are accepted will be asked to confirm their attendance for the entire duration of the summer school. 
 For further inquiries please contact summerschool@climatechange.ai
 
 ## Organizers
