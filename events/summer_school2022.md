@@ -91,6 +91,7 @@ On behalf of [Climate Change AI](https://www.climatechange.ai/),<br>
 [Jeremy Irvin (Stanford)](https://jirvin16.github.io/)<br>
 [Hari Prasanna Das (UC Berkeley)](http://hariprasanna.com/)<br>
 [Maria João Sousa (IST, ULisboa)](https://www.linkedin.com/in/mariajoaosousa/)<br>
+[Olivia Mendivil Ramos](https://www.cshl.edu/research/postdoctoral-research/postdocs/olivia-mendivil-ramos/)<br>
 
 <!-- ## FAQ
 
