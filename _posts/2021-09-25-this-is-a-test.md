@@ -2,7 +2,7 @@
 layout: post
 title:  "This is a test!"
 image: https://thiscatdoesnotexist.com
-author: Jon Tester
+authors: foo
 article_type: CCAI Perspective
 topical_tags: foo, baz, chicken
 ---

@@ -35,26 +35,23 @@ layout: default
 <hr/>
 
 <h1>
-    {% assign urltype = page.article_type | url_escape %}
-    <a class='post-preview-article-type' href='/posts?type={{urltype}}'><small>{{page.article_type}}</small></a>
 
     {{page.title}}
 </h1>
 
 {% assign post = page %}
 
-{% if post.author_image %}
-<img class='post-author-image' src='{{post.author_image}}'/>
-{% endif %}
+{% include post_authors.html %}
 
-<div class='post-preview-author'>{{ post.author }}</div>
 <div class='post-preview-meta'>
   <span class='post-preview-date'>{{ post.date | date: "%B %d, %Y" }}</span>
 
-  {% assign tags = post.topical_tags | split: ", " %}
+  {% assign urltype = page.article_type | url_escape %}
+  <a class='tag is-info article-type' href='/posts?type={{urltype}}'>{{page.article_type}}</a>
 
+  {% assign tags = post.topical_tags | split: ", " %}
   {% for tag in tags %}
-     <a class='tag' href='/posts?tags={{tag}}'>{{tag}}</a>
+     <a class='tag topical' href='/posts?tags={{tag}}'>{{tag}}</a>
   {% endfor %}
 </div>
 

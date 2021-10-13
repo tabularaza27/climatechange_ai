@@ -44,31 +44,22 @@ layout: default
 <div class='post-previews'>
 {% for post in site.posts %}
 <div class='post-preview' data-type='{{ post.article_type }}'>
-    {% if post.image %}
-    {% assign image = post.image %}
-    {% else %}
-    {% assign image = '/images/logo_small_green.png' %}
-    {% endif %}
 
-    <div class='post-preview-image' style='background-image:url("{{image}}")'>
-    </div>   
+    <div class='post-preview-image' style='background-image:url("{{post.image | default: '/images/logo_small_green.png' }}")'>
+    </div>
     <div class='post-preview-content'>
+       {% include post_authors.html post=post %}
       <h3>
-        <small class='post-preview-article-type'>{{post.article_type}}</small>
         <a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a>
       </h3>
-      <a href="{{ post.url }}" class='post-preview-description'>{{ post.excerpt }}</a>
+      <a href="{{ post.url }}" class='post-preview-description'>{{ post.excerpt | strip_html }}</a>
 
-      {% if post.author_image %}
-        <img class='post-author-image' style='margin-top: 4.5px' src='{{post.author_image}}'/>
-      {% endif %}
-
-      <div class='post-preview-author'>{{ post.author }}</div>
       <div class='post-preview-meta'>
           <span class='post-preview-date'>{{ post.date | date: "%B %d, %Y" }}</span>
+          <span class='tag is-info article-type'>{{post.article_type}}</span>
           {% assign tags = post.topical_tags | split: ", " %}
           {% for tag in tags %}
-            <span class='tag'>{{tag}}</span>
+            <span class='tag topical'>{{tag}}</span>
           {% endfor %}
       </div>
     </div>
@@ -79,6 +70,9 @@ layout: default
 <style>
 #clear-filters {
     margin-top: 5px;
+}
+.hidden {
+    display: none;
 }
 </style>
 
@@ -99,7 +93,7 @@ $(document).ready(() => {
     const $types = $('#article-types');
     const $search = $('#text-search');
 
-    const areas = Array.from(new Set(Array.from($('.post-preview .tag')).map(t => t.innerText))).sort();
+    const areas = Array.from(new Set(Array.from($('.post-preview .tag.topical')).map(t => t.innerText))).sort();
     const types = Array.from(new Set(Array.from($('.post-preview')).map(e => $(e).data('type')))).sort();
 
     for (let area of areas) {
@@ -130,7 +124,7 @@ $(document).ready(() => {
         }
 
         Array.from($('.post-preview')).map(p => {
-            const pareas = Array.from($(p).find('.tag')).map(t => t.innerText);
+            const pareas = Array.from($(p).find('.tag.topical')).map(t => t.innerText);
             if (search.length && !p.innerText.toLowerCase().includes(search.toLowerCase())) {
                 $(p).addClass('hidden');
             } else if (areas.some(a => !pareas.includes(a))) {
@@ -154,11 +148,11 @@ $(document).ready(() => {
         }
         q.delete('tags');
         for (let area of areas) {
-            $posts.find('.tag').markRegExp(new RegExp(area));
+            $posts.find('.tag.topical').markRegExp(new RegExp(area));
             q.append('tags', area);
         }
         if (types.length) {
-            $posts.find('.post-preview-article-type').markRegExp(new RegExp(types));
+            $posts.find('.tag.article-type').markRegExp(new RegExp(types));
             q.set('type', types);
         } else {
             q.delete('type');
@@ -167,7 +161,8 @@ $(document).ready(() => {
     }
     window.redraw = redraw;
 
-    $('.post-preview .tag').click(ev => {
+    /*
+    $('.post-preview .tag.topical').click(ev => {
       // Toggle whether topic is being filtered
       const area = ev.currentTarget.innerText;
       const currentVals = $areas.val();
@@ -184,6 +179,25 @@ $(document).ready(() => {
       ev.stopPropagation();
       return false;
     });
+
+    $('.post-preview .tag.article-type').click(ev => {
+      // Toggle whether topic is being filtered
+      const type = ev.currentTarget.innerText;
+      const currentVal = $types.val();
+
+      if (currentVal == type) {
+        $types.val('');
+      } else {
+        $types.val(type);
+      }
+
+      // Let event listeners know about the change
+      redraw();
+
+      ev.stopPropagation();
+      return false;
+    });
+    */
 
     $search.on('keyup keydown change search', () => {
       if (window.searchTimeout) {

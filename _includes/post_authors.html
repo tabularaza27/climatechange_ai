@@ -1,0 +1,27 @@
+{% assign post = includes.post | default: page %}
+{% assign authors = post.authors | split: ", " %}
+
+<p class='post-authors'>
+    {% assign n = authors.size %}
+    {% assign last = authors | last %}
+    {% for a in authors | reversed %}
+        {% if a != last %}
+            {% assign penult = a %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% for a in authors %}
+        {% assign author = site.data.authors[a] %}
+        <img class='post-author-image' src='{{author.image}}'/>
+        <strong class='post-author-name'>{{ author.name }}</strong>
+
+        {% if n > 1 and a != last %}
+            {% if a == penult %}
+                <span class='post-author-conjunction'>and</span>
+            {% else %}
+                <span class='post-author-conjunction'>, </span>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</p>

@@ -3,7 +3,7 @@ layout: post
 title: "Introducing the CCAI blog"
 subtitle: "Hello, world!"
 image: "images/blog/writing-desk.jpg"
-author: "Jesse Dunietz"
+authors: jesse
 article_type: "Blog admin"
 topical_tags: foo, baz
 ---
