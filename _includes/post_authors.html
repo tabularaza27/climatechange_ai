@@ -14,14 +14,22 @@
     {% for a in authors %}
         {% assign author = site.data.authors[a] %}
         <img class='post-author-image' src='{{author.image}}'/>
-        <strong class='post-author-name'>{{ author.name }}</strong>
 
-        {% if n > 1 and a != last %}
+        {% if n == 1 %}
+            <strong class='post-author-name'>{{ author.name }}</strong>,
+        {% elsif n == 2 %}
+            {% if a == last %}
+                <strong class='post-author-name'>{{ author.name }}</strong>,
+            {% else %}
+                <strong class='post-author-name'>{{ author.name }}</strong>
+                <span class='post-author-conjunction'>and</span>
+            {% endif %}
+        {% else %}
+            <strong class='post-author-name'>{{ author.name }}</strong>,
             {% if a == penult %}
                 <span class='post-author-conjunction'>and</span>
-            {% else %}
-                <span class='post-author-conjunction'>, </span>
             {% endif %}
         {% endif %}
     {% endfor %}
+    <span class='post-date'>{{ post.date | date: "%B %d, %Y" }}</span>
 </p>

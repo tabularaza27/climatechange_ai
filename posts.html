@@ -52,10 +52,11 @@ layout: default
       <h3>
         <a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a>
       </h3>
-      <a href="{{ post.url }}" class='post-preview-description'>{{ post.excerpt | strip_html }}</a>
+
+      {% assign desc = post.subtitle | default: post.excerpt %}
+      <a href="{{ post.url }}" class='post-preview-description'>{{ desc | strip_html }}</a>
 
       <div class='post-preview-meta'>
-          <span class='post-preview-date'>{{ post.date | date: "%B %d, %Y" }}</span>
           <span class='tag is-info article-type'>{{post.article_type}}</span>
           {% assign tags = post.topical_tags | split: ", " %}
           {% for tag in tags %}
@@ -73,6 +74,14 @@ layout: default
 }
 .hidden {
     display: none;
+}
+.post-preview .tag {
+    margin-bottom: 2px;
+    display: inline-block;
+    line-height: 2;
+}
+.post-preview .tag:hover {
+    text-decoration: underline;
 }
 </style>
 
@@ -161,7 +170,6 @@ $(document).ready(() => {
     }
     window.redraw = redraw;
 
-    /*
     $('.post-preview .tag.topical').click(ev => {
       // Toggle whether topic is being filtered
       const area = ev.currentTarget.innerText;
@@ -192,12 +200,11 @@ $(document).ready(() => {
       }
 
       // Let event listeners know about the change
-      redraw();
+      $types.trigger('change');
 
       ev.stopPropagation();
       return false;
     });
-    */
 
     $search.on('keyup keydown change search', () => {
       if (window.searchTimeout) {

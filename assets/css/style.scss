@@ -787,7 +787,7 @@ td {
 .post-preview:hover {
     background-color: rgba(0, 0, 0, .02);
     box-shadow: -16px 0 0 0 rgba(0, 0, 0, .025), 16px 0 0 0 rgba(0, 0, 0, .025);
-    text-decoration:none
+    text-decoration:none;
 }
 
 .post-preview > .post-preview-content {
@@ -801,47 +801,26 @@ td {
     text-decoration:none
 }
 
-.post-preview > .post-preview-content > .post-preview-title svg {
-    fill: #1a1a1a;
-    stroke: #1a1a1a;
-    margin-right:6px
-}
-
-.post-preview > .post-preview-content > .post-preview-title svg.podcast {
-    margin-bottom:-1px
-}
-
-.post-preview > .post-preview-content > .post-preview-title svg.thread {
-    margin-bottom:-3px
+.post-preview {
+    .post-preview-description, .post-authors, .post-preview-meta {
+        color: var(--print_secondary, #757575); 
+        font-size: 16px;
+    }
+    .post-preview-meta {
+        margin-bottom: 10px;
+    }
 }
 
 .post-preview > .post-preview-content > .post-preview-description {
     display: block;
     margin-top: 6px;
-    color: var(--print_secondary, #757575);
-    font-size: 16px;
-    line-height: 1.47em;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     text-decoration:none
 }
 
-.post-preview-author {
-    margin-top: 9px;
-    font-weight: bold;
-}
-
-.post-preview-author a {
-    color: inherit;
-    text-decoration:none
-}
-
-.post-preview-article-type {
-    float: right;
-    font-style: italic;
-
-    small {
-        font-size: 16px;
-    }
+.post-author-name {
+    font-weight: 600;
+    color: var(--print_secondary, #757575); 
 }
 
 .main-content .post-authors {
@@ -850,7 +829,8 @@ td {
 }
 
 .post-preview-content h3 {
-    margin-top: 0;
+    margin: 0;
+    font-weight: bold;
 }
 
 .post-author-image {
@@ -863,6 +843,19 @@ td {
 
 .post-author-image:not(:first-child) {
     margin-left: -1.5rem;
+}
+
+.post-header-image {
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post-preview:not(.hidden) ~ .post-preview:not(.hidden) {
+    border-top: 1px solid #eee;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
