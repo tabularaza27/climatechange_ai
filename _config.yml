@@ -10,3 +10,4 @@ plugins:
   - jekyll-redirect-from
 paper_url: https://arxiv.org/pdf/1906.05433.pdf
 forum_url: https://forum.climatechange.ai
+permalink: /blog/:year-:month-:day-:title
