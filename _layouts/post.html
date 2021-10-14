@@ -4,7 +4,7 @@ layout: default
 
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
-    <li><a href="/posts">Blog Posts</a></li>
+    <li><a href="/blog">Blog Posts</a></li>
     <li class="is-active"><a href="#" aria-current="page">{{page.title}}</a></li>
 
     <li class="next-prev">
@@ -60,11 +60,11 @@ layout: default
 
 <div class='post-preview-meta'>
   {% assign urltype = page.article_type | url_escape %}
-  <a class='tag is-info article-type' href='/posts?type={{urltype}}'>{{page.article_type}}</a>
+  <a class='tag is-info article-type' href='/blog?type={{urltype}}'>{{page.article_type}}</a>
 
   {% assign tags = post.topical_tags | split: ", " %}
   {% for tag in tags %}
-     <a class='tag topical' href='/posts?tags={{tag}}'>{{tag}}</a>
+     <a class='tag topical' href='/blog?tags={{tag}}'>{{tag}}</a>
   {% endfor %}
 </div>
 
