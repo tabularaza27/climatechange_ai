@@ -150,7 +150,14 @@
       image_url: images/people/genevievepatterson_400x400.jpg
       affiliation: VSCO
       roles:
-        - Course
+        - Courses
+        - Director of Projects & Partnerships
+    - name: Olivia Mendivil Ramos 
+      website_url: https://www.linkedin.com/in/omr82
+      image_url: images/people/oliviamendivil_400x400.jpg
+      affiliation: Cold Spring Harbor Laboratory
+      roles:
+        - Director of Operations
     - name: Andrew Slavin Ross
       website_url: https://asross.github.io/
       image_url: images/people/andrew_ross_400x400.jpg
@@ -190,6 +197,12 @@
       affiliation: Birds on Mars, TU Berlin
       roles:
         - Wiki
+    - name: Kureha Yamaguchi
+      website_url: https://www.linkedin.com/in/kureha-yamaguchi/
+      image_url: images/people/kurehayamaguchi_400x400.jpg
+      affiliation: University of Cambridge
+      roles:
+        - Community Manager
     - name: Yumna Yusuf
       image_url: images/people/yumna_400x400.jpg
       affiliation: Climate policy, COP26
