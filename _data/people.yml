@@ -23,6 +23,19 @@
       roles:
         - CCAI Chair
         - Biodiversity Lead
+    - name: Geneviève Patterson
+      website_url: https://genp.github.io
+      image_url: images/people/genevievepatterson_400x400.jpg
+      affiliation: VSCO
+      roles:
+        - Courses
+        - Director of Projects & Partnerships
+    - name: Olivia Mendivil Ramos 
+      website_url: https://www.linkedin.com/in/omr82
+      image_url: images/people/oliviamendivil_400x400.jpg
+      affiliation: Cold Spring Harbor Laboratory
+      roles:
+        - Director of Operations
     - name: Konstantin Klemmer
       website_url: https://konstantinklemmer.github.io
       image_url: images/people/konstantin_400x400.jpg
@@ -145,19 +158,6 @@
       affiliation: Microsoft AI for Good, MIT
       roles:
         - Webinars
-    - name: Geneviève Patterson
-      website_url: https://genp.github.io
-      image_url: images/people/genevievepatterson_400x400.jpg
-      affiliation: VSCO
-      roles:
-        - Courses
-        - Director of Projects & Partnerships
-    - name: Olivia Mendivil Ramos 
-      website_url: https://www.linkedin.com/in/omr82
-      image_url: images/people/oliviamendivil_400x400.jpg
-      affiliation: Cold Spring Harbor Laboratory
-      roles:
-        - Director of Operations
     - name: Andrew Slavin Ross
       website_url: https://asross.github.io/
       image_url: images/people/andrew_ross_400x400.jpg
