@@ -134,7 +134,7 @@ $(document).ready(() => {
 
         Array.from($('.post-preview')).map(p => {
             const pareas = Array.from($(p).find('.tag.topical')).map(t => t.innerText);
-            if (search.length && !p.innerText.toLowerCase().includes(search.toLowerCase())) {
+            if (search.length && search.toLowerCase().split(/\s+/).some(s => !p.innerText.toLowerCase().includes(s))) {
                 $(p).addClass('hidden');
             } else if (areas.some(a => !pareas.includes(a))) {
                 $(p).addClass('hidden');
@@ -202,6 +202,23 @@ $(document).ready(() => {
       // Let event listeners know about the change
       $types.trigger('change');
 
+      ev.stopPropagation();
+      return false;
+    });
+
+    $('.post-author-name').click(ev => {
+      const author = ev.currentTarget.innerText;
+      const currentVal = $search.val();
+      if (currentVal.includes(author)) {
+        $search.val(currentVal.replace(author, '').trimRight())
+      } else {
+         if (currentVal) {
+             $search.val(`${currentVal} ${author}`);
+         } else {
+             $search.val(author);
+         }
+      }
+      $search.trigger('change');
       ev.stopPropagation();
       return false;
     });

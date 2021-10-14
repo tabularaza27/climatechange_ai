@@ -752,6 +752,9 @@ td {
   height: 100%;
 }
 
+.post-previews {
+    margin-top: 2rem;
+}
 
 .post-preview {
     display: flex;
@@ -809,6 +812,10 @@ td {
     .post-preview-meta {
         margin-bottom: 10px;
     }
+}
+
+.post-preview .post-author-name:hover {
+    text-decoration: underline;
 }
 
 .post-preview > .post-preview-content > .post-preview-description {
