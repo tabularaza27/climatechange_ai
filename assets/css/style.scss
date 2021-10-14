@@ -845,13 +845,24 @@ td {
     margin-left: -1.5rem;
 }
 
+.post-header-image-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .post-header-image {
+    background-color: #eee;
     width: 100%;
     height: 20rem;
     background-size: cover;
     background-position: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.post-header-image-attribution {
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    font-size: small;
 }
 
 .post-preview:not(.hidden) ~ .post-preview:not(.hidden) {

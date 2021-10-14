@@ -2,6 +2,7 @@
 layout: post
 title:  "This is a test!"
 image: https://thiscatdoesnotexist.com
+image_attribution: https://thiscatdoesnotexist.com
 authors: foo
 article_type: CCAI Perspective
 topical_tags: foo, baz, chicken
