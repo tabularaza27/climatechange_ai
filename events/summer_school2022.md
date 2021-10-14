@@ -14,7 +14,7 @@ The Climate Change AI summer school is designed to educate and prepare participa
 - Location: Virtual
 - Deadline for Application to Participate: <b>Dec 1, 2021 23:59 AOE (Anywhere on Earth)</b>
 - Application Portal: www.climatechange.ai/summer_school2022_application
-- Notification of acceptance: <b>Feb 1, 2022 23:59 AOE</b>
+- Notification of acceptance: <b>Feb 21, 2022 23:59 AOE</b>
 - Contact: <summerschool@climatechange.ai>
 
 ## About
