@@ -46,8 +46,7 @@ layout: default
 
 {% if page.image %}
 <div class='post-header-image-wrapper'>
-    <div class='post-header-image' style='background-image:url("{{page.image}}")'>
-    </div>
+    <img class='post-header-image' src='{{page.image}}' title='{{page.image_alt_text}}' alt='{{page.image_alt_text}}'/>
     {% if page.image_attribution %}
         <div class='post-header-image-attribution'>
             {{ page.image_attribution }}

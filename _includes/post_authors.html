@@ -7,7 +7,7 @@
 
     {% for a in authors %}
         {% assign author = site.data.authors[a] %}
-        <img class='post-author-image' src='{{author.image}}'/>
+        <img class='post-author-image' src='{{author.image}}' alt='{{author.name}}' title='{{author.name}}'/>
 
         {% if n == 1 %}
             <strong class='post-author-name'>{{ author.name }}</strong>,

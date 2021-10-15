@@ -45,7 +45,7 @@ layout: default
 {% for post in site.posts %}
 <div class='post-preview' data-type='{{ post.article_type }}'>
 
-    <div class='post-preview-image' style='background-image:url("{{post.image | default: '/images/logo_small_green.png' }}")'>
+    <div class='post-preview-image' title='{{ post.image_alt_text }}' style='background-image:url("{{post.image | default: '/images/logo_small_green.png' }}")'>
     </div>
     <div class='post-preview-content'>
       <h3>

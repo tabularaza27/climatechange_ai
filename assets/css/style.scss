@@ -874,11 +874,9 @@ td {
 }
 
 .post-header-image {
-    background-color: #eee;
     width: 100%;
-    height: 20rem;
-    background-size: cover;
-    background-position: center;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 .post-header-image-attribution {
