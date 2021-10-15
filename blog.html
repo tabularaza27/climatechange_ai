@@ -206,8 +206,7 @@ $(document).ready(() => {
       return false;
     });
 
-    $('.post-author-name').click(ev => {
-      const author = ev.currentTarget.innerText;
+    function searchForAuthor(author) {
       const currentVal = $search.val();
       if (currentVal.includes(author)) {
         $search.val(currentVal.replace(author, '').trimRight())
@@ -219,6 +218,16 @@ $(document).ready(() => {
          }
       }
       $search.trigger('change');
+    }
+
+    $('.post-author-name').click(ev => {
+      searchForAuthor(ev.currentTarget.innerText);
+      ev.stopPropagation();
+      return false;
+    });
+
+    $('.post-author-image').click(ev => {
+      searchForAuthor($(ev.currentTarget).next().text());
       ev.stopPropagation();
       return false;
     });

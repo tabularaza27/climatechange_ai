@@ -69,3 +69,17 @@ layout: default
 </div>
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<script>
+$(document).ready(() => {
+    $('.post-author-name').click(ev => {
+        const author = $(ev.currentTarget).text();
+        location.href = `/blog?search=${encodeURIComponent(author)}`;
+    });
+
+    $('.post-author-image').click(ev => {
+        const author = $(ev.currentTarget).next().text();
+        location.href = `/blog?search=${encodeURIComponent(author)}`;
+    });
+});
+</script>

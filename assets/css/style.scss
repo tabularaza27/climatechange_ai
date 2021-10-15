@@ -815,8 +815,13 @@ td {
     }
 }
 
-.post-preview .post-author-name:hover {
+.post-author-name:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.post-author-image:hover {
+    cursor: pointer;
 }
 
 .post-preview > .post-preview-content > .post-preview-description {
