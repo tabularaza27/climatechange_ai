@@ -828,7 +828,12 @@ td {
 
 .post-author-name {
     font-weight: 600;
-    color: var(--print_secondary, #757575); 
+    color: var(--print_secondary, #757575);
+    white-space: nowrap;
+}
+
+.post-date {
+  white-space: nowrap;
 }
 
 .main-content .post-subtitle {
