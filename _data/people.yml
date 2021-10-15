@@ -1,6 +1,6 @@
 ---
-- group: 'Core Team'
-  anchor: 'core-team'
+- group: 'Board of Directors'
+  anchor: 'board'
   members:
     - name: Priya L. Donti
       website_url: https://priyadonti.com/
@@ -23,25 +23,19 @@
       roles:
         - CCAI Chair
         - Biodiversity Lead
-    - name: Geneviève Patterson
-      website_url: https://genp.github.io
-      image_url: images/people/genevievepatterson_400x400.jpg
-      affiliation: VSCO
-      roles:
-        - Courses
-        - Director of Projects & Partnerships
-    - name: Olivia Mendivil Ramos 
-      website_url: https://www.linkedin.com/in/omr82
-      image_url: images/people/oliviamendivil_400x400.jpg
-      affiliation: Cold Spring Harbor Laboratory
-      roles:
-        - Director of Operations
     - name: Konstantin Klemmer
       website_url: https://konstantinklemmer.github.io
       image_url: images/people/konstantin_400x400.jpg
       affiliation: University of Warwick
       roles:
         - Communications Chair
+    - name: Raphaela Kotsch
+      website_url: https://www.rkotsch.com
+      image_url: images/people/raphaelakotsch_400x400.jpg
+      affiliation: University of Zurich, ZHAW
+      roles:
+        - Community Leads Chair
+        - Economics & Markets Lead
     - name: Nikola Milojevic-Dupont
       website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
       image_url: images/people/nikolamilojevicdupont_400x400.jpg
@@ -55,6 +49,25 @@
       affiliation: Stanford University
       roles:
         - Programs Chair
+- group: 'Personnel'
+  anchor: 'personnel'
+  members:
+    - name: Geneviève Patterson
+      website_url: https://genp.github.io
+      image_url: images/people/genevievepatterson_400x400.jpg
+      affiliation: VSCO
+      roles:
+        - Director of Projects & Partnerships
+        - Course
+    - name: Olivia Mendivil Ramos 
+      website_url: https://www.linkedin.com/in/omr82
+      image_url: images/people/oliviamendivil_400x400.jpg
+      affiliation: Cold Spring Harbor Laboratory
+      roles:
+        - Director of Operations
+- group: 'Additional Core Team'
+  anchor: 'core-team'
+  members:
     - name: David Dao
       website_url: https://daviddao.org/
       image_url: images/people/daviddao_400x400.jpg
@@ -111,12 +124,6 @@
       affiliation: ETH Zürich
       roles:
         - Community Manager
-    - name: Raphaela Kotsch
-      website_url: https://www.rkotsch.com
-      image_url: images/people/raphaelakotsch_400x400.jpg
-      affiliation: University of Zurich, ZHAW
-      roles:
-        - Economics & Markets Lead
     - name: Lauren Kuntz
       website_url: https://www.gaia-scope.com/
       image_url: images/people/lauren_400x400.jpg
@@ -169,6 +176,7 @@
       image_url: images/people/mariajoaosousa_400x400.jpg
       affiliation: IST, ULisboa
       roles:
+        - Programs Vice Chair
         - Summer School
     - name: Katherine Stapleton
       website_url: https://sites.google.com/view/katherinestapleton
@@ -177,7 +185,7 @@
       roles:
         - International Organizations Lead
         # - Strategic Outreach
-        - Communications Committee
+        # - Communications Committee
     - name: Isabelle Tingzon
       website_url: https://www.linkedin.com/in/isabelletingzon/
       image_url: images/people/isabelletingzon_400x400.jpg
@@ -189,8 +197,9 @@
       image_url: images/people/kasiatokarska_400x400.jpg
       affiliation: ETH Zürich
       roles:
+        - Community Leads Vice Chair
         - Climate & Earth Sciences Lead
-        - Communications Committee
+        # - Communications Committee
     - name: Marcus Voss
       website_url: https://marcusvoss.com/
       image_url: images/people/marcusvoss_400x400.jpg
@@ -209,7 +218,7 @@
       roles:
         - Happy Hours
 
-- group: 'Advisors'
+- group: 'Advisory Board'
   anchor: 'advisors'
   members:
     - name: Inês Azevedo
