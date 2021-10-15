@@ -872,6 +872,8 @@ td {
 
 .post-author-image {
     height: 2.5rem;
+    width: 2.5rem;
+    background: white;
     border-radius: 100%;
     margin-right: 10px;
     border: 1px solid #ccc;
@@ -888,7 +890,6 @@ td {
 
 .post-header-image {
     width: 100%;
-    max-height: 30rem;
     object-fit: cover;
 }
 

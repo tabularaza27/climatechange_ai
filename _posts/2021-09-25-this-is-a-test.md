@@ -4,6 +4,7 @@ title:  "This is a test!"
 image: https://thiscatdoesnotexist.com
 image_attribution: https://thiscatdoesnotexist.com
 image_alt_text: This cat does not exist
+image_max_height: 20rem
 authors: foo
 article_type: CCAI Perspective
 topical_tags: foo, baz, chicken

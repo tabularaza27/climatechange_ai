@@ -46,7 +46,12 @@ layout: default
 
 {% if page.image %}
 <div class='post-header-image-wrapper'>
-    <img class='post-header-image' src='{{page.image}}' title='{{page.image_alt_text}}' alt='{{page.image_alt_text}}'/>
+    <img class='post-header-image'
+        src='{{page.image}}'
+        title='{{page.image_alt_text}}'
+        alt='{{page.image_alt_text}}'
+        style='{% if post.image_max_height %}max-height: {{post.image_max_height}};{% endif %}'
+    />
     {% if page.image_attribution %}
         <div class='post-header-image-attribution'>
             {{ page.image_attribution }}
