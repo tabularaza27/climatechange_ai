@@ -77,7 +77,7 @@ $(document).ready(() => {
     });
 
     $('.post-author-image').click(ev => {
-        const author = $(ev.currentTarget).next().text();
+        const author = $(ev.currentTarget).attr('title');
         location.href = `/blog?search=${encodeURIComponent(author)}`;
     });
 });

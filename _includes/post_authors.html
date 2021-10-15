@@ -1,14 +1,20 @@
 {% assign post = includes.post | default: page %}
 {% assign authors = post.authors | split: ", " %}
+{% assign n = authors.size %}
+{% assign last = authors | last %}
 
-<p class='post-authors'>
-    {% assign n = authors.size %}
-    {% assign last = authors | last %}
+<div class='post-authors{% if n > 1 %} has-multiple-authors{% endif %}'>
 
+    <div class='post-author-images'>
     {% for a in authors %}
         {% assign author = site.data.authors[a] %}
         <img class='post-author-image' src='{{author.image}}' alt='{{author.name}}' title='{{author.name}}'/>
+    {% endfor %}
+    </div>
 
+    <div class='post-author-names'>
+    {% for a in authors %}
+        {% assign author = site.data.authors[a] %}
         {% if n == 1 %}
             <strong class='post-author-name'>{{ author.name }}</strong>,
         {% elsif n == 2 %}
@@ -26,4 +32,5 @@
         {% endif %}
     {% endfor %}
     <span class='post-date'>{{ post.date | date: "%B %d, %Y" }}</span>
-</p>
+    </div>
+</div>

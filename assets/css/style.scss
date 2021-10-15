@@ -846,9 +846,23 @@ td {
   margin-top: -0.75em;
 }
 
-.main-content .post-authors {
-    line-height: 2.5rem;
+.post-author-images {
+    flex-shrink: 0;
+}
+
+.post-authors {
     margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width: 540px) {
+    .post-authors.has-multiple-authors {
+        display: block;
+    }
 }
 
 .post-preview-content h3 {
@@ -859,7 +873,6 @@ td {
 .post-author-image {
     height: 2.5rem;
     border-radius: 100%;
-    float: left;
     margin-right: 10px;
     border: 1px solid #ccc;
 }

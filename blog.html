@@ -227,7 +227,7 @@ $(document).ready(() => {
     });
 
     $('.post-author-image').click(ev => {
-      searchForAuthor($(ev.currentTarget).next().text());
+      searchForAuthor($(ev.currentTarget).attr('title'));
       ev.stopPropagation();
       return false;
     });
