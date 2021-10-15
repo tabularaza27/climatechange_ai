@@ -4,12 +4,6 @@
 <p class='post-authors'>
     {% assign n = authors.size %}
     {% assign last = authors | last %}
-    {% for a in authors | reversed %}
-        {% if a != last %}
-            {% assign penult = a %}
-            {% break %}
-        {% endif %}
-    {% endfor %}
 
     {% for a in authors %}
         {% assign author = site.data.authors[a] %}
@@ -25,10 +19,10 @@
                 <span class='post-author-conjunction'>and</span>
             {% endif %}
         {% else %}
-            <strong class='post-author-name'>{{ author.name }}</strong>,
-            {% if a == penult %}
+            {% if a == last %}
                 <span class='post-author-conjunction'>and</span>
             {% endif %}
+            <strong class='post-author-name'>{{ author.name }}</strong>,
         {% endif %}
     {% endfor %}
     <span class='post-date'>{{ post.date | date: "%B %d, %Y" }}</span>

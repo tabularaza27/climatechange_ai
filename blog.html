@@ -48,19 +48,19 @@ layout: default
     <div class='post-preview-image' style='background-image:url("{{post.image | default: '/images/logo_small_green.png' }}")'>
     </div>
     <div class='post-preview-content'>
-       {% include post_authors.html post=post %}
       <h3>
         <a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a>
       </h3>
+      {% include post_authors.html post=post %}
 
       {% assign desc = post.subtitle | default: post.excerpt %}
       <a href="{{ post.url }}" class='post-preview-description'>{{ desc | strip_html }}</a>
 
       <div class='post-preview-meta'>
-          <span class='tag is-info article-type'>{{post.article_type}}</span>
+          <span class='tag is-dark article-type'>{{post.article_type}}</span>
           {% assign tags = post.topical_tags | split: ", " %}
           {% for tag in tags %}
-            <span class='tag topical'>{{tag}}</span>
+            <span class='tag is-light topical'>{{tag}}</span>
           {% endfor %}
       </div>
     </div>
