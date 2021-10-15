@@ -220,7 +220,7 @@ a.person__item:hover {
     margin: 0;
   }
 
-  &:hover {
+  &:hover .card-header-title {
     text-decoration: underline;
   }
 
@@ -237,7 +237,7 @@ a.person__item:hover {
 
 @media screen and (max-width: 650px) {
   .collapsible-header {
-    &:hover {
+    &:hover .card-header-title {
       text-decoration: none;
     }
   }
@@ -276,6 +276,10 @@ a.person__item:hover {
 #sections .subsection.is-expanded {
   .card-content, .card-footer {
     display: block;
+  }
+
+  .card-footer .card-footer-item {
+    justify-content: left;
   }
 }
 
