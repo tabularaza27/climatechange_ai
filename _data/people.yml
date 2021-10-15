@@ -65,7 +65,7 @@
       affiliation: Cold Spring Harbor Laboratory
       roles:
         - Director of Operations
-- group: 'Additional Core Team'
+- group: 'Core Team'
   anchor: 'core-team'
   members:
     - name: David Dao
