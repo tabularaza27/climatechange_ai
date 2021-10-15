@@ -60,11 +60,11 @@ layout: default
 
 <div class='post-preview-meta'>
   {% assign urltype = page.article_type | url_escape %}
-  <a class='tag is-info article-type' href='/blog?type={{urltype}}'>{{page.article_type}}</a>
+  <a class='tag is-dark article-type' href='/blog?type={{urltype}}'>{{page.article_type}}</a>
 
   {% assign tags = post.topical_tags | split: ", " %}
   {% for tag in tags %}
-     <a class='tag topical' href='/blog?tags={{tag}}'>{{tag}}</a>
+     <a class='tag is-light topical' href='/blog?tags={{tag}}'>{{tag}}</a>
   {% endfor %}
 </div>
 
