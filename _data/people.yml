@@ -8,18 +8,21 @@
       affiliation: Carnegie Mellon
       roles:
         - CCAI Chair
+        - Power & Energy Lead
     - name: Lynn H. Kaack
       website_url: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/kaack
       image_url: images/people/lynnkaack_400x400.jpg
       affiliation: Hertie School
       roles:
         - CCAI Chair
+        - Public Sector Lead
     - name: David Rolnick
       website_url: http://www.davidrolnick.com
       image_url: images/people/davidrolnick_400x400.jpg
       affiliation: McGill, Mila
       roles:
         - CCAI Chair
+        - Biodiversity Lead
     - name: Konstantin Klemmer
       website_url: https://konstantinklemmer.github.io
       image_url: images/people/konstantin_400x400.jpg
@@ -32,12 +35,14 @@
       affiliation: University of Zurich, ZHAW
       roles:
         - Community Leads Chair
+        - Economics & Markets Lead
     - name: Nikola Milojevic-Dupont
       website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
       image_url: images/people/nikolamilojevicdupont_400x400.jpg
       affiliation: MCC Berlin, TU Berlin
       roles:
         - Content Chair
+        - Buildings & Transportation Lead
     - name: Evan D. Sherwin
       website_url: https://www.evansherwin.com/
       image_url: images/people/evansherwin_400x400.jpg
@@ -50,16 +55,17 @@
     - name: Geneviève Patterson
       website_url: https://genp.github.io
       image_url: images/people/genevievepatterson_400x400.jpg
-      # affiliation: VSCO
+      affiliation: VSCO
       roles:
         - Director of Projects & Partnerships
+        - Course
     - name: Olivia Mendivil Ramos 
       website_url: https://www.linkedin.com/in/omr82
       image_url: images/people/oliviamendivil_400x400.jpg
-      # affiliation: Cold Spring Harbor Laboratory
+      affiliation: Cold Spring Harbor Laboratory
       roles:
         - Director of Operations
-- group: 'Core Team'
+- group: 'Additional Core Team'
   anchor: 'core-team'
   members:
     - name: David Dao
@@ -67,7 +73,7 @@
       image_url: images/people/daviddao_400x400.jpg
       affiliation: ETH Zürich
       roles:
-        - Agriculture & Forestry
+        - Agriculture & Forestry Lead
         # - Agriculture, Forestry, and Other Land Use Lead
         # - AFOLU Lead
     - name: Hari Prasanna Das
@@ -83,12 +89,6 @@
       roles:
         # - Forum
         - Community Platforms
-    - name: Priya L. Donti
-      website_url: https://priyadonti.com/
-      image_url: images/people/priyadonti_400x400.jpg
-      affiliation: Carnegie Mellon
-      roles:
-        - Power & Energy
     - name: Jesse Dunietz
       website_url: https://jessedunietz.com/
       image_url: images/people/jessedunietz_400x400.JPG
@@ -105,7 +105,7 @@
       website_url: https://nsutezo.github.io
       affiliation: Columbia University
       roles:
-        - Data
+        - Data Lead
     - name: Meareg Hailemariam
       website_url: https://www.linkedin.com/in/meareg-a-hailemariam/
       image_url: images/people/meareghailemariam_400x400.jpg
@@ -124,24 +124,6 @@
       affiliation: ETH Zürich
       roles:
         - Community Manager
-    - name: Lynn H. Kaack
-      website_url: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/kaack
-      image_url: images/people/lynnkaack_400x400.jpg
-      affiliation: Hertie School
-      roles:
-        - Public Sector
-    - name: Konstantin Klemmer
-      website_url: https://konstantinklemmer.github.io
-      image_url: images/people/konstantin_400x400.jpg
-      affiliation: University of Warwick
-      roles:
-        - Social Media
-    - name: Raphaela Kotsch
-      website_url: https://www.rkotsch.com
-      image_url: images/people/raphaelakotsch_400x400.jpg
-      affiliation: University of Zurich, ZHAW
-      roles:
-        - Economics & Markets
     - name: Lauren Kuntz
       website_url: https://www.gaia-scope.com/
       image_url: images/people/lauren_400x400.jpg
@@ -153,7 +135,7 @@
       image_url: images/people/sashaluccioni_400x400.jpg
       affiliation: Mila, U. de Montréal
       roles:
-        - Content
+        - Content Committee
     - name: Tegan Maharaj
       website_url: http://www.teganmaharaj.com
       image_url: images/people/teganmaharaj_400x400.jpg
@@ -165,18 +147,12 @@
       affiliation: LBNL, UC Berkeley
       roles:
         - Tutorials
-    - name: Nikola Milojevic-Dupont
-      website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
-      image_url: images/people/nikolamilojevicdupont_400x400.jpg
-      affiliation: MCC Berlin, TU Berlin
-      roles:
-        - Buildings & Transportation
     - name: Kelton Minor
       website_url: https://www.linkedin.com/in/kelton-minor-86a0b5106/
       image_url: images/people/keltonminor_400x400.jpg
       affiliation: UCPH, UC Berkeley
       roles:
-        - Computational Social Sciences
+        - Computational Social Sciences Lead
     - name: Peetak P. Mitra
       website_url: https://www.sites.google.com/view/peetak
       image_url: images/people/peetakmitra_400x400.jpg
@@ -189,22 +165,6 @@
       affiliation: Microsoft AI for Good, MIT
       roles:
         - Webinars
-    - name: Geneviève Patterson
-      website_url: https://genp.github.io
-      image_url: images/people/genevievepatterson_400x400.jpg
-      affiliation: VSCO
-      roles:
-        - Course
-    - name: Olivia Mendivil Ramos 
-      website_url: https://www.linkedin.com/in/omr82
-      image_url: images/people/oliviamendivil_400x400.jpg
-      affiliation: Cold Spring Harbor Laboratory
-    - name: David Rolnick
-      website_url: http://www.davidrolnick.com
-      image_url: images/people/davidrolnick_400x400.jpg
-      affiliation: McGill, Mila
-      roles:
-        - Biodiversity
     - name: Andrew Slavin Ross
       website_url: https://asross.github.io/
       image_url: images/people/andrew_ross_400x400.jpg
@@ -216,18 +176,14 @@
       image_url: images/people/mariajoaosousa_400x400.jpg
       affiliation: IST, ULisboa
       roles:
-        - Summer School
         - Programs Vice Chair
-    - name: Evan D. Sherwin
-      website_url: https://www.evansherwin.com/
-      image_url: images/people/evansherwin_400x400.jpg
-      affiliation: Stanford University
+        - Summer School
     - name: Katherine Stapleton
       website_url: https://sites.google.com/view/katherinestapleton
       image_url: images/people/katherinestapleton_400x400.jpg
       affiliation: World Bank, Oxford University
       roles:
-        - International Organizations
+        - International Organizations Lead
         # - Strategic Outreach
         # - Communications Committee
     - name: Isabelle Tingzon
@@ -241,8 +197,8 @@
       image_url: images/people/kasiatokarska_400x400.jpg
       affiliation: ETH Zürich
       roles:
-        - Climate & Earth Sciences
         - Community Leads Vice Chair
+        - Climate & Earth Sciences Lead
         # - Communications Committee
     - name: Marcus Voss
       website_url: https://marcusvoss.com/
