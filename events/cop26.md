@@ -35,9 +35,9 @@ This event is co-organized by Climate Change AI, the <a href="https://www.c-ai-c
 
 Panelists:
 - **Dr. Angel Hsu** (University of North Carolina)
-- **Dr. Dava Newman** (MIT)
 - **Dr. Michal Nachmany** (Climate Policy Radar)
 - **Matthrew Gray** (TransitionZero, Climate TRACE)
-- **Dr. Francisco Souza** (FSC Indigenous Foundation)
+- **Dr. Alejandro Paredes Trapero** (FSC Indigenous Foundation)
 - **David Dao** (ETH Zürich, Climate Change AI)
+- *Additional panelists to be announced*
 
