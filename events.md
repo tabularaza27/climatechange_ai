@@ -10,7 +10,8 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 ## Upcoming Events
 
-* [NeurIPS 2021](/events/neurips2021) workshop -- December 14, 2021, virtual
+* [COP26](/events/cop26) side events -- Nov 8 & 10, 2021, virtual + Glasgow, Scotland
+* [NeurIPS 2021](/events/neurips2021) workshop -- Dec 14, 2021, virtual
 * [Webinars](/webinars) -- once a month, virtual
 * [Happy Hours](/events/happy_hour) -- every two weeks, virtual
 
@@ -18,10 +19,10 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 See also a [searchable list of workshop papers](/papers) from our past events.
 
-* [ICML 2021](/events/icml2021) workshop -- July 23, 2021, virtual
-* [NeurIPS 2020](/events/neurips2020) workshop -- December 11, 2020, virtual
+* [ICML 2021](/events/icml2021) workshop -- Jul 23, 2021, virtual
+* [NeurIPS 2020](/events/neurips2020) workshop -- Dec 11, 2020, virtual
 * [TEDx Countdown](/events/tedx) -- Oct 17, 2020, virtual
-* [ICLR 2020](/events/iclr2020) workshop -- April 26, 2020, virtual
+* [ICLR 2020](/events/iclr2020) workshop -- Apr 26, 2020, virtual
 * [AMLD 2020](/events/amld2020) conference track -- Jan 27-28, 2020 in Lausanne, Switzerland
 * [NeurIPS 2019](/events/neurips2019) workshop -- Dec 14, 2019 in Vancouver, BC, Canada
 * [COP25](/events/cop25) side event -- Dec 4, 2019 in Madrid, Spain
