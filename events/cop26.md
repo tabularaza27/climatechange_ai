@@ -29,14 +29,14 @@ Panelists:
 
 *Wednesday 10 November, 16:00-17:00 UTC*
 
-Artificial intelligence and machine learning can offer a powerful suite of tools for Measurement, Reporting and Verification (MRV) of emissions, but many of the associated opportunities face hurdles in realizing their full potential. Through an expert panel discussion, this 60-minute event aims to inform decision-makers about ways in which AI can provide increased transparency and accountability to global and local climate action, discuss the limits and bottlenecks for deployment, and address how policymakers can facilitate impactful work leveraging digital MRV to mobilize finance, protect communities, and democratize actionable information.
+Through an expert panel discussion, this 60-minute event aims to inform decision-makers about ways in which AI can provide increased transparency and accountability to global and local climate action, discuss the limits and bottlenecks for deployment, and address how policymakers can facilitate impactful work leveraging digital MRV to mobilize finance, protect communities, and democratize actionable information.
 
 This event is co-organized by [Climate Change AI](/), the <a href="https://www.c-ai-c.org/" target="_blank">Centre for AI & Climate</a>, and <a href="https://www.climatetrace.org/" target="_blank">Climate TRACE</a>.
 
 Panelists:
 - **Dr. Angel Hsu** (University of North Carolina)
 - **Dr. Michal Nachmany** (Climate Policy Radar)
-- **Matthrew Gray** (TransitionZero, Climate TRACE)
+- **Matthew Gray** (TransitionZero, Climate TRACE)
 - **Dr. Alejandro Paredes Trapero** (FSC Indigenous Foundation)
 - **David Dao** (ETH Zürich, Climate Change AI)
 - *Additional panelists to be announced*
