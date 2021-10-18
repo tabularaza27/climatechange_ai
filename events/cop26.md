@@ -14,10 +14,10 @@ Climate Change AI will be presenting multiple side events at the 2021 UN Climate
 
 Artificial intelligence and machine learning can offer a powerful suite of tools for climate change mitigation and adaptation, but many of the associated opportunities face hurdles in realizing their full potential. Through presentations of use cases and an expert panel discussion, this 90-minute event aims to inform decision-makers about ways in which AI can accelerate climate action, and address how policymakers can facilitate impactful work. This event will support the launch of the AI-for-Climate Roadmap from the Global Partnership on AI (a global initiative backed by 18 countries) offering detailed and actionable guidance for how governments can support AI-for-Climate applications. 
 
-This event is co-organized by [Climate Change AI](/) and the <a href="https://www.c-ai-c.org/" target="_blank">Centre for AI & Climate</a>.
+This event is co-organized by [Climate Change AI](/) , the <a href="https://www.c-ai-c.org/" target="_blank">Centre for AI & Climate</a>, and the German <a href="https://www.bmu.de/en/" target="_blank">Federal Ministry for the Environment, Nature Conservation and Nuclear Safety</a>.
 
 Panelists:
-- **Daniel Schmitt** (German Ministry for the Environment, Nature Conservation, Building and Nuclear Safety)
+- **Daniel Schmitt** (German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety)
 - **Dr. Cristóbal de la Maza** (Chilean Superintendency of Environment)
 - **Dr. Catherine Nakalembe** (University of Maryland, NASA Harvest)
 - **Pete Clutton-Brock** (Radiance, Centre for AI & Climate)
