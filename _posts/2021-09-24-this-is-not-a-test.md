@@ -2,7 +2,7 @@
 layout: post
 title:  "This post is definitely not a test."
 authors: foo, jesse
-article_type: Research Summary
+article_type: Research summary
 topical_tags: foo, bar baz, bat
 ---
 

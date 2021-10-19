@@ -6,7 +6,7 @@ image_attribution: https://thiscatdoesnotexist.com
 image_alt_text: This cat does not exist
 image_max_height: 20rem
 authors: foo
-article_type: CCAI Perspective
+article_type: CCAI perspective
 topical_tags: foo, baz, chicken
 ---
 

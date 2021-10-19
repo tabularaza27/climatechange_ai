@@ -72,11 +72,9 @@ layout: default
   {% endfor %}
 </div>
 
-{% if post.article_type != "CCAI Perspective" %}
+{% if post.article_type != "CCAI perspective" and post.article_type != "Blog admin" %}
     <div class='post-disclaimer'>
-        Note: with the exception of "CCAI Perspective" pieces, blog posts
-        represent the views of the authors, and do not necessarily represent
-        the views of CCAI.
+        This post represents the views of its authors, and does not necessarily represent the views of CCAI.
     </div>
 {% endif %}
 
