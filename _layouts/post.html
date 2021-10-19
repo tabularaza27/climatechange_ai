@@ -72,6 +72,14 @@ layout: default
   {% endfor %}
 </div>
 
+{% if post.article_type != "CCAI Perspective" %}
+    <div class='post-disclaimer'>
+        Note: with the exception of "CCAI Perspective" pieces, blog posts
+        represent the views of the authors, and do not necessarily represent
+        the views of CCAI.
+    </div>
+{% endif %}
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <script>
