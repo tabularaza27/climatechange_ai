@@ -1,3 +1,13 @@
+---
+layout: default
+title: 'Climate Change AI Summer School 2022'
+description: 'Climate Change AI Summer School 2022'
+<!-- og_image_url: 'https://www.climatechange.ai/images/icml-2021-preview.png'
+og_image_type: 'image/png'
+og_image_width: 2803
+og_image_height: 1424 -->
+---
+
 <h1>Climate Change AI Summer School 2022<br></h1>
 
 <div class='buttons' id='sticky-nav'>
@@ -7,7 +17,7 @@
   <a class='button' href='#organizers'>Organizers</a>
 </div>
 
-The Climate Change AI summer school is designed to educate and prepare participants with a background in AI and/or a background in a climate-change related field to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space. 
+The Climate Change AI summer school is designed to educate and prepare participants with a background in [artificial intelligence](#faq) and/or a background in a [climate-change related field](#faq) to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space.
 
 ## Dates and Application Information
 - Date: Aug 15-26, 2022 (Weekdays only)
@@ -21,88 +31,113 @@ The Climate Change AI summer school is designed to educate and prepare participa
 
 The first part of the summer school will consist of a mix of lectures and hands-on tutorials organized into two tracks, one focused on AI fundamentals and one focused on climate change. In both tracks, the program will provide an overview of machine learning applications in a broad range of climate change-related areas. This includes covering foundational machine learning methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. The second part of the summer school will consist of a collaborative project at the intersection of climate change and machine learning. Participants will work together in multidisciplinary groups under the supervision of a mentor to develop AI-based solutions for climate change problems.
 
-Areas of application include, but are not limited to, climate-relevant topics within: 
-  - Agriculture and food
-  - Behavioral and social science
-  - Buildings
-  - Carbon capture and sequestration
-  - Cities and urban planning
-  - Climate finance and economics
-  - Climate justice
-  - Climate science and climate modeling
-  - Disaster management and relief
-  - Earth observations and monitoring
-  - Earth science
-  - Ecosystems and biodiversity
-  - Extreme weather
-  - Forestry and other land use
-  - Health
-  - Heavy industry and manufacturing
-  - Local and indigenous knowledge systems
-  - Materials science and discovery
-  - Oceans and marine systems
-  - Power and energy systems
-  - Public policy
-  - Societal adaptation and resilience
-  - Supply chains
-  - Transportation 
-
 ### Summer School Structure
-The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have a basic understanding of statistics and working knowledge of programming gained through formal courses or informal projects. The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language (for accepted participants who are not already familiar with Python, we will provide brief learning materials prior to the start of the course). 
+
 The course is split into two parts. The first part of the course will consist of lectures and tutorials, and the second part of the course will consist of a group project.
 
-### Lectures and Tutorials 
+The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language (for accepted participants who are not already familiar with Python, we will provide brief learning materials prior to the start of the course). 
+
+#### I Lectures and Tutorials 
 The lectures and tutorials are organized into two tracks (AI-Focused and Climate-Focused, described below) designed to better provide an enriching and accessible learning experience to participants with different backgrounds.
-### AI-Focused Track
-This track is designed for participants who have expertise in a climate change related field but do not have a background in AI. 
 
-**Content:**
-  - Introductory lectures on AI and its applications to climate-relevant topics
-  - Hands-on tutorials including code-based exercises covering the application of machine learning methods to problems relevant to climate change using modern tools
+**AI-Focused Track**
+This track is designed for participants who have expertise in a climate change-related field but do not have a background in AI. 
 
-### Climate-Focused Track
+<i>Content:</i>
+- Introductory lectures on AI and its applications to climate-relevant topics
+- Hands-on tutorials including code-based exercises covering the application of machine learning methods to problems relevant to climate change using modern tools
+
+<i>Learning outcomes:</i>  By the end of this track, students will be able to
+- Demonstrate an understanding of machine learning foundations
+- Apply machine learning techniques to climate change problems
+
+**Climate-Focused Track**
 This track is designed for students who have expertise in AI but may or may not have a background in a climate change-related field. Students applying for this track should have theoretical and practical experience in AI and be able to formulate AI approaches  to  new problems.
 
-**Content:**
-   - Introductory lectures on climate change mitigation, adaptation, and climate science, and relevant AI applications in this space
-   - Hands-on tutorials with practical examples covering various opportunities and challenges to address climate change with AI tools
+<i>Content:</i>
+- Introductory lectures on climate change mitigation, adaptation, and climate science, and relevant AI applications in this space
+- Hands-on tutorials with practical examples covering various opportunities and challenges to address climate change with AI tools
 
-### Project 
-The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project, and help them identify next steps and “pathways to impact” for the work.
+<i>Learning outcomes:</i>  By the end of this track, students will be able to
+- Demonstrate an understanding of climate change mitigation, adaptation, and climate science problems 
+- Use basic and advanced machine learning techniques to solve climate change problems
 
+#### II  Project 
+The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project, and help them identify next steps and “pathways to impact” for the work. Teams will have the opportunity to submit a proposal for their project to a future “Tackling Climate Change with Machine Learning” workshop at a premier machine learning conference.
+
+<i>Learning outcomes:</i>   By the end of the project, students will be able to:
+- Formulate a machine learning approach to tackle a climate change-related problem
+- Use machine learning to develop a potential solution to the problem
+- Engage, discuss, and collaborate among teammates with complementary expertise
 
 ## Call for Participation
 
-We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  Applicants must be at least 18 years of age. 
+We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have taken at least one statistics course (e.g. equivalent to [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics), as well as a working knowledge of some programming language gained through formal or informal courses or projects.  Applicants must be at least 18 years of age. 
  
-Applications are due by: **Dec 1st, 2021 AOE (Anywhere on Earth)**. To apply, please submit your application through this form:
+Applications are due by: **Dec 1, 2021 AOE (Anywhere on Earth, UTC-12)**. To apply, please submit your application through this form:
 www.climatechange.ai/summer_school2022_application
 
-The form is editable until the submission deadline. Please note that applications that are missing required information such as a curriculum vitae at the application deadline will not be considered.
+The form is editable until the submission deadline. Please note that applications that are missing required information such as a CV at the application deadline will not be considered. If you'd like to prepare answers to the questions outside of this form, the questions are also available in a Google document here: www.climatechange.ai/summer_school2022_application_questions
 
-The cohort will be composed of applicants from multidisciplinary areas, to be selected on the basis of their background and experience as well as their motivation for joining the summer school.  Admission notifications will be sent out during the week of Feb 21st, 2022. 
+The cohort will be composed of applicants from complementary areas of study/work, to be selected on the basis of their background and experience as well as their motivation for joining the summer school.  Admission notifications will be sent out during the week of Feb 21, 2022. 
 
-The summer school is free to attend. Applicants who are accepted will be asked to confirm their attendance for the entire duration of the summer school. 
+**The summer school is free to attend**. Applicants who are accepted will be asked to confirm their attendance for the entire duration of the summer school. 
+This course will be instructed by members of CCAI and world-renowned experts in ML and Climate Change. 
 For further inquiries please contact summerschool@climatechange.ai
 
+
 ## Organizers
-[Jeremy Irvin (Stanford)](https://jirvin16.github.io/)<br>
+On behalf of [Climate Change AI](https://www.climatechange.ai/)<br>
 [Hari Prasanna Das (UC Berkeley)](http://hariprasanna.com/)<br>
+[Jeremy Irvin (Stanford)](https://jirvin16.github.io/)<br>
 [Maria João Sousa (IST, ULisboa)](https://www.linkedin.com/in/mariajoaosousa/)<br>
-[Olivia Mendivil Ramos (Climate Change AI)](https://www.cshl.edu/research/postdoctoral-research/postdocs/olivia-mendivil-ramos/)<br>
+Olivia Mendivil Ramos (Climate Change AI)<br>
 
-<!-- ## FAQ
+## FAQ
 
-### Eligibility
+_Q: Which areas are included for someone with an artificial intelligence background?_<br>
+A: Areas include, but are not limited to, ML-relevant topics within:
+- Active learning
+- Causal and Bayesian methods
+- Classification, regression, and supervised learning
+- Computer vision and remote sensing
+- Data mining
+- Generative modeling
+- Hybrid physical models
+- Meta- and transfer learning
+- Natural language processing
+- Recommender systems
+- Reinforcement learning and control
+- Time-series analysis
+- Uncertainty quantification and robustness
+- Unsupervised and semi-supervised learning
 
-_Q: Does my institution qualify as an "accredited university or academic research institution" under the eligibility criteria of this grant?_<br>
-A: For the purposes of this grant, we consider any officially-recognized non-profit academic institution with faculty to be an "accredited university or academic research institution," and therefore eligible to be a lead institution on a proposal. If you’re unsure as to whether your institution qualifies under these criteria, feel free to email us at <grants@climatechange.ai>.
-
-_Q: I am from a US national lab. Does this count as an eligible "academic research institution"?_<br>
-A: US national labs and federally funded research and development centers (FFRDCs) are unfortunately not eligible to be the lead institution on a proposal.
-
-_Q: I am from an eligible “accredited university or academic research institution” as defined above and hold a post-PhD research position at that institution, but am not technically considered either a postdoc or faculty member. Am I eligible to be a PI?_<br>
-A: Yes. Anyone at an eligible lead institution as defined above who holds a post-PhD research position of postdoctoral level or above, and is allowed by their institution to hold grants, is eligible to apply as a PI. -->
+_Q: Which areas are included for someone with a climate change-relevant background?_<br>
+A: Areas include, but are not limited to, climate-relevant topics within:
+- Agriculture and food 
+- Behavioural and social science
+- Buildings
+- Carbon capture and sequestration
+- Cities and urban planning
+- Climate finance and economics
+- Climate justice
+- Climate science and climate modeling
+- Disaster management and relief
+- Earth observations and monitoring
+- Earth science
+- Ecosystems and biodiversity
+- Extreme weather
+- Forestry and other land use
+- Health
+- Heavy industry and manufacturing
+- Local and indigenous knowledge systems
+- Materials science and discovery
+- Oceans and marine systems
+- Power and energy systems
+- Public policy
+- Societal adaptation and resilience
+- Supply chains
+- Transportation
 
 <!-- ## Sponsors
 
