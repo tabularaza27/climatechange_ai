@@ -70,7 +70,7 @@ The project part of the course will consist of a group project at the intersecti
 
 ## Call for Participation
 
-We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have taken at least one statistics course (e.g. equivalent to [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics), as well as a working knowledge of some programming language gained through formal or informal courses or projects.  Applicants must be at least 18 years of age. 
+We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have taken at least one statistics course (e.g. equivalent to [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)), as well as a working knowledge of some programming language gained through formal or informal courses or projects.  Applicants must be at least 18 years of age. 
  
 Applications are due by: **Dec 1, 2021 AOE (Anywhere on Earth, UTC-12)**. To apply, please submit your application through this form:
 www.climatechange.ai/summer_school2022_application
