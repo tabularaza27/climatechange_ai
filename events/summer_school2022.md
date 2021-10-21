@@ -35,10 +35,10 @@ The course is split into two parts. The first part of the course will consist of
 
 The full course content and tutorial materials will be provided in English and the code exercises will use the Python programming language (for accepted participants who are not already familiar with Python, we will provide brief learning materials prior to the start of the course). 
 
-#### I Lectures and Tutorials 
+### I. Lectures and Tutorials 
 The lectures and tutorials are organized into two tracks (AI-Focused and Climate-Focused, described below) designed to better provide an enriching and accessible learning experience to participants with different backgrounds.
 
-**AI-Focused Track**
+**AI-Focused Track**<br>
 This track is designed for participants who have expertise in a climate change-related field but do not have a background in AI. 
 
 <i>Content:</i>
@@ -49,7 +49,7 @@ This track is designed for participants who have expertise in a climate change-r
 - Demonstrate an understanding of machine learning foundations
 - Apply machine learning techniques to climate change problems
 
-**Climate-Focused Track**
+**Climate-Focused Track**<br>
 This track is designed for students who have expertise in AI but may or may not have a background in a climate change-related field. Students applying for this track should have theoretical and practical experience in AI and be able to formulate AI approaches  to  new problems.
 
 <i>Content:</i>
@@ -60,7 +60,7 @@ This track is designed for students who have expertise in AI but may or may not 
 - Demonstrate an understanding of climate change mitigation, adaptation, and climate science problems 
 - Use basic and advanced machine learning techniques to solve climate change problems
 
-#### II  Project 
+### II. Project 
 The project part of the course will consist of a group project at the intersection of climate change and machine learning. Participants from both tracks will collaborate in a multidisciplinary team and apply the skills they have learned throughout the summer school to develop a project focused on a specific use case. Each group will have the support of a mentor who will advise the team throughout the duration of the project, and help them identify next steps and “pathways to impact” for the work. Teams will have the opportunity to submit a proposal for their project to a future “Tackling Climate Change with Machine Learning” workshop at a premier machine learning conference.
 
 <i>Learning outcomes:</i>   By the end of the project, students will be able to:
