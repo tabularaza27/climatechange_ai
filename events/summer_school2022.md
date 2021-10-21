@@ -2,10 +2,7 @@
 layout: default
 title: 'Climate Change AI Summer School 2022'
 description: 'Climate Change AI Summer School 2022'
-<!-- og_image_url: 'https://www.climatechange.ai/images/icml-2021-preview.png'
-og_image_type: 'image/png'
-og_image_width: 2803
-og_image_height: 1424 -->
+
 ---
 
 <h1>Climate Change AI Summer School 2022<br></h1>
