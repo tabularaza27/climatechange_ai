@@ -8,8 +8,8 @@ description: 'Climate Change AI Summer School 2022'
 <h1>Climate Change AI Summer School 2022<br></h1>
 
 <div class='buttons' id='sticky-nav'>
-  <a class='button' href='#about'>About</a>
   <a class='button' href='#dates-and-application-information'>Dates and Application Information</a>
+  <a class='button' href='#about'>About</a>
   <a class='button' href='#call-for-participation'>Call for Participation</a>
   <a class='button' href='#organizers'>Organizers</a>
 </div>
