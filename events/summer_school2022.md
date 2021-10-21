@@ -12,6 +12,7 @@ description: 'Climate Change AI Summer School 2022'
   <a class='button' href='#about'>About</a>
   <a class='button' href='#call-for-participation'>Call for Participation</a>
   <a class='button' href='#organizers'>Organizers</a>
+  <a class='button' href='#faq'>FAQ</a>
 </div>
 
 The Climate Change AI summer school is designed to educate and prepare participants with a background in [artificial intelligence](#faq) and/or a background in a [climate-change related field](#faq) to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space.
