@@ -21,8 +21,11 @@ Panelists:
 - **Dr. Cristóbal de la Maza** (Chilean Superintendency of Environment)
 - **Dr. Catherine Nakalembe** (University of Maryland, NASA Harvest)
 - **Pete Clutton-Brock** (Radiance, Centre for AI & Climate)
-- **Dr. Lynn Kaack** (Hertie School, Climate Change AI)
+- **Erika Gupta** (US Department of Energy)
 - *Additional panelists to be announced*
+
+Moderator:
+- **Dr. Lynn Kaack** (Hertie School, Climate Change AI)
 
 
 <h2>"A Clearer Picture: Towards Radical Transparency in Measurement, Reporting and Verification of Climate Action with AI" @ UNFCCC Innovation Pavilion </h2>
