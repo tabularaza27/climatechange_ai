@@ -30,17 +30,19 @@ Moderator:
 
 <h2>"A Clearer Picture: Towards Radical Transparency in Measurement, Reporting and Verification of Climate Action with AI" @ UNFCCC Innovation Pavilion </h2>
 
-*Wednesday 10 November, 16:00-17:00 UTC*
+*Wednesday 10 November, 15:00-16:00 UTC*
 
 Through an expert panel discussion, this 60-minute event aims to inform decision-makers about ways in which AI can provide increased transparency and accountability to global and local climate action, discuss the limits and bottlenecks for deployment, and address how policymakers can facilitate impactful work leveraging digital MRV to mobilize finance, protect communities, and democratize actionable information.
 
 This event is co-organized by [Climate Change AI](/), the <a href="https://www.c-ai-c.org/" target="_blank">Centre for AI & Climate</a>, and <a href="https://www.climatetrace.org/" target="_blank">Climate TRACE</a>.
 
 Panelists:
+- **Dr. Dava Newman** (MIT Media Lab)
 - **Dr. Angel Hsu** (University of North Carolina)
 - **Dr. Michal Nachmany** (Climate Policy Radar)
 - **Matthew Gray** (TransitionZero, Climate TRACE)
 - **Dr. Alejandro Paredes Trapero** (FSC Indigenous Foundation)
+
+Moderator:
 - **David Dao** (ETH Zürich, Climate Change AI)
-- *Additional panelists to be announced*
 
