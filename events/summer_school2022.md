@@ -11,10 +11,10 @@ description: 'Climate Change AI Summer School 2022'
   <a class='button' href='#about'>About</a>
   <a class='button' href='#call-for-participation'>Call for Participation</a>
   <a class='button' href='#organizers'>Organizers</a>
-  <a class='button' href='#faq'>FAQ</a>
+  <a class='button' href='#frequently-asked-questions'>FAQ</a>
 </div>
 
-The Climate Change AI summer school is designed to educate and prepare participants with a background in [artificial intelligence](#faq) and/or a background in a [climate-change related field](#faq) to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space.
+The Climate Change AI summer school is designed to educate and prepare participants with a background in [artificial intelligence](#frequently-asked-questions) and/or a background in a [climate-change related field](#frequently-asked-questions) to tackle major climate problems using AI. The summer school aims to bring together a multidisciplinary group of participants and facilitate project-based team work to strengthen collaborations between different fields and foster networking in this space.
 
 ## Dates and Application Information
 - Date: Aug 15-26, 2022 (Weekdays only)
@@ -90,7 +90,7 @@ On behalf of [Climate Change AI](https://www.climatechange.ai/),<br>
 [Maria João Sousa (IST, ULisboa)](https://www.linkedin.com/in/mariajoaosousa/)<br>
 Olivia Mendivil Ramos (Climate Change AI)<br>
 
-## FAQ
+## Frequently Asked Questions
 
 _Q: Which areas are included for someone with an artificial intelligence background?_<br>
 A: Areas include, but are not limited to, ML-relevant topics within:
