@@ -1,3 +1,9 @@
+---
+layout: default
+title: 'Climate Change AI Summer School 2022'
+description: 'Climate Change AI Summer School 2022'
+---
+
 <h1>Climate Change AI Summer School 2022<br></h1>
 
 <div class='buttons' id='sticky-nav'>
@@ -14,7 +20,7 @@ The Climate Change AI summer school is designed to educate and prepare participa
 - Date: Aug 15-26, 2022 (Weekdays only)
 - Location: Virtual
 - Deadline for Application to Participate: <b>Dec 17, 2021 23:59 AOE (Anywhere on Earth)</b>
-- Application Portal: https://www.climatechange.ai/summer_school2022_application
+- Application Portal: <https://www.climatechange.ai/summer_school2022_application>
 - Notification of acceptance: <b>Week of Feb 21, 2022</b>
 - Contact: <summerschool@climatechange.ai>
 
@@ -66,9 +72,9 @@ The project part of the course will consist of a group project at the intersecti
 We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have taken at least one statistics course (e.g. equivalent to [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)), as well as a working knowledge of some programming language gained through formal or informal courses or projects.  Applicants must be at least 18 years of age. 
  
 Applications are due by: **Dec 17, 2021 23:59 AOE (Anywhere on Earth, UTC-12)**. To apply, please submit your application through this form:
-https://www.climatechange.ai/summer_school2022_application
+<https://www.climatechange.ai/summer_school2022_application>
 
-The form is editable until the submission deadline. Please note that applications that are missing required information such as a CV at the application deadline will not be considered. If you'd like to prepare answers to the questions outside of this form, the questions are also available in a Google document here: https://www.climatechange.ai/summer_school2022_application_questions
+The form is editable until the submission deadline. Please note that applications that are missing required information such as a CV at the application deadline will not be considered. If you'd like to prepare answers to the questions outside of this form, the questions are also available in a Google document here: <https://www.climatechange.ai/summer_school2022_application_questions>
 
 The cohort will be composed of applicants from complementary areas of study/work, to be selected on the basis of their background and experience as well as their motivation for joining the summer school.  Admission notifications will be sent out during the week of Feb 21, 2022. 
 
