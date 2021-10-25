@@ -78,7 +78,7 @@ For further inquiries please contact summerschool@climatechange.ai
 
 
 ## Organizers
-On behalf of [Climate Change AI](https://www.climatechange.ai/)<br>
+On behalf of [Climate Change AI](https://www.climatechange.ai/),<br>
 [Hari Prasanna Das (UC Berkeley)](http://hariprasanna.com/)<br>
 [Jeremy Irvin (Stanford)](https://jirvin16.github.io/)<br>
 [Maria João Sousa (IST, ULisboa)](https://www.linkedin.com/in/mariajoaosousa/)<br>
