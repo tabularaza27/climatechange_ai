@@ -1,10 +1,3 @@
----
-layout: default
-title: 'Climate Change AI Summer School 2022'
-description: 'Climate Change AI Summer School 2022'
-
----
-
 <h1>Climate Change AI Summer School 2022<br></h1>
 
 <div class='buttons' id='sticky-nav'>
