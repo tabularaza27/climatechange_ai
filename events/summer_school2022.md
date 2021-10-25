@@ -201,9 +201,12 @@ A: Areas include, but are not limited to, climate-relevant topics within:
 $(document).ready(() => {
   const $stickyNav = $('#sticky-nav');
 
-  $('#content h2').each((i, h2) => {
-    $stickyNav.append(`<a class='button' href="#${h2.id}">${h2.innerText}</a>`);
-  });
+  // Uncomment this to automatically add headers based on <h2> elements, rather
+  // than specifying them manually
+
+  // $('#content h2').each((i, h2) => {
+  //   $stickyNav.append(`<a class='button' href="#${h2.id}">${h2.innerText}</a>`);
+  // });
 
   document.documentElement.style.setProperty('--sticky-nav-height', `${$stickyNav.outerHeight()}px`);
 
