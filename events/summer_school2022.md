@@ -20,14 +20,14 @@ The Climate Change AI summer school is designed to educate and prepare participa
 ## Dates and Application Information
 - Date: Aug 15-26, 2022 (Weekdays only)
 - Location: Virtual
-- Deadline for Application to Participate: <b>Dec 1, 2021 23:59 AOE (Anywhere on Earth)</b>
+- Deadline for Application to Participate: <b>Dec 17, 2021 23:59 AOE (Anywhere on Earth)</b>
 - Application Portal: www.climatechange.ai/summer_school2022_application
-- Notification of acceptance: <b>Feb 21, 2022 23:59 AOE</b>
+- Notification of acceptance: <b>Week of Feb 21, 2022</b>
 - Contact: <summerschool@climatechange.ai>
 
 ## About
 
-The first part of the summer school will consist of a mix of lectures and hands-on tutorials organized into two tracks, one focused on AI fundamentals and one focused on climate change. In both tracks, the program will provide an overview of machine learning applications in a broad range of climate change-related areas. This includes covering foundational machine learning methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. The second part of the summer school will consist of a collaborative project at the intersection of climate change and machine learning. Participants will work together in multidisciplinary groups under the supervision of a mentor to develop AI-based solutions for climate change problems.
+The first part of the summer school will consist of a mix of lectures and hands-on tutorials organized into two tracks, one focused on AI fundamentals and one focused on climate change. In both tracks, the program will provide an overview of machine learning applications in a broad range of climate change-related areas. This includes covering foundational machine learning methods and state-of-the-art tools, while underlining their advantages and limitations, and describing how they can be used in practice to address the climate crisis. The second part of the summer school will consist of a collaborative project at the intersection of climate change and machine learning. Participants will work together in multidisciplinary groups under the guidance of a mentor to develop AI-based solutions for climate change problems.
 
 ### Summer School Structure
 
@@ -72,7 +72,7 @@ The project part of the course will consist of a group project at the intersecti
 
 We welcome applications from students, researchers, engineers, and practitioners in the public and private sectors who are interested in using machine learning to address problems in climate change mitigation, adaptation, or climate science.  The summer school is designed primarily for graduate students and professionals, but advanced undergraduate students are also welcome to apply. Participants should have taken at least one statistics course (e.g. equivalent to [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)), as well as a working knowledge of some programming language gained through formal or informal courses or projects.  Applicants must be at least 18 years of age. 
  
-Applications are due by: **Dec 1, 2021 AOE (Anywhere on Earth, UTC-12)**. To apply, please submit your application through this form:
+Applications are due by: **Dec 17, 2021 23:59 AOE (Anywhere on Earth, UTC-12)**. To apply, please submit your application through this form:
 www.climatechange.ai/summer_school2022_application
 
 The form is editable until the submission deadline. Please note that applications that are missing required information such as a CV at the application deadline will not be considered. If you'd like to prepare answers to the questions outside of this form, the questions are also available in a Google document here: www.climatechange.ai/summer_school2022_application_questions
