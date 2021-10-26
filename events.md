@@ -12,6 +12,7 @@ Our events provide opportunities to share work at the intersection of climate ch
 
 * [COP26](/events/cop26) side events -- Nov 8 & 10, 2021, virtual + Glasgow, Scotland
 * [NeurIPS 2021](/events/neurips2021) workshop -- Dec 14, 2021, virtual
+* [Summer School 2022](/events/summer_school2022) -- Aug 15-26, 2022, virtual
 * [Webinars](/webinars) -- once a month, virtual
 * [Happy Hours](/events/happy_hour) -- every two weeks, virtual
 
