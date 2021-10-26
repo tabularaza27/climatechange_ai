@@ -65,7 +65,7 @@ $(document).ready(() => {
   if (w.registration_link) {
       s += `<div class='webinar-info'>
         <b>When:</b> ${dateStr} ${w.time}<br>
-        <b>Speakers:</b> ${w.speakers}<br>
+        <b>Speakers:</b> ${w.speakers || 'TBA'}<br>
 	 <a class='button is-link' href='${w.registration_link}' target='_blank'>
           ${w.registration_text}
         </a>
