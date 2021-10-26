@@ -12,9 +12,8 @@
     start_showing_on: 2021-09-18
     title: Register for our NeurIPS 2021 workshop
     url: /events/neurips2021
-  - image: /images/innovation-grants-poster-trunc.png
-    title: Announcing the CCAI Innovation Grants program; USD 1.8M in funding available
-    url: /calls/innovation_grants
+  - title: Attend CCAI summer school (Aug. 15-26 2022, apply by Dec. 17)
+    url: /events/summer_school2022
   - image: /images/happy_hour_banner_cropped_400w.jpg
     title: Attend a CCAI virtual happy hour (held fortnightly)
     url: /events/happy_hour
