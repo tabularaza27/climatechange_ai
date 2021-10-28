@@ -1,0 +1,254 @@
+---
+layout: default
+---
+
+<h1>Blog Posts</h1>
+
+<div id='search-wrapper'>
+  <div class='columns'>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Text Search</label>
+        <div class='control'>
+          <input class='input is-small' id='text-search' placeholder='Enter search terms...' type='search'/>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Article Type</label>
+        <div class='control'>
+          <div class='select is-fullwidth'>
+            <select id='article-types'>
+              <option value=''>All Types</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='column'>
+      <div class='field'>
+        <label class='label'>Subject Areas</label>
+        <div class='control'>
+          <select multiple id='subject-areas'>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='clear-filters-wrapper'>
+    <button class='button is-small' id='clear-filters'>Clear filters</button>
+</div>
+
+<div class='post-previews'>
+{% for post in site.posts %}
+<div class='post-preview' data-type='{{ post.article_type }}'>
+
+    <div class='post-preview-image' title='{{ post.image_alt_text }}' style='background-image:url("{{post.image | default: '/images/logo_small_green.png' }}")'>
+    </div>
+    <div class='post-preview-content'>
+      <h3>
+        <a href="{{ post.url }}" class='post-preview-title'>{{ post.title }}</a>
+      </h3>
+      {% include post_authors.html post=post %}
+
+      {% assign desc = post.subtitle | default: post.excerpt %}
+      <a href="{{ post.url }}" class='post-preview-description'>{{ desc | strip_html }}</a>
+
+      <div class='post-preview-meta'>
+          <span class='tag is-dark article-type'>{{post.article_type}}</span>
+          {% assign tags = post.topical_tags | split: ", " %}
+          {% for tag in tags %}
+            <span class='tag is-light topical'>{{tag}}</span>
+          {% endfor %}
+      </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+<style>
+#clear-filters {
+    margin-top: 5px;
+}
+.hidden {
+    display: none;
+}
+.post-preview .tag {
+    margin-bottom: 2px;
+    display: inline-block;
+    line-height: 2;
+}
+.post-preview .tag:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script type='text/javascript'>
+$(document).ready(() => {
+    $('.post-preview').click((ev) => {
+        location.href = $(ev.currentTarget).find('a.post-preview-title').attr('href');
+    });
+});
+</script>
+
+<script src="/assets/js/chosen.jquery.js"></script>
+<script src='https://cdn.jsdelivr.net/mark.js/8.6.0/jquery.mark.min.js'></script>
+
+<script>
+$(document).ready(() => {
+    const $areas = $('#subject-areas');
+    const $types = $('#article-types');
+    const $search = $('#text-search');
+
+    const areas = Array.from(new Set(Array.from($('.post-preview .tag.topical')).map(t => t.innerText))).sort();
+    const types = Array.from(new Set(Array.from($('.post-preview')).map(e => $(e).data('type')))).sort();
+
+    for (let area of areas) {
+      $areas.append(`<option value='${area}'>${area}</option>`);
+    }
+    for (let type of types) {
+      $types.append(`<option value='${type}'>${type}</option>`);
+    }
+
+    const q = new URLSearchParams(location.search);
+    if (q.get('type')) $types.val(q.get('type'));
+    if (q.get('search')) $search.val(q.get('search'));
+    if (q.getAll('tags').length) $areas.val(q.getAll('tags'));
+
+    $('select[multiple]').chosen({
+      width: '100%'
+    });
+
+    function redraw() {
+        const search = $search.val();
+        const areas = $areas.val();
+        const types = $types.val();
+
+        if (search.length || areas.length || types.length) {
+            $('#clear-filters').show();
+        } else {
+            $('#clear-filters').hide();
+        }
+
+        Array.from($('.post-preview')).map(p => {
+            const pareas = Array.from($(p).find('.tag.topical')).map(t => t.innerText);
+            if (search.length && search.toLowerCase().split(/\s+/).some(s => !p.innerText.toLowerCase().includes(s))) {
+                $(p).addClass('hidden');
+            } else if (areas.some(a => !pareas.includes(a))) {
+                $(p).addClass('hidden');
+            } else if (types.length && $(p).data('type') != types) {
+                $(p).addClass('hidden');
+            } else {
+                $(p).removeClass('hidden');
+            }
+        });
+
+        const $posts = $('.post-previews');
+        $posts.unmark();
+
+        const q = new URLSearchParams(location.search);
+        if (search.length) {
+            q.set('search', search);
+            $posts.mark(search);
+        } else {
+            q.delete('search');
+        }
+        q.delete('tags');
+        for (let area of areas) {
+            $posts.find('.tag.topical').markRegExp(new RegExp(area));
+            q.append('tags', area);
+        }
+        if (types.length) {
+            $posts.find('.tag.article-type').markRegExp(new RegExp(types));
+            q.set('type', types);
+        } else {
+            q.delete('type');
+        }
+        history.replaceState({}, '', `${location.pathname}?${q}`);
+    }
+    window.redraw = redraw;
+
+    $('.post-preview .tag.topical').click(ev => {
+      // Toggle whether topic is being filtered
+      const area = ev.currentTarget.innerText;
+      const currentVals = $areas.val();
+
+      if (currentVals.includes(area)) {
+        $areas.val(currentVals.filter(el => el != area));
+      } else {
+        $areas.val(currentVals.concat([area]));
+      }
+
+      // Let event listeners know about the change
+      $areas.trigger("change").trigger("chosen:updated");
+
+      ev.stopPropagation();
+      return false;
+    });
+
+    $('.post-preview .tag.article-type').click(ev => {
+      // Toggle whether topic is being filtered
+      const type = ev.currentTarget.innerText;
+      const currentVal = $types.val();
+
+      if (currentVal == type) {
+        $types.val('');
+      } else {
+        $types.val(type);
+      }
+
+      // Let event listeners know about the change
+      $types.trigger('change');
+
+      ev.stopPropagation();
+      return false;
+    });
+
+    function searchForAuthor(author) {
+      const currentVal = $search.val();
+      if (currentVal.includes(author)) {
+        $search.val(currentVal.replace(author, '').trimRight())
+      } else {
+         if (currentVal) {
+             $search.val(`${currentVal} ${author}`);
+         } else {
+             $search.val(author);
+         }
+      }
+      $search.trigger('change');
+    }
+
+    $('.post-author-name').click(ev => {
+      searchForAuthor(ev.currentTarget.innerText);
+      ev.stopPropagation();
+      return false;
+    });
+
+    $('.post-author-image').click(ev => {
+      searchForAuthor($(ev.currentTarget).attr('title'));
+      ev.stopPropagation();
+      return false;
+    });
+
+    $search.on('keyup keydown change search', () => {
+      if (window.searchTimeout) {
+        clearTimeout(window.searchTimeout);
+      }
+      window.searchTimeout = setTimeout(redraw, 100);
+    });
+
+    // Redraw the table when the topic filters change
+    $('#search-wrapper select').on('change', redraw);
+
+    $('#clear-filters').click(() => {
+       $search.val('');
+       $types.val('');
+       $areas.val([]).trigger("chosen:updated");
+       redraw();
+    });
+
+    redraw();
+});
+</script>

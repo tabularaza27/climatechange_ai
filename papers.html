@@ -53,6 +53,10 @@ description: Tackling Climate Change with Machine Learning
       </div>
     </div>
   </div>
+
+  <div id='clear-filters-wrapper'>
+    <button class='button is-small' id='clear-filters'>Clear filters</button>
+  </div>
 </div>
 
 <table class='paper-table' style='width: calc(100% - 1px);'>
@@ -131,7 +135,14 @@ description: Tackling Climate Change with Machine Learning
 
   #search-wrapper {
     margin-top: -1rem;
-    margin-bottom: 1rem;
+  }
+
+  #search-wrapper .columns {
+    margin-bottom: 0;
+  }
+
+  #clear-filters {
+      margin-top: -5px;
   }
 
   @media screen and (min-width: 769px) {
@@ -258,6 +269,12 @@ $(document).ready(() => {
           q.delete('award');
         }
 
+        if (q.toString().length) {
+            $('#clear-filters').show();
+        } else {
+            $('#clear-filters').hide();
+        }
+
         history.replaceState({}, '', `${location.pathname}?${q}`);
       }
     });
@@ -290,6 +307,14 @@ $(document).ready(() => {
 
     // Redraw the table when the topic filters change
     $('#search-wrapper select').on('change', () => {
+      table.draw();
+    });
+
+    $('#clear-filters').click(() => {
+      $search.val('');
+      $venues.val('');
+      $areas.val([]).trigger("chosen:updated");
+      $award.prop('checked', false);
       table.draw();
     });
 
