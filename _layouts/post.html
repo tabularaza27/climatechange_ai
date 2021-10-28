@@ -7,28 +7,30 @@ layout: default
     <li><a href="/blog">Blog Posts</a></li>
     <li class="is-active"><a href="#" aria-current="page">{{page.title}}</a></li>
 
-    <li class="next-prev">
-      {% if page.previous.url %}
-        <a href="{{page.previous.url}}">
-          <span class="icon is-small">
-            <i class="mdi mdi-arrow-left" aria-hidden="true"></i>
-          </span>
-          Previous
-        </a>
-      {% else %}
-        <span class='cursor-no'>Previous</span>
-      {% endif %}
-      {% if page.next.url %}
-          <a href="{{page.next.url}}">
-          Next
-          <span class="icon is-small">
-            <i class="mdi mdi-arrow-right" aria-hidden="true"></i>
-          </span>
-        </a>
-      {% else %}
-        <span class='cursor-no'>Next</span>
-      {% endif %}
-    </li>
+    {% if page.previous.url or page.next.url %}
+        <li class="next-prev">
+          {% if page.previous.url %}
+            <a href="{{page.previous.url}}">
+              <span class="icon is-small">
+                <i class="mdi mdi-arrow-left" aria-hidden="true"></i>
+              </span>
+              Previous
+            </a>
+          {% else %}
+            <span class='cursor-no'>Previous</span>
+          {% endif %}
+          {% if page.next.url %}
+              <a href="{{page.next.url}}">
+              Next
+              <span class="icon is-small">
+                <i class="mdi mdi-arrow-right" aria-hidden="true"></i>
+              </span>
+            </a>
+          {% else %}
+            <span class='cursor-no'>Next</span>
+          {% endif %}
+        </li>
+    {% endif %}
   </ul>
 </nav>
 
