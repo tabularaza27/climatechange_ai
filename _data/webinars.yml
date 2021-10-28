@@ -1,17 +1,46 @@
 - title: Carbon capture in geological formations optimized by machine learning
-  #speakers: .... 
-  #image: /images/webinar_10_21.png
-  registration_link: "https://ccai.eventbrite.com"
+  speakers: Philipp Witte, Qie Zhang
+  image: /images/webinar_11_21.png
+  registration_link: "https://www.climatechange.ai/register/webinar"
   #recording_link: "https://youtu.be/-dpA75KU8Pg"
   registration_text: Register via Eventbrite (Free)
   date: 2021-11-19
   time: from 11-12:00pm Eastern Time (3-4:00pm UTC)
   details: |-
+   Carbon capture and storage (CCS) is among the most promising technologies to decarbonize industrial emissions, such as those coming from cement or steel production. The core idea of geological CCS is to compress CO2 emissions and then store them permanently several kilometers beneath the surface in CO2 storage sites. Successful pilots have demonstrated the feasibility of this technology, however, in order to have substantial impact, CCS capacity has to increase hundredfold. The speakers, researchers at Microsoft, will  share their experience using machine learning techniques to accelerate the Northern Lights partnership, one of the flagship CCS projects and a collaboration between the Norwegian government and energy companies.
+    <br><br>
     <b>Invited Speakers:</b>
+    <br><br>
 
-    More details coming soon.
+    <a href ="https://www.microsoft.com/en-us/research/people/pwitte/" target="_blank"> <b>Philipp Witte </b></a> is researcher at Microsoft Research for Industry, 
+    a new initiative within Microsoft for developing innovative research solutions for industry-related problems ranging from AI/ML to edge- and high-performance 
+    computing. Prior to Microsoft, I received his B.Sc. and M.Sc. in Geophysics from the University of Hamburg and his Ph.D. in Computational Science and Engineering
+    from the Georgia Institute of Technology. During his Ph.D. he worked with Professor Felix J. Herrmann at the Seismic Laboratory for Imaging and Modeling (SLIM)
+    on computational aspects of large-scale geophysical inversion. he authored and contributed to multiple open-source software packages, including Devito, the
+    Julia Devito Inversion framework (JUDI) and InvertibleNetworks.jl, a Julia framework for deep learning with normalizing flows. At Microsoft, his research
+    revolves around adopting the cloud for high-performance scientific computing and on data-driven approaches for scenarios in energy and sustainability.
 
-    <br><br><br>
+    <br><br>
+    <b>Abstract:</b> <i>Multi-phase fluid flow simulations form a key computational workload in Carbon Capture and Storage (CCS) projects to assess storage capacity and mitigate 
+    risks related to potential leaks. However, especially in 3D, numerical simulations are notoriously expensive and suffer from significant theoretical and
+    practical challenges due to highly nonlinear nature of governing equations, uncertainties, and dense computational grids. We explore a 3D data-driven 
+    modeling approach for predicting multi-phase flow in complex media through an extension of Fourier neural operators (FNO), which utilize nonlinear feature
+    transforms in the Fourier domain to approximate the solution operator of flow equations. We apply our approach to a geologic scenario from the North Sea
+    and evaluate the required steps for being able to scale AI-driven simulations to industry-relevant problem sizes.</i>
+    <br><br>
+
+    <a href =" " target="_blank"> <b> Qie Zhang </b></a> is a researcher at Microsoft Research for Industry with a PhD in Geophysics. His current research
+    projects include cloud HPC for hyperscale modeling and inversion problems and deep learning based subsurface interpretation for Carbon Capture and Storage.
+
+    <br><br>
+    <b>Abstract:</b> <i>Carbon Capture and Storage (CCS) is an emerging technology that aims to reduce our carbon footprint by capturing CO2 from industrial sources and permanently
+    storing it in the subsurface. We have developed a computer-vision based approach for automatically mapping geological faults from seismic images to detect 
+    potential leakage pathways of CO2. Ensuring that captured CO2 remains sealed in the subsurface storage sites is among the most important aspects of CCS and
+    conventionally requires labor- and cost-intensive assessment processes. By leveraging our AI-based computer-vision model, we are able to significantly reduce
+    the turn-around time as well as boost the accuracy for identifying potential hazards in CO2 storage sites. We also demonstrate that our CNN model trained on
+    synthetic data generalizes to various 3D real CCS datasets, including those from the Northern Lights project.</i>
+
+   <br><br><br>
 
 
 - title: Machine learning for Climate Science and Earth Observation
