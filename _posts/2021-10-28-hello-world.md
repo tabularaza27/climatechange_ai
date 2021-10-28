@@ -16,6 +16,6 @@ We’re excited to announce the CCAI blog, which we hope will fill that gap. We 
 
 The blog won’t take over from either the newsletter or Circle. The newsletter will still serve as a periodic compilation of curated “quick hits,” and Circle will still be the place for community discussions and for sharing all manner of links, announcements, questions, and tips. The blog will cover new kinds of content, including expanded discussions of ideas and resources mentioned elsewhere in briefer form.
 
-This project is still in its early days, and we expect it will keep evolving, so please do share any thoughts on what you’d like to see in this space.
+This project is still in its early days, and we expect it will keep evolving, so please do [share any thoughts](https://community.climatechange.ai/c/blog) on what you’d like to see in this space.
 
 In the meantime, we already have some great pieces in the pipeline. Expect more posts coming soon!
