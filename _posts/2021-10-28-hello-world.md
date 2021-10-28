@@ -5,7 +5,7 @@ subtitle: "Hello, world!"
 image: "/images/blog/writing-desk.jpg"
 authors: jesse
 article_type: "Blog admin"
-topical_tags: foo, baz
+topical_tags: announcement
 ---
 
 CCAI’s [core goals](https://www.climatechange.ai/about) are all about serving our [growing community](https://directory.climatechange.ai/) of researchers and stakeholders who work at the intersection of climate change and AI. To that end, much of what we do is curate and produce content: we publish a [newsletter](https://www.climatechange.ai/newsletter); we run [research workshops](https://www.climatechange.ai/events#past-events) and host [webinars](https://www.climatechange.ai/webinars); we post relevant papers, jobs, and news [on Twitter](https://twitter.com/ClimateChangeAI) and in our [Circle community](https://community.climatechange.ai); we publish [guides](https://www.climatechange.ai/summaries) to working in this space; and so forth.
