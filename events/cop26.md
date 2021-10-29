@@ -8,7 +8,7 @@ description: 'COP26 Side Events'
 
 Climate Change AI will be presenting multiple side events at the 2021 UN Climate Change Climate Change Conference (COP26). All events will be held in a hybrid format, both virtually and in Glasgow.
 
-<h2>"AI for Climate Action" @ German Pavilion</h2>
+<a href="https://german-climate-pavilion.de/" target="_blank"><h2>"AI for Climate Action" @ German Pavilion</h2></a>
 
 *Monday 8 November, 17:30-19:00 UTC*
 
@@ -22,10 +22,16 @@ Panelists:
 - **Dr. Catherine Nakalembe** (University of Maryland, NASA Harvest)
 - **Pete Clutton-Brock** (Radiance, Centre for AI & Climate)
 - **Erika Gupta** (US Department of Energy)
-- *Additional panelists to be announced*
+- **Dr. Marta Kwiatkowska** (University of Oxford)
 
-Moderator:
+Use case speakers:
+- **Dr. Arshad Mansoor** (Electric Power Research Institute (EPRI))
+- **Edoardo Nemni** (United Nations Satellite Centre (UNOSAT))
+- **TBD** (Deutsche Bahn)
+
+Moderators:
 - **Dr. Lynn Kaack** (Hertie School, Climate Change AI)
+- **Priya Donti** (Carnegie Mellon University, Climate Change AI)
 
 
 <h2>"A Clearer Picture: Towards Radical Transparency in Measurement, Reporting and Verification of Climate Action with AI" @ UNFCCC Innovation Pavilion </h2>
