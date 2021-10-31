@@ -8,9 +8,10 @@ description: 'COP26 Side Events'
 
 Climate Change AI will be presenting multiple side events at the 2021 UN Climate Change Climate Change Conference (COP26). All events will be held in a hybrid format, both virtually and in Glasgow.
 
-<a href="https://german-climate-pavilion.de/" target="_blank"><h2>"AI for Climate Action" @ German Pavilion</h2></a>
+<h2>"AI for Climate Action" @ German Pavilion</h2>
 
-*Monday 8 November, 17:30-19:00 UTC*
+*Monday 8 November, 17:30-19:00 UTC*<br>
+Join virtually: <https://german-climate-pavilion.de/>
 
 Artificial intelligence and machine learning can offer a powerful suite of tools for climate change mitigation and adaptation, but many of the associated opportunities face hurdles in realizing their full potential. Through presentations of use cases and an expert panel discussion, this 90-minute event aims to inform decision-makers about ways in which AI can accelerate climate action, and address how policymakers can facilitate impactful work. This event will support the launch of the AI-for-Climate Roadmap from the Global Partnership on AI (a global initiative backed by 18 countries) offering detailed and actionable guidance for how governments can support AI-for-Climate applications. 
 
@@ -24,7 +25,7 @@ Panelists:
 - **Erika Gupta** (US Department of Energy)
 - **Dr. Marta Kwiatkowska** (University of Oxford)
 
-Use case speakers:
+Use case presenters:
 - **Dr. Arshad Mansoor** (Electric Power Research Institute (EPRI))
 - **Edoardo Nemni** (United Nations Satellite Centre (UNOSAT))
 - **TBD** (Deutsche Bahn)
