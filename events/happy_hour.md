@@ -44,24 +44,55 @@ $(document).ready(function() {
     t = t.plus({ days: 1 });
   }
 
-  const firstWedsThisMonth = wednesdaysThisMonth[0];
-  const thirdWedsThisMonth = wednesdaysThisMonth[2];
-  const firstWedsNextMonth = wednesdaysNextMonth[0];
-
-  let date = undefined;
-  let time = undefined;
-
-  if (today <= firstWedsThisMonth) {
-    date = `Wed ${firstWedsThisMonth.toFormat('d LLLL')}`;
-    time = "12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1";
-  } else if (today <= thirdWedsThisMonth) {
-    date = `Wed ${thirdWedsThisMonth.toFormat('d LLLL')}`;
-    time = "5pm - 6pm ET / 10pm - 11pm GMT+1";
-  } else {
-    date = `Wed ${firstWedsNextMonth.toFormat('d LLLL')}`;
-    time = "12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1";
+  function easternTime(hour, minute, date) {
+    return DateTime.fromObject({
+        year: date.year,
+        month: date.month,
+        day: date.day,
+        hour: hour,
+        minute: minute
+    }, {
+        zone: 'America/New_York'
+    });
   }
 
-  $('#next-event').text(`Next event: ${date} @ ${time} (signup link below)`);
+  const firstWedsThisMonth = easternTime(12, 30, wednesdaysThisMonth[0]);
+  const thirdWedsThisMonth = easternTime(17,  0, wednesdaysThisMonth[2]);
+  const firstWedsNextMonth = easternTime(12, 30, wednesdaysNextMonth[0]);
+
+  let startTime;
+
+  if (today <= firstWedsThisMonth) {
+    startTime = firstWedsThisMonth;
+  } else if (today <= thirdWedsThisMonth) {
+    startTime = thirdWedsThisMonth;
+  } else {
+    startTime = firstWedsNextMonth;
+  }
+
+  const endTime = startTime.plus({ hours: 1 });
+
+  const dateString = `Wed ${startTime.toFormat('d LLLL')}`;
+
+  function formatTime(t) {
+    return t.toFormat('h:mma').toLowerCase()
+  }
+
+  function formatRange(t1, t2) {
+    return `${formatTime(t1)} - ${formatTime(t2)} ${t1.toFormat("ZZZZ")}`;
+  }
+
+  const localTZ = DateTime.local().zoneName;
+  let timeString = formatRange(startTime, endTime);
+
+  if (localTZ != startTime.zoneName) {
+    timeString += " / ";
+    timeString += formatRange(
+        startTime.setZone(localTZ),
+        endTime.setZone(localTZ)
+    );
+  }
+
+  $('#next-event').text(`Next event: ${dateString} @ ${timeString} (signup link below)`);
 });
 </script>
