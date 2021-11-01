@@ -3,12 +3,11 @@ layout: post
 title: "CCAI’s comments on the EU’s proposed Harmonized Rules on AI"
 subtitle: "What role can the “high-risk” classification for AI systems play in addressing climate change?"
 image: "/images/blog/eu-ai-regulation.jpg"
+image_attribution: European Commission
 authors: konstantin, lynn, jesse
 article_type: "CCAI perspective"
-topical_tags: eu, regulation, policy 
+topical_tags: EU, regulation, policy 
 ---
-
-*Image credit: Digital Strategy website, European Commission*
 
 In April this year, the European Union [announced plans](https://www.wired.com/story/europes-proposed-limits-ai-global-consequences/) to regulate AI technology within its borders. As the bloc has already highlighted with GDPR, its extensive legislation protecting online rights and privacy, the EU sees regulation of digital technology as one of the key challenges of current times. 
 
