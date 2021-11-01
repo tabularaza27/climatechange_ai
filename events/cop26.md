@@ -28,7 +28,7 @@ Panelists:
 Use case presenters:
 - **Dr. Arshad Mansoor** (Electric Power Research Institute (EPRI))
 - **Edoardo Nemni** (United Nations Satellite Centre (UNOSAT))
-- **TBD** (Deutsche Bahn)
+- **Dr. Irene Sturm** (Digital Rail for Germany, Deutsche Bahn)
 
 Moderators:
 - **Dr. Lynn Kaack** (Hertie School, Climate Change AI)
