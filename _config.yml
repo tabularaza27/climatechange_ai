@@ -2,6 +2,7 @@ title: Climate Change AI
 description: Tackling Climate Change with Machine Learning
 theme: jekyll-theme-cayman
 google_analytics: UA-142136893-1
+future: true
 exclude:
   - vendor
   - resources_content.md
