@@ -66,9 +66,10 @@ To catalyze impactful work at the intersection of climate change and machine lea
 # Press
 
 ## Releases
+* Climate Change and AI: Recommendations for Government (Nov. 8, 2021): <a href="/press_releases/2021-11-08/release.html" target="_blank">press release</a>
 * CCAI Innovation Grants program (Aug. 20, 2021): <a href="/press_releases/2021-08-30/release.html" target="_blank">press release</a>
 * MIT Technology Review 35 Under 35 awards (Jun. 30, 2021): <a href="/press_releases/2021-06-30/release.html" target="_blank">press release</a>
-* CCAI paper (Nov. 11, 2019): <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
+* Paper: Tackling Climate Change with Machine Learning (Nov. 11, 2019): <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
 ## Selected articles
 * <b>The Economist Intelligence Unit:</b> <a href="https://eiuperspectives.economist.com/sustainability/green-intelligence-ai-could-boost-efforts-fight-climate-change" target="_blank">Green Intelligence - AI could boost efforts to fight climate change</a> (May 2021)
