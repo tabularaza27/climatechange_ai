@@ -4,7 +4,7 @@ description: GPAI report press release (Nov 8, 2021)
 ---
 
 ## Climate Change and AI: Recommendations for Government
-*New report highlights the potential for AI to support climate action; offers recommendations for policy makers to expedite AI-for-climate solutions*
+*New report highlights the potential for AI to support climate action; offers recommendations for policy makers to expedite AI-for-climate solutions.*
 
 **November 8, 2021** - A new report, developed by the <a href="https://www.c-ai-c.org/" target="_blank">Centre for AI & Climate</a> and <a href="https://www.climatechange.ai/" target="_blank">Climate Change AI</a> for the <a href="http://www.gpai.ai" target="_blank">Global Partnership on AI (GPAI)</a>, calls for governments to recognise the potential for artificial intelligence (AI) to accelerate the transition to net zero, and to put in place the support needed to advance AI-for-climate solutions. The report is being presented at COP26 today. 
 
@@ -40,11 +40,11 @@ The authors also detail critical bottlenecks that are impeding faster adoption. 
 > "There’s nothing more pressing than climate action. All hands must be on deck, and Artificial Intelligence systems can help. We propose a roadmap to use AI in a responsible manner in government climate action, coined with the best experts in the field."<br>
 <i>- Raja Chatila, Co-Lead of the GPAI Committee on Climate Action & Biodiversity Preservation; Co-Lead of the GPAI Responsible AI Working Group; Professor Emeritus, Sorbonne Université</i>
 
-> This report is urgently needed to help governments unlock the potential for AI in fighting climate change, in areas like energy, land use, and disaster response."<br>
-<i>- Yoshua Bengio, Co-Lead of the GPAI Responsible AI Working Group; Professor and Turing Award Laureate, Université de Montréal and Mila Quebec AI Institute</i>
+> "This report is urgently needed to help governments unlock the potential for AI in fighting climate change, in areas like energy, land use, and disaster response."<br>
+<i>- Yoshua Bengio, Co-Lead of the GPAI Responsible AI Working Group; Professor and Turing Award Laureate, Université de Montréal and Mila - Quebec AI Institute</i>
 
 > "This report is a shining example of the collaboration we need between governments and the artificial intelligence community to accelerate progress towards 2030 climate goals. It reveals significant opportunities for policymakers and flags the traps we must avoid, in using AI as a tool for climate action."<br>
-<i>-Nigel Topping & Gonzalo Muñoz, UN High Level Champion, COP26</i>
+<i>- Nigel Topping & Gonzalo Muñoz, UN High Level Champions, COP26</i>
 
 ### Contact
 
@@ -53,7 +53,7 @@ For further comment, please contact: <GPAI-climate-report@ceimia.org>
 
 ### Further details
 
-<a href="https://gpai.ai" target="_blank">Global Partnership on AI (GPAI)</a>: GPAI is an organisation formed of <a href="https://www.gpai.ai/community/" target="_blank">18 countries and the EU</a> that brings together AI and subject matter experts from around the world to help shape the development of AI. GPAI’s mission is to support and guide the responsible adoption of AI that is grounded in human rights, inclusion, diversity, innovation, economic growth, and societal benefit, while seeking to address the UN Sustainable Development Goals.
+<a href="https://gpai.ai" target="_blank">Global Partnership on AI (GPAI)</a> is an organisation formed of <a href="https://www.gpai.ai/community/" target="_blank">18 countries and the EU</a> that brings together AI and subject matter experts from around the world to help shape the development of AI. GPAI’s mission is to support and guide the responsible adoption of AI that is grounded in human rights, inclusion, diversity, innovation, economic growth, and societal benefit, while seeking to address the UN Sustainable Development Goals.
 
 <a href="https://www.c-ai-c.org/" target="_blank">The Centre for AI & Climate (CAIC)</a> is a centre of expertise dedicated to accelerating the adoption of data science and AI to support faster action on climate change. CAIC’s mission is to connect capabilities across technology, policy, and business to accelerate the application of data science and A.I. in climate solutions.
 
