@@ -45,8 +45,8 @@ This event is co-organized by [Climate Change AI](/), the <a href="https://www.c
 
 Panelists:
 - **Dr. Dava Newman** (MIT Media Lab)
-- **Dr. Angel Hsu** (University of North Carolina)
-- **Dr. Michal Nachmany** (Climate Policy Radar)
+- **Dr. Marco Schletz** (University of North Carolina)
+- **Luiza Barguil** (XPrize)
 - **Matthew Gray** (TransitionZero, Climate TRACE)
 - **Dr. Alejandro Paredes Trapero** (FSC Indigenous Foundation)
 
