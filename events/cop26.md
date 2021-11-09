@@ -37,7 +37,7 @@ Moderators:
 
 <h2>"A Clearer Picture: Towards Radical Transparency in Measurement, Reporting and Verification of Climate Action with AI" @ UNFCCC Innovation Pavilion </h2>
 
-*Wednesday 10 November, 15:00-16:00 UTC*
+*Wednesday 10 November, 16:00-17:00 UTC*
 
 Through an expert panel discussion, this 60-minute event aims to inform decision-makers about ways in which AI can provide increased transparency and accountability to global and local climate action, discuss the limits and bottlenecks for deployment, and address how policymakers can facilitate impactful work leveraging digital MRV to mobilize finance, protect communities, and democratize actionable information.
 
