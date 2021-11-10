@@ -2,7 +2,7 @@
 layout: post
 title: "Startups in the Climate Space: An Interview with Dr. Lauren Kuntz of Gaiascope"
 subtitle: "Reflecting on the undeniable advance of climate change, my friend Lauren and I discuss how startups can enter the climate space and make a difference."
-image: "/images/blog/eu-ai-regulation.jpg"
+image: "/images/blog/solar-panels.jpg"
 image_attribution: "Photo by <a href='https://unsplash.com/photos/XGAZzyLzn18' target='_blank'>American Public Power Association</a> on <a href='https://unsplash.com/' target='_blank'>Unsplash</a>"
 authors: genvieve
 article_type: "Interview"
