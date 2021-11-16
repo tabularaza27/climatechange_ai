@@ -3,6 +3,7 @@ layout: post
 title: "Introducing the CCAI blog"
 subtitle: "Hello, world!"
 image: "/images/blog/writing-desk.jpg"
+image_attribution: "Image by <a href='https://www.flickr.com/photos/wallboat/37410363846' target='_blank'>Wall Boat</a>"
 authors: jesse
 article_type: "Blog admin"
 topical_tags: announcement
