@@ -12,10 +12,12 @@ og_image_height: 1424
 
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
-  <a class='button' href='#informational-webinar'>Informational Webinar</a>
-  <a class='button' href='#call-for-submissions'>Call for Submissions</a>
-  <a class='button' href='#mentorship-program'>Mentorship Program</a>
+  <a class='button' href='#schedule'>Schedule</a>
+  <a class='button' href='#accepted-works'>Accepted Works</a>
+  <!-- <a class='button' href='#informational-webinar'>Informational Webinar</a> -->
+  <!-- <a class='button' href='#mentorship-program'>Mentorship Program</a> -->
   <a class='button' href='#organizers'>Organizers</a>
+  <a class='button' href='#call-for-submissions'><s>Submit</s></a>
   <a class='button' href='#frequently-asked-questions'>FAQ</a>
 </div>
 
@@ -32,24 +34,29 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 ### About the Workshop
 
-- Date: Dec 13 or 14 (TBD)
+- Date: Dec 14
 - Location: Virtual
-- [Mentorship program](#mentorship-program) application deadline: <s>Aug 16, 23:59 AOE (Anywhere on Earth)</s>
+<!-- - [Mentorship program](#mentorship-program) application deadline: <s>Aug 16, 23:59 AOE (Anywhere on Earth)</s>
   - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
   - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
-  - Mentor-Mentee match notification: <s>Aug 19, 23:59 AOE</s>
-- Tutorial proposal submission deadline: <s>Aug 23, 23:59 AOE</s>
-  - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
-  - Notification of accepted tutorials: <s>Aug 30, 23:59 AOE</s>
-- Paper/Proposal submission deadline: <b>Sep 18, 23:59 AOE</b>
-  - Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
-  - Notification of accepted papers/proposals: Oct 23
+  - Mentor-Mentee match notification: <s>Aug 19, 23:59 AOE</s> -->
+- <s>Tutorial proposal submission deadline: Aug 23, 23:59 AOE</s>
+  <!-- - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
+  - Notification of accepted tutorials: <s>Aug 30, 23:59 AOE</s> -->
+- <s>Paper/Proposal submission deadline: Sep 18, 23:59 AOE </s>
+  <!-- - Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
+  - Notification of accepted papers/proposals: Oct 23 -->
 - Contact: <climatechangeai.neurips2021@gmail.com>
 
+## Schedule
+Coming soon!
 
-## Informational Webinar
+## Accepted Works
+Coming soon!
 
-We recently conducted two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. The video recording of the Aug 11 webinar can be found [here](https://www.youtube.com/watch?v=jBPG2PCshSM).
+<!-- ## Informational Webinar
+
+We recently conducted two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. The video recording of the Aug 11 webinar can be found [here](https://www.youtube.com/watch?v=jBPG2PCshSM). -->
 
 ## Organizers
 
