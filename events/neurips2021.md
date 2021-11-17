@@ -36,16 +36,8 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 - Date: Dec 14
 - Location: Virtual
-<!-- - [Mentorship program](#mentorship-program) application deadline: <s>Aug 16, 23:59 AOE (Anywhere on Earth)</s>
-  - Application to be a mentee: <https://cmt3.research.microsoft.com/CCAIMNeurIPS2021>
-  - Application to be a mentor: <https://forms.gle/49Lmr8Uk2iWWBNF99>
-  - Mentor-Mentee match notification: <s>Aug 19, 23:59 AOE</s> -->
 - <s>Tutorial proposal submission deadline: Aug 23, 23:59 AOE</s>
-  <!-- - Tutorial application form: <https://forms.gle/wMkXSVnqxamJ5s7g8>
-  - Notification of accepted tutorials: <s>Aug 30, 23:59 AOE</s> -->
 - <s>Paper/Proposal submission deadline: Sep 18, 23:59 AOE </s>
-  <!-- - Paper/Proposal submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2021>
-  - Notification of accepted papers/proposals: Oct 23 -->
 - Contact: <climatechangeai.neurips2021@gmail.com>
 
 ## Schedule
