@@ -1,6 +1,6 @@
 require 'yaml'
 
-%w(icml2019 neurips2019 iclr2020 neurips2020).each do |w|
+%w(icml2019 neurips2019 iclr2020 neurips2020 neurips2021).each do |w|
   yaml_file = "_data/#{w}_papers.yml"
   current = YAML.load(File.read(yaml_file))
   new_data = current.map do |p|

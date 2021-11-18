@@ -31,3 +31,10 @@
   schedule: icml2021_schedule
   completed: true
   conference_title: "ICML 2021 Workshop on Tackling Climate Change with Machine Learning"
+- slug: neurips2021
+  date: 2021/12/14
+  short_name: NeurIPS 2021
+  papers: neurips2021_papers
+  schedule: neurips2021_schedule
+  completed: false
+  conference_title: "NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning"

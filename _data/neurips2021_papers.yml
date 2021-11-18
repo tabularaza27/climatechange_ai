@@ -1,0 +1,3202 @@
+---
+- paper_title: Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning
+  abstract: Floods wreak havoc throughout the world, causing billions of dollars in
+    damages, and uprooting communities, ecosystems and economies. The NASA Impact
+    Emerging Techniques in Computational Intelligence (ETCI) competition on Flood
+    Detection tasked participants with predicting flooded pixels after training with
+    synthetic aperture radar (SAR) images in a supervised setting. We propose a semi-supervised
+    learning pseudo-labeling scheme that derives confidence estimates from U-Net ensembles,
+    thereby progressively improving accuracy. Concretely, we use a cyclical approach
+    involving multiple stages (1) training an ensemble model of multiple U-Net architectures
+    with the provided high confidence hand-labeled data and, generated pseudo labels
+    or low confidence labels on the entire unlabeled test dataset, and then, (2) filter
+    out quality generated labels and, (3) combine the generated labels with the previously
+    available high confidence hand-labeled dataset. This assimilated dataset is used
+    for the next round of training ensemble models. This cyclical process is repeated
+    until the performance improvement plateaus. Additionally, we post process our
+    results with Conditional Random Fields. Our approach sets a high score, and a
+    new state-of-the-art on the Sentinel-1 dataset for the ETCI competition with 0.7654
+    IoU, an impressive improvement over the 0.60 IOU baseline. Our method, which we
+    release with all the code including trained models, can also be used as an open
+    science benchmark for the Sentinel-1 released dataset.
+  q1_track: Papers
+  primary_contact_author_name: Siddha Ganju
+  primary_contact_author_email: siddhaganju@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Unsupervised and semi-supervised learning
+  secondary_subject_areas: Climate change -> Disaster prediction, management, and
+    relief; Climate change -> Earth science and monitoring; Machine learning -> Computer
+    vision and remote sensing
+  author_names: Ganju, Siddha*; Paul, Sayak
+  author_emails: siddhaganju@gmail.com*; spsayakpaul@gmail.com
+  authors: Siddha Ganju (Nvidia Corporation); Sayak Paul (Carted)
+  cmt_id: 6
+  is_spotlight: false
+  subject_areas:
+  - Unsupervised and semi-supervised learning
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Computer vision and remote sensing
+  id: 1
+  next_paper_id: 2
+  paper_path: "/papers/neurips2021/1/paper.pdf"
+  slides_path: "/papers/neurips2021/1/slides.pdf"
+  condensed_subject_areas:
+  - Unsupervised and semi-supervised learning
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Computer vision and remote sensing
+- paper_title: Short-term Solar Irradiance Prediction from Sky Images
+  abstract: "Solar irradiance forecasting is essential for the integration of the
+    \nsolar power into the power grid system while maintaining its stability.\nThis
+    paper focuses on short-term solar irradiance forecasting \n(upto 4-hour ahead-of-time
+    prediction) from a past sky image sequence. Most existing\nwork aims for the prediction
+    of the most likely future of the solar\nirradiance. While it is likely deterministic
+    for intra-hourly prediction,\nthe future solar irradiance is naturally diverse
+    over a relatively\nlong-term horizon (>1h). We therefore introduce approaches
+    to\ndeterministic and stochastic predictions to capture the most likely\nas well
+    as the diverse future of the solar irradiance. \nTo enable the autoregressive
+    prediction capability of the model, \nwe proposed deep neural networks to predict
+    the future \nsky images in a deterministic as well as stochastic manner. \nWe
+    evaluate our approaches on benchmark datasets and demonstrate that\nour approaches
+    achieve superior performance.\n"
+  q1_track: Papers
+  primary_contact_author_name: Hoang Chuong Nguyen
+  primary_contact_author_email: HoangChuong.Nguyen@anu.edu.au
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Power and energy systems
+  author_names: Nguyen, Hoang Chuong*; Liu, Miaomiao
+  author_emails: HoangChuong.Nguyen@anu.edu.au*; miaomiao.liu@anu.edu.au
+  authors: Hoang Chuong Nguyen (Australia National University); Miaomiao Liu (The
+    Australian National University)
+  cmt_id: 8
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Power and energy systems
+  id: 2
+  prev_paper_id: 1
+  next_paper_id: 3
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Power and energy systems
+- paper_title: Towards Representation Learning for Atmospheric Dynamics
+  abstract: 'The prediction of future climate scenarios under anthropogenic forcing
+    is critical to understand climate change and to assess the impact of potentially
+    counter-acting technologies. Machine learning and hybrid techniques for this prediction
+    rely on informative metrics that are sensitive to pertinent but often subtle influences.
+    For atmospheric dynamics, a critical part of the climate system, the ``eyeball
+    metric'''', i.e. a visual inspection by an expert, is currently still the gold
+    standard. However, it cannot be used as metric in machine learning systems where
+    an algorithmic description is required. Motivated by the success of intermediate
+    neural network activations as basis for learned metrics, e.g. in computer vision,
+    we present a novel, self-supervised representation learning approach specifically
+    designed for atmospheric dynamics. Our approach, called AtmoDist, trains a neural
+    network on a simple, auxiliary task: predicting the temporal distance between
+    elements of a shuffled sequence of atmospheric fields (e.g. the components of
+    the wind field from a reanalysis or simulation). The task forces the network to
+    learn important intrinsic aspects of the data as activations in its layers and
+    from these hence a discriminative metric can be obtained. We demonstrate this
+    by using AtmoDist to define a metric for GAN-based super resolution of vorticity
+    and divergence. Our upscaled data matches closely the true statistics of a high
+    resolution reference and it significantly outperform the state-of-the-art based
+    on mean squared error. Since AtmoDist is unsupervised, only requires a temporal
+    sequence of fields, and uses a simple auxiliary task, it can be used in a wide
+    range of applications that aim to understand and mitigate climate change.'
+  q1_track: Papers
+  primary_contact_author_name: Christian Lessig
+  primary_contact_author_email: christian.lessig@ovgu.de
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Climate change -> Earth science and monitoring; Machine
+    learning -> Generative modeling; Machine learning -> Time-series analysis
+  author_names: Hoffmann, Sebastian; Lessig, Christian*
+  author_emails: sebastian1.hoffmann@ovgu.de; christian.lessig@ovgu.de*
+  authors: Sebastian Hoffmann (University of Magdeburg); Christian Lessig (Otto-von-Guericke-Universitat
+    Magdeburg)
+  cmt_id: 9
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Earth science and monitoring
+  - Generative modeling
+  - Time-series analysis
+  id: 3
+  prev_paper_id: 2
+  next_paper_id: 4
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Earth science and monitoring
+  - Generative modeling
+  - Time-series analysis
+- paper_title: Addressing Deep Learning Model Uncertainty in Long-Range Climate Forecasting
+    with Late Fusion
+  abstract: Global warming leads to the increase in frequency and intensity of climate
+    extremes that cause tremendous loss of lives and property. Accurate long-range
+    climate prediction allows more time for preparation and disaster risk management
+    for such extreme events. Although machine learning approaches have shown promising
+    results in long-range climate forecasting, the associated model uncertainties
+    may reduce their reliability. To address this issue, we propose a late fusion
+    approach that systematically combines the predictions from multiple models to
+    reduce the expected errors of the fused results. We also propose a network architecture
+    with the novel denormalization layer to gain the benefits of data normalization
+    without actually normalizing the data. The experimental results on long-range
+    2m temperature forecasting show that the framework outperforms the 30-year climate
+    normals, and the accuracy can be improved by increasing the number of models.
+  q1_track: Papers
+  primary_contact_author_name: Ken C. L. Wong
+  primary_contact_author_email: clwong@us.ibm.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Uncertainty quantification and robustness
+  secondary_subject_areas: Climate change -> Climate modeling; Machine learning ->
+    Classification, regression, and supervised learning; Machine learning -> Time-series
+    analysis
+  author_names: Wong, Ken C. L.*; Wang, Hongzhi; Vos, Etienne E; Zadrozny, Bianca;
+    Watson, Campbell D; Syeda-Mahmood, Tanveer
+  author_emails: clwong@us.ibm.com*; hongzhiw@us.ibm.com; etienne.vos@ibm.com; biancaz@br.ibm.com;
+    cwatson@us.ibm.com; stf@us.ibm.com
+  authors: Ken C. L. Wong (IBM Research – Almaden Research Center); Hongzhi Wang (IBM
+    Almaden Research Center); Etienne E Vos (IBM); Bianca Zadrozny (IBM Research);
+    Campbell D Watson (IBM Reserch); Tanveer Syeda-Mahmood (IBM Research)
+  cmt_id: 13
+  is_spotlight: false
+  subject_areas:
+  - Uncertainty quantification and robustness
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  id: 4
+  prev_paper_id: 3
+  next_paper_id: 5
+  condensed_subject_areas:
+  - Uncertainty quantification and robustness
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+- paper_title: 'Predicting Discharge in Catchment Outlet Using Deep Learning: Case
+    Study of the Ansongo-Niamey Basin'
+  abstract: Hydrological models are one of the key challenges in hydrology. Their
+    goal is to understand, predict and manage water resources. Most of the hydrological
+    models so far were either physical or conceptual models. But in the past two decades,
+    fully data-driven (empirical) models started to emerge with the breakthroughs
+    of novel deep learning methods in runoff prediction. These breakthroughs were
+    mostly favored by the large volume, variety and velocity of water-related data.
+    Long Short-Term Memory and Gated Recurrent Unit neural networks, particularly
+    achieved the outstanding milestone of outperforming classic hydrological models
+    in less than a decade. Moreover, they have the potential to change the way hydrological
+    modeling is performed. In this study, precipitation, minimal and maximum temperature
+    at the Ansongo-Niamey basin combined with the discharge at Ansongo and Kandadji
+    were used to predict the discharge at Niamey using artificial neural networks.
+    After data preprocessing and hyperparameter optimization, the deep learning models
+    performed well with the LSTM and GRU respectively scoring a Nash-Sutcliffe Efficiency
+    of 0.933 and 0.935. This performance matches those of well-known physically-based
+    models used to simulate Niamey’s discharge and therefore demonstrates the efficiency
+    of deep learning methods in a West African context, especially in Niamey which
+    has been facing severe floods due to climate change.
+  q1_track: Papers
+  primary_contact_author_name: Peniel J. Y. Adounkpe
+  primary_contact_author_email: adounkpep@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Machine learning -> Causal and Bayesian methods; Machine
+    learning -> Classification, regression, and supervised learning; Machine learning
+    -> Time-series analysis
+  author_names: Adounkpe, Peniel J. Y.*; Alamou, Eric; Diallo, Belko; Ali, Abdou
+  author_emails: adounkpep@gmail.com*; ericalamou@yahoo.fr; diallo.b@wascal.org; abdou.ali@cilss.int
+  authors: Peniel J. Y. Adounkpe (WASCAL); Eric Alamou (Université d'Abomey-Calavi);
+    Belko Diallo (WASCAL); Abdou Ali (AGRHYMET Regional Centre)
+  cmt_id: 14
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  id: 5
+  prev_paper_id: 4
+  next_paper_id: 6
+  paper_path: "/papers/neurips2021/5/paper.pdf"
+  slides_path: "/papers/neurips2021/5/slides.pdf"
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+- paper_title: Accurate and Timely Forecasts of Geologic Carbon Storage using Machine
+    Learning Methods
+  abstract: Carbon capture and storage is one strategy to reduce greenhouse gas emissions.
+    One approach to storing the captured CO2 is to inject it into deep saline aquifers.
+    However, dynamics of the injected CO2 plume is uncertain and the potential for
+    leakage back to the atmosphere must be assessed. Thus, accurate and timely forecasts
+    of CO2 storage via real-time measurements integration becomes very crucial. This
+    study proposes a learning-based, inverse-free prediction method that can accurately
+    and rapidly forecast CO2 movement and distribution with uncertainty quantification
+    based on limited simulation and observation data. The machine learning techniques
+    include dimension reduction, multivariate data analysis, and Bayesian learning.
+    The outcome is expected to provide CO2 storage site operators with an effective
+    tool for real-time decision making.
+  q1_track: Papers
+  primary_contact_author_name: Dan Lu
+  primary_contact_author_email: lud1@ornl.gov
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Machine learning -> Uncertainty quantification and robustness
+  author_names: Lu, Dan*; Painter, Scott; Azzolina, Nicholas; Burton-Kelly, Matthew
+  author_emails: lud1@ornl.gov*; paintersl@ornl.gov; nazzolina@undeerc.org; mburtonkelly@undeerc.org
+  authors: Dan Lu (Oak Ridge National Laboratory); Scott Painter (Oak Ridge National
+    Laboratory); Nicholas Azzolina (University of North Dakota); Matthew Burton-Kelly
+    (University of North Dakota)
+  cmt_id: 15
+  is_spotlight: false
+  subject_areas:
+  - Carbon capture and sequestration
+  - Uncertainty quantification and robustness
+  id: 6
+  prev_paper_id: 5
+  next_paper_id: 7
+  paper_path: "/papers/neurips2021/6/paper.pdf"
+  slides_path: "/papers/neurips2021/6/slides.pdf"
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Uncertainty quantification and robustness
+- paper_title: Towards debiasing climate simulations using unsuperviserd image-to-image
+    translation networks
+  abstract: Climate models form the basis of a vast portion of earth system research,
+    and inform our climate policy. Due to the complex nature of our climate system,
+    and the approximations which must necessarily be made in simulating it, these
+    climate models may not perfectly match observations. For further research, these
+    outputs must be bias corrected against observations, but current methods of debiasing
+    do not take into account spatial correlations. We evaluate unsupervised image-to-image
+    translation networks, specifically the UNIT model architecture, for their ability
+    to produce more spatially realistic debiasing than the standard techniques used
+    in the climate community.
+  q1_track: Papers
+  primary_contact_author_name: James Fulton
+  primary_contact_author_email: djamesfulton@yahoo.co.uk
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Generative modeling
+  author_names: Fulton, James*; Clarke, Ben
+  author_emails: djamesfulton@yahoo.co.uk*; ben.clarke@jesus.ox.ac.uk
+  authors: James Fulton (University of Edinburgh); Ben Clarke (Oxford University)
+  cmt_id: 17
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Generative modeling
+  id: 7
+  prev_paper_id: 6
+  next_paper_id: 8
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Generative modeling
+- paper_title: Using Non-Linear Causal Models to StudyAerosol-Cloud Interactions in
+    the Southeast Pacific
+  abstract: "Aerosol-cloud interactions include a myriad of effects that all begin
+    when aerosol enters a cloud and acts as cloud condensation nuclei (CCN). \nAn
+    increase in CCN results in a decrease in the mean cloud droplet size (r$_{e}$).\nThe
+    smaller droplet size leads to brighter, more expansive, and longer lasting clouds
+    that reflect more incoming sunlight, thus cooling the earth.\nGlobally, aerosol-cloud
+    interactions cool the Earth, however the strength of the effect is heterogeneous
+    over different meteorological regimes.\nUnderstanding how aerosol-cloud interactions
+    evolve as a function of the local environment can help us better understand sources
+    of error in our Earth system models, which currently fail to reproduce the observed
+    relationships. \nIn this work we use recent non-linear, causal machine learning
+    methods to study the heterogeneous effects of aerosols on cloud droplet radius."
+  q1_track: Papers
+  primary_contact_author_name: Andrew Jesson
+  primary_contact_author_email: andrew.jesson@cs.ox.ac.uk
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Causal and Bayesian methods
+  author_names: Jesson, Andrew*; Manshausen, Peter; Douglas, Alyson; Watson-Parris,
+    Duncan; Gal, Yarin; Stier, Philip
+  author_emails: andrew.jesson@cs.ox.ac.uk*; peter.manshausen@physics.ox.ac.uk; alyson.douglas@physics.ox.ac.uk;
+    duncan.watson-parris@physics.ox.ac.uk; yarin@cs.ox.ac.uk; philip.stier@physics.ox.ac.uk
+  authors: Andrew Jesson (University of Oxford); Peter Manshausen (University of Oxford);
+    Alyson Douglas (University of Oxford); Duncan Watson-Parris (University of Oxford);
+    Yarin Gal (University of Oxford); Philip Stier (University of Oxford)
+  cmt_id: 18
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Causal and Bayesian methods
+  id: 8
+  prev_paper_id: 7
+  next_paper_id: 9
+  paper_path: "/papers/neurips2021/8/paper.pdf"
+  slides_path: "/papers/neurips2021/8/slides.pdf"
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Causal and Bayesian methods
+- paper_title: 'Memory to Map: Improving Radar Flood Maps With Temporal Context and
+    Semantic Segmentation'
+  abstract: Global flood risk has increased due to worsening extreme weather events
+    and human migration into growing flood-prone areas. Accurate, high-resolution,
+    and near-real time flood maps can address flood risk by reducing financial loss
+    and damage. We propose Model to Map, a novel machine learning approach that utilizes
+    bi-temporal context to improve flood water segmentation performance for Sentinel-1
+    imagery. We show that the inclusion of unflooded context for the area, or "memory,"
+    allows the model to tap into a "prior state" of pre-flood conditions, increasing
+    performance in geographic regions in which single-image radar-based flood mapping
+    methods typically underperform (e.g. deserts). We focus on accuracy across different
+    biomes to ensure global performance. Our experiments and novel data processing
+    technique show that the confluence of pre-flood and permanent water context provides
+    a 21% increase in mIoU over the baseline overall, and over 87% increase in deserts.
+  q1_track: Papers
+  primary_contact_author_name: Nicholas Leach
+  primary_contact_author_email: nick@cloudtostreet.info
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Climate justice; Climate change -> Earth
+    science and monitoring
+  author_names: Sunkara, Veda; Leach, Nicholas*; Ganju, Siddha
+  author_emails: veda@cloudtostreet.info; nick@cloudtostreet.info*; sganju@nvidia.com
+  authors: Veda Sunkara (Cloud to Street); Nicholas Leach (Cloud to Street); Siddha
+    Ganju (Nvidia)
+  cmt_id: 20
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate justice
+  - Earth science and monitoring
+  id: 9
+  prev_paper_id: 8
+  next_paper_id: 10
+  paper_path: "/papers/neurips2021/9/paper.pdf"
+  slides_path: "/papers/neurips2021/9/slides.pdf"
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate justice
+  - Earth science and monitoring
+- paper_title: 'Hurricane Forecasting: A Novel Multimodal Machine Learning Framework'
+  abstract: |-
+    This paper describes a machine learning (ML) framework for tropical cyclone intensity and track forecasting, combining multiple distinct ML techniques and utilizing diverse data sources. Our framework, which we refer to as Hurricast (HURR), is built upon the combination of distinct data processing techniques using gradient-boosted trees and novel encoder-decoder architectures, including CNN, GRU and Transformers components. We propose a deep-learning feature extractor methodology to mix spatial-temporal data with statistical data efficiently. Our multimodal framework unleashes the potential of making forecasts based on a wide range of data sources, including historical storm data, and visual data such as reanalysis atmospheric images.
+    We evaluate our models with current operational forecasts in North Atlantic (NA) and Eastern Pacific (EP) basins on 2016-2019 for 24-hour lead time, and show our models consistently outperform statistical-dynamical models and compete with the best dynamical models.
+    Furthermore, the inclusion of Hurricast into an operational forecast consensus model leads to a significant improvement of 5% - 15% over NHC's official forecast, thus highlighting the complementary properties with existing approaches.
+  q1_track: Papers
+  primary_contact_author_name: Léonard Boussioux
+  primary_contact_author_email: leobix@mit.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Machine learning -> Hybrid physical models
+  secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Disaster
+    prediction, management, and relief; Machine learning -> Classification, regression,
+    and supervised learning; Machine learning -> Computer vision and remote sensing;
+    Machine learning -> Time-series analysis; Machine learning -> Unsupervised and
+    semi-supervised learning
+  author_names: Boussioux, Léonard*; Zeng, Cynthia; Bertsimas, Dimitris; Guenais,
+    Théo J
+  author_emails: leobix@mit.edu*; czeng12@mit.edu; dbertsim@mit.edu; tguenais@fas.harvard.edu
+  authors: Léonard Boussioux (MIT, CentraleSupélec); Cynthia Zeng (MIT); Dimitris
+    Bertsimas (MIT); Théo J Guenais (Harvard University)
+  cmt_id: 24
+  is_spotlight: true
+  subject_areas:
+  - Hybrid physical models
+  - Climate modeling
+  - Disaster prediction, management, and relief
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  - Time-series analysis
+  - Unsupervised and semi-supervised learning
+  id: 10
+  prev_paper_id: 9
+  next_paper_id: 11
+  condensed_subject_areas:
+  - Hybrid physical models
+  - Climate and Earth science
+  - Disaster prediction, management, and relief
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  - Time-series analysis
+  - Unsupervised and semi-supervised learning
+- paper_title: Improved Drought Forecasting Using Surrogate Quantile And Shape (SQUASH)
+    Loss
+  abstract: Droughts are amongst the most damaging natural hazard with cascading impacts
+    across multiple sectors of the economy and society. Improved forecasting of drought
+    conditions ahead of time can significantly improve strategic planning to mitigate
+    the impacts and enhance resilience. Though significant progress in forecasting
+    approaches has been made, the current approaches focus on the overall improvement
+    of the forecast, with less attention on the extremeness of drought events. In
+    this paper, we focus on improving the accuracy of forecasting extreme and severe
+    drought events by introducing a novel loss function Surrogate Quantile and Shape
+    loss (SQUASH) that combines weighted quantile loss and dynamic time-warping-based
+    shape loss.  We show the effectiveness of the proposed loss functions for imbalanced
+    time-series drought forecasting tasks on two regions in India and the USA.
+  q1_track: Papers
+  primary_contact_author_name: Smit Marvaniya
+  primary_contact_author_email: smarvani@in.ibm.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Climate change -> Agriculture; Climate change -> Climate
+    modeling; Machine learning -> Time-series analysis
+  author_names: Lambhate, Devyani Lambhate; Marvaniya, Smit*; Singh, Jitendra; Gold,
+    David
+  author_emails: devyanil@iisc.ac.in; smarvani@in.ibm.com*; jitens@in.ibm.com; david.gold@ibm.com
+  authors: Devyani Lambhate Lambhate (Indian Institute of Science); Smit Marvaniya
+    (IBM Research India); Jitendra Singh (IBM Research - India); David Gold (IBM)
+  cmt_id: 26
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Agriculture
+  - Climate modeling
+  - Time-series analysis
+  id: 11
+  prev_paper_id: 10
+  next_paper_id: 12
+  paper_path: "/papers/neurips2021/11/paper.pdf"
+  slides_path: "/papers/neurips2021/11/slides.pdf"
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Agriculture, forestry and other land use
+  - Climate and Earth science
+  - Time-series analysis
+- paper_title: Global ocean wind speed estimation with CyGNSSnet
+  abstract: The CyGNSS (Cyclone Global Navigation Satellite System) satellite system
+    measures GNSS signals reflected off the Earth's surface. A global ocean wind speed
+    dataset is derived, which fills a gap in Earth observation data, will improve
+    cyclone forecasting, and could be used to mitigate effects of climate change.
+    We propose CyGNSSnet, a deep learning model for predicting wind speed from CyGNSS
+    observables, and evaluate its potential for operational use. With CyGNSSnet, performance
+    improves by 29\% over the current operational model. We further introduce a hierarchical
+    model, that combines an extreme value classifier and a specialized CyGNSSnet and
+    slightly improves predictions for high winds.
+  q1_track: Papers
+  primary_contact_author_name: Caroline Arnold
+  primary_contact_author_email: arnold@dkrz.de
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Disaster prediction, management, and
+    relief; Climate change -> Earth science and monitoring; Machine learning -> Classification,
+    regression, and supervised learning
+  author_names: Arnold, Caroline*; Asgarimehr, Milad
+  author_emails: arnold@dkrz.de*; milad.asgarimehr@gfz-potsdam.de
+  authors: Caroline Arnold (German Climate Computing Center); Milad Asgarimehr (German
+    Research Centre for Geosciences)
+  cmt_id: 27
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  id: 12
+  prev_paper_id: 11
+  next_paper_id: 13
+  paper_path: "/papers/neurips2021/12/paper.pdf"
+  slides_path: "/papers/neurips2021/12/slides.pdf"
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+- paper_title: Predicting Critical Biogeochemistry of the Southern Ocean for Climate
+    Monitoring
+  abstract: The Biogeochemical-Argo (BGC-Argo) program is building a network of globally
+    distributed, sensor-equipped robotic profiling floats, improving our understanding
+    of the climate system and how it is changing. These floats, however, are limited
+    in the number of variables measured. In this study, we train neural networks to
+    predict silicate and phosphate values in the Southern Ocean from temperature,
+    pressure, salinity, oxygen, nitrate, and location and apply these models to earth
+    system model (ESM) and BGC-Argo data to expand the utility of this ocean observation
+    network. We trained our neural networks on observations from the Global Ocean
+    Ship-Based Hydrographic Investigations Program (GO-SHIP) and use dropout regularization
+    to provide uncertainty bounds around our predicted values. Our neural network
+    significantly improves upon linear regression but shows variable levels of uncertainty
+    across the ranges of predicted variables. We explore the generalization of our
+    estimators to test data outside our training distribution from both ESM and BGC-Argo
+    data. Our use of out-of-distribution test data to examine shifts in biogeochemical
+    parameters and calculate uncertainty bounds around estimates advance the state-of-the-art
+    in oceanographic data and climate monitoring. We make our data and code publicly
+    available.
+  q1_track: Papers
+  primary_contact_author_name: Jae Deok Kim
+  primary_contact_author_email: kimjd@mit.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Earth science and monitoring
+  secondary_subject_areas: Climate change -> Ecosystems and natural systems; Machine
+    learning -> Classification, regression, and supervised learning; Machine learning
+    -> Other
+  author_names: Park, Ellen; Kim, Jae Deok*; Aoki, Nadege; Cao, Yumeng; Arefeen, Yamin;
+    Beveridge, Matthew; Nicholson, David P; Drori, Iddo
+  author_emails: erpark@mit.edu; kimjd@mit.edu*; nadege@mit.edu; ymcao@mit.edu; yarefeen@mit.edu;
+    mattbev@mit.edu; dnicholson@whoi.edu; idrori@mit.edu
+  authors: Ellen Park (MIT); Jae Deok Kim (MIT-WHOI); Nadege Aoki (MIT); Yumeng Cao
+    (MIT); Yamin Arefeen (Massachusetts Institute of Technology); Matthew Beveridge
+    (Massachusetts Institute of Technology); David P Nicholson (Woods Hole Oceanographic
+    Institution); Iddo Drori (MIT)
+  cmt_id: 32
+  is_spotlight: false
+  subject_areas:
+  - Earth science and monitoring
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+  - Other
+  id: 13
+  prev_paper_id: 12
+  next_paper_id: 14
+  condensed_subject_areas:
+  - Earth science and monitoring
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+  - Other
+- paper_title: On the Generalization of Agricultural Drought Classification from Climate
+    Data
+  abstract: Climate change is expected to increase the likelihood of drought events,
+    with severe implications for food security. Unlike other natural disasters, droughts
+    have a slow onset and depend on various external factors, making drought detection
+    in climate data difficult.  In contrast to existing works that rely on simple
+    relative drought indices as ground-truth data, we build upon soil moisture index
+    (SMI) obtained from a hydrological model. This index is directly related to insufficiently
+    available water to vegetation. Given ERA5-Land climate input data of six months
+    with land use information from MODIS satellite observation, we compare different
+    models with and without sequential inductive bias in classifying droughts based
+    on SMI. We use PR-AUC as the evaluation measure to account for the class imbalance
+    and obtain promising results despite a challenging time-based split. We further
+    show in an ablation study that the models retain their predictive capabilities
+    given input data of coarser resolutions, as frequently encountered in climate
+    models.
+  q1_track: Papers
+  primary_contact_author_name: Julia S Gottfriedsen
+  primary_contact_author_email: jsgottfriedsen@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Climate change -> Agriculture; Climate change -> Disaster
+    prediction, management, and relief
+  author_names: Gottfriedsen, Julia S*; Berrendorf, Max; Gentine, Pierre; Reichstein,
+    Markus; Weigel , Katja; Hassler, Birgit; Eyring, Veronika
+  author_emails: jsgottfriedsen@gmail.com*; berrendorf@dbs.ifi.lmu.de; pg2328@columbia.edu;
+    mreichstein@bgc-jena.mpg.de; weigel@iup.physik.uni-bremen.de; birgit.hassler@dlr.de;
+    veronika.eyring@dlr.de
+  authors: Julia S Gottfriedsen (DLR); Max Berrendorf (Ludwig-Maximilians-Universität
+    München); Pierre Gentine (Columbia University); Markus Reichstein (Max Planck
+    Institute for Biogeochemistry, Jena; Michael Stifel Center Jena for Data-Driven
+    and Simulation Science, Jena); Katja Weigel  (niversity of Bremen, Institute of
+    Environmental Physics (IUP), Bremen, Germany); Birgit Hassler (Deutsches Zentrum
+    für Luft- und Raumfahrt e.V. (DLR), Institut für Physik der Atmosphäre, Oberpfaffenhofen,
+    Germany); Veronika Eyring (Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR),
+    Institut für Physik der Atmosphäre, Oberpfaffenhofen, Germany; University of Bremen,
+    Institute of Environmental Physics (IUP), Bremen, Germany)
+  cmt_id: 33
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Agriculture
+  - Disaster prediction, management, and relief
+  id: 14
+  prev_paper_id: 13
+  next_paper_id: 15
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Agriculture, forestry and other land use
+  - Disaster prediction, management, and relief
+- paper_title: Mapping Post-Climate Change Biogeographical Regions with Deep Latent
+    Variable Models
+  abstract: Forecasting future changes to biodiversity due to shifts in climate is
+    challenging due to nonlinear interactions between species as recorded in their
+    presence/absence data. This work proposes using variational autoencoders with
+    environmental covariates to identify low-dimensional structure in species’ joint
+    co-occurrence patterns and leveraging this simplified representation to provide
+    multivariate predictions of their habitat extent under future climate scenarios.
+    We pursue a latent space clustering approach to map biogeographical regions of
+    frequently co-occurring species and apply this methodology to a dataset from northern
+    Belgium, generating predictive maps illustrating how these regions may expand
+    or contract with changing temperature under a future climate scenario.
+  q1_track: Papers
+  primary_contact_author_name: Christopher Krapu
+  primary_contact_author_email: ckrapu@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Generative modeling
+  secondary_subject_areas: Climate change -> Forestry and other land use; Machine
+    learning -> Causal and Bayesian methods
+  author_names: Krapu, Christopher*
+  author_emails: ckrapu@gmail.com*
+  authors: Christopher Krapu (Oak Ridge National Lab - Oak Ridge, TN)
+  cmt_id: 35
+  is_spotlight: false
+  subject_areas:
+  - Generative modeling
+  - Forestry and other land use
+  - Causal and Bayesian methods
+  id: 15
+  prev_paper_id: 14
+  next_paper_id: 16
+  condensed_subject_areas:
+  - Generative modeling
+  - Agriculture, forestry and other land use
+  - Causal and Bayesian methods
+- paper_title: Rotation Equivariant Deforestation Segmentation and Driver Classification
+  abstract: Deforestation has become a significant contributing factor to climate
+    change and, due to this, both classifying the drivers and predicting segmentation
+    maps of deforestation has attracted significant interest. In this work, we develop
+    a rotation equivariant convolutional neural network model to predict the drivers
+    and generate segmentation maps of deforestation events from Landsat 8 satellite
+    images. This outperforms previous methods in classifying the drivers and predicting
+    the segmentation map of deforestation, offering a 9% improvement in classification
+    accuracy and a 7% improvement in segmentation map accuracy. In addition, this
+    method predicts stable segmentation maps under rotation of the input image, which
+    ensures that predicted regions of deforestation are not dependent upon the rotational
+    orientation of the satellite.
+  q1_track: Papers
+  primary_contact_author_name: Joshua Mitton
+  primary_contact_author_email: j.mitton.1@research.gla.ac.uk
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Mitton, Joshua*; Murray-Smith, Roderick
+  author_emails: j.mitton.1@research.gla.ac.uk*; Roderick.Murray-Smith@glasgow.ac.uk
+  authors: Joshua Mitton (University of Glasgow); Roderick Murray-Smith (University
+    of Glasgow)
+  cmt_id: 38
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Classification, regression, and supervised learning
+  id: 16
+  prev_paper_id: 15
+  next_paper_id: 17
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Classification, regression, and supervised learning
+- paper_title: 'WiSoSuper: Benchmarking Super-Resolution Methods on Wind and Solar
+    Data'
+  abstract: The transition to green energy grids depends on detailed wind and solar
+    forecasts to optimize the siting and scheduling of renewable energy generation.
+    Operational forecasts from numerical weather prediction models, however, only
+    have a spatial resolution of 10 to 20-km, which leads to sub-optimal usage and
+    development of renewable energy farms. Weather scientists have been developing
+    super-resolution methods to increase the resolution, but often rely on simple
+    interpolation techniques or computationally expensive differential equation-based
+    models. Recently, machine learning-based models, specifically the physics-informed
+    resolution-enhancing generative adversarial network (PhIREGAN), have outperformed
+    traditional downscaling methods. We provide a thorough and extensible benchmark
+    of leading deep learning-based super-resolution techniques, including the enhanced
+    super-resolution generative adversarial network (ESRGAN) and an enhanced deep
+    super-resolution (EDSR) network, on wind and solar data. We accompany the benchmark
+    with a novel public, processed, and machine learning-ready dataset for benchmarking
+    super-resolution methods on wind and solar data.
+  q1_track: Papers
+  primary_contact_author_name: Rupa Kurinchi-Vendhan
+  primary_contact_author_email: rkurinch@caltech.edu
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Earth
+    science and monitoring; Climate change -> Power and energy systems; Machine learning
+    -> Classification, regression, and supervised learning; Machine learning -> Generative
+    modeling
+  author_names: Kurinchi-Vendhan, Rupa*; Lütjens, Björn; Gupta, Ritwik; Werner, Lucien
+    D; Newman, Dava; Low, Steven
+  author_emails: rkurinch@caltech.edu*; lutjens@mit.edu; ritwik.gupta@berkeley.edu;
+    lwerner@caltech.edu; dnewman@media.mit.edu; slow@caltech.edu
+  authors: Rupa Kurinchi-Vendhan (Caltech); Björn Lütjens (MIT); Ritwik Gupta (University
+    of California, Berkeley); Lucien D Werner (California Institute of Technology);
+    Dava Newman (MIT); Steven Low (California Institute of Technology)
+  cmt_id: 51
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate modeling
+  - Earth science and monitoring
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Generative modeling
+  id: 17
+  prev_paper_id: 16
+  next_paper_id: 18
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and Earth science
+  - Earth science and monitoring
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Generative modeling
+- paper_title: Meta-Learned Bayesian Optimization for Calibrating Building Simulation
+    Models with Multi-Source Data
+  abstract: 'Well-calibrated building simulation models are key to reducing greenhouse
+    gas emissions and optimizing building performance. Current calibration algorithms
+    do not leverage data collected during previous calibration tasks. In this paper,
+    we employ attentive neural processes (ANP) to meta-learn a distribution using
+    multi-source data acquired during previously seen calibration tasks. The ANP informs
+    a meta-learned Bayesian optimizer to accelerate calibration of new, unseen tasks.
+    The few-shot nature of our proposed algorithm is demonstrated on a library of
+    residential buildings validated by the United States Department of Energy (USDoE). '
+  q1_track: Papers
+  primary_contact_author_name: Ankush Chakrabarty
+  primary_contact_author_email: achakrabarty@ieee.org
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Buildings and cities
+  secondary_subject_areas: Machine learning -> Meta- and transfer learning
+  author_names: Zhan, Sicheng; Wichern, Gordon; Laughman, Christopher; Chakrabarty,
+    Ankush*
+  author_emails: szhan@u.nus.edu; wichern@merl.com; laughman@merl.com; achakrabarty@ieee.org*
+  authors: Sicheng Zhan (NUS); Gordon Wichern (Mitsubishi Electric Research Laboratories
+    (MERL)); Christopher Laughman (Mitsubishi Electric Research Laboratories); Ankush
+    Chakrabarty (Mitsubishi Electric Research Labs)
+  cmt_id: 52
+  is_spotlight: false
+  subject_areas:
+  - Buildings and cities
+  - Meta- and transfer learning
+  id: 18
+  prev_paper_id: 17
+  next_paper_id: 19
+  paper_path: "/papers/neurips2021/18/paper.pdf"
+  slides_path: "/papers/neurips2021/18/slides.pdf"
+  condensed_subject_areas:
+  - Buildings and cities
+  - Meta- and transfer learning
+- paper_title: 'XX-nowcasting: Operational Precipitation Nowcasting with Convolutional
+    LSTMs at Anonymous Company'
+  abstract: We present the encoder-forecaster convolutional long short-term memory
+    (LSTM) deep-learning model that powers Anonymous Company's operational precipitation
+    nowcasting product. This model takes as input a sequence of weather radar mosaics
+    and deterministically predicts future radar reflectivity at lead times up to 6
+    hours. By stacking a large input receptive field along the feature dimension and
+    conditioning the model's forecaster with predictions from the physics-based High
+    Resolution Rapid Refresh (HRRR) model, we are able to outperform optical flow
+    and HRRR baselines by 20-25% on multiple metrics averaged over all lead times.
+  q1_track: Papers
+  primary_contact_author_name: Sylwester Klocek
+  primary_contact_author_email: syklocek@microsoft.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Disaster
+    prediction, management, and relief; Climate change -> Earth science and monitoring;
+    Machine learning -> Classification, regression, and supervised learning; Machine
+    learning -> Hybrid physical models
+  author_names: Klocek, Sylwester*; Dong, Haiyu; Dixon, Matthew; Kanengoni, Panashe;
+    Kazmi, Najeeb; Luferenko, Pete; Lv, Zhongjian; Sharma, Shikhar; Weyn, Jonathan;
+    Xiang, Siqi
+  author_emails: syklocek@microsoft.com*; had@microsoft.com; madixon@microsoft.com;
+    pakaneng@microsoft.com; nakazmi@microsoft.com; petrol@microsoft.com; zholv@microsoft.com;
+    shsh@microsoft.com; jweyn@microsoft.com; Sixian@microsoft.com
+  authors: Sylwester Klocek (Microsoft Corporation); Haiyu Dong (Microsoft); Matthew
+    Dixon (Microsoft Corporation); Panashe Kanengoni (Microsoft Corporation); Najeeb
+    Kazmi (Microsoft); Pete Luferenko (Microsoft Corporation); Zhongjian Lv (Microsoft
+    Corporation); Shikhar Sharma (); Jonathan Weyn (Microsoft); Siqi Xiang (Microsoft
+    Corporation)
+  cmt_id: 54
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate modeling
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Hybrid physical models
+  id: 19
+  prev_paper_id: 18
+  next_paper_id: 20
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and Earth science
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Hybrid physical models
+- paper_title: 'SunCast: Solar Irradiance Nowcasting from Geosynchronous Satellite
+    Data'
+  abstract: When cloud layers cover photovoltaic (PV) panels, the amount of power
+    the panels produce fluctuates rapidly. Therefore, to maintain enough energy on
+    a power grid to match demand, utilities companies rely on reserve power sources
+    that typically come from fossil fuels and therefore pollute the environment. Accurate
+    short-term PV power prediction enables operators to maximize the amount of power
+    obtained from PV panels and safely reduce the reserve energy needed from fossil
+    fuel sources. While several studies have developed machine learning models to
+    predict solar irradiance at specific PV generation facilities, little work has
+    been done to model short-term solar irradiance on a global scale. Furthermore,
+    models that have been developed are proprietary and have architectures that are
+    not publicly available or rely on  computationally demanding Numerical Weather
+    Prediction (NWP) models. Here, we propose a Convolutional Long Short-Term Memory
+    Network model that treats solar nowcasting as a next frame prediction problem,
+    is more efficient than NWP models and has a straightforward, reproducible architecture.
+    Our models can predict solar irradiance for entire North America for up to 3 hours
+    in under 60 seconds on a single machine without a GPU and has a RMSE of 120 W/m^2
+    when evaluated on 2 months of data.
+  q1_track: Papers
+  primary_contact_author_name: Dhileeban Kumaresan
+  primary_contact_author_email: dkumares@berkeley.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Computer vision and remote sensing
+  author_names: Kumaresan, Dhileeban*; Wang, Richard; Martinez, Ernesto A; Cziva,
+    Richard; Todeschini, Alberto; Reed, Colorado J; Vahabi, Puya
+  author_emails: dkumares@berkeley.edu*; cweiwang@berkeley.edu; ernestomartinez@berkeley.edu;
+    rcziva@berkeley.edu; todeschini@berkeley.edu; cjrd@berkeley.edu; puyavahabi@berkeley.edu
+  authors: Dhileeban Kumaresan (UC Berkeley); Richard Wang (UC Berkeley); Ernesto
+    A Martinez (UC Berkeley); Richard Cziva (UC Berkeley); Alberto Todeschini (UC
+    Berkeley); Colorado J Reed (University of California, Berkeley); Puya Vahabi (UC
+    Berkeley)
+  cmt_id: 55
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  id: 20
+  prev_paper_id: 19
+  next_paper_id: 21
+  paper_path: "/papers/neurips2021/20/paper.pdf"
+  slides_path: "/papers/neurips2021/20/slides.pdf"
+  condensed_subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+- paper_title: Synthetic Imagery Aided Geographic Domain Adaptation for Rare Energy
+    Infrastructure Detection in Remotely Sensed Imagery
+  abstract: Object detection in remotely sensed data is frequently stymied by applications
+    in geographies that are different from that of the training data. When objects
+    are rare, the problem is exacerbated further. This is true of assessments of energy
+    infrastructure such as generation, transmission, and end-use consumption; key
+    to electrification planning as well as for effective assessment of natural disaster
+    impacts which are varying in frequency and intensity due to climate change. We
+    propose an approach to domain adaptation that requires only unlabeled samples
+    from the target domain and generates synthetic data to augment training data for
+    targeted domain adaptation. This approach is shown to work consistently across
+    four geographically diverse domains, improving object detection average precision
+    by 15.5\% on average for small sample sizes.
+  q1_track: Papers
+  primary_contact_author_name: Wei Hu
+  primary_contact_author_email: wei.hu@duke.edu
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Earth science and monitoring; Climate
+    change -> Power and energy systems; Machine learning -> Classification, regression,
+    and supervised learning
+  author_names: Hu, Wei*; Feldman, Tyler; Lin, Eddy; Moscoso, Jose Luis; Ou, Yanchen
+    J; Tarn, Natalie; Ye, Baoyan; Zhang, Wendy; Malof, Jordan; Bradbury, Kyle
+  author_emails: wei.hu@duke.edu*; tyler.feldman@duke.edu; eddy.lin@duke.edu; jose.moscoso@duke.edu;
+    yanchen.ou@duke.edu; natalie.tarn@duke.edu; baoyan.ye@duke.edu; wendy.zhang@duke.edu;
+    jordan.malof@duke.edu; kyle.bradbury@duke.edu
+  authors: Wei Hu (Duke University); Tyler Feldman (Duke University); Eddy Lin (Duke
+    University); Jose Luis Moscoso (Duke); Yanchen J Ou (Duke University); Natalie
+    Tarn (Duke University); Baoyan Ye (Duke University); Wendy Zhang (Duke University);
+    Jordan Malof (Duke University); Kyle Bradbury (Duke University)
+  cmt_id: 56
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Earth science and monitoring
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  id: 21
+  prev_paper_id: 20
+  next_paper_id: 22
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Earth science and monitoring
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+- paper_title: 'Being the Fire: A CNN-Based Reinforcement Learning Method to Learn
+    How Fires Behave Beyond the Limits of Physics-Based Empirical Models'
+  abstract: Wildland fires pose an increasing threat in light of anthropogenic climate
+    change. Fire-spread models play an underpinning role in many areas of research
+    across this domain, from emergency evacuation to insurance analysis. We study
+    paths towards advancing such models through deep reinforcement learning. Aggregating
+    21 fire perimeters from the Western United States in 2017, we construct 11-layer
+    raster images representing the state of the fire area. A convolution neural network
+    based agent is trained offline on one million sub-images to create a generalizable
+    baseline for predicting the best action - burn or not burn - given the then-current
+    state on a particular fire edge. A series of online, TD(0) Monte Carlo Q-Learning
+    based improvements are made with final evaluation conducted on a subset of holdout
+    fire perimeters. We examine the performance of the learned agent/model against
+    the FARSITE fire-spread model.  We also make available a novel data set and propose
+    more informative evaluation metrics for future progress.
+  q1_track: Papers
+  primary_contact_author_name: William L Ross
+  primary_contact_author_email: wlross@stanford.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: 'Climate change -> Societal adaptation; Machine learning
+    -> Computer vision and remote sensing; Machine learning -> Reinforcement learning
+    and control '
+  author_names: Ross, William L*
+  author_emails: wlross@stanford.edu*
+  authors: William L Ross (Stanford)
+  cmt_id: 57
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Societal adaptation
+  - Computer vision and remote sensing
+  - 'Reinforcement learning and control '
+  id: 22
+  prev_paper_id: 21
+  next_paper_id: 23
+  paper_path: "/papers/neurips2021/22/paper.pdf"
+  slides_path: "/papers/neurips2021/22/slides.pdf"
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Societal adaptation
+  - Computer vision and remote sensing
+  - 'Reinforcement learning and control '
+- paper_title: Subseasonal Solar Power Forecasting via Deep Sequence Learning
+  abstract: To help mitigate climate change, power systems need to integrate renewable
+    energy sources, such as solar, at a rapid pace. Widespread integration of solar
+    energy into the power system requires major improvements in solar irradiance forecasting,
+    in order to reduce the uncertainty associated with solar power output. While recent
+    works have addressed short lead-time forecasting (minutes to hours ahead), week(s)-ahead
+    and longer forecasts, coupled with uncertainty estimates, will be extremely important
+    for storage applications in future power systems. In this work, we propose machine
+    learning approaches for these longer lead-times as an important new application
+    area in the energy domain. We demonstrate the potential of several deep sequence
+    learning techniques for both point predictions and probabilistic predictions at
+    these longer lead-times. We compare their performance for subseasonal forecasting
+    (forecast lead-times of roughly two weeks) using the SURFRAD data set for 7 stations
+    across the U.S. in 2018. The results are encouraging; the deep sequence learning
+    methods outperform the current benchmark for machine learning-based probabilistic
+    predictions (previously applied at short lead-times in this domain), along with
+    relevant baselines.
+  q1_track: Papers
+  primary_contact_author_name: Saumya Sinha
+  primary_contact_author_email: Saumya.sinha@colorado.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Machine learning -> Time-series analysis
+  author_names: Sinha, Saumya*; Hodge, Bri-Mathias  S; Monteleoni, Claire
+  author_emails: Saumya.sinha@colorado.edu*; brimathias.hodge@colorado.edu; cmontel@colorado.edu
+  authors: Saumya Sinha (University of Colorado, Boulder); Bri-Mathias  S Hodge (University
+    of Colorado Boulder); Claire Monteleoni (University of Colorado Boulder)
+  cmt_id: 58
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Time-series analysis
+  id: 23
+  prev_paper_id: 22
+  next_paper_id: 24
+  condensed_subject_areas:
+  - Power and energy systems
+  - Time-series analysis
+- paper_title: A Transfer Learning-Based Surrogate Model for Geological Carbon Storage
+    with Multi-Fidelity Training Data
+  abstract: |-
+    Geologic carbon storage (GCS) entails injecting large volumes of carbon dioxide (CO2) in deep geologic
+    formations to prevent its release to the atmosphere. Reservoir simulation is widely used in GCS applications to predict subsurface pressure and CO2 saturation. High fidelity numerical models are prohibitively expensive for data assimilation and uncertainty quantification, which require a large number of simulation runs. Deep learning-based surrogate models have shown a great promise to alleviate the high computational cost. However, the training cost is high as thousands of high-fidelity simulations are often necessary for generating the training data. In this work, we explore the use of a transfer learning approach to reduce the training cost. Compared with the surrogate model trained with high-fidelity simulations, our new transfer learning-based model shows comparable accuracy but reduces the training cost by 80%.
+  q1_track: Papers
+  primary_contact_author_name: Su Jiang
+  primary_contact_author_email: sujiang@stanford.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Machine learning -> Computer vision and remote sensing
+  author_names: Jiang, Su*
+  author_emails: sujiang@stanford.edu*
+  authors: Su Jiang (Stanford University)
+  cmt_id: 59
+  is_spotlight: false
+  subject_areas:
+  - Carbon capture and sequestration
+  - Computer vision and remote sensing
+  id: 24
+  prev_paper_id: 23
+  next_paper_id: 25
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Computer vision and remote sensing
+- paper_title: National Cropland Classification with Agriculture Census Information
+    and EO Datasets
+  abstract: 'National cropland classification is critical to monitor food security,
+    comprehend environmental circumstances and climate change, and participate in
+    agricultural policy development. The increasing earth observation datasets, especially
+    the free available Sentinel and Landsat, open unprecedented large-scale mapping
+    opportunities. However, most applied machine learning techniques have relied on
+    substantial training datasets, which are not always available and may be expensive
+    to create or collect. Focusing on Japan, this work indicates what kinds of information
+    can be extracted from agriculture census information then used for mapping different
+    crop types. Different classification approaches of pixel-based and parcel-based
+    are compared. Then, the efficient method is used to generate Japan''s first national
+    cropland classification with Sentinel-1 C-band and Landsat-8 time series. For
+    2015, the overall accuracies for the prefectures range between 71\% and 94\%.
+    This national cropland classification map, which particularly succeeds in extracting
+    high-precision rice products for the whole of Japan and other classes for different
+    prefectures, can be treated as the base map of Japan for future studies related
+    to agriculture, environment, and climate change.  '
+  q1_track: Papers
+  primary_contact_author_name: Junshi Xia
+  primary_contact_author_email: junshi.xia@riken.jp
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Agriculture
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Xia, Junshi*; Yokoya, Naoto ; Adriano, Bruno
+  author_emails: junshi.xia@riken.jp*; yokoya@k.u-tokyo.ac.jp; bruno.adriano@riken.jp
+  authors: Junshi Xia (RIKEN); Naoto  Yokoya (The University of Tokyo); Bruno Adriano
+    (RIKEN Center for Advanced Intelligence Project (AIP))
+  cmt_id: 61
+  is_spotlight: false
+  subject_areas:
+  - Agriculture
+  - Classification, regression, and supervised learning
+  id: 25
+  prev_paper_id: 24
+  next_paper_id: 26
+  paper_path: "/papers/neurips2021/25/paper.pdf"
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Classification, regression, and supervised learning
+- paper_title: 'FIgLib & SmokeyNet: Dataset and Deep Learning Model for Real-Time
+    Wildland Fire Smoke Detection'
+  abstract: The size and frequency of wildland fires in the western United States
+    have increased in recent years. On high fire-risk days, a small fire ignition
+    can rapidly grow and get out of control. Early detection of fire ignitions from
+    initial smoke can help the response to such fires before they become difficult
+    to manage. Prior work explored deep learning methods for accurate wildfire smoke
+    detection, but many studies suffer from small or unreliable datasets that make
+    it difficult to extrapolate performance to real-world scenarios. In this work,
+    we present the Fire Ignition Library (FIgLib), a publicly-available dataset of
+    nearly 25,000 annotated wildfire smoke images as seen from fixed-view cameras
+    deployed in Southern California. We also introduce SmokeyNet, a novel deep learning
+    architecture using spatio-temporal information from camera imagery for real-time
+    wildfire smoke detection. When trained on the FIgLib dataset, SmokeyNet outperforms
+    comparable baselines. We hope that the availability of the FIgLib dataset and
+    the SmokeyNet architecture will inspire further research into deep learning methods
+    for wildfire smoke detection, leading towards a potential automated notification
+    system to reduce the time to wildfire response.
+  q1_track: Papers
+  primary_contact_author_name: Anshuman Dewangan
+  primary_contact_author_email: anshumand@berkeley.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Machine learning -> Computer vision and remote sensing
+  author_names: Dewangan, Anshuman*; Nguyen, Mai; Cottrell, Garrison
+  author_emails: anshumand@berkeley.edu*; mhnguyen@ucsd.edu; gary@ucsd.edu
+  authors: Anshuman Dewangan (University of California, San Diego); Mai Nguyen (University
+    of California, San Diego); Garrison Cottrell (UC San Diego)
+  cmt_id: 62
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Computer vision and remote sensing
+  id: 26
+  prev_paper_id: 25
+  next_paper_id: 27
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Computer vision and remote sensing
+- paper_title: Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions
+    from Satellite Imagery
+  abstract: "The burning of fossil fuels produces large amounts of carbon dioxide
+    (CO2), a major Greenhouse Gas (GHG) and a main driver of Climate Change. \nQuantifying
+    GHG emissions is crucial for accurate predictions of climate effects and to enforce
+    emission trading schemes. The reporting of such emissions is only required in
+    some countries, resulting in insufficient global coverage.\nIn this work, we propose
+    an end-to-end method to predict power generation rates for fossil fuel power plants
+    from satellite images based on which we estimate GHG emission rates. We present
+    a multitask deep learning approach able to simultaneously predict: (i) the pixel-area
+    covered by plumes from a single satellite image of a power plant, (ii) the type
+    of fired fuel, and (iii) the power generation rate. We then convert the predicted
+    power generation rate into estimates for the rate at which CO2 is being emitted.\nExperimental
+    results show that our model approach allows us to estimate the power generation
+    rate of a power plant to within 139 MW (MAE, for a mean sample power plant capacity
+    of 1177 MW) from a single satellite image and CO2 emission rates to within 311
+    t/h. \nThis multitask learning approach improves the power generation estimation
+    MAE by 39 % compared to a single-task network trained on the same dataset. "
+  q1_track: Papers
+  primary_contact_author_name: Joëlle Hanna
+  primary_contact_author_email: joelle.hanna@unisg.ch
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Power and energy systems
+  author_names: Hanna, Joëlle*; Mommert, Michael; Scheibenreif, Linus M.; Borth, Damian
+  author_emails: joelle.hanna@unisg.ch*; michael.mommert@unisg.ch; linus.scheibenreif@unisg.ch;
+    damian.borth@unisg.ch
+  authors: Joëlle Hanna (University of St. Gallen); Michael Mommert (University of
+    St. Gallen); Linus M. Scheibenreif (University of St. Gallen); Damian Borth (University
+    of St. Gallen)
+  cmt_id: 63
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Power and energy systems
+  id: 27
+  prev_paper_id: 26
+  next_paper_id: 28
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Power and energy systems
+- paper_title: 'ClimART: A Benchmark Dataset for Emulating Atmospheric Radiative Transfer
+    in Weather and Climate Models'
+  abstract: "Numerical simulations of Earth's weather and climate require substantial
+    amounts of computation. This has led to a growing interest in replacing subroutines
+    that explicitly compute physical processes with approximate machine learning (ML)
+    methods that are fast at inference time. Within weather and climate models, atmospheric
+    radiative transfer (RT) calculations are especially expensive. \n  This has made
+    them a popular target for neural network-based emulators.  \n  However, prior
+    work is hard to compare due to the lack of a comprehensive dataset and standardized
+    best practices for ML benchmarking.\n  To fill this gap, we introduce the \\climart
+    dataset, with more than \\emph{10 million samples from present, pre-industrial,
+    and future climate conditions}.\n ClimART poses several methodological challenges
+    for the ML community, such as multiple out-of-distribution test sets, underlying
+    domain physics, and a trade-off between accuracy and inference speed.\n  We also
+    present several novel baselines that indicate shortcomings of the datasets and
+    network architectures used in prior work."
+  q1_track: Papers
+  primary_contact_author_name: Salva Rühling Cachay
+  primary_contact_author_email: salvaruehling@gmail.com
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Rühling Cachay, Salva*; Ramesh, Venkatesh; N. S. Cole, Jason; Barker,
+    Howard; Rolnick, David
+  author_emails: salvaruehling@gmail.com*; venka97@gmail.com; jason.cole@canada.ca;
+    howard.barker@canada.ca; drolnick@cs.mcgill.ca
+  authors: Salva Rühling Cachay (Technical University of Darmstadt); Venkatesh Ramesh
+    (MILA); Jason N. S. Cole (Environment and Climate Change Canada); Howard Barker
+    (Environment and Climate Change Canada); David Rolnick (McGill University, Mila)
+  cmt_id: 67
+  is_spotlight: true
+  subject_areas:
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  id: 28
+  prev_paper_id: 27
+  next_paper_id: 29
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+- paper_title: 'A GNN-RNN Approach for Harnessing Geospatial and Temporal Information:
+    Application to Crop Yield Prediction'
+  abstract: Climate change poses new challenges to agricultural production, as crop
+    yields are extremely sensitive to climatic variation. Accurately predicting the
+    effects of weather patterns on crop yield is crucial for addressing issues such
+    as food insecurity, supply stability, and economic planning. Recently, there have
+    been many attempts to use machine learning models for crop yield prediction. However,
+    these models either restrict their tasks to a relatively small region or a short
+    time-period (e.g. a few years), which makes them hard to generalize spatially
+    and temporally. They also view each location as an i.i.d sample, ignoring spatial
+    correlations in the data. In this paper, we introduce a novel graph-based recurrent
+    neural network for crop yield prediction, which incorporates both geographical
+    and temporal structure. Our method is trained, validated, and tested on over 2000
+    counties from 41 states in the US mainland, covering years from 1981 to 2019.
+    As far as we know, this is the first machine learning method that embeds geographical
+    knowledge in crop yield prediction and predicts crop yields at the county level
+    nationwide. Experimental results show that our proposed method consistently outperforms
+    a wide variety of existing state-of-the-art methods, validating the effectiveness
+    of geospatial and temporal information.
+  q1_track: Papers
+  primary_contact_author_name: Joshua Fan
+  primary_contact_author_email: jyf6@cornell.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Agriculture
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Time-series analysis
+  author_names: Fan, Joshua*; Bai, Junwen; Li, Zhiyun; Ortiz-Bobea, Ariel; Gomes,
+    Carla P
+  author_emails: jyf6@cornell.edu*; jb2467@cornell.edu; zl547@cornell.edu; ao332@cornell.edu;
+    gomes@cs.cornell.edu
+  authors: Joshua Fan (Cornell University); Junwen Bai (Cornell University); Zhiyun
+    Li (Cornell University); Ariel Ortiz-Bobea (Cornell); Carla P Gomes (Cornell University)
+  cmt_id: 71
+  is_spotlight: true
+  subject_areas:
+  - Agriculture
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  id: 29
+  prev_paper_id: 28
+  next_paper_id: 30
+  paper_path: "/papers/neurips2021/29/paper.pdf"
+  slides_path: "/papers/neurips2021/29/slides.pdf"
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+- paper_title: Learned Benchmarks for Subseasonal Forecasting
+  abstract: We develop a subseasonal forecasting toolkit of simple learned benchmark
+    models that outperform both operational practice and state-of-the-art machine
+    learning and deep learning methods. Our new models include (a) Climatology++,
+    an adaptive alternative to climatology that, for precipitation, is 9% more accurate
+    and 250\% more skillful than the United States operational Climate Forecasting
+    System (CFSv2); (b) CFSv2++, a learned CFSv2 correction that improves temperature
+    and precipitation accuracy by 7-8% and skill by 50-275%; and (c) Persistence++,
+    an augmented persistence model that combines CFSv2 forecasts with lagged measurements
+    to improve temperature and precipitation accuracy by 6-9% and skill by 40-130%.
+    Across the contiguous U.S., these models consistently outperform standard meteorological
+    baselines, state-of-the-art learning methods, and the European Centre for Medium-Range
+    Weather Forecasts ensemble. Overall, we find that augmenting traditional forecasting
+    approaches with learned enhancements yields an effective and computationally inexpensive
+    strategy for building the next generation of subseasonal forecasting benchmarks.
+  q1_track: Papers
+  primary_contact_author_name: Soukayna Mouatadid
+  primary_contact_author_email: soukayna@cs.toronto.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Mouatadid, Soukayna*; Orenstein, Paulo; Flaspohler, Genevieve E;  Oprescu,
+    Miruna; Cohen, Judah; Wang, Franklyn; Knight, Sean; Geogdzhayeva, Maria; Levang,
+    Sam; Fraenkel, Ernest; Mackey, Lester
+  author_emails: soukayna@cs.toronto.edu*; pauloo@impa.br; geflaspo@mit.edu; moprescu@microsoft.com;
+    jcohen@aer.com; franklyn_wang@college.harvard.edu; seknight@mit.edu; mgeo@mit.edu;
+    slevang@salientpredictions.com; fraenkel@mit.edu; lmackey@microsoft.com
+  authors: Soukayna Mouatadid (University of Toronto); Paulo Orenstein (IMPA); Genevieve
+    E Flaspohler (MIT); Miruna  Oprescu (Microsoft Research); Judah Cohen (AER); Franklyn
+    Wang (Harvard University); Sean Knight (MIT); Maria Geogdzhayeva (MIT); Sam Levang
+    (Salient Predictions Inc.); Ernest Fraenkel (MIT); Lester Mackey (Microsoft Research)
+  cmt_id: 73
+  is_spotlight: true
+  subject_areas:
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  id: 30
+  prev_paper_id: 29
+  next_paper_id: 31
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+- paper_title: Emissions-aware electricity network expansion planning via implicit
+    differentiation
+  abstract: We consider a variant of the classical problem of designing or expanding
+    an electricity network. Instead of minimizing only investment and production costs,
+    however, we seek to minimize some mixture of cost and greenhouse gas emissions,
+    even if the underlying dispatch model does not tax emissions. This enables grid
+    planners to directly minimize consumption-based emissions, when expanding or modifying
+    the grid, regardless of whether or not the carbon market incorporates a carbon
+    tax. We solve this problem using gradient descent with implicit differentiation,
+    a technique recently popularized in machine learning. To demonstrate the method,
+    we optimize transmission and storage resources on the IEEE 14-bus test network
+    and compare our solution to one generated by standard planning with a carbon tax.
+    Our solution significantly reduces emissions for the same levelized cost of electricity.
+  q1_track: Papers
+  primary_contact_author_name: Anthony Degleris
+  primary_contact_author_email: degleris@stanford.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Climate change -> Climate policy; Machine learning -> Other
+  author_names: Degleris, Anthony*; Fuentes, Lucas; El Gamal, Abbas; Rajagopal, Ram
+  author_emails: degleris@stanford.edu*; lucasfv@stanford.edu; abbas@ee.stanford.edu;
+    ramr@stanford.edu
+  authors: Anthony Degleris (Stanford University); Lucas Fuentes (Stanford); Abbas
+    El Gamal (Stanford University); Ram Rajagopal (Stanford University)
+  cmt_id: 75
+  is_spotlight: true
+  subject_areas:
+  - Power and energy systems
+  - Climate policy
+  - Other
+  id: 31
+  prev_paper_id: 30
+  next_paper_id: 32
+  condensed_subject_areas:
+  - Power and energy systems
+  - Climate policy
+  - Other
+- paper_title: Amortized inference of Gaussian process hyperparameters for improved
+    concrete strength trajectory prediction
+  abstract: Designing and utilizing alternative concrete formulations which supplant
+    the use of ordinary portland cement with alternative binders have been identified
+    as central goals in reducing the greenhouse gas impact of the concrete industry.
+    Given the variability in availability and quality of alternatives, these goals
+    call for an optimal design of experiment approach to designing formulations, which
+    can be adapted to local needs. The realization of this goal hinges on an ability
+    to predict key properties. Here, we present and benchmark a Gaussian process (GP)
+    model for predicting the trajectory of concrete strength, an essential performance
+    measure. GPs are a desirable model class for the application because of their
+    ability to estimate uncertainty and update predictions given additional data.
+    In this work, rather than manually tuning hyperparameters for different concrete
+    mix models, we propose a new method based on amortized inference leveraging mixture
+    attributes, leading to models which are better fit for use in Bayesian optimization
+    of concrete formulation. We demonstrate the success of the approach using a large,
+    industrial concrete dataset.
+  q1_track: Papers
+  primary_contact_author_name: Kristen Severson
+  primary_contact_author_email: kseverson@microsoft.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Causal and Bayesian methods
+  secondary_subject_areas: Climate change -> Heavy industry and manufacturing
+  author_names: Severson, Kristen*; Pfeiffer, Olivia; Chen, Jie; Gong, Kai; Gregory,
+    Jeremy; Goodwin, Richard; Olivetti, Elsa
+  author_emails: kseverson@microsoft.com*; oliviap@mit.edu; chenjie@us.ibm.com; kaig@mit.edu;
+    jgregory@mit.edu; rgoodwin@ibm.com; elsao@mit.edu
+  authors: Kristen Severson (Microsoft Research); Olivia Pfeiffer (MIT); Jie Chen
+    (IBM Research); Kai Gong (MIT); Jeremy Gregory (Massachusetts Institute of Technology);
+    Richard Goodwin (IBM Research); Elsa Olivetti (Massachusetts Institute of Technology)
+  cmt_id: 77
+  is_spotlight: false
+  subject_areas:
+  - Causal and Bayesian methods
+  - Heavy industry and manufacturing
+  id: 32
+  prev_paper_id: 31
+  next_paper_id: 33
+  condensed_subject_areas:
+  - Causal and Bayesian methods
+  - Heavy industry and manufacturing
+- paper_title: A data integration pipeline towards reliable monitoring of phytoplankton
+    and early detection of harmful algal blooms
+  abstract: Climate change is making oceans warmer and more acidic. Under these conditions
+    phytoplankton can produce harmful algal blooms which cause rapid oxygen depletion
+    and consequent death of marine plants and animals. Some species are even capable
+    of releasing toxic substances endangering water quality and human health. Monitoring
+    of phytoplankton and early detection of harmful algal blooms is essential for
+    protection of marine flaura and fauna. Recent technological advances have enabled
+    in-situ plankton image capture in real-time at low cost. However, available phytoplankton
+    image databases have several limitations that prevent the practical usage of artificial
+    intelligent models. We present a pipeline for integration of heterogeneous phytoplankton
+    image datasets from around the world into a unified database that can ultimately
+    serve as a benchmark dataset for phytoplankton research and therefore act as an
+    important tool in building versatile machine learning models for climate adaptation
+    planning. A machine learning model for early detection of harmful algal blooms
+    is part of ongoing work.
+  q1_track: Papers
+  primary_contact_author_name: Bruna Guterres
+  primary_contact_author_email: guterres.bruna@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Climate change -> Ecosystems and natural systems; Machine
+    learning -> Classification, regression, and supervised learning
+  author_names: Guterres, Bruna*; khalid, Sara; Pias, Marcelo; Botelho, Silvia
+  author_emails: guterres.bruna@gmail.com*; sara.khalid@ndorms.ox.ac.uk; pias.marcelo@gmail.com;
+    silviacb.botelho@gmail.com
+  authors: Bruna Guterres (Universidade Federal do Rio Grande - FURG); Sara khalid
+    (University of Oxford); Marcelo Pias (Federal University of Rio Grande); Silvia
+    Botelho (Federal University of Rio Grande)
+  cmt_id: 78
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+  id: 33
+  prev_paper_id: 32
+  next_paper_id: 34
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+- paper_title: Identifying Distributional Differences in Convective Evolution Prior
+    to Rapid Intensification in Tropical Cyclones
+  abstract: Tropical cyclone (TC) intensity forecasts are issued by human forecasters
+    who evaluate spatio-temporal observations (e.g., satellite imagery) and model
+    output (e.g., numerical weather prediction, statistical models) to produce  forecasts
+    every 6 hours. Within these time constraints, it can be challenging to draw insight
+    from such data. While high-capacity machine learning methods are well suited for
+    prediction problems with complex sequence data, extracting interpretable scientific
+    information with such methods is difficult. Here we leverage powerful AI prediction
+    algorithms and classical statistical inference to identify patterns in the evolution
+    of TC convective structure leading up to the rapid intensification of a storm,
+    hence providing forecasters and scientists with key insight into TC behavior.
+  q1_track: Papers
+  primary_contact_author_name: Irwin H McNeely
+  primary_contact_author_email: imcneely@stat.cmu.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Machine learning -> Interpretable ML
+  author_names: McNeely, Irwin H*; Vincent, Galen; Izbicki, Rafael; Wood, Kimberly;
+    Lee, Ann B.
+  author_emails: imcneely@stat.cmu.edu*; gvincent@andrew.cmu.edu; rafaelizbicki@gmail.com;
+    kimberly.wood@msstate.edu; annlee@stat.cmu.edu
+  authors: Irwin H McNeely (Carnegie Mellon University); Galen Vincent (Carnegie Mellon
+    University); Rafael Izbicki (UFSCar); Kimberly Wood (Mississippi State University);
+    Ann B. Lee (Carnegie Mellon University)
+  cmt_id: 80
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Interpretable ML
+  id: 34
+  prev_paper_id: 33
+  next_paper_id: 35
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Interpretable ML
+- paper_title: Predicting Atlantic Multidecadal Variability
+  abstract: Atlantic Multidecadal Variability (AMV) describes variations of North
+    Atlantic sea surface temperature with a typical cycle of between 60 and 70 years.
+    AMV strongly impacts local climate over North America and Europe, therefore prediction
+    of AMV, especially the extreme values, is of great societal utility for understanding
+    and responding to regional climate change. This work tests multiple machine learning
+    models to improve the state of AMV prediction from maps of sea surface temperature,
+    salinity, and sea level pressure in the North Atlantic region. We use data from
+    the Community Earth System Model 1 Large Ensemble Project, a state-of-the-art
+    climate model with 3,440 years of data. Our results demonstrate that all of the
+    models we use outperform the traditional persistence forecast baseline. Predicting
+    the AMV is important for identifying future extreme temperatures and precipitation
+    as well as hurricane activity, in Europe and North America up to 25 years in advance.
+  q1_track: Papers
+  primary_contact_author_name: Glenn Liu
+  primary_contact_author_email: glennliu@mit.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Other
+  author_names: Liu, Glenn*; Wang, Peidong; Beveridge, Matthew; Kwon, Young-Oh; Drori,
+    Iddo
+  author_emails: glennliu@mit.edu*; pdwang@mit.edu; mattbev@mit.edu; yokwon@whoi.edu;
+    idrori@mit.edu
+  authors: Glenn Liu (Massachusetts Institute of Technology); Peidong Wang (MIT);
+    Matthew Beveridge (Massachusetts Institute of Technology); Young-Oh Kwon (Woods
+    Hole Oceanographic Institution); Iddo Drori (MIT)
+  cmt_id: 85
+  is_spotlight: true
+  subject_areas:
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  - Other
+  id: 35
+  prev_paper_id: 34
+  next_paper_id: 36
+  paper_path: "/papers/neurips2021/35/paper.pdf"
+  slides_path: "/papers/neurips2021/35/slides.pdf"
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+  - Other
+- paper_title: Identifying the atmospheric drivers of drought and heat using a smoothed
+    deep learning approach
+  abstract: Europe was hit by several, disastrous heat and drought events in recent
+    summers. Besides thermodynamic influences, such hot and dry extremes are driven
+    by certain atmospheric situations including anticyclonic conditions. Effects of
+    climate change on atmospheric circulations are complex and many open research
+    questions remain in this context, e.g., on future trends of anticyclonic conditions.
+    Based on the combination of a catalog of labeled circulation patterns and spatial
+    atmospheric variables, we propose a smoothed convolutional neural network classifier
+    for six types of anticyclonic circulations that are associated with drought and
+    heat. Our work can help to identify important drivers of hot and dry extremes
+    in climate simulations, which allows to unveil the impact of climate change on
+    these drivers. We address various challenges inherent to circulation pattern classification
+    that are also present in other climate patterns, e.g., subjective labels and unambiguous
+    transition periods.
+  q1_track: Papers
+  primary_contact_author_name: David Ruegamer
+  primary_contact_author_email: david.ruegamer@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Mittermeier, Magdalena; Weigert, Maximilian; Ruegamer, David*
+  author_emails: m.mittermeier@lmu.de; maximilian.weigert@stat.uni-muenchen.de; david.ruegamer@gmail.com*
+  authors: Magdalena Mittermeier (Ludwig-Maximilians-Universität München); Maximilian
+    Weigert (Ludwig-Maximilians-Universität München); David Ruegamer (LMU Munich)
+  cmt_id: 86
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  id: 36
+  prev_paper_id: 35
+  next_paper_id: 37
+  paper_path: "/papers/neurips2021/36/paper.pdf"
+  slides_path: "/papers/neurips2021/36/slides.pdf"
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+- paper_title: Learning to identify cracks on wind turbine blade surfaces using drone-based
+    inspection images
+  abstract: Wind energy is expected to be one of the leading ways to achieve the goals
+    of the Paris Agreement but it in turn heavily depends on effective management
+    of its operations and maintenance (O\&M) costs. Blade failures account for one-third
+    of all O\&M costs thus making accurate detection of blade damages, especially
+    cracks, very important for sustained operations and cost savings. Traditionally,
+    damage inspection has been a completely manual process thus making it subjective,
+    error-prone, and time-consuming. Hence in this work, we bring more objectivity,
+    scalability, and repeatability in our damage inspection process, using deep learning,
+    to miss fewer cracks. We build a deep learning model trained on a large dataset
+    of blade damages, collected by our drone-based inspection, to correctly detect
+    cracks. Our model achieves an F1-score of 0.95 on test data from real-world inspections
+    and is being deployed in production. We also focus on model interpretability using
+    class activation maps to get a peek into the model workings. The model not only
+    performs as good as human experts but also better in certain tricky cases. Thus,
+    in this work, we aim to increase wind energy adoption by decreasing one of its
+    major hurdles - the O\&M costs resulting from missing blade failures like cracks.
+  q1_track: Papers
+  primary_contact_author_name: Akshay B Iyer
+  primary_contact_author_email: akshay.iyer@skyspecs.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Climate change -> Climate finance and economics; Machine
+    learning -> Classification, regression, and supervised learning; Machine learning
+    -> Computer vision and remote sensing
+  author_names: Iyer, Akshay B*; Khushu, Shweta; Nguyen, Linh V
+  author_emails: akshay.iyer@skyspecs.com*; shweta.khushu@skyspecs.com; linh.nguyen@skyspecs.com
+  authors: Akshay B Iyer (SkySpecs, Inc.); Shweta Khushu (SkySpecs Inc.); Linh V Nguyen
+    (SkySpecs Inc)
+  cmt_id: 87
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  id: 37
+  prev_paper_id: 36
+  next_paper_id: 38
+  condensed_subject_areas:
+  - Power and energy systems
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+- paper_title: Evaluating Pretraining Methods for Deep Learning on Geophysical Imaging
+    Datasets
+  abstract: Machine learning has the potential to automate the analysis of vast amounts
+    of raw geophysical data, allowing scientists to monitor changes in key aspects
+    of our climate such as cloud cover in real-time and at fine spatiotemporal scales.
+    However, the lack of large labeled training datasets poses a significant barrier
+    for effectively applying machine learning to these applications. Transfer learning,
+    which involves first pretraining a neural network on an auxiliary “source” dataset
+    and then finetuning on the “target” dataset, has been shown to improve accuracy
+    for machine learning models trained on small datasets. Across prior work on machine
+    learning for geophysical imaging, different choices are made about what data to
+    pretrain on, and the impact of these choices on model performance is unclear.
+    To address this, we systematically explore various settings of transfer learning
+    for cloud classification, cloud segmentation, and aurora classification. We pretrain
+    on different source datasets, including the large ImageNet dataset as well as
+    smaller geophysical datasets that are more similar to the target datasets. We
+    also experiment with multiple transfer learning steps where we pretrain on more
+    than one source dataset. Despite the smaller source datasets’ similarity to the
+    target datasets, we find that pretraining on the large, general-purpose ImageNet
+    dataset yields significantly better results across all of our experiments. Transfer
+    learning is especially effective for smaller target datasets, and in these cases,
+    using multiple source datasets can give a marginal added benefit.
+  q1_track: Papers
+  primary_contact_author_name: James Chen
+  primary_contact_author_email: jyc575@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Earth science and monitoring; Machine
+    learning -> Meta- and transfer learning
+  author_names: Chen, James*
+  author_emails: jyc575@gmail.com*
+  authors: James Chen (Kirby School)
+  cmt_id: 89
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Earth science and monitoring
+  - Meta- and transfer learning
+  id: 38
+  prev_paper_id: 37
+  next_paper_id: 39
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Earth science and monitoring
+  - Meta- and transfer learning
+- paper_title: An Automated System for Detecting Visual Damages of Wind Turbine Blades
+  abstract: |-
+    Wind energy’s ability to compete with fossil fuels on a market level depends on
+    lowering wind’s high operational costs. Since damages on wind turbine blades
+    are the leading cause for these operational problems, identifying blade damages
+    is critical. However, recent works in visual identification of blade damages are
+    still experimental and focus on optimizing the traditional machine learning metrics
+    such as IoU. In this paper, we argue that pushing models to production long before
+    achieving the "optimal" model performance can still generate real value for this
+    use case. We discuss the performance of Blue, our damage’s suggestion model in
+    production and how this system works in coordination with humans as part of a
+    commercialized product and how it can contribute towards lowering wind energy’s
+    operational costs.
+  q1_track: Papers
+  primary_contact_author_name: Linh V Nguyen
+  primary_contact_author_email: linh.nguyen@skyspecs.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Climate finance and economics; Machine
+    learning -> Classification, regression, and supervised learning
+  author_names: Nguyen, Linh V*; Khushu, Shweta; Iyer, Akshay B
+  author_emails: linh.nguyen@skyspecs.com*; shweta.khushu@skyspecs.com; akshay.iyer@skyspecs.com
+  authors: Linh V Nguyen (SkySpecs Inc); Shweta Khushu (SkySpecs Inc.); Akshay B Iyer
+    (SkySpecs, Inc.)
+  cmt_id: 90
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+  id: 39
+  prev_paper_id: 38
+  next_paper_id: 40
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+- paper_title: Power System Dynamic Simulation Using Fourier Neural Operators
+  abstract: 'With the ambition of reducing carbon emissions and mitigating climate
+    change, many regions have set up the goal to generate electricity with close to
+    100% renewables. However, actual renewable generations are often curtailed by
+    operators because it is too hard to check the dynamic stability of electric grid
+    under the high uncertainties introduced by the renewables. The dynamics of a power
+    grid are governed by a large number of nonlinear ordinary differential equations
+    (ODEs). To safely operate the system, operators need to check that the states
+    described by this set of ODEs stay within prescribed limits after various potential
+    faults. But solving these ODEs are very time-consuming using current numerical
+    solvers and  machine learning approaches have been proposed to reduce the computational
+    time. Current methods generally suffer from overfitting and failures to predict
+    unstable behaviors. This paper proposes a novel framework for power system dynamic
+    simulation using Fourier neural operator to learn in the frequency domain. The
+    system topology and fault information are encoded through a 3D Fourier transform.
+    We show that the proposed approach can speed up the computation by orders of magnitude
+    while also remain high accuracy for different fault types.  '
+  q1_track: Papers
+  primary_contact_author_name: Wenqi Cui
+  primary_contact_author_email: wenqicui@uw.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Cui, Wenqi*; Yang, Weiwei; Zhang, Baosen
+  author_emails: wenqicui@uw.edu*; weiwya@microsoft.com; zhangbao@uw.edu
+  authors: Wenqi Cui (University of Washington); Weiwei Yang (Microsoft Research);
+    Baosen Zhang (University of Washington)
+  cmt_id: 91
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  id: 40
+  prev_paper_id: 39
+  next_paper_id: 41
+  condensed_subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+- paper_title: 'HyperionSolarNet: Solar Panel Detection from Aerial Images'
+  abstract: With the effects of global climate change impacting the world, collective
+    efforts are needed to reduce greenhouse gas emissions. The energy sector is the
+    single largest contributor to climate change and many efforts are focused on reducing
+    dependence on carbon-emitting power plants and moving to renewable energy sources,
+    such as solar power. A comprehensive database of the location of solar panels
+    is important to assist analysts and policymakers in defining strategies for further
+    expansion of solar energy. In this paper we focus on creating a world map of solar
+    panels. We identify locations and total surface area of solar panels within a
+    given geographic area. We use deep learning methods for automated detection of
+    solar panel locations and their surface area using aerial imagery. The framework,
+    which consists of a two-branch model using an image classifier in tandem with
+    a semantic segmentation model, is trained on our created dataset of satellite
+    images. Our work provides an efficient and scalable method for detecting solar
+    panels, achieving an accuracy of 0.96 for classification and an IoU score of 0.82
+    for segmentation performance.
+  q1_track: Papers
+  primary_contact_author_name: Poonam Parhar
+  primary_contact_author_email: poonamparhar@berkeley.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Climate change -> Buildings and cities; Climate change
+    -> Climate policy; Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Computer vision and remote sensing
+  author_names: Parhar, Poonam*; Sawasaki, Ryan; Todeschini, Alberto; Reed, Colorado;
+    Vahabi, Hossein; Nusaputra, Nathan; Vergara, Felipe
+  author_emails: poonamparhar@berkeley.edu*; rsawasaki@berkeley.edu; todeschini@berkeley.edu;
+    colorado.j.reed@gmail.com; puya.vahabi@gmail.com; nusaputra137@berkeley.edu; felipe.vergara@berkeley.edu
+  authors: Poonam Parhar (UCBerkeley); Ryan Sawasaki (UCBerkeley); Alberto Todeschini
+    (UC Berkeley); Colorado Reed (UC Berkeley); Hossein Vahabi (University California
+    Berkeley); Nathan Nusaputra (UC Berkeley); Felipe Vergara (UC Berkeley)
+  cmt_id: 94
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Buildings and cities
+  - Climate policy
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  id: 41
+  prev_paper_id: 40
+  next_paper_id: 42
+  paper_path: "/papers/neurips2021/41/paper.pdf"
+  slides_path: "/papers/neurips2021/41/slides.pdf"
+  condensed_subject_areas:
+  - Power and energy systems
+  - Buildings and cities
+  - Climate policy
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+- paper_title: Prediction of Household-level Heat-Consumption using PSO enhanced SVR
+    Model
+  abstract: In combating climate change, an effective demand-based energy supply operation
+    of the district energy system (DES) for heating or cooling is indispensable. As
+    a consequence, an accurate forecast of heat consumption on the consumer side poses
+    an important first step towards an optimal energy supply. However, due to the
+    non-linearity and non-stationarity of heat consumption data, the prediction of
+    the thermal energy demand of DES remains challenging. In this work, we propose
+    a forecasting framework for thermal energy consumption within a district heating
+    system (DHS) based on kernel Support Vector Regression (kSVR) using real-world
+    smart meter data. Particle Swarm Optimization (PSO) is employed to find the optimal
+    hyper-parameter for the kSVR model which leads to the superiority of the proposed
+    methods when compared to a state-of-the-art ARIMA model. The average MAPE is reduced
+    to 2.07% and 2.64% for the individual meter-specific forecasting and for forecasting
+    of societal consumption, respectively.
+  q1_track: Papers
+  primary_contact_author_name: Satyaki Chatterjee
+  primary_contact_author_email: satyaki.chatterjee@fau.de
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Classification, regression, and supervised
+    learning
+  secondary_subject_areas: Climate change -> Power and energy systems; Machine learning
+    -> Other; Machine learning -> Time-series analysis
+  author_names: Chatterjee, Satyaki*; Bayer, Siming; Maier, Andreas K
+  author_emails: satyaki.chatterjee@fau.de*; siming.bayer@fau.de; andreas.maier@fau.de
+  authors: Satyaki Chatterjee (Pattern Recognition Lab, FAU Erlangen-Nuremberg); Siming
+    Bayer (Pattern Recognition Lab, Friedrich-Alexander University); Andreas K Maier
+    (Pattern Recognition Lab, FAU Erlangen-Nuremberg)
+  cmt_id: 95
+  is_spotlight: false
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Power and energy systems
+  - Other
+  - Time-series analysis
+  id: 42
+  prev_paper_id: 41
+  next_paper_id: 43
+  paper_path: "/papers/neurips2021/42/paper.pdf"
+  slides_path: "/papers/neurips2021/42/slides.pdf"
+  condensed_subject_areas:
+  - Classification, regression, and supervised learning
+  - Power and energy systems
+  - Other
+  - Time-series analysis
+- paper_title: 'EcoLight: Reward Shaping in Deep Reinforcement Learning for Ergonomic
+    Traffic Signal Control'
+  abstract: Mobility, the environment, and human health are all harmed by sub-optimal
+    control policies in transportation systems. Intersection traffic signal controllers
+    are a crucial part of today's transportation infrastructure, as sub-optimal policies
+    may lead to traffic jams and as a result increased levels of air pollution and
+    wasted time. Many adaptive traffic signal controllers have been proposed in the
+    literature, but research on their relative performance differences is limited.
+    On the other hand, to the best of our knowledge there has been no work that directly
+    targets CO2 emission reduction, even though pollution is currently a critical
+    issue. In this paper, we propose a reward shaping scheme for various RL algorithms
+    that not only produces lowers CO2 emissions, but also produces respectable outcomes
+    in terms of other metrics such as travel time. We compare multiple RL algorithms
+    ---  sarsa, and A2C ---  as well as diverse scenarios with a mix of different
+    road users emitting varied amounts of pollution.
+  q1_track: Papers
+  primary_contact_author_name: Pedram Agand
+  primary_contact_author_email: pagand@sfu.ca
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Transportation
+  secondary_subject_areas: 'Climate change -> Power and energy systems; Machine learning
+    -> Reinforcement learning and control '
+  author_names: Agand, Pedram*; Iskrov, Alexey ; Chen, Mo
+  author_emails: pagand@sfu.ca*; alexey@breezetraffic.com; mochen@cs.sfu.ca
+  authors: Pedram Agand (Simon Fraser University); Alexey  Iskrov (Breeze Labs Inc.);
+    Mo Chen (Simon Fraser University)
+  cmt_id: 96
+  is_spotlight: false
+  subject_areas:
+  - Transportation
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+  id: 43
+  prev_paper_id: 42
+  next_paper_id: 44
+  paper_path: "/papers/neurips2021/43/paper.pdf"
+  slides_path: "/papers/neurips2021/43/slides.pdf"
+  condensed_subject_areas:
+  - Transportation
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+- paper_title: Data Driven Study of Estuary Hypoxia
+  abstract: " This paper presents a data driven study of dissolved oxygen times series
+    collected in Atlantic Canada.  The main motivation of presented work was to evaluate
+    if machine learning techniques could help to understand and anticipate hypoxic
+    episodes in nutrient-impacted estuaries, a phenomenon that is exacerbated by increasing
+    temperature expected to arise due to changes in climate. A major constraint was
+    to limit ourselves to the use of dissolved oxygen time series only. Our preliminary
+    findings shows that recurring neural networks and in particular LSTM may be suitable
+    to predict short horizon levels while traditional results could benefit in longer
+    range hypoxia prevention. "
+  q1_track: Papers
+  primary_contact_author_name: Guillaume Durand
+  primary_contact_author_email: Guillaume.Durand@nrc-cnrc.gc.ca
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Ecosystems and natural systems
+  secondary_subject_areas: Machine learning -> Time-series analysis
+  author_names: Hussain, Monwer; Durand, Guillaume*; Coffin, Michael; Valdés, Julio
+    J; Poirier, Luke
+  author_emails: Monwer.305@unb.ca; Guillaume.Durand@nrc-cnrc.gc.ca*; Michael.Coffin@dfo-mpo.gc.ca;
+    julio.valdes@nrc-cnrc.gc.ca; luke.poirier@dfo-mpo.gc.ca
+  authors: Monwer Hussain (University of New-Brunswick); Guillaume Durand (National
+    Research Council Canada); Michael Coffin (Department of Fisheries and Oceans Canada);
+    Julio J Valdés (National Research Council Canada); Luke Poirier (Department of
+    Fisheries and Oceans Canada)
+  cmt_id: 97
+  is_spotlight: false
+  subject_areas:
+  - Ecosystems and natural systems
+  - Time-series analysis
+  id: 44
+  prev_paper_id: 43
+  next_paper_id: 45
+  condensed_subject_areas:
+  - Ecosystems and natural systems
+  - Time-series analysis
+- paper_title: Safe Learning for Voltage Control
+  abstract: "Inverter-based distributed energy resources provide the possibility for
+    fast time-scale voltage control by quickly adjusting their reactive power. The
+    power-electronic interfaces allow these resources to follow almost arbitrary control
+    law, while designing these decentralized controllers is nontrivial. Reinforcement
+    learning (RL) approaches are becoming increasingly popular to search for policy
+    parameterized by neural networks. But it is difficult to enforce that the learned
+    controllers stabilize the system.  \n\nThis paper proposes a safe learning approach
+    for voltage control with stability guarantees. Using Lyapunov stability theory,
+    we explicitly derive the structure of neural network-based controllers such that
+    they guarantee system stability by design. A decentralized RL framework is constructed
+    to train local neural network controller at each bus in a model-free setting. "
+  q1_track: Papers
+  primary_contact_author_name: Wenqi Cui
+  primary_contact_author_email: wenqicui@uw.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: 'Machine learning -> Reinforcement learning and control '
+  author_names: Cui, Wenqi*; Li, Jiayi; Zhang, Baosen
+  author_emails: wenqicui@uw.edu*; ljy9712@uw.edu; zhangbao@uw.edu
+  authors: Wenqi Cui (University of Washington); Jiayi Li (University of Washington);
+    Baosen Zhang (University of Washington)
+  cmt_id: 98
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+  id: 45
+  prev_paper_id: 44
+  next_paper_id: 46
+  condensed_subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+- paper_title: 'NoFADE: Analyzing Diminishing Returns on CO2 Investment'
+  abstract: 'Climate change continues to be a pressing issue that currently affects
+    society at-large. It is important that we as a society, including the Computer
+    Vision (CV) community take steps to limit our impact on the environment. In this
+    paper, we (a) analyze the effect of diminishing returns on CV methods, and (b)
+    propose a ``NoFADE'''': a novel entropy-based metric to quantify model--dataset--complexity
+    relationships. We show that some CV tasks are reaching saturation, while others
+    are almost fully saturated. In this light, NoFADE allows the CV community to compare
+    models and datasets on a similar basis, establishing an agnostic platform.'
+  q1_track: Papers
+  primary_contact_author_name: Andre Fu
+  primary_contact_author_email: andre.fu@mail.utoronto.ca
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Machine learning -> Computer vision and remote sensing
+  author_names: Fu, Andre*; Tran, Justin B; Xie, Andy; Spraggett, Jonathan T; Ding,
+    Elisa; Lee, Chang-Won; Singla, Kanav; Hosseini, Mahdi S.; Plataniotis, Konstantinos
+    N
+  author_emails: andre.fu@mail.utoronto.ca*; justinb.tran@mail.utoronto.ca; ruoc.xie@mail.utoronto.ca;
+    jonathan.spraggett@mail.utoronto.ca; elisa.ding@mail.utoronto.ca; changwon.lee@mail.utoronto.ca;
+    kanav.singla@mail.utoronto.ca; mahdi.hosseini@unb.ca; kostas@ece.utoronto.ca
+  authors: Andre Fu (University of Toronto); Justin B Tran (University of Toronto);
+    Andy Xie (University of Toronto); Jonathan T Spraggett (University of Toronto);
+    Elisa Ding (University of Toronto); Chang-Won Lee (University of Toronto); Kanav
+    Singla (University of Toronto); Mahdi S. Hosseini (University of New Brunswick);
+    Konstantinos N Plataniotis (UofT)
+  cmt_id: 100
+  is_spotlight: false
+  subject_areas:
+  - Carbon capture and sequestration
+  - Computer vision and remote sensing
+  id: 46
+  prev_paper_id: 45
+  next_paper_id: 47
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Computer vision and remote sensing
+- paper_title: High-resolution rainfall-runoff modeling using graph neural network
+  abstract: Time-series modeling has shown great promise in recent studies using the
+    latest deep learning algorithms such as LSTM (Long Short-Term Memory). These studies
+    primarily focused on watershed-scale rainfall-runoff modeling or streamflow forecasting,
+    but the majority of them only considered a single watershed as a unit. Although
+    this simplification is very effective, it does not take into account spatial information,
+    which could result in significant errors in large watersheds. Several studies
+    investigated the use of GNN (Graph Neural Networks) for data integration by decomposing
+    a large watershed into multiple sub-watersheds, but each sub-watershed is still
+    treated as a whole, and the geoinformation contained within the watershed is not
+    fully utilized. In this paper, we propose the GNRRM (Graph Neural Rainfall-Runoff
+    Model), a novel deep learning model that makes full use of spatial information
+    from high-resolution precipitation data, including flow direction and geographic
+    information. When compared to baseline models, GNRRM has less over-fitting and
+    significantly improves model performance. Our findings support the importance
+    of hydrological data in deep learning-based rainfall-runoff modeling, and we encourage
+    researchers to include more domain knowledge in their models.
+  q1_track: Papers
+  primary_contact_author_name: Zhongrun Xiang
+  primary_contact_author_email: zhongrun-xiang@uiowa.edu
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Time-series analysis
+  secondary_subject_areas: Climate change -> Agriculture; Climate change -> Climate
+    modeling; Climate change -> Disaster prediction, management, and relief; Climate
+    change -> Earth science and monitoring; Climate change -> Ecosystems and natural
+    systems; Machine learning -> Classification, regression, and supervised learning;
+    Machine learning -> Data mining
+  author_names: 'Xiang, Zhongrun*; Demir, Ibrahim '
+  author_emails: zhongrun-xiang@uiowa.edu*; ibrahim-demir@uiowa.edu
+  authors: Zhongrun Xiang (University of Iowa); Ibrahim  Demir (The University of
+    Iowa)
+  cmt_id: 107
+  is_spotlight: false
+  subject_areas:
+  - Time-series analysis
+  - Agriculture
+  - Climate modeling
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+  - Data mining
+  id: 47
+  prev_paper_id: 46
+  next_paper_id: 48
+  condensed_subject_areas:
+  - Time-series analysis
+  - Agriculture, forestry and other land use
+  - Climate and Earth science
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Ecosystems and natural systems
+  - Classification, regression, and supervised learning
+  - Data mining
+- paper_title: Machine Learning for Snow Stratigraphy Classification
+  abstract: Snow-layer segmentation and classification is an essential diagnostic
+    task for a wide variety of cryospheric science and climate research applications.
+    To this end a Snow Micro Pen (SMP) can be used - a portable high-resolution snow
+    penetrometer. However, the penetration-force measurements of the SMP must be labeled
+    manually, which is a time-intensive task that requires training and becomes infeasible
+    for large datasets. Here, we evaluate how well machine learning models can automatically
+    segment and classify SMP profiles. Fourteen different models are trained on the
+    MOSAiC SMP dataset, a unique and large SMP dataset of snow on Arctic sea-ice profiles.
+    Depending on the user's task and needs, the long short-term memory neural network
+    and the random forests are performing the best. The findings presented here facilitate
+    and accelerate SMP data analysis and in consequence, help scientists to analyze
+    the effects of climate change on the cryosphere more efficiently.
+  q1_track: Papers
+  primary_contact_author_name: Julia Kaltenborn
+  primary_contact_author_email: jkaltenborn@uos.de
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Other
+  secondary_subject_areas: Climate change -> Earth science and monitoring; Machine
+    learning -> Classification, regression, and supervised learning; Machine learning
+    -> Time-series analysis
+  author_names: Kaltenborn, Julia*
+  author_emails: jkaltenborn@uos.de*
+  authors: Julia Kaltenborn (McGill University)
+  cmt_id: 109
+  is_spotlight: false
+  subject_areas:
+  - Other
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  id: 48
+  prev_paper_id: 47
+  next_paper_id: 49
+  condensed_subject_areas:
+  - Other
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+- paper_title: DEM Super-Resolution with EfficientNetV2
+  abstract: Efficient climate change monitoring and modeling rely on high-quality
+    geospatial and environmental datasets. Due to limitations in technical capabilities
+    or resources, the acquisition of high-quality data for many environmental disciplines
+    is costly. Digital Elevation Model (DEM) datasets are such examples whereas their
+    low-resolution versions are widely available, high-resolution ones are scarce.
+    In an effort to rectify this problem, we propose and assess an EfficientNetV2
+    based model. The proposed model increases the spatial resolution of DEMs up to
+    16 times without additional information.
+  q1_track: Papers
+  primary_contact_author_name: Bekir Z Demiray
+  primary_contact_author_email: bekirzahit-demiray@uiowa.edu
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Disaster prediction, management, and
+    relief; Climate change -> Earth science and monitoring; Machine learning -> Classification,
+    regression, and supervised learning
+  author_names: 'Demiray, Bekir Z*; Sit, Muhammed  A; Demir, Ibrahim '
+  author_emails: bekirzahit-demiray@uiowa.edu*; muhammed-sit@uiowa.edu; ibrahim-demir@uiowa.edu
+  authors: Bekir Z Demiray (University of Iowa); Muhammed  A Sit (The University of
+    Iowa); Ibrahim  Demir (The University of Iowa)
+  cmt_id: 110
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  id: 49
+  prev_paper_id: 48
+  next_paper_id: 50
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Disaster prediction, management, and relief
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+- paper_title: Learning to Dissipate Traffic Jams with Piecewise Constant Control
+  abstract: Greenhouse gases (GHGs), particularly carbon dioxide, are a key contributor
+    to climate change. The transportation sector makes up 35% of CO2 emissions in
+    the US and more than 70% of it is due to land transport. Previous work shows that
+    simple driving interventions have the ability to significantly improve traffic
+    flow on the road. Recent work shows that 5% of vehicles using piecewise constant
+    controllers, designed to be compatible to the reaction times of human drivers,
+    can prevent the formation of stop-and-go traffic congestion on a single-lane circular
+    track, thereby mitigating land transportation emissions. Our work extends these
+    results to consider more extreme traffic settings, where traffic jams have already
+    formed, and environments with limited cooperation. We show that even with the
+    added realism of these challenges, piecewise constant controllers, trained using
+    deep reinforcement learning, can essentially eliminate stop-and-go traffic when
+    actions are held fixed for up to 5 seconds. Even up to 10-second action holds,
+    such controllers show congestion benefits over a human driving baseline. These
+    findings are a stepping-stone for near-term deployment of vehicle-based congestion
+    mitigation.
+  q1_track: Papers
+  primary_contact_author_name: Mayuri Sridhar
+  primary_contact_author_email: mayuri@mit.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Transportation
+  secondary_subject_areas: 'Machine learning -> Reinforcement learning and control '
+  author_names: Sridhar, Mayuri*; Wu, Cathy
+  author_emails: mayuri@mit.edu*; cathywu@mit.edu
+  authors: Mayuri Sridhar (MIT); Cathy Wu ()
+  cmt_id: 111
+  is_spotlight: false
+  subject_areas:
+  - Transportation
+  - 'Reinforcement learning and control '
+  id: 50
+  prev_paper_id: 49
+  next_paper_id: 51
+  condensed_subject_areas:
+  - Transportation
+  - 'Reinforcement learning and control '
+- paper_title: Multi-objective Reinforcement Learning Controller for Multi-Generator
+    Industrial Wave Energy Converter
+  abstract: Waves are one of the greatest sources of renewable energy and are a promising
+    resource to tackle climate challenges by decarbonizing energy generation. Lowering
+    the Levelized Cost of Energy (LCOE) for wave energy converters is key to competitiveness
+    with other forms of clean energy like wind and solar. Also, the complexity of
+    control has gone up significantly with the state-of-the-art multi-generator multi-legged
+    industrial Wave Energy Converters (WEC). This paper introduces a Multi-Agent Reinforcement
+    Learning controller (MARL) architecture that can handle these multiple objectives
+    for LCOE, helping the increase in energy capture efficiency, boosting revenue,
+    reducing structural stress to limit maintenance and operating cost, and adaptively
+    and proactively protect the wave energy converter from catastrophic weather events,
+    preserving investments and lowering effective capital cost. We use a MARL implementing
+    proximal policy optimization (PPO) with various optimizations to help sustain
+    the training convergence in the complex hyperplane. The MARL is able to better
+    control the reactive forces of the generators on multiple tethers (legs) of WEC
+    than the commonly deployed spring damper controller. The design for trust is implemented
+    to assure the operation of WEC within a safe zone of mechanical compliance and
+    guarantee mechanical integrity. This is achieved through reward shaping for multiple
+    objectives of energy capture and penalty for harmful motions to minimize stress
+    and lower the cost of maintenance. We achieved double-digit gains in energy capture
+    efficiency across the waves of different principal frequencies over the baseline
+    Spring Damper controller with the proposed MARL controllers.
+  q1_track: Papers
+  primary_contact_author_name: Soumyendu Sarkar
+  primary_contact_author_email: soumyendu.sarkar@hpe.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: 'Machine learning -> Reinforcement learning and control '
+  author_names: Sarkar, Soumyendu*; Gundecha, Vineet; Shmakov, Alexander; Ghorbanpour,
+    Sahand; Ramesh Babu, Ashwin ; Faraboschi, Paolo; Cocho, mathieu; Pichard, Alexandre;
+    Fievez, Jonathan
+  author_emails: soumyendu.sarkar@hpe.com*; vineet.gundecha@hpe.com; ashmakov@uci.edu;
+    sahand.ghorbanpour@hpe.com; ashwin.ramesh-babu@hpe.com; paolo.faraboschi@gmail.com;
+    mcocho@carnegiece.com; apichard@carnegiece.com; jfievez@carnegiece.com
+  authors: Soumyendu Sarkar (Hewlett Packard Enterprise); Vineet Gundecha (Hewlett
+    Packard Enterpise); Alexander Shmakov (UC Irvine); Sahand Ghorbanpour (Hewlett
+    Packard Enterprise); Ashwin  Ramesh Babu (Hewlett Packard Enterprise Labs); Paolo
+    Faraboschi (HPE); mathieu Cocho (Carnegie Clean Energy); Alexandre Pichard (Carnegie
+    Clean Energy); Jonathan Fievez (Carnegie Clean Energy)
+  cmt_id: 112
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+  id: 51
+  prev_paper_id: 50
+  next_paper_id: 52
+  condensed_subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+- paper_title: Resolving Super Fine-Resolution SIF via Coarsely-Supervised U-Net Regression
+  abstract: Climate change presents challenges to crop productivity, such as increasing
+    the likelihood of heat stress and  drought. Solar-Induced Chlorophyll Fluorescence
+    (SIF) is a powerful way to monitor how crop productivity and photosynthesis are
+    affected by changing climatic conditions. However, satellite SIF observations
+    are only available at a coarse spatial resolution (e.g. 3-5km) in most places,
+    making it difficult to determine how individual crop types or farms are doing.
+    This poses a challenging coarsely-supervised regression task; at training time,
+    we only have access to SIF labels at a coarse resolution (3 km), yet we want to
+    predict SIF at a very fine spatial resolution (30 meters), a 100x increase. We
+    do have some fine-resolution input features (such as Landsat reflectance) that
+    are correlated with SIF, but the nature of the correlation is unknown. To address
+    this, we propose Coarsely-Supervised Regression U-Net (CSR-U-Net), a novel approach
+    to train a U-Net for this coarse supervision setting. CSR-U-Net takes in a fine-resolution
+    input image, and outputs a SIF prediction for each pixel; the average of the pixel
+    predictions is trained to equal the true coarse-resolution SIF for the entire
+    image. Even though this is a very weak form of supervision, CSR-U-Net can still
+    learn to predict accurately, due to its inherent localization abilities, plus
+    additional enhancements that facilitate the incorporation of scientific prior
+    knowledge. CSR-U-Net can resolve fine-grained variations in SIF more accurately
+    than existing averaging-based approaches, which ignore fine-resolution spatial
+    variation during training. CSR-U-Net could also be useful for a wide range of
+    "downscaling'" problems in climate science, such as increasing the resolution
+    of global climate models.
+  q1_track: Papers
+  primary_contact_author_name: Joshua Fan
+  primary_contact_author_email: jyf6@cornell.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Agriculture
+  secondary_subject_areas: Climate change -> Ecosystems and natural systems; Machine
+    learning -> Computer vision and remote sensing; Machine learning -> Unsupervised
+    and semi-supervised learning
+  author_names: Fan, Joshua*; Chen, Di; Wen, Jiaming; Sun, Ying; Gomes, Carla P
+  author_emails: jyf6@cornell.edu*; di@cs.cornell.edu; jw2495@cornell.edu; ys776@cornell.edu;
+    gomes@cs.cornell.edu
+  authors: Joshua Fan (Cornell University); Di Chen (Cornell University); Jiaming
+    Wen (Cornell University); Ying Sun (Cornell University); Carla P Gomes (Cornell
+    University)
+  cmt_id: 113
+  is_spotlight: true
+  subject_areas:
+  - Agriculture
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+  - Unsupervised and semi-supervised learning
+  id: 52
+  prev_paper_id: 51
+  next_paper_id: 53
+  paper_path: "/papers/neurips2021/52/paper.pdf"
+  slides_path: "/papers/neurips2021/52/slides.pdf"
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+  - Unsupervised and semi-supervised learning
+- paper_title: 'PreDisM: Pre-Disaster Modelling With CNN Ensembles for At-Risk Communities'
+  abstract: The machine learning community has recently had increased interest in
+    the climate and disaster damage domain due to a marked increased occurrences of
+    natural hazards (e.g., hurricanes, forest fires, floods, earthquakes). However,
+    not enough attention has been devoted to mitigating probable destruction from
+    impending natural hazards. We explore this crucial space by predicting building-level
+    damages on a before-the-fact basis that would allow state actors and non-governmental
+    organizations to be best equipped with resource distribution to minimize or preempt
+    losses. We introduce PreDisM that employs an ensemble of ResNets and fully connected
+    layers over decision trees to capture image-level and meta-level information to
+    accurately estimate weakness of man-made structures to disaster-occurrences. Our
+    model performs well and is responsive to tuning across types of disasters and
+    highlights the space of preemptive hazard damage modelling.
+  q1_track: Papers
+  primary_contact_author_name: Vishal Anand
+  primary_contact_author_email: va2361@columbia.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Climate change -> Buildings and cities; Machine learning
+    -> Computer vision and remote sensing; Machine learning -> Interpretable ML
+  author_names: Anand, Vishal*; Miura, Yuki
+  author_emails: va2361@columbia.edu*; ym2540@columbia.edu
+  authors: Vishal Anand (Columbia University); Yuki Miura (Columbia University)
+  cmt_id: 116
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Buildings and cities
+  - Computer vision and remote sensing
+  - Interpretable ML
+  id: 53
+  prev_paper_id: 52
+  next_paper_id: 54
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Buildings and cities
+  - Computer vision and remote sensing
+  - Interpretable ML
+- paper_title: A hybrid convolutional neural network/active contour approach to segmenting
+    dead trees in aerial imagery
+  abstract: Dead trees constitute 8% of the global carbon stocks and are decomposed
+    by several natural factors, e.g. climate and insects. Accurate detection and modeling
+    of dead trees is critical to understand forest ecology, the carbon cycle and decomposers.
+    We present a novel method to construct precise shape contours of dead trees from
+    aerial photographs by combining established convolutional neural networks with
+    a novel active contour model in an energy minimization framework. Our approach
+    yields greater accuracy over state-of-the-art in terms of precision, recall, and
+    intersection over union of detected dead trees. This improved performance is essential
+    to meet the emerging challenges caused by climate change (and other man-made perturbations
+    to the systems) and estimate carbon stock decay rates.
+  q1_track: Papers
+  primary_contact_author_name: Jacquelyn Shelton
+  primary_contact_author_email: jacquelyn.ann.shelton@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Carbon capture and sequestration; Climate
+    change -> Ecosystems and natural systems; Climate change -> Forestry and other
+    land use
+  author_names: Shelton, Jacquelyn*; Polewski, Przemyslaw; Lipman, Drew J; Heurich,
+    Marco; Yao, Wei
+  author_emails: jacquelyn.ann.shelton@gmail.com*; przemyslaw.polewski@gmail.com;
+    lipmandrew@gmail.com; marco.heurich@gmx.de; wei.hn.yao@polyu.edu.hk
+  authors: Jacquelyn Shelton (Hong Kong Polytechnic University); Przemyslaw Polewski
+    (TomTom Location Technology Germany GmbH); Drew J Lipman (MITRE corp.); Marco
+    Heurich (Bavarian Forest National Park); Wei Yao (The Hong Kong Polytechnic University)
+  cmt_id: 120
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Carbon capture and sequestration
+  - Ecosystems and natural systems
+  - Forestry and other land use
+  id: 54
+  prev_paper_id: 53
+  next_paper_id: 55
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Carbon capture and sequestration
+  - Ecosystems and natural systems
+  - Agriculture, forestry and other land use
+- paper_title: Semi-Supervised Classification and Segmentation on High Resolution
+    Aerial Images
+  abstract: FloodNet is a high-resolution image dataset acquired by a small UAV platform,
+    DJI Mavic Pro quadcopters, after Hurricane Harvey. The dataset presents a unique
+    challenge of advancing the damage assessment process for post-disaster scenarios
+    using unlabeled and limited labeled dataset. We propose a solution to address
+    their classification and semantic segmentation challenge. We approach this problem
+    by generating pseudo labels for both classification and segmentation during training
+    and slowly incrementing the amount by which the pseudo label loss affects the
+    final loss. Using this semi-supervised method of training helped us improve our
+    baseline supervised loss by a huge margin for classification, allowing the model
+    to generalize and perform better on the validation and test splits of the dataset.
+    In this paper, we compare and contrast the various methods and models for image
+    classification and semantic segmentation on the FloodNet dataset.
+  q1_track: Papers
+  primary_contact_author_name: Sahil S Khose
+  primary_contact_author_email: sahilkhose18@gmail.com
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Meta- and transfer learning; Machine learning ->
+    Unsupervised and semi-supervised learning
+  author_names: Khose, Sahil S*; Tiwari, Abhiraj; Ghosh, Ankita
+  author_emails: sahilkhose18@gmail.com*; abhirajtiwari@gmail.com; ankitaghosh0907@gmail.com
+  authors: Sahil S Khose (Manipal Institute of Technology); Abhiraj Tiwari (Manipal
+    Institute of Technology); Ankita Ghosh (Manipal Institute of Technology)
+  cmt_id: 121
+  is_spotlight: true
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Classification, regression, and supervised learning
+  - Meta- and transfer learning
+  - Unsupervised and semi-supervised learning
+  id: 55
+  prev_paper_id: 54
+  next_paper_id: 56
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Classification, regression, and supervised learning
+  - Meta- and transfer learning
+  - Unsupervised and semi-supervised learning
+- paper_title: Reducing the barriers of acquiring species-level ground-truth on passive
+    acoustic monitoring data using neural network assisted intelligent sampling techniques
+  abstract: The potential of passive acoustic monitoring (PAM) as a method to reveal
+    the consequences of climate change on the biodiversity that make up natural soundscapes
+    can be undermined by the discrepancy between the low barrier of entry to acquire
+    large field audio datasets and the higher barrier of acquiring reliable species
+    level training, validation, and test subsets from the field audio. These subsets
+    from a deployment are often required to verify any machine learning models used
+    to assist researchers in understanding the local biodiversity. Especially as many
+    models convey promising results from various sources that may not translate to
+    the collected field audio. Labeling such datasets is a resource intensive process
+    due to the lack of experts capable of identifying bioacoustics at a species level
+    as well as the overwhelming size of many PAM audiosets. To address this challenge,
+    we have tested different sampling techniques on an audio dataset collected over
+    a two-week long August audio array deployment on the Scripps Coastal Reserve (SCR)
+    Biodiversity Trail in La Jolla, California. These sampling techniques involve
+    creating four subsets using stratified random sampling, limiting samples to the
+    daily bird vocalization peaks, and using a hybrid convolutional neural network
+    (CNN) and recurrent neural network (RNN) trained for bird presence/absence audio
+    classification. We found that a stratified random sample baseline only achieved
+    a bird presence rate of 44\% in contrast with a sample that randomly selected
+    clips with high hybrid CNN-RNN predictions that were collected during bird activity
+    peaks at dawn and dusk yielding a bird presence rate of 95\%. The significantly
+    higher bird presence rate demonstrates how intelligent, machine learning-assisted
+    selection of audio data can significantly reduce the amount of time that domain
+    experts listen to audio without vocalizations of interest while building a ground
+    truth for machine learning models.
+  q1_track: Papers
+  primary_contact_author_name: Jacob G Ayers
+  primary_contact_author_email: jacobayers123@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Ecosystems and natural systems
+  secondary_subject_areas: Machine learning -> Computer vision and remote sensing
+  author_names: Ayers, Jacob G*; Kastner, Ryan
+  author_emails: jacobayers123@gmail.com*; kastner@eng.ucsd.edu
+  authors: Jacob G Ayers (UC San Diego); Ryan Kastner (University of California San
+    Diego)
+  cmt_id: 122
+  is_spotlight: false
+  subject_areas:
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+  id: 56
+  prev_paper_id: 55
+  next_paper_id: 57
+  condensed_subject_areas:
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+- paper_title: Two-phase training mitigates class imbalance for camera trap image
+    classification with CNNs
+  abstract: "By leveraging deep learning to automatically classify camera trap images,
+    ecologists can monitor biodiversity conservation efforts and the effects of climate
+    change on ecosystems more efficiently.  \nDue to the imbalanced class-distribution
+    of camera trap datasets, current models are biased towards the majority classes.
+    \nAs a result, they obtain good performance for a few majority classes but poor
+    performance for many minority classes.\nWe used two-phase training to increase
+    the performance for these minority classes. \nWe trained, next to a baseline model,
+    four models that implemented a different versions of two-phase training on a subset
+    of the highly imbalanced Snapshot Serengeti dataset. \nOur results suggest that
+    two-phase training can improve performance for many minority classes, with limited
+    loss in performance for the other classes. \nWe find that two-phase training based
+    on majority undersampling increases class-specific F1-scores up to 3.0\\%. \nWe
+    also find that two-phase training outperforms using only oversampling or undersampling
+    by 6.1\\% in F1-score on average. Finally, we find that a combination of over-
+    and undersampling leads to a better performance than using them individually."
+  q1_track: Papers
+  primary_contact_author_name: Ruben Cartuyvels
+  primary_contact_author_email: ruben.cartuyvels@kuleuven.be
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Ecosystems and natural systems
+  secondary_subject_areas: Machine learning -> Computer vision and remote sensing
+  author_names: Cartuyvels, Ruben*
+  author_emails: ruben.cartuyvels@kuleuven.be*
+  authors: Ruben Cartuyvels (KULeuven)
+  cmt_id: 124
+  is_spotlight: true
+  subject_areas:
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+  id: 57
+  prev_paper_id: 56
+  next_paper_id: 58
+  condensed_subject_areas:
+  - Ecosystems and natural systems
+  - Computer vision and remote sensing
+- paper_title: Capturing Electricity Market Dynamics in the Optimal Trading of Strategic
+    Agents using Neural Network Constrained Optimization
+  abstract: In competitive electricity markets the optimal trading problem of an electricity
+    market agent is commonly formulated as a bi-level program, and solved as mathematical
+    program with equilibrium constraints (MPEC). In this paper, an alternative paradigm,
+    labeled as mathematical program with neural network constraint (MPNNC), is developed
+    to incorporate complex market dynamics in the optimal bidding strategy. This method
+    uses input-convex neural networks (ICNNs) to represent the mapping between the
+    upper-level (agent) decisions and the lower-level (market) outcomes, i.e., to
+    replace the lower-level problem by a neural network. In a comparative analysis,
+    the optimal bidding problem of a load agent is formulated via the proposed MPNNC
+    and via the classical bi-level programming method, and compared against each other.
+  q1_track: Papers
+  primary_contact_author_name: Mihály Dolányi
+  primary_contact_author_email: mihaly.dolanyi@kuleuven.be
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Hybrid physical models
+  secondary_subject_areas: Climate change -> Climate finance and economics; Machine
+    learning -> Recommender systems
+  author_names: Dolányi, Mihály*; Bruninx, Kenneth; Toubeau, Jean-François; Delaue,
+    Erik
+  author_emails: mihaly.dolanyi@kuleuven.be*; kenneth.bruninx@kuleuven.be; jean-francois.toubeau@umons.ac.be;
+    erik.delarue@kuleuven.be
+  authors: Mihály Dolányi (KU Leuven); Kenneth Bruninx (KU Leuven); Jean-François
+    Toubeau (Faculté Polytechnique (FPMs), Université de Mons (UMONS)); Erik Delaue
+    (KU Leuven)
+  cmt_id: 125
+  is_spotlight: false
+  subject_areas:
+  - Hybrid physical models
+  - Climate finance and economics
+  - Recommender systems
+  id: 58
+  prev_paper_id: 57
+  next_paper_id: 59
+  condensed_subject_areas:
+  - Hybrid physical models
+  - Climate finance and economics
+  - Recommender systems
+- paper_title: Leverage Machine Learning to Predict the Autoconversion Rates from
+    Satellite Data
+  abstract: One way of reducing the uncertainty involved in determining the radiative
+    forcing of the Earth is by understanding the interaction between aerosols, clouds,
+    and precipitation processes, which can be studied using high-resolution simulations
+    such as the ICOsahedral Non-hydrostatic Large-Eddy Model (ICON-LEM). However,
+    due to the extremely high computational cost required, this model can only be
+    run for a limited amount of time within a limited area. To address this, we developed
+    models using emerging machine learning approaches that leverage a plethora of
+    satellite observations which provide long-term global spatial coverage. In particular,
+    we developed machine learning models capable of capturing the key process of precipitation
+    formation which greatly control cloud lifetime, namely autoconversion rates –
+    the term used to describe the collision and coalescence of cloud droplets responsible
+    for raindrop formation. We validate the performance of our models against the
+    simulation data, and the results showed that our models are capable of predicting
+    the autoconversion rate fairly well, with the best model (DNN) achieving an SSIM
+    index of 96.80%.
+  q1_track: Papers
+  primary_contact_author_name: Maria C Novitasari
+  primary_contact_author_email: m.novitasari@ucl.ac.uk
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Classification, regression, and supervised
+    learning
+  secondary_subject_areas: Climate change -> Climate modeling; Machine learning ->
+    Computer vision and remote sensing
+  author_names: Novitasari, Maria C*; Quaas, Johannes; Rodrigues, Miguel
+  author_emails: m.novitasari@ucl.ac.uk*; johannes.quaas@uni-leipzig.de; m.rodrigues@ucl.ac.uk
+  authors: Maria C Novitasari (University College London); Johannes Quaas (University
+    of Leipzig); Miguel Rodrigues (University College London)
+  cmt_id: 126
+  is_spotlight: false
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Climate modeling
+  - Computer vision and remote sensing
+  id: 59
+  prev_paper_id: 58
+  next_paper_id: 60
+  condensed_subject_areas:
+  - Classification, regression, and supervised learning
+  - Climate and Earth science
+  - Computer vision and remote sensing
+- paper_title: Towards Automatic Transformer-based Cloud Classification and Segmentation
+  abstract: Clouds have been demonstrated to have a huge impact on the energy balance,
+    temperature, and weather of the Earth. Classification and segmentation of clouds
+    and coverage factors is crucial for climate modelling, meteorological studies,
+    solar energy industry, and satellite communication. For example, clouds have a
+    tremendous impact on short-term predictions or 'nowcasts' of solar irradiance
+    and can be used to optimize solar power plants and effectively exploit solar energy.
+    However even today, cloud observation requires the intervention of highly-trained
+    professionals to document their findings, which introduces bias. To overcome these
+    issues and contribute to climate change technology, we propose, to the best of
+    our knowledge, the first two transformer-based models applied to cloud data tasks.
+    We use the CCSD Cloud classification dataset and achieve 90.06% accuracy, outperforming
+    all other methods. To demonstrate the robustness of transformers in this domain,
+    we perform Cloud segmentation on SWIMSWG dataset and achieve 83.2% IoU, also outperforming
+    other methods. With this, we signal a potential shift away from pure CNN networks.
+  q1_track: Papers
+  primary_contact_author_name: Ahan M R
+  primary_contact_author_email: f20160487@goa.bits-pilani.ac.in
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Earth
+    science and monitoring; Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Data mining
+  author_names: Roy, Roshan; M R, Ahan*
+  author_emails: rroshanroy@gmail.com; f20160487@goa.bits-pilani.ac.in*
+  authors: Roshan Roy (Birla Institute of Technology and Science, Pilani); Ahan M
+    R (BITS Pilani)
+  cmt_id: 129
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Climate modeling
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Data mining
+  id: 60
+  prev_paper_id: 59
+  next_paper_id: 61
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Climate and Earth science
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  - Data mining
+- paper_title: Scalable coastal inundation mapping using machine learning
+  abstract: Coastal flooding is a significant climate hazard with impacts across economic
+    sectors and society. This study provides a proof of concept for data-driven models
+    for coastal flood inundation at the country scale, incorporating storm dynamics
+    and geospatial characteristics to improve upon simpler geomorphological models.
+    The best fit machine learning model scores an AUC of 0.92 in predicting flooded
+    locations. For a case study storm event in December 2013 we find that all models
+    over-predict flood extents, but that the machine learning model extents were closest
+    to those observed.
+  q1_track: Papers
+  primary_contact_author_name: Ophelie Meuriot
+  primary_contact_author_email: ophelie.meuriot@ibm.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Classification, regression, and supervised
+    learning
+  secondary_subject_areas: Climate change -> Climate modeling; Machine learning ->
+    Other
+  author_names: Meuriot, Ophelie*; Jones, Anne
+  author_emails: ophelie.meuriot@ibm.com*; anne.jones@ibm.com
+  authors: Ophelie Meuriot (IBM Research Europe); Anne Jones (IBM Research)
+  cmt_id: 138
+  is_spotlight: false
+  subject_areas:
+  - Classification, regression, and supervised learning
+  - Climate modeling
+  - Other
+  id: 61
+  prev_paper_id: 60
+  next_paper_id: 62
+  condensed_subject_areas:
+  - Classification, regression, and supervised learning
+  - Climate and Earth science
+  - Other
+- paper_title: Machine Learning in Automating Carbon Sequestration Site Assessment
+  abstract: Carbon capture and sequestration are viewed as an indispensable component
+    to achieve the Paris Agreement climate goal, i.e., keep the global warming within
+    2 degrees Celsius from pre-industrial levels. Once captured, most CO2 needs to
+    be stored securely for at least decades, preferably in deep underground geological
+    formations. It is economical to inject and store CO2 near/around a depleted gas/oil
+    reservoir or well, where a geological trap for CO2 with good sealing properties
+    and some minimum infrastructure exist. In this proposal, with our preliminary
+    work, it is shown that Machine Learning tools like Optical Character Recognition
+    and Natural Language Processing can aid in screening and selection of injection
+    sites for CO2 storage, facilitate identification of possible CO2 leakage paths
+    in the subsurface, and assist in locating a depleted gas/oil well suitable for
+    CO2 injection and long-term storage. The automated process based on ML tools can
+    also drastically decrease the decision-making cycle time in site selection and
+    assessment phase by reducing human effort. In the longer term, we expect ML tools
+    like Deep Neural Networks to be utilized in CO2 storage monitoring, injection
+    optimization etc. By injecting CO2 into a trapping geological underground formation
+    in a safe and sustainable manner, the Energy industry can contribute substantially
+    to reducing global warming and achieving the goals of the Paris Agreement by the
+    end of this century.
+  q1_track: Proposals
+  primary_contact_author_name: Mohamed Sidahmed
+  primary_contact_author_email: mohamed.sidahmed@shell.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Climate change -> Climate finance and economics; Machine
+    learning -> Active learning; Machine learning -> Computer vision and remote sensing
+  author_names: Chen, Jay; Lu, Ligang; Sidahmed, Mohamed*; Bai, Taixu; Folmar, Ilyana;
+    Seth, Puneet; Sarfare, Manoj; Mikulencak, Duane; Akil, Ihab
+  author_emails: Jay.J.Chen@shell.com; Ligang.Lu@shell.com; mohamed.sidahmed@shell.com*;
+    Taixu.Bai@shell.com; Ilyana.Folmar@shell.com; Puneet.Seth@shell.com; Manoj.Sarfare@shell.com;
+    Duane.Mikulencak@shell.com; Ihab.I.Akil@shell.com
+  authors: Jay Chen (Shell); Ligang Lu (Shell); Mohamed Sidahmed (Shell); Taixu Bai
+    (Shell); Ilyana Folmar (Shell); Puneet Seth (Shell); Manoj Sarfare (Shell); Duane
+    Mikulencak (Shell); Ihab Akil (Shell)
+  cmt_id: 10
+  is_spotlight: false
+  subject_areas:
+  - Carbon capture and sequestration
+  - Climate finance and economics
+  - Active learning
+  - Computer vision and remote sensing
+  id: 62
+  prev_paper_id: 61
+  next_paper_id: 63
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Climate finance and economics
+  - Active learning
+  - Computer vision and remote sensing
+- paper_title: A Risk Model for Predicting Powerline-induced Wildfires in Distribution
+    System
+  abstract: 'The power grid is one of the most common causes of wildfires that result
+    in tremendous economic loss and significant life risk. In this study, we propose
+    to use machine learning techniques to build a risk model for predicting powerline-induced
+    wildfires in distribution system. We collect weather, vegetation, and infrastructure
+    data for all feeders in Pacific Gas & Electricity territory. This study will contribute
+    to a deeper understanding of powerline-induced wildfire prediction and provide
+    valuable suggestions for wildfire mitigation planning. '
+  q1_track: Proposals
+  primary_contact_author_name: Mengqi Yao
+  primary_contact_author_email: mqyao@berkeley.edu
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Disaster prediction, management, and relief
+  secondary_subject_areas: Climate change -> Power and energy systems; Machine learning
+    -> Classification, regression, and supervised learning; Machine learning -> Data
+    mining
+  author_names: Yao, Mengqi*
+  author_emails: mqyao@berkeley.edu*
+  authors: Mengqi Yao (University of California Berkeley)
+  cmt_id: 16
+  is_spotlight: false
+  subject_areas:
+  - Disaster prediction, management, and relief
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Data mining
+  id: 63
+  prev_paper_id: 62
+  next_paper_id: 64
+  condensed_subject_areas:
+  - Disaster prediction, management, and relief
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Data mining
+- paper_title: Detecting Abandoned Oil Wells Using Machine Learning and Semantic Segmentation
+  abstract: Around the world, there are millions of unplugged abandoned oil and gas
+    wells, leaking methane into the atmosphere. The locations of many of these wells,
+    as well as their greenhouse gas emissions impacts, are unknown. Machine learning
+    methods in computer vision and remote sensing, such as semantic segmentation,
+    have made it possible to quickly analyze large amounts of satellite imagery to
+    detect salient information. This project aims to automatically identify abandoned
+    oil wells in the province of Alberta, Canada to aid in estimating emissions and
+    plugging high-emitting wells.
+  q1_track: Proposals
+  primary_contact_author_name: Michelle Lin
+  primary_contact_author_email: michelle.lin2@mail.mcgill.ca
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Computer vision and remote sensing
+  author_names: Lin, Michelle*; Rolnick, David
+  author_emails: michelle.lin2@mail.mcgill.ca*; drolnick@cs.mcgill.ca
+  authors: Michelle Lin (McGill University); David Rolnick (McGill University, Mila)
+  cmt_id: 19
+  is_spotlight: true
+  subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+  id: 64
+  prev_paper_id: 63
+  next_paper_id: 65
+  condensed_subject_areas:
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Computer vision and remote sensing
+- paper_title: Machine learning-enabled model-data integration for predicting subsurface
+    water storage
+  abstract: 'Subsurface water storage (SWS) is a key variable of the climate system
+    and a storage component for precipitation and radiation anomalies, inducing persistence
+    in the climate system. It plays a critical role in climate-change projections
+    and can mitigate the impacts of climate change on ecosystems. However, because
+    of the difficult accessibility of the underground, hydrologic properties and dynamics
+    of SWS are poorly known. Direct observations of SWS are limited, and accurate
+    incorporation of SWS dynamics into Earth system land models remains challenging.
+    We propose a machine learning-enabled model-data integration framework to improve
+    the SWS prediction at local to conus scales in a changing climate by leveraging
+    all the available observation and simulation resources, as well as to inform the
+    model development and guide the observation collection. The accurate prediction
+    will enable an optimal decision of water management and land use and improve the
+    ecosystem''s resilience to the climate change. '
+  q1_track: Proposals
+  primary_contact_author_name: Dan Lu
+  primary_contact_author_email: lud1@ornl.gov
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Ecosystems and natural systems
+  secondary_subject_areas: Climate change -> Earth science and monitoring
+  author_names: 'Lu, Dan*; Pierce, Eric; Kao, Shih-Chieh; Womble, David; LI, LI; Rempe,
+    Daniella '
+  author_emails: lud1@ornl.gov*; pierceem@ornl.gov; kaos@ornl.gov; womblede@ornl.gov;
+    lxl35@psu.edu; rempe@jsg.utexas.edu
+  authors: Dan Lu (Oak Ridge National Laboratory); Eric Pierce (Oak Ridge National
+    Laboratory); Shih-Chieh Kao (Oak Ridge National Laboratory); David Womble (Oak
+    Ridge National Laboratory); LI LI (Pennsylvania State University); Daniella  Rempe
+    (The University of Texas at Austin)
+  cmt_id: 23
+  is_spotlight: false
+  subject_areas:
+  - Ecosystems and natural systems
+  - Earth science and monitoring
+  id: 65
+  prev_paper_id: 64
+  next_paper_id: 66
+  paper_path: "/papers/neurips2021/65/paper.pdf"
+  slides_path: "/papers/neurips2021/65/slides.pdf"
+  condensed_subject_areas:
+  - Ecosystems and natural systems
+  - Earth science and monitoring
+- paper_title: Hybrid physics-based and data-driven modeling with calibrated uncertainty
+    for lithium-ion battery degradation diagnosis and prognosis
+  abstract: Advancing lithium-ion batteries (LIB) in both design and usage is key
+    to promoting electrification in the coming decades to mitigate human-caused climate
+    change. Inadequate understanding of LIB degradation is an important bottleneck
+    that limits battery durability and safety. Here, we propose hybrid physics-based
+    and data-driven modeling for online diagnosis and prognosis of battery degradation.
+    Compared to existing battery modeling efforts, we aim to build a model with physics
+    as its backbone and statistical learning techniques as enhancements. Such a hybrid
+    model has better generalizability and interpretability together with a well-calibrated
+    uncertainty associated with its prediction, rendering it more valuable and relevant
+    to safety-critical applications under realistic usage scenarios.
+  q1_track: Proposals
+  primary_contact_author_name: Edwin Khoo
+  primary_contact_author_email: edwin_khoo@i2r.a-star.edu.sg
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Hybrid physical models
+  secondary_subject_areas: Climate change -> Power and energy systems; Machine learning
+    -> Causal and Bayesian methods; Machine learning -> Classification, regression,
+    and supervised learning; Machine learning -> Time-series analysis; Machine learning
+    -> Uncertainty quantification and robustness
+  author_names: Lin, Jing; Zhang, Yu; Khoo, Edwin*
+  author_emails: lin_jing@i2r.a-star.edu.sg; zhang_yu@i2r.a-star.edu.sg; edwin_khoo@i2r.a-star.edu.sg*
+  authors: Jing Lin (Institute for Infocomm Research); Yu Zhang (I2R); Edwin Khoo
+    (Institute for Infocomm Research)
+  cmt_id: 25
+  is_spotlight: false
+  subject_areas:
+  - Hybrid physical models
+  - Power and energy systems
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  - Uncertainty quantification and robustness
+  id: 66
+  prev_paper_id: 65
+  next_paper_id: 67
+  condensed_subject_areas:
+  - Hybrid physical models
+  - Power and energy systems
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  - Uncertainty quantification and robustness
+- paper_title: On the use of Deep Generative Models for "Perfect'" Prognosis Climate
+    Downscaling
+  abstract: Deep Learning has recently emerged as a "perfect" prognosis downscaling
+    technique to compute high-resolution fields from large-scale coarse atmospheric
+    data. Despite their promising results to reproduce the observed local variability,
+    they are based on the estimation of independent distributions at each location,
+    which leads to deficient spatial structures, especially when downscaling precipitation.
+    This study proposes the use of generative models to improve the spatial consistency
+    of the high-resolution fields, very demanded by some sectoral applications (e.g.,
+    hydrology) to tackle climate change.
+  q1_track: Proposals
+  primary_contact_author_name: Jose González Abad
+  primary_contact_author_email: gonzabad@ifca.unican.es
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate modeling
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Generative modeling
+  author_names: González Abad, Jose*; Baño-Medina, Jorge; Heredia, Ignacio
+  author_emails: gonzabad@ifca.unican.es*; bmedina@ifca.unican.es; iheredia@ifca.unican.es
+  authors: Jose González Abad (Institute of Physics of Cantabria); Jorge Baño-Medina
+    (Institute of Physics of Cantabria); Ignacio Heredia (Instituto de Física de Cantabria)
+  cmt_id: 34
+  is_spotlight: false
+  subject_areas:
+  - Climate modeling
+  - Classification, regression, and supervised learning
+  - Generative modeling
+  id: 67
+  prev_paper_id: 66
+  next_paper_id: 68
+  paper_path: "/papers/neurips2021/67/paper.pdf"
+  slides_path: "/papers/neurips2021/67/slides.pdf"
+  condensed_subject_areas:
+  - Climate and Earth science
+  - Classification, regression, and supervised learning
+  - Generative modeling
+- paper_title: A Deep Learning application towards transparent communication for Payment
+    for Forest Environmental Services (PES)
+  abstract: 'Deforestation accounts for more than 20% of global emission. Payments
+    for Environmental Services (PES) is seen by both policy makers and practitioners
+    as an effective market-based instrument to provide financial incentives for forest
+    owners, particularly poor and indigenous households in developing countries. It
+    is a critical instrument to protect forests, and ultimately to mitigate climate
+    change and reduce emission from deforestation. However, previous studies have
+    pointed out a key challenge for PES is to ensure transparent payment to local
+    people, due to i) weak monitoring and evaluation and ii) indigenous inaccessibility
+    to e-banking and complying with procedural and administrative paper works to receive
+    payments. Specifically, the amount and the complexity of forms along with the
+    language barriers is a key issue; and most transactions need several intermediaries
+    and transaction costs which reduce the payments reaching landowners. To address
+    these issues, we propose a communication platform that links across the stakeholders
+    and processes. Our proposal will utilize Machine Learning techniques to lower
+    the language barrier and provide technology solutions to help indigenous people
+    to access payments. This would also help improve the effectiveness and transparency
+    of PES schemes. Specifically, we propose the use of Natural Language Processing
+    techniques in providing a speech-to-text and auto translation capability, and
+    the use of Graph Neural Network to provide link predictions of transaction types,
+    volumes and values. The pathway to impact will be forest protection and local
+    livelihood through providing financial incentives, and subsequently contribution
+    to more carbon sequestration and storage – a key issue in climate change mitigation.
+
+'
+  q1_track: Proposals
+  primary_contact_author_name: Lan  HOANG
+  primary_contact_author_email: Lan.Hoang@ibm.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Forestry and other land use
+  secondary_subject_areas: Machine learning -> Natural language processing
+  author_names: HOANG, Lan *; Phan, Thuy Thu
+  author_emails: Lan.Hoang@ibm.com*; brissiesugar@gmail.com
+  authors: Lan  HOANG (IBM Research); Thuy Thu Phan (Center for International Forestry
+    Research (CIFOR))
+  cmt_id: 36
+  is_spotlight: false
+  subject_areas:
+  - Forestry and other land use
+  - Natural language processing
+  id: 68
+  prev_paper_id: 67
+  next_paper_id: 69
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Natural language processing
+- paper_title: A NLP-based Analysis of Alignment of Organizations' Climate-Related
+    Risk Disclosures with Material Risks and Metrics
+  abstract: "The Sustainability Accounting Standards Board (SASB) establishes standards
+    to guide the disclosures of material sustainability and ESG (Environment, Social,
+    Governance)-related information across industries. The availability of quality,
+    comparable and decision-useful information is required to assess risks and opportunities
+    later integrated into financial decision-making. Particularly, standardized, industry-specific
+    climate risk metrics and topics can support these efforts. SASB’s latest climate
+    risk technical bulletin introduces three climate-related risks that are financially
+    material - physical, transition and regulatory risks - and maps these across industries.
+    \nThe main objective of this work is to create a framework that can analyze climate
+    related risk disclosures using an AI-based tool that automatically extracts and
+    categorizes climate-related risks and related metrics from company disclosures
+    based on SASB’s latest climate risk guidance. This process will help with automating
+    large-scale analysis and add much-needed transparency vis-a-vis the current state
+    of climate-related disclosures, while also assessing how far along companies are
+    currently disclosing information on climate risks relevant to their industry.
+    As it stands, this much needed type of analysis is made mostly manually or using
+    third-party metrics, often opaque and biased, as proxies. In this work, we will
+    first create a climate risk glossary that will be trained on a large amount of
+    climate risk text. By combining climate risk keywords in this glossary with recent
+    advances in natural language processing (NLP), we will then be able to quantitatively
+    and qualitatively compare climate risk information in different sectors and industries
+    using a novel climate risk score that will be based on SASB standards."
+  q1_track: Proposals
+  primary_contact_author_name: Elham Kheradmand
+  primary_contact_author_email: elham.kheradmand.nezhad@umontreal.ca
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Climate finance and economics
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning; Machine learning -> Natural language processing
+  author_names: Kheradmand, Elham*; Serre, Didier; Morales, Manuel; Robert, Cedric
+    B
+  author_emails: elham.kheradmand.nezhad@umontreal.ca*; dserre@clearsum.com; manuel.morales@umontreal.ca;
+    cbrobert@clearsum.com
+  authors: Elham Kheradmand (University of Montreal); Didier Serre (Clearsum); Manuel
+    Morales (University of Montreal); Cedric B Robert (Clearsum)
+  cmt_id: 42
+  is_spotlight: false
+  subject_areas:
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+  - Natural language processing
+  id: 69
+  prev_paper_id: 68
+  next_paper_id: 70
+  condensed_subject_areas:
+  - Climate finance and economics
+  - Classification, regression, and supervised learning
+  - Natural language processing
+- paper_title: 'Unsupervised Machine Learning framework for sensor placement optimization:
+    analyzing methane leaks'
+  abstract: 'Methane is one of the most potent greenhouse gases, with the global oil
+    and gas industry being the second largest source of anthropogenic methane emissions,
+    accounting for about 63% of the whole energy sector.  This underscores the importance
+    of detecting and remediating methane leaks for the entire oil and gas value chain.
+    Methane sensor networks are a promising technology to detect methane leaks in
+    a timely manner. While they provide near-real-time monitoring of an area of interest,
+    the density of the network can be cost prohibitive, and the identification of
+    the source of the leak is not apparent, especially where there could be more than
+    one source. To address these issues, we developed a machine learning framework
+    that leverages various data sources including oil and gas facilities data, historical
+    methane leak rate distribution and meteorological data, to optimize sensor placement.
+    The determination of sensor locations follows the objective to maximize the detection
+    of possible methane leaks with a limited sensor budget. '
+  q1_track: Proposals
+  primary_contact_author_name: Sara Malvar
+  primary_contact_author_email: saramalvar@microsoft.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Earth science and monitoring
+  secondary_subject_areas: Climate change -> Other; Machine learning -> Other; Machine
+    learning -> Unsupervised and semi-supervised learning
+  author_names: Wang, Shirui; Malvar, Sara*; Nunes, Leonardo; Whitehall, Kim; Oruganti,
+    Yagna; Alaudah, Yazeed; Badam, Anirudh
+  author_emails: sruiwang1182@gmail.com; saramalvar@microsoft.com*; lnunes@microsoft.com;
+    kim.whitehall@microsoft.com; yagna.oruganti@microsoft.com; yazeed.alaudah@microsoft.com;
+    anirudh.badam@microsoft.com
+  authors: Shirui Wang (University of Houston); Sara Malvar (Microsoft); Leonardo
+    Nunes (Microsoft); Kim Whitehall (Microsoft); Yagna Oruganti (Microsoft); Yazeed
+    Alaudah (Microsoft); Anirudh Badam (Microsoft)
+  cmt_id: 46
+  is_spotlight: false
+  subject_areas:
+  - Earth science and monitoring
+  - Other
+  - Unsupervised and semi-supervised learning
+  id: 70
+  prev_paper_id: 69
+  next_paper_id: 71
+  condensed_subject_areas:
+  - Earth science and monitoring
+  - Other
+  - Unsupervised and semi-supervised learning
+- paper_title: Multi-agent reinforcement learning for renewable integration in the
+    electric power grid
+  abstract: 'As part of the fight against climate change, the electric power system
+    is transitioning from fuel-burning generators to renewable sources of power like
+    wind and solar. To allow for the grid to rely heavily on renewables, important
+    operational changes must be done. For example, novel approaches for frequency
+    regulation, i.e., for balancing in real-time demand and generation, are required
+    to ensure the stability of a renewable electric system. Demand response programs
+    in which loads adjust in part their power consumption for the grid''s benefit,
+    can be used to provide frequency regulation. In this proposal, we present and
+    motivate a collaborative multi-agent reinforcement learning approach to meet the
+    algorithmic requirements for providing real-time power balancing with demand response. '
+  q1_track: Proposals
+  primary_contact_author_name: Vincent Mai
+  primary_contact_author_email: vincent.mai@umontreal.ca
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: 'Machine learning -> Reinforcement learning and control '
+  author_names: Mai, Vincent*; Zhang, Tianyu; Lesage-Landry, Antoine
+  author_emails: vincent.mai@umontreal.ca*; tianyu.zhang@mila.quebec; antoine.lesage-landry@polymtl.ca
+  authors: Vincent Mai (Mila, Université de Montréal); Tianyu Zhang (Mila, Université
+    de Montréal); Antoine Lesage-Landry (Polytechnique Montréal & GERAD)
+  cmt_id: 50
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+  id: 71
+  prev_paper_id: 70
+  next_paper_id: 72
+  condensed_subject_areas:
+  - Power and energy systems
+  - 'Reinforcement learning and control '
+- paper_title: Machine Learning Speeding Up the Development of Portfolio of New Crop
+    Varieties to Adapt to and Mitigate Climate Change
+  abstract: 'Climate change poses serious challenges to achieving food security in
+    a time of a need to produce more food to keep up with the world’s increasing demand
+    for food. There is an urgent need to speed up the development of new high yielding
+    varieties with traits of adaptation and mitigation to climate change. Mathematical
+    approaches, including ML approaches, have been used to search for such traits,
+    leading to unprecedented results as some of the traits, including heat traits
+    that have been long sought-for, have been found within a short period of time. '
+  q1_track: Proposals
+  primary_contact_author_name: Abdallah Bari
+  primary_contact_author_email: a.bari@operai.ca
+  status: Accept (Paper --> Proposal)
+  primary_subject_area: Climate change -> Agriculture
+  secondary_subject_areas: Climate change -> Carbon capture and sequestration; Machine
+    learning -> Causal and Bayesian methods; Machine learning -> Classification, regression,
+    and supervised learning; Machine learning -> Time-series analysis; Machine learning
+    -> Unsupervised and semi-supervised learning
+  author_names: Bari, Abdallah*; Ouabbou, Hassan; Jilal, Abderrazek ; Stoddard, Frederick;
+    Sillanpää, Mikko; Khazaei, Hamid
+  author_emails: a.bari@operai.ca*; hassan.ouabbou@gmail.com; abderrazek_2001@yahoo.fr;
+    frederick.stoddard@helsinki.fi; Mikko.Sillanpaa@oulu.fi; hamid.khazaei@worldveg.org
+  authors: Abdallah Bari (OperAI Canada - Operational AI); Hassan Ouabbou (INRA);
+    Abderrazek  Jilal (INRA); Frederick Stoddard (University of Helsinki); Mikko Sillanpää
+    (University of Oulu); Hamid Khazaei (World Vegetable Center)
+  cmt_id: 70
+  is_spotlight: false
+  subject_areas:
+  - Agriculture
+  - Carbon capture and sequestration
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  - Unsupervised and semi-supervised learning
+  id: 72
+  prev_paper_id: 71
+  next_paper_id: 73
+  paper_path: "/papers/neurips2021/72/paper.pdf"
+  slides_path: "/papers/neurips2021/72/slides.pdf"
+  condensed_subject_areas:
+  - Agriculture, forestry and other land use
+  - Carbon capture and sequestration
+  - Causal and Bayesian methods
+  - Classification, regression, and supervised learning
+  - Time-series analysis
+  - Unsupervised and semi-supervised learning
+- paper_title: 'Toward Foundation Models for Earth Monitoring: Proposal for a Climate
+    Change Benchmark'
+  abstract: 'Recent progress in self-supervision shows that pre-training large neural
+    networks on vast amounts of unsupervised data can lead to impressive increases
+    in generalisation for downstream tasks. Such models, recently coined as foundation
+    models, have been transformational to the field of natural language processing.
+    While similar models have also been trained on large corpuses of images, they
+    are not well suited for remote sensing data. To stimulate the development of foundation
+    models for Earth monitoring, we propose to develop a new benchmark comprised of
+    a variety of downstream tasks related to climate change. We believe that this
+    can lead to substantial improvements in many existing applications and facilitate
+    the development of new applications. This proposal is also a call for collaboration
+    with the aim of developing a better evaluation process to mitigate potential downsides
+    of foundation models for Earth monitoring. '
+  q1_track: Proposals
+  primary_contact_author_name: Alexandre Lacoste
+  primary_contact_author_email: alexandre.lacoste@servicenow.com
+  status: Accept (Poster)
+  primary_subject_area: Machine learning -> Computer vision and remote sensing
+  secondary_subject_areas: Climate change -> Agriculture; Climate change -> Climate
+    modeling; Climate change -> Disaster prediction, management, and relief; Climate
+    change -> Ecosystems and natural systems; Climate change -> Forestry and other
+    land use; Machine learning -> Meta- and transfer learning
+  author_names: Lacoste, Alexandre*; Sherwin, Evan D; Kerner, Hannah R; Alemohammad,
+    Hamed; Lütjens, Björn; Irvin, Jeremy A; Dao, David; Chang, Alex; Gunturkun, Mehmet;
+    Drouin, Alexandre; Rodriguez, Pau; Vazquez, David
+  author_emails: alexandre.lacoste@servicenow.com*; evands@stanford.edu; hkerner@umd.edu;
+    hamed@radiant.earth; lutjens@mit.edu; jirvin16@stanford.edu; david.dao@inf.ethz.ch;
+    alex.chang@servicenow.com; mehmet.gunturkun@servicenow.com; alexandre.drouin@servicenow.com;
+    pau.rodriguez@servicenow.com; david.vazquez@servicenow.com
+  authors: Alexandre Lacoste (ServiceNow); Evan D Sherwin (Stanford University, Energy
+    and Resources Engineering); Hannah R Kerner (University of Maryland); Hamed Alemohammad
+    (Radiant Earth Foundation); Björn Lütjens (MIT); Jeremy A Irvin (Stanford); David
+    Dao (ETH Zurich); Alex Chang (Service Now); Mehmet Gunturkun (Element Ai); Alexandre
+    Drouin (ServiceNow); Pau Rodriguez (Element AI); David Vazquez (ServiceNow)
+  cmt_id: 72
+  is_spotlight: false
+  subject_areas:
+  - Computer vision and remote sensing
+  - Agriculture
+  - Climate modeling
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural systems
+  - Forestry and other land use
+  - Meta- and transfer learning
+  id: 73
+  prev_paper_id: 72
+  next_paper_id: 74
+  condensed_subject_areas:
+  - Computer vision and remote sensing
+  - Agriculture, forestry and other land use
+  - Climate and Earth science
+  - Disaster prediction, management, and relief
+  - Ecosystems and natural systems
+  - Meta- and transfer learning
+- paper_title: Optimization of Agricultural Management for SoilCarbon Sequestration
+    based on Deep ReinforcementLearning and Large-Scale Simulations
+  abstract: Soil carbon sequestration in croplands has tremendous potential to help
+    mitigate climate change; however, it is challenging to develop the optimal management
+    practices for maximization of the sequestered carbon as well as the crop yield.
+    This project aims to develop an intelligent agricultural management system using
+    deep reinforcement learning (RL) and large-scale soil and crop simulations. To
+    achieve this, we propose to build a simulator to model and simulate the complex
+    soil-water-plant-atmosphere interaction. By formulating the management decision
+    as an RL problem, we can leverage the state-of-the-art algorithms to train management
+    policies through extensive interactions with the simulated environment. The trained
+    policies are expected to maximize the stored organic carbon while maximizing the
+    crop yield in the presence of uncertain weather conditions. The whole system will
+    be tested using data of soil and crops in both mid-west of the United States and
+    the central region of Portugal. The proposed research will impact food security
+    and climate change, two of the most significant challenges currently facing humanity.
+  q1_track: Proposals
+  primary_contact_author_name: Jing Wu
+  primary_contact_author_email: jingwu6@illinois.edu
+  status: Accept (Poster)
+  primary_subject_area: 'Machine learning -> Reinforcement learning and control '
+  secondary_subject_areas: Climate change -> Carbon capture and sequestration
+  author_names: Wu, Jing*; Zhao, Pan; Tao, Ran; Hovakimyan, Naira; Marcillo, Guillermo;
+    Martin, Nicolas; Ferreira, Carla ; Kalantari, Zahra ; Hobbs, Jennifer
+  author_emails: jingwu6@illinois.edu*; panzhao2@illinois.edu; rant3@illinois.edu;
+    nhovakim@illinois.edu; marcillo@illinois.edu; nfmartin@illinois.edu; carla.ferreira@natgeo.su.se;
+    zahrak@kth.se; jennifer@intelinair.com
+  authors: Jing Wu (University of Illinois Urbana-Champaign); Pan Zhao (University
+    of Illinois Urbana-Champaign); Ran Tao (University of Illinois Urbana-Champaign);
+    Naira Hovakimyan (UIUC); Guillermo Marcillo (University of Illinois at Urbana-Champaign);
+    Nicolas Martin (University of Illinois at Urbana-Champaign); Carla  Ferreira (Royal
+    Institute of Technology); Zahra  Kalantari (Royal Institute of Technology); Jennifer
+    Hobbs (IntelinAir Inc.)
+  cmt_id: 102
+  is_spotlight: false
+  subject_areas:
+  - 'Reinforcement learning and control '
+  - Carbon capture and sequestration
+  id: 74
+  prev_paper_id: 73
+  next_paper_id: 75
+  condensed_subject_areas:
+  - 'Reinforcement learning and control '
+  - Carbon capture and sequestration
+- paper_title: Leveraging machine learning for identify hydrological extreme events
+    under global climate change
+  abstract: |-
+    Hydrological extreme events, such as droughts and floods, are highly destructive 1 natural disasters and its occurrence is expected to increase under the future climate change. Accurate and efficient approach to detect such events will provide timely information to assist management strategies for minimizing socio-economic damages. Despite the threshold approach has established to detect extreme events, the missing data from hydroclimate data and accurately identifying these events are still major challenges. The advent of machine learning models can help to identify the occurrence of droughts and floods events accurately and efficiently. Therefore, this proposed study will develop a machine learning model with semi-supervised anomaly detection approach to identify hydrological extreme events with ground-based data. As a test case, we will use 45-years record of hydroclimate data in coastal California, where was the driest region in 2012-2015,
+    following with flash floods events. The expected results will increase communities’ awareness for hydrological extreme events and enable environmental planning and resource management under climate change
+  q1_track: Proposals
+  primary_contact_author_name: Ying-Jung C Deweese
+  primary_contact_author_email: yingjungcd@gmail.com
+  status: Accept (Poster)
+  primary_subject_area: Climate change -> Earth science and monitoring
+  secondary_subject_areas: Machine learning -> Classification, regression, and supervised
+    learning
+  author_names: Deweese, Ying-Jung C*
+  author_emails: yingjungcd@gmail.com*
+  authors: Ying-Jung C Deweese (Georgia Insititute of Technology)
+  cmt_id: 108
+  is_spotlight: false
+  subject_areas:
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+  id: 75
+  prev_paper_id: 74
+  next_paper_id: 76
+  condensed_subject_areas:
+  - Earth science and monitoring
+  - Classification, regression, and supervised learning
+- paper_title: Predicting Cascading Failures in Power Systems using Graph Convolutional
+    Networks
+  abstract: On the way to combating climate change, decarbonisation of electricity
+    generation is becoming increasingly important. Worldwide targets are set for the
+    increase of renewable power generation in electricity networks. Consequently,
+    a secure power system that can handle the complexities resulted from the increased
+    renewable source integration is crucial. One particular complexity is the possibility
+    of cascading failures -- a quick succession of multiple component failures that
+    takes down the system and might also lead to a blackout. Early detection and containment
+    of such failures is challenging because it is combinatorial in nature and has
+    to contend with the spatial aspects of the power system as well as the temporal
+    evolution of failures. Viewing the prediction of cascading failures as a binary
+    classification task, we explore the efficacy of Graph Convolution Networks (GCNs),
+    to detect the early onset of a cascading failure. We perform experiments based
+    on simulated data from a benchmark IEEE test system. Our preliminary findings
+    show that GCNs achieve higher accuracy scores than other baselines which bodes
+    well for detecting cascading failures. It also motivates a more comprehensive
+    study of graph-based deep learning techniques in this research topic.
+  q1_track: Proposals
+  primary_contact_author_name: Tabia Ahmad
+  primary_contact_author_email: tabia.ahmad@strath.ac.uk
+  status: Accept (Paper --> Proposal)
+  primary_subject_area: Climate change -> Power and energy systems
+  secondary_subject_areas: Climate change -> Carbon capture and sequestration; Machine
+    learning -> Classification, regression, and supervised learning; Machine learning
+    -> Data mining; Machine learning -> Unsupervised and semi-supervised learning
+  author_names: Ahmad, Tabia*; Zhu, Yongli; Papadopoulos, Panagiotis
+  author_emails: tabia.ahmad@strath.ac.uk*; yongliz@tamu.edu; panagiotis.papadopoulos@strath.ac.uk
+  authors: Tabia Ahmad (University of Strathclyde); Yongli Zhu (Texas A&M Universersity);
+    Panagiotis Papadopoulos (University of Strathclyde)
+  cmt_id: 123
+  is_spotlight: false
+  subject_areas:
+  - Power and energy systems
+  - Carbon capture and sequestration
+  - Classification, regression, and supervised learning
+  - Data mining
+  - Unsupervised and semi-supervised learning
+  id: 76
+  prev_paper_id: 75
+  next_paper_id: 77
+  condensed_subject_areas:
+  - Power and energy systems
+  - Carbon capture and sequestration
+  - Classification, regression, and supervised learning
+  - Data mining
+  - Unsupervised and semi-supervised learning
+- paper_title: 'DeepQuake: Artificial Intelligence for Earthquake Forecasting Using
+    Fine-Grained Climate Data'
+  abstract: Earthquakes are one of the most catastrophic natural disasters, making
+    accurate, fine-grained, and real-time earthquake forecasting extremely important
+    for the safety and security of human lives. In this work,  we propose DeepQuake,  a
+    deep learning model for fine-grained earthquake forecasting using time-series
+    data of the horizontal displacement of Earth’s surface measured from continuously
+    operating Global Positioning System (cGPS) data between 2007 to 2019. Recent studies
+    using cGPS data have established a link between transient deformation within earth’s
+    crust including Earth’s elastic response to climate variables such as hydrologic
+    loads, temperature gradients, and atmospheric pressure. DeepQuake’s physics-based
+    pre-processing algorithm extracts relevant features including the x,y, and z components
+    of strain in the earth’s crust, feeding it into an LSTM model to predict key earthquake
+    variables such as the time, location, magnitude, and depth of a future earthquake.
+    Initial results across California, including the Napa Valley and Long Valley Caldera
+    regions, show promising correlations between cGPS data and the earthquake catalog
+    ground truth for a given location and time
+  q1_track: Proposals
+  primary_contact_author_name: Yash Narayan
+  primary_contact_author_email: yasnara@nuevaschool.org
+  status: Accept (Spotlight)
+  primary_subject_area: Machine learning -> Time-series analysis
+  secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Earth
+    science and monitoring; Machine learning -> Other
+  author_names: Narayan, Yash*
+  author_emails: yasnara@nuevaschool.org*
+  authors: Yash Narayan (The Nueva School)
+  cmt_id: 133
+  is_spotlight: true
+  subject_areas:
+  - Time-series analysis
+  - Climate modeling
+  - Earth science and monitoring
+  - Other
+  id: 77
+  prev_paper_id: 76
+  condensed_subject_areas:
+  - Time-series analysis
+  - Climate and Earth science
+  - Earth science and monitoring
+  - Other
