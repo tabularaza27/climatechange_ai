@@ -40,14 +40,14 @@
             {% assign workshop = w %}
           {% endif %}
         {% endfor %}
-        <meta property="citation_title" content="{{paper.paper_title}}">
+        <meta name="citation_title" content="{{paper.paper_title}}">
         {% for author in authors %}
-          <meta property="citation_author" content="{{author}}">
+          <meta name="citation_author" content="{{author}}">
         {% endfor %}
-        <meta property="citation_conference_title" content="{{workshop.conference_title}}">
-        <meta property="citation_publication_date" content="{{workshop.date}}">
-        <meta property="citation_pdf_url" content="https://www.climatechange.ai{{paper.paper_path}}">
-        <meta property="citation_publisher" content="Climate Change AI">
+        <meta name="citation_conference_title" content="{{workshop.conference_title}}">
+        <meta name="citation_publication_date" content="{{workshop.date}}">
+        <meta name="citation_pdf_url" content="https://www.climatechange.ai{{paper.paper_path}}">
+        <meta name="citation_publisher" content="Climate Change AI">
       {% endif %}
     {% endif %}
 
