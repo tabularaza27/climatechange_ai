@@ -44,7 +44,45 @@ This workshop is part of the conference on Neural Information Processing Systems
 Coming soon!
 
 ## Accepted Works
-Coming soon!
+
+Works were submitted to one of two tracks: [Papers](#Papers) or [Proposals](#Proposals). **Note that camera-ready submissions are not yet available for all accepted works, but will be updated before the workshop.**
+
+{% assign tracks = "Papers Proposals" | split: " " %}
+{% for track in tracks %}
+<h3 id='{{ track }}'>{{ track }}</h3>
+
+<table class='paper-table'>
+  <thead><tr>
+  <th>Title</th>
+  <th>Authors</th>
+  <!--<th>Poster Session</th>-->
+  </tr></thead>
+  <tbody>
+  {% for p in site.data.neurips2021_papers %}
+  {% if p.q1_track == track %}
+  <tr>
+  <td>
+  <a href="/papers/neurips2021/{{ p.id }}">({{ p.id }}) {{ p.paper_title }}</a>
+  {% if p.award %}
+  <span class='tag best-paper'>{{ p.award }}</span>
+  {% endif %}
+  </td>
+  <td>{{ p.authors }}</td>
+  <!--<td class='poster-session-time'>-->
+    <!--{{ p.poster_sessions | join: ",<br>" }}-->
+  <!--</td>-->
+  </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
+
+<style type='text/css'>
+  .paper-table td:first-child {
+    width: 33%;
+  }
+</style>
 
 <!-- ## Informational Webinar
 
