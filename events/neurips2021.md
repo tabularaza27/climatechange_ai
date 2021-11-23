@@ -14,6 +14,7 @@ og_image_height: 512
   <a class='button' href='#about'>About</a>
   <a class='button' href='#schedule'>Schedule</a>
   <a class='button' href='#accepted-works'>Accepted Works</a>
+  <a class='button' href='#sponsors'>Sponsors</a>
   <!-- <a class='button' href='#informational-webinar'>Informational Webinar</a> -->
   <!-- <a class='button' href='#mentorship-program'>Mentorship Program</a> -->
   <a class='button' href='#organizers'>Organizers</a>
@@ -87,6 +88,10 @@ Works were submitted to one of two tracks: [Papers](#Papers) or [Proposals](#Pro
 <!-- ## Informational Webinar
 
 We recently conducted two informational webinars answering questions about the mentorship program and how to prepare a successful submission for the workshop. The video recording of the Aug 11 webinar can be found [here](https://www.youtube.com/watch?v=jBPG2PCshSM). -->
+
+## Sponsors
+
+![Microsoft logo](/images/microsoft.png)
 
 ## Organizers
 
