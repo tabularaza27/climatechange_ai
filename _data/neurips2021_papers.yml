@@ -929,7 +929,7 @@
   - Disaster prediction, management, and relief
   - Societal adaptation
   - Computer vision and remote sensing
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 22
   prev_paper_id: 21
   next_paper_id: 23
@@ -939,7 +939,7 @@
   - Disaster prediction, management, and relief
   - Societal adaptation
   - Computer vision and remote sensing
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: Subseasonal Solar Power Forecasting via Deep Sequence Learning
   abstract: To help mitigate climate change, power systems need to integrate renewable
     energy sources, such as solar, at a rapid pace. Widespread integration of solar
@@ -1788,7 +1788,7 @@
   subject_areas:
   - Transportation
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 43
   prev_paper_id: 42
   next_paper_id: 44
@@ -1797,7 +1797,7 @@
   condensed_subject_areas:
   - Transportation
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: Data Driven Study of Estuary Hypoxia
   abstract: " This paper presents a data driven study of dissolved oxygen times series
     collected in Atlantic Canada.  The main motivation of presented work was to evaluate
@@ -1859,13 +1859,13 @@
   is_spotlight: false
   subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 45
   prev_paper_id: 44
   next_paper_id: 46
   condensed_subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: 'NoFADE: Analyzing Diminishing Returns on CO2 Investment'
   abstract: 'Climate change continues to be a pressing issue that currently affects
     society at-large. It is important that we as a society, including the Computer
@@ -2062,13 +2062,13 @@
   is_spotlight: false
   subject_areas:
   - Transportation
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 50
   prev_paper_id: 49
   next_paper_id: 51
   condensed_subject_areas:
   - Transportation
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: Multi-objective Reinforcement Learning Controller for Multi-Generator
     Industrial Wave Energy Converter
   abstract: Waves are one of the greatest sources of renewable energy and are a promising
@@ -2113,13 +2113,13 @@
   is_spotlight: false
   subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 51
   prev_paper_id: 50
   next_paper_id: 52
   condensed_subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: Resolving Super Fine-Resolution SIF via Coarsely-Supervised U-Net Regression
   abstract: Climate change presents challenges to crop productivity, such as increasing
     the likelihood of heat stress and  drought. Solar-Induced Chlorophyll Fluorescence
@@ -2947,13 +2947,13 @@
   is_spotlight: false
   subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   id: 71
   prev_paper_id: 70
   next_paper_id: 72
   condensed_subject_areas:
   - Power and energy systems
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
 - paper_title: Machine Learning Speeding Up the Development of Portfolio of New Crop
     Varieties to Adapt to and Mitigate Climate Change
   abstract: 'Climate change poses serious challenges to achieving food security in
@@ -3091,13 +3091,13 @@
   cmt_id: 102
   is_spotlight: false
   subject_areas:
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   - Carbon capture and sequestration
   id: 74
   prev_paper_id: 73
   next_paper_id: 75
   condensed_subject_areas:
-  - 'Reinforcement learning and control '
+  - Reinforcement learning and control
   - Carbon capture and sequestration
 - paper_title: Leveraging machine learning for identify hydrological extreme events
     under global climate change

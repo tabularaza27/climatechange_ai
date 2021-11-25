@@ -11,7 +11,7 @@ conversion_table = JSON.parse(File.read(File.join(__dir__, 'tag_conversion_table
     if p['secondary_subject_areas'].size > 0
       p['subject_areas'] += p['secondary_subject_areas'].split('; ')
     end
-    p['subject_areas'] = p['subject_areas'].map{|s| s.split(' -> ').last}.uniq
+    p['subject_areas'] = p['subject_areas'].map{|s| s.split(' -> ').last}.uniq.map(&:strip)
     p['condensed_subject_areas'] = p['subject_areas'].map {|s| conversion_table.fetch(s, s) }.uniq
     p
   end
