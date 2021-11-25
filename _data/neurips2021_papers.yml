@@ -169,6 +169,8 @@
   id: 4
   prev_paper_id: 3
   next_paper_id: 5
+  paper_path: "/papers/neurips2021/4/paper.pdf"
+  slides_path: "/papers/neurips2021/4/slides.pdf"
   condensed_subject_areas:
   - Uncertainty quantification and robustness
   - Climate and Earth science
@@ -288,6 +290,8 @@
   id: 7
   prev_paper_id: 6
   next_paper_id: 8
+  paper_path: "/papers/neurips2021/7/paper.pdf"
+  slides_path: "/papers/neurips2021/7/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Generative modeling
@@ -748,10 +752,10 @@
   condensed_subject_areas:
   - Buildings and cities
   - Meta- and transfer learning
-- paper_title: 'XX-nowcasting: Operational Precipitation Nowcasting with Convolutional
-    LSTMs at Anonymous Company'
+- paper_title: 'MS-nowcasting: Operational Precipitation Nowcasting with Convolutional
+    LSTMs at Microsoft Weather'
   abstract: We present the encoder-forecaster convolutional long short-term memory
-    (LSTM) deep-learning model that powers Anonymous Company's operational precipitation
+    (LSTM) deep-learning model that powers Microsoft Weather's operational precipitation
     nowcasting product. This model takes as input a sequence of weather radar mosaics
     and deterministically predicts future radar reflectivity at lead times up to 6
     hours. By stacking a large input receptive field along the feature dimension and
@@ -790,6 +794,8 @@
   id: 19
   prev_paper_id: 18
   next_paper_id: 20
+  paper_path: "/papers/neurips2021/19/paper.pdf"
+  slides_path: "/papers/neurips2021/19/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Climate and Earth science
@@ -1324,6 +1330,8 @@
   id: 32
   prev_paper_id: 31
   next_paper_id: 33
+  paper_path: "/papers/neurips2021/32/paper.pdf"
+  slides_path: "/papers/neurips2021/32/slides.pdf"
   condensed_subject_areas:
   - Causal and Bayesian methods
   - Heavy industry and manufacturing
@@ -1488,22 +1496,22 @@
   - Classification, regression, and supervised learning
 - paper_title: Learning to identify cracks on wind turbine blade surfaces using drone-based
     inspection images
-  abstract: Wind energy is expected to be one of the leading ways to achieve the goals
-    of the Paris Agreement but it in turn heavily depends on effective management
-    of its operations and maintenance (O\&M) costs. Blade failures account for one-third
-    of all O\&M costs thus making accurate detection of blade damages, especially
-    cracks, very important for sustained operations and cost savings. Traditionally,
-    damage inspection has been a completely manual process thus making it subjective,
-    error-prone, and time-consuming. Hence in this work, we bring more objectivity,
-    scalability, and repeatability in our damage inspection process, using deep learning,
-    to miss fewer cracks. We build a deep learning model trained on a large dataset
-    of blade damages, collected by our drone-based inspection, to correctly detect
-    cracks. Our model achieves an F1-score of 0.95 on test data from real-world inspections
-    and is being deployed in production. We also focus on model interpretability using
-    class activation maps to get a peek into the model workings. The model not only
-    performs as good as human experts but also better in certain tricky cases. Thus,
-    in this work, we aim to increase wind energy adoption by decreasing one of its
-    major hurdles - the O\&M costs resulting from missing blade failures like cracks.
+  abstract: "Wind energy is expected to be one of the leading ways to achieve the
+    goals of\nthe Paris Agreement but it in turn heavily depends on effective management
+    of its\noperations and maintenance (O&M) costs. Blade failures account for one-third\nof
+    all O&M costs thus making accurate detection of blade damages, especially\ncracks,
+    very important for sustained operations and cost savings. Traditionally,\ndamage
+    inspection has been a completely manual process thus making it subjective, error-prone,
+    and time-consuming. \nHence in this work, we bring more objectivity, scalability,
+    and repeatability in our damage inspection process, using deep learning, to miss
+    fewer cracks. We build a deep learning model trained on a large dataset of blade
+    damages, collected by our drone-based inspection, to correctly detect cracks.
+    Our model is already in production and has processed more than a million damages
+    with a recall of 0.96. We also focus on model interpretability using class activation
+    maps to get a peek into the model workings. The model not only performs as good\nas
+    human experts but also better in certain tricky cases. \nThus, in this work, we
+    aim to increase wind energy adoption by decreasing one of its major hurdles -
+    the O&M costs resulting from missing blade failures like cracks."
   q1_track: Papers
   primary_contact_author_name: Akshay B Iyer
   primary_contact_author_email: akshay.iyer@skyspecs.com
@@ -1512,10 +1520,10 @@
   secondary_subject_areas: Climate change -> Climate finance and economics; Machine
     learning -> Classification, regression, and supervised learning; Machine learning
     -> Computer vision and remote sensing
-  author_names: Iyer, Akshay B*; Khushu, Shweta; Nguyen, Linh V
-  author_emails: akshay.iyer@skyspecs.com*; shweta.khushu@skyspecs.com; linh.nguyen@skyspecs.com
-  authors: Akshay B Iyer (SkySpecs, Inc.); Shweta Khushu (SkySpecs Inc.); Linh V Nguyen
-    (SkySpecs Inc)
+  author_names: Iyer, Akshay B*; Nguyen, Linh V; Khushu, Shweta
+  author_emails: akshay.iyer@skyspecs.com*; linh.nguyen@skyspecs.com; shweta.khushu@skyspecs.com
+  authors: Akshay B Iyer (SkySpecs, Inc.); Linh V Nguyen (SkySpecs Inc); Shweta Khushu
+    (SkySpecs Inc.)
   cmt_id: 87
   is_spotlight: false
   subject_areas:
@@ -1526,6 +1534,8 @@
   id: 37
   prev_paper_id: 36
   next_paper_id: 38
+  paper_path: "/papers/neurips2021/37/paper.pdf"
+  slides_path: "/papers/neurips2021/37/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Climate finance and economics
@@ -2475,10 +2485,11 @@
   secondary_subject_areas: Climate change -> Climate modeling; Climate change -> Earth
     science and monitoring; Machine learning -> Classification, regression, and supervised
     learning; Machine learning -> Data mining
-  author_names: Roy, Roshan; M R, Ahan*
-  author_emails: rroshanroy@gmail.com; f20160487@goa.bits-pilani.ac.in*
+  author_names: Roy, Roshan; M R, Ahan*; Soni, Vaibhav; Chittora, Ashish
+  author_emails: rroshanroy@gmail.com; f20160487@goa.bits-pilani.ac.in*; vaibsoni@gmail.com;
+    ashishc@goa.bits-pilani.ac.in
   authors: Roshan Roy (Birla Institute of Technology and Science, Pilani); Ahan M
-    R (BITS Pilani)
+    R (BITS Pilani); Vaibhav Soni (MANIT Bhopal); Ashish Chittora (BITS Pilani)
   cmt_id: 129
   is_spotlight: false
   subject_areas:
@@ -2490,6 +2501,8 @@
   id: 60
   prev_paper_id: 59
   next_paper_id: 61
+  paper_path: "/papers/neurips2021/60/paper.pdf"
+  slides_path: "/papers/neurips2021/60/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Climate and Earth science
@@ -2743,15 +2756,15 @@
     of the high-resolution fields, very demanded by some sectoral applications (e.g.,
     hydrology) to tackle climate change.
   q1_track: Proposals
-  primary_contact_author_name: Jose González Abad
+  primary_contact_author_name: Jose González-Abad
   primary_contact_author_email: gonzabad@ifca.unican.es
   status: Accept (Poster)
   primary_subject_area: Climate change -> Climate modeling
   secondary_subject_areas: Machine learning -> Classification, regression, and supervised
     learning; Machine learning -> Generative modeling
-  author_names: González Abad, Jose*; Baño-Medina, Jorge; Heredia, Ignacio
+  author_names: González-Abad, Jose*; Baño-Medina, Jorge; Heredia, Ignacio
   author_emails: gonzabad@ifca.unican.es*; bmedina@ifca.unican.es; iheredia@ifca.unican.es
-  authors: Jose González Abad (Institute of Physics of Cantabria); Jorge Baño-Medina
+  authors: Jose González-Abad (Institute of Physics of Cantabria); Jorge Baño-Medina
     (Institute of Physics of Cantabria); Ignacio Heredia (Instituto de Física de Cantabria)
   cmt_id: 34
   is_spotlight: false
