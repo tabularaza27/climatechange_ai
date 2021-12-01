@@ -68,6 +68,12 @@
 - group: 'Core Team'
   anchor: 'core-team'
   members:
+    - name: Dea Bankova
+      website_url: https://deabankova.com
+      image_url: images/people/dea_banokva_400x400.jpg
+      affiliation: Reuters Graphics
+      roles:
+        - Design
     - name: David Dao
       website_url: https://daviddao.org/
       image_url: images/people/daviddao_400x400.jpg
@@ -169,6 +175,12 @@
       affiliation: NYU
       roles:
         - Website
+    - name: Mark Roth
+      website_url: https://www.linkedin.com/in/mark-roth-084431111/
+      image_url: images/people/Mark_Roth_400x400.jpg
+      affiliation: Oregon State University
+      roles:
+        - Community Events
     - name: Maria João Sousa
       website_url: https://www.linkedin.com/in/mariajoaosousa/
       image_url: images/people/mariajoaosousa_400x400.jpg
