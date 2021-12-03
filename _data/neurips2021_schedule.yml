@@ -1,0 +1,228 @@
+---
+- desc: Opening remarks
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 14
+    minute: 15
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 14
+    minute: 30
+- desc: '<b>Daron Acemoglu</b>'
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 14
+    minute: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 15
+    minute: 15
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 15
+    minute: 15
+  subrows:
+  - paper_id: 52
+  - paper_id: 64
+  - paper_id: 55
+  - paper_id: 29
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 15
+    minute: 45
+- desc: Poster Session 1
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 15
+    minute: 45
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 16
+    minute: 30
+- desc: 'Panel 1: Decision-making'
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 16
+    minute: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 17
+    minute: 30
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 17
+    minute: 30
+  subrows:
+  - paper_id: 57
+  - paper_id: 35
+  - paper_id: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 17
+    minute: 59
+- desc: '<b>Anima Anandkumar</b>: "Role of AI in predicting and mitigating climate
+    change"'
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 18
+    minute: 0
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 18
+    minute: 45
+- desc: Spotlight Presentations
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 18
+    minute: 45
+  subrows:
+  - paper_id: 28
+  - paper_id: 77
+  - paper_id: 10
+  - paper_id: 31
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 19
+    minute: 30
+- desc: '<b>Tianzhen Hong</b>: "Machine Learning for Smart Buildings: Applications
+    and Perspectives" '
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 19
+    minute: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 20
+    minute: 15
+- desc: Poster Session 2
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 20
+    minute: 15
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 21
+    minute: 0
+- desc: 'Panel 2: Data'
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 21
+    minute: 0
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 22
+    minute: 0
+- desc: Tutorials Track intro
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 22
+    minute: 0
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 22
+    minute: 30
+  subrows:
+    - row_text: "A day in a sustainable life"
+    - row_text: "Open Catalyst Project: An Introduction to ML applied to Molecular Simulations"
+- desc: '<b>Amy McGovern</b>: "Developing Trustworthy AI for Weather and Climate" '
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 22
+    minute: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 0
+    minute: 15
+- desc: Closing remarks
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 0
+    minute: 15
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 0
+    minute: 30
+- desc: Poster Session 3
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 0
+    minute: 30
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 1
+    minute: 15
+- desc: Gather.Town
+  utc1:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 1
+    minute: 15
+  utc2:
+    year: 2021
+    month: 12
+    day: 14
+    hour: 2
+    minute: 0
