@@ -10,7 +10,9 @@ The events aim to provide an informal space for people to network and engage in 
 
 ### First Wednesday
 **Time:** 5:30pm - 6:30pm UTC <br>
-**Sign up:** [https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455](https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455){:target="_blank"}
+**Sign up:** We will skip the first January happy hour due to winter holidays and will release registration info for our 2022 series soon :)<!---
+[https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455](https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455){:target="_blank"}
+-->
 
 ### Third Wednesday
 **Time:** 10pm - 11pm UTC <br>
