@@ -69,6 +69,14 @@
     day: 14
     hour: 17
     minute: 30
+  more: |-
+    Panelists:
+      <ul>
+        <li><a href="https://futureearth.org/contacts/eliane-ubalijoro" target="_blank">Eliane Ubalijoro</a>, Future Earth</li>
+        <li><a href="https://www.kuleuven.be/wieiswie/en/person/00009689" target="_blank">Lieve Helsen</a>, KU Leuven</li>
+        <li><a href="https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/kaack" target="_blank">Lynn Kaack</a>, Hertie School</li>
+        <li><a href="https://fenix.tecnico.ulisboa.pt/homepage/ist12897" target="_blank">João M. Costa Sousa</a>, IST ULisboa</li>
+      </ul>
 - desc: Spotlight Presentations
   utc1:
     year: 2021
@@ -158,6 +166,14 @@
     day: 14
     hour: 22
     minute: 0
+  more: |-
+    Panelists:
+      <ul>
+        <li><a href="https://futureearth.org/contacts/eliane-ubalijoro" target="_blank">Bethany Lusch</a>, ANL</li>
+        <li><a href="https://www.triciamartinez.com/" target="_blank">Tricia Martinez</a>, Techstars Industries</li>
+        <li><a href="https://www.mbari.org/katija-kakani/" target="_blank">Kakani Katija</a>, MBARI</li>
+        <li><a href="https://www.wri.org/profile/brook-guzder-williams" target="_blank">Brookie Guzder-Williams</a>, WRI</li>
+      </ul>
 - desc: Tutorials Track intro
   utc1:
     year: 2021
