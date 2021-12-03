@@ -9,11 +9,11 @@ Join us on the **[first](https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-
 The events aim to provide an informal space for people to network and engage in discussions with others interested in or currently working at the intersection of climate change and machine learning. They are open to all and we hope to see you there!
 
 ### First Wednesday
-**Time:** 12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1 <br>
+**Time:** 5:30pm - 6:30pm UTC <br>
 **Sign up:** [https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455](https://www.eventbrite.com/e/ccai-happy-hour-1230pm-et-tickets-161690104455){:target="_blank"}
 
 ### Third Wednesday
-**Time:** 5pm - 6pm ET / 10pm - 11pm GMT+1 <br>
+**Time:** 10pm - 11pm UTC <br>
 **Sign up:** [https://www.eventbrite.com/e/ccai-happy-hour-5pm-et-tickets-161692595907](https://www.eventbrite.com/e/ccai-happy-hour-5pm-et-tickets-161692595907){:target="_blank"}
 
 <script src="https://cdn.jsdelivr.net/npm/luxon@1.23.0/build/global/luxon.min.js"></script>
@@ -53,13 +53,13 @@ $(document).ready(function() {
 
   if (today <= firstWedsThisMonth) {
     date = `Wed ${firstWedsThisMonth.toFormat('d LLLL')}`;
-    time = "12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1";
+    time = "5:30pm - 6:30pm UTC";
   } else if (today <= thirdWedsThisMonth) {
     date = `Wed ${thirdWedsThisMonth.toFormat('d LLLL')}`;
-    time = "5pm - 6pm ET / 10pm - 11pm GMT+1";
+    time = "10pm - 11pm UTC";
   } else {
     date = `Wed ${firstWedsNextMonth.toFormat('d LLLL')}`;
-    time = "12:30pm - 1:30pm ET / 5:30pm - 6:30pm GMT+1";
+    time = "5:30pm - 6:30pm UTC";
   }
 
   $('#next-event').text(`Next event: ${date} @ ${time} (signup link below)`);
