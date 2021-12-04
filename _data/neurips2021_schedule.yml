@@ -25,6 +25,16 @@
     day: 14
     hour: 15
     minute: 15
+  more: |-
+    <p><strong>Speaker:</strong> <a href="https://economics.mit.edu/faculty/acemoglu" target="_blank">Daron Acemoglu</a>, MIT</p>
+    <p><strong>Title:</strong> Is AI the Solution to Climate Change</p>
+    <p><strong>Abstract:</strong> Many pin their hopes on the tech sector and advances in Artificial Intelligence (AI) and other digital technologies in combating climate change. In this talk, I argue against this optimistic view. I first provide evidence on how AI has been used in US businesses, pointing out that it has had few of the promised benefits and has instead continued the process of inequality-increasing and wage-reducing automation. I then review the evidence on advances in renewable energy, arguing that it has responded strongly to subsidies and prices of fossil fuels, but these advances have slowed down lately. There appears to be no alternative to increasing carbon taxes significantly and investing in renewable and green technologies. There is no evidence that big tech companies have played a leading role, and most existing evidence suggests that big energy companies have typically undermined efforts to switch to renewables.</p>
+    <p><strong>Bio:</strong> Daron Acemoglu is an Institute Professor at MIT and an elected fellow of the National Academy of Sciences, American Philosophical Society, the British Academy of Sciences, the Turkish Academy of Sciences, the American Academy of Arts and Sciences, the Econometric Society, the European Economic Association, and the Society of Labor Economists. He is also a member of the Group of Thirty.</p>
+    <p>He is the author of five books, including New York Times bestseller <em>Why Nations Fail: Power, Prosperity, and Poverty</em> (joint with James A. Robinson), <em>Introduction to Modern Economic Growth</em>, and <em>The Narrow Corridor: States, Societies, and the Fate of Liberty</em> (with James A. Robinson).</p>
+    <p>His academic work covers a wide range of areas, including political economy, economic development, economic growth, technological change, inequality, labor economics and economics of networks.</p>
+    <p>Daron Acemoglu has received the inaugural T. W. Shultz Prize from the University of Chicago in 2004, and the inaugural Sherwin Rosen Award for outstanding contribution to labor economics in 2004, Distinguished Science Award from the Turkish Sciences Association in 2006, the John von Neumann Award, Rajk College, Budapest in 2007, the Carnegie Fellowship in 2017, the Jean-Jacques Laffont Prize in 2018, the Global Economy Prize in 2019, and the CME Mathematical and Statistical Research Institute prize in 2021.</p>
+    <p>He was awarded the John Bates Clark Medal in 2005, the Erwin Plein Nemmers Prize in 2012, and the 2016 BBVA Frontiers of Knowledge Award.</p>
+    <p>He holds Honorary Doctorates from the University of Utrecht, the Bosporus University, University of Athens, Bilkent University, the University of Bath, Ecole Normale Superieure, Saclay Paris, and the London Business School.</p>
 - desc: Spotlight Presentations
   utc1:
     year: 2021
