@@ -223,6 +223,16 @@
     day: 14
     hour: 0
     minute: 15
+ more: |-
+    <p><strong>Speaker:</strong> <a href="https://mcgovern-fagg.org/amy/" target="_blank">Amy McGovern</a>, University of Oklahoma</p>
+    
+    <p><strong>Title:</strong> Developing Trustworthy AI for Weather and Climate</p>
+    
+    <p><strong>Abstract:</strong> In this talk we give an overview of the work of the NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography. For this talk, we will focus on our applications to weather and climate predictions, including convective hazards and extreme heat.  We also briefly review the need for the development of principles for ethical and responsible AI for weather and climate.</p>
+    
+    <p><strong>Bio:</strong> Lloyd G. and Joyce Austin Presidential Professor, School of Computer Science and School of Meteorology</p>
+    <p>Director, NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography</p>
+    <p>University of Oklahoma</p>
 - desc: Closing remarks
   utc1:
     year: 2021
