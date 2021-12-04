@@ -107,8 +107,7 @@
     day: 14
     hour: 17
     minute: 59
-- desc: '<b>Anima Anandkumar</b>: "Role of AI in predicting and mitigating climate
-    change"'
+- desc: '<b>Anima Anandkumar</b>: "Role of AI in predicting and mitigating climate change"'
   utc1:
     year: 2021
     month: 12
@@ -121,6 +120,14 @@
     day: 14
     hour: 18
     minute: 45
+more: |-
+    <p><strong>Speaker:</strong> <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a>, Caltech, Nvidia</p>
+    
+    <p><strong>Title:</strong> Role of AI in predicting and mitigating climate change</p>
+
+    <p><strong>Abstract:</strong> TBA</p>
+
+    <p><strong>Bio:</strong> Anima Anandkumar is a Bren Professor at Caltech and Director of ML Research at NVIDIA. She was previously a Principal Scientist at Amazon Web Services. She has received several honors such as Alfred. P. Sloan Fellowship, NSF Career Award, Young investigator awards from DoD, and Faculty Fellowships from Microsoft, Google, Facebook, and Adobe. She is part of the World Economic Forum's Expert Network. She is passionate about designing principled AI algorithms and applying them in interdisciplinary applications. Her research focus is on unsupervised AI, optimization, and tensor methods.</p>
 - desc: Spotlight Presentations
   utc1:
     year: 2021
