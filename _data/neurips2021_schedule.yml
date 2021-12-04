@@ -27,8 +27,11 @@
     minute: 15
   more: |-
     <p><strong>Speaker:</strong> <a href="https://economics.mit.edu/faculty/acemoglu" target="_blank">Daron Acemoglu</a>, MIT</p>
+    
     <p><strong>Title:</strong> Is AI the Solution to Climate Change</p>
+    
     <p><strong>Abstract:</strong> Many pin their hopes on the tech sector and advances in Artificial Intelligence (AI) and other digital technologies in combating climate change. In this talk, I argue against this optimistic view. I first provide evidence on how AI has been used in US businesses, pointing out that it has had few of the promised benefits and has instead continued the process of inequality-increasing and wage-reducing automation. I then review the evidence on advances in renewable energy, arguing that it has responded strongly to subsidies and prices of fossil fuels, but these advances have slowed down lately. There appears to be no alternative to increasing carbon taxes significantly and investing in renewable and green technologies. There is no evidence that big tech companies have played a leading role, and most existing evidence suggests that big energy companies have typically undermined efforts to switch to renewables.</p>
+    
     <p><strong>Bio:</strong> Daron Acemoglu is an Institute Professor at MIT and an elected fellow of the National Academy of Sciences, American Philosophical Society, the British Academy of Sciences, the Turkish Academy of Sciences, the American Academy of Arts and Sciences, the Econometric Society, the European Economic Association, and the Society of Labor Economists. He is also a member of the Group of Thirty.</p>
     <p>He is the author of five books, including New York Times bestseller <em>Why Nations Fail: Power, Prosperity, and Poverty</em> (joint with James A. Robinson), <em>Introduction to Modern Economic Growth</em>, and <em>The Narrow Corridor: States, Societies, and the Fate of Liberty</em> (with James A. Robinson).</p>
     <p>His academic work covers a wide range of areas, including political economy, economic development, economic growth, technological change, inequality, labor economics and economics of networks.</p>
@@ -136,8 +139,7 @@
     day: 14
     hour: 19
     minute: 30
-- desc: '<b>Tianzhen Hong</b>: "Machine Learning for Smart Buildings: Applications
-    and Perspectives" '
+- desc: '<b>Tianzhen Hong</b>: "Machine Learning for Smart Buildings: Applications and Perspectives" '
   utc1:
     year: 2021
     month: 12
@@ -150,6 +152,14 @@
     day: 14
     hour: 20
     minute: 15
+ more: |-
+    <p><strong>Speaker:</strong> <a href="https://eta.lbl.gov/people/tianzhen-hong" target="_blank">Tianzhen Hong</a>, Lawrence Berkeley National Laboratory</p>
+
+    <p><strong>Title:</strong> Machine Learning for Smart Buildings: Applications and Perspectives</p>
+    
+    <p><strong>Abstract:</strong> Fueled by big data, powerful computing, and advanced algorithms, machine learning has been explored and applied to smart buildings and has demonstrated its potential to enhance building performance. This talk presents an overview of how machine learning has been applied across different stages of building life cycle with a focus on building design, operation, and control. A few applications using machine learning will be presented. Challenges and opportunities of applying machine learning to buildings research will be discussed also.</p>
+    
+    <p><strong>Bio:</strong> Dr. Tianzhen Hong is a Senior Scientist and Deputy Head of the Building Technologies Department of LBNL. He leads the Urban Systems Group and a team with research on data, methods, computing, occupant behavior, and policy for design and operation of low energy buildings and sustainable urban systems. He is an IBPSA Fellow and ASHRAE Fellow. He received B.Eng. and Ph.D. in HVACR, and B.Sc. in Applied Mathematics from Tsinghua University, China.</p>
 - desc: Poster Session 2
   utc1:
     year: 2021
