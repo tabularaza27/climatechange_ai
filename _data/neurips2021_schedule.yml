@@ -222,8 +222,8 @@
     hour: 22
     minute: 30
   subrows:
-    - row_text: "A day in a sustainable life"
-    - row_text: "Open Catalyst Project: An Introduction to ML applied to Molecular Simulations"
+    - paper_id: 78
+    - paper_id: 79
 - desc: '<b>Amy McGovern</b>: "Developing Trustworthy AI for Weather and Climate"'
   utc1:
     year: 2021
