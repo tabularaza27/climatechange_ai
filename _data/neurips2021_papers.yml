@@ -31,6 +31,8 @@
   author_emails: siddhaganju@gmail.com*; spsayakpaul@gmail.com
   authors: Siddha Ganju (Nvidia Corporation); Sayak Paul (Carted)
   cmt_id: 6
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Unsupervised and semi-supervised learning
@@ -71,6 +73,8 @@
   authors: Hoang Chuong Nguyen (Australia National University); Miaomiao Liu (The
     Australian National University)
   cmt_id: 8
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -116,6 +120,8 @@
   authors: Sebastian Hoffmann (University of Magdeburg); Christian Lessig (Otto-von-Guericke-Universitat
     Magdeburg)
   cmt_id: 9
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -160,6 +166,8 @@
     Almaden Research Center); Etienne E Vos (IBM); Bianca Zadrozny (IBM Research);
     Campbell D Watson (IBM Reserch); Tanveer Syeda-Mahmood (IBM Research)
   cmt_id: 13
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Uncertainty quantification and robustness
@@ -250,6 +258,8 @@
     Laboratory); Nicholas Azzolina (University of North Dakota); Matthew Burton-Kelly
     (University of North Dakota)
   cmt_id: 15
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -283,6 +293,8 @@
   author_emails: djamesfulton@yahoo.co.uk*; ben.clarke@jesus.ox.ac.uk
   authors: James Fulton (University of Edinburgh); Ben Clarke (Oxford University)
   cmt_id: 17
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -322,6 +334,8 @@
     Alyson Douglas (University of Oxford); Duncan Watson-Parris (University of Oxford);
     Yarin Gal (University of Oxford); Philip Stier (University of Oxford)
   cmt_id: 18
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -360,6 +374,8 @@
   authors: Veda Sunkara (Cloud to Street); Nicholas Leach (Cloud to Street); Siddha
     Ganju (Nvidia)
   cmt_id: 20
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -395,6 +411,8 @@
   authors: Léonard Boussioux (MIT, CentraleSupélec); Cynthia Zeng (MIT); Dimitris
     Bertsimas (MIT); Théo J Guenais (Harvard University)
   cmt_id: 24
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Hybrid physical models
@@ -441,6 +459,8 @@
   authors: Devyani Lambhate Lambhate (Indian Institute of Science); Smit Marvaniya
     (IBM Research India); Jitendra Singh (IBM Research - India); David Gold (IBM)
   cmt_id: 26
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -480,6 +500,8 @@
   authors: Caroline Arnold (German Climate Computing Center); Milad Asgarimehr (German
     Research Centre for Geosciences)
   cmt_id: 27
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -532,6 +554,8 @@
     (Massachusetts Institute of Technology); David P Nicholson (Woods Hole Oceanographic
     Institution); Iddo Drori (MIT)
   cmt_id: 32
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -584,6 +608,8 @@
     Institut für Physik der Atmosphäre, Oberpfaffenhofen, Germany; University of Bremen,
     Institute of Environmental Physics (IUP), Bremen, Germany)
   cmt_id: 33
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -619,6 +645,8 @@
   author_emails: ckrapu@gmail.com*
   authors: Christopher Krapu (Oak Ridge National Lab - Oak Ridge, TN)
   cmt_id: 35
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Generative modeling
@@ -655,6 +683,8 @@
   authors: Joshua Mitton (University of Glasgow); Roderick Murray-Smith (University
     of Glasgow)
   cmt_id: 38
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -740,6 +770,8 @@
     (MERL)); Christopher Laughman (Mitsubishi Electric Research Laboratories); Ankush
     Chakrabarty (Mitsubishi Electric Research Labs)
   cmt_id: 52
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and cities
@@ -783,6 +815,10 @@
     Corporation); Shikhar Sharma (); Jonathan Weyn (Microsoft); Siqi Xiang (Microsoft
     Corporation)
   cmt_id: 54
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -838,6 +874,8 @@
     Berkeley); Colorado J Reed (University of California, Berkeley); Puya Vahabi (UC
     Berkeley)
   cmt_id: 55
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -883,6 +921,8 @@
     Tarn (Duke University); Baoyan Ye (Duke University); Wendy Zhang (Duke University);
     Jordan Malof (Duke University); Kyle Bradbury (Duke University)
   cmt_id: 56
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -924,6 +964,8 @@
   author_emails: wlross@stanford.edu*
   authors: William L Ross (Stanford)
   cmt_id: 57
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -968,6 +1010,8 @@
   authors: Saumya Sinha (University of Colorado, Boulder); Bri-Mathias  S Hodge (University
     of Colorado Boulder); Claire Monteleoni (University of Colorado Boulder)
   cmt_id: 58
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -993,6 +1037,8 @@
   author_emails: sujiang@stanford.edu*
   authors: Su Jiang (Stanford University)
   cmt_id: 59
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -1033,6 +1079,8 @@
   authors: Junshi Xia (RIKEN); Naoto  Yokoya (The University of Tokyo); Bruno Adriano
     (RIKEN Center for Advanced Intelligence Project (AIP))
   cmt_id: 61
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -1073,6 +1121,8 @@
   authors: Anshuman Dewangan (University of California, San Diego); Mai Nguyen (University
     of California, San Diego); Garrison Cottrell (UC San Diego)
   cmt_id: 62
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1114,6 +1164,8 @@
     St. Gallen); Linus M. Scheibenreif (University of St. Gallen); Damian Borth (University
     of St. Gallen)
   cmt_id: 63
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1155,6 +1207,8 @@
     (MILA); Jason N. S. Cole (Environment and Climate Change Canada); Howard Barker
     (Environment and Climate Change Canada); David Rolnick (McGill University, Mila)
   cmt_id: 67
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1198,6 +1252,8 @@
   authors: Joshua Fan (Cornell University); Junwen Bai (Cornell University); Zhiyun
     Li (Cornell University); Ariel Ortiz-Bobea (Cornell); Carla P Gomes (Cornell University)
   cmt_id: 71
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Agriculture
@@ -1245,6 +1301,8 @@
     Wang (Harvard University); Sean Knight (MIT); Maria Geogdzhayeva (MIT); Sam Levang
     (Salient Predictions Inc.); Ernest Fraenkel (MIT); Lester Mackey (Microsoft Research)
   cmt_id: 73
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1280,6 +1338,10 @@
   authors: Anthony Degleris (Stanford University); Lucas Fuentes (Stanford); Abbas
     El Gamal (Stanford University); Ram Rajagopal (Stanford University)
   cmt_id: 75
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy systems
@@ -1323,6 +1385,8 @@
     (IBM Research); Kai Gong (MIT); Jeremy Gregory (Massachusetts Institute of Technology);
     Richard Goodwin (IBM Research); Elsa Olivetti (Massachusetts Institute of Technology)
   cmt_id: 77
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Causal and Bayesian methods
@@ -1365,6 +1429,8 @@
     (University of Oxford); Marcelo Pias (Federal University of Rio Grande); Silvia
     Botelho (Federal University of Rio Grande)
   cmt_id: 78
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1441,6 +1507,8 @@
     Matthew Beveridge (Massachusetts Institute of Technology); Young-Oh Kwon (Woods
     Hole Oceanographic Institution); Iddo Drori (MIT)
   cmt_id: 85
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1482,6 +1550,8 @@
   authors: Magdalena Mittermeier (Ludwig-Maximilians-Universität München); Maximilian
     Weigert (Ludwig-Maximilians-Universität München); David Ruegamer (LMU Munich)
   cmt_id: 86
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -1574,6 +1644,8 @@
   author_emails: jyc575@gmail.com*
   authors: James Chen (Kirby School)
   cmt_id: 89
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1611,6 +1683,8 @@
   authors: Linh V Nguyen (SkySpecs Inc); Shweta Khushu (SkySpecs Inc.); Akshay B Iyer
     (SkySpecs, Inc.)
   cmt_id: 90
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1652,6 +1726,8 @@
   authors: Wenqi Cui (University of Washington); Weiwei Yang (Microsoft Research);
     Baosen Zhang (University of Washington)
   cmt_id: 91
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1694,6 +1770,8 @@
     (UC Berkeley); Colorado Reed (UC Berkeley); Hossein Vahabi (University California
     Berkeley); Nathan Nusaputra (UC Berkeley); Felipe Vergara (UC Berkeley)
   cmt_id: 94
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1741,6 +1819,8 @@
     Bayer (Pattern Recognition Lab, Friedrich-Alexander University); Andreas K Maier
     (Pattern Recognition Lab, FAU Erlangen-Nuremberg)
   cmt_id: 95
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -1784,6 +1864,8 @@
   authors: Pedram Agand (Simon Fraser University); Alexey  Iskrov (Breeze Labs Inc.);
     Mo Chen (Simon Fraser University)
   cmt_id: 96
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Transportation
@@ -1823,6 +1905,8 @@
     Julio J Valdés (National Research Council Canada); Luke Poirier (Department of
     Fisheries and Oceans Canada)
   cmt_id: 97
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -1856,6 +1940,8 @@
   authors: Wenqi Cui (University of Washington); Jiayi Li (University of Washington);
     Baosen Zhang (University of Washington)
   cmt_id: 98
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1935,6 +2021,8 @@
   authors: Zhongrun Xiang (University of Iowa); Ibrahim  Demir (The University of
     Iowa)
   cmt_id: 107
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Time-series analysis
@@ -2018,6 +2106,8 @@
   authors: Bekir Z Demiray (University of Iowa); Muhammed  A Sit (The University of
     Iowa); Ibrahim  Demir (The University of Iowa)
   cmt_id: 110
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -2059,6 +2149,8 @@
   author_emails: mayuri@mit.edu*; cathywu@mit.edu
   authors: Mayuri Sridhar (MIT); Cathy Wu ()
   cmt_id: 111
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Transportation
@@ -2110,6 +2202,10 @@
     Faraboschi (HPE); mathieu Cocho (Carnegie Clean Energy); Alexandre Pichard (Carnegie
     Clean Energy); Jonathan Fievez (Carnegie Clean Energy)
   cmt_id: 112
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -2199,6 +2295,8 @@
   author_emails: va2361@columbia.edu*; ym2540@columbia.edu
   authors: Vishal Anand (Columbia University); Yuki Miura (Columbia University)
   cmt_id: 116
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2282,6 +2380,8 @@
   authors: Sahil S Khose (Manipal Institute of Technology); Abhiraj Tiwari (Manipal
     Institute of Technology); Ankita Ghosh (Manipal Institute of Technology)
   cmt_id: 121
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2334,6 +2434,8 @@
   authors: Jacob G Ayers (UC San Diego); Ryan Kastner (University of California San
     Diego)
   cmt_id: 122
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -2371,6 +2473,9 @@
   author_emails: ruben.cartuyvels@kuleuven.be*
   authors: Ruben Cartuyvels (KULeuven)
   cmt_id: 124
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Ecosystems and natural systems
@@ -2408,6 +2513,8 @@
     Toubeau (Faculté Polytechnique (FPMs), Université de Mons (UMONS)); Erik Delaue
     (KU Leuven)
   cmt_id: 125
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Hybrid physical models
@@ -2450,6 +2557,8 @@
   authors: Maria C Novitasari (University College London); Johannes Quaas (University
     of Leipzig); Miguel Rodrigues (University College London)
   cmt_id: 126
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2530,6 +2639,8 @@
   author_emails: ophelie.meuriot@ibm.com*; anne.jones@ibm.com
   authors: Ophelie Meuriot (IBM Research Europe); Anne Jones (IBM Research)
   cmt_id: 138
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2578,6 +2689,8 @@
     (Shell); Ilyana Folmar (Shell); Puneet Seth (Shell); Manoj Sarfare (Shell); Duane
     Mikulencak (Shell); Ihab Akil (Shell)
   cmt_id: 10
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -2613,6 +2726,8 @@
   author_emails: mqyao@berkeley.edu*
   authors: Mengqi Yao (University of California Berkeley)
   cmt_id: 16
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2689,6 +2804,8 @@
     Ridge National Laboratory); LI LI (Pennsylvania State University); Daniella  Rempe
     (The University of Texas at Austin)
   cmt_id: 23
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -2727,6 +2844,8 @@
   authors: Jing Lin (Institute for Infocomm Research); Yu Zhang (I2R); Edwin Khoo
     (Institute for Infocomm Research)
   cmt_id: 25
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Hybrid physical models
@@ -2767,6 +2886,8 @@
   authors: Jose González-Abad (Institute of Physics of Cantabria); Jorge Baño-Medina
     (Institute of Physics of Cantabria); Ignacio Heredia (Instituto de Física de Cantabria)
   cmt_id: 34
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -2818,6 +2939,8 @@
   authors: Lan  HOANG (IBM Research); Thuy Thu Phan (Center for International Forestry
     Research (CIFOR))
   cmt_id: 36
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Forestry and other land use
@@ -2866,6 +2989,8 @@
   authors: Elham Kheradmand (University of Montreal); Didier Serre (Clearsum); Manuel
     Morales (University of Montreal); Cedric B Robert (Clearsum)
   cmt_id: 42
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate finance and economics
@@ -2909,6 +3034,8 @@
     Nunes (Microsoft); Kim Whitehall (Microsoft); Yagna Oruganti (Microsoft); Yazeed
     Alaudah (Microsoft); Anirudh Badam (Microsoft)
   cmt_id: 46
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -2944,6 +3071,9 @@
   authors: Vincent Mai (Mila, Université de Montréal); Tianyu Zhang (Mila, Université
     de Montréal); Antoine Lesage-Landry (Polytechnique Montréal & GERAD)
   cmt_id: 50
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -2980,6 +3110,8 @@
     Abderrazek  Jilal (INRA); Frederick Stoddard (University of Helsinki); Mikko Sillanpää
     (University of Oulu); Hamid Khazaei (World Vegetable Center)
   cmt_id: 70
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -3036,6 +3168,8 @@
     Dao (ETH Zurich); Alex Chang (Service Now); Mehmet Gunturkun (Element Ai); Alexandre
     Drouin (ServiceNow); Pau Rodriguez (Element AI); David Vazquez (ServiceNow)
   cmt_id: 72
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -3115,6 +3249,8 @@
   author_emails: yingjungcd@gmail.com*
   authors: Ying-Jung C Deweese (Georgia Insititute of Technology)
   cmt_id: 108
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -3156,6 +3292,8 @@
   authors: Tabia Ahmad (University of Strathclyde); Yongli Zhu (Texas A&M Universersity);
     Panagiotis Papadopoulos (University of Strathclyde)
   cmt_id: 123
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems

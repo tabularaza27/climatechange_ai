@@ -32,11 +32,12 @@ cmt_to_speaker = {}
 #end
 
 cmt_to_session = {}
-#sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
-#cmt_to_session = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
-#  sessions = row['Assigned Session'].to_s.strip
-#  h[row['CMT Paper ID'].to_i] = sessions
-#end
+sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
+cmt_to_session = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
+  sessions = row['Which poster session(s) will you present at?'].to_s.strip
+  h[row['CMT Paper ID'].to_i] = sessions.split(", ").map(&:strip).map{|s| s.split(' = ')[1].gsub(' - ', '-')}
+  cmt_to_speaker[row['CMT Paper ID'].to_i] = "#{row['First name'].strip} #{row['Last name'].strip}"
+end
 
 papers = []
 export = Roo::Excel2003XML.new(submissions)
@@ -83,7 +84,7 @@ parsed.each do |p|
   end
 
   if sess = cmt_to_session[cmt_id]
-    paper_data['poster_sessions'] = [sess]
+    paper_data['poster_sessions'] = sess
   end
 
   paper_data['is_spotlight'] = p['Status'].include?('Spotlight')
