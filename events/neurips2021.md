@@ -41,7 +41,8 @@ This workshop is part of the conference on Neural Information Processing Systems
 - Contact: <climatechangeai.neurips2021@gmail.com>
 
 ## Schedule
-Coming soon!
+
+{% include workshop_schedule_table.html workshop="neurips2021" %}
 
 ## Accepted Works
 
