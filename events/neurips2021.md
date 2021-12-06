@@ -57,7 +57,7 @@ Works were submitted to one of three tracks: [Papers](#Papers), [Proposals](#Pro
   <thead><tr>
   <th>Title</th>
   <th>Authors</th>
-  <!--<th>Poster Session</th>-->
+  <th>Poster Session</th>
   </tr></thead>
   <tbody>
   {% for p in site.data.neurips2021_papers %}
@@ -70,9 +70,9 @@ Works were submitted to one of three tracks: [Papers](#Papers), [Proposals](#Pro
   {% endif %}
   </td>
   <td>{{ p.authors }}</td>
-  <!--<td class='poster-session-time'>-->
-    <!--{{ p.poster_sessions | join: ",<br>" }}-->
-  <!--</td>-->
+  <td class='poster-session-time'>
+    {{ p.poster_sessions | join: ",<br>" }}
+  </td>
   </tr>
   {% endif %}
   {% endfor %}
@@ -83,6 +83,9 @@ Works were submitted to one of three tracks: [Papers](#Papers), [Proposals](#Pro
 <style type='text/css'>
   .paper-table td:first-child {
     width: 33%;
+  }
+  .poster-session-time {
+    white-space: nowrap;
   }
 </style>
 
