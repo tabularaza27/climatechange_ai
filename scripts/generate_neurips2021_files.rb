@@ -61,7 +61,7 @@ parsed.each do |p|
   paper_data = {}
 
   fields.each do |field|
-    paper_data[field.downcase.gsub(/[^\w]+/, '_').gsub(/_+$/,'')] = p[field]
+    paper_data[field.downcase.gsub(/[^\w]+/, '_').gsub(/_+$/,'').gsub("", "").strip] = p[field]
   end
 
   paper_data['paper_title'] = paper_data['paper_title'].strip.squeeze(" ")
@@ -102,6 +102,11 @@ parsed.each do |p|
     paper_data['subject_areas'] += paper_data['secondary_subject_areas'].split('; ')
   end
   paper_data['subject_areas'] = paper_data['subject_areas'].map{|s| s.split(' -> ').last}.uniq
+
+  if paper_data['paper_title'].include?('DeepQuake')
+    paper_data['abstract'] = "Earthquakes are one of the most catastrophic natural disasters, making accurate, fine-grained, and real-time earthquake forecasting extremely important for the safety and security of human lives. In this work, we propose DeepQuake, a hybrid physics and deep learning model for fine-grained earthquake forecasting using time-series data of the horizontal displacement of earth’s surface measured from continuously operating Global Positioning System (cGPS) data. Recent studies using cGPS data have established a link between transient deformation within earth's crust to climate variables. DeepQuake’s physics-based pre-processing algorithm extracts relevant features including the x, y, and xy components of strain in earth’s crust, capturing earth’s elastic response to these climate variables, and feeds it into a deep learning neural network to predict key earthquake variables such as the time, location, magnitude, and depth of a future earthquake. Results across California show promising correlations between cGPS derived strain patterns and the earthquake catalog ground truth for a given location and time."
+  end
+
 
   papers << paper_data
 end
