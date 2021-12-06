@@ -3415,6 +3415,7 @@
   - Other
   id: 77
   prev_paper_id: 76
+  next_paper_id: 78
   paper_path: "/papers/neurips2021/77/paper.pdf"
   slides_path: "/papers/neurips2021/77/slides.pdf"
   condensed_subject_areas:
@@ -3422,3 +3423,92 @@
   - Climate and Earth science
   - Earth science and monitoring
   - Other
+- paper_title: A day in a sustainable life
+  abstract: "In this notebook, we show the reader how to use an electrical battery
+    to minimize the operational carbon intensity of a building. The central idea is
+    to charge the battery when the carbon intensity of the grid energy mix is low,
+    and vice versa. The same methodology is used in practice to optimise for a number
+    of different objective functions, including energy costs. \n\nTaking the hypothetical
+    case of Pi, an eco-conscious and tech-savvy householder in the UK, we walk the
+    reader through getting carbon intensity data, and how to use this with a number
+    of different optimisation algorithms to decarbonise. Starting off with easy-to-understand,
+    brute force search, we establish a baseline for subsequent (hopefully smarter)
+    optimization algorithms. This should come naturally, since in their day job Pi
+    is a data scientist where they often use grid and random search to tune hyperparameters
+    of ML models. The second optimization algorithm we explore is a genetic algorithm,
+    which belongs to the class of derivative free optimizers and is consequently extremely
+    versatile. However, the flexibility of these algorithms comes at the cost of computational
+    speed and effort. In many situations, it makes sense to utilize an optimization
+    method which can make use of the special structure in the problem. As the final
+    step, we see how Pi can optimally solve the problem of minimizing their carbon
+    intensity by formulating it as a linear program. Along the way, we also keep an
+    eye out for some of the most important challenges that arise in practice."
+  q1_track: Tutorials
+  primary_contact_author_name: Hussain Kazmi
+  primary_contact_author_email: hussainsyed.kazmi@kuleuven.be
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Buildings and cities
+  secondary_subject_areas: Climate change -> Power and energy systems; Machine learning
+    -> Classification, regression, and supervised learning; Machine learning -> Other;
+    Machine learning -> Time-series analysis
+  author_names: Kazmi, Hussain*; Balint, Attila; Despeghel, Jolien
+  author_emails: hussainsyed.kazmi@kuleuven.be*; attila.balint@kuleuven.be; jolien.despeghel@kuleuven.be
+  authors: Hussain Kazmi (KU Leuven); Attila Balint (KU Leuven); Jolien Despeghel
+    (KU Leuven)
+  cmt_id: 139
+  poster_sessions:
+  - 15:45-16:30 UTC
+  is_spotlight: true
+  subject_areas:
+  - Buildings and cities
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Other
+  - Time-series analysis
+  id: 78
+  prev_paper_id: 77
+  next_paper_id: 79
+  slides_path: "/papers/neurips2021/78/slides.pdf"
+  condensed_subject_areas:
+  - Buildings and cities
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Other
+  - Time-series analysis
+- paper_title: 'Open Catalyst Project: An Introduction to ML applied to Molecular
+    Simulations'
+  abstract: |
+    As the world continues to battle energy scarcity and climate change, the future of our energy infrastructure is a growing challenge. Renewable energy technologies offer the opportunity to drive efficient carbon-neutral means for energy storage and generation. Doing so, however, requires the discovery of efficient and economic catalysts (materials) to accelerate associated chemical processes. A common approach in discovering high performance catalysts is using molecular simulations. Specifically, each simulation models the interaction of a catalyst surface with molecules that are commonly seen in electrochemical reactions. By predicting these interactions accurately, the catalyst's impact on the overall rate of a chemical reaction may be estimated.
+
+    The Open Catalyst Project (OCP) aims to develop new ML methods and models to accelerate the catalyst simulation process for renewable energy technologies and improve our ability to predict properties across catalyst composition. The initial release of the Open Catalyst 2020 (OC20) dataset presented the largest open dataset of molecular combinations, spanning 55 unique elements and over 130M+ data points. We will present a comprehensive tutorial of the Open Catalyst Project repository, including (1) Accessing & visualizing the dataset, (2) Overview of the various tasks, (3) Training graph neural network (GNN) models, (4) Developing your own model for OCP, (5) Running ML-driven simulations, and (6) Visualizing the results. Primary tools include PyTorch and PyTorch Geometric. No background in chemistry is assumed. Following this tutorial we hope to better equip attendees with a basic understanding of the data and repository.
+  q1_track: Tutorials
+  primary_contact_author_name: Muhammed Shuaibi
+  primary_contact_author_email: mshuaibi@andrew.cmu.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Climate change -> Other; Climate change -> Power and energy
+    systems; Machine learning -> Other
+  author_names: Shuaibi, Muhammed*; Sriram, Anuroop; Das, Abhishek; Lan, Janice; Kolluru,
+    Adeesh; Wood, Brandon; Ulissi, Zachary; Zitnick, Larry
+  author_emails: mshuaibi@andrew.cmu.edu*; anuroops@fb.com; abhshkdz@fb.com; janlan@fb.com;
+    akolluru@andrew.cmu.edu; bwood@lbl.gov; zulissi@andrew.cmu.edu; zitnick@fb.com
+  authors: Muhammed Shuaibi (Carnegie Mellon University); Anuroop Sriram (Facebook);
+    Abhishek Das (Facebook AI Research); Janice Lan (Facebook AI Research); Adeesh
+    Kolluru (Carnegie Mellon University); Brandon Wood (NERSC); Zachary Ulissi (Carnegie
+    Mellon University); Larry Zitnick (Facebook AI Research)
+  cmt_id: 140
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  is_spotlight: true
+  subject_areas:
+  - Carbon capture and sequestration
+  - Other
+  - Power and energy systems
+  id: 79
+  prev_paper_id: 78
+  slides_path: "/papers/neurips2021/79/slides.pdf"
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Other
+  - Power and energy systems

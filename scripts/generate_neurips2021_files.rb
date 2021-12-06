@@ -41,10 +41,16 @@ end
 
 papers = []
 export = Roo::Excel2003XML.new(submissions)
-sheet = export.sheet(1)
-parsed = sheet.parse(header_search: [/Paper ID/])
+parsed = (
+   export.sheet(0).parse(header_search: [/Paper ID/]) +
+   export.sheet(1).parse(header_search: [/Paper ID/])
+ )
 
 parsed.each do |p|
+  if p["Track Name"] == "CCAINeurIPS2021Tutorials"
+     p['Q1 (Track)'] = 'Tutorial'
+  end
+
   next unless p["Q1 (Track)"]
   next unless p['Status'].include?('Accept')
 

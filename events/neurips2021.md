@@ -46,9 +46,9 @@ This workshop is part of the conference on Neural Information Processing Systems
 
 ## Accepted Works
 
-Works were submitted to one of two tracks: [Papers](#Papers) or [Proposals](#Proposals). **Note that camera-ready submissions are not yet available for all accepted works, but will be updated before the workshop.**
+Works were submitted to one of three tracks: [Papers](#Papers), [Proposals](#Proposals), or [Tutorials](#Tutorials).
 
-{% assign tracks = "Papers Proposals" | split: " " %}
+{% assign tracks = "Papers Proposals Tutorials" | split: " " %}
 {% for track in tracks %}
 <h3 id='{{ track }}'>{{ track }}</h3>
 
