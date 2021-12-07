@@ -100,7 +100,7 @@ layout: default
       let bibtex = `@inproceedings{${label},\n`;
       bibtex += `  title={${paper.paper_title}},\n`;
       bibtex += `  author={${authors.join(' and ')}},\n`;
-      bibtex += `  journal={${workshop.conference_title}},\n`;
+      bibtex += `  booktitle={${workshop.conference_title}},\n`;
       bibtex += `  url={${location.href}},\n`;
       bibtex += `  year={${year}}\n`;
       bibtex += "}";
