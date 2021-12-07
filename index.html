@@ -45,7 +45,6 @@ $(document).ready(() => {
     lastPost['title'] = {{ lastPost.title | jsonify }};
     lastPost['title'] = `Read our recent blog post: "${lastPost['title']}"`;
     lastPost['url'] = {{ lastPost.url | jsonify }};
-    console.log(lastPost);
 
     const DateTime = luxon.DateTime;
     const today = DateTime.local().startOf('day');
