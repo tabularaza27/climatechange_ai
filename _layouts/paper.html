@@ -178,3 +178,15 @@ layout: default
   <h3 id='recording'>Recorded Talk (<a href="https://youtu.be/{{ p.youtube_id }}">direct link</a>)</h3>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ p.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
+
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
