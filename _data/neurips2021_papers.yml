@@ -41,6 +41,8 @@
   - Computer vision and remote sensing
   id: 1
   next_paper_id: 2
+  conference_id: '36098'
+  conference_link: https://neurips.cc/virtual/2021/poster/36098
   paper_path: "/papers/neurips2021/1/paper.pdf"
   slides_path: "/papers/neurips2021/1/slides.pdf"
   condensed_subject_areas:
@@ -82,6 +84,8 @@
   id: 2
   prev_paper_id: 1
   next_paper_id: 3
+  conference_id: '36099'
+  conference_link: https://neurips.cc/virtual/2021/poster/36099
   slides_path: "/papers/neurips2021/2/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
@@ -132,6 +136,8 @@
   id: 3
   prev_paper_id: 2
   next_paper_id: 4
+  conference_id: '36178'
+  conference_link: https://neurips.cc/virtual/2021/poster/36178
   paper_path: "/papers/neurips2021/3/paper.pdf"
   slides_path: "/papers/neurips2021/3/slides.pdf"
   condensed_subject_areas:
@@ -180,6 +186,8 @@
   id: 4
   prev_paper_id: 3
   next_paper_id: 5
+  conference_id: '36190'
+  conference_link: https://neurips.cc/virtual/2021/poster/36190
   paper_path: "/papers/neurips2021/4/paper.pdf"
   slides_path: "/papers/neurips2021/4/slides.pdf"
   condensed_subject_areas:
@@ -229,6 +237,8 @@
   id: 5
   prev_paper_id: 4
   next_paper_id: 6
+  conference_id: '36191'
+  conference_link: https://neurips.cc/virtual/2021/poster/36191
   paper_path: "/papers/neurips2021/5/paper.pdf"
   slides_path: "/papers/neurips2021/5/slides.pdf"
   condensed_subject_areas:
@@ -270,6 +280,8 @@
   id: 6
   prev_paper_id: 5
   next_paper_id: 7
+  conference_id: '36192'
+  conference_link: https://neurips.cc/virtual/2021/poster/36192
   paper_path: "/papers/neurips2021/6/paper.pdf"
   slides_path: "/papers/neurips2021/6/slides.pdf"
   condensed_subject_areas:
@@ -305,13 +317,15 @@
   id: 7
   prev_paper_id: 6
   next_paper_id: 8
+  conference_id: '36194'
+  conference_link: https://neurips.cc/virtual/2021/poster/36194
   paper_path: "/papers/neurips2021/7/paper.pdf"
   slides_path: "/papers/neurips2021/7/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Generative modeling
-- paper_title: Using Non-Linear Causal Models to StudyAerosol-Cloud Interactions in
-    the Southeast Pacific
+- paper_title: Using Non-Linear Causal Models to Study Aerosol-Cloud Interactions
+    in the Southeast Pacific
   abstract: "Aerosol-cloud interactions include a myriad of effects that all begin
     when aerosol enters a cloud and acts as cloud condensation nuclei (CCN). \nAn
     increase in CCN results in a decrease in the mean cloud droplet size (r$_{e}$).\nThe
@@ -346,6 +360,8 @@
   id: 8
   prev_paper_id: 7
   next_paper_id: 9
+  conference_id: '36195'
+  conference_link: https://neurips.cc/virtual/2021/poster/36195
   paper_path: "/papers/neurips2021/8/paper.pdf"
   slides_path: "/papers/neurips2021/8/slides.pdf"
   condensed_subject_areas:
@@ -387,6 +403,8 @@
   id: 9
   prev_paper_id: 8
   next_paper_id: 10
+  conference_id: '36196'
+  conference_link: https://neurips.cc/virtual/2021/poster/36196
   paper_path: "/papers/neurips2021/9/paper.pdf"
   slides_path: "/papers/neurips2021/9/slides.pdf"
   condensed_subject_areas:
@@ -428,6 +446,8 @@
   id: 10
   prev_paper_id: 9
   next_paper_id: 11
+  conference_id: '48878'
+  conference_link: https://neurips.cc/virtual/2021/poster/48878
   paper_path: "/papers/neurips2021/10/paper.pdf"
   slides_path: "/papers/neurips2021/10/slides.pdf"
   condensed_subject_areas:
@@ -475,6 +495,8 @@
   id: 11
   prev_paper_id: 10
   next_paper_id: 12
+  conference_id: '36199'
+  conference_link: https://neurips.cc/virtual/2021/poster/36199
   paper_path: "/papers/neurips2021/11/paper.pdf"
   slides_path: "/papers/neurips2021/11/slides.pdf"
   condensed_subject_areas:
@@ -516,6 +538,8 @@
   id: 12
   prev_paper_id: 11
   next_paper_id: 13
+  conference_id: '36200'
+  conference_link: https://neurips.cc/virtual/2021/poster/36200
   paper_path: "/papers/neurips2021/12/paper.pdf"
   slides_path: "/papers/neurips2021/12/slides.pdf"
   condensed_subject_areas:
@@ -570,6 +594,8 @@
   id: 13
   prev_paper_id: 12
   next_paper_id: 14
+  conference_id: '36201'
+  conference_link: https://neurips.cc/virtual/2021/poster/36201
   paper_path: "/papers/neurips2021/13/paper.pdf"
   slides_path: "/papers/neurips2021/13/slides.pdf"
   condensed_subject_areas:
@@ -626,6 +652,8 @@
   id: 14
   prev_paper_id: 13
   next_paper_id: 15
+  conference_id: '36202'
+  conference_link: https://neurips.cc/virtual/2021/poster/36202
   paper_path: "/papers/neurips2021/14/paper.pdf"
   slides_path: "/papers/neurips2021/14/slides.pdf"
   condensed_subject_areas:
@@ -665,6 +693,8 @@
   id: 15
   prev_paper_id: 14
   next_paper_id: 16
+  conference_id: '36204'
+  conference_link: https://neurips.cc/virtual/2021/poster/36204
   paper_path: "/papers/neurips2021/15/paper.pdf"
   slides_path: "/papers/neurips2021/15/slides.pdf"
   condensed_subject_areas:
@@ -704,6 +734,8 @@
   id: 16
   prev_paper_id: 15
   next_paper_id: 17
+  conference_id: '36206'
+  conference_link: https://neurips.cc/virtual/2021/poster/36206
   paper_path: "/papers/neurips2021/16/paper.pdf"
   slides_path: "/papers/neurips2021/16/slides.pdf"
   condensed_subject_areas:
@@ -754,6 +786,8 @@
   id: 17
   prev_paper_id: 16
   next_paper_id: 18
+  conference_id: '36210'
+  conference_link: https://neurips.cc/virtual/2021/poster/36210
   paper_path: "/papers/neurips2021/17/paper.pdf"
   slides_path: "/papers/neurips2021/17/slides.pdf"
   condensed_subject_areas:
@@ -795,6 +829,8 @@
   id: 18
   prev_paper_id: 17
   next_paper_id: 19
+  conference_id: '36211'
+  conference_link: https://neurips.cc/virtual/2021/poster/36211
   paper_path: "/papers/neurips2021/18/paper.pdf"
   slides_path: "/papers/neurips2021/18/slides.pdf"
   condensed_subject_areas:
@@ -846,6 +882,8 @@
   id: 19
   prev_paper_id: 18
   next_paper_id: 20
+  conference_id: '36212'
+  conference_link: https://neurips.cc/virtual/2021/poster/36212
   paper_path: "/papers/neurips2021/19/paper.pdf"
   slides_path: "/papers/neurips2021/19/slides.pdf"
   condensed_subject_areas:
@@ -900,6 +938,8 @@
   id: 20
   prev_paper_id: 19
   next_paper_id: 21
+  conference_id: '36213'
+  conference_link: https://neurips.cc/virtual/2021/poster/36213
   paper_path: "/papers/neurips2021/20/paper.pdf"
   slides_path: "/papers/neurips2021/20/slides.pdf"
   condensed_subject_areas:
@@ -948,6 +988,8 @@
   id: 21
   prev_paper_id: 20
   next_paper_id: 22
+  conference_id: '36214'
+  conference_link: https://neurips.cc/virtual/2021/poster/36214
   paper_path: "/papers/neurips2021/21/paper.pdf"
   slides_path: "/papers/neurips2021/21/slides.pdf"
   condensed_subject_areas:
@@ -993,6 +1035,8 @@
   id: 22
   prev_paper_id: 21
   next_paper_id: 23
+  conference_id: '36215'
+  conference_link: https://neurips.cc/virtual/2021/poster/36215
   paper_path: "/papers/neurips2021/22/paper.pdf"
   slides_path: "/papers/neurips2021/22/slides.pdf"
   condensed_subject_areas:
@@ -1037,6 +1081,8 @@
   id: 23
   prev_paper_id: 22
   next_paper_id: 24
+  conference_id: '36216'
+  conference_link: https://neurips.cc/virtual/2021/poster/36216
   paper_path: "/papers/neurips2021/23/paper.pdf"
   slides_path: "/papers/neurips2021/23/slides.pdf"
   condensed_subject_areas:
@@ -1066,6 +1112,8 @@
   id: 24
   prev_paper_id: 23
   next_paper_id: 25
+  conference_id: '36217'
+  conference_link: https://neurips.cc/virtual/2021/poster/36217
   paper_path: "/papers/neurips2021/24/paper.pdf"
   slides_path: "/papers/neurips2021/24/slides.pdf"
   condensed_subject_areas:
@@ -1110,6 +1158,8 @@
   id: 25
   prev_paper_id: 24
   next_paper_id: 26
+  conference_id: '36218'
+  conference_link: https://neurips.cc/virtual/2021/poster/36218
   paper_path: "/papers/neurips2021/25/paper.pdf"
   slides_path: "/papers/neurips2021/25/slides.pdf"
   condensed_subject_areas:
@@ -1152,6 +1202,8 @@
   id: 26
   prev_paper_id: 25
   next_paper_id: 27
+  conference_id: '36219'
+  conference_link: https://neurips.cc/virtual/2021/poster/36219
   paper_path: "/papers/neurips2021/26/paper.pdf"
   slides_path: "/papers/neurips2021/26/slides.pdf"
   condensed_subject_areas:
@@ -1197,6 +1249,8 @@
   id: 27
   prev_paper_id: 26
   next_paper_id: 28
+  conference_id: '36220'
+  conference_link: https://neurips.cc/virtual/2021/poster/36220
   paper_path: "/papers/neurips2021/27/paper.pdf"
   slides_path: "/papers/neurips2021/27/slides.pdf"
   condensed_subject_areas:
@@ -1242,6 +1296,8 @@
   id: 28
   prev_paper_id: 27
   next_paper_id: 29
+  conference_id: '48876'
+  conference_link: https://neurips.cc/virtual/2021/poster/48876
   slides_path: "/papers/neurips2021/28/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
@@ -1289,6 +1345,8 @@
   id: 29
   prev_paper_id: 28
   next_paper_id: 30
+  conference_id: '48872'
+  conference_link: https://neurips.cc/virtual/2021/poster/48872
   paper_path: "/papers/neurips2021/29/paper.pdf"
   slides_path: "/papers/neurips2021/29/slides.pdf"
   condensed_subject_areas:
@@ -1337,6 +1395,8 @@
   id: 30
   prev_paper_id: 29
   next_paper_id: 31
+  conference_id: '48875'
+  conference_link: https://neurips.cc/virtual/2021/poster/48875
   slides_path: "/papers/neurips2021/30/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
@@ -1378,6 +1438,8 @@
   id: 31
   prev_paper_id: 30
   next_paper_id: 32
+  conference_id: '48879'
+  conference_link: https://neurips.cc/virtual/2021/poster/48879
   paper_path: "/papers/neurips2021/31/paper.pdf"
   slides_path: "/papers/neurips2021/31/slides.pdf"
   condensed_subject_areas:
@@ -1424,6 +1486,8 @@
   id: 32
   prev_paper_id: 31
   next_paper_id: 33
+  conference_id: '36223'
+  conference_link: https://neurips.cc/virtual/2021/poster/36223
   paper_path: "/papers/neurips2021/32/paper.pdf"
   slides_path: "/papers/neurips2021/32/slides.pdf"
   condensed_subject_areas:
@@ -1469,6 +1533,8 @@
   id: 33
   prev_paper_id: 32
   next_paper_id: 34
+  conference_id: '36224'
+  conference_link: https://neurips.cc/virtual/2021/poster/36224
   paper_path: "/papers/neurips2021/33/paper.pdf"
   slides_path: "/papers/neurips2021/33/slides.pdf"
   condensed_subject_areas:
@@ -1508,6 +1574,8 @@
   id: 34
   prev_paper_id: 33
   next_paper_id: 35
+  conference_id: '36225'
+  conference_link: https://neurips.cc/virtual/2021/poster/36225
   paper_path: "/papers/neurips2021/34/paper.pdf"
   slides_path: "/papers/neurips2021/34/slides.pdf"
   condensed_subject_areas:
@@ -1551,6 +1619,8 @@
   id: 35
   prev_paper_id: 34
   next_paper_id: 36
+  conference_id: '48874'
+  conference_link: https://neurips.cc/virtual/2021/poster/48874
   paper_path: "/papers/neurips2021/35/paper.pdf"
   slides_path: "/papers/neurips2021/35/slides.pdf"
   condensed_subject_areas:
@@ -1593,6 +1663,8 @@
   id: 36
   prev_paper_id: 35
   next_paper_id: 37
+  conference_id: '36226'
+  conference_link: https://neurips.cc/virtual/2021/poster/36226
   paper_path: "/papers/neurips2021/36/paper.pdf"
   slides_path: "/papers/neurips2021/36/slides.pdf"
   condensed_subject_areas:
@@ -1638,6 +1710,8 @@
   id: 37
   prev_paper_id: 36
   next_paper_id: 38
+  conference_id: '36227'
+  conference_link: https://neurips.cc/virtual/2021/poster/36227
   paper_path: "/papers/neurips2021/37/paper.pdf"
   slides_path: "/papers/neurips2021/37/slides.pdf"
   condensed_subject_areas:
@@ -1688,6 +1762,8 @@
   id: 38
   prev_paper_id: 37
   next_paper_id: 39
+  conference_id: '36228'
+  conference_link: https://neurips.cc/virtual/2021/poster/36228
   paper_path: "/papers/neurips2021/38/paper.pdf"
   slides_path: "/papers/neurips2021/38/slides.pdf"
   condensed_subject_areas:
@@ -1729,6 +1805,8 @@
   id: 39
   prev_paper_id: 38
   next_paper_id: 40
+  conference_id: '36229'
+  conference_link: https://neurips.cc/virtual/2021/poster/36229
   paper_path: "/papers/neurips2021/39/paper.pdf"
   slides_path: "/papers/neurips2021/39/slides.pdf"
   condensed_subject_areas:
@@ -1763,6 +1841,8 @@
   id: 40
   prev_paper_id: 39
   next_paper_id: 41
+  conference_id: '36230'
+  conference_link: https://neurips.cc/virtual/2021/poster/36230
   slides_path: "/papers/neurips2021/40/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
@@ -1811,6 +1891,8 @@
   id: 41
   prev_paper_id: 40
   next_paper_id: 42
+  conference_id: '36231'
+  conference_link: https://neurips.cc/virtual/2021/poster/36231
   paper_path: "/papers/neurips2021/41/paper.pdf"
   slides_path: "/papers/neurips2021/41/slides.pdf"
   condensed_subject_areas:
@@ -1859,6 +1941,8 @@
   id: 42
   prev_paper_id: 41
   next_paper_id: 43
+  conference_id: '36232'
+  conference_link: https://neurips.cc/virtual/2021/poster/36232
   paper_path: "/papers/neurips2021/42/paper.pdf"
   slides_path: "/papers/neurips2021/42/slides.pdf"
   condensed_subject_areas:
@@ -1903,6 +1987,8 @@
   id: 43
   prev_paper_id: 42
   next_paper_id: 44
+  conference_id: '36233'
+  conference_link: https://neurips.cc/virtual/2021/poster/36233
   paper_path: "/papers/neurips2021/43/paper.pdf"
   slides_path: "/papers/neurips2021/43/slides.pdf"
   condensed_subject_areas:
@@ -1943,6 +2029,8 @@
   id: 44
   prev_paper_id: 43
   next_paper_id: 45
+  conference_id: '36234'
+  conference_link: https://neurips.cc/virtual/2021/poster/36234
   paper_path: "/papers/neurips2021/44/paper.pdf"
   slides_path: "/papers/neurips2021/44/slides.pdf"
   condensed_subject_areas:
@@ -1974,6 +2062,8 @@
   id: 45
   prev_paper_id: 44
   next_paper_id: 46
+  conference_id: '36235'
+  conference_link: https://neurips.cc/virtual/2021/poster/36235
   slides_path: "/papers/neurips2021/45/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
@@ -2012,6 +2102,8 @@
   id: 46
   prev_paper_id: 45
   next_paper_id: 47
+  conference_id: '36236'
+  conference_link: https://neurips.cc/virtual/2021/poster/36236
   paper_path: "/papers/neurips2021/46/paper.pdf"
   slides_path: "/papers/neurips2021/46/slides.pdf"
   condensed_subject_areas:
@@ -2064,6 +2156,8 @@
   id: 47
   prev_paper_id: 46
   next_paper_id: 48
+  conference_id: '36238'
+  conference_link: https://neurips.cc/virtual/2021/poster/36238
   slides_path: "/papers/neurips2021/47/slides.pdf"
   condensed_subject_areas:
   - Time-series analysis
@@ -2112,6 +2206,8 @@
   id: 48
   prev_paper_id: 47
   next_paper_id: 49
+  conference_id: '36240'
+  conference_link: https://neurips.cc/virtual/2021/poster/36240
   paper_path: "/papers/neurips2021/48/paper.pdf"
   slides_path: "/papers/neurips2021/48/slides.pdf"
   condensed_subject_areas:
@@ -2152,6 +2248,8 @@
   id: 49
   prev_paper_id: 48
   next_paper_id: 50
+  conference_id: '36241'
+  conference_link: https://neurips.cc/virtual/2021/poster/36241
   paper_path: "/papers/neurips2021/49/paper.pdf"
   slides_path: "/papers/neurips2021/49/slides.pdf"
   condensed_subject_areas:
@@ -2195,6 +2293,8 @@
   id: 50
   prev_paper_id: 49
   next_paper_id: 51
+  conference_id: '36242'
+  conference_link: https://neurips.cc/virtual/2021/poster/36242
   paper_path: "/papers/neurips2021/50/paper.pdf"
   slides_path: "/papers/neurips2021/50/slides.pdf"
   condensed_subject_areas:
@@ -2252,6 +2352,8 @@
   id: 51
   prev_paper_id: 50
   next_paper_id: 52
+  conference_id: '36243'
+  conference_link: https://neurips.cc/virtual/2021/poster/36243
   paper_path: "/papers/neurips2021/51/paper.pdf"
   slides_path: "/papers/neurips2021/51/slides.pdf"
   condensed_subject_areas:
@@ -2305,6 +2407,8 @@
   id: 52
   prev_paper_id: 51
   next_paper_id: 53
+  conference_id: '48870'
+  conference_link: https://neurips.cc/virtual/2021/poster/48870
   paper_path: "/papers/neurips2021/52/paper.pdf"
   slides_path: "/papers/neurips2021/52/slides.pdf"
   condensed_subject_areas:
@@ -2347,6 +2451,8 @@
   id: 53
   prev_paper_id: 52
   next_paper_id: 54
+  conference_id: '36244'
+  conference_link: https://neurips.cc/virtual/2021/poster/36244
   paper_path: "/papers/neurips2021/53/paper.pdf"
   slides_path: "/papers/neurips2021/53/slides.pdf"
   condensed_subject_areas:
@@ -2383,6 +2489,8 @@
   id: 54
   prev_paper_id: 53
   next_paper_id: 55
+  conference_id: '36245'
+  conference_link: https://neurips.cc/virtual/2021/poster/36245
   paper_path: "/papers/neurips2021/54/paper.pdf"
   slides_path: "/papers/neurips2021/54/slides.pdf"
   condensed_subject_areas:
@@ -2428,6 +2536,8 @@
   id: 55
   prev_paper_id: 54
   next_paper_id: 56
+  conference_id: '48871'
+  conference_link: https://neurips.cc/virtual/2021/poster/48871
   paper_path: "/papers/neurips2021/55/paper.pdf"
   slides_path: "/papers/neurips2021/55/slides.pdf"
   condensed_subject_areas:
@@ -2482,6 +2592,8 @@
   id: 56
   prev_paper_id: 55
   next_paper_id: 57
+  conference_id: '36246'
+  conference_link: https://neurips.cc/virtual/2021/poster/36246
   paper_path: "/papers/neurips2021/56/paper.pdf"
   condensed_subject_areas:
   - Ecosystems and natural systems
@@ -2526,6 +2638,8 @@
   id: 57
   prev_paper_id: 56
   next_paper_id: 58
+  conference_id: '48873'
+  conference_link: https://neurips.cc/virtual/2021/poster/48873
   paper_path: "/papers/neurips2021/57/paper.pdf"
   slides_path: "/papers/neurips2021/57/slides.pdf"
   condensed_subject_areas:
@@ -2568,6 +2682,8 @@
   id: 58
   prev_paper_id: 57
   next_paper_id: 59
+  conference_id: '36248'
+  conference_link: https://neurips.cc/virtual/2021/poster/36248
   paper_path: "/papers/neurips2021/58/paper.pdf"
   slides_path: "/papers/neurips2021/58/slides.pdf"
   condensed_subject_areas:
@@ -2613,6 +2729,8 @@
   id: 59
   prev_paper_id: 58
   next_paper_id: 60
+  conference_id: '36249'
+  conference_link: https://neurips.cc/virtual/2021/poster/36249
   paper_path: "/papers/neurips2021/59/paper.pdf"
   slides_path: "/papers/neurips2021/59/slides.pdf"
   condensed_subject_areas:
@@ -2658,6 +2776,8 @@
   id: 60
   prev_paper_id: 59
   next_paper_id: 61
+  conference_id: '36250'
+  conference_link: https://neurips.cc/virtual/2021/poster/36250
   paper_path: "/papers/neurips2021/60/paper.pdf"
   slides_path: "/papers/neurips2021/60/slides.pdf"
   condensed_subject_areas:
@@ -2697,6 +2817,8 @@
   id: 61
   prev_paper_id: 60
   next_paper_id: 62
+  conference_id: '36251'
+  conference_link: https://neurips.cc/virtual/2021/poster/36251
   paper_path: "/papers/neurips2021/61/paper.pdf"
   slides_path: "/papers/neurips2021/61/slides.pdf"
   condensed_subject_areas:
@@ -2750,6 +2872,8 @@
   id: 62
   prev_paper_id: 61
   next_paper_id: 63
+  conference_id: '36189'
+  conference_link: https://neurips.cc/virtual/2021/poster/36189
   paper_path: "/papers/neurips2021/62/paper.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration
@@ -2788,6 +2912,8 @@
   id: 63
   prev_paper_id: 62
   next_paper_id: 64
+  conference_id: '36193'
+  conference_link: https://neurips.cc/virtual/2021/poster/36193
   slides_path: "/papers/neurips2021/63/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
@@ -2825,6 +2951,8 @@
   id: 64
   prev_paper_id: 63
   next_paper_id: 65
+  conference_id: '48882'
+  conference_link: https://neurips.cc/virtual/2021/poster/48882
   paper_path: "/papers/neurips2021/64/paper.pdf"
   slides_path: "/papers/neurips2021/64/slides.pdf"
   condensed_subject_areas:
@@ -2870,6 +2998,8 @@
   id: 65
   prev_paper_id: 64
   next_paper_id: 66
+  conference_id: '36197'
+  conference_link: https://neurips.cc/virtual/2021/poster/36197
   paper_path: "/papers/neurips2021/65/paper.pdf"
   slides_path: "/papers/neurips2021/65/slides.pdf"
   condensed_subject_areas:
@@ -2914,6 +3044,8 @@
   id: 66
   prev_paper_id: 65
   next_paper_id: 67
+  conference_id: '36198'
+  conference_link: https://neurips.cc/virtual/2021/poster/36198
   paper_path: "/papers/neurips2021/66/paper.pdf"
   slides_path: "/papers/neurips2021/66/slides.pdf"
   condensed_subject_areas:
@@ -2923,7 +3055,7 @@
   - Classification, regression, and supervised learning
   - Time-series analysis
   - Uncertainty quantification and robustness
-- paper_title: On the use of Deep Generative Models for "Perfect'" Prognosis Climate
+- paper_title: On the use of Deep Generative Models for "Perfect" Prognosis Climate
     Downscaling
   abstract: Deep Learning has recently emerged as a "perfect" prognosis downscaling
     technique to compute high-resolution fields from large-scale coarse atmospheric
@@ -2956,6 +3088,8 @@
   id: 67
   prev_paper_id: 66
   next_paper_id: 68
+  conference_id: '36203'
+  conference_link: https://neurips.cc/virtual/2021/poster/36203
   paper_path: "/papers/neurips2021/67/paper.pdf"
   slides_path: "/papers/neurips2021/67/slides.pdf"
   condensed_subject_areas:
@@ -3008,6 +3142,8 @@
   id: 68
   prev_paper_id: 67
   next_paper_id: 69
+  conference_id: '36205'
+  conference_link: https://neurips.cc/virtual/2021/poster/36205
   slides_path: "/papers/neurips2021/68/slides.pdf"
   condensed_subject_areas:
   - Agriculture, forestry and other land use
@@ -3060,6 +3196,8 @@
   id: 69
   prev_paper_id: 68
   next_paper_id: 70
+  conference_id: '36207'
+  conference_link: https://neurips.cc/virtual/2021/poster/36207
   paper_path: "/papers/neurips2021/69/paper.pdf"
   slides_path: "/papers/neurips2021/69/slides.pdf"
   condensed_subject_areas:
@@ -3107,6 +3245,8 @@
   id: 70
   prev_paper_id: 69
   next_paper_id: 71
+  conference_id: '36208'
+  conference_link: https://neurips.cc/virtual/2021/poster/36208
   paper_path: "/papers/neurips2021/70/paper.pdf"
   slides_path: "/papers/neurips2021/70/slides.pdf"
   condensed_subject_areas:
@@ -3146,6 +3286,8 @@
   id: 71
   prev_paper_id: 70
   next_paper_id: 72
+  conference_id: '36209'
+  conference_link: https://neurips.cc/virtual/2021/poster/36209
   paper_path: "/papers/neurips2021/71/paper.pdf"
   slides_path: "/papers/neurips2021/71/slides.pdf"
   condensed_subject_areas:
@@ -3190,6 +3332,8 @@
   id: 72
   prev_paper_id: 71
   next_paper_id: 73
+  conference_id: '36221'
+  conference_link: https://neurips.cc/virtual/2021/poster/36221
   paper_path: "/papers/neurips2021/72/paper.pdf"
   slides_path: "/papers/neurips2021/72/slides.pdf"
   condensed_subject_areas:
@@ -3249,6 +3393,8 @@
   id: 73
   prev_paper_id: 72
   next_paper_id: 74
+  conference_id: '36222'
+  conference_link: https://neurips.cc/virtual/2021/poster/36222
   paper_path: "/papers/neurips2021/73/paper.pdf"
   slides_path: "/papers/neurips2021/73/slides.pdf"
   condensed_subject_areas:
@@ -3258,8 +3404,8 @@
   - Disaster prediction, management, and relief
   - Ecosystems and natural systems
   - Meta- and transfer learning
-- paper_title: Optimization of Agricultural Management for SoilCarbon Sequestration
-    based on Deep ReinforcementLearning and Large-Scale Simulations
+- paper_title: Optimization of Agricultural Management for Soil Carbon Sequestration
+    based on Deep Reinforcement Learning and Large-Scale Simulations
   abstract: Soil carbon sequestration in croplands has tremendous potential to help
     mitigate climate change; however, it is challenging to develop the optimal management
     practices for maximization of the sequestered carbon as well as the crop yield.
@@ -3299,6 +3445,8 @@
   id: 74
   prev_paper_id: 73
   next_paper_id: 75
+  conference_id: '36237'
+  conference_link: https://neurips.cc/virtual/2021/poster/36237
   slides_path: "/papers/neurips2021/74/slides.pdf"
   condensed_subject_areas:
   - Reinforcement learning and control
@@ -3328,6 +3476,8 @@
   id: 75
   prev_paper_id: 74
   next_paper_id: 76
+  conference_id: '36239'
+  conference_link: https://neurips.cc/virtual/2021/poster/36239
   paper_path: "/papers/neurips2021/75/paper.pdf"
   slides_path: "/papers/neurips2021/75/slides.pdf"
   condensed_subject_areas:
@@ -3372,6 +3522,8 @@
   id: 76
   prev_paper_id: 75
   next_paper_id: 77
+  conference_id: '36247'
+  conference_link: https://neurips.cc/virtual/2021/poster/36247
   paper_path: "/papers/neurips2021/76/paper.pdf"
   slides_path: "/papers/neurips2021/76/slides.pdf"
   condensed_subject_areas:
@@ -3416,6 +3568,8 @@
   id: 77
   prev_paper_id: 76
   next_paper_id: 78
+  conference_id: '48877'
+  conference_link: https://neurips.cc/virtual/2021/poster/48877
   paper_path: "/papers/neurips2021/77/paper.pdf"
   slides_path: "/papers/neurips2021/77/slides.pdf"
   condensed_subject_areas:
@@ -3468,6 +3622,8 @@
   id: 78
   prev_paper_id: 77
   next_paper_id: 79
+  conference_id: '48880'
+  conference_link: https://neurips.cc/virtual/2021/poster/48880
   slides_path: "/papers/neurips2021/78/slides.pdf"
   condensed_subject_areas:
   - Buildings and cities
@@ -3507,6 +3663,8 @@
   - Power and energy systems
   id: 79
   prev_paper_id: 78
+  conference_id: '48881'
+  conference_link: https://neurips.cc/virtual/2021/poster/48881
   slides_path: "/papers/neurips2021/79/slides.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration

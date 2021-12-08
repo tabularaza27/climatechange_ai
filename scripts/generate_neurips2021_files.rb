@@ -10,20 +10,17 @@ workshop = 'neurips2021'
 submissions = "raw_workshop_files/#{workshop}/Papers.xml"
 cameraready = "raw_workshop_files/#{workshop}/CameraReadys"
 
-#sl_link_file = "raw_workshop_files/#{workshop}/slideslive_links.csv"
+neurips_link_file = "raw_workshop_files/#{workshop}/neurips_links.csv"
 #sl_id_file = "raw_workshop_files/#{workshop}/slideslive_unique_ids.csv"
 #sl_unique_ids = Set.new(File.read(sl_id_file).strip.split("\n").map(&:strip))
 
 cmt_to_sl_id = {}
-cmt_to_speaker = {}
+ccai_to_neurips_id = {}
 
-#CSV.read(sl_link_file, headers: true).each do |row|
-#  if %w(finished checked).include?(row['Video Status'])
-#    cmt_id = row['Paper ID'].to_i
-#    cmt_to_sl_id[cmt_id] = row['SlidesLive Link'].strip.split("/").last
-#    cmt_to_speaker[cmt_id] = row['Author'].strip
-#  end
-#end
+CSV.read(neurips_link_file, headers: true).each do |row|
+  ccai_id = row['CCAI ID'].to_i
+  ccai_to_neurips_id[ccai_id] = row['NeurIPS ID'].strip
+end
 
 cmt_to_speaker = {}
 
@@ -122,6 +119,11 @@ papers.each_with_index do |p,i|
   p['id'] = i+1
   p['prev_paper_id'] = i if i > 0
   p['next_paper_id'] = i+2 if i < papers.size-1
+
+  if neurips_id = ccai_to_neurips_id[i+1]
+    p['conference_id'] = neurips_id
+    p['conference_link'] = "https://neurips.cc/virtual/2021/poster/#{neurips_id}"
+  end
 end
 
 def aspect_ratio(pdf)
