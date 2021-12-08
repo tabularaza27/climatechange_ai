@@ -72,6 +72,10 @@ layout: default
     <a href='#recording' class='button'>Recorded Talk</a>
   {% endif %}
 
+  {% if p.conference_link %}
+  <a href='{{ p.conference_link }}' class='button' target='_blank'>{{workshop.short_name}} Poster</a>
+  {% endif %}
+
   <a href='javascript:void(0)' class='button' id='cite-paper'>Cite</a>
 
   <script>
