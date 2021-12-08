@@ -192,6 +192,8 @@ $(document).ready(function() {
       theme_sel.append(`<option value="${kw}">${kw}</option>`);
     });
 
+    $('.chosen-select').chosen();
+
     const filters = [
       [learn_sel, 'ml'],
       [topic_sel, 'topic'],
@@ -201,8 +203,14 @@ $(document).ready(function() {
     const filterClassSelectors = filters.map((el) => `.${el[1]}-filtered`);
 
     function toggleVisibility(select, key) {
+      const q = new URLSearchParams(location.search);
+      q.delete(key);
+
       if (select.val().length) {
         $('#sections').addClass(`${key}-filtering`);
+        for (let val of [select.val()].flat()) {
+            q.append(key, val);
+        }
       } else {
         $('#sections').removeClass(`${key}-filtering`);
         $('.subsection').removeClass(`${key}-filtered`);
@@ -223,7 +231,11 @@ $(document).ready(function() {
           $(el).addClass(`all-filtered`);
         }
       });
+
+      history.replaceState({}, '', `${location.pathname}?${q}`);
     }
+
+    const q = new URLSearchParams(location.search);
 
     for (let pair of filters) {
       const select = pair[0];
@@ -242,6 +254,14 @@ $(document).ready(function() {
           select.trigger("change").trigger("chosen:updated");
         }
       });
+
+      if (q.has(key)) {
+        if (select.attr('multiple')) {
+          select.val(q.getAll(key)).trigger("change").trigger("chosen:updated");
+        } else {
+          select.val(q.get(key)).trigger("change");
+        }
+      }
     }
 
     $('#reset').click(() => {
@@ -250,7 +270,5 @@ $(document).ready(function() {
       topic_sel.val('').trigger("change").trigger("chosen:updated");
       section_sel.val('').trigger("change");
     });
-
-    $('.chosen-select').chosen();
   });
 });
