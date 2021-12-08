@@ -131,7 +131,7 @@
       
       <p><strong>Title:</strong> Role of AI in predicting and mitigating climate change</p>
 
-      <p><strong>Abstract:</strong> TBA</p>
+      <p><strong>Abstract:</strong> Predicting extreme weather events in a warming world at fine scales is a grand challenge faced by climate scientists. Policy makers and society at large depend on reliable predictions to plan for the disastrous impact of climate change and develop effective adaptation strategies. Deep learning (DL) offers novel methods that are potentially more accurate and orders of magnitude faster than traditional weather and climate models for predicting extreme events.  The Fourier Neural Operator (FNO), a novel deep learning method has shown promising results for predicting complex systems, such as spatio-temporal chaos, turbulence, and weather phenomena. I will give an overview of the method as well as our recent results.</p>
 
       <p><strong>Bio:</strong> Anima Anandkumar is a Bren Professor at Caltech and Director of ML Research at NVIDIA. She was previously a Principal Scientist at Amazon Web Services. She has received several honors such as Alfred. P. Sloan Fellowship, NSF Career Award, Young investigator awards from DoD, and Faculty Fellowships from Microsoft, Google, Facebook, and Adobe. She is part of the World Economic Forum's Expert Network. She is passionate about designing principled AI algorithms and applying them in interdisciplinary applications. Her research focus is on unsupervised AI, optimization, and tensor methods.</p>
 - desc: Spotlight Presentations
