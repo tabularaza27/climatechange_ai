@@ -324,6 +324,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   github-pages
+  jekyll-feed
   jekyll-redirect-from
   kramdown
   mailgun-ruby
