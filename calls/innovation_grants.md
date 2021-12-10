@@ -50,7 +50,7 @@ We do not fund research activity that is currently funded by other grant program
 | Call release date            | Aug 23, 2021 |
 | Informational webinars (<a href="/files/innovation-grants-slides-2021.pdf">slides</a>)      | Sept 23 & 27, 2021 |
 | **Proposal submission deadline** | **Oct 15, 2021** |
-| Notification of results      | Dec 10, 2021 |
+| Notification of results      | Dec 18, 2021 |
 | Award start date             | Jan 10, 2022 |
 |	Award end date               | Jan 10, 2023 |
 
