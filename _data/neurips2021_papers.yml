@@ -775,6 +775,9 @@
     of California, Berkeley); Lucien D Werner (California Institute of Technology);
     Dava Newman (MIT); Steven Low (California Institute of Technology)
   cmt_id: 51
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1701,6 +1704,8 @@
   authors: Akshay B Iyer (SkySpecs, Inc.); Linh V Nguyen (SkySpecs Inc); Shweta Khushu
     (SkySpecs Inc.)
   cmt_id: 87
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -2095,6 +2100,8 @@
     Singla (University of Toronto); Mahdi S. Hosseini (University of New Brunswick);
     Konstantinos N Plataniotis (UofT)
   cmt_id: 100
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -2197,6 +2204,8 @@
     Amy R. Macfarlane (WSL Institute for Snow and Avalanche Research SLF); Martin
     Schneebeli (WSL Institute for Snow and Avalanche Research SLF)
   cmt_id: 109
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Other
@@ -2949,6 +2958,9 @@
   author_emails: michelle.lin2@mail.mcgill.ca*; drolnick@cs.mcgill.ca
   authors: Michelle Lin (McGill University); David Rolnick (McGill University, Mila)
   cmt_id: 19
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy systems
@@ -3444,6 +3456,8 @@
     Institute of Technology); Zahra  Kalantari (Royal Institute of Technology); Jennifer
     Hobbs (IntelinAir Inc.)
   cmt_id: 102
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Reinforcement learning and control

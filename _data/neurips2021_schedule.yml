@@ -269,7 +269,7 @@
   utc2:
     year: 2021
     month: 12
-    day: 14
+    day: 15
     hour: 0
     minute: 15
   more: replace_with_papers_in_session|23:30-00:15 UTC
@@ -277,12 +277,12 @@
   utc1:
     year: 2021
     month: 12
-    day: 14
+    day: 15
     hour: 0
     minute: 15
   utc2:
     year: 2021
     month: 12
-    day: 14
+    day: 15
     hour: 1
     minute: 0
