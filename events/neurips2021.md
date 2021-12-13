@@ -106,6 +106,126 @@ We recently conducted two informational webinars answering questions about the m
 [Tegan Maharaj (Mila, UToronto)](http://www.teganmaharaj.com/)<br>
 [Yoshua Bengio (Mila, UdeM)](https://yoshuabengio.org/)<br>
 
+## Mentors
+
+Alberto Costa Nogueira Junior<br>
+Anuroop Sriram<br>
+Aranildo Lima<br>
+Campbell Watson<br>
+Deval Pandya<br>
+Fatma Tarlaci<br>
+Indrasis Chakraborty<br>
+Kara Lamb<br>
+Malte Hessenius <br>
+Mohamed Sidahmed<br>
+Peter Dolan <br>
+Quentin Paletta<br>
+Rajendiran Gopinath<br>
+Reshmi Ghosh<br>
+Sara Khalid<br>
+Siddha Ganju<br>
+Varvara Vetrova<br>
+Vishal Anand<br>
+Ying-Jung Chen Deweese<br>
+Yongli Zhu<br>
+
+## Program Committee
+
+Alberto Chapchap<br>
+Alexandra Puchko<br>
+Andrew Ross<br>
+Aneesh Rangnekar<br>
+Ankur Mahesh<br>
+Ankush Chakrabarty<br>
+Armi Tiihonen<br>
+Bertrand Le Saux<br>
+Bianca Zadrozny<br>
+Bill Cai<br>
+Bingqing Chen<br>
+Brian Hutchinson<br>
+Campbell Watson<br>
+Chase Dowling<br>
+Clement Duhart<br>
+Dali Wang<br>
+Dan Lu<br>
+Daniel Salles Civitarese<br>
+Daniela Szwarcman<br>
+Dara Farrell<br>
+Dario Augusto Borges Oliveira<br>
+David Dao<br>
+David Rolnick<br>
+Deepjyoti Deka<br>
+Diego Kiedansk<br>
+Difan Zhang<br>
+Duncan Watson-Parris<br>
+Fabrizio Falasca<br>
+Felix Laumann<br>
+Fred Otieno<br>
+Frederik Gerzer<br>
+Gege Wen<br>
+Geneviève Patterson<br>
+Hannah Kerner<br>
+Hao Sheng<br>
+Hari Prasanna Das<br>
+Hovig Bayandorian<br>
+Isabelle Tingzon<br>
+Jan Drgona<br>
+Jeremy Irvin<br>
+Jiaxin Zhang<br>
+Jonathan Fürst<br>
+Joris Guerin<br>
+Joyjit Chatterjee<br>
+Julian de Hoog<br>
+Julius von Kügelgen<br>
+Kai Jeggle<br>
+Kalai Ramea<br>
+Katarzyna B. Tokarska<br>
+Kate Duffy<br>
+Kidane Degefa<br>
+Komminist Weldemariam<br>
+Konstantin Klemmer<br>
+Kureha Yamaguchi<br>
+Lauren Kuntz<br>
+Levente Klein<br>
+Lexie Yang<br>
+Linda Petrini<br>
+Lucas Kruitwagen<br>
+Lucas Spangher<br>
+Maike Sonnewald<br>
+Marcus Voß<br>
+Maria João Sousa<br>
+Markus Leippold<br>
+Matias Quintana<br>
+Meareg Hailemariam<br>
+Michael Howland<br>
+Michael Steininger<br>
+Miguel Molina-Solana<br>
+Milan Jain<br>
+Niccolo Dalmasso<br>
+Nikola Milojevic-Dupont<br>
+Olivia Mendivil Ramos<br>
+Paulo Orenstein<br>
+Paweł Gora<br>
+Peetak Mitra<br>
+Priya Donti<br>
+Ramakrishna Tipireddy<br>
+Redouane Lguensat<br>
+Robin Dunn<br>
+Romana Markovic<br>
+Samrat Chatterjee<br>
+Sara El Mekkaoui<br>
+Sasha Luccioni<br>
+Sayak Mukherjee<br>
+Shruti Kulkarni<br>
+Simone Fobi<br>
+Tianle Yuan<br>
+Tristan Ballard<br>
+Valentina Zantedeschi<br>
+Victoria Preston<br>
+Vili Hätönen<br>
+Yimeng Min<br>
+Yue Hu<br>
+
 ## Call for Submissions
 
 We invite submissions of short papers using machine learning to address problems in climate mitigation, adaptation, or modeling, including but not limited to the following topics:
