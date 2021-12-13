@@ -16,5 +16,7 @@
 
 <figure>
     <img src="{{include.src}}" alt="{{alt}}" title="{{title}}">
-    <figcaption>{{include.caption}}</figcaption>
+    {% if include.caption %}
+        <figcaption>{{include.caption}}</figcaption>
+    {% endif %}
 </figure>
