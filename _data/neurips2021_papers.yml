@@ -31,6 +31,8 @@
   author_emails: siddhaganju@gmail.com*; spsayakpaul@gmail.com
   authors: Siddha Ganju (Nvidia Corporation); Sayak Paul (Carted)
   cmt_id: 6
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Unsupervised and semi-supervised learning
@@ -39,6 +41,8 @@
   - Computer vision and remote sensing
   id: 1
   next_paper_id: 2
+  conference_id: '36098'
+  conference_link: https://neurips.cc/virtual/2021/poster/36098
   paper_path: "/papers/neurips2021/1/paper.pdf"
   slides_path: "/papers/neurips2021/1/slides.pdf"
   condensed_subject_areas:
@@ -71,6 +75,8 @@
   authors: Hoang Chuong Nguyen (Australia National University); Miaomiao Liu (The
     Australian National University)
   cmt_id: 8
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -78,6 +84,9 @@
   id: 2
   prev_paper_id: 1
   next_paper_id: 3
+  conference_id: '36099'
+  conference_link: https://neurips.cc/virtual/2021/poster/36099
+  slides_path: "/papers/neurips2021/2/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Power and energy systems
@@ -86,24 +95,24 @@
     is critical to understand climate change and to assess the impact of potentially
     counter-acting technologies. Machine learning and hybrid techniques for this prediction
     rely on informative metrics that are sensitive to pertinent but often subtle influences.
-    For atmospheric dynamics, a critical part of the climate system, the ``eyeball
-    metric'''', i.e. a visual inspection by an expert, is currently still the gold
-    standard. However, it cannot be used as metric in machine learning systems where
-    an algorithmic description is required. Motivated by the success of intermediate
+    For atmospheric dynamics, a critical part of the climate system, no well established
+    metric exists and visual inspection is currently still often used in practice.
+    However, this ``eyeball metric'''' cannot be used for machine learning where an
+    algorithmic description is required. Motivated by the success of intermediate
     neural network activations as basis for learned metrics, e.g. in computer vision,
     we present a novel, self-supervised representation learning approach specifically
     designed for atmospheric dynamics. Our approach, called AtmoDist, trains a neural
     network on a simple, auxiliary task: predicting the temporal distance between
-    elements of a shuffled sequence of atmospheric fields (e.g. the components of
-    the wind field from a reanalysis or simulation). The task forces the network to
-    learn important intrinsic aspects of the data as activations in its layers and
-    from these hence a discriminative metric can be obtained. We demonstrate this
+    elements of a randomly shuffled sequence of atmospheric fields (e.g. the components
+    of the wind field from reanalysis or simulation). The task forces the network
+    to learn important intrinsic aspects of the data as activations in its layers
+    and from these hence a discriminative metric can be obtained. We demonstrate this
     by using AtmoDist to define a metric for GAN-based super resolution of vorticity
-    and divergence. Our upscaled data matches closely the true statistics of a high
-    resolution reference and it significantly outperform the state-of-the-art based
-    on mean squared error. Since AtmoDist is unsupervised, only requires a temporal
-    sequence of fields, and uses a simple auxiliary task, it can be used in a wide
-    range of applications that aim to understand and mitigate climate change.'
+    and divergence. Our upscaled data matches both visually and in terms of its statistics
+    a high resolution reference closely and it significantly outperform the state-of-the-art
+    based on mean squared error. Since AtmoDist is unsupervised, only requires a temporal
+    sequence of fields, and uses a simple auxiliary task, it has the potential to
+    be of utility in a wide range of applications.'
   q1_track: Papers
   primary_contact_author_name: Christian Lessig
   primary_contact_author_email: christian.lessig@ovgu.de
@@ -116,6 +125,8 @@
   authors: Sebastian Hoffmann (University of Magdeburg); Christian Lessig (Otto-von-Guericke-Universitat
     Magdeburg)
   cmt_id: 9
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -125,6 +136,10 @@
   id: 3
   prev_paper_id: 2
   next_paper_id: 4
+  conference_id: '36178'
+  conference_link: https://neurips.cc/virtual/2021/poster/36178
+  paper_path: "/papers/neurips2021/3/paper.pdf"
+  slides_path: "/papers/neurips2021/3/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Earth science and monitoring
@@ -160,6 +175,8 @@
     Almaden Research Center); Etienne E Vos (IBM); Bianca Zadrozny (IBM Research);
     Campbell D Watson (IBM Reserch); Tanveer Syeda-Mahmood (IBM Research)
   cmt_id: 13
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Uncertainty quantification and robustness
@@ -169,6 +186,8 @@
   id: 4
   prev_paper_id: 3
   next_paper_id: 5
+  conference_id: '36190'
+  conference_link: https://neurips.cc/virtual/2021/poster/36190
   paper_path: "/papers/neurips2021/4/paper.pdf"
   slides_path: "/papers/neurips2021/4/slides.pdf"
   condensed_subject_areas:
@@ -218,6 +237,8 @@
   id: 5
   prev_paper_id: 4
   next_paper_id: 6
+  conference_id: '36191'
+  conference_link: https://neurips.cc/virtual/2021/poster/36191
   paper_path: "/papers/neurips2021/5/paper.pdf"
   slides_path: "/papers/neurips2021/5/slides.pdf"
   condensed_subject_areas:
@@ -250,6 +271,8 @@
     Laboratory); Nicholas Azzolina (University of North Dakota); Matthew Burton-Kelly
     (University of North Dakota)
   cmt_id: 15
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -257,6 +280,8 @@
   id: 6
   prev_paper_id: 5
   next_paper_id: 7
+  conference_id: '36192'
+  conference_link: https://neurips.cc/virtual/2021/poster/36192
   paper_path: "/papers/neurips2021/6/paper.pdf"
   slides_path: "/papers/neurips2021/6/slides.pdf"
   condensed_subject_areas:
@@ -283,6 +308,8 @@
   author_emails: djamesfulton@yahoo.co.uk*; ben.clarke@jesus.ox.ac.uk
   authors: James Fulton (University of Edinburgh); Ben Clarke (Oxford University)
   cmt_id: 17
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -290,13 +317,15 @@
   id: 7
   prev_paper_id: 6
   next_paper_id: 8
+  conference_id: '36194'
+  conference_link: https://neurips.cc/virtual/2021/poster/36194
   paper_path: "/papers/neurips2021/7/paper.pdf"
   slides_path: "/papers/neurips2021/7/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Generative modeling
-- paper_title: Using Non-Linear Causal Models to StudyAerosol-Cloud Interactions in
-    the Southeast Pacific
+- paper_title: Using Non-Linear Causal Models to Study Aerosol-Cloud Interactions
+    in the Southeast Pacific
   abstract: "Aerosol-cloud interactions include a myriad of effects that all begin
     when aerosol enters a cloud and acts as cloud condensation nuclei (CCN). \nAn
     increase in CCN results in a decrease in the mean cloud droplet size (r$_{e}$).\nThe
@@ -322,6 +351,8 @@
     Alyson Douglas (University of Oxford); Duncan Watson-Parris (University of Oxford);
     Yarin Gal (University of Oxford); Philip Stier (University of Oxford)
   cmt_id: 18
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -329,6 +360,8 @@
   id: 8
   prev_paper_id: 7
   next_paper_id: 9
+  conference_id: '36195'
+  conference_link: https://neurips.cc/virtual/2021/poster/36195
   paper_path: "/papers/neurips2021/8/paper.pdf"
   slides_path: "/papers/neurips2021/8/slides.pdf"
   condensed_subject_areas:
@@ -360,6 +393,8 @@
   authors: Veda Sunkara (Cloud to Street); Nicholas Leach (Cloud to Street); Siddha
     Ganju (Nvidia)
   cmt_id: 20
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -368,6 +403,8 @@
   id: 9
   prev_paper_id: 8
   next_paper_id: 10
+  conference_id: '36196'
+  conference_link: https://neurips.cc/virtual/2021/poster/36196
   paper_path: "/papers/neurips2021/9/paper.pdf"
   slides_path: "/papers/neurips2021/9/slides.pdf"
   condensed_subject_areas:
@@ -395,6 +432,8 @@
   authors: Léonard Boussioux (MIT, CentraleSupélec); Cynthia Zeng (MIT); Dimitris
     Bertsimas (MIT); Théo J Guenais (Harvard University)
   cmt_id: 24
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Hybrid physical models
@@ -407,6 +446,10 @@
   id: 10
   prev_paper_id: 9
   next_paper_id: 11
+  conference_id: '48878'
+  conference_link: https://neurips.cc/virtual/2021/poster/48878
+  paper_path: "/papers/neurips2021/10/paper.pdf"
+  slides_path: "/papers/neurips2021/10/slides.pdf"
   condensed_subject_areas:
   - Hybrid physical models
   - Climate and Earth science
@@ -441,6 +484,8 @@
   authors: Devyani Lambhate Lambhate (Indian Institute of Science); Smit Marvaniya
     (IBM Research India); Jitendra Singh (IBM Research - India); David Gold (IBM)
   cmt_id: 26
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -450,6 +495,8 @@
   id: 11
   prev_paper_id: 10
   next_paper_id: 12
+  conference_id: '36199'
+  conference_link: https://neurips.cc/virtual/2021/poster/36199
   paper_path: "/papers/neurips2021/11/paper.pdf"
   slides_path: "/papers/neurips2021/11/slides.pdf"
   condensed_subject_areas:
@@ -480,6 +527,8 @@
   authors: Caroline Arnold (German Climate Computing Center); Milad Asgarimehr (German
     Research Centre for Geosciences)
   cmt_id: 27
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -489,6 +538,8 @@
   id: 12
   prev_paper_id: 11
   next_paper_id: 13
+  conference_id: '36200'
+  conference_link: https://neurips.cc/virtual/2021/poster/36200
   paper_path: "/papers/neurips2021/12/paper.pdf"
   slides_path: "/papers/neurips2021/12/slides.pdf"
   condensed_subject_areas:
@@ -516,22 +567,24 @@
     in oceanographic data and climate monitoring. We make our data and code publicly
     available.
   q1_track: Papers
-  primary_contact_author_name: Jae Deok Kim
-  primary_contact_author_email: kimjd@mit.edu
+  primary_contact_author_name: Ellen Park
+  primary_contact_author_email: erpark@mit.edu
   status: Accept (Poster)
   primary_subject_area: Climate change -> Earth science and monitoring
   secondary_subject_areas: Climate change -> Ecosystems and natural systems; Machine
     learning -> Classification, regression, and supervised learning; Machine learning
     -> Other
-  author_names: Park, Ellen; Kim, Jae Deok*; Aoki, Nadege; Cao, Yumeng; Arefeen, Yamin;
+  author_names: Park, Ellen*; Kim, Jae Deok; Aoki, Nadege; Cao, Yumeng; Arefeen, Yamin;
     Beveridge, Matthew; Nicholson, David P; Drori, Iddo
-  author_emails: erpark@mit.edu; kimjd@mit.edu*; nadege@mit.edu; ymcao@mit.edu; yarefeen@mit.edu;
+  author_emails: erpark@mit.edu*; kimjd@mit.edu; nadege@mit.edu; ymcao@mit.edu; yarefeen@mit.edu;
     mattbev@mit.edu; dnicholson@whoi.edu; idrori@mit.edu
   authors: Ellen Park (MIT); Jae Deok Kim (MIT-WHOI); Nadege Aoki (MIT); Yumeng Cao
     (MIT); Yamin Arefeen (Massachusetts Institute of Technology); Matthew Beveridge
     (Massachusetts Institute of Technology); David P Nicholson (Woods Hole Oceanographic
     Institution); Iddo Drori (MIT)
   cmt_id: 32
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -541,6 +594,10 @@
   id: 13
   prev_paper_id: 12
   next_paper_id: 14
+  conference_id: '36201'
+  conference_link: https://neurips.cc/virtual/2021/poster/36201
+  paper_path: "/papers/neurips2021/13/paper.pdf"
+  slides_path: "/papers/neurips2021/13/slides.pdf"
   condensed_subject_areas:
   - Earth science and monitoring
   - Ecosystems and natural systems
@@ -563,27 +620,30 @@
     given input data of coarser resolutions, as frequently encountered in climate
     models.
   q1_track: Papers
-  primary_contact_author_name: Julia S Gottfriedsen
+  primary_contact_author_name: Julia Gottfriedsen
   primary_contact_author_email: jsgottfriedsen@gmail.com
   status: Accept (Poster)
   primary_subject_area: Climate change -> Climate modeling
   secondary_subject_areas: Climate change -> Agriculture; Climate change -> Disaster
     prediction, management, and relief
-  author_names: Gottfriedsen, Julia S*; Berrendorf, Max; Gentine, Pierre; Reichstein,
+  author_names: Gottfriedsen, Julia*; Berrendorf, Max; Gentine, Pierre; Reichstein,
     Markus; Weigel , Katja; Hassler, Birgit; Eyring, Veronika
   author_emails: jsgottfriedsen@gmail.com*; berrendorf@dbs.ifi.lmu.de; pg2328@columbia.edu;
     mreichstein@bgc-jena.mpg.de; weigel@iup.physik.uni-bremen.de; birgit.hassler@dlr.de;
     veronika.eyring@dlr.de
-  authors: Julia S Gottfriedsen (DLR); Max Berrendorf (Ludwig-Maximilians-Universität
-    München); Pierre Gentine (Columbia University); Markus Reichstein (Max Planck
-    Institute for Biogeochemistry, Jena; Michael Stifel Center Jena for Data-Driven
-    and Simulation Science, Jena); Katja Weigel  (niversity of Bremen, Institute of
-    Environmental Physics (IUP), Bremen, Germany); Birgit Hassler (Deutsches Zentrum
-    für Luft- und Raumfahrt e.V. (DLR), Institut für Physik der Atmosphäre, Oberpfaffenhofen,
-    Germany); Veronika Eyring (Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR),
-    Institut für Physik der Atmosphäre, Oberpfaffenhofen, Germany; University of Bremen,
-    Institute of Environmental Physics (IUP), Bremen, Germany)
+  authors: Julia Gottfriedsen (1Deutsches Zentrum für Luft- und Raumfahrt (DLR), LMU);
+    Max Berrendorf (Ludwig-Maximilians-Universität München); Pierre Gentine (Columbia
+    University); Markus Reichstein (Max Planck Institute for Biogeochemistry, Jena;
+    Michael Stifel Center Jena for Data-Driven and Simulation Science, Jena); Katja
+    Weigel  (niversity of Bremen, Institute of Environmental Physics (IUP), Bremen,
+    Germany); Birgit Hassler (Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR),
+    Institut für Physik der Atmosphäre, Oberpfaffenhofen, Germany); Veronika Eyring
+    (Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR), Institut für Physik der
+    Atmosphäre, Oberpfaffenhofen, Germany; University of Bremen, Institute of Environmental
+    Physics (IUP), Bremen, Germany)
   cmt_id: 33
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -592,6 +652,10 @@
   id: 14
   prev_paper_id: 13
   next_paper_id: 15
+  conference_id: '36202'
+  conference_link: https://neurips.cc/virtual/2021/poster/36202
+  paper_path: "/papers/neurips2021/14/paper.pdf"
+  slides_path: "/papers/neurips2021/14/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Agriculture, forestry and other land use
@@ -619,6 +683,8 @@
   author_emails: ckrapu@gmail.com*
   authors: Christopher Krapu (Oak Ridge National Lab - Oak Ridge, TN)
   cmt_id: 35
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Generative modeling
@@ -627,6 +693,10 @@
   id: 15
   prev_paper_id: 14
   next_paper_id: 16
+  conference_id: '36204'
+  conference_link: https://neurips.cc/virtual/2021/poster/36204
+  paper_path: "/papers/neurips2021/15/paper.pdf"
+  slides_path: "/papers/neurips2021/15/slides.pdf"
   condensed_subject_areas:
   - Generative modeling
   - Agriculture, forestry and other land use
@@ -655,6 +725,8 @@
   authors: Joshua Mitton (University of Glasgow); Roderick Murray-Smith (University
     of Glasgow)
   cmt_id: 38
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -662,6 +734,10 @@
   id: 16
   prev_paper_id: 15
   next_paper_id: 17
+  conference_id: '36206'
+  conference_link: https://neurips.cc/virtual/2021/poster/36206
+  paper_path: "/papers/neurips2021/16/paper.pdf"
+  slides_path: "/papers/neurips2021/16/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Classification, regression, and supervised learning
@@ -710,6 +786,10 @@
   id: 17
   prev_paper_id: 16
   next_paper_id: 18
+  conference_id: '36210'
+  conference_link: https://neurips.cc/virtual/2021/poster/36210
+  paper_path: "/papers/neurips2021/17/paper.pdf"
+  slides_path: "/papers/neurips2021/17/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Climate and Earth science
@@ -740,6 +820,8 @@
     (MERL)); Christopher Laughman (Mitsubishi Electric Research Laboratories); Ankush
     Chakrabarty (Mitsubishi Electric Research Labs)
   cmt_id: 52
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Buildings and cities
@@ -747,6 +829,8 @@
   id: 18
   prev_paper_id: 17
   next_paper_id: 19
+  conference_id: '36211'
+  conference_link: https://neurips.cc/virtual/2021/poster/36211
   paper_path: "/papers/neurips2021/18/paper.pdf"
   slides_path: "/papers/neurips2021/18/slides.pdf"
   condensed_subject_areas:
@@ -783,6 +867,10 @@
     Corporation); Shikhar Sharma (); Jonathan Weyn (Microsoft); Siqi Xiang (Microsoft
     Corporation)
   cmt_id: 54
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -794,6 +882,8 @@
   id: 19
   prev_paper_id: 18
   next_paper_id: 20
+  conference_id: '36212'
+  conference_link: https://neurips.cc/virtual/2021/poster/36212
   paper_path: "/papers/neurips2021/19/paper.pdf"
   slides_path: "/papers/neurips2021/19/slides.pdf"
   condensed_subject_areas:
@@ -838,6 +928,8 @@
     Berkeley); Colorado J Reed (University of California, Berkeley); Puya Vahabi (UC
     Berkeley)
   cmt_id: 55
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -846,6 +938,8 @@
   id: 20
   prev_paper_id: 19
   next_paper_id: 21
+  conference_id: '36213'
+  conference_link: https://neurips.cc/virtual/2021/poster/36213
   paper_path: "/papers/neurips2021/20/paper.pdf"
   slides_path: "/papers/neurips2021/20/slides.pdf"
   condensed_subject_areas:
@@ -883,6 +977,8 @@
     Tarn (Duke University); Baoyan Ye (Duke University); Wendy Zhang (Duke University);
     Jordan Malof (Duke University); Kyle Bradbury (Duke University)
   cmt_id: 56
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -892,6 +988,10 @@
   id: 21
   prev_paper_id: 20
   next_paper_id: 22
+  conference_id: '36214'
+  conference_link: https://neurips.cc/virtual/2021/poster/36214
+  paper_path: "/papers/neurips2021/21/paper.pdf"
+  slides_path: "/papers/neurips2021/21/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Earth science and monitoring
@@ -924,6 +1024,8 @@
   author_emails: wlross@stanford.edu*
   authors: William L Ross (Stanford)
   cmt_id: 57
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -933,6 +1035,8 @@
   id: 22
   prev_paper_id: 21
   next_paper_id: 23
+  conference_id: '36215'
+  conference_link: https://neurips.cc/virtual/2021/poster/36215
   paper_path: "/papers/neurips2021/22/paper.pdf"
   slides_path: "/papers/neurips2021/22/slides.pdf"
   condensed_subject_areas:
@@ -968,6 +1072,8 @@
   authors: Saumya Sinha (University of Colorado, Boulder); Bri-Mathias  S Hodge (University
     of Colorado Boulder); Claire Monteleoni (University of Colorado Boulder)
   cmt_id: 58
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -975,6 +1081,10 @@
   id: 23
   prev_paper_id: 22
   next_paper_id: 24
+  conference_id: '36216'
+  conference_link: https://neurips.cc/virtual/2021/poster/36216
+  paper_path: "/papers/neurips2021/23/paper.pdf"
+  slides_path: "/papers/neurips2021/23/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Time-series analysis
@@ -993,6 +1103,8 @@
   author_emails: sujiang@stanford.edu*
   authors: Su Jiang (Stanford University)
   cmt_id: 59
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -1000,6 +1112,10 @@
   id: 24
   prev_paper_id: 23
   next_paper_id: 25
+  conference_id: '36217'
+  conference_link: https://neurips.cc/virtual/2021/poster/36217
+  paper_path: "/papers/neurips2021/24/paper.pdf"
+  slides_path: "/papers/neurips2021/24/slides.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration
   - Computer vision and remote sensing
@@ -1033,6 +1149,8 @@
   authors: Junshi Xia (RIKEN); Naoto  Yokoya (The University of Tokyo); Bruno Adriano
     (RIKEN Center for Advanced Intelligence Project (AIP))
   cmt_id: 61
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -1040,28 +1158,30 @@
   id: 25
   prev_paper_id: 24
   next_paper_id: 26
+  conference_id: '36218'
+  conference_link: https://neurips.cc/virtual/2021/poster/36218
   paper_path: "/papers/neurips2021/25/paper.pdf"
+  slides_path: "/papers/neurips2021/25/slides.pdf"
   condensed_subject_areas:
   - Agriculture, forestry and other land use
   - Classification, regression, and supervised learning
 - paper_title: 'FIgLib & SmokeyNet: Dataset and Deep Learning Model for Real-Time
     Wildland Fire Smoke Detection'
   abstract: The size and frequency of wildland fires in the western United States
-    have increased in recent years. On high fire-risk days, a small fire ignition
-    can rapidly grow and get out of control. Early detection of fire ignitions from
-    initial smoke can help the response to such fires before they become difficult
-    to manage. Prior work explored deep learning methods for accurate wildfire smoke
-    detection, but many studies suffer from small or unreliable datasets that make
-    it difficult to extrapolate performance to real-world scenarios. In this work,
-    we present the Fire Ignition Library (FIgLib), a publicly-available dataset of
-    nearly 25,000 annotated wildfire smoke images as seen from fixed-view cameras
-    deployed in Southern California. We also introduce SmokeyNet, a novel deep learning
-    architecture using spatio-temporal information from camera imagery for real-time
-    wildfire smoke detection. When trained on the FIgLib dataset, SmokeyNet outperforms
-    comparable baselines. We hope that the availability of the FIgLib dataset and
-    the SmokeyNet architecture will inspire further research into deep learning methods
-    for wildfire smoke detection, leading towards a potential automated notification
-    system to reduce the time to wildfire response.
+    have dramatically increased in recent years. On high fire-risk days, a small fire
+    ignition can rapidly grow and get out of control. Early detection of fire ignitions
+    from initial smoke can assist response to such fires before they become difficult
+    to manage. Past deep learning approaches for wildfire smoke detection have suffered
+    from small or unreliable datasets that make it difficult to extrapolate performance
+    to real-world scenarios. In this work, we present the Fire Ignition Library (FIgLib),
+    a publicly-available dataset of nearly 25,000 labeled wildfire smoke images as
+    seen from fixed-view cameras deployed in Southern California. We also introduce
+    SmokeyNet, a novel deep learning architecture using spatio-temporal information
+    from camera imagery for real-time wildfire smoke detection. When trained on the
+    FIgLib dataset, SmokeyNet outperforms comparable baselines. We hope that the availability
+    of the FIgLib dataset and the SmokeyNet architecture will inspire further research
+    into deep learning methods for wildfire smoke detection, leading to automated
+    notification systems to reduce the time to wildfire response.
   q1_track: Papers
   primary_contact_author_name: Anshuman Dewangan
   primary_contact_author_email: anshumand@berkeley.edu
@@ -1073,6 +1193,8 @@
   authors: Anshuman Dewangan (University of California, San Diego); Mai Nguyen (University
     of California, San Diego); Garrison Cottrell (UC San Diego)
   cmt_id: 62
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1080,6 +1202,10 @@
   id: 26
   prev_paper_id: 25
   next_paper_id: 27
+  conference_id: '36219'
+  conference_link: https://neurips.cc/virtual/2021/poster/36219
+  paper_path: "/papers/neurips2021/26/paper.pdf"
+  slides_path: "/papers/neurips2021/26/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Computer vision and remote sensing
@@ -1114,6 +1240,8 @@
     St. Gallen); Linus M. Scheibenreif (University of St. Gallen); Damian Borth (University
     of St. Gallen)
   cmt_id: 63
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1121,6 +1249,10 @@
   id: 27
   prev_paper_id: 26
   next_paper_id: 28
+  conference_id: '36220'
+  conference_link: https://neurips.cc/virtual/2021/poster/36220
+  paper_path: "/papers/neurips2021/27/paper.pdf"
+  slides_path: "/papers/neurips2021/27/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Power and energy systems
@@ -1155,6 +1287,8 @@
     (MILA); Jason N. S. Cole (Environment and Climate Change Canada); Howard Barker
     (Environment and Climate Change Canada); David Rolnick (McGill University, Mila)
   cmt_id: 67
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1162,6 +1296,9 @@
   id: 28
   prev_paper_id: 27
   next_paper_id: 29
+  conference_id: '48876'
+  conference_link: https://neurips.cc/virtual/2021/poster/48876
+  slides_path: "/papers/neurips2021/28/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Classification, regression, and supervised learning
@@ -1198,6 +1335,8 @@
   authors: Joshua Fan (Cornell University); Junwen Bai (Cornell University); Zhiyun
     Li (Cornell University); Ariel Ortiz-Bobea (Cornell); Carla P Gomes (Cornell University)
   cmt_id: 71
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Agriculture
@@ -1206,6 +1345,8 @@
   id: 29
   prev_paper_id: 28
   next_paper_id: 30
+  conference_id: '48872'
+  conference_link: https://neurips.cc/virtual/2021/poster/48872
   paper_path: "/papers/neurips2021/29/paper.pdf"
   slides_path: "/papers/neurips2021/29/slides.pdf"
   condensed_subject_areas:
@@ -1245,6 +1386,8 @@
     Wang (Harvard University); Sean Knight (MIT); Maria Geogdzhayeva (MIT); Sam Levang
     (Salient Predictions Inc.); Ernest Fraenkel (MIT); Lester Mackey (Microsoft Research)
   cmt_id: 73
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1252,6 +1395,9 @@
   id: 30
   prev_paper_id: 29
   next_paper_id: 31
+  conference_id: '48875'
+  conference_link: https://neurips.cc/virtual/2021/poster/48875
+  slides_path: "/papers/neurips2021/30/slides.pdf"
   condensed_subject_areas:
   - Climate and Earth science
   - Classification, regression, and supervised learning
@@ -1280,6 +1426,10 @@
   authors: Anthony Degleris (Stanford University); Lucas Fuentes (Stanford); Abbas
     El Gamal (Stanford University); Ram Rajagopal (Stanford University)
   cmt_id: 75
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy systems
@@ -1288,6 +1438,10 @@
   id: 31
   prev_paper_id: 30
   next_paper_id: 32
+  conference_id: '48879'
+  conference_link: https://neurips.cc/virtual/2021/poster/48879
+  paper_path: "/papers/neurips2021/31/paper.pdf"
+  slides_path: "/papers/neurips2021/31/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Climate policy
@@ -1323,6 +1477,8 @@
     (IBM Research); Kai Gong (MIT); Jeremy Gregory (Massachusetts Institute of Technology);
     Richard Goodwin (IBM Research); Elsa Olivetti (Massachusetts Institute of Technology)
   cmt_id: 77
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Causal and Bayesian methods
@@ -1330,6 +1486,8 @@
   id: 32
   prev_paper_id: 31
   next_paper_id: 33
+  conference_id: '36223'
+  conference_link: https://neurips.cc/virtual/2021/poster/36223
   paper_path: "/papers/neurips2021/32/paper.pdf"
   slides_path: "/papers/neurips2021/32/slides.pdf"
   condensed_subject_areas:
@@ -1365,6 +1523,8 @@
     (University of Oxford); Marcelo Pias (Federal University of Rio Grande); Silvia
     Botelho (Federal University of Rio Grande)
   cmt_id: 78
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -1373,6 +1533,10 @@
   id: 33
   prev_paper_id: 32
   next_paper_id: 34
+  conference_id: '36224'
+  conference_link: https://neurips.cc/virtual/2021/poster/36224
+  paper_path: "/papers/neurips2021/33/paper.pdf"
+  slides_path: "/papers/neurips2021/33/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Ecosystems and natural systems
@@ -1410,6 +1574,10 @@
   id: 34
   prev_paper_id: 33
   next_paper_id: 35
+  conference_id: '36225'
+  conference_link: https://neurips.cc/virtual/2021/poster/36225
+  paper_path: "/papers/neurips2021/34/paper.pdf"
+  slides_path: "/papers/neurips2021/34/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Interpretable ML
@@ -1441,6 +1609,8 @@
     Matthew Beveridge (Massachusetts Institute of Technology); Young-Oh Kwon (Woods
     Hole Oceanographic Institution); Iddo Drori (MIT)
   cmt_id: 85
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Climate modeling
@@ -1449,6 +1619,8 @@
   id: 35
   prev_paper_id: 34
   next_paper_id: 36
+  conference_id: '48874'
+  conference_link: https://neurips.cc/virtual/2021/poster/48874
   paper_path: "/papers/neurips2021/35/paper.pdf"
   slides_path: "/papers/neurips2021/35/slides.pdf"
   condensed_subject_areas:
@@ -1482,6 +1654,8 @@
   authors: Magdalena Mittermeier (Ludwig-Maximilians-Universität München); Maximilian
     Weigert (Ludwig-Maximilians-Universität München); David Ruegamer (LMU Munich)
   cmt_id: 86
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -1489,6 +1663,8 @@
   id: 36
   prev_paper_id: 35
   next_paper_id: 37
+  conference_id: '36226'
+  conference_link: https://neurips.cc/virtual/2021/poster/36226
   paper_path: "/papers/neurips2021/36/paper.pdf"
   slides_path: "/papers/neurips2021/36/slides.pdf"
   condensed_subject_areas:
@@ -1534,6 +1710,8 @@
   id: 37
   prev_paper_id: 36
   next_paper_id: 38
+  conference_id: '36227'
+  conference_link: https://neurips.cc/virtual/2021/poster/36227
   paper_path: "/papers/neurips2021/37/paper.pdf"
   slides_path: "/papers/neurips2021/37/slides.pdf"
   condensed_subject_areas:
@@ -1574,6 +1752,8 @@
   author_emails: jyc575@gmail.com*
   authors: James Chen (Kirby School)
   cmt_id: 89
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1582,6 +1762,10 @@
   id: 38
   prev_paper_id: 37
   next_paper_id: 39
+  conference_id: '36228'
+  conference_link: https://neurips.cc/virtual/2021/poster/36228
+  paper_path: "/papers/neurips2021/38/paper.pdf"
+  slides_path: "/papers/neurips2021/38/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Earth science and monitoring
@@ -1606,11 +1790,13 @@
   primary_subject_area: Machine learning -> Computer vision and remote sensing
   secondary_subject_areas: Climate change -> Climate finance and economics; Machine
     learning -> Classification, regression, and supervised learning
-  author_names: Nguyen, Linh V*; Khushu, Shweta; Iyer, Akshay B
-  author_emails: linh.nguyen@skyspecs.com*; shweta.khushu@skyspecs.com; akshay.iyer@skyspecs.com
-  authors: Linh V Nguyen (SkySpecs Inc); Shweta Khushu (SkySpecs Inc.); Akshay B Iyer
-    (SkySpecs, Inc.)
+  author_names: Nguyen, Linh V*; Iyer, Akshay B; Khushu, Shweta
+  author_emails: linh.nguyen@skyspecs.com*; akshay.iyer@skyspecs.com; shweta.khushu@skyspecs.com
+  authors: Linh V Nguyen (SkySpecs Inc); Akshay B Iyer (SkySpecs, Inc.); Shweta Khushu
+    (SkySpecs Inc.)
   cmt_id: 90
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -1619,27 +1805,21 @@
   id: 39
   prev_paper_id: 38
   next_paper_id: 40
+  conference_id: '36229'
+  conference_link: https://neurips.cc/virtual/2021/poster/36229
+  paper_path: "/papers/neurips2021/39/paper.pdf"
+  slides_path: "/papers/neurips2021/39/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Climate finance and economics
   - Classification, regression, and supervised learning
-- paper_title: Power System Dynamic Simulation Using Fourier Neural Operators
-  abstract: 'With the ambition of reducing carbon emissions and mitigating climate
-    change, many regions have set up the goal to generate electricity with close to
-    100% renewables. However, actual renewable generations are often curtailed by
-    operators because it is too hard to check the dynamic stability of electric grid
-    under the high uncertainties introduced by the renewables. The dynamics of a power
-    grid are governed by a large number of nonlinear ordinary differential equations
-    (ODEs). To safely operate the system, operators need to check that the states
-    described by this set of ODEs stay within prescribed limits after various potential
-    faults. But solving these ODEs are very time-consuming using current numerical
-    solvers and  machine learning approaches have been proposed to reduce the computational
-    time. Current methods generally suffer from overfitting and failures to predict
-    unstable behaviors. This paper proposes a novel framework for power system dynamic
-    simulation using Fourier neural operator to learn in the frequency domain. The
-    system topology and fault information are encoded through a 3D Fourier transform.
-    We show that the proposed approach can speed up the computation by orders of magnitude
-    while also remain high accuracy for different fault types.  '
+- paper_title: 'Predicting Power System Dynamics and Transients: A Frequency Domain
+    Approach'
+  abstract: |-
+    With the ambition of reducing carbon emissions and mitigating climate change, many regions have set up the goal to generate electricity with close to 100% renewables. However, actual renewable generations are often curtailed by operators because it is too hard to check the dynamic stability of the electric grid under the high uncertainties introduced by the renewables. The dynamics of a power grid are governed by a large number of nonlinear ordinary differential equations (ODEs). To safely operate the system, operators need to check that the states described by this set of ODEs stay within prescribed limits after various potential faults.  Limited by the size and stiffness of the ODEs, current numerical integration techniques are often too slow to be useful in real-time or large-scale resource allocation problems. In addition, detailed system parameters are often not exactly known. Machine learning approaches have been proposed to reduce the computational efforts, but existing methods generally suffer from overfitting and failures to predict unstable behaviors.
+
+
+    This paper proposes a novel framework for power system dynamic predictions by learning in the frequency domain. The intuition is that although the system behavior is complex in the time domain, there are relatively few dominate modes in the frequency domain. Therefore, we learn to predict by constructing neural networks with Fourier transform and filtering layers. System topology and fault information are encoded by taking a multi-dimensional Fourier transform, allowing us to leverage the fact that the trajectories are sparse both in time and spatial (across different buses) frequencies. We show that the proposed approach does not need detailed system parameters, speeds up prediction computations by orders of magnitude and is highly accurate for different fault types.
   q1_track: Papers
   primary_contact_author_name: Wenqi Cui
   primary_contact_author_email: wenqicui@uw.edu
@@ -1652,6 +1832,8 @@
   authors: Wenqi Cui (University of Washington); Weiwei Yang (Microsoft Research);
     Baosen Zhang (University of Washington)
   cmt_id: 91
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1659,6 +1841,9 @@
   id: 40
   prev_paper_id: 39
   next_paper_id: 41
+  conference_id: '36230'
+  conference_link: https://neurips.cc/virtual/2021/poster/36230
+  slides_path: "/papers/neurips2021/40/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Classification, regression, and supervised learning
@@ -1694,6 +1879,8 @@
     (UC Berkeley); Colorado Reed (UC Berkeley); Hossein Vahabi (University California
     Berkeley); Nathan Nusaputra (UC Berkeley); Felipe Vergara (UC Berkeley)
   cmt_id: 94
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1704,6 +1891,8 @@
   id: 41
   prev_paper_id: 40
   next_paper_id: 42
+  conference_id: '36231'
+  conference_link: https://neurips.cc/virtual/2021/poster/36231
   paper_path: "/papers/neurips2021/41/paper.pdf"
   slides_path: "/papers/neurips2021/41/slides.pdf"
   condensed_subject_areas:
@@ -1741,6 +1930,8 @@
     Bayer (Pattern Recognition Lab, Friedrich-Alexander University); Andreas K Maier
     (Pattern Recognition Lab, FAU Erlangen-Nuremberg)
   cmt_id: 95
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -1750,6 +1941,8 @@
   id: 42
   prev_paper_id: 41
   next_paper_id: 43
+  conference_id: '36232'
+  conference_link: https://neurips.cc/virtual/2021/poster/36232
   paper_path: "/papers/neurips2021/42/paper.pdf"
   slides_path: "/papers/neurips2021/42/slides.pdf"
   condensed_subject_areas:
@@ -1784,6 +1977,8 @@
   authors: Pedram Agand (Simon Fraser University); Alexey  Iskrov (Breeze Labs Inc.);
     Mo Chen (Simon Fraser University)
   cmt_id: 96
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Transportation
@@ -1792,6 +1987,8 @@
   id: 43
   prev_paper_id: 42
   next_paper_id: 44
+  conference_id: '36233'
+  conference_link: https://neurips.cc/virtual/2021/poster/36233
   paper_path: "/papers/neurips2021/43/paper.pdf"
   slides_path: "/papers/neurips2021/43/slides.pdf"
   condensed_subject_areas:
@@ -1814,15 +2011,17 @@
   status: Accept (Poster)
   primary_subject_area: Climate change -> Ecosystems and natural systems
   secondary_subject_areas: Machine learning -> Time-series analysis
-  author_names: Hussain, Monwer; Durand, Guillaume*; Coffin, Michael; Valdés, Julio
+  author_names: Hussain, Md Monwer; Durand, Guillaume*; Coffin, Michael; Valdés, Julio
     J; Poirier, Luke
   author_emails: Monwer.305@unb.ca; Guillaume.Durand@nrc-cnrc.gc.ca*; Michael.Coffin@dfo-mpo.gc.ca;
     julio.valdes@nrc-cnrc.gc.ca; luke.poirier@dfo-mpo.gc.ca
-  authors: Monwer Hussain (University of New-Brunswick); Guillaume Durand (National
+  authors: Md Monwer Hussain (University of New-Brunswick); Guillaume Durand (National
     Research Council Canada); Michael Coffin (Department of Fisheries and Oceans Canada);
     Julio J Valdés (National Research Council Canada); Luke Poirier (Department of
     Fisheries and Oceans Canada)
   cmt_id: 97
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -1830,21 +2029,19 @@
   id: 44
   prev_paper_id: 43
   next_paper_id: 45
+  conference_id: '36234'
+  conference_link: https://neurips.cc/virtual/2021/poster/36234
+  paper_path: "/papers/neurips2021/44/paper.pdf"
+  slides_path: "/papers/neurips2021/44/slides.pdf"
   condensed_subject_areas:
   - Ecosystems and natural systems
   - Time-series analysis
-- paper_title: Safe Learning for Voltage Control
-  abstract: "Inverter-based distributed energy resources provide the possibility for
-    fast time-scale voltage control by quickly adjusting their reactive power. The
-    power-electronic interfaces allow these resources to follow almost arbitrary control
-    law, while designing these decentralized controllers is nontrivial. Reinforcement
-    learning (RL) approaches are becoming increasingly popular to search for policy
-    parameterized by neural networks. But it is difficult to enforce that the learned
-    controllers stabilize the system.  \n\nThis paper proposes a safe learning approach
-    for voltage control with stability guarantees. Using Lyapunov stability theory,
-    we explicitly derive the structure of neural network-based controllers such that
-    they guarantee system stability by design. A decentralized RL framework is constructed
-    to train local neural network controller at each bus in a model-free setting. "
+- paper_title: Decentralized Safe Reinforcement Learning for Voltage Control
+  abstract: |-
+    Inverter-based distributed energy resources provide the possibility for fast time-scale voltage control by quickly adjusting their reactive power. The power-electronic interfaces allow these resources to realize almost arbitrary control law, but designing these decentralized controllers is nontrivial. Reinforcement learning (RL) approaches are becoming increasingly popular to search for policy parameterized by neural networks. It is difficult, however, to enforce that the learned controllers are safe, in the sense that they may introduce instabilities into the system.
+
+
+    This paper proposes a safe learning approach for voltage control. We prove that the system is guaranteed to be exponentially stable if each controller satisfies certain Lipschitz constraints. The set of Lipschitz bound is optimized to enlarge the search space for neural network controllers. We explicitly engineer the structure of neural network controllers such that they satisfy the Lipschitz constraints by design. A decentralized RL framework is constructed to train local neural network controller at each bus in a model-free setting.
   q1_track: Papers
   primary_contact_author_name: Wenqi Cui
   primary_contact_author_email: wenqicui@uw.edu
@@ -1856,6 +2053,8 @@
   authors: Wenqi Cui (University of Washington); Jiayi Li (University of Washington);
     Baosen Zhang (University of Washington)
   cmt_id: 98
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -1863,6 +2062,9 @@
   id: 45
   prev_paper_id: 44
   next_paper_id: 46
+  conference_id: '36235'
+  conference_link: https://neurips.cc/virtual/2021/poster/36235
+  slides_path: "/papers/neurips2021/45/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Reinforcement learning and control
@@ -1871,7 +2073,7 @@
     society at-large. It is important that we as a society, including the Computer
     Vision (CV) community take steps to limit our impact on the environment. In this
     paper, we (a) analyze the effect of diminishing returns on CV methods, and (b)
-    propose a ``NoFADE'''': a novel entropy-based metric to quantify model--dataset--complexity
+    propose a \textit{``NoFADE''''}: a novel entropy-based metric to quantify model--dataset--complexity
     relationships. We show that some CV tasks are reaching saturation, while others
     are almost fully saturated. In this light, NoFADE allows the CV community to compare
     models and datasets on a similar basis, establishing an agnostic platform.'
@@ -1900,6 +2102,10 @@
   id: 46
   prev_paper_id: 45
   next_paper_id: 47
+  conference_id: '36236'
+  conference_link: https://neurips.cc/virtual/2021/poster/36236
+  paper_path: "/papers/neurips2021/46/paper.pdf"
+  slides_path: "/papers/neurips2021/46/slides.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration
   - Computer vision and remote sensing
@@ -1935,6 +2141,8 @@
   authors: Zhongrun Xiang (University of Iowa); Ibrahim  Demir (The University of
     Iowa)
   cmt_id: 107
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Time-series analysis
@@ -1948,6 +2156,9 @@
   id: 47
   prev_paper_id: 46
   next_paper_id: 48
+  conference_id: '36238'
+  conference_link: https://neurips.cc/virtual/2021/poster/36238
+  slides_path: "/papers/neurips2021/47/slides.pdf"
   condensed_subject_areas:
   - Time-series analysis
   - Agriculture, forestry and other land use
@@ -1978,9 +2189,13 @@
   secondary_subject_areas: Climate change -> Earth science and monitoring; Machine
     learning -> Classification, regression, and supervised learning; Machine learning
     -> Time-series analysis
-  author_names: Kaltenborn, Julia*
-  author_emails: jkaltenborn@uos.de*
-  authors: Julia Kaltenborn (McGill University)
+  author_names: Kaltenborn, Julia*; Clay, Viviane; Macfarlane, Amy R.; Schneebeli,
+    Martin
+  author_emails: jkaltenborn@uos.de*; vkakerbeck@uni-osnabrueck.de; amy.macfarlane@slf.ch;
+    schneebeli@slf.ch
+  authors: Julia Kaltenborn (McGill University); Viviane Clay (Osnabrück University);
+    Amy R. Macfarlane (WSL Institute for Snow and Avalanche Research SLF); Martin
+    Schneebeli (WSL Institute for Snow and Avalanche Research SLF)
   cmt_id: 109
   is_spotlight: false
   subject_areas:
@@ -1991,6 +2206,10 @@
   id: 48
   prev_paper_id: 47
   next_paper_id: 49
+  conference_id: '36240'
+  conference_link: https://neurips.cc/virtual/2021/poster/36240
+  paper_path: "/papers/neurips2021/48/paper.pdf"
+  slides_path: "/papers/neurips2021/48/slides.pdf"
   condensed_subject_areas:
   - Other
   - Earth science and monitoring
@@ -2018,6 +2237,8 @@
   authors: Bekir Z Demiray (University of Iowa); Muhammed  A Sit (The University of
     Iowa); Ibrahim  Demir (The University of Iowa)
   cmt_id: 110
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -2027,6 +2248,10 @@
   id: 49
   prev_paper_id: 48
   next_paper_id: 50
+  conference_id: '36241'
+  conference_link: https://neurips.cc/virtual/2021/poster/36241
+  paper_path: "/papers/neurips2021/49/paper.pdf"
+  slides_path: "/papers/neurips2021/49/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Disaster prediction, management, and relief
@@ -2059,6 +2284,8 @@
   author_emails: mayuri@mit.edu*; cathywu@mit.edu
   authors: Mayuri Sridhar (MIT); Cathy Wu ()
   cmt_id: 111
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Transportation
@@ -2066,6 +2293,10 @@
   id: 50
   prev_paper_id: 49
   next_paper_id: 51
+  conference_id: '36242'
+  conference_link: https://neurips.cc/virtual/2021/poster/36242
+  paper_path: "/papers/neurips2021/50/paper.pdf"
+  slides_path: "/papers/neurips2021/50/slides.pdf"
   condensed_subject_areas:
   - Transportation
   - Reinforcement learning and control
@@ -2110,6 +2341,10 @@
     Faraboschi (HPE); mathieu Cocho (Carnegie Clean Energy); Alexandre Pichard (Carnegie
     Clean Energy); Jonathan Fievez (Carnegie Clean Energy)
   cmt_id: 112
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -2117,6 +2352,10 @@
   id: 51
   prev_paper_id: 50
   next_paper_id: 52
+  conference_id: '36243'
+  conference_link: https://neurips.cc/virtual/2021/poster/36243
+  paper_path: "/papers/neurips2021/51/paper.pdf"
+  slides_path: "/papers/neurips2021/51/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Reinforcement learning and control
@@ -2168,6 +2407,8 @@
   id: 52
   prev_paper_id: 51
   next_paper_id: 53
+  conference_id: '48870'
+  conference_link: https://neurips.cc/virtual/2021/poster/48870
   paper_path: "/papers/neurips2021/52/paper.pdf"
   slides_path: "/papers/neurips2021/52/slides.pdf"
   condensed_subject_areas:
@@ -2199,6 +2440,8 @@
   author_emails: va2361@columbia.edu*; ym2540@columbia.edu
   authors: Vishal Anand (Columbia University); Yuki Miura (Columbia University)
   cmt_id: 116
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2208,6 +2451,10 @@
   id: 53
   prev_paper_id: 52
   next_paper_id: 54
+  conference_id: '36244'
+  conference_link: https://neurips.cc/virtual/2021/poster/36244
+  paper_path: "/papers/neurips2021/53/paper.pdf"
+  slides_path: "/papers/neurips2021/53/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Buildings and cities
@@ -2215,16 +2462,9 @@
   - Interpretable ML
 - paper_title: A hybrid convolutional neural network/active contour approach to segmenting
     dead trees in aerial imagery
-  abstract: Dead trees constitute 8% of the global carbon stocks and are decomposed
-    by several natural factors, e.g. climate and insects. Accurate detection and modeling
-    of dead trees is critical to understand forest ecology, the carbon cycle and decomposers.
-    We present a novel method to construct precise shape contours of dead trees from
-    aerial photographs by combining established convolutional neural networks with
-    a novel active contour model in an energy minimization framework. Our approach
-    yields greater accuracy over state-of-the-art in terms of precision, recall, and
-    intersection over union of detected dead trees. This improved performance is essential
-    to meet the emerging challenges caused by climate change (and other man-made perturbations
-    to the systems) and estimate carbon stock decay rates.
+  abstract: |-
+    The stability and ability of an ecosystem to withstand climate change is directly
+    linked to its biodiversity. Dead trees are a key indicator of overall forest health, housing one-third of forest ecosystem biodiversity, and constitute 8% of the global carbon stocks. They are decomposed by several natural factors, e.g. climate, insects and fungi. Accurate detection and modeling of dead wood mass is paramount to understanding forest ecology, the carbon cycle and decomposers. We present a novel method to construct precise shape contours of dead trees from aerial photographs by combining established convolutional neural networks with a novel active contour model in an energy minimization framework. Our approach yields superior performance accuracy over state-of-the-art in terms of precision, recall, and intersection over union of detected dead trees. This improved performance is essential to meet emerging challenges caused by climate change (and other man-made perturbations to the systems), particularly to monitor and estimate carbon stock decay rates, monitor forest health and biodiversity, and the overall effects of dead wood on and from climate change.
   q1_track: Papers
   primary_contact_author_name: Jacquelyn Shelton
   primary_contact_author_email: jacquelyn.ann.shelton@gmail.com
@@ -2233,13 +2473,12 @@
   secondary_subject_areas: Climate change -> Carbon capture and sequestration; Climate
     change -> Ecosystems and natural systems; Climate change -> Forestry and other
     land use
-  author_names: Shelton, Jacquelyn*; Polewski, Przemyslaw; Lipman, Drew J; Heurich,
-    Marco; Yao, Wei
+  author_names: Shelton, Jacquelyn*; Polewski, Przemyslaw; Yao, Wei; Heurich, Marco
   author_emails: jacquelyn.ann.shelton@gmail.com*; przemyslaw.polewski@gmail.com;
-    lipmandrew@gmail.com; marco.heurich@gmx.de; wei.hn.yao@polyu.edu.hk
+    wei.hn.yao@polyu.edu.hk; marco.heurich@gmx.de
   authors: Jacquelyn Shelton (Hong Kong Polytechnic University); Przemyslaw Polewski
-    (TomTom Location Technology Germany GmbH); Drew J Lipman (MITRE corp.); Marco
-    Heurich (Bavarian Forest National Park); Wei Yao (The Hong Kong Polytechnic University)
+    (TomTom Location Technology Germany GmbH); Wei Yao (The Hong Kong Polytechnic
+    University); Marco Heurich (Bavarian Forest National Park)
   cmt_id: 120
   is_spotlight: false
   subject_areas:
@@ -2250,6 +2489,10 @@
   id: 54
   prev_paper_id: 53
   next_paper_id: 55
+  conference_id: '36245'
+  conference_link: https://neurips.cc/virtual/2021/poster/36245
+  paper_path: "/papers/neurips2021/54/paper.pdf"
+  slides_path: "/papers/neurips2021/54/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Carbon capture and sequestration
@@ -2282,6 +2525,8 @@
   authors: Sahil S Khose (Manipal Institute of Technology); Abhiraj Tiwari (Manipal
     Institute of Technology); Ankita Ghosh (Manipal Institute of Technology)
   cmt_id: 121
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: true
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2291,13 +2536,17 @@
   id: 55
   prev_paper_id: 54
   next_paper_id: 56
+  conference_id: '48871'
+  conference_link: https://neurips.cc/virtual/2021/poster/48871
+  paper_path: "/papers/neurips2021/55/paper.pdf"
+  slides_path: "/papers/neurips2021/55/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Classification, regression, and supervised learning
   - Meta- and transfer learning
   - Unsupervised and semi-supervised learning
-- paper_title: Reducing the barriers of acquiring species-level ground-truth on passive
-    acoustic monitoring data using neural network assisted intelligent sampling techniques
+- paper_title: Reducing the Barriers of Acquiring Ground-truth from Biodiversity Rich
+    Audio Datasets Using Intelligent Sampling Techniques
   abstract: The potential of passive acoustic monitoring (PAM) as a method to reveal
     the consequences of climate change on the biodiversity that make up natural soundscapes
     can be undermined by the discrepancy between the low barrier of entry to acquire
@@ -2316,9 +2565,9 @@
     daily bird vocalization peaks, and using a hybrid convolutional neural network
     (CNN) and recurrent neural network (RNN) trained for bird presence/absence audio
     classification. We found that a stratified random sample baseline only achieved
-    a bird presence rate of 44\% in contrast with a sample that randomly selected
-    clips with high hybrid CNN-RNN predictions that were collected during bird activity
-    peaks at dawn and dusk yielding a bird presence rate of 95\%. The significantly
+    a bird presence rate of 44% in contrast with a sample that randomly selected clips
+    with high hybrid CNN-RNN predictions that were collected during bird activity
+    peaks at dawn and dusk yielding a bird presence rate of 95%. The significantly
     higher bird presence rate demonstrates how intelligent, machine learning-assisted
     selection of audio data can significantly reduce the amount of time that domain
     experts listen to audio without vocalizations of interest while building a ground
@@ -2329,11 +2578,19 @@
   status: Accept (Poster)
   primary_subject_area: Climate change -> Ecosystems and natural systems
   secondary_subject_areas: Machine learning -> Computer vision and remote sensing
-  author_names: Ayers, Jacob G*; Kastner, Ryan
-  author_emails: jacobayers123@gmail.com*; kastner@eng.ucsd.edu
-  authors: Jacob G Ayers (UC San Diego); Ryan Kastner (University of California San
-    Diego)
+  author_names: Ayers, Jacob G*; Perry, Sean; Tiwari, Vaibhav; Blue, Mugen; Balaji,
+    Nishant; Schurgers, Curt; Kastner, Ryan; Tobler, Mathias; Ingram, Ian
+  author_emails: jacobayers123@gmail.com*; sperry@ucsd.edu; vktiwari@ucsd.edu; mugen4college@gmail.com;
+    nibalaji@ucsd.edu; cschurgers@eng.ucsd.edu; kastner@eng.ucsd.edu; MTobler@sdzwa.org;
+    iingram@sdzwa.org
+  authors: Jacob G Ayers (UC San Diego); Sean Perry (UC San Diego); Vaibhav Tiwari
+    (UC San Diego); Mugen Blue (Cal Poly San Luis Obispo); Nishant Balaji (UC San
+    Diego); Curt Schurgers (UC San Diego); Ryan Kastner (University of California
+    San Diego); Mathias Tobler (San Diego Zoo Wildlife Alliance); Ian Ingram (San
+    Diego Zoo Wildlife Alliance)
   cmt_id: 122
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -2341,6 +2598,9 @@
   id: 56
   prev_paper_id: 55
   next_paper_id: 57
+  conference_id: '36246'
+  conference_link: https://neurips.cc/virtual/2021/poster/36246
+  paper_path: "/papers/neurips2021/56/paper.pdf"
   condensed_subject_areas:
   - Ecosystems and natural systems
   - Computer vision and remote sensing
@@ -2357,20 +2617,26 @@
     of the highly imbalanced Snapshot Serengeti dataset. \nOur results suggest that
     two-phase training can improve performance for many minority classes, with limited
     loss in performance for the other classes. \nWe find that two-phase training based
-    on majority undersampling increases class-specific F1-scores up to 3.0\\%. \nWe
+    on majority undersampling increases class-specific F1-scores up to 3.0%. \nWe
     also find that two-phase training outperforms using only oversampling or undersampling
-    by 6.1\\% in F1-score on average. Finally, we find that a combination of over-
-    and undersampling leads to a better performance than using them individually."
+    by 6.1% in F1-score on average. Finally, we find that a combination of over- and
+    undersampling leads to a better performance than using them individually."
   q1_track: Papers
   primary_contact_author_name: Ruben Cartuyvels
   primary_contact_author_email: ruben.cartuyvels@kuleuven.be
   status: Accept (Spotlight)
   primary_subject_area: Climate change -> Ecosystems and natural systems
   secondary_subject_areas: Machine learning -> Computer vision and remote sensing
-  author_names: Cartuyvels, Ruben*
-  author_emails: ruben.cartuyvels@kuleuven.be*
-  authors: Ruben Cartuyvels (KULeuven)
+  author_names: Malik, Farjad; Wouters, Simon; Cartuyvels, Ruben*; Ghadery, Erfan;
+    Moens, Sien
+  author_emails: muhammadfarjad.malik@student.kuleuven.be; simon.wouters2@student.kuleuven.be;
+    ruben.cartuyvels@kuleuven.be*; erfan.ghadery@kuleuven.be; sien.moens@kuleuven.be
+  authors: Farjad Malik (KU Leuven); Simon Wouters (KU Leuven); Ruben Cartuyvels (KULeuven);
+    Erfan Ghadery (KU Leuven); Sien Moens (KU Leuven)
   cmt_id: 124
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Ecosystems and natural systems
@@ -2378,6 +2644,10 @@
   id: 57
   prev_paper_id: 56
   next_paper_id: 58
+  conference_id: '48873'
+  conference_link: https://neurips.cc/virtual/2021/poster/48873
+  paper_path: "/papers/neurips2021/57/paper.pdf"
+  slides_path: "/papers/neurips2021/57/slides.pdf"
   condensed_subject_areas:
   - Ecosystems and natural systems
   - Computer vision and remote sensing
@@ -2408,6 +2678,8 @@
     Toubeau (Faculté Polytechnique (FPMs), Université de Mons (UMONS)); Erik Delaue
     (KU Leuven)
   cmt_id: 125
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Hybrid physical models
@@ -2416,27 +2688,30 @@
   id: 58
   prev_paper_id: 57
   next_paper_id: 59
+  conference_id: '36248'
+  conference_link: https://neurips.cc/virtual/2021/poster/36248
+  paper_path: "/papers/neurips2021/58/paper.pdf"
+  slides_path: "/papers/neurips2021/58/slides.pdf"
   condensed_subject_areas:
   - Hybrid physical models
   - Climate finance and economics
   - Recommender systems
-- paper_title: Leverage Machine Learning to Predict the Autoconversion Rates from
+- paper_title: Leveraging Machine Learning to Predict the Autoconversion Rates from
     Satellite Data
   abstract: One way of reducing the uncertainty involved in determining the radiative
-    forcing of the Earth is by understanding the interaction between aerosols, clouds,
-    and precipitation processes, which can be studied using high-resolution simulations
-    such as the ICOsahedral Non-hydrostatic Large-Eddy Model (ICON-LEM). However,
-    due to the extremely high computational cost required, this model can only be
-    run for a limited amount of time within a limited area. To address this, we developed
-    models using emerging machine learning approaches that leverage a plethora of
-    satellite observations which provide long-term global spatial coverage. In particular,
-    we developed machine learning models capable of capturing the key process of precipitation
-    formation which greatly control cloud lifetime, namely autoconversion rates –
-    the term used to describe the collision and coalescence of cloud droplets responsible
-    for raindrop formation. We validate the performance of our models against the
-    simulation data, and the results showed that our models are capable of predicting
-    the autoconversion rate fairly well, with the best model (DNN) achieving an SSIM
-    index of 96.80%.
+    forcing of climate change is by understanding the interaction between aerosols,
+    clouds, and precipitation processes. This can be studied using high-resolution
+    simulations such as the ICOsahedral Non-hydrostatic Large-Eddy Model (ICON-LEM).
+    However, due to the extremely high computational cost required, this simulation-based
+    approach can only be run for a limited amount of time within a limited area. To
+    address this, we developed new models using emerging machine learning approaches
+    that leverage a plethora of satellite observations providing long-term global
+    spatial coverage. In particular, our machine learning models are capable of capturing
+    the key process of precipitation formation which greatly control cloud lifetime,
+    namely autoconversion rates -- the term used to describe the collision and coalescence
+    of cloud droplets responsible for raindrop formation. We validate the performance
+    of our models against simulation data, showing that our models are capable of
+    predicting the autoconversion rates fairly well.
   q1_track: Papers
   primary_contact_author_name: Maria C Novitasari
   primary_contact_author_email: m.novitasari@ucl.ac.uk
@@ -2450,6 +2725,8 @@
   authors: Maria C Novitasari (University College London); Johannes Quaas (University
     of Leipzig); Miguel Rodrigues (University College London)
   cmt_id: 126
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2458,6 +2735,10 @@
   id: 59
   prev_paper_id: 58
   next_paper_id: 60
+  conference_id: '36249'
+  conference_link: https://neurips.cc/virtual/2021/poster/36249
+  paper_path: "/papers/neurips2021/59/paper.pdf"
+  slides_path: "/papers/neurips2021/59/slides.pdf"
   condensed_subject_areas:
   - Classification, regression, and supervised learning
   - Climate and Earth science
@@ -2501,6 +2782,8 @@
   id: 60
   prev_paper_id: 59
   next_paper_id: 61
+  conference_id: '36250'
+  conference_link: https://neurips.cc/virtual/2021/poster/36250
   paper_path: "/papers/neurips2021/60/paper.pdf"
   slides_path: "/papers/neurips2021/60/slides.pdf"
   condensed_subject_areas:
@@ -2530,6 +2813,8 @@
   author_emails: ophelie.meuriot@ibm.com*; anne.jones@ibm.com
   authors: Ophelie Meuriot (IBM Research Europe); Anne Jones (IBM Research)
   cmt_id: 138
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Classification, regression, and supervised learning
@@ -2538,6 +2823,10 @@
   id: 61
   prev_paper_id: 60
   next_paper_id: 62
+  conference_id: '36251'
+  conference_link: https://neurips.cc/virtual/2021/poster/36251
+  paper_path: "/papers/neurips2021/61/paper.pdf"
+  slides_path: "/papers/neurips2021/61/slides.pdf"
   condensed_subject_areas:
   - Classification, regression, and supervised learning
   - Climate and Earth science
@@ -2578,6 +2867,8 @@
     (Shell); Ilyana Folmar (Shell); Puneet Seth (Shell); Manoj Sarfare (Shell); Duane
     Mikulencak (Shell); Ihab Akil (Shell)
   cmt_id: 10
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Carbon capture and sequestration
@@ -2587,6 +2878,9 @@
   id: 62
   prev_paper_id: 61
   next_paper_id: 63
+  conference_id: '36189'
+  conference_link: https://neurips.cc/virtual/2021/poster/36189
+  paper_path: "/papers/neurips2021/62/paper.pdf"
   condensed_subject_areas:
   - Carbon capture and sequestration
   - Climate finance and economics
@@ -2613,6 +2907,8 @@
   author_emails: mqyao@berkeley.edu*
   authors: Mengqi Yao (University of California Berkeley)
   cmt_id: 16
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Disaster prediction, management, and relief
@@ -2622,20 +2918,26 @@
   id: 63
   prev_paper_id: 62
   next_paper_id: 64
+  conference_id: '36193'
+  conference_link: https://neurips.cc/virtual/2021/poster/36193
+  slides_path: "/papers/neurips2021/63/slides.pdf"
   condensed_subject_areas:
   - Disaster prediction, management, and relief
   - Power and energy systems
   - Classification, regression, and supervised learning
   - Data mining
-- paper_title: Detecting Abandoned Oil Wells Using Machine Learning and Semantic Segmentation
-  abstract: Around the world, there are millions of unplugged abandoned oil and gas
+- paper_title: Detecting Abandoned Oil And Gas Wells Using Machine Learning And Semantic
+    Segmentation
+  abstract: 'Around the world, there are millions of unplugged abandoned oil and gas
     wells, leaking methane into the atmosphere. The locations of many of these wells,
     as well as their greenhouse gas emissions impacts, are unknown. Machine learning
     methods in computer vision and remote sensing, such as semantic segmentation,
     have made it possible to quickly analyze large amounts of satellite imagery to
-    detect salient information. This project aims to automatically identify abandoned
-    oil wells in the province of Alberta, Canada to aid in estimating emissions and
-    plugging high-emitting wells.
+    detect salient information. This project aims to automatically identify undocumented
+    oil and gas wells in the province of Alberta, Canada to aid in documentation,
+    estimation of  emissions and maintenance of high-emitting wells.
+
+'
   q1_track: Proposals
   primary_contact_author_name: Michelle Lin
   primary_contact_author_email: michelle.lin2@mail.mcgill.ca
@@ -2655,6 +2957,10 @@
   id: 64
   prev_paper_id: 63
   next_paper_id: 65
+  conference_id: '48882'
+  conference_link: https://neurips.cc/virtual/2021/poster/48882
+  paper_path: "/papers/neurips2021/64/paper.pdf"
+  slides_path: "/papers/neurips2021/64/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Classification, regression, and supervised learning
@@ -2689,6 +2995,8 @@
     Ridge National Laboratory); LI LI (Pennsylvania State University); Daniella  Rempe
     (The University of Texas at Austin)
   cmt_id: 23
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Ecosystems and natural systems
@@ -2696,6 +3004,8 @@
   id: 65
   prev_paper_id: 64
   next_paper_id: 66
+  conference_id: '36197'
+  conference_link: https://neurips.cc/virtual/2021/poster/36197
   paper_path: "/papers/neurips2021/65/paper.pdf"
   slides_path: "/papers/neurips2021/65/slides.pdf"
   condensed_subject_areas:
@@ -2703,7 +3013,7 @@
   - Earth science and monitoring
 - paper_title: Hybrid physics-based and data-driven modeling with calibrated uncertainty
     for lithium-ion battery degradation diagnosis and prognosis
-  abstract: Advancing lithium-ion batteries (LIB) in both design and usage is key
+  abstract: Advancing lithium-ion batteries (LIBs) in both design and usage is key
     to promoting electrification in the coming decades to mitigate human-caused climate
     change. Inadequate understanding of LIB degradation is an important bottleneck
     that limits battery durability and safety. Here, we propose hybrid physics-based
@@ -2727,6 +3037,8 @@
   authors: Jing Lin (Institute for Infocomm Research); Yu Zhang (I2R); Edwin Khoo
     (Institute for Infocomm Research)
   cmt_id: 25
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Hybrid physical models
@@ -2738,6 +3050,10 @@
   id: 66
   prev_paper_id: 65
   next_paper_id: 67
+  conference_id: '36198'
+  conference_link: https://neurips.cc/virtual/2021/poster/36198
+  paper_path: "/papers/neurips2021/66/paper.pdf"
+  slides_path: "/papers/neurips2021/66/slides.pdf"
   condensed_subject_areas:
   - Hybrid physical models
   - Power and energy systems
@@ -2745,7 +3061,7 @@
   - Classification, regression, and supervised learning
   - Time-series analysis
   - Uncertainty quantification and robustness
-- paper_title: On the use of Deep Generative Models for "Perfect'" Prognosis Climate
+- paper_title: On the use of Deep Generative Models for "Perfect" Prognosis Climate
     Downscaling
   abstract: Deep Learning has recently emerged as a "perfect" prognosis downscaling
     technique to compute high-resolution fields from large-scale coarse atmospheric
@@ -2765,8 +3081,11 @@
   author_names: González-Abad, Jose*; Baño-Medina, Jorge; Heredia, Ignacio
   author_emails: gonzabad@ifca.unican.es*; bmedina@ifca.unican.es; iheredia@ifca.unican.es
   authors: Jose González-Abad (Institute of Physics of Cantabria); Jorge Baño-Medina
-    (Institute of Physics of Cantabria); Ignacio Heredia (Instituto de Física de Cantabria)
+    (Institute of Physics of Cantabria); Ignacio Heredia (Institute of Physics of
+    Cantabria)
   cmt_id: 34
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate modeling
@@ -2775,6 +3094,8 @@
   id: 67
   prev_paper_id: 66
   next_paper_id: 68
+  conference_id: '36203'
+  conference_link: https://neurips.cc/virtual/2021/poster/36203
   paper_path: "/papers/neurips2021/67/paper.pdf"
   slides_path: "/papers/neurips2021/67/slides.pdf"
   condensed_subject_areas:
@@ -2818,6 +3139,8 @@
   authors: Lan  HOANG (IBM Research); Thuy Thu Phan (Center for International Forestry
     Research (CIFOR))
   cmt_id: 36
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Forestry and other land use
@@ -2825,6 +3148,9 @@
   id: 68
   prev_paper_id: 67
   next_paper_id: 69
+  conference_id: '36205'
+  conference_link: https://neurips.cc/virtual/2021/poster/36205
+  slides_path: "/papers/neurips2021/68/slides.pdf"
   condensed_subject_areas:
   - Agriculture, forestry and other land use
   - Natural language processing
@@ -2866,6 +3192,8 @@
   authors: Elham Kheradmand (University of Montreal); Didier Serre (Clearsum); Manuel
     Morales (University of Montreal); Cedric B Robert (Clearsum)
   cmt_id: 42
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Climate finance and economics
@@ -2874,6 +3202,10 @@
   id: 69
   prev_paper_id: 68
   next_paper_id: 70
+  conference_id: '36207'
+  conference_link: https://neurips.cc/virtual/2021/poster/36207
+  paper_path: "/papers/neurips2021/69/paper.pdf"
+  slides_path: "/papers/neurips2021/69/slides.pdf"
   condensed_subject_areas:
   - Climate finance and economics
   - Classification, regression, and supervised learning
@@ -2900,15 +3232,17 @@
   primary_subject_area: Climate change -> Earth science and monitoring
   secondary_subject_areas: Climate change -> Other; Machine learning -> Other; Machine
     learning -> Unsupervised and semi-supervised learning
-  author_names: Wang, Shirui; Malvar, Sara*; Nunes, Leonardo; Whitehall, Kim; Oruganti,
-    Yagna; Alaudah, Yazeed; Badam, Anirudh
+  author_names: Wang, Shirui; Malvar, Sara*; Nunes, Leonardo; Whitehall, Kim; ORUGANTI,
+    YAGNA DEEPIKA; Alaudah, Yazeed; Badam, Anirudh
   author_emails: sruiwang1182@gmail.com; saramalvar@microsoft.com*; lnunes@microsoft.com;
     kim.whitehall@microsoft.com; yagna.oruganti@microsoft.com; yazeed.alaudah@microsoft.com;
     anirudh.badam@microsoft.com
   authors: Shirui Wang (University of Houston); Sara Malvar (Microsoft); Leonardo
-    Nunes (Microsoft); Kim Whitehall (Microsoft); Yagna Oruganti (Microsoft); Yazeed
-    Alaudah (Microsoft); Anirudh Badam (Microsoft)
+    Nunes (Microsoft); Kim Whitehall (Microsoft); YAGNA DEEPIKA ORUGANTI (MICROSOFT);
+    Yazeed Alaudah (Microsoft); Anirudh Badam (Microsoft)
   cmt_id: 46
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -2917,6 +3251,10 @@
   id: 70
   prev_paper_id: 69
   next_paper_id: 71
+  conference_id: '36208'
+  conference_link: https://neurips.cc/virtual/2021/poster/36208
+  paper_path: "/papers/neurips2021/70/paper.pdf"
+  slides_path: "/papers/neurips2021/70/slides.pdf"
   condensed_subject_areas:
   - Earth science and monitoring
   - Other
@@ -2944,6 +3282,9 @@
   authors: Vincent Mai (Mila, Université de Montréal); Tianyu Zhang (Mila, Université
     de Montréal); Antoine Lesage-Landry (Polytechnique Montréal & GERAD)
   cmt_id: 50
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -2951,6 +3292,10 @@
   id: 71
   prev_paper_id: 70
   next_paper_id: 72
+  conference_id: '36209'
+  conference_link: https://neurips.cc/virtual/2021/poster/36209
+  paper_path: "/papers/neurips2021/71/paper.pdf"
+  slides_path: "/papers/neurips2021/71/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Reinforcement learning and control
@@ -2980,6 +3325,8 @@
     Abderrazek  Jilal (INRA); Frederick Stoddard (University of Helsinki); Mikko Sillanpää
     (University of Oulu); Hamid Khazaei (World Vegetable Center)
   cmt_id: 70
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Agriculture
@@ -2991,6 +3338,8 @@
   id: 72
   prev_paper_id: 71
   next_paper_id: 73
+  conference_id: '36221'
+  conference_link: https://neurips.cc/virtual/2021/poster/36221
   paper_path: "/papers/neurips2021/72/paper.pdf"
   slides_path: "/papers/neurips2021/72/slides.pdf"
   condensed_subject_areas:
@@ -3036,6 +3385,8 @@
     Dao (ETH Zurich); Alex Chang (Service Now); Mehmet Gunturkun (Element Ai); Alexandre
     Drouin (ServiceNow); Pau Rodriguez (Element AI); David Vazquez (ServiceNow)
   cmt_id: 72
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
@@ -3048,6 +3399,10 @@
   id: 73
   prev_paper_id: 72
   next_paper_id: 74
+  conference_id: '36222'
+  conference_link: https://neurips.cc/virtual/2021/poster/36222
+  paper_path: "/papers/neurips2021/73/paper.pdf"
+  slides_path: "/papers/neurips2021/73/slides.pdf"
   condensed_subject_areas:
   - Computer vision and remote sensing
   - Agriculture, forestry and other land use
@@ -3055,8 +3410,8 @@
   - Disaster prediction, management, and relief
   - Ecosystems and natural systems
   - Meta- and transfer learning
-- paper_title: Optimization of Agricultural Management for SoilCarbon Sequestration
-    based on Deep ReinforcementLearning and Large-Scale Simulations
+- paper_title: Optimization of Agricultural Management for Soil Carbon Sequestration
+    based on Deep Reinforcement Learning and Large-Scale Simulations
   abstract: Soil carbon sequestration in croplands has tremendous potential to help
     mitigate climate change; however, it is challenging to develop the optimal management
     practices for maximization of the sequestered carbon as well as the crop yield.
@@ -3096,13 +3451,16 @@
   id: 74
   prev_paper_id: 73
   next_paper_id: 75
+  conference_id: '36237'
+  conference_link: https://neurips.cc/virtual/2021/poster/36237
+  slides_path: "/papers/neurips2021/74/slides.pdf"
   condensed_subject_areas:
   - Reinforcement learning and control
   - Carbon capture and sequestration
 - paper_title: Leveraging machine learning for identify hydrological extreme events
     under global climate change
   abstract: |-
-    Hydrological extreme events, such as droughts and floods, are highly destructive 1 natural disasters and its occurrence is expected to increase under the future climate change. Accurate and efficient approach to detect such events will provide timely information to assist management strategies for minimizing socio-economic damages. Despite the threshold approach has established to detect extreme events, the missing data from hydroclimate data and accurately identifying these events are still major challenges. The advent of machine learning models can help to identify the occurrence of droughts and floods events accurately and efficiently. Therefore, this proposed study will develop a machine learning model with semi-supervised anomaly detection approach to identify hydrological extreme events with ground-based data. As a test case, we will use 45-years record of hydroclimate data in coastal California, where was the driest region in 2012-2015,
+    Hydrological extreme events, such as droughts and floods, are highly destructive  natural disasters and its occurrence is expected to increase under the future climate change. Accurate and efficient approach to detect such events will provide timely information to assist management strategies for minimizing socio-economic damages. Despite the threshold approach has established to detect extreme events, the missing data from hydroclimate data and accurately identifying these events are still major challenges. The advent of machine learning models can help to identify the occurrence of droughts and floods events accurately and efficiently. Therefore, this proposed study will develop a machine learning model with semi-supervised anomaly detection approach to identify hydrological extreme events with ground-based data. As a test case, we will use 45-years record of hydroclimate data in coastal California, where was the driest region in 2012-2015,
     following with flash floods events. The expected results will increase communities’ awareness for hydrological extreme events and enable environmental planning and resource management under climate change
   q1_track: Proposals
   primary_contact_author_name: Ying-Jung C Deweese
@@ -3115,6 +3473,8 @@
   author_emails: yingjungcd@gmail.com*
   authors: Ying-Jung C Deweese (Georgia Insititute of Technology)
   cmt_id: 108
+  poster_sessions:
+  - 23:30-00:15 UTC
   is_spotlight: false
   subject_areas:
   - Earth science and monitoring
@@ -3122,27 +3482,27 @@
   id: 75
   prev_paper_id: 74
   next_paper_id: 76
+  conference_id: '36239'
+  conference_link: https://neurips.cc/virtual/2021/poster/36239
+  paper_path: "/papers/neurips2021/75/paper.pdf"
+  slides_path: "/papers/neurips2021/75/slides.pdf"
   condensed_subject_areas:
   - Earth science and monitoring
   - Classification, regression, and supervised learning
 - paper_title: Predicting Cascading Failures in Power Systems using Graph Convolutional
     Networks
-  abstract: On the way to combating climate change, decarbonisation of electricity
-    generation is becoming increasingly important. Worldwide targets are set for the
-    increase of renewable power generation in electricity networks. Consequently,
-    a secure power system that can handle the complexities resulted from the increased
-    renewable source integration is crucial. One particular complexity is the possibility
-    of cascading failures -- a quick succession of multiple component failures that
-    takes down the system and might also lead to a blackout. Early detection and containment
-    of such failures is challenging because it is combinatorial in nature and has
-    to contend with the spatial aspects of the power system as well as the temporal
-    evolution of failures. Viewing the prediction of cascading failures as a binary
-    classification task, we explore the efficacy of Graph Convolution Networks (GCNs),
-    to detect the early onset of a cascading failure. We perform experiments based
-    on simulated data from a benchmark IEEE test system. Our preliminary findings
-    show that GCNs achieve higher accuracy scores than other baselines which bodes
-    well for detecting cascading failures. It also motivates a more comprehensive
-    study of graph-based deep learning techniques in this research topic.
+  abstract: 'Worldwide targets are set for the increase of renewable power generation
+    in electricity networks on the way to combat climate change. Consequently, a secure
+    power system that can handle the complexities resulted from the increased renewable
+    power integration is crucial. One particular complexity is the possibility of
+    cascading failures — a quick succession of multiple component failures that takes
+    down the system and might also lead to a blackout. Viewing the prediction of cascading
+    failures as a binary classification task, we explore the efficacy of Graph Convolution
+    Networks (GCNs), to detect the early onset of a cascading failure. We perform
+    experiments based on simulated data from a benchmark IEEE test system. Our preliminary
+    findings show that GCNs achieve higher accuracy scores than other baselines which
+    bodes well for detecting cascading failures. It also motivates a more comprehensive
+    study of graph-based deep learning techniques for the current problem. '
   q1_track: Proposals
   primary_contact_author_name: Tabia Ahmad
   primary_contact_author_email: tabia.ahmad@strath.ac.uk
@@ -3156,6 +3516,8 @@
   authors: Tabia Ahmad (University of Strathclyde); Yongli Zhu (Texas A&M Universersity);
     Panagiotis Papadopoulos (University of Strathclyde)
   cmt_id: 123
+  poster_sessions:
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
@@ -3166,6 +3528,10 @@
   id: 76
   prev_paper_id: 75
   next_paper_id: 77
+  conference_id: '36247'
+  conference_link: https://neurips.cc/virtual/2021/poster/36247
+  paper_path: "/papers/neurips2021/76/paper.pdf"
+  slides_path: "/papers/neurips2021/76/slides.pdf"
   condensed_subject_areas:
   - Power and energy systems
   - Carbon capture and sequestration
@@ -3176,19 +3542,18 @@
     Fine-Grained Climate Data'
   abstract: Earthquakes are one of the most catastrophic natural disasters, making
     accurate, fine-grained, and real-time earthquake forecasting extremely important
-    for the safety and security of human lives. In this work,  we propose DeepQuake,  a
-    deep learning model for fine-grained earthquake forecasting using time-series
-    data of the horizontal displacement of Earth’s surface measured from continuously
-    operating Global Positioning System (cGPS) data between 2007 to 2019. Recent studies
-    using cGPS data have established a link between transient deformation within earth’s
-    crust including Earth’s elastic response to climate variables such as hydrologic
-    loads, temperature gradients, and atmospheric pressure. DeepQuake’s physics-based
-    pre-processing algorithm extracts relevant features including the x,y, and z components
-    of strain in the earth’s crust, feeding it into an LSTM model to predict key earthquake
-    variables such as the time, location, magnitude, and depth of a future earthquake.
-    Initial results across California, including the Napa Valley and Long Valley Caldera
-    regions, show promising correlations between cGPS data and the earthquake catalog
-    ground truth for a given location and time
+    for the safety and security of human lives. In this work, we propose DeepQuake,
+    a hybrid physics and deep learning model for fine-grained earthquake forecasting
+    using time-series data of the horizontal displacement of earth’s surface measured
+    from continuously operating Global Positioning System (cGPS) data. Recent studies
+    using cGPS data have established a link between transient deformation within earth's
+    crust to climate variables. DeepQuake’s physics-based pre-processing algorithm
+    extracts relevant features including the x, y, and xy components of strain in
+    earth’s crust, capturing earth’s elastic response to these climate variables,
+    and feeds it into a deep learning neural network to predict key earthquake variables
+    such as the time, location, magnitude, and depth of a future earthquake. Results
+    across California show promising correlations between cGPS derived strain patterns
+    and the earthquake catalog ground truth for a given location and time.
   q1_track: Proposals
   primary_contact_author_name: Yash Narayan
   primary_contact_author_email: yasnara@nuevaschool.org
@@ -3208,8 +3573,106 @@
   - Other
   id: 77
   prev_paper_id: 76
+  next_paper_id: 78
+  conference_id: '48877'
+  conference_link: https://neurips.cc/virtual/2021/poster/48877
+  paper_path: "/papers/neurips2021/77/paper.pdf"
+  slides_path: "/papers/neurips2021/77/slides.pdf"
   condensed_subject_areas:
   - Time-series analysis
   - Climate and Earth science
   - Earth science and monitoring
   - Other
+- paper_title: A day in a sustainable life
+  abstract: "In this notebook, we show the reader how to use an electrical battery
+    to minimize the operational carbon intensity of a building. The central idea is
+    to charge the battery when the carbon intensity of the grid energy mix is low,
+    and vice versa. The same methodology is used in practice to optimise for a number
+    of different objective functions, including energy costs. \n\nTaking the hypothetical
+    case of Pi, an eco-conscious and tech-savvy householder in the UK, we walk the
+    reader through getting carbon intensity data, and how to use this with a number
+    of different optimisation algorithms to decarbonise. Starting off with easy-to-understand,
+    brute force search, we establish a baseline for subsequent (hopefully smarter)
+    optimization algorithms. This should come naturally, since in their day job Pi
+    is a data scientist where they often use grid and random search to tune hyperparameters
+    of ML models. The second optimization algorithm we explore is a genetic algorithm,
+    which belongs to the class of derivative free optimizers and is consequently extremely
+    versatile. However, the flexibility of these algorithms comes at the cost of computational
+    speed and effort. In many situations, it makes sense to utilize an optimization
+    method which can make use of the special structure in the problem. As the final
+    step, we see how Pi can optimally solve the problem of minimizing their carbon
+    intensity by formulating it as a linear program. Along the way, we also keep an
+    eye out for some of the most important challenges that arise in practice."
+  q1_track: Tutorials
+  primary_contact_author_name: Hussain Kazmi
+  primary_contact_author_email: hussainsyed.kazmi@kuleuven.be
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Buildings and cities
+  secondary_subject_areas: Climate change -> Power and energy systems; Machine learning
+    -> Classification, regression, and supervised learning; Machine learning -> Other;
+    Machine learning -> Time-series analysis
+  author_names: Kazmi, Hussain*; Balint, Attila; Despeghel, Jolien
+  author_emails: hussainsyed.kazmi@kuleuven.be*; attila.balint@kuleuven.be; jolien.despeghel@kuleuven.be
+  authors: Hussain Kazmi (KU Leuven); Attila Balint (KU Leuven); Jolien Despeghel
+    (KU Leuven)
+  cmt_id: 139
+  poster_sessions:
+  - 15:45-16:30 UTC
+  is_spotlight: true
+  subject_areas:
+  - Buildings and cities
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Other
+  - Time-series analysis
+  id: 78
+  prev_paper_id: 77
+  next_paper_id: 79
+  conference_id: '48880'
+  conference_link: https://neurips.cc/virtual/2021/poster/48880
+  slides_path: "/papers/neurips2021/78/slides.pdf"
+  condensed_subject_areas:
+  - Buildings and cities
+  - Power and energy systems
+  - Classification, regression, and supervised learning
+  - Other
+  - Time-series analysis
+- paper_title: 'Open Catalyst Project: An Introduction to ML applied to Molecular
+    Simulations'
+  abstract: |
+    As the world continues to battle energy scarcity and climate change, the future of our energy infrastructure is a growing challenge. Renewable energy technologies offer the opportunity to drive efficient carbon-neutral means for energy storage and generation. Doing so, however, requires the discovery of efficient and economic catalysts (materials) to accelerate associated chemical processes. A common approach in discovering high performance catalysts is using molecular simulations. Specifically, each simulation models the interaction of a catalyst surface with molecules that are commonly seen in electrochemical reactions. By predicting these interactions accurately, the catalyst's impact on the overall rate of a chemical reaction may be estimated.
+
+    The Open Catalyst Project (OCP) aims to develop new ML methods and models to accelerate the catalyst simulation process for renewable energy technologies and improve our ability to predict properties across catalyst composition. The initial release of the Open Catalyst 2020 (OC20) dataset presented the largest open dataset of molecular combinations, spanning 55 unique elements and over 130M+ data points. We will present a comprehensive tutorial of the Open Catalyst Project repository, including (1) Accessing & visualizing the dataset, (2) Overview of the various tasks, (3) Training graph neural network (GNN) models, (4) Developing your own model for OCP, (5) Running ML-driven simulations, and (6) Visualizing the results. Primary tools include PyTorch and PyTorch Geometric. No background in chemistry is assumed. Following this tutorial we hope to better equip attendees with a basic understanding of the data and repository.
+  q1_track: Tutorials
+  primary_contact_author_name: Muhammed Shuaibi
+  primary_contact_author_email: mshuaibi@andrew.cmu.edu
+  status: Accept (Spotlight)
+  primary_subject_area: Climate change -> Carbon capture and sequestration
+  secondary_subject_areas: Climate change -> Other; Climate change -> Power and energy
+    systems; Machine learning -> Other
+  author_names: Shuaibi, Muhammed*; Sriram, Anuroop; Das, Abhishek; Lan, Janice; Kolluru,
+    Adeesh; Wood, Brandon; Ulissi, Zachary; Zitnick, Larry
+  author_emails: mshuaibi@andrew.cmu.edu*; anuroops@fb.com; abhshkdz@fb.com; janlan@fb.com;
+    akolluru@andrew.cmu.edu; bwood@lbl.gov; zulissi@andrew.cmu.edu; zitnick@fb.com
+  authors: Muhammed Shuaibi (Carnegie Mellon University); Anuroop Sriram (Facebook);
+    Abhishek Das (Facebook AI Research); Janice Lan (Facebook AI Research); Adeesh
+    Kolluru (Carnegie Mellon University); Brandon Wood (NERSC); Zachary Ulissi (Carnegie
+    Mellon University); Larry Zitnick (Facebook AI Research)
+  cmt_id: 140
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
+  is_spotlight: true
+  subject_areas:
+  - Carbon capture and sequestration
+  - Other
+  - Power and energy systems
+  id: 79
+  prev_paper_id: 78
+  conference_id: '48881'
+  conference_link: https://neurips.cc/virtual/2021/poster/48881
+  slides_path: "/papers/neurips2021/79/slides.pdf"
+  condensed_subject_areas:
+  - Carbon capture and sequestration
+  - Other
+  - Power and energy systems

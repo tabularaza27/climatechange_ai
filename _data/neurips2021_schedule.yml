@@ -33,10 +33,15 @@
     <p><strong>Abstract:</strong> Many pin their hopes on the tech sector and advances in Artificial Intelligence (AI) and other digital technologies in combating climate change. In this talk, I argue against this optimistic view. I first provide evidence on how AI has been used in US businesses, pointing out that it has had few of the promised benefits and has instead continued the process of inequality-increasing and wage-reducing automation. I then review the evidence on advances in renewable energy, arguing that it has responded strongly to subsidies and prices of fossil fuels, but these advances have slowed down lately. There appears to be no alternative to increasing carbon taxes significantly and investing in renewable and green technologies. There is no evidence that big tech companies have played a leading role, and most existing evidence suggests that big energy companies have typically undermined efforts to switch to renewables.</p>
     
     <p><strong>Bio:</strong> Daron Acemoglu is an Institute Professor at MIT and an elected fellow of the National Academy of Sciences, American Philosophical Society, the British Academy of Sciences, the Turkish Academy of Sciences, the American Academy of Arts and Sciences, the Econometric Society, the European Economic Association, and the Society of Labor Economists. He is also a member of the Group of Thirty.</p>
+
     <p>He is the author of five books, including New York Times bestseller <em>Why Nations Fail: Power, Prosperity, and Poverty</em> (joint with James A. Robinson), <em>Introduction to Modern Economic Growth</em>, and <em>The Narrow Corridor: States, Societies, and the Fate of Liberty</em> (with James A. Robinson).</p>
+
     <p>His academic work covers a wide range of areas, including political economy, economic development, economic growth, technological change, inequality, labor economics and economics of networks.</p>
+
     <p>Daron Acemoglu has received the inaugural T. W. Shultz Prize from the University of Chicago in 2004, and the inaugural Sherwin Rosen Award for outstanding contribution to labor economics in 2004, Distinguished Science Award from the Turkish Sciences Association in 2006, the John von Neumann Award, Rajk College, Budapest in 2007, the Carnegie Fellowship in 2017, the Jean-Jacques Laffont Prize in 2018, the Global Economy Prize in 2019, and the CME Mathematical and Statistical Research Institute prize in 2021.</p>
+
     <p>He was awarded the John Bates Clark Medal in 2005, the Erwin Plein Nemmers Prize in 2012, and the 2016 BBVA Frontiers of Knowledge Award.</p>
+
     <p>He holds Honorary Doctorates from the University of Utrecht, the Bosporus University, University of Athens, Bilkent University, the University of Bath, Ecole Normale Superieure, Saclay Paris, and the London Business School.</p>
 - desc: Spotlight Presentations
   utc1:
@@ -69,6 +74,7 @@
     day: 14
     hour: 16
     minute: 30
+  more: replace_with_papers_in_session|15:45-16:30 UTC
 - desc: 'Panel 1: Decision-making'
   utc1:
     year: 2021
@@ -120,14 +126,14 @@
     day: 14
     hour: 18
     minute: 45
-more: |-
-    <p><strong>Speaker:</strong> <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a>, Caltech, Nvidia</p>
-    
-    <p><strong>Title:</strong> Role of AI in predicting and mitigating climate change</p>
+  more: |-
+      <p><strong>Speaker:</strong> <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a>, Caltech, Nvidia</p>
+      
+      <p><strong>Title:</strong> Role of AI in predicting and mitigating climate change</p>
 
-    <p><strong>Abstract:</strong> Predicting extreme weather events in a warming world at fine scales is a grand challenge faced by climate scientists. Policy makers and society at large depend on reliable predictions to plan for the disastrous impact of climate change and develop effective adaptation strategies. Deep learning (DL) offers novel methods that are potentially more accurate and orders of magnitude faster than traditional weather and climate models for predicting extreme events. The Fourier Neural Operator (FNO), a novel deep learning method has shown promising results for predicting complex systems, such as spatio-temporal chaos, turbulence, and weather phenomena. I will give an overview of the method as well as our recent results.</p>
+      <p><strong>Abstract:</strong> Predicting extreme weather events in a warming world at fine scales is a grand challenge faced by climate scientists. Policy makers and society at large depend on reliable predictions to plan for the disastrous impact of climate change and develop effective adaptation strategies. Deep learning (DL) offers novel methods that are potentially more accurate and orders of magnitude faster than traditional weather and climate models for predicting extreme events.  The Fourier Neural Operator (FNO), a novel deep learning method has shown promising results for predicting complex systems, such as spatio-temporal chaos, turbulence, and weather phenomena. I will give an overview of the method as well as our recent results.</p>
 
-    <p><strong>Bio:</strong> Anima Anandkumar is a Bren Professor at Caltech and Director of ML Research at NVIDIA. She was previously a Principal Scientist at Amazon Web Services. She has received several honors such as Alfred. P. Sloan Fellowship, NSF Career Award, Young investigator awards from DoD, and Faculty Fellowships from Microsoft, Google, Facebook, and Adobe. She is part of the World Economic Forum's Expert Network. She is passionate about designing principled AI algorithms and applying them in interdisciplinary applications. Her research focus is on unsupervised AI, optimization, and tensor methods.</p>
+      <p><strong>Bio:</strong> Anima Anandkumar is a Bren Professor at Caltech and Director of ML Research at NVIDIA. She was previously a Principal Scientist at Amazon Web Services. She has received several honors such as Alfred. P. Sloan Fellowship, NSF Career Award, Young investigator awards from DoD, and Faculty Fellowships from Microsoft, Google, Facebook, and Adobe. She is part of the World Economic Forum's Expert Network. She is passionate about designing principled AI algorithms and applying them in interdisciplinary applications. Her research focus is on unsupervised AI, optimization, and tensor methods.</p>
 - desc: Spotlight Presentations
   utc1:
     year: 2021
@@ -146,7 +152,7 @@ more: |-
     day: 14
     hour: 19
     minute: 30
-- desc: '<b>Tianzhen Hong</b>: "Machine Learning for Smart Buildings: Applications and Perspectives" '
+- desc: '<b>Tianzhen Hong</b>: "Machine Learning for Smart Buildings: Applications and Perspectives"'
   utc1:
     year: 2021
     month: 12
@@ -159,7 +165,7 @@ more: |-
     day: 14
     hour: 20
     minute: 15
- more: |-
+  more: |-
     <p><strong>Speaker:</strong> <a href="https://eta.lbl.gov/people/tianzhen-hong" target="_blank">Tianzhen Hong</a>, Lawrence Berkeley National Laboratory</p>
 
     <p><strong>Title:</strong> Machine Learning for Smart Buildings: Applications and Perspectives</p>
@@ -180,6 +186,7 @@ more: |-
     day: 14
     hour: 21
     minute: 0
+  more: replace_with_papers_in_session|20:15-21:00 UTC
 - desc: 'Panel 2: Data'
   utc1:
     year: 2021
@@ -215,9 +222,9 @@ more: |-
     hour: 22
     minute: 30
   subrows:
-    - row_text: "A day in a sustainable life"
-    - row_text: "Open Catalyst Project: An Introduction to ML applied to Molecular Simulations"
-- desc: '<b>Amy McGovern</b>: "Developing Trustworthy AI for Weather and Climate" '
+    - paper_id: 78
+    - paper_id: 79
+- desc: '<b>Amy McGovern</b>: "Developing Trustworthy AI for Weather and Climate"'
   utc1:
     year: 2021
     month: 12
@@ -230,16 +237,15 @@ more: |-
     day: 14
     hour: 23
     minute: 15
- more: |-
+  more: |-
     <p><strong>Speaker:</strong> <a href="https://mcgovern-fagg.org/amy/" target="_blank">Amy McGovern</a>, University of Oklahoma</p>
     
     <p><strong>Title:</strong> Developing Trustworthy AI for Weather and Climate</p>
     
     <p><strong>Abstract:</strong> In this talk we give an overview of the work of the NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography. For this talk, we will focus on our applications to weather and climate predictions, including convective hazards and extreme heat.  We also briefly review the need for the development of principles for ethical and responsible AI for weather and climate.</p>
     
-    <p><strong>Bio:</strong> Lloyd G. and Joyce Austin Presidential Professor, School of Computer Science and School of Meteorology</p>
+    <p><strong>Bio:</strong> Lloyd G. and Joyce Austin Presidential Professor, School of Computer Science and School of Meteorology, University of Oklahoma</p>
     <p>Director, NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography</p>
-    <p>University of Oklahoma</p>
 - desc: Closing remarks
   utc1:
     year: 2021
@@ -253,7 +259,7 @@ more: |-
     day: 14
     hour: 23
     minute: 30
-- desc: Poster Session 3
+- desc: "Poster Session 3"
   utc1:
     year: 2021
     month: 12
@@ -266,7 +272,8 @@ more: |-
     day: 15
     hour: 0
     minute: 15
-- desc: Gather.Town
+  more: replace_with_papers_in_session|23:30-00:15 UTC
+- desc: "Gather.Town"
   utc1:
     year: 2021
     month: 12

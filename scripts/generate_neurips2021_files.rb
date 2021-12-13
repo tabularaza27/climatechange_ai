@@ -10,20 +10,17 @@ workshop = 'neurips2021'
 submissions = "raw_workshop_files/#{workshop}/Papers.xml"
 cameraready = "raw_workshop_files/#{workshop}/CameraReadys"
 
-#sl_link_file = "raw_workshop_files/#{workshop}/slideslive_links.csv"
+neurips_link_file = "raw_workshop_files/#{workshop}/neurips_links.csv"
 #sl_id_file = "raw_workshop_files/#{workshop}/slideslive_unique_ids.csv"
 #sl_unique_ids = Set.new(File.read(sl_id_file).strip.split("\n").map(&:strip))
 
 cmt_to_sl_id = {}
-cmt_to_speaker = {}
+ccai_to_neurips_id = {}
 
-#CSV.read(sl_link_file, headers: true).each do |row|
-#  if %w(finished checked).include?(row['Video Status'])
-#    cmt_id = row['Paper ID'].to_i
-#    cmt_to_sl_id[cmt_id] = row['SlidesLive Link'].strip.split("/").last
-#    cmt_to_speaker[cmt_id] = row['Author'].strip
-#  end
-#end
+CSV.read(neurips_link_file, headers: true).each do |row|
+  ccai_id = row['CCAI ID'].to_i
+  ccai_to_neurips_id[ccai_id] = row['NeurIPS ID'].strip
+end
 
 cmt_to_speaker = {}
 
@@ -32,18 +29,25 @@ cmt_to_speaker = {}
 #end
 
 cmt_to_session = {}
-#sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
-#cmt_to_session = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
-#  sessions = row['Assigned Session'].to_s.strip
-#  h[row['CMT Paper ID'].to_i] = sessions
-#end
+sess_file = "raw_workshop_files/#{workshop}/poster_sessions.csv"
+cmt_to_session = CSV.read(sess_file, headers: true).each_with_object({}) do |row, h|
+  sessions = row['Which poster session(s) will you present at?'].to_s.strip
+  h[row['CMT Paper ID'].to_i] = sessions.split(", ").map(&:strip).map{|s| s.split(' = ')[1].gsub(' - ', '-')}
+  cmt_to_speaker[row['CMT Paper ID'].to_i] = "#{row['First name'].strip} #{row['Last name'].strip}"
+end
 
 papers = []
 export = Roo::Excel2003XML.new(submissions)
-sheet = export.sheet(1)
-parsed = sheet.parse(header_search: [/Paper ID/])
+parsed = (
+   export.sheet(0).parse(header_search: [/Paper ID/]) +
+   export.sheet(1).parse(header_search: [/Paper ID/])
+ )
 
 parsed.each do |p|
+  if p["Track Name"] == "CCAINeurIPS2021Tutorials"
+     p['Q1 (Track)'] = 'Tutorial'
+  end
+
   next unless p["Q1 (Track)"]
   next unless p['Status'].include?('Accept')
 
@@ -60,7 +64,7 @@ parsed.each do |p|
   paper_data = {}
 
   fields.each do |field|
-    paper_data[field.downcase.gsub(/[^\w]+/, '_').gsub(/_+$/,'')] = p[field]
+    paper_data[field.downcase.gsub(/[^\w]+/, '_').gsub(/_+$/,'').gsub("", "").strip] = p[field]
   end
 
   paper_data['paper_title'] = paper_data['paper_title'].strip.squeeze(" ")
@@ -83,7 +87,7 @@ parsed.each do |p|
   end
 
   if sess = cmt_to_session[cmt_id]
-    paper_data['poster_sessions'] = [sess]
+    paper_data['poster_sessions'] = sess
   end
 
   paper_data['is_spotlight'] = p['Status'].include?('Spotlight')
@@ -102,6 +106,11 @@ parsed.each do |p|
   end
   paper_data['subject_areas'] = paper_data['subject_areas'].map{|s| s.split(' -> ').last}.uniq
 
+  if paper_data['paper_title'].include?('DeepQuake')
+    paper_data['abstract'] = "Earthquakes are one of the most catastrophic natural disasters, making accurate, fine-grained, and real-time earthquake forecasting extremely important for the safety and security of human lives. In this work, we propose DeepQuake, a hybrid physics and deep learning model for fine-grained earthquake forecasting using time-series data of the horizontal displacement of earth’s surface measured from continuously operating Global Positioning System (cGPS) data. Recent studies using cGPS data have established a link between transient deformation within earth's crust to climate variables. DeepQuake’s physics-based pre-processing algorithm extracts relevant features including the x, y, and xy components of strain in earth’s crust, capturing earth’s elastic response to these climate variables, and feeds it into a deep learning neural network to predict key earthquake variables such as the time, location, magnitude, and depth of a future earthquake. Results across California show promising correlations between cGPS derived strain patterns and the earthquake catalog ground truth for a given location and time."
+  end
+
+
   papers << paper_data
 end
 
@@ -110,6 +119,11 @@ papers.each_with_index do |p,i|
   p['id'] = i+1
   p['prev_paper_id'] = i if i > 0
   p['next_paper_id'] = i+2 if i < papers.size-1
+
+  if neurips_id = ccai_to_neurips_id[i+1]
+    p['conference_id'] = neurips_id
+    p['conference_link'] = "https://neurips.cc/virtual/2021/poster/#{neurips_id}"
+  end
 end
 
 def aspect_ratio(pdf)
@@ -181,7 +195,7 @@ papers.each do |p|
     "layout" => "paper",
     "paper_index" => p['id']-1,
     "title" => p['paper_title'],
-    "description" =>  "Climate Change AI - ICML 2021 Accepted Work",
+    "description" =>  "Climate Change AI - NeurIPS 2021 Accepted Work",
     "workshop_key" => "#{workshop}_papers"
   }
 

@@ -82,6 +82,13 @@ layout: default
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+{% if post.comment_url %}
+    <h2 id='comments'>Comments</h2>
+    <iframe style="border: 1px solid #eee; box-shadow: none; width: 100%; height: 80vh;" src="{{ post.comment_url }}">
+        Loading...
+    </iframe>
+{% endif %}
+
 <script>
 $(document).ready(() => {
     $('.post-author-name').click(ev => {

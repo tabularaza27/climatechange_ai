@@ -72,6 +72,10 @@ layout: default
     <a href='#recording' class='button'>Recorded Talk</a>
   {% endif %}
 
+  {% if p.conference_link %}
+  <a href='{{ p.conference_link }}' class='button' target='_blank'>{{workshop.short_name}} Poster</a>
+  {% endif %}
+
   <a href='javascript:void(0)' class='button' id='cite-paper'>Cite</a>
 
   <script>
@@ -100,7 +104,7 @@ layout: default
       let bibtex = `@inproceedings{${label},\n`;
       bibtex += `  title={${paper.paper_title}},\n`;
       bibtex += `  author={${authors.join(' and ')}},\n`;
-      bibtex += `  journal={${workshop.conference_title}},\n`;
+      bibtex += `  booktitle={${workshop.conference_title}},\n`;
       bibtex += `  url={${location.href}},\n`;
       bibtex += `  year={${year}}\n`;
       bibtex += "}";
@@ -178,3 +182,15 @@ layout: default
   <h3 id='recording'>Recorded Talk (<a href="https://youtu.be/{{ p.youtube_id }}">direct link</a>)</h3>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ p.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
+
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
