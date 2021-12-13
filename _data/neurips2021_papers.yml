@@ -2578,10 +2578,16 @@
   status: Accept (Poster)
   primary_subject_area: Climate change -> Ecosystems and natural systems
   secondary_subject_areas: Machine learning -> Computer vision and remote sensing
-  author_names: Ayers, Jacob G*; Kastner, Ryan
-  author_emails: jacobayers123@gmail.com*; kastner@eng.ucsd.edu
-  authors: Jacob G Ayers (UC San Diego); Ryan Kastner (University of California San
-    Diego)
+  author_names: Ayers, Jacob G*; Perry, Sean; Tiwari, Vaibhav; Blue, Mugen; Balaji,
+    Nishant; Schurgers, Curt; Kastner, Ryan; Tobler, Mathias; Ingram, Ian
+  author_emails: jacobayers123@gmail.com*; sperry@ucsd.edu; vktiwari@ucsd.edu; mugen4college@gmail.com;
+    nibalaji@ucsd.edu; cschurgers@eng.ucsd.edu; kastner@eng.ucsd.edu; MTobler@sdzwa.org;
+    iingram@sdzwa.org
+  authors: Jacob G Ayers (UC San Diego); Sean Perry (UC San Diego); Vaibhav Tiwari
+    (UC San Diego); Mugen Blue (Cal Poly San Luis Obispo); Nishant Balaji (UC San
+    Diego); Curt Schurgers (UC San Diego); Ryan Kastner (University of California
+    San Diego); Mathias Tobler (San Diego Zoo Wildlife Alliance); Ian Ingram (San
+    Diego Zoo Wildlife Alliance)
   cmt_id: 122
   poster_sessions:
   - 20:15-21:00 UTC
