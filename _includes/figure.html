@@ -1,0 +1,20 @@
+{% if include.alt %}
+    {% assign alt = include.alt %}
+{% elsif include.title %}
+    {% assign alt = include.title %}
+{% else %}
+    {% assign alt = include.caption %}
+{% endif %}
+
+{% if include.title %}
+    {% assign title = include.title %}
+{% elsif include.alt %}
+    {% assign title = include.alt %}
+{% else %}
+    {% assign title = include.caption %}
+{% endif %}
+
+<figure>
+    <img src="{{include.src}}" alt="{{alt}}" title="{{title}}">
+    <figcaption>{{include.caption}}</figcaption>
+</figure>
