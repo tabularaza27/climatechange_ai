@@ -3457,7 +3457,7 @@
     Hobbs (IntelinAir Inc.)
   cmt_id: 102
   poster_sessions:
-  - 15:45 - 16:30 UTC
+  - 15:45-16:30 UTC
   is_spotlight: false
   subject_areas:
   - Reinforcement learning and control
