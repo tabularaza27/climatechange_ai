@@ -1,0 +1,23 @@
+---
+layout: post
+title: "A datathon to empower women in climate change and data science"
+subtitle: "The Women in Data Science Datathon 2022 will highlight the role of buildings for climate change mitigation, while supporting women in the field."
+image: "/images/blog/wids-datathon-banner.png"
+authors: nikola, priya, andrew
+article_type: "Announcement"
+topical_tags: buildings, data science, energy efficiency
+---
+
+The [5th Annual Women in Data Science (WiDS) Datathon](http://widsconference.org/datathon) will launch in January in partnership with Climate Change AI. WiDS is an initiative started by Stanford University that aims to inspire and educate data scientists worldwide, regardless of gender, and to support women in the field. 
+
+As in data science, women are [underrepresented](https://books.google.de/books?hl=en&lr=&id=Pj5PCAAAQBAJ&oi=fnd&pg=PA17&dq=Glass,+J.+B.+(2015).+We+are+the+20%25:+Updated+Statistics+on+Female+Faculty+in+Earth+Sciences+in+the+U.S.++Women+in+the+Geosciences:+Practical,+Positive+Practices+Toward+Parity,+(May+2015),+17–22.++https://doi.org/10.1002/9781119067573.ch2+&ots=l8VR1LwuwI&sig=sKkXSFytobKjEiaDWvaSh-ElzGo&redir_esc=y#v=onepage&q&f=false) in the scientific fields studying climate change. For example, a 2018 [survey](https://www.pnas.org/content/115/9/2060) of 100 female authors of the Intergovernmental Panel on Climate Change (IPCC) reported that many of these women, despite their exceptional expertise, felt poorly represented and heard. In 2020, the fraction of IPCC authors who were women still stood at [less than a third](https://www.ipcc.ch/site/assets/uploads/2019/01/110520190810-Doc.-10-Rev.1TG-Gender.pdf), up from a mere 10% in 1990. The slow progress and continuing low numbers speak to a joint need to increase gender representation within both data science and climate change, including at the intersection of these fields. 
+
+The 2022 WiDS Datathon will work toward this goal by offering an opportunity for anyone—including and especially women— to hone their data science skills on a climate challenge. Specifically, the Datathon will focus on the role of buildings in reducing global greenhouse gas emissions. Decarbonizing building construction and operations is a necessary step towards achieving climate neutrality: as of 2020, the buildings sector [accounts for](https://www.iea.org/reports/tracking-buildings-2021) 37% of global energy- and process-related CO2 emissions, and that share is [only expected to grow](https://www.nature.com/articles/nclimate3169). [AI can provide useful tools](https://www.climatechange.ai/summaries?section=Buildings+%26+Cities) for achieving low-carbon buildings. 
+
+Climate action in the building sector also has multiple relevant linkages with women’s well-being and empowerment. For example, the [burden of heat waves](https://journals.sagepub.com/doi/full/10.1177/0956247816677778) is disproportionately carried by women, and women suffer most from the [health effects of indoor pollution](https://energyaccess.duke.edu/publication/a-virtuous-cycle-reviewing-the-evidence-on-womens-empowerment-and-energy-access-frameworks-metrics-and-methods/) due to traditional cooking fuels. Hence, strategies that improve thermal comfort or access to clean, low-carbon energy can indirectly support gender equity.
+
+The Datathon task will consist of predicting the energy use of buildings based on various predictors including climate and building characteristics. Given a dataset and resources such as tutorials, participants will be challenged to use their creativity and data science skills to build, test, and explore solutions. Real-world use cases of predicting building energy use include inferring missing data across the building stock—an essential task, given the scarcity of granular energy data—and forecasting future consumption in different scenarios. 
+
+The WiDS Datathon will run from early January to late February 2022 on [Kaggle](https://www.kaggle.com/), an online data science community and competition platform. The dataset and challenge will be accessible to both beginners and experienced participants of all genders. You can learn more about the context of the datathon and how to get started on the [WiDS announcement post](https://www.widsconference.org/blog_archive/announcing-the-5th-annual-wids-datathon-2022-challenge-using-data-science-to-mitigate-climate-change).
+
+Last year, the WiDS Datathon saw record-breaking participation, with nearly 4,000 registrants and more than 24,000 entries. We encourage you to consider participating in this year’s edition. You can sign up [here](https://airtable.com/shrmG1SOK8lb4jNzZ)!  

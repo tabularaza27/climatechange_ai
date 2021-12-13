@@ -10,3 +10,12 @@ lynn:
 genvieve:
   name: Geneviève Patterson
   image: /images/people/genevievepatterson_200x200.jpg
+andrew:
+  name: Andrew Ross
+  image: /images/people/andrew_ross_200x200.jpg
+nikola:
+  name: Nikola Milojevic-Dupont
+  image: /images/people/nikolamilojevicdupont_200x200.jpg
+priya:
+  name: Priya Donti
+  image: /images/people/priyadonti_200x200.jpg
