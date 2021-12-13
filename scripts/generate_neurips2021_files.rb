@@ -195,7 +195,7 @@ papers.each do |p|
     "layout" => "paper",
     "paper_index" => p['id']-1,
     "title" => p['paper_title'],
-    "description" =>  "Climate Change AI - ICML 2021 Accepted Work",
+    "description" =>  "Climate Change AI - NeurIPS 2021 Accepted Work",
     "workshop_key" => "#{workshop}_papers"
   }
 
