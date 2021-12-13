@@ -908,10 +908,14 @@ td {
     border-top: 1px solid #eee;
 }
 
-.post-disclaimer {
+
+.post-disclaimer, figcaption {
     font-size: small;
     color: gray;
     font-style: italic;
+}
+
+.post-disclaimer {
     margin-top: 1rem;
 }
 
