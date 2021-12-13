@@ -1701,6 +1701,8 @@
   authors: Akshay B Iyer (SkySpecs, Inc.); Linh V Nguyen (SkySpecs Inc); Shweta Khushu
     (SkySpecs Inc.)
   cmt_id: 87
+  poster_sessions:
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Power and energy systems
