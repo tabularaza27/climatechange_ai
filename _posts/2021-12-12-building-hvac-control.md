@@ -6,7 +6,7 @@ image: "/images/blog/skyscraper-cxn-clouds.jpg"
 image_attribution: Aleksandar Pasaric
 authors: jan
 article_type: "Research summary"
-topical_tags: buildings, physics-constrained ML
+topical_tags: buildings, hybrid physical models
 ---
 
 
