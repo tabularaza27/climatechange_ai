@@ -775,6 +775,9 @@
     of California, Berkeley); Lucien D Werner (California Institute of Technology);
     Dava Newman (MIT); Steven Low (California Institute of Technology)
   cmt_id: 51
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: false
   subject_areas:
   - Computer vision and remote sensing
