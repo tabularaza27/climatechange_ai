@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning to Control Buildings Like an Engineer"
-subtitle: "A new approach to energy-efficient HVAC control infuses deep reinforcement learning with guidance from physics."
+subtitle: "A new approach to energy-efficient HVAC control infuses deep learning with guidance from physics."
 image: "/images/blog/skyscraper-cxn-clouds.jpg"
 image_attribution: Aleksandar Pasaric
 authors: jan
@@ -18,7 +18,7 @@ Nonetheless, in most 21st-century buildings, HVAC systems are still controlled b
 
 The problem is that switching to AI control isn’t as easy as replacing your smartphone or buying a new car. Buildings are made to last, and even worse, each building has a unique layout, infrastructure, location, and set of user profiles. All of this makes modernization very costly.
 
-In this post, I focus on the problem of designing advanced control methods for HVAC systems in a cost-efficient way. In particular, I discuss how to augment data-driven reinforcement learning (RL) with domain-aware physics-based control using a hybrid method called differentiable predictive control (DPC). DPC essentially allows a data-driven system to incorporate an approximate physics simulator into its training. This enables it to learn a reliable, interpretable model with far less training data than previous data-driven methods.
+In this post, I focus on the problem of designing advanced control methods for HVAC systems in a cost-efficient way. In particular, I discuss how to augment data-driven deep learning with domain-aware physics-based control using a hybrid method called differentiable predictive control (DPC). DPC essentially allows a data-driven system to incorporate an approximate physics simulator into its training. This enables it to learn a reliable, interpretable model with far less training data than previous data-driven methods.
 
 
 ## Which way to the promised land?
