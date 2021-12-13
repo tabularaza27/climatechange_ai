@@ -2958,6 +2958,9 @@
   author_emails: michelle.lin2@mail.mcgill.ca*; drolnick@cs.mcgill.ca
   authors: Michelle Lin (McGill University); David Rolnick (McGill University, Mila)
   cmt_id: 19
+  poster_sessions:
+  - 15:45-16:30 UTC
+  - 20:15-21:00 UTC
   is_spotlight: true
   subject_areas:
   - Power and energy systems
