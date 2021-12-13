@@ -2,10 +2,10 @@
 layout: default
 title: 'Tackling Climate Change with Machine Learning'
 description: 'NeurIPS 2021 Workshop: Tackling Climate Change with Machine Learning'
-og_image_url: 'https://www.climatechange.ai/images/NeurIPS2021_workshop.png'
+og_image_url: 'https://www.climatechange.ai/images/neurips-2021-preview.png'
 og_image_type: 'image/png'
-og_image_width: 1007
-og_image_height: 512
+og_image_width: 1103
+og_image_height: 578
 ---
 
 <h1>NeurIPS 2021 Workshop <br> Tackling Climate Change with Machine Learning</h1>
