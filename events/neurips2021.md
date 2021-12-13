@@ -113,6 +113,127 @@ We recently conducted two informational webinars answering questions about the m
 [Tegan Maharaj (Mila, UToronto)](http://www.teganmaharaj.com/)<br>
 [Yoshua Bengio (Mila, UdeM)](https://yoshuabengio.org/)<br>
 
+## Mentors
+
+Alberto Costa Nogueira Junior (IBM Research)<br>
+Anuroop Sriram (Facebook AI Research)<br>
+Aranildo Lima (Aquatics Informatics)<br>
+Campbell Watson (IBM Research)<br>
+Deval Pandya (Vector Institute )<br>
+Fatma Tarlaci (OpenTeams)<br>
+Indrasis Chakraborty (Lawrence Livermore National Laboratory)<br>
+Kara Lamb (Columbia University)<br>
+Malte Hessenius  (Climate & Company)<br>
+Mohamed Sidahmed (Shell)<br>
+Peter Dolan  (Waymo)<br>
+Quentin Paletta (University of Cambridge)<br>
+Rajendiran Gopinath (CSIR-Central Scientific Instruments Organisation, India)<br>
+Reshmi Ghosh (Carnegie Mellon University)<br>
+Sara Khalid (University of Oxford)<br>
+Siddha Ganju (Nvidia)<br>
+Varvara Vetrova (University of Canterbury)<br>
+Vishal Anand (Columbia University, Microsoft)<br>
+Ying-Jung Chen Deweese (Georgia Institute of Technology)<br>
+Yongli Zhu (Texas A&M University)<br>
+Zoltan Nagy (The University of Texas at Austin)<br>
+
+## Program Committee
+
+Alberto Chapchap (GS Cap)<br>
+Alexandra Puchko (Western Washington University)<br>
+Andrew Ross (New York University)<br>
+Aneesh Rangnekar (Rochester Institute of Technology)<br>
+Ankur Mahesh (UC Berkeley)<br>
+Ankush Chakrabarty (Mitsubishi Electric Research Labs)<br>
+Armi Tiihonen (Massachusetts Institute of Technology)<br>
+Bertrand Le Saux (European Space Agency (ESA))<br>
+Bianca Zadrozny (IBM Research)<br>
+Bill Cai (Massachusetts Institute of Technology)<br>
+Bingqing Chen (Carnegie Mellon University)<br>
+Brian Hutchinson (Western Washington University)<br>
+Campbell Watson (IBM Reserch)<br>
+Chase Dowling (Pacific Northwest National Laboratory)<br>
+Clement Duhart (MIT Media Lab)<br>
+Dali Wang (ORNL)<br>
+Dan Lu (Oak Ridge National Laboratory)<br>
+Daniel Salles Civitarese (IBM Research, Brazil)<br>
+Daniela Szwarcman (IBM Research)<br>
+Dara Farrell (Graduate of University of Washington)<br>
+Dario Augusto Borges Oliveira (Technische Universität München)<br>
+David Dao (ETH)<br>
+David Rolnick (McGill University, Mila)<br>
+Deepjyoti Deka (Los Alamos National Laboratory)<br>
+Diego Kiedansk (Telecom ParisTech)<br>
+Difan Zhang (PNNL)<br>
+Duncan Watson-Parris (University of Oxford)<br>
+Fabrizio Falasca (Georgia Institute of Technology)<br>
+Felix Laumann (Imperial College London)<br>
+Fred Otieno (IBM)<br>
+Frederik Gerzer (fortiss)<br>
+Gege Wen (Stanford University)<br>
+Geneviève Patterson (Climate Change AI)<br>
+Hannah Kerner (University of Maryland)<br>
+Hao Sheng (Stanford University)<br>
+Hari Prasanna Das (UC Berkeley)<br>
+Hovig Bayandorian ()<br>
+Isabelle Tingzon (Thinking Machines Data Science)<br>
+Jan Drgona (Pacific Northwest National Laboratory)<br>
+Jeremy Irvin (Stanford)<br>
+Jiaxin Zhang (Oak Ridge National Laboratory)<br>
+Jonathan Fürst (NEC Laboratories Europe)<br>
+Joris Guerin (ENSAM)<br>
+Joyjit Chatterjee (University of Hull)<br>
+Julian de Hoog (The University of Melbourne)<br>
+Julius von Kügelgen (MPI for Intelligent Systems, Tübingen & University of Cambridge)<br>
+Kai Jeggle (ETH Zurich)<br>
+Kalai Ramea (PARC)<br>
+Katarzyna B. Tokarska (ETH Zurich)<br>
+Kate Duffy (Northeastern University)<br>
+Kidane Degefa (Haramaya University)<br>
+Komminist Weldemariam (IBM Research)<br>
+Konstantin Klemmer (University of Warwick)<br>
+Kureha Yamaguchi (University of Cambridge)<br>
+Lauren Kuntz (Gaiascope)<br>
+Levente Klein (IBM Research)<br>
+Lexie Yang (Oak ridge national laboratoy)<br>
+Linda Petrini (Google Brain)<br>
+Lucas Kruitwagen (University of Oxford)<br>
+Lucas Spangher (U.C. Berkeley)<br>
+Maike Sonnewald (Princeton University)<br>
+Marcus Voss (TU Berlin)<br>
+Maria João Sousa (IDMEC, Instituto Superior Técnico, Universidade de Lisboa)<br>
+Markus Leippold (University of Zurich)<br>
+Matias Quintana (National University of Singapore)<br>
+Meareg Hailemariam (Addis Ababa University)<br>
+Michael Howland (Stanford University)<br>
+Michael Steininger (University of Würzburg)<br>
+Miguel Molina-Solana (Universidad de Granada)<br>
+Milan Jain (PNNL)<br>
+Niccolo Dalmasso (J.P. Morgan Chase)<br>
+Nikola Milojevic-Dupont (Mercator Research Institute on Global Commons and Climate Change (MCC))<br>
+Olivia Mendivil Ramos (Cold Spring Harbor Laboratory)<br>
+Paulo Orenstein (Stanford)<br>
+Paweł Gora (TensorCell)<br>
+Peetak Mitra (Palo Alto Research Center)<br>
+Priya Donti (Carnegie Mellon University)<br>
+Ramakrishna Tipireddy (Pacific Northwest National Laboratory)<br>
+Redouane Lguensat (LOCEAN-IPSL)<br>
+Robin Dunn (Novartis)<br>
+Romana Markovic (KIT - Building Science Group)<br>
+Samrat Chatterjee (Pacific Northwest National Laboratory)<br>
+Sara El Mekkaoui (EMI Engineering School)<br>
+Sasha Luccioni (Mila)<br>
+Sayak Mukherjee (Pacific Northwest National Laboratory)<br>
+Shruti Kulkarni (Indian Institute of Science (IISc))<br>
+Simone Fobi (Columbia University)<br>
+Tianle Yuan (NASA)<br>
+Tristan Ballard (Sust Global, Stanford University)<br>
+Valentina Zantedeschi (INRIA, UCL)<br>
+Victoria Preston (MIT)<br>
+Vili Hätönen (Emblica)<br>
+Yimeng Min (Cornell University)<br>
+Yue Hu (Vanderbilt University)<br>
+
 ## Call for Submissions
 
 We invite submissions of short papers using machine learning to address problems in climate mitigation, adaptation, or modeling, including but not limited to the following topics:
