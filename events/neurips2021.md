@@ -392,6 +392,11 @@ Applications are due by **Aug 16**.
 **Q:** Can I submit work to this workshop if I am also submitting to another NeurIPS 2021 workshop?<br>
 **A:** Yes. We cannot, however, guarantee that you will not be expected to present the material at a time that conflicts with the other workshop.
 
+## CCAI community platform
+Join the discussion during the workshop and beyond on the [CCAI community platform](https://community.climatechange.ai/c/ccai-neurips2021)!
+
+<iframe style="border: 0; box-shadow: none; width: 100%; height: 80vh;" src="https://community.climatechange.ai/c/ccai-neurips2021?iframe=true"></iframe>
+
 <!-- Code for sticky subnav -->
 
 <style>
