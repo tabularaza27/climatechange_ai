@@ -279,7 +279,7 @@
     hour: 0
     minute: 15
   more: replace_with_papers_in_session|23:30-00:15 UTC
-- desc: "Gather.Town"
+- desc: "Networking @Gather.Town"
   utc1:
     year: 2021
     month: 12
