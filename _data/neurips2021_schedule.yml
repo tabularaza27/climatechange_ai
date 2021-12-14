@@ -74,7 +74,14 @@
     day: 14
     hour: 16
     minute: 30
-  more: replace_with_papers_in_session|15:45-16:30 UTC
+  more: |-
+<p>Gather.Town Rooms:</p>
+<ul>
+ <li><a href="https://eventhosts.gather.town/ACXQeZAUl3nduTbT/tccml-poster-room-1">Poster Room 1</a> (1-26)</li>
+ <li><a href="https://eventhosts.gather.town/jdGn2y20Bi1oXnE6/tccml-poster-room-2">Poster Room 2</a> (27-52)</li>
+ <li><a href="	https://eventhosts.gather.town/bwWGm9RkJjshhIv6/tccml-poster-room-3">Poster Room 3</a> (53-79)</li>
+</ul>
+replace_with_papers_in_session|15:45-16:30 UTC
 - desc: 'Panel 1: Decision-making'
   utc1:
     year: 2021
