@@ -5,8 +5,8 @@ subtitle: "Hello, world!"
 image: "/images/blog/writing-desk.jpg"
 image_attribution: "Image by <a href='https://www.flickr.com/photos/wallboat/37410363846' target='_blank'>Wall Boat</a>"
 authors: jesse
-article_type: "Blog admin"
-topical_tags: announcement
+article_type: "Announcement"
+topical_tags: blog admin
 comment_url: https://community.climatechange.ai/c/blog/happy-birthday-to-the-ccai-blog?iframe=true
 ---
 
