@@ -13,12 +13,13 @@ og_image_height: 578
 <div class='buttons' id='sticky-nav'>
   <a class='button' href='#about'>About</a>
   <a class='button' href='#schedule'>Schedule</a>
+  <a class='button' href='#community-platform'>Community Platform</a>
   <a class='button' href='#accepted-works'>Accepted Works</a>
   <a class='button' href='#sponsors'>Sponsors</a>
   <!-- <a class='button' href='#informational-webinar'>Informational Webinar</a> -->
   <!-- <a class='button' href='#mentorship-program'>Mentorship Program</a> -->
   <a class='button' href='#organizers'>Organizers</a>
-  <a class='button' href='#call-for-submissions'><s>Submit</s></a>
+  <!-- <a class='button' href='#call-for-submissions'><s>Submit</s></a> -->
   <a class='button' href='#frequently-asked-questions'>FAQ</a>
 </div>
 
@@ -44,6 +45,12 @@ This workshop is part of the conference on Neural Information Processing Systems
 ## Schedule
 
 {% include workshop_schedule_table.html workshop="neurips2021" %}
+
+## Community Platform
+
+We encourge participants to network and have discussions during and after the workshop on our <a href='https://community.climatechange.ai/home'>Community Platform</a>, which has a channel for our <a href='https://community.climatechange.ai/c/ccai-neurips2021'>NeurIPS 2021 workshop</a>, also embedded here:
+
+<iframe style="border: 1px solid #eee; box-shadow: none; width: 100%; height: 80vh;" src="https://community.climatechange.ai/c/ccai-neurips2021?iframe=true"></iframe>
 
 ## Accepted Works
 
@@ -95,6 +102,7 @@ Works were submitted to one of three tracks: [Papers](#Papers), [Proposals](#Pro
     white-space: nowrap;
   }
 </style>
+
 
 <!-- ## Informational Webinar
 
